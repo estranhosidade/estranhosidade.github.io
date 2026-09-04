@@ -1,6 +1,6 @@
 {
-    "version": "2.6.0",
-    "generatedAt": "2026-09-04T03:25:47+00:00",
+    "version": "2.7.0",
+    "generatedAt": "2026-09-04T08:57:40+00:00",
     "chunkCount": 154,
     "chunks": [
         {
@@ -769,7 +769,7 @@
             "label": "julho 2013"
         },
         {
-            "file": "data-2013-07.2.json",
+            "file": "data-2013-07_02.json",
             "month": "2013-07",
             "label": "julho 2013"
         }
@@ -929,7 +929,7 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2599,
+    "totalPosts": 2598,
     "firstChunk": "data-2026-09.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml"

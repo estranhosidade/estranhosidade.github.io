@@ -37,42 +37,6 @@
             "author": "estranhosidade"
         },
         {
-            "id": 40610,
-            "title": "Mudamos de Endereço",
-            "slug": "mudamos-de-endereco",
-            "date": "2026-09-01T21:46:07-03:00",
-            "dateYmd": "2026-09-01",
-            "url": "2026-09-01-mudamos-de-endereco.html",
-            "file": "2026-09-01-mudamos-de-endereco.html",
-            "summary": "Bem vindo ao nosso novo endereço! https://estranhosidade.neocities.org/ Bem, depois de 13 anos — o tempo voa, não é? — no WordPress.com, decidi mudar para o Neocities. Na verdade, ainda vou continuar rodando o WordPress…",
-            "html": "<article id=\"post-40610\" class=\"post-40610 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-internet tag-programacao tag-vintage tag-wordpress\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2026-09-01-mudamos-de-endereco.html\" rel=\"bookmark\">Mudamos de Endereço</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-09-01-mudamos-de-endereco.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-09-01T21:46:07-03:00\">01/09/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-09-01-mudamos-de-endereco.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#internet\" rel=\"tag\">Internet</a> <a href=\"tag.html#programacao\" rel=\"tag\">Programação</a> <a href=\"tag.html#vintage\" rel=\"tag\">Vintage</a> <a href=\"tag.html#wordpress\" rel=\"tag\">Wordpress</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-29-08-2026=1787991302.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-29-08-2026=1787991302-thumbview.png\" /></a>Bem vindo ao nosso novo endereço!</p>\n<p style=\"text-align: center;\"><a href=\"https://estranhosidade.neocities.org/\">https://estranhosidade.neocities.org/</a></p>\n<p>Bem, depois de 13 anos — o tempo voa, não é? — no <a href=\"https://en.wikipedia.org/wiki/WordPress.com\">WordPress.com</a>, decidi mudar para o <a href=\"https://en.wikipedia.org/wiki/Neocities\">Neocities</a>. Na verdade, ainda vou continuar rodando o WordPress localmente, porém estarei exportando tudo como HTML + JS estático usando um plugin que eu <a href=\"http://localhost/2023/03/30/which-new-software-will-non-programmers-prompt-it-into-existence/\">vibecodei</a> com LLMs chinesas.</p>\n<p>Idealmente, eu instalaria o <a href=\"https://en.wikipedia.org/wiki/WordPress\">WordPress</a> em um servidor. Porém, não existem boas alternativas gratuitas para instalá-lo em <em>“servidores gratuitos”</em>, e eu não tenho um <em>“puto”</em> no bolso para pagar nem mesmo os servidores mais baratos. Já com HTML estático, você fica um pouco melhor em termos de opções gratuitas.</p>\n<p>Ainda há algumas pequenos detalhes e imperfeições para implementar ao longo da migração, mas até o fim do próximo mês isso deve estar resolvido. Aliás, já tem alguns posts novos lá 🙂</p>\n<p>Por que estou fazendo isso?</p>\n<p class=\"more-wrap\"><a href=\"2026-09-01-mudamos-de-endereco.html#more-40610\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Mudamos de Endereço</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
-            "tags": [
-                {
-                    "name": "Internet",
-                    "slug": "internet"
-                },
-                {
-                    "name": "Programação",
-                    "slug": "programacao"
-                },
-                {
-                    "name": "Vintage",
-                    "slug": "vintage"
-                },
-                {
-                    "name": "Wordpress",
-                    "slug": "wordpress"
-                }
-            ],
-            "cats": [
-                {
-                    "name": "Diário",
-                    "slug": "diario"
-                }
-            ],
-            "author": "estranhosidade"
-        },
-        {
             "id": 40611,
             "title": "Information Feudalism: Who Owns the Knowledge Economy",
             "slug": "information-feudalism-who-owns-the-knowledge-economy",
