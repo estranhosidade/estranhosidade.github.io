@@ -1,0 +1,744 @@
+{
+    "chunk": 4,
+    "totalChunks": 154,
+    "month": "2026-06",
+    "label": "junho 2026",
+    "posts": [
+        {
+            "id": 39540,
+            "title": "“Você, que me lê, tem certeza de entender a minha linguagem?”",
+            "slug": "voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem",
+            "date": "2026-06-30T23:59:23-03:00",
+            "dateYmd": "2026-06-30",
+            "url": "2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html",
+            "file": "2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html",
+            "summary": "[...]Essas proposições, à primeira vista incoerentes, sem dúvida são passíveis de uma justificativa criptográfica ou alegórica; essa justificativa é verbal e, ex hypothesi, já figura na Biblioteca. Não posso combinar certos caracteres dhcmrlchtdj que…",
+            "html": "<article id=\"post-39540\" class=\"post-39540 post type-post status-publish format-standard hentry category-filosofia category-textos tag-assinatura-de-frequencia tag-complexidade-de-kolmogorov tag-lei-de-zipf tag-teoria-da-informacao tag-teoria-do-jogo-de-linguagem\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html\" rel=\"bookmark\">“Você, que me lê, tem certeza de entender a minha linguagem?”</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-30T23:59:23-03:00\">30/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#assinatura-de-frequencia\" rel=\"tag\">Assinatura de Frequência</a> <a href=\"tag.html#complexidade-de-kolmogorov\" rel=\"tag\">Complexidade de Kolmogorov</a> <a href=\"tag.html#lei-de-zipf\" rel=\"tag\">Lei de Zipf</a> <a href=\"tag.html#teoria-da-informacao\" rel=\"tag\">Teoria da Informação</a> <a href=\"tag.html#teoria-do-jogo-de-linguagem\" rel=\"tag\">Teoria do Jogo de Linguagem</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-28-06-2026=1782688145.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-28-06-2026=1782688145-thumbview.png\" /></a></p>\n<blockquote><p><a href=\"https://web.archive.org/web/20081002125013/http://conselheiroacacio.wordpress.com/2008/08/14/a_biblioteca_de_babel/\">[&#8230;]Essas proposições, à primeira vista incoerentes, sem dúvida são passíveis de uma justificativa criptográfica ou alegórica; essa justificativa é verbal e, ex hypothesi, já figura na Biblioteca. Não posso combinar certos caracteres dhcmrlchtdj que a divina Biblioteca não tenha previsto e que em alguma de suas línguas secretas não contenham um terrível sentido. Ninguém pode articular uma sílaba que não esteja cheia de ternuras e de temores; que não seja em alguma dessas linguagens o nome poderoso de um deus. Falar é incorrer em tautologias. Esta epístola inútil e palavrosa já existe num dos trinta volumes das cinco prateleiras de um dos incontáveis hexágonos – e também sua refutação. (Um número n de linguagens possíveis usa o mesmo vocabulário; em algumas, o símbolo biblioteca admite a correta definição de um ubíquo sistema de galerias hexagonais, mas <span style=\"text-decoration: underline\">biblioteca é pão, ou pirâmide, ou qualquer outra coisa, e as sete palavras que a definem têm outro valor</span>. Você, que me lê, tem certeza de entender minha linguagem?)[&#8230;]</a></p></blockquote>\n<p>Ultimamente venho refletindo bastante sobre a <a href=\"https://en.wikipedia.org/wiki/Information_theory\">Teoria da Informação</a> e, lendo o conto <a href=\"https://en.wikipedia.org/wiki/The_Library_of_Babel\">&#8220;La biblioteca de Babel&#8221;</a> (A Biblioteca de Babel), do escritor argentino <a href=\"https://es.wikipedia.org/wiki/Jorge_Luis_Borges\">Jorge Luis Borges</a>&#8230;</p>\n<p>Há uma observação muito interessante sobre a qual eu nunca tinha refletido profundamente, e que se torna bastante relevante ao imaginarmos um cenário em que <em>&#8220;todos os livros possíveis&#8221;</em> — e, por <em>&#8220;livros&#8221;</em>, refiro-me a todas as combinações imagináveis das letras de um determinado alfabeto dentro de uma limitação arbitrária qualquer <em>(100, 150, 200 mil caracteres, por exemplo)</em> — existam.</p>\n<p>Ela diz respeito à natureza da linguagem e, ao mesmo tempo, a como ela só faz sentido na cabeça do leitor, caso ele tenha os frames mentais necessários para encaixar aquilo. Peguemos a frase: <strong>&#8220;Maria brincou com o gato&#8221;</strong>.</p>\n<p>Ao ler essa frase, um falante nativo de português <em>&#8220;saberia&#8221;</em>:</p>\n<ol>\n<li>Essa frase está em português.</li>\n<li>&#8220;Maria&#8221; é um nome feminino e, mais provavelmente <em>(já voltarei a isso)</em>, é o nome de um ser humano.</li>\n<li>&#8220;Brincou&#8221; significa divertir-se, jogar ou fazer algo por diversão ou entretenimento. Isso, somado ao nome Maria, indica que provavelmente se trata de uma criança.</li>\n<li>&#8220;Gato&#8221; é um animal, muitas vezes de estimação.</li>\n</ol>\n<p>E eu coloco <em>&#8220;saberia&#8221; </em>entre aspas, pois todas essas constatações são pressuposições. Você, por exemplo, não sabe se:</p>\n<ol>\n<li>Maria é realmente um nome feminino. Existem culturas em que nomes como &#8220;Andrea&#8221; são usados por homens, como o cantor <a href=\"https://en.wikipedia.org/wiki/Andrea_Bocelli\">Andrea Bocelli</a>.</li>\n<li>Você não sabe se &#8220;Maria&#8221; é um nome humano. Embora seja incomum, talvez fosse o nome de outro animal de estimação; talvez seu coelho ou sua cachorra se chamasse Maria, e o animal estivesse brincando com um gato aleatório que você não conhece. Isso o levaria a dizer <em>&#8220;Maria (sua cachorra de estimação) está brincando com o gato&#8221;</em>, em vez de algo mais natural, como <em>&#8220;os animais estão brincando&#8221;</em>.</li>\n<li>Presume-se que o &#8220;gato&#8221; aqui esteja sendo usado no sentido de animal. Talvez &#8220;Maria&#8221; <em>(um animal doméstico com esse nome)</em> estivesse brincando com a caixa de uma TV Box pirata, o famoso &#8220;gatonet&#8221;, em vez de um felino, por exemplo.</li>\n</ol>\n<p>Isso me lembra a famosa frase do linguista <a href=\"https://en.wikipedia.org/wiki/John_Rupert_Firth\">John Rupert Firth</a>: <a href=\"https://en.wikipedia.org/wiki/John_Rupert_Firth#%3A~%3Atext%3DYou%20shall%20know%20a%20word%20by%20the%20company%20it%20keeps\">&#8220;Você conhecerá uma palavra pela companhia que ela mantém&#8221;.</a> Se &#8220;Maria&#8221; aparece estatisticamente associada a palavras como &#8220;mulher&#8221;, &#8220;criança&#8221;, &#8220;pessoa&#8221;, &#8220;humano&#8221; e &#8220;moça&#8221;, e no mesmo contexto surgem verbos como &#8220;brincou&#8221; e substantivos como &#8220;gato&#8221;, isso aumenta a probabilidade de que &#8220;Maria&#8221; seja uma criança humana brincando com um felino. Aliás, esse princípio de compreender palavras por meio de suas relações estatísticas com outras palavras é justamente a base do funcionamento dos grandes modelos de linguagem.</p>\n<p>E, em última instância, como a grande <em>“conspiração final”</em>, um nível acima de todas essas premissas, pressupõe-se que a frase está escrita em português. <strong>Mas tudo isso são apenas premissas.</strong> A frase não contém significado; ela contém um padrão de símbolos. O significado surge porque o emissor e o receptor compartilham <em>(ou presumem compartilhar)</em> um sistema de interpretação.</p>\n<p class=\"more-wrap\"><a href=\"2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html#more-39540\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">“Você, que me lê, tem certeza de entender a minha linguagem?”</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Assinatura de Frequência",
+                    "slug": "assinatura-de-frequencia"
+                },
+                {
+                    "name": "Complexidade de Kolmogorov",
+                    "slug": "complexidade-de-kolmogorov"
+                },
+                {
+                    "name": "Lei de Zipf",
+                    "slug": "lei-de-zipf"
+                },
+                {
+                    "name": "Teoria da Informação",
+                    "slug": "teoria-da-informacao"
+                },
+                {
+                    "name": "Teoria do Jogo de Linguagem",
+                    "slug": "teoria-do-jogo-de-linguagem"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39565,
+            "title": "Diário: 29/06/2026",
+            "slug": "diario-29-06-2026",
+            "date": "2026-06-29T00:00:49-03:00",
+            "dateYmd": "2026-06-29",
+            "url": "2026-06-29-diario-29-06-2026.html",
+            "file": "2026-06-29-diario-29-06-2026.html",
+            "summary": "Mas Isso Na Minha Opinião | O Problema Da Cazé TV Com Bet's É Muito Pior! É engraçado, o ponto em que a discussão está parando não em: Por que as bets foram e…",
+            "html": "<article id=\"post-39565\" class=\"post-39565 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-29-diario-29-06-2026.html\" rel=\"bookmark\">Diário: 29/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-29-diario-29-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-29T00:00:49-03:00\">29/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-29-diario-29-06-2026.html#respond\">Deixe um comentário</a></span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h2><a href=\"https://web.archive.org/web/20260628181701/https://uploadtemporaryfiles.neocities.org/jf3Qz1MQH7g\">Mas Isso Na Minha Opinião | O Problema Da Cazé TV Com Bet&#8217;s É Muito Pior!</a></h2>\n</blockquote>\n<p>É engraçado, o ponto em que a discussão está parando não em:</p>\n<ul>\n<li>Por que as bets foram e continuam liberadas?</li>\n<li>Por que se permite anúncios de bets, em vez de termos uma proibição total, fizemos com o cigarro? Basta lembrar que 40 anos atrás eles anunciavam na Formula 1, por exemplo.</li>\n</ul>\n<p>A discussão para em:</p>\n<ul>\n<li> <em>“Oh, esse tipo de publicidade (que por coincidência nosso utiliza faz e nós não), é muito ruim, e vamos demonizar especificalmente isso!”</em></li>\n</ul>\n<p>Soa como <a href=\"https://www.google.com/search?q=weaponization\">instrumentalização</a> da virtude para ferrar um concorrente.</p>\n</div></article>",
+            "tags": [],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39586,
+            "title": "Morre o dublador Figueira Júnior, de ‘Dragon Ball’, aos 60 anos",
+            "slug": "morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos",
+            "date": "2026-06-28T17:48:00-03:00",
+            "dateYmd": "2026-06-28",
+            "url": "2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html",
+            "file": "2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html",
+            "summary": "Morre o dublador Figueira Júnior, de 'Dragon Ball', aos 60 anos Descanze em Paz, Philip J. Fry Eu amaldiçoo essa merda de ano!!!",
+            "html": "<article id=\"post-39586\" class=\"post-39586 post type-post status-publish format-link hentry post_format-post-format-link category-links tag-fator-merda tag-luto tag-morte\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#links\" rel=\"category\">Links</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html\" rel=\"bookmark\">Morre o dublador Figueira Júnior, de ‘Dragon Ball’, aos 60 anos</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#link\">Link</a></span> <span class=\"entry-date\"><a href=\"2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-28T17:48:00-03:00\">28/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#fator-merda\" rel=\"tag\">Fator Merda</a> <a href=\"tag.html#luto\" rel=\"tag\">Luto</a> <a href=\"tag.html#morte\" rel=\"tag\">Morte</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-28-06-2026=1782679574.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-28-06-2026=1782679574-thumbview.png\" /></a></p>\n<blockquote>\n<h2><a href=\"http://web.archive.org/web/20260628203603/https://odia.ig.com.br/brasil/2026/06/7270541-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html\">Morre o dublador Figueira Júnior, de &#8216;Dragon Ball&#8217;, aos 60 anos</a></h2>\n<p style=\"text-align: center\">Descanze em Paz, <a href=\"https://en.wikipedia.org/wiki/The_Late_Philip_J._Fry\">Philip J. Fry</a><br />\n<strong><span style=\"text-decoration: underline\">Eu amaldiçoo essa merda de ano!!!</span></strong></p>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Fator Merda",
+                    "slug": "fator-merda"
+                },
+                {
+                    "name": "Luto",
+                    "slug": "luto"
+                },
+                {
+                    "name": "Morte",
+                    "slug": "morte"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Links",
+                    "slug": "links"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39577,
+            "title": "Porque, no fim, todo mundo vai embora. Por que, no fim, todo mundo vai embora?",
+            "slug": "porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora",
+            "date": "2026-06-28T16:48:54-03:00",
+            "dateYmd": "2026-06-28",
+            "url": "2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html",
+            "file": "2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html",
+            "summary": "Existe… dois grandes medos. Num primeiro momento, existe o medo financeiro: “Oh, o que eu vou fazer da vida? Como eu vou me sustentar? De onde vai vir o dinheiro? Como eu vou me…",
+            "html": "<article id=\"post-39577\" class=\"post-39577 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-filosofia\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html\" rel=\"bookmark\">Porque, no fim, todo mundo vai embora. Por que, no fim, todo mundo vai embora?</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-28T16:48:54-03:00\">28/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html#respond\">Deixe um comentário</a></span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote><p>Existe… dois grandes medos. Num primeiro momento, existe o medo financeiro: “Oh, o que eu vou fazer da vida? Como eu vou me sustentar? De onde vai vir o dinheiro? Como eu vou me sustentar? Como eu vou tomar conta de mim mesmo?”. Mas existe também um medo subsequente, que fica mais abafado pelo medo de não ter dinheiro. O receio e o temor de ficar sozinho, de morar numa casa sozinho, da solidão, de não ter com quem falar, de não ter amigos. O medo do que acontece quando todo mundo que você amou vai embora, para viver a vida deles ou deste mundo, <span style=\"text-decoration: underline\">e do que acontece quando você não tem mais ninguém</span>. Porque, no fim, todo mundo vai embora. Por que, no fim, todo mundo vai embora?</p></blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39396,
+            "title": "Diário: 27/06/2026",
+            "slug": "diario-27-06-2026",
+            "date": "2026-06-27T01:18:28-03:00",
+            "dateYmd": "2026-06-27",
+            "url": "2026-06-27-diario-27-06-2026.html",
+            "file": "2026-06-27-diario-27-06-2026.html",
+            "summary": "• \"Influencer Couple End Pregnancy Over Down Syndrome Concerns\": Essa atitude não é pior do que realizar um aborto duma criança saudável... • A pior coisa que tem é se afogar em história antiga,…",
+            "html": "<article id=\"post-39396\" class=\"post-39396 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-dor tag-nostalgia tag-passado tag-tempo\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-27-diario-27-06-2026.html\" rel=\"bookmark\">Diário: 27/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-27-diario-27-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-27T01:18:28-03:00\">27/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-27-diario-27-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#dor\" rel=\"tag\">Dor</a> <a href=\"tag.html#nostalgia\" rel=\"tag\">Nostalgia</a> <a href=\"tag.html#passado\" rel=\"tag\">Passado</a> <a href=\"tag.html#tempo\" rel=\"tag\">Tempo</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><figure style=\"width: 500px\" class=\"wp-caption alignnone\"><a href=\"https://archive.org/download/blogfilesx/IMG-13-06-2026=1781325780.gif\"><img loading=\"lazy\" decoding=\"async\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-13-06-2026=1781325780.gif\" alt=\"\" width=\"500\" height=\"384\" /></a><figcaption class=\"wp-caption-text\"><a href=\"https://en.wikipedia.org/wiki/The_Simpsons\">The Simpsons</a> – <a href=\"https://en.wikipedia.org/wiki/Home_Sweet_Homediddly-Dum-Doodily\">Home Sweet Home-Dum-Diddly Doodily</a></figcaption></figure>\n<p>• <a href=\"https://web.archive.org/web/20260605033020/https://www.tmz.com/2026/06/04/jesse-ashley-ridgway-terminate-pregnancy/\">&#8220;Influencer Couple End Pregnancy Over Down Syndrome Concerns&#8221;</a>: Essa atitude não é pior do que realizar um aborto duma criança saudável&#8230;</p>\n<p>• A pior coisa que tem é se afogar em história antiga, no que poderia ter sido. Em histórias de 30+ anos atrás&#8230;</p>\n<p>• Agora somos só nós. Os três mosqueteiros, um por todos e todos por um!</p>\n<p>• Deus abençoe a sua santa paz de espírito, mãe.</p>\n<p>• <em>“A gente fica com medo de virar morador de rua ou de passar necessidades, mas quem garante que você sequer vai viver tempo o bastante para isso? Viver mais, ser mais longevo, passar mais dias neste mundo do que todos aqueles que se importariam com você ao ponto de não permitir que você acabasse morando na rua? Quanta ousadia, hein, menina?”</em></p>\n<p>• Sei lá, nesta sociedade as pessoas são muito julgadas pelo que elas fazem. <em>“Ah, cê que é o quê? Doutor? Advogado? Juiz?”</em>. <em>“<a href=\"https://archive.org/download/blogfilesx/tiktok_maum_cut_1782380813704.mp4#O Que Espantaria Platão nos Dias de Hoje? | Lúcia Helena Galvão\">Não, eu não sou nada, eu não tenho nenhum curso, eu não tenho nenhum papel</a>, eu escrevo um monte de delírios, eu tenho um monte de interesses, mas eu não sou nada. <a href=\"2019-06-08-i-think-im-maybe-just-like-a-bizarre-little-person-who-walks-back-and-forth.html\">Eu acho que talvez eu seja só uma pessoinha bizarra que anda pra baixo e pra cima</a>.”</em></p>\n<p>• Eu não sei ganhar dinheiro. Eu não sei nem estudar coisas realmente úteis finaceiramente. Eu não sei falar com as pessoas. Eu não sei fazer nada.</p>\n<p>• Seu vagabundo inútil!</p>\n<p class=\"more-wrap\"><a href=\"2026-06-27-diario-27-06-2026.html#more-39396\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Diário: 27/06/2026</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Dor",
+                    "slug": "dor"
+                },
+                {
+                    "name": "Nostalgia",
+                    "slug": "nostalgia"
+                },
+                {
+                    "name": "Passado",
+                    "slug": "passado"
+                },
+                {
+                    "name": "Tempo",
+                    "slug": "tempo"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39554,
+            "title": "2026: O Filme",
+            "slug": "2026-o-filme",
+            "date": "2026-06-26T19:39:34-03:00",
+            "dateYmd": "2026-06-26",
+            "url": "2026-06-26-2026-o-filme.html",
+            "file": "2026-06-26-2026-o-filme.html",
+            "summary": "2026: O Filme",
+            "html": "<article id=\"post-39554\" class=\"post-39554 post type-post status-publish format-aside hentry post_format-post-format-aside category-direcao-de-arte-ia category-imagens tag-depressao\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a>, <a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-26-2026-o-filme.html\" rel=\"bookmark\">2026: O Filme</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-26-2026-o-filme.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-26T19:39:34-03:00\">26/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-26-2026-o-filme.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#depressao\" rel=\"tag\">Depressão</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-26-06-2026=1782513071.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-26-06-2026=1782513071-thumbview.png\" /></a></p>\n<blockquote>\n<p style=\"text-align: center\">2026: O Filme</p>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Depressão",
+                    "slug": "depressao"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                },
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39561,
+            "title": "Diário: 26/06/2026",
+            "slug": "diario-28-06-2026",
+            "date": "2026-06-26T00:00:27-03:00",
+            "dateYmd": "2026-06-26",
+            "url": "2026-06-26-diario-28-06-2026.html",
+            "file": "2026-06-26-diario-28-06-2026.html",
+            "summary": "“Começo a imaginar, quando acordo de manhã, os sonhos que eu não consigo me lembrar, para onde eles foram?” Klonoa",
+            "html": "<article id=\"post-39561\" class=\"post-39561 post type-post status-publish format-aside hentry post_format-post-format-aside category-art-work category-direcao-de-arte-ia category-imagens\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#art-work\" rel=\"category\">Art Work</a>, <a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a>, <a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-26-diario-28-06-2026.html\" rel=\"bookmark\">Diário: 26/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-26-diario-28-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-26T00:00:27-03:00\">26/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-26-diario-28-06-2026.html#respond\">Deixe um comentário</a></span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-27-06-2026=1782557964.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-27-06-2026=1782557964-thumbview.png\" /></a></p>\n<blockquote>\n<h1>“Começo a imaginar, quando acordo de manhã, os sonhos que eu não consigo me lembrar, para onde eles foram?”</h1>\n</blockquote>\n<p>Klonoa</p>\n</div></article>",
+            "tags": [],
+            "cats": [
+                {
+                    "name": "Art Work",
+                    "slug": "art-work"
+                },
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                },
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39517,
+            "title": "Diário: 24/06/2026 – Part 02",
+            "slug": "diario-24-06-2026-2",
+            "date": "2026-06-24T13:57:55-03:00",
+            "dateYmd": "2026-06-24",
+            "url": "2026-06-24-diario-24-06-2026-2.html",
+            "file": "2026-06-24-diario-24-06-2026-2.html",
+            "summary": "“Comunicação não é só o que você diz. É o que o outro entende.” Muitas vezes, uma pessoa não se abre sobre algo com alguém porque tem uma percepção de que aquela informação poderia…",
+            "html": "<article id=\"post-39517\" class=\"post-39517 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario category-direcao-de-arte-ia tag-comics tag-honestidade tag-mentira tag-percepcao tag-vida\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a>, <a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-24-diario-24-06-2026-2.html\" rel=\"bookmark\">Diário: 24/06/2026 – Part 02</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-24-diario-24-06-2026-2.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-24T13:57:55-03:00\">24/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-24-diario-24-06-2026-2.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#comics\" rel=\"tag\">Comics</a> <a href=\"tag.html#honestidade\" rel=\"tag\">Honestidade</a> <a href=\"tag.html#mentira\" rel=\"tag\">Mentira</a> <a href=\"tag.html#percepcao\" rel=\"tag\">Percepção</a> <a href=\"tag.html#vida\" rel=\"tag\">Vida</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-28-06-2026=1782677581.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-28-06-2026=1782677581-thumbview.png\" /></a></p>\n<blockquote>\n<h2>“Comunicação não é só o que você diz. É o que o outro entende.”</h2>\n</blockquote>\n<p>Muitas vezes, uma pessoa não se abre sobre algo com alguém porque tem uma percepção de que aquela informação poderia causar problemas com essa pessoa, independentemente dessa percepção estar correta ou não.</p>\n<p>De fato, esse é o ponto-chave aqui: em grande parte das vezes <strong><span style=\"text-decoration: underline\">exageramos</span></strong> no que diz respeito a essa percepção, a <em>“quão ruim”</em> seria a reação da outra parte. Essa percepção costuma ser ampliada, exacerbada; imaginamos o pior cenário possível. Imaginamos barracos dignos das mais caricatas novelas mexicanas, quando, na realidade, seria apenas uma conversa desconfortável e uns dois ou três dias estranhos, e só.</p>\n<p>É errado ocultar certas coisas, e é errado mentir. De fato, ocultar algo e mentir são dois lados da mesma moeda. A mentira nasce quando a mera ocultação não basta; é uma mentira <em>“utilitarista”</em>, digamos assim, afetando terceiros, pegos no fogo cruzado entre inverdades e a percepção da falta de abertura para a honestidade.</p>\n<p>E aqui não se trata de justificar a mentira, mas talvez de dizer que&#8230; é complicado exigir honestidade quando se sente que a honestidade não é uma alternativa viável, que aquela honestidade e o fato que ela revela, não seria recebida com um julgamento justo.</p>\n<p>E eu acho que caberia refletir sobre o porquê disso:</p>\n<blockquote>\n<h3>&#8220;O que eu posso ter feito para que alguém acreditasse que não podia ser honesto comigo? E o que eu poderia ter feito para melhorar isso?&#8221;</h3>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Comics",
+                    "slug": "comics"
+                },
+                {
+                    "name": "Honestidade",
+                    "slug": "honestidade"
+                },
+                {
+                    "name": "Mentira",
+                    "slug": "mentira"
+                },
+                {
+                    "name": "Percepção",
+                    "slug": "percepcao"
+                },
+                {
+                    "name": "Vida",
+                    "slug": "vida"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                },
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39514,
+            "title": "Diário: 24/06/2026",
+            "slug": "diario-24-06-2026",
+            "date": "2026-06-24T02:27:11-03:00",
+            "dateYmd": "2026-06-24",
+            "url": "2026-06-24-diario-24-06-2026.html",
+            "file": "2026-06-24-diario-24-06-2026.html",
+            "summary": "",
+            "html": "<article id=\"post-39514\" class=\"post-39514 post type-post status-publish format-aside hentry post_format-post-format-aside category-direcao-de-arte-ia category-imagens tag-chaves tag-comics tag-empregos tag-neet\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a>, <a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-24-diario-24-06-2026.html\" rel=\"bookmark\">Diário: 24/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-24-diario-24-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-24T02:27:11-03:00\">24/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-24-diario-24-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#chaves\" rel=\"tag\">Chaves</a> <a href=\"tag.html#comics\" rel=\"tag\">Comics</a> <a href=\"tag.html#empregos\" rel=\"tag\">Empregos</a> <a href=\"tag.html#neet\" rel=\"tag\">NEET</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-24-06-2026=1782277855.png\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://archive.org/download/blogfilesx/IMG-24-06-2026=1782277855-thumbview.png\" alt=\"Kiko desmaiado no sofa com febre, Chaves: https://archive.org/download/blogfilesx/IMG-24-06-2026=1782343093.jpg\" width=\"500\" height=\"374\" /></a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Chaves",
+                    "slug": "chaves"
+                },
+                {
+                    "name": "Comics",
+                    "slug": "comics"
+                },
+                {
+                    "name": "Empregos",
+                    "slug": "empregos"
+                },
+                {
+                    "name": "NEET",
+                    "slug": "neet"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                },
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39502,
+            "title": "Diário: 22/06/2026",
+            "slug": "diario-22-06-2026",
+            "date": "2026-06-22T19:18:13-03:00",
+            "dateYmd": "2026-06-22",
+            "url": "2026-06-22-diario-22-06-2026.html",
+            "file": "2026-06-22-diario-22-06-2026.html",
+            "summary": "Central Pandora | O Terror da Existência do Infinito [¹] [²] [³] É interessante porque… uma biblioteca infinita, mas sem um catálogo ou alguma maneira de pesquisar… bem, você está essencialmente perdido. De fato,…",
+            "html": "<article id=\"post-39502\" class=\"post-39502 post type-post status-publish format-link hentry post_format-post-format-link category-filosofia category-links tag-infinito tag-jorge-luis-borges tag-la-biblioteca-de-babel tag-teorema-do-macaco-infinito tag-teoria-da-informacao\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#links\" rel=\"category\">Links</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-22-diario-22-06-2026.html\" rel=\"bookmark\">Diário: 22/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#link\">Link</a></span> <span class=\"entry-date\"><a href=\"2026-06-22-diario-22-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-22T19:18:13-03:00\">22/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-22-diario-22-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#infinito\" rel=\"tag\">Infinito</a> <a href=\"tag.html#jorge-luis-borges\" rel=\"tag\">Jorge Luis Borges</a> <a href=\"tag.html#la-biblioteca-de-babel\" rel=\"tag\">La biblioteca de Babel</a> <a href=\"tag.html#teorema-do-macaco-infinito\" rel=\"tag\">Teorema do Macaco Infinito</a> <a href=\"tag.html#teoria-da-informacao\" rel=\"tag\">Teoria da Informação</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-22-06-2026=1782106645.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-22-06-2026=1782106645-thumbview.png\" /></a></p>\n<blockquote>\n<h2>Central Pandora | O Terror da Existência do Infinito <a href=\"https://web.archive.org/web/20260622034205/https://uploadtemporaryfiles.neocities.org/bOor_NGTW8o\">[¹]</a> <a href=\"https://preservetube.com/watch?v=bOor_NGTW8o\">[²]</a> <a href=\"https://www.youtube.com/watch?v=bOor_NGTW8o\">[³]</a></h2>\n</blockquote>\n<p>É interessante porque… uma biblioteca infinita, mas sem um catálogo ou alguma maneira de pesquisar… bem, você está essencialmente perdido. De fato, daria para replicar esse sistema até mesmo com livros sendo gerados de modo aleatório por um algoritmo num computador.</p>\n<p>O efeito seria o mesmo. Porque, se não há um catálogo, se não há um índice, se não há uma maneira de pesquisar, é só aleatoriedade. É <a href=\"2024-07-07-wayback-machine-e-a-pesquisa-por-texto.html\">&#8220;lost by obscurity&#8221;</a>. Cada livro que você <em>“abre”</em>, seja apertando um botão ou abrindo os livros que você pegou na prateleira duma biblioteca infinita, faz com que você esteja apenas jogando dados.</p>\n<p>Talvez esse algoritmo gere um livro de medicina com a cura do câncer, mas muito provavelmente geraria um livro cheio de letras organizadas de maneira sem sentido algum. Talvez você encontre um livro de medicina com a cura do câncer, mas muito provavelmente só encontraria um livro cheio de letras organizadas de maneira sem sentido algum.</p>\n<p>Acho interessante a conclusão do vídeo, se entendi corretamente, de o ser humano agir essencialmente como um curador de conteúdo. Não só daquilo que nós criamos, escrevemos e, por fim, divulgamos, mas também do conteúdo criado por outras pessoas sobre o qual falamos e divulgamos.</p>\n<p>Esse vídeo me faz lamentar porque esse “catálogo perfeito”, mesmo limitado ao conteúdo que de fato existe e do qual temos cópias e afins&#8230; esse catálogo não existe. O que eu quero dizer com isso? Talvez exista um <a href=\"2017-03-23-o-efeito-das-mudancas-tecnologicas-do-mundo-real-na-ficcao.html\">filme grego</a> de 1997 que você adoraria assistir, que seria um dos seus filmes favoritos. Mas não existe um “catálogo” do tipo <em>“filmes preferidos do fulano de tal”.</em> No máximo, há recomendações em sites e plataformas: <em>“Pessoas que assistiram ao filme X gostaram do filme Y”</em>, mas é só isso&#8230;</p>\n<p>Talvez o filme que seria seu <em>“filme favorito”</em>, o <em>“livro que seria seu livro favorito”,</em> a <em>“música que seria sua música favorita”</em>&#8230; talvez você nunca encontre isso. E, de fato, ao julgar a quantidade de todas as músicas já feitas <em>(sem nem entrar no mérito da – praticamente – infinitude de músicas que poderiam ter sido feitas, mas que nunca verão a luz do dia)</em>, isso me faz lamentar um pouco o texto de <a href=\"https://en.wikipedia.org/wiki/Richard_Dawkins\">Richard Dawkins</a>, com a célebre frase <a href=\"http://archive.today/2025.07.30-121130/https://www.goodreads.com/quotes/83303-we-are-going-to-die-and-that-makes-us-the\"><em>“We are going to die, and that makes us the lucky ones”</em></a> (Nós vamos morrer, e isso faz de nós os sortudos), onde dá para traçar fortes paralelos com essas “coisas em potencial”.</p>\n<blockquote>\n<h2><a href=\"index.html\">Acho que nós sempre fomos mineradores de espaços latentes, sejam aqueles criados por “humanos” ou “IAs”</a></h2>\n</blockquote>\n<p>No fim, todo esse conhecimento em potencial, todas essas coisas em potencial, livros e histórias em potencial&#8230; não adianta. Buscar o potencial é vagar eternamente nessa biblioteca. <a href=\"2016-02-25-o-tempo-que-voce-teve-e-o-tempo-que-voce-teve.html\">O que você tem é o que você tem.</a> O conhecimento que chegou até você é o conhecimento que chegou até você. E é isso.</p>\n<p>Me lembra <a href=\"https://archive.ph/2018.07.07-023738/http://gracasateus.blogspot.com/2011/05/eu-voce-e-nossa-circustancia.html\">esse artigo dum querido amigo</a> que li a mais de uma década atrás <em>(na verdade, a essa altura do campeonato está mais próximo de duas)</em>, e que, tal como esse <a href=\"2015-10-25-keta.html\">vídeo</a> de <a href=\"https://www.youtube.com/c/obscuresorrows\">John Koenig</a>, é uma coisa que eu vou levar comigo para o resto da vida.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Infinito",
+                    "slug": "infinito"
+                },
+                {
+                    "name": "Jorge Luis Borges",
+                    "slug": "jorge-luis-borges"
+                },
+                {
+                    "name": "La biblioteca de Babel",
+                    "slug": "la-biblioteca-de-babel"
+                },
+                {
+                    "name": "Teorema do Macaco Infinito",
+                    "slug": "teorema-do-macaco-infinito"
+                },
+                {
+                    "name": "Teoria da Informação",
+                    "slug": "teoria-da-informacao"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Links",
+                    "slug": "links"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39496,
+            "title": "Diário: 21/06/2026",
+            "slug": "diario-21-06-2026",
+            "date": "2026-06-21T13:13:38-03:00",
+            "dateYmd": "2026-06-21",
+            "url": "2026-06-21-diario-21-06-2026.html",
+            "file": "2026-06-21-diario-21-06-2026.html",
+            "summary": "And after this Can it last another night? After all the bad advice That had nothing at all to do with life I've gotta know Can we work it out? Scream and shout 'till…",
+            "html": "<article id=\"post-39496\" class=\"post-39496 post type-post status-publish format-aside hentry post_format-post-format-aside category-videos\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#videos\" rel=\"category\">Vídeos</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-21-diario-21-06-2026.html\" rel=\"bookmark\">Diário: 21/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-21-diario-21-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-21T13:13:38-03:00\">21/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-21-diario-21-06-2026.html#respond\">Deixe um comentário</a></span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote><style data-html5-only-player>.wp-video{max-width:100% !important;}.wp-video video,video{max-width:100% !important;height:auto !important;}.wp-video audio,audio{max-width:100% !important;}</style><video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/blogfilesx/Gu81BmCRMEA.mp4?_=1\"></video>\n<p style=\"text-align: center\">And after this<br>\nCan it last another night?<br>\nAfter all the bad advice<br>\nThat had nothing at all to do with life</p>\n<p style=\"text-align: center\">I’ve gotta know</p>\n<p style=\"text-align: center\">Can we work it out?<br>\nScream and shout ‘till we work it out?<br>\nCan we just work it out?<br>\nScream and shout ‘till we work it out?</p>\n<p style=\"text-align: center\">But you say<br>\nOh</p>\n</blockquote>\n<p><a href=\"https://web.archive.org/web/20260618224000/https://uploadtemporaryfiles.neocities.org/0AZqDGmchu8\">Arcade Fire – Afterlife (Live from the YouTube Music Awards, 2013)</a></p>\n<blockquote>\n<h2 style=\"text-align: left\">“I love the way the woman jumps, I love the way they dance. Also, love the way the girls are dressed, with white tights and all.”</h2>\n</blockquote>\n</div></article>",
+            "tags": [],
+            "cats": [
+                {
+                    "name": "Vídeos",
+                    "slug": "videos"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39475,
+            "title": "O Ultimo Episódio dos Simpsons e o Último Episódio deste Blog",
+            "slug": "o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog",
+            "date": "2026-06-19T20:32:32-03:00",
+            "dateYmd": "2026-06-19",
+            "url": "2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html",
+            "file": "2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html",
+            "summary": "Eu… eu ando passando por um momento meio complicado na vida. E… fique tranquilo, caro eleitor inexistente, eu não vou fazer nenhuma besteira, até porque, se eu tentasse, teria grandes chances de acabar falhando…",
+            "html": "<article id=\"post-39475\" class=\"post-39475 post type-post status-publish format-standard hentry category-diario category-filosofia tag-blog tag-despedida tag-dor tag-fim tag-melancolia tag-tristeza tag-vida\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html\" rel=\"bookmark\">O Ultimo Episódio dos Simpsons e o Último Episódio deste Blog</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-19T20:32:32-03:00\">19/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#blog\" rel=\"tag\">Blog</a> <a href=\"tag.html#despedida\" rel=\"tag\">Despedida</a> <a href=\"tag.html#dor\" rel=\"tag\">Dor</a> <a href=\"tag.html#fim\" rel=\"tag\">Fim</a> <a href=\"tag.html#melancolia\" rel=\"tag\">Melancolia</a> <a href=\"tag.html#tristeza\" rel=\"tag\">Tristeza</a> <a href=\"tag.html#vida\" rel=\"tag\">Vida</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><figure style=\"width: 500px\" class=\"wp-caption alignnone\"><a href=\"https://archive.org/download/blogfilesx/IMG-18-06-2026=1781821951.png\"><img loading=\"lazy\" decoding=\"async\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-18-06-2026=1781821951-thumbview.png\" alt=\"\" width=\"500\" height=\"690\" /></a><figcaption class=\"wp-caption-text\"><a href=\"https://en.wikipedia.org/wiki/Mother_Simpson\">The Simpsons – Mother Simpson</a></figcaption></figure>\n<blockquote><p>Eu… eu ando passando por um momento meio complicado na vida. E… fique tranquilo, caro eleitor inexistente, eu não vou fazer nenhuma besteira, até porque, se eu tentasse, teria grandes chances de acabar falhando e só ficando ainda mais retardado do que eu já sou, e dando ainda mais trabalho para quem me aguenta. Eu sou um completo incompetente.</p>\n<p>Mas, enfim, esses momentos de fins de ciclo me fazem pensar muito em como vai ser o fim deste blog.</p>\n<p>Eu não pretendo parar de escrever até eu morrer, mas eu não garanto quanto tempo eu vou viver, mesmo descartando as “bobagens”. Minha família por parte de pai não costuma viver muito. Meus avós paternos, meu pai e minha tia não passaram dos 60 e poucos…</p>\n<p class=\"more-wrap\"><a href=\"2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html#more-39475\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">O Ultimo Episódio dos Simpsons e o Último Episódio deste Blog</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Blog",
+                    "slug": "blog"
+                },
+                {
+                    "name": "Despedida",
+                    "slug": "despedida"
+                },
+                {
+                    "name": "Dor",
+                    "slug": "dor"
+                },
+                {
+                    "name": "Fim",
+                    "slug": "fim"
+                },
+                {
+                    "name": "Melancolia",
+                    "slug": "melancolia"
+                },
+                {
+                    "name": "Tristeza",
+                    "slug": "tristeza"
+                },
+                {
+                    "name": "Vida",
+                    "slug": "vida"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39487,
+            "title": "Diário: 19/06/2026",
+            "slug": "diario-19-06-2026",
+            "date": "2026-06-19T00:10:12-03:00",
+            "dateYmd": "2026-06-19",
+            "url": "2026-06-19-diario-19-06-2026.html",
+            "file": "2026-06-19-diario-19-06-2026.html",
+            "summary": "",
+            "html": "<article id=\"post-39487\" class=\"post-39487 post type-post status-publish format-aside hentry post_format-post-format-aside category-direcao-de-arte-ia tag-evangelion tag-giant\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-19-diario-19-06-2026.html\" rel=\"bookmark\">Diário: 19/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-19-diario-19-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-19T00:10:12-03:00\">19/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-19-diario-19-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#evangelion\" rel=\"tag\">Evangelion</a> <a href=\"tag.html#giant\" rel=\"tag\">Giant</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"http://web.archive.org/web/http://ancientist.com/4000-year-old-man-found-buried-in-a-prehistoric-kiln-pit-in-germany/\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-19-06-2026=1781838085-thumbview.png\" /></a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Evangelion",
+                    "slug": "evangelion"
+                },
+                {
+                    "name": "Giant",
+                    "slug": "giant"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39471,
+            "title": "Diário: 18/06/2026",
+            "slug": "diario-18-06-2026",
+            "date": "2026-06-18T18:54:29-03:00",
+            "dateYmd": "2026-06-18",
+            "url": "2026-06-18-diario-18-06-2026.html",
+            "file": "2026-06-18-diario-18-06-2026.html",
+            "summary": "Daveigh Chase, atriz de 'O Chamado' morre aos 35 anos Este ano está sendo aterrorizante. Descanse em paz, \"Samara\"",
+            "html": "<article id=\"post-39471\" class=\"post-39471 post type-post status-publish format-aside hentry post_format-post-format-aside category-documentarios-filmes-series category-links tag-dor tag-fator-merda tag-luto\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#documentarios-filmes-series\" rel=\"category\">Documentários &amp; Filmes &amp; Series</a>, <a href=\"cat.html#links\" rel=\"category\">Links</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-18-diario-18-06-2026.html\" rel=\"bookmark\">Diário: 18/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-18-diario-18-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-18T18:54:29-03:00\">18/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-18-diario-18-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#dor\" rel=\"tag\">Dor</a> <a href=\"tag.html#fator-merda\" rel=\"tag\">Fator Merda</a> <a href=\"tag.html#luto\" rel=\"tag\">Luto</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-18-06-2026=1781819432.gif\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-18-06-2026=1781819432.gif\" /></a></p>\n<blockquote>\n<h3><a href=\"http://web.archive.org/web/20260618213816/https://g1.globo.com/pop-arte/cinema/noticia/2026/06/17/daviegh-chase-atriz-de-o-chamado-e-dubladora-de-lilo-and-stitch-morre.ghtml\">Daveigh Chase, atriz de &#8216;O Chamado&#8217; morre aos 35 anos </a></h3>\n<p style=\"text-align: center\">Este ano está sendo aterrorizante.<br />\nDescanse em paz, &#8220;Samara&#8221;</p>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Dor",
+                    "slug": "dor"
+                },
+                {
+                    "name": "Fator Merda",
+                    "slug": "fator-merda"
+                },
+                {
+                    "name": "Luto",
+                    "slug": "luto"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Documentários &amp; Filmes &amp; Series",
+                    "slug": "documentarios-filmes-series"
+                },
+                {
+                    "name": "Links",
+                    "slug": "links"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39446,
+            "title": "Prisons of Mind",
+            "slug": "prisons-of-mind",
+            "date": "2026-06-13T04:11:16-03:00",
+            "dateYmd": "2026-06-13",
+            "url": "2026-06-13-prisons-of-mind.html",
+            "file": "2026-06-13-prisons-of-mind.html",
+            "summary": "The Legend of 1900 The Virgin Suicides God Knows Where I Am Dogtooth Kajillionaire Uma conversa minha com o robô sobre cinco obras que marcaram... Eu: O que esses filmes têm em comum? ChatGPT:…",
+            "html": "<article id=\"post-39446\" class=\"post-39446 post type-post status-publish format-aside hentry post_format-post-format-aside category-art-work category-autoria-de-outros category-direcao-de-arte-ia category-documentarios-filmes-series tag-prisao\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#art-work\" rel=\"category\">Art Work</a>, <a href=\"cat.html#autoria-de-outros\" rel=\"category\">Autoria de Outros</a>, <a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a>, <a href=\"cat.html#documentarios-filmes-series\" rel=\"category\">Documentários &amp; Filmes &amp; Series</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-13-prisons-of-mind.html\" rel=\"bookmark\">Prisons of Mind</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-13-prisons-of-mind.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-13T04:11:16-03:00\">13/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-13-prisons-of-mind.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#prisao\" rel=\"tag\">Prisão</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-13-06-2026=1781325778.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-13-06-2026=1781325778-thumbview.png\" /></a></p>\n<ul>\n<li><a href=\"https://www.imdb.com/title/tt0120731/\">The Legend of 1900</a></li>\n<li><a href=\"https://www.imdb.com/title/tt0159097/\">The Virgin Suicides</a></li>\n<li><a href=\"https://www.imdb.com/title/tt5073020/\">God Knows Where I Am</a></li>\n<li><a href=\"https://www.imdb.com/title/tt1379182/\">Dogtooth</a></li>\n<li><a href=\"https://www.imdb.com/title/tt8143990/\">Kajillionaire</a></li>\n</ul>\n<p class=\"more-wrap\"><a href=\"2026-06-13-prisons-of-mind.html#more-39446\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Prisons of Mind</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Prisão",
+                    "slug": "prisao"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Art Work",
+                    "slug": "art-work"
+                },
+                {
+                    "name": "Autoria de Outros",
+                    "slug": "autoria-de-outros"
+                },
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                },
+                {
+                    "name": "Documentários &amp; Filmes &amp; Series",
+                    "slug": "documentarios-filmes-series"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39423,
+            "title": "“Nunca poderia sair desse navio. No máximo, posso sair da minha vida”",
+            "slug": "diario-12-06-2026",
+            "date": "2026-06-11T21:40:06-03:00",
+            "dateYmd": "2026-06-11",
+            "url": "2026-06-11-diario-12-06-2026.html",
+            "file": "2026-06-11-diario-12-06-2026.html",
+            "summary": "[...]Aquela cidade — não se via o final dela. O final. Por favor, me mostre onde ela termina. Estava tudo bem ali na escada. Eu estava ótimo também, com meu sobretudo. Fiquei muito alinhado.…",
+            "html": "<article id=\"post-39423\" class=\"post-39423 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-documentarios-filmes-series category-filosofia tag-ansiedade tag-depressao tag-medo tag-morte tag-prisao tag-sociedade\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#documentarios-filmes-series\" rel=\"category\">Documentários &amp; Filmes &amp; Series</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-11-diario-12-06-2026.html\" rel=\"bookmark\">“Nunca poderia sair desse navio. No máximo, posso sair da minha vida”</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"2026-06-11-diario-12-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-11T21:40:06-03:00\">11/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-11-diario-12-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#ansiedade\" rel=\"tag\">Ansiedade</a> <a href=\"tag.html#depressao\" rel=\"tag\">Depressão</a> <a href=\"tag.html#medo\" rel=\"tag\">Medo</a> <a href=\"tag.html#morte\" rel=\"tag\">Morte</a> <a href=\"tag.html#prisao\" rel=\"tag\">Prisão</a> <a href=\"tag.html#sociedade\" rel=\"tag\">Sociedade</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/blogfilesx/1781224163.mp4?_=2\"></video>\n<blockquote><p>[…]Aquela cidade — não se via o final dela. O final. Por favor, me mostre onde ela termina.</p>\n<p>Estava tudo bem ali na escada. Eu estava ótimo também, com meu sobretudo. Fiquei muito alinhado. Eu ia sair. De verdade. Esse era o problema. Não foi o que eu vi que me impediu, Max. Foi o que eu não vi. Consegue entender? O que eu não vi. Eu… Em toda aquela vasta cidade tinha de tudo, menos o fim. Não tinha fim. O que eu não vi foi onde tudo chegava ao seu final. O final do mundo.</p>\n<p>Veja o piano. As teclas começam, as teclas terminam. Existem 88 teclas; ninguém pode dizer outra coisa. Elas não são infinitas. Você é infinito. E, naquelas teclas, a música que pode fazer é infinita. Gosto disso. Com isso eu posso viver. Você me colocou naquele lugar e abriu à minha frente um teclado com milhões de teclas, milhões e bilhões de teclas que nunca terminavam. E essa é a verdade, Max: elas nunca terminam. O teclado é infinito.</p>\n<p>Mas, naquele teclado, não existe música que possa ser tocada. Tá sentado no banco errado. Aquele é o piano de Deus.</p>\n<p>Céus, você viu as ruas? Apenas as ruas eram milhares delas, Max. Como é que fazem lá? Como simplesmente escolhe uma mulher, uma casa, um pedaço de terra que possa chamar de seu, uma paisagem para olhar, um jeito de morrer? Aquele mundo todo te pressionando, não sabe nem mesmo onde é que termina. Nunca teve medo de entrar em pânico só com esse pensamento da enormidade de viver? Eu nasci aqui neste navio. E o mundo passou por mim. Mas duas mil pessoas de cada vez. E também havia desejos aqui. Mas nunca mais do que o que cabia entre a proa e a popa.</p>\n<p>Você expressa sua felicidade, mas, em um piano, ela não é infinita. Aprendi a viver desta maneira.</p>\n<p>Terra? A Terra era um navio muito grande para mim. É uma mulher bonita demais. É uma viagem longa demais. Um perfume muito forte. É uma música que eu não sei fazer. Nunca poderia sair desse navio. No máximo, posso sair da minha vida. <span style=\"text-decoration: underline\">Afinal de contas, não existo para ninguém</span>.</p>\n<p>Você é exceção, Max. Você é o único que sabe que estou aqui. Você é uma minoria. É bom se acostumar a isso. Me perdoe, meu amigo[…]</p>\n<p><a href=\"https://www.imdb.com/title/tt0120731/\">La Leggenda Del Pianista Sull’Oceano (The Legend of 1900) – A Lenda De 1900 (1998)</a></p></blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Ansiedade",
+                    "slug": "ansiedade"
+                },
+                {
+                    "name": "Depressão",
+                    "slug": "depressao"
+                },
+                {
+                    "name": "Medo",
+                    "slug": "medo"
+                },
+                {
+                    "name": "Morte",
+                    "slug": "morte"
+                },
+                {
+                    "name": "Prisão",
+                    "slug": "prisao"
+                },
+                {
+                    "name": "Sociedade",
+                    "slug": "sociedade"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Documentários &amp; Filmes &amp; Series",
+                    "slug": "documentarios-filmes-series"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39376,
+            "title": "Diário: 11/06/2026",
+            "slug": "diario-11-06-2026",
+            "date": "2026-06-11T14:31:26-03:00",
+            "dateYmd": "2026-06-11",
+            "url": "2026-06-11-diario-11-06-2026.html",
+            "file": "2026-06-11-diario-11-06-2026.html",
+            "summary": "O Claude Shannon tem esse conceito de \"Rate-Distortion Theory\", eu sou meio burro, mas pelo que entendi... a teoria meio que diz o quanto podemos distorcer uma informação, para, baseado numa determinada métrica, conseguimos…",
+            "html": "<article id=\"post-39376\" class=\"post-39376 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-claude-shannon tag-informacao tag-informacao-perdida\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-11-diario-11-06-2026.html\" rel=\"bookmark\">Diário: 11/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-11-diario-11-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-11T14:31:26-03:00\">11/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-11-diario-11-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#claude-shannon\" rel=\"tag\">Claude Shannon</a> <a href=\"tag.html#informacao\" rel=\"tag\">Informação</a> <a href=\"tag.html#informacao-perdida\" rel=\"tag\">Informação Perdida</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-08-06-2026=1780951593.png\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-08-06-2026=1780951593-thumbview.png\" alt=\"\" width=\"500\" height=\"247\" /></a><br />\nO <a href=\"https://en.wikipedia.org/wiki/Claude_Shannon\">Claude Shannon</a> tem esse conceito de <a href=\"https://en.wikipedia.org/wiki/Rate%E2%80%93distortion_theory\">&#8220;Rate-Distortion Theory&#8221;</a>, eu sou meio burro, mas pelo que entendi&#8230; a teoria meio que diz o quanto podemos distorcer uma informação, para, baseado numa determinada métrica, conseguimos o suficiente para restaurar ela. E eu estava pensando numa de &#8220;Meaning-Rate Distortion Theory&#8221;, ou &#8220;Semantic-Rate Distorion Theory&#8221;, porque&#8230; nós não vivemos num universo de ruído branco. Existe uma redundância muito grande de informação: dados que existem em outro lugar, ainda que duma outra forma <em>(registros históricos, fotos, etc&#8230;)</em> ou porque nós podemos imaginar, com uma boa taxa de confiança, como seria o restante da imagem <em>(alguém tira uma foto onde dá para ver parte do céu&#8230; você imaginar que &#8220;acima&#8221; mais céu ainda)</em>. Novamente, essa é uma continuação do meu texto <a href=\"2026-05-17-o-futuro-dos-codecs-de-compressao-de-video.html\">&#8220;O Futuro dos Codecs de Compressão de Vídeo&#8221;</a>.</p>\n<blockquote>\n<h3><a href=\"https://web.archive.org/web/20250915013350/https://arxiv.org/html/2509.10061v1\">Semantic Rate-Distortion Theory with Applications</a></h3>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Claude Shannon",
+                    "slug": "claude-shannon"
+                },
+                {
+                    "name": "Informação",
+                    "slug": "informacao"
+                },
+                {
+                    "name": "Informação Perdida",
+                    "slug": "informacao-perdida"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39456,
+            "title": "“…por favor encontre esse blog”",
+            "slug": "por-favor-encontre-esse-blog",
+            "date": "2026-06-10T20:41:46-03:00",
+            "dateYmd": "2026-06-10",
+            "url": "2026-06-10-por-favor-encontre-esse-blog.html",
+            "file": "2026-06-10-por-favor-encontre-esse-blog.html",
+            "summary": "“Quando eu não estiver mais aqui, alguém por favor encontre esse blog.” Eu",
+            "html": "<article id=\"post-39456\" class=\"post-39456 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes tag-blog tag-despedida tag-legado tag-passado tag-tempo\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-10-por-favor-encontre-esse-blog.html\" rel=\"bookmark\">“…por favor encontre esse blog”</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"2026-06-10-por-favor-encontre-esse-blog.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-10T20:41:46-03:00\">10/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-10-por-favor-encontre-esse-blog.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#blog\" rel=\"tag\">Blog</a> <a href=\"tag.html#despedida\" rel=\"tag\">Despedida</a> <a href=\"tag.html#legado\" rel=\"tag\">Legado</a> <a href=\"tag.html#passado\" rel=\"tag\">Passado</a> <a href=\"tag.html#tempo\" rel=\"tag\">Tempo</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1>“Quando eu não estiver mais aqui, alguém por favor encontre esse blog.”</h1>\n</blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Blog",
+                    "slug": "blog"
+                },
+                {
+                    "name": "Despedida",
+                    "slug": "despedida"
+                },
+                {
+                    "name": "Legado",
+                    "slug": "legado"
+                },
+                {
+                    "name": "Passado",
+                    "slug": "passado"
+                },
+                {
+                    "name": "Tempo",
+                    "slug": "tempo"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39379,
+            "title": "Diário: 06/06/2026",
+            "slug": "diario-06-06-2026",
+            "date": "2026-06-06T04:37:09-03:00",
+            "dateYmd": "2026-06-06",
+            "url": "2026-06-06-diario-06-06-2026.html",
+            "file": "2026-06-06-diario-06-06-2026.html",
+            "summary": "Ela gravou 30 anos de notícias... mas o quanto isso importou? Eu digo isso no sentido “Oh, então foi inútil”, claro que não. Porém... Acho que nós imaginávamos que a manipulação se daria aos…",
+            "html": "<article id=\"post-39379\" class=\"post-39379 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-admiravel-mundo-novo tag-big-brother tag-historia tag-passado tag-tempo tag-verdade\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-06-diario-06-06-2026.html\" rel=\"bookmark\">Diário: 06/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-06-diario-06-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-06T04:37:09-03:00\">06/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-06-diario-06-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#admiravel-mundo-novo\" rel=\"tag\">Admirável Mundo Novo</a> <a href=\"tag.html#big-brother\" rel=\"tag\">Big Brother</a> <a href=\"tag.html#historia\" rel=\"tag\">História</a> <a href=\"tag.html#passado\" rel=\"tag\">Passado</a> <a href=\"tag.html#tempo\" rel=\"tag\">Tempo</a> <a href=\"tag.html#verdade\" rel=\"tag\">Verdade</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p></p><video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/blogfilesx/1780329198.mp4?_=3\"></video><br>\nEla gravou 30 anos de notícias… mas o quanto isso importou? Eu digo isso no sentido <em>“Oh, então foi inútil”</em>, claro que não. Porém…\n<p>Acho que nós imaginávamos que a manipulação se daria aos moldes de 1984, com livros sendo apagados e reescritos. E… o que vimos é que… é tudo muito mais refinado que isso. A história não é reescrita, os fatos objetivos que aconteceram; <span style=\"text-decoration: underline\"><strong>o que é reescrito são as justificativas e o contexto:</strong></span></p>\n<blockquote><p>“Não podíamos imaginar que”<br>\n“Oh, mas naquele tempo era outro…”<br>\n“Estamos em constante evolução como seres humanos…”<br>\n“Oh, diante da quantidade de informações que tínhamos no momento”</p></blockquote>\n<p>Orwell imaginou que falsificaríamos eventos históricos. Acabamos falsificando algo muito pior, diabolicamente pior, que é falsificar a nossa relação com a verdade. Não precisamos falsificar que:</p>\n<blockquote>\n<h3>“Oh, estamos em guerra com a Oceania. Digo, com a Eurásia. Quero dizer, com a Oceania. Sempre estivemos em guerra com a Oceania!”</h3>\n</blockquote>\n<p>Reinterpretam-se infinitamente fatos antigos para se ocultarem as motivações por trás dos fatos que aconteceram. Esconde-se tudo de ruim em uma boa-fé, mascara-se a eterna hipocrisia em uma mentirosa e constante evolução. Reinterpreta-se infinitamente, e ao sabor das conveniências, por que você estava em guerra com a Oceania e depois com a Eurásia.</p>\n<p><strong>E o que de fato era nossa relação com a verdade à época.</strong></p>\n<p>E quando posto contra a parede, qualquer condenação pode ser cinicamente defendida com <em>“Oh, no contexto da época…” </em></p>\n<blockquote>\n<h3>Imaginamos <a href=\"https://en.wikipedia.org/wiki/Big_Brother_(Nineteen_Eighty-Four)\">“O Grande Irmão”</a>, mas ganhamos um <a href=\"https://en.wikipedia.org/wiki/Brave_New_World\">“Admirável Mundo Novo”</a>…</h3>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Admirável Mundo Novo",
+                    "slug": "admiravel-mundo-novo"
+                },
+                {
+                    "name": "Big Brother",
+                    "slug": "big-brother"
+                },
+                {
+                    "name": "História",
+                    "slug": "historia"
+                },
+                {
+                    "name": "Passado",
+                    "slug": "passado"
+                },
+                {
+                    "name": "Tempo",
+                    "slug": "tempo"
+                },
+                {
+                    "name": "Verdade",
+                    "slug": "verdade"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39339,
+            "title": "Diário: 03/06/2026",
+            "slug": "diario-03-06-2026",
+            "date": "2026-06-03T15:34:37-03:00",
+            "dateYmd": "2026-06-03",
+            "url": "2026-06-03-diario-03-06-2026.html",
+            "file": "2026-06-03-diario-03-06-2026.html",
+            "summary": "\"Militares dos EUA teriam de ser resgatados pelo Bope em favela, diz especialista\" A esquerda brasileira, e em menor grau a direita também, sofre de uma espécie de \"Síndrome do Vira-lata às Avessas\", uma…",
+            "html": "<article id=\"post-39339\" class=\"post-39339 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-brasil tag-shithole\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-03-diario-03-06-2026.html\" rel=\"bookmark\">Diário: 03/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-03-diario-03-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-03T15:34:37-03:00\">03/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-03-diario-03-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#brasil\" rel=\"tag\">Brasil</a> <a href=\"tag.html#shithole\" rel=\"tag\">Shithole</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h2><a href=\"https://archive.org/download/blogfilesx/1780184843.mp4\">&#8220;Militares dos EUA teriam de ser resgatados pelo Bope em favela, diz especialista&#8221;</a></h2>\n</blockquote>\n<p>A esquerda brasileira, e em menor grau a direita também, sofre de uma espécie de &#8220;Síndrome do Vira-lata às Avessas&#8221;, uma crença que nós estamos a frente de todos os outros países: é a urna eletrônica, é o nióbio, é o grafeno, é a <a href=\"2025-09-18-nao-o-brasil-nao-descobriu-a-cura-da-tetraplegia.html\">Polilaminina</a>&#8230;</p>\n<p>Sempre aparece alguém alegando que o Brasil tem alguma técnica, tecnologia ou <a href=\"https://archive.org/download/blogfilesx/1780771703.mp4#The Simpsons – Much Apu About Nothing\">pedra mágica que afasta tigres</a>, que o resto do mundo não tem. Que, apesar de sermos um país fodidamente miserável, mas estamos muito à frente de todos os outros países.</p>\n<p>Sem desfazer do BOPE, que evidentemente é uma força policial de elite, mas eu não acho que as forças militares americanas fiquem devendo algo à polícia brasileira em sentindo nenhum.</p>\n<p>Fora, é claro, que muito provavelmente não haveria uma operação terrestre, sendo um ataque por drone infinitamente mais provável. Mas, caso houvesse, caso eles tivessem que entrar em uma favela brasileira para capturar um líder do tráfico&#8230;</p>\n<p>Meu amigo, eles s̶e̶q̶u̶e̶s̶t̶a̶r̶a̶m <a href=\"https://web.archive.org/web/20260105073525/https://www.poder360.com.br/poder-internacional/eua-montaram-replica-e-infiltraram-equipe-para-capturar-maduro/\">capturaram o presidente da Venezuela</a>.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Brasil",
+                    "slug": "brasil"
+                },
+                {
+                    "name": "Shithole",
+                    "slug": "shithole"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 39350,
+            "title": "Diário: 01/06/2026",
+            "slug": "diario-01-06-2026",
+            "date": "2026-06-01T23:59:03-03:00",
+            "dateYmd": "2026-06-01",
+            "url": "2026-06-01-diario-01-06-2026.html",
+            "file": "2026-06-01-diario-01-06-2026.html",
+            "summary": "Eu estava pensando se a lógica do “não vou usar armas nucleares contra países não nucleares” — que talvez seja uma das poucas normas do direito internacional que ainda se aplica de forma relativamente…",
+            "html": "<article id=\"post-39350\" class=\"post-39350 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-bombas tag-geopolitica tag-politica\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2026-06-01-diario-01-06-2026.html\" rel=\"bookmark\">Diário: 01/06/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2026-06-01-diario-01-06-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-06-01T23:59:03-03:00\">01/06/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2026-06-01-diario-01-06-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#bombas\" rel=\"tag\">Bombas</a> <a href=\"tag.html#geopolitica\" rel=\"tag\">Geopolítica</a> <a href=\"tag.html#politica\" rel=\"tag\">Política</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p>Eu estava pensando se a lógica do <em>“não vou usar armas nucleares contra países não nucleares”</em> — que talvez seja uma das poucas normas do direito internacional que ainda se aplica de forma relativamente consistente — existe porque todo mundo entende que ter mais armas nucleares circulando pelo mundo não é algo desejável para ninguém. Ninguém quer ver Uganda ou grupos terroristas na Líbia possuindo esse tipo de armamento&#8230;</p>\n<p>Será que essa lógica também se aplica a outros tipos de armas e técnicas? Claro, existem armas químicas e biológicas. Porém, especialmente em uma guerra local, onde seu vizinho está a apenas alguns quilômetros de distância, elas não parecem ser armas muito úteis do ponto de vista utilitário. É um tipo de armamento sobre o qual você não tem controle preciso, porque ele mira pessoas, e pessoas se movem.</p>\n<p>Se já existe o questionamento sobre a eficácia de uma arma nuclear que arrasa o território que você pretendia invadir, destruindo a infraestrutura e os recursos, o que dizer de uma arma na qual quem decide quem morre e quem vive é a direção do vento?</p>\n<p>Geralmente, quando se inventa um novo tipo de armamento, não existem muitos limites claros sobre como ele pode ser utilizado, porque as regras ainda não estão bem estabelecidas. Basta lembrar os EUA usando armas nucleares contra Hiroshima e Nagasaki. Porém — e isso talvez seja apenas uma impressão minha — acredito que, no quesito <em>“bombas extremamente poderosas”</em>, mesmo que amanhã inventassem alguma bomba não nuclear, mas tão destrutiva quanto uma arma nuclear <em>(quiça uma hipotética bomba de antimatéria?)</em>, os princípios envolvidos e como a comunidade internacional perceberia seu uso acabariam sendo muito semelhantes.</p>\n<p>Especialmente se essa arma de antimatéria fosse tão pequena e barata de produzir quanto as armas nucleares. Nesse cenário, penso que surgiram as mesmas formas de restrição, autocontenção, sanções internacionais que hoje cercam as armas nucleares.</p>\n<p>Porque, claro, seria uma tecnologia diferente. Não existe nenhum tratado contra a proliferação de armas de antimatéria. Mas eu acho que, conceitualmente, por mais destrutiva que ela fosse, ela ainda seria <em>“menos diferente”</em> da bomba atômica do que a bomba atômica foi das bombas convencionais de TNT e similares no momento de sua invenção. De modo que o tabu, a condenação e a resposta provavelmente acabariam sendo os mesmos?</p>\n<p>Aliás, vou além, se fosse possivel projetar uma bomba de TNT tão poderosa quanto uma bomba nuclear, será que os mesmos dilemas não passariam a existir?</p>\n<p>O que estou tentando dizer, penso eu, é: o tabu nuclear é, na verdade, um tabu em relação a tecnologias que oferecem essa combinação de serem extremamente destrutivas e baratas para os Estados produzirem, o que inevitavelmente possibilita sua proliferação. tecnologias de destruição em massa acessíveis. <strong>É um tabu sobre tecnologias de destruição em massa acessíveis</strong>. Até porque, se construir uma bomba nuclear custasse o mesmo que um programa espacial de ponta hoje em dia ou colonizar Marte, a própria limitação econômica já seria suficiente para impedir que esse tipo de arma se espalhasse pelo mundo, garantindo que apenas uma, duas ou, no máximo, três potências tivessem esse amarmento.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Bombas",
+                    "slug": "bombas"
+                },
+                {
+                    "name": "Geopolítica",
+                    "slug": "geopolitica"
+                },
+                {
+                    "name": "Política",
+                    "slug": "politica"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade"
+        }
+    ]
+}

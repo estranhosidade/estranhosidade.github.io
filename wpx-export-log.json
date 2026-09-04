@@ -1,0 +1,4254 @@
+{
+    "runs": [
+        {
+            "at": "2026-09-01T02:24:43+00:00",
+            "mode": "full",
+            "new": 132,
+            "updated": 0,
+            "postsTruncated": false,
+            "posts": [
+                {
+                    "id": 40127,
+                    "title": "Diário: 31/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-31-diario-31-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40677,
+                    "title": "Diário: 31/08/2026 – Wedding Dress",
+                    "kind": "new",
+                    "file": "2026-08-31-diario-31-08-2026-wedding-dress.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40655,
+                    "title": "Lito Sousa: por que pressão nas redes não pode mudar regras de estudos",
+                    "kind": "new",
+                    "file": "2026-08-30-lito-sousa-por-que-pressao-nas-redes-nao-pode-mudar-regras-de-estudos.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40640,
+                    "title": "Diário: 29/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-29-diario-29-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40628,
+                    "title": "Diário: 28/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-28-diario-28-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40291,
+                    "title": "Be my 20-year-old baby girl",
+                    "kind": "new",
+                    "file": "2026-08-27-be-my-20-year-old-baby-girl.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40585,
+                    "title": "Diário: 27/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-27-diario-27-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40578,
+                    "title": "Diário: 26/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-26-diario-26-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40351,
+                    "title": "YouTube, Netflix, Cinema e a Lei da Exclusividade",
+                    "kind": "new",
+                    "file": "2026-08-25-youtube-netflix-cinema-e-a-lei-da-exclusividade.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40549,
+                    "title": "Diário: 25/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-25-diario-25-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40523,
+                    "title": "“Esse ano tá parecendo um filme de terror”",
+                    "kind": "new",
+                    "file": "2026-08-25-esse-ano-ta-parecendo-um-filme-de-terror.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40517,
+                    "title": "Diário: 24/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-24-diario-24-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40490,
+                    "title": "Diário: 23/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-23-diario-23-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40464,
+                    "title": "Diário: 22/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-22-diario-22-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40484,
+                    "title": "Diário: 21/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-21-diario-21-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40378,
+                    "title": "Diário: 19/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-19-diario-19-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 39845,
+                    "title": "O Dinheiro e a Abstração",
+                    "kind": "new",
+                    "file": "2026-08-19-o-dinheiro-e-a-abstracao.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40363,
+                    "title": "Diário: 18/08/2026 – How Men and Women Should Be Dressed",
+                    "kind": "new",
+                    "file": "2026-08-18-diario-18-08-2026-how-men-and-women-should-be-dressed.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40360,
+                    "title": "O Terapeuta Robô",
+                    "kind": "new",
+                    "file": "2026-08-17-o-terapeuta-robo.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40339,
+                    "title": "Diário: 16/08/2026 – Part 02",
+                    "kind": "new",
+                    "file": "2026-08-16-diario-16-08-2026-part-02.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40320,
+                    "title": "Diário: 16/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-16-diario-16-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40305,
+                    "title": "Quem mais está preso junto com Champinha?",
+                    "kind": "new",
+                    "file": "2026-08-15-quem-mais-esta-preso-junto-com-champinha.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40190,
+                    "title": "O Futuro dos Bloqueadores Anúncios",
+                    "kind": "new",
+                    "file": "2026-08-13-o-futuro-dos-bloqueadores-anuncios.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40265,
+                    "title": "Diário: 13/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-13-diario-13-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40223,
+                    "title": "“Maybe I’m a Child?”",
+                    "kind": "new",
+                    "file": "2026-08-12-maybe-im-a-child.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40254,
+                    "title": "Mark Zuckerberg e o “senta que o leão é manso”",
+                    "kind": "new",
+                    "file": "2026-08-12-mark-zuckerberg-e-o-senta-que-o-leao-e-manso.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40161,
+                    "title": "A Aura, o Autor e a IA Generativa",
+                    "kind": "new",
+                    "file": "2026-08-11-a-aura-o-autor-e-a-ia-generativa.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40208,
+                    "title": "Não volte para onde um dia você foi feliz",
+                    "kind": "new",
+                    "file": "2026-08-11-nao-volte-para-onde-um-dia-voce-foi-feliz.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40199,
+                    "title": "Por que esse caso é diferente?",
+                    "kind": "new",
+                    "file": "2026-08-10-por-que-esse-caso-e-diferente.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40172,
+                    "title": "Diário: 08/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-08-diario-08-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40155,
+                    "title": "Diário: 07/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-07-diario-07-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40147,
+                    "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
+                    "kind": "new",
+                    "file": "2026-08-06-minimax-h3-an-open-model-breaking-the-boundaries-between-tasks-and-modalities.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40117,
+                    "title": "Transparência Performativa",
+                    "kind": "new",
+                    "file": "2026-08-05-transparencia-performativa.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40103,
+                    "title": "Todas as pessoas em potenciais, o tempo que você tem é o tempo que você teve. We are the lucky ones",
+                    "kind": "new",
+                    "file": "2026-08-04-todas-as-pessoas-em-potenciais.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40091,
+                    "title": "Diário: 04/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-04-diario-04-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40023,
+                    "title": "Dogma Supremo",
+                    "kind": "new",
+                    "file": "2026-08-03-dogma-supremo.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40081,
+                    "title": "Diário: 03/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-03-diario-03-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 39720,
+                    "title": "Diário: 31/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-31-diario-31-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39988,
+                    "title": "A Loteria e a Natureza do Trabalho",
+                    "kind": "new",
+                    "file": "2026-07-31-a-loteria-e-a-natureza-do-trabalho.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40017,
+                    "title": "Diário: 29/07/2026 – Luto na Música",
+                    "kind": "new",
+                    "file": "2026-07-29-diario-29-07-2026-luto-na-musica.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39977,
+                    "title": "Diário: 28/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-28-diario-28-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39865,
+                    "title": "Apostou Contra O Mundo e Perdeu",
+                    "kind": "new",
+                    "file": "2026-07-27-apostou-contra-o-mundo-e-perdeu.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39950,
+                    "title": "Diário: 27/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-27-diario-27-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39936,
+                    "title": "Diário: 26/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-26-diario-26-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40463,
+                    "title": "fraco demais",
+                    "kind": "new",
+                    "file": "2026-07-26-fraco-demais.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40462,
+                    "title": "Isaac Asimov On Education",
+                    "kind": "new",
+                    "file": "2026-07-25-isaac-asimov-on-education.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39817,
+                    "title": "Diário: 19/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-19-diario-19-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39818,
+                    "title": "“Uma solução perfeita para a mídia digital, passa por dar garantias de que antes do desligamento de servidores, colocar os arquivos disponíveis para download por um período, sem qualquer checagem online ou proteção”",
+                    "kind": "new",
+                    "file": "2026-07-18-uma-solucao-perfeita-para-a-midia-digital.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39804,
+                    "title": "Diário: 18/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-18-diario-18-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39715,
+                    "title": "Um Confuso Texto Sobre IA Generativa (e um tiquinho de fetiches)…",
+                    "kind": "new",
+                    "file": "2026-07-18-um-confuso-texto-sobre-ia-generativa-e-um-tiquinho-de-fetiches.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39801,
+                    "title": "The End of Television",
+                    "kind": "new",
+                    "file": "2026-07-17-the-end-of-television.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39793,
+                    "title": "Diário: 17/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-17-diario-17-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39766,
+                    "title": "Diário: 16/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-16-diario-16-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39760,
+                    "title": "Diário: 15/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-15-diario-15-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39635,
+                    "title": "Sony e a “Tirania” da Conveniência",
+                    "kind": "new",
+                    "file": "2026-07-12-sony-e-a-tirania-da-conveniencia.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39738,
+                    "title": "“You’re looking out for yourself now”",
+                    "kind": "new",
+                    "file": "2026-07-11-youre-looking-out-for-yourself-now.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39732,
+                    "title": "Procurar valores morais dentro de uma empresa é como procurar o amor num puteiro",
+                    "kind": "new",
+                    "file": "2026-07-11-procurar-valores-morais-dentro-de-uma-empresa-e-como-procurar-o-amor-num-puteiro.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39706,
+                    "title": "“Novo governo acusa governo anterior de mentir”",
+                    "kind": "new",
+                    "file": "2026-07-09-novo-governo-acusa-governo-anterior-de-mentir.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39694,
+                    "title": "Diário: 08/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-08-diario-08-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39672,
+                    "title": "Diário: 06/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-06-diario-06-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39662,
+                    "title": "Diário: 05/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-05-diario-05-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39656,
+                    "title": "“Falar é incorrer em tautologias”",
+                    "kind": "new",
+                    "file": "2026-07-05-falar-e-incorrer-em-tautologias.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39619,
+                    "title": "Diário: 02/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-02-diario-02-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39646,
+                    "title": "“Quanto do dinheiro que eu trabalhei para conseguir, você acha que tem direito?”",
+                    "kind": "new",
+                    "file": "2026-07-01-quanto-do-dinheiro-que-eu-trabalhei-para-conseguir-voce-acha-que-tem-direito.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39612,
+                    "title": "Sony anuncia fim da mídia física para consoles PlayStation em 2028",
+                    "kind": "new",
+                    "file": "2026-07-01-sony-anuncia-fim-da-midia-fisica-para-consoles-playstation-em-2028.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39540,
+                    "title": "“Você, que me lê, tem certeza de entender a minha linguagem?”",
+                    "kind": "new",
+                    "file": "2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39565,
+                    "title": "Diário: 29/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-29-diario-29-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39586,
+                    "title": "Morre o dublador Figueira Júnior, de ‘Dragon Ball’, aos 60 anos",
+                    "kind": "new",
+                    "file": "2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39577,
+                    "title": "Porque, no fim, todo mundo vai embora. Por que, no fim, todo mundo vai embora?",
+                    "kind": "new",
+                    "file": "2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39396,
+                    "title": "Diário: 27/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-27-diario-27-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39554,
+                    "title": "2026: O Filme",
+                    "kind": "new",
+                    "file": "2026-06-26-2026-o-filme.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39561,
+                    "title": "Diário: 26/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-26-diario-28-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39517,
+                    "title": "Diário: 24/06/2026 – Part 02",
+                    "kind": "new",
+                    "file": "2026-06-24-diario-24-06-2026-2.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39514,
+                    "title": "Diário: 24/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-24-diario-24-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39502,
+                    "title": "Diário: 22/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-22-diario-22-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39496,
+                    "title": "Diário: 21/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-21-diario-21-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39475,
+                    "title": "O Ultimo Episódio dos Simpsons e o Último Episódio deste Blog",
+                    "kind": "new",
+                    "file": "2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39487,
+                    "title": "Diário: 19/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-19-diario-19-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39471,
+                    "title": "Diário: 18/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-18-diario-18-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39446,
+                    "title": "Prisons of Mind",
+                    "kind": "new",
+                    "file": "2026-06-13-prisons-of-mind.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39423,
+                    "title": "“Nunca poderia sair desse navio. No máximo, posso sair da minha vida”",
+                    "kind": "new",
+                    "file": "2026-06-11-diario-12-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39376,
+                    "title": "Diário: 11/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-11-diario-11-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39456,
+                    "title": "“…por favor encontre esse blog”",
+                    "kind": "new",
+                    "file": "2026-06-10-por-favor-encontre-esse-blog.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39379,
+                    "title": "Diário: 06/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-06-diario-06-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39339,
+                    "title": "Diário: 03/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-03-diario-03-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39350,
+                    "title": "Diário: 01/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-01-diario-01-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39223,
+                    "title": "Diário: 31/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-31-diario-31-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39346,
+                    "title": "Lista: quem apoiou os abusos de Moraes e depois mudou de opinião",
+                    "kind": "new",
+                    "file": "2026-05-31-lista-quem-apoiou-os-abusos-de-moraes-e-depois-mudou-de-opiniao.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39324,
+                    "title": "Diário: 29/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-29-diario-29-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39284,
+                    "title": "Diário: 22/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-25-diario-22-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39303,
+                    "title": "Frank Sinatra – I Wish You Were A Girl",
+                    "kind": "new",
+                    "file": "2026-05-24-frank-sinatra-i-wish-you-were-a-girl.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39121,
+                    "title": "Há canções que parecem carregar em si a eternidade",
+                    "kind": "new",
+                    "file": "2026-05-21-ha-cancoes-que-parecem-carregar-em-si-a-eternidade.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39156,
+                    "title": "Diário: 19/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-19-diario-19-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39118,
+                    "title": "“Women who wear shorts under the dress should be jailed for fraud”",
+                    "kind": "new",
+                    "file": "2026-05-19-women-who-wear-shorts-under-the-dress-should-be-jailed-for-fraud.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39233,
+                    "title": "O Futuro dos Codecs de Compressão de Vídeo",
+                    "kind": "new",
+                    "file": "2026-05-17-o-futuro-dos-codecs-de-compressao-de-video.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39244,
+                    "title": "Diário: 17/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-17-diario-17-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 38686,
+                    "title": "Por que o Sora fechou?",
+                    "kind": "new",
+                    "file": "2026-05-14-por-que-o-sora-fechou.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39205,
+                    "title": "Diário: 09/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-09-diario-09-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39014,
+                    "title": "Uma Obsessiva Análise de “Quero Ser John Malkovich”",
+                    "kind": "new",
+                    "file": "2026-05-06-quero-ser-john-malkovitch.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39162,
+                    "title": "Por favor, Enfie o Cinema Nacional no Cu",
+                    "kind": "new",
+                    "file": "2026-05-06-por-favor-enfie-o-cinema-nacional-no-cu.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39112,
+                    "title": "Diário: 03/05/2026 – Advogada é presa em flagrante após abandonar cachorro idoso em rua",
+                    "kind": "new",
+                    "file": "2026-05-03-03-05-2026-advogada-e-presa.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 38808,
+                    "title": "Diário: 30/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-30-diario-30-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39069,
+                    "title": "Diário: 29/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-29-diario-29-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38642,
+                    "title": "Diário: 28/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-28-diario-28-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38988,
+                    "title": "O Direito Internacional de Schrödinger",
+                    "kind": "new",
+                    "file": "2026-04-27-o-direito-internacional-de-schrodinger.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39029,
+                    "title": "“A polícia é o SUS da direita”",
+                    "kind": "new",
+                    "file": "2026-04-27-a-policia-e-o-sus-da-direita.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39020,
+                    "title": "“Quem deu poder para esse homem de capa preta?”",
+                    "kind": "new",
+                    "file": "2026-04-27-quem-deu-poder-para-esse-homem-de-capa-preta.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38995,
+                    "title": "Diário: 25/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-25-diario-25-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38982,
+                    "title": "Diário: 24/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-24-diario-24-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38946,
+                    "title": "Tribunal Penal Internacional da Justiça dos Vencedores",
+                    "kind": "new",
+                    "file": "2026-04-23-tribunal-penal-internacional-da-justica-dos-vencedores.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38869,
+                    "title": "Os Eternos Nomes e Thumbnails Mudantes",
+                    "kind": "new",
+                    "file": "2026-04-23-os-eternos-nomes-e-thumbnails-mudantes.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38959,
+                    "title": "Diário: 23/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-23-diario-23-04-2026-2.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38924,
+                    "title": "Colorização, IA e Espaços Latentes",
+                    "kind": "new",
+                    "file": "2026-04-23-diario-23-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38940,
+                    "title": "Diário: 22/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-22-diario-22-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38835,
+                    "title": "A IA Generativa e a Eficiência",
+                    "kind": "new",
+                    "file": "2026-04-21-ia-generativa-e-a-eficiencia.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38907,
+                    "title": "Diário: 18/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-18-diario-18-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38889,
+                    "title": "Diário: 15/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-15-diario-15-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38882,
+                    "title": "O “Grande Plano” dos Artistas Ludistas Anti-IA",
+                    "kind": "new",
+                    "file": "2026-04-15-o-grande-plano-dos-artistas-ludistas-anti-ia.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38828,
+                    "title": "À Mulheres, Escolhas. Aos Homens, Prisão",
+                    "kind": "new",
+                    "file": "2026-04-15-a-mulheres-escolhas-aos-homens-prisao.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38760,
+                    "title": "Narrativa: A Restauração, o Monumento e o Abandono",
+                    "kind": "new",
+                    "file": "2026-04-12-__trashed-4.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38799,
+                    "title": "A Judicialização do Amor",
+                    "kind": "new",
+                    "file": "2026-04-10-a-judicializacao-do-amor.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38792,
+                    "title": "Diário: 08/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-08-diario-08-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38767,
+                    "title": "Diário: 05/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-05-diario-05-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38750,
+                    "title": "Diário: 01/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-01-diario-01-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38607,
+                    "title": "Diário: 31/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-31-diario-31-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38697,
+                    "title": "Algum dia haverá LLMs locais realmente “úteis”?",
+                    "kind": "new",
+                    "file": "2026-03-30-algum-dia-havera-llms-locais-realmente-uteis.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38712,
+                    "title": "Diário: 28/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-28-diario-28-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38701,
+                    "title": "Diário: 26/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-26-diario-26-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38666,
+                    "title": "Diário: 23/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-23-diario-23-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38616,
+                    "title": "Diário: 19/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-19-diario-19-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38631,
+                    "title": "Diário: 18/03/2026 – The Fall Of Midjourney",
+                    "kind": "new",
+                    "file": "2026-03-18-diario-18-03-2026-the-fall-of-midjourney.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38596,
+                    "title": "Diário: 03/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-03-diario-03-03-2026.html",
+                    "month": "2026-03"
+                }
+            ]
+        },
+        {
+            "at": "2026-09-02T04:36:37+00:00",
+            "mode": "full",
+            "new": 135,
+            "updated": 0,
+            "postsTruncated": false,
+            "posts": [
+                {
+                    "id": 40610,
+                    "title": "Mudamos de Endereço",
+                    "kind": "new",
+                    "file": "2026-09-01-mudamos-de-endereco.html",
+                    "month": "2026-09"
+                },
+                {
+                    "id": 40611,
+                    "title": "Information Feudalism: Who Owns the Knowledge Economy",
+                    "kind": "new",
+                    "file": "2026-09-01-information-feudalism-who-owns-the-knowledge-economy.html",
+                    "month": "2026-09"
+                },
+                {
+                    "id": 40127,
+                    "title": "Diário: 31/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-31-diario-31-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40677,
+                    "title": "Diário: 31/08/2026 – Wedding Dress",
+                    "kind": "new",
+                    "file": "2026-08-31-diario-31-08-2026-wedding-dress.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40655,
+                    "title": "Lito Sousa: por que pressão nas redes não pode mudar regras de estudos",
+                    "kind": "new",
+                    "file": "2026-08-30-lito-sousa-por-que-pressao-nas-redes-nao-pode-mudar-regras-de-estudos.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40640,
+                    "title": "Diário: 29/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-29-diario-29-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40628,
+                    "title": "Diário: 28/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-28-diario-28-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40291,
+                    "title": "Be my 20-year-old baby girl",
+                    "kind": "new",
+                    "file": "2026-08-27-be-my-20-year-old-baby-girl.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40585,
+                    "title": "Diário: 27/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-27-diario-27-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40578,
+                    "title": "Diário: 26/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-26-diario-26-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40351,
+                    "title": "YouTube, Netflix, Cinema e a Lei da Exclusividade",
+                    "kind": "new",
+                    "file": "2026-08-25-youtube-netflix-cinema-e-a-lei-da-exclusividade.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40549,
+                    "title": "Diário: 25/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-25-diario-25-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40523,
+                    "title": "“Esse ano tá parecendo um filme de terror”",
+                    "kind": "new",
+                    "file": "2026-08-25-esse-ano-ta-parecendo-um-filme-de-terror.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40676,
+                    "title": "Diário: 25/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-25-diario-25-08-2026-2.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40517,
+                    "title": "Diário: 24/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-24-diario-24-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40490,
+                    "title": "Diário: 23/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-23-diario-23-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40464,
+                    "title": "Diário: 22/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-22-diario-22-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40484,
+                    "title": "Diário: 21/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-21-diario-21-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40378,
+                    "title": "Diário: 19/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-19-diario-19-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 39845,
+                    "title": "O Dinheiro e a Abstração",
+                    "kind": "new",
+                    "file": "2026-08-19-o-dinheiro-e-a-abstracao.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40363,
+                    "title": "Diário: 18/08/2026 – How Men and Women Should Be Dressed",
+                    "kind": "new",
+                    "file": "2026-08-18-diario-18-08-2026-how-men-and-women-should-be-dressed.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40360,
+                    "title": "O Terapeuta Robô",
+                    "kind": "new",
+                    "file": "2026-08-17-o-terapeuta-robo.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40339,
+                    "title": "Diário: 16/08/2026 – Part 02",
+                    "kind": "new",
+                    "file": "2026-08-16-diario-16-08-2026-part-02.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40320,
+                    "title": "Diário: 16/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-16-diario-16-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40305,
+                    "title": "Quem mais está preso junto com Champinha?",
+                    "kind": "new",
+                    "file": "2026-08-15-quem-mais-esta-preso-junto-com-champinha.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40190,
+                    "title": "O Futuro dos Bloqueadores Anúncios",
+                    "kind": "new",
+                    "file": "2026-08-13-o-futuro-dos-bloqueadores-anuncios.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40265,
+                    "title": "Diário: 13/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-13-diario-13-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40223,
+                    "title": "“Maybe I’m a Child?”",
+                    "kind": "new",
+                    "file": "2026-08-12-maybe-im-a-child.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40254,
+                    "title": "Mark Zuckerberg e o “senta que o leão é manso”",
+                    "kind": "new",
+                    "file": "2026-08-12-mark-zuckerberg-e-o-senta-que-o-leao-e-manso.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40161,
+                    "title": "A Aura, o Autor e a IA Generativa",
+                    "kind": "new",
+                    "file": "2026-08-11-a-aura-o-autor-e-a-ia-generativa.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40208,
+                    "title": "Não volte para onde um dia você foi feliz",
+                    "kind": "new",
+                    "file": "2026-08-11-nao-volte-para-onde-um-dia-voce-foi-feliz.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40199,
+                    "title": "Por que esse caso é diferente?",
+                    "kind": "new",
+                    "file": "2026-08-10-por-que-esse-caso-e-diferente.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40172,
+                    "title": "Diário: 08/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-08-diario-08-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40155,
+                    "title": "Diário: 07/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-07-diario-07-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40147,
+                    "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
+                    "kind": "new",
+                    "file": "2026-08-06-minimax-h3-an-open-model-breaking-the-boundaries-between-tasks-and-modalities.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40117,
+                    "title": "Transparência Performativa",
+                    "kind": "new",
+                    "file": "2026-08-05-transparencia-performativa.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40103,
+                    "title": "Todas as pessoas em potenciais, o tempo que você tem é o tempo que você teve. We are the lucky ones",
+                    "kind": "new",
+                    "file": "2026-08-04-todas-as-pessoas-em-potenciais.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40091,
+                    "title": "Diário: 04/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-04-diario-04-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40023,
+                    "title": "Dogma Supremo",
+                    "kind": "new",
+                    "file": "2026-08-03-dogma-supremo.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40081,
+                    "title": "Diário: 03/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-03-diario-03-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 39720,
+                    "title": "Diário: 31/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-31-diario-31-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39988,
+                    "title": "A Loteria e a Natureza do Trabalho",
+                    "kind": "new",
+                    "file": "2026-07-31-a-loteria-e-a-natureza-do-trabalho.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40017,
+                    "title": "Diário: 29/07/2026 – Luto na Música",
+                    "kind": "new",
+                    "file": "2026-07-29-diario-29-07-2026-luto-na-musica.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39977,
+                    "title": "Diário: 28/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-28-diario-28-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39865,
+                    "title": "Apostou Contra O Mundo e Perdeu",
+                    "kind": "new",
+                    "file": "2026-07-27-apostou-contra-o-mundo-e-perdeu.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39950,
+                    "title": "Diário: 27/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-27-diario-27-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39936,
+                    "title": "Diário: 26/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-26-diario-26-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40463,
+                    "title": "fraco demais",
+                    "kind": "new",
+                    "file": "2026-07-26-fraco-demais.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40462,
+                    "title": "Isaac Asimov On Education",
+                    "kind": "new",
+                    "file": "2026-07-25-isaac-asimov-on-education.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39817,
+                    "title": "Diário: 19/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-19-diario-19-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39818,
+                    "title": "“Uma solução perfeita para a mídia digital, passa por dar garantias de que antes do desligamento de servidores, colocar os arquivos disponíveis para download por um período, sem qualquer checagem online ou proteção”",
+                    "kind": "new",
+                    "file": "2026-07-18-uma-solucao-perfeita-para-a-midia-digital.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39804,
+                    "title": "Diário: 18/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-18-diario-18-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39715,
+                    "title": "Um Confuso Texto Sobre IA Generativa (e um tiquinho de fetiches)…",
+                    "kind": "new",
+                    "file": "2026-07-18-um-confuso-texto-sobre-ia-generativa-e-um-tiquinho-de-fetiches.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39801,
+                    "title": "The End of Television",
+                    "kind": "new",
+                    "file": "2026-07-17-the-end-of-television.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39793,
+                    "title": "Diário: 17/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-17-diario-17-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39766,
+                    "title": "Diário: 16/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-16-diario-16-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39760,
+                    "title": "Diário: 15/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-15-diario-15-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39635,
+                    "title": "Sony e a “Tirania” da Conveniência",
+                    "kind": "new",
+                    "file": "2026-07-12-sony-e-a-tirania-da-conveniencia.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39738,
+                    "title": "“You’re looking out for yourself now”",
+                    "kind": "new",
+                    "file": "2026-07-11-youre-looking-out-for-yourself-now.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39732,
+                    "title": "Procurar valores morais dentro de uma empresa é como procurar o amor num puteiro",
+                    "kind": "new",
+                    "file": "2026-07-11-procurar-valores-morais-dentro-de-uma-empresa-e-como-procurar-o-amor-num-puteiro.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39706,
+                    "title": "“Novo governo acusa governo anterior de mentir”",
+                    "kind": "new",
+                    "file": "2026-07-09-novo-governo-acusa-governo-anterior-de-mentir.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39694,
+                    "title": "Diário: 08/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-08-diario-08-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39672,
+                    "title": "Diário: 06/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-06-diario-06-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39662,
+                    "title": "Diário: 05/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-05-diario-05-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39656,
+                    "title": "“Falar é incorrer em tautologias”",
+                    "kind": "new",
+                    "file": "2026-07-05-falar-e-incorrer-em-tautologias.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39619,
+                    "title": "Diário: 02/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-02-diario-02-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39646,
+                    "title": "“Quanto do dinheiro que eu trabalhei para conseguir, você acha que tem direito?”",
+                    "kind": "new",
+                    "file": "2026-07-01-quanto-do-dinheiro-que-eu-trabalhei-para-conseguir-voce-acha-que-tem-direito.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39612,
+                    "title": "Sony anuncia fim da mídia física para consoles PlayStation em 2028",
+                    "kind": "new",
+                    "file": "2026-07-01-sony-anuncia-fim-da-midia-fisica-para-consoles-playstation-em-2028.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39540,
+                    "title": "“Você, que me lê, tem certeza de entender a minha linguagem?”",
+                    "kind": "new",
+                    "file": "2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39565,
+                    "title": "Diário: 29/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-29-diario-29-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39586,
+                    "title": "Morre o dublador Figueira Júnior, de ‘Dragon Ball’, aos 60 anos",
+                    "kind": "new",
+                    "file": "2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39577,
+                    "title": "Porque, no fim, todo mundo vai embora. Por que, no fim, todo mundo vai embora?",
+                    "kind": "new",
+                    "file": "2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39396,
+                    "title": "Diário: 27/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-27-diario-27-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39554,
+                    "title": "2026: O Filme",
+                    "kind": "new",
+                    "file": "2026-06-26-2026-o-filme.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39561,
+                    "title": "Diário: 26/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-26-diario-28-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39517,
+                    "title": "Diário: 24/06/2026 – Part 02",
+                    "kind": "new",
+                    "file": "2026-06-24-diario-24-06-2026-2.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39514,
+                    "title": "Diário: 24/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-24-diario-24-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39502,
+                    "title": "Diário: 22/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-22-diario-22-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39496,
+                    "title": "Diário: 21/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-21-diario-21-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39475,
+                    "title": "O Ultimo Episódio dos Simpsons e o Último Episódio deste Blog",
+                    "kind": "new",
+                    "file": "2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39487,
+                    "title": "Diário: 19/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-19-diario-19-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39471,
+                    "title": "Diário: 18/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-18-diario-18-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39446,
+                    "title": "Prisons of Mind",
+                    "kind": "new",
+                    "file": "2026-06-13-prisons-of-mind.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39423,
+                    "title": "“Nunca poderia sair desse navio. No máximo, posso sair da minha vida”",
+                    "kind": "new",
+                    "file": "2026-06-11-diario-12-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39376,
+                    "title": "Diário: 11/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-11-diario-11-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39456,
+                    "title": "“…por favor encontre esse blog”",
+                    "kind": "new",
+                    "file": "2026-06-10-por-favor-encontre-esse-blog.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39379,
+                    "title": "Diário: 06/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-06-diario-06-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39339,
+                    "title": "Diário: 03/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-03-diario-03-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39350,
+                    "title": "Diário: 01/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-01-diario-01-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39223,
+                    "title": "Diário: 31/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-31-diario-31-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39346,
+                    "title": "Lista: quem apoiou os abusos de Moraes e depois mudou de opinião",
+                    "kind": "new",
+                    "file": "2026-05-31-lista-quem-apoiou-os-abusos-de-moraes-e-depois-mudou-de-opiniao.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39324,
+                    "title": "Diário: 29/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-29-diario-29-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39284,
+                    "title": "Diário: 22/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-25-diario-22-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39303,
+                    "title": "Frank Sinatra – I Wish You Were A Girl",
+                    "kind": "new",
+                    "file": "2026-05-24-frank-sinatra-i-wish-you-were-a-girl.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39121,
+                    "title": "Há canções que parecem carregar em si a eternidade",
+                    "kind": "new",
+                    "file": "2026-05-21-ha-cancoes-que-parecem-carregar-em-si-a-eternidade.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39156,
+                    "title": "Diário: 19/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-19-diario-19-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39118,
+                    "title": "“Women who wear shorts under the dress should be jailed for fraud”",
+                    "kind": "new",
+                    "file": "2026-05-19-women-who-wear-shorts-under-the-dress-should-be-jailed-for-fraud.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39233,
+                    "title": "O Futuro dos Codecs de Compressão de Vídeo",
+                    "kind": "new",
+                    "file": "2026-05-17-o-futuro-dos-codecs-de-compressao-de-video.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39244,
+                    "title": "Diário: 17/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-17-diario-17-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 38686,
+                    "title": "Por que o Sora fechou?",
+                    "kind": "new",
+                    "file": "2026-05-14-por-que-o-sora-fechou.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39205,
+                    "title": "Diário: 09/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-09-diario-09-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39014,
+                    "title": "Uma Obsessiva Análise de “Quero Ser John Malkovich”",
+                    "kind": "new",
+                    "file": "2026-05-06-quero-ser-john-malkovitch.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39162,
+                    "title": "Por favor, Enfie o Cinema Nacional no Cu",
+                    "kind": "new",
+                    "file": "2026-05-06-por-favor-enfie-o-cinema-nacional-no-cu.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39112,
+                    "title": "Diário: 03/05/2026 – Advogada é presa em flagrante após abandonar cachorro idoso em rua",
+                    "kind": "new",
+                    "file": "2026-05-03-03-05-2026-advogada-e-presa.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 38808,
+                    "title": "Diário: 30/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-30-diario-30-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39069,
+                    "title": "Diário: 29/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-29-diario-29-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38642,
+                    "title": "Diário: 28/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-28-diario-28-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38988,
+                    "title": "O Direito Internacional de Schrödinger",
+                    "kind": "new",
+                    "file": "2026-04-27-o-direito-internacional-de-schrodinger.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39029,
+                    "title": "“A polícia é o SUS da direita”",
+                    "kind": "new",
+                    "file": "2026-04-27-a-policia-e-o-sus-da-direita.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39020,
+                    "title": "“Quem deu poder para esse homem de capa preta?”",
+                    "kind": "new",
+                    "file": "2026-04-27-quem-deu-poder-para-esse-homem-de-capa-preta.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38995,
+                    "title": "Diário: 25/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-25-diario-25-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38982,
+                    "title": "Diário: 24/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-24-diario-24-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38946,
+                    "title": "Tribunal Penal Internacional da Justiça dos Vencedores",
+                    "kind": "new",
+                    "file": "2026-04-23-tribunal-penal-internacional-da-justica-dos-vencedores.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38869,
+                    "title": "Os Eternos Nomes e Thumbnails Mudantes",
+                    "kind": "new",
+                    "file": "2026-04-23-os-eternos-nomes-e-thumbnails-mudantes.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38959,
+                    "title": "Diário: 23/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-23-diario-23-04-2026-2.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38924,
+                    "title": "Colorização, IA e Espaços Latentes",
+                    "kind": "new",
+                    "file": "2026-04-23-diario-23-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38940,
+                    "title": "Diário: 22/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-22-diario-22-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38835,
+                    "title": "A IA Generativa e a Eficiência",
+                    "kind": "new",
+                    "file": "2026-04-21-ia-generativa-e-a-eficiencia.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38907,
+                    "title": "Diário: 18/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-18-diario-18-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38889,
+                    "title": "Diário: 15/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-15-diario-15-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38882,
+                    "title": "O “Grande Plano” dos Artistas Ludistas Anti-IA",
+                    "kind": "new",
+                    "file": "2026-04-15-o-grande-plano-dos-artistas-ludistas-anti-ia.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38828,
+                    "title": "À Mulheres, Escolhas. Aos Homens, Prisão",
+                    "kind": "new",
+                    "file": "2026-04-15-a-mulheres-escolhas-aos-homens-prisao.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38760,
+                    "title": "Narrativa: A Restauração, o Monumento e o Abandono",
+                    "kind": "new",
+                    "file": "2026-04-12-__trashed-4.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38799,
+                    "title": "A Judicialização do Amor",
+                    "kind": "new",
+                    "file": "2026-04-10-a-judicializacao-do-amor.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38792,
+                    "title": "Diário: 08/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-08-diario-08-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38767,
+                    "title": "Diário: 05/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-05-diario-05-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38750,
+                    "title": "Diário: 01/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-01-diario-01-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38607,
+                    "title": "Diário: 31/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-31-diario-31-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38697,
+                    "title": "Algum dia haverá LLMs locais realmente “úteis”?",
+                    "kind": "new",
+                    "file": "2026-03-30-algum-dia-havera-llms-locais-realmente-uteis.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38712,
+                    "title": "Diário: 28/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-28-diario-28-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38701,
+                    "title": "Diário: 26/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-26-diario-26-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38666,
+                    "title": "Diário: 23/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-23-diario-23-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38616,
+                    "title": "Diário: 19/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-19-diario-19-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38631,
+                    "title": "Diário: 18/03/2026 – The Fall Of Midjourney",
+                    "kind": "new",
+                    "file": "2026-03-18-diario-18-03-2026-the-fall-of-midjourney.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38596,
+                    "title": "Diário: 03/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-03-diario-03-03-2026.html",
+                    "month": "2026-03"
+                }
+            ]
+        },
+        {
+            "at": "2026-09-04T03:21:36+00:00",
+            "mode": "full",
+            "new": 135,
+            "updated": 0,
+            "postsTruncated": false,
+            "posts": [
+                {
+                    "id": 40736,
+                    "title": "Diário: 03/09/2026",
+                    "kind": "new",
+                    "file": "2026-09-03-diario-03-09-2026.html",
+                    "month": "2026-09"
+                },
+                {
+                    "id": 40610,
+                    "title": "Mudamos de Endereço",
+                    "kind": "new",
+                    "file": "2026-09-01-mudamos-de-endereco.html",
+                    "month": "2026-09"
+                },
+                {
+                    "id": 40611,
+                    "title": "Information Feudalism: Who Owns the Knowledge Economy",
+                    "kind": "new",
+                    "file": "2026-09-01-information-feudalism-who-owns-the-knowledge-economy.html",
+                    "month": "2026-09"
+                },
+                {
+                    "id": 40127,
+                    "title": "Diário: 31/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-31-diario-31-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40677,
+                    "title": "Diário: 31/08/2026 – Wedding Dress",
+                    "kind": "new",
+                    "file": "2026-08-31-diario-31-08-2026-wedding-dress.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40655,
+                    "title": "Lito Sousa: por que pressão nas redes não pode mudar regras de estudos",
+                    "kind": "new",
+                    "file": "2026-08-30-lito-sousa-por-que-pressao-nas-redes-nao-pode-mudar-regras-de-estudos.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40640,
+                    "title": "Diário: 29/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-29-diario-29-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40628,
+                    "title": "Diário: 28/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-28-diario-28-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40291,
+                    "title": "Be My 20-Year-Old Baby Girl",
+                    "kind": "new",
+                    "file": "2026-08-27-be-my-20-year-old-baby-girl.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40585,
+                    "title": "Diário: 27/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-27-diario-27-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40578,
+                    "title": "Diário: 26/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-26-diario-26-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40351,
+                    "title": "YouTube, Netflix, Cinema e a Lei da Exclusividade",
+                    "kind": "new",
+                    "file": "2026-08-25-youtube-netflix-cinema-e-a-lei-da-exclusividade.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40549,
+                    "title": "Diário: 25/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-25-diario-25-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40523,
+                    "title": "“Esse ano tá parecendo um filme de terror”",
+                    "kind": "new",
+                    "file": "2026-08-25-esse-ano-ta-parecendo-um-filme-de-terror.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40676,
+                    "title": "Diário: 25/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-25-diario-25-08-2026-2.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40517,
+                    "title": "Diário: 24/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-24-diario-24-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40490,
+                    "title": "Diário: 23/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-23-diario-23-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40464,
+                    "title": "Diário: 22/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-22-diario-22-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40484,
+                    "title": "Diário: 21/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-21-diario-21-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40378,
+                    "title": "Diário: 19/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-19-diario-19-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 39845,
+                    "title": "O Dinheiro e a Abstração",
+                    "kind": "new",
+                    "file": "2026-08-19-o-dinheiro-e-a-abstracao.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40363,
+                    "title": "Diário: 18/08/2026 – How Men and Women Should Be Dressed",
+                    "kind": "new",
+                    "file": "2026-08-18-diario-18-08-2026-how-men-and-women-should-be-dressed.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40360,
+                    "title": "O Terapeuta Robô",
+                    "kind": "new",
+                    "file": "2026-08-17-o-terapeuta-robo.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40339,
+                    "title": "Diário: 16/08/2026 – Part 02",
+                    "kind": "new",
+                    "file": "2026-08-16-diario-16-08-2026-part-02.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40320,
+                    "title": "Diário: 16/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-16-diario-16-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40305,
+                    "title": "Quem mais está preso junto com Champinha?",
+                    "kind": "new",
+                    "file": "2026-08-15-quem-mais-esta-preso-junto-com-champinha.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40190,
+                    "title": "O Futuro dos Bloqueadores Anúncios",
+                    "kind": "new",
+                    "file": "2026-08-13-o-futuro-dos-bloqueadores-anuncios.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40265,
+                    "title": "Diário: 13/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-13-diario-13-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40223,
+                    "title": "“Maybe I’m a Child?”",
+                    "kind": "new",
+                    "file": "2026-08-12-maybe-im-a-child.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40254,
+                    "title": "Mark Zuckerberg e o “senta que o leão é manso”",
+                    "kind": "new",
+                    "file": "2026-08-12-mark-zuckerberg-e-o-senta-que-o-leao-e-manso.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40161,
+                    "title": "A Aura, o Autor e a IA Generativa",
+                    "kind": "new",
+                    "file": "2026-08-11-a-aura-o-autor-e-a-ia-generativa.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40208,
+                    "title": "Não volte para onde um dia você foi feliz",
+                    "kind": "new",
+                    "file": "2026-08-11-nao-volte-para-onde-um-dia-voce-foi-feliz.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40199,
+                    "title": "Por que esse caso é diferente?",
+                    "kind": "new",
+                    "file": "2026-08-10-por-que-esse-caso-e-diferente.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40172,
+                    "title": "Diário: 08/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-08-diario-08-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40155,
+                    "title": "Diário: 07/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-07-diario-07-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40147,
+                    "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
+                    "kind": "new",
+                    "file": "2026-08-06-minimax-h3-an-open-model-breaking-the-boundaries-between-tasks-and-modalities.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40117,
+                    "title": "Transparência Performativa",
+                    "kind": "new",
+                    "file": "2026-08-05-transparencia-performativa.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40103,
+                    "title": "Todas as pessoas em potenciais, o tempo que você tem é o tempo que você teve. We are the lucky ones",
+                    "kind": "new",
+                    "file": "2026-08-04-todas-as-pessoas-em-potenciais.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40091,
+                    "title": "Diário: 04/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-04-diario-04-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40023,
+                    "title": "Dogma Supremo",
+                    "kind": "new",
+                    "file": "2026-08-03-dogma-supremo.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40081,
+                    "title": "Diário: 03/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-03-diario-03-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 39720,
+                    "title": "Diário: 31/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-31-diario-31-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39988,
+                    "title": "A Loteria e a Natureza do Trabalho",
+                    "kind": "new",
+                    "file": "2026-07-31-a-loteria-e-a-natureza-do-trabalho.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40017,
+                    "title": "Diário: 29/07/2026 – Luto na Música",
+                    "kind": "new",
+                    "file": "2026-07-29-diario-29-07-2026-luto-na-musica.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39977,
+                    "title": "Diário: 28/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-28-diario-28-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39865,
+                    "title": "Apostou Contra O Mundo e Perdeu",
+                    "kind": "new",
+                    "file": "2026-07-27-apostou-contra-o-mundo-e-perdeu.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39950,
+                    "title": "Diário: 27/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-27-diario-27-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39936,
+                    "title": "Diário: 26/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-26-diario-26-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40463,
+                    "title": "fraco demais",
+                    "kind": "new",
+                    "file": "2026-07-26-fraco-demais.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40462,
+                    "title": "Isaac Asimov On Education",
+                    "kind": "new",
+                    "file": "2026-07-25-isaac-asimov-on-education.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39817,
+                    "title": "Diário: 19/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-19-diario-19-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39818,
+                    "title": "“Uma solução perfeita para a mídia digital, passa por dar garantias de que antes do desligamento de servidores, colocar os arquivos disponíveis para download por um período, sem qualquer checagem online ou proteção”",
+                    "kind": "new",
+                    "file": "2026-07-18-uma-solucao-perfeita-para-a-midia-digital.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39804,
+                    "title": "Diário: 18/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-18-diario-18-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39715,
+                    "title": "Um Confuso Texto Sobre IA Generativa (e um tiquinho de fetiches)…",
+                    "kind": "new",
+                    "file": "2026-07-18-um-confuso-texto-sobre-ia-generativa-e-um-tiquinho-de-fetiches.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39801,
+                    "title": "The End of Television",
+                    "kind": "new",
+                    "file": "2026-07-17-the-end-of-television.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39793,
+                    "title": "Diário: 17/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-17-diario-17-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39766,
+                    "title": "Diário: 16/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-16-diario-16-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39760,
+                    "title": "Diário: 15/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-15-diario-15-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39635,
+                    "title": "Sony e a “Tirania” da Conveniência",
+                    "kind": "new",
+                    "file": "2026-07-12-sony-e-a-tirania-da-conveniencia.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39738,
+                    "title": "“You’re looking out for yourself now”",
+                    "kind": "new",
+                    "file": "2026-07-11-youre-looking-out-for-yourself-now.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39732,
+                    "title": "Procurar valores morais dentro de uma empresa é como procurar o amor num puteiro",
+                    "kind": "new",
+                    "file": "2026-07-11-procurar-valores-morais-dentro-de-uma-empresa-e-como-procurar-o-amor-num-puteiro.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39706,
+                    "title": "“Novo governo acusa governo anterior de mentir”",
+                    "kind": "new",
+                    "file": "2026-07-09-novo-governo-acusa-governo-anterior-de-mentir.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39694,
+                    "title": "Diário: 08/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-08-diario-08-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39672,
+                    "title": "Diário: 06/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-06-diario-06-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39662,
+                    "title": "Diário: 05/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-05-diario-05-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39656,
+                    "title": "“Falar é incorrer em tautologias”",
+                    "kind": "new",
+                    "file": "2026-07-05-falar-e-incorrer-em-tautologias.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39619,
+                    "title": "Diário: 02/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-02-diario-02-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39646,
+                    "title": "“Quanto do dinheiro que eu trabalhei para conseguir, você acha que tem direito?”",
+                    "kind": "new",
+                    "file": "2026-07-01-quanto-do-dinheiro-que-eu-trabalhei-para-conseguir-voce-acha-que-tem-direito.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39612,
+                    "title": "Sony anuncia fim da mídia física para consoles PlayStation em 2028",
+                    "kind": "new",
+                    "file": "2026-07-01-sony-anuncia-fim-da-midia-fisica-para-consoles-playstation-em-2028.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39540,
+                    "title": "“Você, que me lê, tem certeza de entender a minha linguagem?”",
+                    "kind": "new",
+                    "file": "2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39565,
+                    "title": "Diário: 29/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-29-diario-29-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39586,
+                    "title": "Morre o dublador Figueira Júnior, de ‘Dragon Ball’, aos 60 anos",
+                    "kind": "new",
+                    "file": "2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39577,
+                    "title": "Porque, no fim, todo mundo vai embora. Por que, no fim, todo mundo vai embora?",
+                    "kind": "new",
+                    "file": "2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39396,
+                    "title": "Diário: 27/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-27-diario-27-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39554,
+                    "title": "2026: O Filme",
+                    "kind": "new",
+                    "file": "2026-06-26-2026-o-filme.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39561,
+                    "title": "Diário: 26/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-26-diario-28-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39517,
+                    "title": "Diário: 24/06/2026 – Part 02",
+                    "kind": "new",
+                    "file": "2026-06-24-diario-24-06-2026-2.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39514,
+                    "title": "Diário: 24/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-24-diario-24-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39502,
+                    "title": "Diário: 22/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-22-diario-22-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39496,
+                    "title": "Diário: 21/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-21-diario-21-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39475,
+                    "title": "O Ultimo Episódio dos Simpsons e o Último Episódio deste Blog",
+                    "kind": "new",
+                    "file": "2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39487,
+                    "title": "Diário: 19/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-19-diario-19-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39471,
+                    "title": "Diário: 18/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-18-diario-18-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39446,
+                    "title": "Prisons of Mind",
+                    "kind": "new",
+                    "file": "2026-06-13-prisons-of-mind.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39423,
+                    "title": "“Nunca poderia sair desse navio. No máximo, posso sair da minha vida”",
+                    "kind": "new",
+                    "file": "2026-06-11-diario-12-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39376,
+                    "title": "Diário: 11/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-11-diario-11-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39456,
+                    "title": "“…por favor encontre esse blog”",
+                    "kind": "new",
+                    "file": "2026-06-10-por-favor-encontre-esse-blog.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39379,
+                    "title": "Diário: 06/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-06-diario-06-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39339,
+                    "title": "Diário: 03/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-03-diario-03-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39350,
+                    "title": "Diário: 01/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-01-diario-01-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39223,
+                    "title": "Diário: 31/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-31-diario-31-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39346,
+                    "title": "Lista: quem apoiou os abusos de Moraes e depois mudou de opinião",
+                    "kind": "new",
+                    "file": "2026-05-31-lista-quem-apoiou-os-abusos-de-moraes-e-depois-mudou-de-opiniao.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39324,
+                    "title": "Diário: 29/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-29-diario-29-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39284,
+                    "title": "Diário: 22/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-25-diario-22-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39303,
+                    "title": "Frank Sinatra – I Wish You Were A Girl",
+                    "kind": "new",
+                    "file": "2026-05-24-frank-sinatra-i-wish-you-were-a-girl.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39121,
+                    "title": "Há canções que parecem carregar em si a eternidade",
+                    "kind": "new",
+                    "file": "2026-05-21-ha-cancoes-que-parecem-carregar-em-si-a-eternidade.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39156,
+                    "title": "Diário: 19/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-19-diario-19-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39118,
+                    "title": "“Women who wear shorts under the dress should be jailed for fraud”",
+                    "kind": "new",
+                    "file": "2026-05-19-women-who-wear-shorts-under-the-dress-should-be-jailed-for-fraud.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39233,
+                    "title": "O Futuro dos Codecs de Compressão de Vídeo",
+                    "kind": "new",
+                    "file": "2026-05-17-o-futuro-dos-codecs-de-compressao-de-video.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39244,
+                    "title": "Diário: 17/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-17-diario-17-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 38686,
+                    "title": "Por que o Sora fechou?",
+                    "kind": "new",
+                    "file": "2026-05-14-por-que-o-sora-fechou.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39205,
+                    "title": "Diário: 09/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-09-diario-09-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39014,
+                    "title": "Uma Obsessiva Análise de “Quero Ser John Malkovich”",
+                    "kind": "new",
+                    "file": "2026-05-06-quero-ser-john-malkovitch.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39162,
+                    "title": "Por favor, Enfie o Cinema Nacional no Cu",
+                    "kind": "new",
+                    "file": "2026-05-06-por-favor-enfie-o-cinema-nacional-no-cu.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39112,
+                    "title": "Diário: 03/05/2026 – Advogada é presa em flagrante após abandonar cachorro idoso em rua",
+                    "kind": "new",
+                    "file": "2026-05-03-03-05-2026-advogada-e-presa.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 38808,
+                    "title": "Diário: 30/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-30-diario-30-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39069,
+                    "title": "Diário: 29/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-29-diario-29-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38642,
+                    "title": "Diário: 28/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-28-diario-28-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38988,
+                    "title": "O Direito Internacional de Schrödinger",
+                    "kind": "new",
+                    "file": "2026-04-27-o-direito-internacional-de-schrodinger.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39029,
+                    "title": "“A polícia é o SUS da direita”",
+                    "kind": "new",
+                    "file": "2026-04-27-a-policia-e-o-sus-da-direita.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39020,
+                    "title": "“Quem deu poder para esse homem de capa preta?”",
+                    "kind": "new",
+                    "file": "2026-04-27-quem-deu-poder-para-esse-homem-de-capa-preta.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38995,
+                    "title": "Diário: 25/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-25-diario-25-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38982,
+                    "title": "Diário: 24/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-24-diario-24-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38946,
+                    "title": "Tribunal Penal Internacional da Justiça dos Vencedores",
+                    "kind": "new",
+                    "file": "2026-04-23-tribunal-penal-internacional-da-justica-dos-vencedores.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38869,
+                    "title": "Os Eternos Nomes e Thumbnails Mudantes",
+                    "kind": "new",
+                    "file": "2026-04-23-os-eternos-nomes-e-thumbnails-mudantes.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38959,
+                    "title": "Diário: 23/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-23-diario-23-04-2026-2.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38924,
+                    "title": "Colorização, IA e Espaços Latentes",
+                    "kind": "new",
+                    "file": "2026-04-23-diario-23-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38940,
+                    "title": "Diário: 22/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-22-diario-22-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38835,
+                    "title": "A IA Generativa e a Eficiência",
+                    "kind": "new",
+                    "file": "2026-04-21-ia-generativa-e-a-eficiencia.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38907,
+                    "title": "Diário: 18/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-18-diario-18-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38889,
+                    "title": "Diário: 15/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-15-diario-15-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38882,
+                    "title": "O “Grande Plano” dos Artistas Ludistas Anti-IA",
+                    "kind": "new",
+                    "file": "2026-04-15-o-grande-plano-dos-artistas-ludistas-anti-ia.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38828,
+                    "title": "À Mulheres, Escolhas. Aos Homens, Prisão",
+                    "kind": "new",
+                    "file": "2026-04-15-a-mulheres-escolhas-aos-homens-prisao.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38760,
+                    "title": "Narrativa: A Restauração, o Monumento e o Abandono",
+                    "kind": "new",
+                    "file": "2026-04-12-__trashed-4.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38799,
+                    "title": "A Judicialização do Amor",
+                    "kind": "new",
+                    "file": "2026-04-10-a-judicializacao-do-amor.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38792,
+                    "title": "Diário: 08/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-08-diario-08-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38767,
+                    "title": "Diário: 05/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-05-diario-05-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38750,
+                    "title": "Diário: 01/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-01-diario-01-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38607,
+                    "title": "Diário: 31/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-31-diario-31-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38697,
+                    "title": "Algum dia haverá LLMs locais realmente “úteis”?",
+                    "kind": "new",
+                    "file": "2026-03-30-algum-dia-havera-llms-locais-realmente-uteis.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38712,
+                    "title": "Diário: 28/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-28-diario-28-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38701,
+                    "title": "Diário: 26/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-26-diario-26-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38666,
+                    "title": "Diário: 23/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-23-diario-23-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38616,
+                    "title": "Diário: 19/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-19-diario-19-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38631,
+                    "title": "Diário: 18/03/2026 – The Fall Of Midjourney",
+                    "kind": "new",
+                    "file": "2026-03-18-diario-18-03-2026-the-fall-of-midjourney.html",
+                    "month": "2026-03"
+                }
+            ]
+        },
+        {
+            "at": "2026-09-04T03:25:53+00:00",
+            "mode": "full",
+            "new": 2599,
+            "updated": 0,
+            "postsTruncated": true,
+            "posts": [
+                {
+                    "id": 40736,
+                    "title": "Diário: 03/09/2026",
+                    "kind": "new",
+                    "file": "2026-09-03-diario-03-09-2026.html",
+                    "month": "2026-09"
+                },
+                {
+                    "id": 40610,
+                    "title": "Mudamos de Endereço",
+                    "kind": "new",
+                    "file": "2026-09-01-mudamos-de-endereco.html",
+                    "month": "2026-09"
+                },
+                {
+                    "id": 40611,
+                    "title": "Information Feudalism: Who Owns the Knowledge Economy",
+                    "kind": "new",
+                    "file": "2026-09-01-information-feudalism-who-owns-the-knowledge-economy.html",
+                    "month": "2026-09"
+                },
+                {
+                    "id": 40127,
+                    "title": "Diário: 31/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-31-diario-31-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40677,
+                    "title": "Diário: 31/08/2026 – Wedding Dress",
+                    "kind": "new",
+                    "file": "2026-08-31-diario-31-08-2026-wedding-dress.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40655,
+                    "title": "Lito Sousa: por que pressão nas redes não pode mudar regras de estudos",
+                    "kind": "new",
+                    "file": "2026-08-30-lito-sousa-por-que-pressao-nas-redes-nao-pode-mudar-regras-de-estudos.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40640,
+                    "title": "Diário: 29/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-29-diario-29-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40628,
+                    "title": "Diário: 28/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-28-diario-28-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40291,
+                    "title": "Be My 20-Year-Old Baby Girl",
+                    "kind": "new",
+                    "file": "2026-08-27-be-my-20-year-old-baby-girl.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40585,
+                    "title": "Diário: 27/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-27-diario-27-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40578,
+                    "title": "Diário: 26/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-26-diario-26-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40351,
+                    "title": "YouTube, Netflix, Cinema e a Lei da Exclusividade",
+                    "kind": "new",
+                    "file": "2026-08-25-youtube-netflix-cinema-e-a-lei-da-exclusividade.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40549,
+                    "title": "Diário: 25/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-25-diario-25-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40523,
+                    "title": "“Esse ano tá parecendo um filme de terror”",
+                    "kind": "new",
+                    "file": "2026-08-25-esse-ano-ta-parecendo-um-filme-de-terror.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40676,
+                    "title": "Diário: 25/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-25-diario-25-08-2026-2.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40517,
+                    "title": "Diário: 24/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-24-diario-24-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40490,
+                    "title": "Diário: 23/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-23-diario-23-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40464,
+                    "title": "Diário: 22/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-22-diario-22-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40484,
+                    "title": "Diário: 21/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-21-diario-21-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40378,
+                    "title": "Diário: 19/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-19-diario-19-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 39845,
+                    "title": "O Dinheiro e a Abstração",
+                    "kind": "new",
+                    "file": "2026-08-19-o-dinheiro-e-a-abstracao.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40363,
+                    "title": "Diário: 18/08/2026 – How Men and Women Should Be Dressed",
+                    "kind": "new",
+                    "file": "2026-08-18-diario-18-08-2026-how-men-and-women-should-be-dressed.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40360,
+                    "title": "O Terapeuta Robô",
+                    "kind": "new",
+                    "file": "2026-08-17-o-terapeuta-robo.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40339,
+                    "title": "Diário: 16/08/2026 – Part 02",
+                    "kind": "new",
+                    "file": "2026-08-16-diario-16-08-2026-part-02.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40320,
+                    "title": "Diário: 16/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-16-diario-16-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40305,
+                    "title": "Quem mais está preso junto com Champinha?",
+                    "kind": "new",
+                    "file": "2026-08-15-quem-mais-esta-preso-junto-com-champinha.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40190,
+                    "title": "O Futuro dos Bloqueadores Anúncios",
+                    "kind": "new",
+                    "file": "2026-08-13-o-futuro-dos-bloqueadores-anuncios.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40265,
+                    "title": "Diário: 13/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-13-diario-13-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40223,
+                    "title": "“Maybe I’m a Child?”",
+                    "kind": "new",
+                    "file": "2026-08-12-maybe-im-a-child.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40254,
+                    "title": "Mark Zuckerberg e o “senta que o leão é manso”",
+                    "kind": "new",
+                    "file": "2026-08-12-mark-zuckerberg-e-o-senta-que-o-leao-e-manso.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40161,
+                    "title": "A Aura, o Autor e a IA Generativa",
+                    "kind": "new",
+                    "file": "2026-08-11-a-aura-o-autor-e-a-ia-generativa.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40208,
+                    "title": "Não volte para onde um dia você foi feliz",
+                    "kind": "new",
+                    "file": "2026-08-11-nao-volte-para-onde-um-dia-voce-foi-feliz.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40199,
+                    "title": "Por que esse caso é diferente?",
+                    "kind": "new",
+                    "file": "2026-08-10-por-que-esse-caso-e-diferente.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40172,
+                    "title": "Diário: 08/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-08-diario-08-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40155,
+                    "title": "Diário: 07/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-07-diario-07-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40147,
+                    "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
+                    "kind": "new",
+                    "file": "2026-08-06-minimax-h3-an-open-model-breaking-the-boundaries-between-tasks-and-modalities.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40117,
+                    "title": "Transparência Performativa",
+                    "kind": "new",
+                    "file": "2026-08-05-transparencia-performativa.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40103,
+                    "title": "Todas as pessoas em potenciais, o tempo que você tem é o tempo que você teve. We are the lucky ones",
+                    "kind": "new",
+                    "file": "2026-08-04-todas-as-pessoas-em-potenciais.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40091,
+                    "title": "Diário: 04/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-04-diario-04-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40023,
+                    "title": "Dogma Supremo",
+                    "kind": "new",
+                    "file": "2026-08-03-dogma-supremo.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 40081,
+                    "title": "Diário: 03/08/2026",
+                    "kind": "new",
+                    "file": "2026-08-03-diario-03-08-2026.html",
+                    "month": "2026-08"
+                },
+                {
+                    "id": 39720,
+                    "title": "Diário: 31/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-31-diario-31-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39988,
+                    "title": "A Loteria e a Natureza do Trabalho",
+                    "kind": "new",
+                    "file": "2026-07-31-a-loteria-e-a-natureza-do-trabalho.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40017,
+                    "title": "Diário: 29/07/2026 – Luto na Música",
+                    "kind": "new",
+                    "file": "2026-07-29-diario-29-07-2026-luto-na-musica.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39977,
+                    "title": "Diário: 28/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-28-diario-28-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39865,
+                    "title": "Apostou Contra O Mundo e Perdeu",
+                    "kind": "new",
+                    "file": "2026-07-27-apostou-contra-o-mundo-e-perdeu.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39950,
+                    "title": "Diário: 27/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-27-diario-27-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39936,
+                    "title": "Diário: 26/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-26-diario-26-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40463,
+                    "title": "fraco demais",
+                    "kind": "new",
+                    "file": "2026-07-26-fraco-demais.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 40462,
+                    "title": "Isaac Asimov On Education",
+                    "kind": "new",
+                    "file": "2026-07-25-isaac-asimov-on-education.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39817,
+                    "title": "Diário: 19/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-19-diario-19-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39818,
+                    "title": "“Uma solução perfeita para a mídia digital, passa por dar garantias de que antes do desligamento de servidores, colocar os arquivos disponíveis para download por um período, sem qualquer checagem online ou proteção”",
+                    "kind": "new",
+                    "file": "2026-07-18-uma-solucao-perfeita-para-a-midia-digital.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39804,
+                    "title": "Diário: 18/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-18-diario-18-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39715,
+                    "title": "Um Confuso Texto Sobre IA Generativa (e um tiquinho de fetiches)…",
+                    "kind": "new",
+                    "file": "2026-07-18-um-confuso-texto-sobre-ia-generativa-e-um-tiquinho-de-fetiches.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39801,
+                    "title": "The End of Television",
+                    "kind": "new",
+                    "file": "2026-07-17-the-end-of-television.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39793,
+                    "title": "Diário: 17/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-17-diario-17-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39766,
+                    "title": "Diário: 16/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-16-diario-16-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39760,
+                    "title": "Diário: 15/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-15-diario-15-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39635,
+                    "title": "Sony e a “Tirania” da Conveniência",
+                    "kind": "new",
+                    "file": "2026-07-12-sony-e-a-tirania-da-conveniencia.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39738,
+                    "title": "“You’re looking out for yourself now”",
+                    "kind": "new",
+                    "file": "2026-07-11-youre-looking-out-for-yourself-now.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39732,
+                    "title": "Procurar valores morais dentro de uma empresa é como procurar o amor num puteiro",
+                    "kind": "new",
+                    "file": "2026-07-11-procurar-valores-morais-dentro-de-uma-empresa-e-como-procurar-o-amor-num-puteiro.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39706,
+                    "title": "“Novo governo acusa governo anterior de mentir”",
+                    "kind": "new",
+                    "file": "2026-07-09-novo-governo-acusa-governo-anterior-de-mentir.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39694,
+                    "title": "Diário: 08/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-08-diario-08-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39672,
+                    "title": "Diário: 06/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-06-diario-06-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39662,
+                    "title": "Diário: 05/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-05-diario-05-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39656,
+                    "title": "“Falar é incorrer em tautologias”",
+                    "kind": "new",
+                    "file": "2026-07-05-falar-e-incorrer-em-tautologias.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39619,
+                    "title": "Diário: 02/07/2026",
+                    "kind": "new",
+                    "file": "2026-07-02-diario-02-07-2026.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39646,
+                    "title": "“Quanto do dinheiro que eu trabalhei para conseguir, você acha que tem direito?”",
+                    "kind": "new",
+                    "file": "2026-07-01-quanto-do-dinheiro-que-eu-trabalhei-para-conseguir-voce-acha-que-tem-direito.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39612,
+                    "title": "Sony anuncia fim da mídia física para consoles PlayStation em 2028",
+                    "kind": "new",
+                    "file": "2026-07-01-sony-anuncia-fim-da-midia-fisica-para-consoles-playstation-em-2028.html",
+                    "month": "2026-07"
+                },
+                {
+                    "id": 39540,
+                    "title": "“Você, que me lê, tem certeza de entender a minha linguagem?”",
+                    "kind": "new",
+                    "file": "2026-06-30-voce-que-me-le-tem-certeza-de-entender-a-minha-linguagem.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39565,
+                    "title": "Diário: 29/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-29-diario-29-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39586,
+                    "title": "Morre o dublador Figueira Júnior, de ‘Dragon Ball’, aos 60 anos",
+                    "kind": "new",
+                    "file": "2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39577,
+                    "title": "Porque, no fim, todo mundo vai embora. Por que, no fim, todo mundo vai embora?",
+                    "kind": "new",
+                    "file": "2026-06-28-porque-no-fim-todo-mundo-vai-embora-por-que-no-fim-todo-mundo-vai-embora.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39396,
+                    "title": "Diário: 27/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-27-diario-27-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39554,
+                    "title": "2026: O Filme",
+                    "kind": "new",
+                    "file": "2026-06-26-2026-o-filme.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39561,
+                    "title": "Diário: 26/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-26-diario-28-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39517,
+                    "title": "Diário: 24/06/2026 – Part 02",
+                    "kind": "new",
+                    "file": "2026-06-24-diario-24-06-2026-2.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39514,
+                    "title": "Diário: 24/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-24-diario-24-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39502,
+                    "title": "Diário: 22/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-22-diario-22-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39496,
+                    "title": "Diário: 21/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-21-diario-21-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39475,
+                    "title": "O Ultimo Episódio dos Simpsons e o Último Episódio deste Blog",
+                    "kind": "new",
+                    "file": "2026-06-19-o-ultimo-episodio-dos-simpsons-e-o-ultimo-episodio-deste-blog.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39487,
+                    "title": "Diário: 19/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-19-diario-19-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39471,
+                    "title": "Diário: 18/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-18-diario-18-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39446,
+                    "title": "Prisons of Mind",
+                    "kind": "new",
+                    "file": "2026-06-13-prisons-of-mind.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39423,
+                    "title": "“Nunca poderia sair desse navio. No máximo, posso sair da minha vida”",
+                    "kind": "new",
+                    "file": "2026-06-11-diario-12-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39376,
+                    "title": "Diário: 11/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-11-diario-11-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39456,
+                    "title": "“…por favor encontre esse blog”",
+                    "kind": "new",
+                    "file": "2026-06-10-por-favor-encontre-esse-blog.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39379,
+                    "title": "Diário: 06/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-06-diario-06-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39339,
+                    "title": "Diário: 03/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-03-diario-03-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39350,
+                    "title": "Diário: 01/06/2026",
+                    "kind": "new",
+                    "file": "2026-06-01-diario-01-06-2026.html",
+                    "month": "2026-06"
+                },
+                {
+                    "id": 39223,
+                    "title": "Diário: 31/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-31-diario-31-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39346,
+                    "title": "Lista: quem apoiou os abusos de Moraes e depois mudou de opinião",
+                    "kind": "new",
+                    "file": "2026-05-31-lista-quem-apoiou-os-abusos-de-moraes-e-depois-mudou-de-opiniao.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39324,
+                    "title": "Diário: 29/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-29-diario-29-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39284,
+                    "title": "Diário: 22/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-25-diario-22-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39303,
+                    "title": "Frank Sinatra – I Wish You Were A Girl",
+                    "kind": "new",
+                    "file": "2026-05-24-frank-sinatra-i-wish-you-were-a-girl.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39121,
+                    "title": "Há canções que parecem carregar em si a eternidade",
+                    "kind": "new",
+                    "file": "2026-05-21-ha-cancoes-que-parecem-carregar-em-si-a-eternidade.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39156,
+                    "title": "Diário: 19/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-19-diario-19-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39118,
+                    "title": "“Women who wear shorts under the dress should be jailed for fraud”",
+                    "kind": "new",
+                    "file": "2026-05-19-women-who-wear-shorts-under-the-dress-should-be-jailed-for-fraud.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39233,
+                    "title": "O Futuro dos Codecs de Compressão de Vídeo",
+                    "kind": "new",
+                    "file": "2026-05-17-o-futuro-dos-codecs-de-compressao-de-video.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39244,
+                    "title": "Diário: 17/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-17-diario-17-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 38686,
+                    "title": "Por que o Sora fechou?",
+                    "kind": "new",
+                    "file": "2026-05-14-por-que-o-sora-fechou.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39205,
+                    "title": "Diário: 09/05/2026",
+                    "kind": "new",
+                    "file": "2026-05-09-diario-09-05-2026.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39014,
+                    "title": "Uma Obsessiva Análise de “Quero Ser John Malkovich”",
+                    "kind": "new",
+                    "file": "2026-05-06-quero-ser-john-malkovitch.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39162,
+                    "title": "Por favor, Enfie o Cinema Nacional no Cu",
+                    "kind": "new",
+                    "file": "2026-05-06-por-favor-enfie-o-cinema-nacional-no-cu.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 39112,
+                    "title": "Diário: 03/05/2026 – Advogada é presa em flagrante após abandonar cachorro idoso em rua",
+                    "kind": "new",
+                    "file": "2026-05-03-03-05-2026-advogada-e-presa.html",
+                    "month": "2026-05"
+                },
+                {
+                    "id": 38808,
+                    "title": "Diário: 30/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-30-diario-30-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39069,
+                    "title": "Diário: 29/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-29-diario-29-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38642,
+                    "title": "Diário: 28/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-28-diario-28-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38988,
+                    "title": "O Direito Internacional de Schrödinger",
+                    "kind": "new",
+                    "file": "2026-04-27-o-direito-internacional-de-schrodinger.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39029,
+                    "title": "“A polícia é o SUS da direita”",
+                    "kind": "new",
+                    "file": "2026-04-27-a-policia-e-o-sus-da-direita.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 39020,
+                    "title": "“Quem deu poder para esse homem de capa preta?”",
+                    "kind": "new",
+                    "file": "2026-04-27-quem-deu-poder-para-esse-homem-de-capa-preta.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38995,
+                    "title": "Diário: 25/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-25-diario-25-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38982,
+                    "title": "Diário: 24/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-24-diario-24-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38946,
+                    "title": "Tribunal Penal Internacional da Justiça dos Vencedores",
+                    "kind": "new",
+                    "file": "2026-04-23-tribunal-penal-internacional-da-justica-dos-vencedores.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38869,
+                    "title": "Os Eternos Nomes e Thumbnails Mudantes",
+                    "kind": "new",
+                    "file": "2026-04-23-os-eternos-nomes-e-thumbnails-mudantes.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38959,
+                    "title": "Diário: 23/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-23-diario-23-04-2026-2.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38924,
+                    "title": "Colorização, IA e Espaços Latentes",
+                    "kind": "new",
+                    "file": "2026-04-23-diario-23-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38940,
+                    "title": "Diário: 22/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-22-diario-22-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38835,
+                    "title": "A IA Generativa e a Eficiência",
+                    "kind": "new",
+                    "file": "2026-04-21-ia-generativa-e-a-eficiencia.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38907,
+                    "title": "Diário: 18/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-18-diario-18-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38889,
+                    "title": "Diário: 15/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-15-diario-15-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38882,
+                    "title": "O “Grande Plano” dos Artistas Ludistas Anti-IA",
+                    "kind": "new",
+                    "file": "2026-04-15-o-grande-plano-dos-artistas-ludistas-anti-ia.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38828,
+                    "title": "À Mulheres, Escolhas. Aos Homens, Prisão",
+                    "kind": "new",
+                    "file": "2026-04-15-a-mulheres-escolhas-aos-homens-prisao.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38760,
+                    "title": "Narrativa: A Restauração, o Monumento e o Abandono",
+                    "kind": "new",
+                    "file": "2026-04-12-__trashed-4.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38799,
+                    "title": "A Judicialização do Amor",
+                    "kind": "new",
+                    "file": "2026-04-10-a-judicializacao-do-amor.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38792,
+                    "title": "Diário: 08/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-08-diario-08-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38767,
+                    "title": "Diário: 05/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-05-diario-05-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38750,
+                    "title": "Diário: 01/04/2026",
+                    "kind": "new",
+                    "file": "2026-04-01-diario-01-04-2026.html",
+                    "month": "2026-04"
+                },
+                {
+                    "id": 38607,
+                    "title": "Diário: 31/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-31-diario-31-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38697,
+                    "title": "Algum dia haverá LLMs locais realmente “úteis”?",
+                    "kind": "new",
+                    "file": "2026-03-30-algum-dia-havera-llms-locais-realmente-uteis.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38712,
+                    "title": "Diário: 28/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-28-diario-28-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38701,
+                    "title": "Diário: 26/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-26-diario-26-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38666,
+                    "title": "Diário: 23/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-23-diario-23-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38616,
+                    "title": "Diário: 19/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-19-diario-19-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38631,
+                    "title": "Diário: 18/03/2026 – The Fall Of Midjourney",
+                    "kind": "new",
+                    "file": "2026-03-18-diario-18-03-2026-the-fall-of-midjourney.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38596,
+                    "title": "Diário: 03/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-03-diario-03-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38585,
+                    "title": "Diário: 01/03/2026",
+                    "kind": "new",
+                    "file": "2026-03-01-diario-01-03-2026.html",
+                    "month": "2026-03"
+                },
+                {
+                    "id": 38308,
+                    "title": "Diário: 28/02/2026",
+                    "kind": "new",
+                    "file": "2026-02-28-diario-28-02-2026.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38565,
+                    "title": "A troca de compreensão e controle por conveniência: dos coletores-caçadores ao vibe-coding",
+                    "kind": "new",
+                    "file": "2026-02-26-a-troca-de-compreensao-e-controle-por-conveniencia-dos-coletores-cacadores-ao-vibe-coding.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38515,
+                    "title": "Diário: 23/02/2026",
+                    "kind": "new",
+                    "file": "2026-02-23-diario-23-02-2026.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38357,
+                    "title": "O Padrão Ouro das IA Generativas",
+                    "kind": "new",
+                    "file": "2026-02-19-o-padrao-ouro-das-ia-generativas.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38482,
+                    "title": "O Mártir é um Garoto Propaganda",
+                    "kind": "new",
+                    "file": "2026-02-17-o-martir-e-um-garoto-propaganda.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38459,
+                    "title": "Diário: 15/02/2026",
+                    "kind": "new",
+                    "file": "2026-02-16-diario-15-02-2026-2.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38462,
+                    "title": "Diário: 15/02/2026",
+                    "kind": "new",
+                    "file": "2026-02-15-diario-15-02-2026.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38422,
+                    "title": "O que é um assalto a banco para quem deixou Clezão morrer?",
+                    "kind": "new",
+                    "file": "2026-02-15-o-que-e-um-assalto-a-banco-para-quem-deixou-clezao-morrer.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38386,
+                    "title": "A Lei da Anistia, o STF e o Eterno Revanchismo da Esquerda",
+                    "kind": "new",
+                    "file": "2026-02-13-a-lei-da-anistia-o-stf-e-o-eterno-revanchismo-da-esquerda.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38398,
+                    "title": "Diário: 13/02/2026",
+                    "kind": "new",
+                    "file": "2026-02-13-diario-13-02-2026.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38366,
+                    "title": "Implementações Medíocres: IA Sidebar do Firefox",
+                    "kind": "new",
+                    "file": "2026-02-13-implementacoes-mediocres-ia-sidebar-do-firefox.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38368,
+                    "title": "O Código de Fachin",
+                    "kind": "new",
+                    "file": "2026-02-11-o-codigo-de-fachin.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38347,
+                    "title": "O MCP e o Robô com Bloquinho de Notas",
+                    "kind": "new",
+                    "file": "2026-02-09-o-mcp-e-o-robo-com-bloquinho-de-notas.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38322,
+                    "title": "O Jornalista É Só Uma Puta",
+                    "kind": "new",
+                    "file": "2026-02-08-o-jornalista-e-so-uma-puta.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38325,
+                    "title": "Diário: 07/02/2026",
+                    "kind": "new",
+                    "file": "2026-02-07-diario-07-02-2026.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38297,
+                    "title": "Diário: 04/02/2026",
+                    "kind": "new",
+                    "file": "2026-02-04-diario-04-02-2026.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38299,
+                    "title": "Diário: 03/02/2026",
+                    "kind": "new",
+                    "file": "2026-02-03-diario-03-02-2026.html",
+                    "month": "2026-02"
+                },
+                {
+                    "id": 38181,
+                    "title": "Diário: 31/01/2026",
+                    "kind": "new",
+                    "file": "2026-01-31-diario-31-01-2026.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38275,
+                    "title": "O Orelha e o Gabriel",
+                    "kind": "new",
+                    "file": "2026-01-30-o-orelha-e-gabriel-kuhn.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38254,
+                    "title": "A Pergunta Certa é Metade da Resposta",
+                    "kind": "new",
+                    "file": "2026-01-20-a-pergunta-e-metade-da-resposta.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38257,
+                    "title": "Diário: 19/01/2026",
+                    "kind": "new",
+                    "file": "2026-01-19-diario-19-01-2026.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38233,
+                    "title": "Diário: 11/01/2026",
+                    "kind": "new",
+                    "file": "2026-01-16-diario-11-01-2026.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38227,
+                    "title": "Acho Que Cê É Louca (Motion Picture Soundtrack by Radiohead)",
+                    "kind": "new",
+                    "file": "2026-01-10-acho-que-ce-e-louca-motion-picture-soundtrack-by-radiohead.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38218,
+                    "title": "Cérebros Isolados",
+                    "kind": "new",
+                    "file": "2026-01-08-cerebros-isolados.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38199,
+                    "title": "O Grande Plano da Direita",
+                    "kind": "new",
+                    "file": "2026-01-05-o-grande-plano-da-direita.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38176,
+                    "title": "Soberania Atômica",
+                    "kind": "new",
+                    "file": "2026-01-04-soberania-atomica.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38171,
+                    "title": "Diário: 03/01/2026",
+                    "kind": "new",
+                    "file": "2026-01-03-diario-03-01-2026.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38211,
+                    "title": "Diário: 02/01/2026",
+                    "kind": "new",
+                    "file": "2026-01-02-diario-02-01-2026.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38152,
+                    "title": "Diário: 01/01/2026",
+                    "kind": "new",
+                    "file": "2026-01-01-diario-01-01-2026.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 37990,
+                    "title": "Nós Sempre Somos os Bonzinhos",
+                    "kind": "new",
+                    "file": "2026-01-01-nos-sempre-somos-os-bonzinhos.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38143,
+                    "title": "“Ainda Não”",
+                    "kind": "new",
+                    "file": "2026-01-01-ainda-nao.html",
+                    "month": "2026-01"
+                },
+                {
+                    "id": 38139,
+                    "title": "If it isn’t as good as human, it means it’s failing",
+                    "kind": "new",
+                    "file": "2025-12-30-if-it-isnt-as-good-as-human-it-means-its-failing.html",
+                    "month": "2025-12"
+                },
+                {
+                    "id": 38125,
+                    "title": "Diário: 29/12/2025",
+                    "kind": "new",
+                    "file": "2025-12-29-diario-29-12-2025.html",
+                    "month": "2025-12"
+                },
+                {
+                    "id": 38110,
+                    "title": "Diário: 26/12/2025",
+                    "kind": "new",
+                    "file": "2025-12-26-diario-26-12-2025.html",
+                    "month": "2025-12"
+                },
+                {
+                    "id": 38054,
+                    "title": "Diário: 17/12/2025",
+                    "kind": "new",
+                    "file": "2025-12-17-diario-17-12-2025.html",
+                    "month": "2025-12"
+                },
+                {
+                    "id": 38036,
+                    "title": "O Ditador Ganha Todas",
+                    "kind": "new",
+                    "file": "2025-12-12-o-ditador-ganha-todas.html",
+                    "month": "2025-12"
+                },
+                {
+                    "id": 38058,
+                    "title": "Por que não tenho pena de Bolsonaro ser perseguido pela Ditadura Judicial Brasileira",
+                    "kind": "new",
+                    "file": "2025-12-05-por-que-nao-tenho-pena-de-bolsonaro-ser-perseguido-pela-ditadura-judicial-brasileira.html",
+                    "month": "2025-12"
+                },
+                {
+                    "id": 37860,
+                    "title": "Diário: 30/11/2025",
+                    "kind": "new",
+                    "file": "2025-11-30-diario-30-11-2025.html",
+                    "month": "2025-11"
+                },
+                {
+                    "id": 37970,
+                    "title": "Diário: 27/11/2025",
+                    "kind": "new",
+                    "file": "2025-11-27-diario-27-11-2025.html",
+                    "month": "2025-11"
+                },
+                {
+                    "id": 37937,
+                    "title": "Diário: 22/11/2025",
+                    "kind": "new",
+                    "file": "2025-11-22-diario-22-11-2025.html",
+                    "month": "2025-11"
+                },
+                {
+                    "id": 37920,
+                    "title": "Diário: 18/11/2025",
+                    "kind": "new",
+                    "file": "2025-11-18-diario-18-11-2025.html",
+                    "month": "2025-11"
+                },
+                {
+                    "id": 37915,
+                    "title": "Diário: 15/11/2025",
+                    "kind": "new",
+                    "file": "2025-11-15-diario-15-11-2025.html",
+                    "month": "2025-11"
+                },
+                {
+                    "id": 37855,
+                    "title": "Não Sei Viver/Meu Mundo Dum Homem Só",
+                    "kind": "new",
+                    "file": "2025-11-10-nao-sei-viver-meu-mundo-dum-homem-so.html",
+                    "month": "2025-11"
+                },
+                {
+                    "id": 37595,
+                    "title": "Diário: 31/10/2025",
+                    "kind": "new",
+                    "file": "2025-10-31-diario-31-10-2025.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37821,
+                    "title": "Diário: 28/10/2025",
+                    "kind": "new",
+                    "file": "2025-10-28-diario-28-10-2025.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37957,
+                    "title": "Diário: 23/10/2025",
+                    "kind": "new",
+                    "file": "2025-10-23-diario-23-10-2025.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37708,
+                    "title": "Organização de Informação e os Paralelos do Webscraping/APIs no Mundo Real",
+                    "kind": "new",
+                    "file": "2025-10-21-organizacao-de-informacao-e-os-paralelos-do-webscraping-apis-no-mundo-real.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37721,
+                    "title": "O Plano da Ala Mais Prafrentex do Supremo para Legalizar o Aborto no Brasil",
+                    "kind": "new",
+                    "file": "2025-10-20-o-plano-da-ala-mais-prafrentex-do-supremo-para-legalizar-o-aborto-no-brasil.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37715,
+                    "title": "Por que Felca aceitou um contrato com a Globo? ",
+                    "kind": "new",
+                    "file": "2025-10-18-por-que-felca-aceitou-um-contrato-com-a-globo.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37650,
+                    "title": "Chilewood, “Cinema Desterritorializado” e a Inteligência Artificial Generativa",
+                    "kind": "new",
+                    "file": "2025-10-15-chilewood-cinema-desterritorializado-e-a-inteligencia-artificial-generativa.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37672,
+                    "title": "“O mundo está cheio dessas micromaldades” – Fernando Gabeira",
+                    "kind": "new",
+                    "file": "2025-10-14-o-mundo-esta-cheio-dessas-micromaldades-fernando-gabeira.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 35057,
+                    "title": "AI Art Has Meaning",
+                    "kind": "new",
+                    "file": "2025-10-11-ai-art-has-meaning.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37613,
+                    "title": "Diário: 08/10/2025 – The internet was better when it was faster",
+                    "kind": "new",
+                    "file": "2025-10-08-diario-09-10-2025-the-internet-was-better-when-it-was-faster.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37589,
+                    "title": "Diário: 06/10/2025",
+                    "kind": "new",
+                    "file": "2025-10-06-diario-06-10-2025.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37550,
+                    "title": "Sora 2: Generative AI is a Shapeshifter and I Love It",
+                    "kind": "new",
+                    "file": "2025-10-05-sora-2-generative-ai-is-a-shapeshifter-and-i-love-it.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37633,
+                    "title": "Diário: 05/10/2025",
+                    "kind": "new",
+                    "file": "2025-10-05-diario-05-10-2025.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37559,
+                    "title": "Maicon Küster | Os luxos absurdos das igrejas de rico",
+                    "kind": "new",
+                    "file": "2025-10-04-maicon-kuster-os-luxos-absurdos-das-igrejas-de-rico.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37546,
+                    "title": "Sora 2 e o Direito Autoral",
+                    "kind": "new",
+                    "file": "2025-10-04-sora-2-e-o-direito-autoral.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37448,
+                    "title": "Simpsons e 35mm",
+                    "kind": "new",
+                    "file": "2025-10-01-simpsons-e-35mm.html",
+                    "month": "2025-10"
+                },
+                {
+                    "id": 37320,
+                    "title": "Diário: 30/09/2025",
+                    "kind": "new",
+                    "file": "2025-09-30-diario-30-09-2025.html",
+                    "month": "2025-09"
+                },
+                {
+                    "id": 37516,
+                    "title": "Diário: 29/09/2025",
+                    "kind": "new",
+                    "file": "2025-09-29-diario-29-09-2025.html",
+                    "month": "2025-09"
+                },
+                {
+                    "id": 37359,
+                    "title": "Os Encontros Marcados com o Horror e Dores Indizíveis",
+                    "kind": "new",
+                    "file": "2025-09-27-os-encontros-marcados-com-o-horror-e-dores-indiziveis.html",
+                    "month": "2025-09"
+                },
+                {
+                    "id": 37435,
+                    "title": "fim de mês é uma desgraça",
+                    "kind": "new",
+                    "file": "2025-09-26-fim-de-mes-e-uma-desgraca.html",
+                    "month": "2025-09"
+                }
+            ]
+        }
+    ]
+}

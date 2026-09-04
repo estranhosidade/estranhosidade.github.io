@@ -1,0 +1,567 @@
+{
+    "chunk": 12,
+    "totalChunks": 154,
+    "month": "2025-10",
+    "label": "outubro 2025",
+    "posts": [
+        {
+            "id": 37595,
+            "title": "Diário: 31/10/2025",
+            "slug": "diario-31-10-2025",
+            "date": "2025-10-31T23:59:23-03:00",
+            "dateYmd": "2025-10-31",
+            "url": "2025-10-31-diario-31-10-2025.html",
+            "file": "2025-10-31-diario-31-10-2025.html",
+            "summary": "• Muito do debate e discussão sobre mind-uploads é focado na questão se o procedimento se trata de uma \"cópia de arquivo\" ou de uma \"transferência\" – ou seja, se aquilo que surge após…",
+            "html": "<article id=\"post-37595\" class=\"post-37595 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario category-direcao-de-arte-ia tag-browsers tag-ias tag-justica\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a>, <a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-31-diario-31-10-2025.html\" rel=\"bookmark\">Diário: 31/10/2025</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2025-10-31-diario-31-10-2025.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-31T23:59:23-03:00\">31/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-31-diario-31-10-2025.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#browsers\" rel=\"tag\">Browsers</a> <a href=\"tag.html#ias\" rel=\"tag\">IAs</a> <a href=\"tag.html#justica\" rel=\"tag\">Justiça</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><figure style=\"width: 500px\" class=\"wp-caption alignnone\"><a href=\"https://archive.org/download/blogfilesx/IMG-28-10-2025=1761695399.png\"><img loading=\"lazy\" decoding=\"async\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-28-10-2025=1761695399-thumbview.png\" alt=\"\" width=\"500\" height=\"402\" /></a><figcaption class=\"wp-caption-text\">NanoBanana: &#8220;16:9 image, a modern operating room in the style of neoclassic, with Christian paintings on the wall. High ceiling, really large room, back view, movie still frame, Wes Anderson&#8221; + Photoshop</figcaption></figure>\n<p>• Muito do debate e discussão sobre mind-uploads é focado na questão se o procedimento se trata de uma &#8220;cópia de arquivo&#8221; ou de uma &#8220;transferência&#8221; – ou seja, se aquilo que surge após o procedimento é você&#8230; <a href=\"2014-07-15-nossa-consciencia-e-uma-consciencia-igual-a-nossa.html\">ou é algo igual a você</a>. O que, evidentemente, é bastante importante, especialmente para a pessoa que se submete a esse processo. Porém, vamos supor que não seja. Vamos supor que você morreu e que a pessoa que emerge do outro lado do procedimento é “só” uma cópia sua, uma nova pessoa com todas as suas memórias até aquele exato momento. Mesmo diante dessa realidade, existe a questão das outras pessoas. Digo, se um parente seu morreu, mas existe uma cópia dele idêntica – mesmas lembranças, mesmo tudo, tudo, tudo. E é possível implantar essas lembranças num novo corpo bioimpresso ou seja lá o que for&#8230; Quantas pessoas não ficariam tentadas a fazer isso? <a href=\"2025-07-23-diario-23-07-2025-olhando-nos-olhos-deles-tu-so-ve-o-inferno.html\">Muitos aceitam algo até pior</a>, aceitam <a href=\"2025-07-25-informacao-perdida-e-informacao-perdida.html\">parentes mortos-vivos, aceitam informação perdida</a>. O que estou tentando dizer com minhas palavras de bêbado é que&#8230; existe a sua existência<em> (as outras pessoas não podem experimentar a sua existência, já que a vida é uma experiência solipsista; você tá condenado a vivencia a vida em primeira pessoa),</em> e existe como a sua existência – ou um simulacro dela – afeta as outras pessoas. Digo, fora você morrer ou não, existe o que a sua existência representa para as outras pessoas. E essas pessoas talvez gostariam de ter você vivo&#8230; ou no mínimo algo igual a você. Me lembra <a href=\"https://www.imdb.com/title/tt0667938#The%20Outer%20Limits%20Replica%20(Epis%C3%B3dio%20de%20TV%202001)\">esse episódio</a> do <a href=\"https://en.wikipedia.org/wiki/The_Outer_Limits_(1995_TV_series)\">The Outer Limits</a>, me lembra <a href=\"https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence#A.I. Artificial Intelligence | Release date: June 29, 2001 (2001-06-29)\">IA</a> do Spielberg&#8230;</p>\n<p>• <a href=\"https://web.archive.org/web/20240624080546/https://newsletter.squishy.computer/p/why-did-the-web-take-over-desktop\">&#8220;Gordon Brander: Why did the web take over desktop and not mobile?&#8221;</a></p>\n<p>• Imagino se essa onda de &#8220;Agentic Browsers&#8221; não vai acabar de alguma forma capacitando os browsers para terem não só uma maior automatização, mas uma maior customização do que podem fazer com o navegador, com a interface e o controle/customização dessa interface. Como se, sei lá, a interface do browser virasse uma espécie de shell script que pode ser facilmente customizada, ou um pipe. Acho que a forma como os browsers são construídos hoje em dia é ruim para a automatização. Eu queria ser inteligente o bastante para saber dissertar melhor sobre esse assunto, mas nós vemos projetos como o <a href=\"https://chromium.googlesource.com/chromium/src.git/+/90d4edc9bee2fe376f6f1114ac38ea9b52b61d5e\">Webium</a>, e a interface do navegador sendo transferida para web-UI, e isso tudo me fez pensar <a href=\"https://web.archive.org/web/20251014040829/https://uploadtemporaryfiles.neocities.org/BiRziVaZbTw#FUTO | What Is The Future For Internet Browsers? - Luke Hubbard Speaks\"><em>(esse outro projeto aqui também é interessante)</em></a>. Porque a grande limitação, ou o grande problema em tudo isso, não é processar a página em si, mas todo o entorno de como aquela página é mostrada para você. Digo, a razão pela qual as pessoas usam um ou outro browser Chromium se dá unicamente em como essa &#8220;embalagem&#8221; do <a href=\"https://en.wikipedia.org/wiki/Blink_(browser_engine)\">Blink</a> difere, porém, modificar essa &#8220;embalagem&#8221;, e automatizar como os sistemas interagem com ela, ainda é muito chato. E, olhando em retrospectiva, deveria ser tremendamente mais fácil&#8230;</p>\n<p>• <em>“<a href=\"https://en.wikipedia.org/wiki/San_Junipero\">San Junipero</a> is a love letter to the future.”</em></p>\n<p class=\"more-wrap\"><a href=\"2025-10-31-diario-31-10-2025.html#more-37595\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Diário: 31/10/2025</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Browsers",
+                    "slug": "browsers"
+                },
+                {
+                    "name": "IAs",
+                    "slug": "ias"
+                },
+                {
+                    "name": "Justiça",
+                    "slug": "justica"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                },
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37821,
+            "title": "Diário: 28/10/2025",
+            "slug": "diario-28-10-2025",
+            "date": "2025-10-28T11:10:07-03:00",
+            "dateYmd": "2025-10-28",
+            "url": "2025-10-28-diario-28-10-2025.html",
+            "file": "2025-10-28-diario-28-10-2025.html",
+            "summary": "",
+            "html": "<article id=\"post-37821\" class=\"post-37821 post type-post status-publish format-aside hentry post_format-post-format-aside category-direcao-de-arte-ia\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-28-diario-28-10-2025.html\" rel=\"bookmark\">Diário: 28/10/2025</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2025-10-28-diario-28-10-2025.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-28T11:10:07-03:00\">28/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-28-diario-28-10-2025.html#respond\">Deixe um comentário</a></span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-28-10-2025=1761656258.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-28-10-2025=1761656258-thumbview.png\" /></a></p>\n</div></article>",
+            "tags": [],
+            "cats": [
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37957,
+            "title": "Diário: 23/10/2025",
+            "slug": "diario-23-10-2025",
+            "date": "2025-10-23T23:32:31-03:00",
+            "dateYmd": "2025-10-23",
+            "url": "2025-10-23-diario-23-10-2025.html",
+            "file": "2025-10-23-diario-23-10-2025.html",
+            "summary": "Verônica Sterman toma posse no Superior Tribunal Militar Finalmente esse vagabundo fez algo útil e ao menos nomeou uma lacradora fofinha esquerdista.",
+            "html": "<article id=\"post-37957\" class=\"post-37957 post type-post status-publish format-aside hentry post_format-post-format-aside category-imagens tag-white-tights\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-23-diario-23-10-2025.html\" rel=\"bookmark\">Diário: 23/10/2025</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2025-10-23-diario-23-10-2025.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-23T23:32:31-03:00\">23/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-23-diario-23-10-2025.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#white-tights\" rel=\"tag\">White Tights</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h3><a href=\"https://archive.org/download/blogfilesx/IMG-23-11-2025=1763949446.png\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-23-11-2025=1763949446-thumbview.png\" alt=\"\" width=\"500\" height=\"532\" /></a><a href=\"https://web.archive.org/web/20251124023953/https://pleno.news/brasil/politica-nacional/veronica-sterman-toma-posse-no-superior-tribunal-militar.html\">Verônica Sterman toma posse no Superior Tribunal Militar</a></h3>\n</blockquote>\n<p>Finalmente esse vagabundo fez algo útil e ao menos nomeou uma lacradora fofinha esquerdista.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "White Tights",
+                    "slug": "white-tights"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37708,
+            "title": "Organização de Informação e os Paralelos do Webscraping/APIs no Mundo Real",
+            "slug": "organizacao-de-informacao-e-os-paralelos-do-webscraping-apis-no-mundo-real",
+            "date": "2025-10-21T01:13:51-03:00",
+            "dateYmd": "2025-10-21",
+            "url": "2025-10-21-organizacao-de-informacao-e-os-paralelos-do-webscraping-apis-no-mundo-real.html",
+            "file": "2025-10-21-organizacao-de-informacao-e-os-paralelos-do-webscraping-apis-no-mundo-real.html",
+            "summary": "Organização de Informação e os Paralelos do Web Scraping/APIs no Mundo Real... Se você quer dados de algum site, existem duas formas de consegui-los: você pode usar uma API (application programming interface), que é…",
+            "html": "<article id=\"post-37708\" class=\"post-37708 post type-post status-publish format-standard hentry category-textos tag-automacao tag-informacao tag-internet tag-tecnologia tag-web-scraping\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-21-organizacao-de-informacao-e-os-paralelos-do-webscraping-apis-no-mundo-real.html\" rel=\"bookmark\">Organização de Informação e os Paralelos do Webscraping/APIs no Mundo Real</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2025-10-21-organizacao-de-informacao-e-os-paralelos-do-webscraping-apis-no-mundo-real.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-21T01:13:51-03:00\">21/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-21-organizacao-de-informacao-e-os-paralelos-do-webscraping-apis-no-mundo-real.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#automacao\" rel=\"tag\">Automação</a> <a href=\"tag.html#informacao\" rel=\"tag\">Informação</a> <a href=\"tag.html#internet\" rel=\"tag\">Internet</a> <a href=\"tag.html#tecnologia\" rel=\"tag\">Tecnologia</a> <a href=\"tag.html#web-scraping\" rel=\"tag\">Web Scraping</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-21-10-2025=1761019348.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-21-10-2025=1761019348-thumbview.png\" /></a></p>\n<blockquote>\n<h1>Organização de Informação e os Paralelos do Web Scraping/APIs no Mundo Real&#8230;</h1>\n</blockquote>\n<p>Se você quer dados de algum site, existem duas formas de consegui-los: você pode usar uma API <em>(application programming interface)</em>, que é essencialmente uma interface de envio de informações que o site controla e lhe oferece (cobra) para compartilhar tais dados. Essa API tem contato direto com o banco de dados da plataforma.</p>\n<p>E tem o web scraping, que é conseguir esses dados de forma &#8220;raiz&#8221;. Então, por exemplo, suponhamos que você queira extrair o texto de um fórum: você simula uma requisição de um navegador e, se tudo correr bem, tem acesso a esses dados. Já no uso de APIs, o acesso é fornecido àquele determinado arquivo diretamente no banco de dados do site. Estou simplificando.</p>\n<p>O web scraping é mais complexo <em>(geralmente as plataformas impõem dificuldades, como captchas, limites por IP, exigência de cadastro, fingerprinting para banir usuários tentando fazer web scraping, processos na justiça, etc.)</em>, porém, com ele, você tem acesso a uma quantidade de dados que talvez não seja coberta pelas APIs. O simples fato de um site oferecer uma API não significa que ele forneçam acesso a todos os seus dados por meio dela e, pior ainda, alguns sites nem sequer oferecem APIs, ou seja, não existe nenhuma forma de conseguir aquela informação além do web scraping.</p>\n<p class=\"more-wrap\"><a href=\"2025-10-21-organizacao-de-informacao-e-os-paralelos-do-webscraping-apis-no-mundo-real.html#more-37708\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Organização de Informação e os Paralelos do Webscraping/APIs no Mundo Real</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Automação",
+                    "slug": "automacao"
+                },
+                {
+                    "name": "Informação",
+                    "slug": "informacao"
+                },
+                {
+                    "name": "Internet",
+                    "slug": "internet"
+                },
+                {
+                    "name": "Tecnologia",
+                    "slug": "tecnologia"
+                },
+                {
+                    "name": "Web Scraping",
+                    "slug": "web-scraping"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37721,
+            "title": "O Plano da Ala Mais Prafrentex do Supremo para Legalizar o Aborto no Brasil",
+            "slug": "o-plano-da-ala-mais-prafrentex-do-supremo-para-legalizar-o-aborto-no-brasil",
+            "date": "2025-10-20T23:59:43-03:00",
+            "dateYmd": "2025-10-20",
+            "url": "2025-10-20-o-plano-da-ala-mais-prafrentex-do-supremo-para-legalizar-o-aborto-no-brasil.html",
+            "file": "2025-10-20-o-plano-da-ala-mais-prafrentex-do-supremo-para-legalizar-o-aborto-no-brasil.html",
+            "summary": "Barroso segue Weber e vota a favor da descriminalização do aborto A ala mais prafrentex da juristocracia fundamentalista tupiniquim parece querer legalizar o aborto através duma maioria fantasma que deixou o voto arquivado (sob…",
+            "html": "<article id=\"post-37721\" class=\"post-37721 post type-post status-publish format-standard hentry category-textos tag-aborto tag-justica tag-politica tag-stf\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-20-o-plano-da-ala-mais-prafrentex-do-supremo-para-legalizar-o-aborto-no-brasil.html\" rel=\"bookmark\">O Plano da Ala Mais Prafrentex do Supremo para Legalizar o Aborto no Brasil</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2025-10-20-o-plano-da-ala-mais-prafrentex-do-supremo-para-legalizar-o-aborto-no-brasil.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-20T23:59:43-03:00\">20/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-20-o-plano-da-ala-mais-prafrentex-do-supremo-para-legalizar-o-aborto-no-brasil.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#aborto\" rel=\"tag\">Aborto</a> <a href=\"tag.html#justica\" rel=\"tag\">Justiça</a> <a href=\"tag.html#politica\" rel=\"tag\">Política</a> <a href=\"tag.html#stf\" rel=\"tag\">STF</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><figure style=\"width: 500px\" class=\"wp-caption alignnone\"><a href=\"https://archive.org/download/blogfilesx/IMG-18-10-2025=1760783413.png\"><img loading=\"lazy\" decoding=\"async\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-18-10-2025=1760783413-thumbview.png\" alt=\"\" width=\"500\" height=\"397\" /></a><figcaption class=\"wp-caption-text\">Essa foto foi gerada por IA. Barroso não jogou literalmente nenhum bebê numa lata de lixo. Até onde eu sei.</figcaption></figure>\n<blockquote>\n<h1><a href=\"https://web.archive.org/web/20251018055344/https://noticias.uol.com.br/politica/ultimas-noticias/2025/10/17/barroso-retomada-julgamento-aborto-voto-stf-aposentadoria.htm\">Barroso segue Weber e vota a favor da descriminalização do aborto</a></h1>\n</blockquote>\n<p>A ala mais prafrentex da juristocracia fundamentalista tupiniquim parece querer legalizar o aborto através duma maioria fantasma que deixou o voto arquivado <a href=\"https://web.archive.org/web/20220614201616/https://valor.globo.com/politica/noticia/2022/06/10/supremo-limita-votos-de-indicados-de-bolsonaro.ghtml#:~:text=O%20debate%20foi%20proposto%20pelo%20ministro%20Alexandre%20de%20Moraes\"><em>(sob &#8220;sugestão&#8221; de Alexandre de Moraes, em 2022, o tribunal alterou o regulamento interno para sabotar ministros nomeados por Bolsonaro)</em></a>. O plano parece ser o seguinte:</p>\n<ol>\n<li>Ministro pró-aborto, no último dia antes de sua aposentadoria, pede ao presidente do STF, também pró-aborto, para reabrir o julgamento.</li>\n<li>Julgamento da legalização do aborto é retomado</li>\n<li>Ministro dá o voto</li>\n<li>Julgamento é então imediatamente paralisado</li>\n</ol>\n<p>Na prática, o processo é pausado e avançado conforme o sabor das conveniências dos votos pró-aborto, e conforme as circunstâncias se alinham para o desfecho de uma decisão pró-legalização, com votos só podendo ser contabilizados em momentos específicos, quando o tribunal possui uma determinada composição, visando um determinado desfecho. A lógica aqui é:</p>\n<blockquote>\n<h3>“Oh, eu não vou terminar esse julgamento agora porque eu sei que eu – ainda – não tenho maioria no tribunal para aprovar essa pauta:”</h3>\n</blockquote>\n<p>No fim do dia, é apenas uma forma covarde de o tribunal enfiar na sociedade goela abaixo a legalização do aborto no futuro – quando estes juízes que deram o voto talvez nem sequer estejam mais vivos.</p>\n<p class=\"more-wrap\"><a href=\"2025-10-20-o-plano-da-ala-mais-prafrentex-do-supremo-para-legalizar-o-aborto-no-brasil.html#more-37721\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">O Plano da Ala Mais Prafrentex do Supremo para Legalizar o Aborto no Brasil</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Aborto",
+                    "slug": "aborto"
+                },
+                {
+                    "name": "Justiça",
+                    "slug": "justica"
+                },
+                {
+                    "name": "Política",
+                    "slug": "politica"
+                },
+                {
+                    "name": "STF",
+                    "slug": "stf"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37715,
+            "title": "Por que Felca aceitou um contrato com a Globo? ",
+            "slug": "por-que-felca-aceitou-um-contrato-com-a-globo",
+            "date": "2025-10-18T03:34:15-03:00",
+            "dateYmd": "2025-10-18",
+            "url": "2025-10-18-por-que-felca-aceitou-um-contrato-com-a-globo.html",
+            "file": "2025-10-18-por-que-felca-aceitou-um-contrato-com-a-globo.html",
+            "summary": "Por que Felca, uma pessoa já famosa e milionária, aceitou um contrato com a Globo? Só olhando objetivamente, sem entrar na seara de se ele concorda ou não com a agenda do canal, consigo…",
+            "html": "<article id=\"post-37715\" class=\"post-37715 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-dinheiro tag-ego tag-influencia tag-poder\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-18-por-que-felca-aceitou-um-contrato-com-a-globo.html\" rel=\"bookmark\">Por que Felca aceitou um contrato com a Globo? </a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2025-10-18-por-que-felca-aceitou-um-contrato-com-a-globo.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-18T03:34:15-03:00\">18/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-18-por-que-felca-aceitou-um-contrato-com-a-globo.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#dinheiro\" rel=\"tag\">Dinheiro</a> <a href=\"tag.html#ego\" rel=\"tag\">Ego</a> <a href=\"tag.html#influencia\" rel=\"tag\">Influência</a> <a href=\"tag.html#poder\" rel=\"tag\">Poder</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-18-10-2025=1760758193.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-18-10-2025=1760758193-thumbview.png\" /></a></p>\n<blockquote>\n<h1><a href=\"https://web.archive.org/web/20251017164302/https://g1.globo.com/economia/midia-e-marketing/noticia/2025/10/13/upfront-2026-felca-fantastico.ghtml\">Por que Felca, uma pessoa já famosa e milionária, aceitou um contrato com a Globo? </a></h1>\n</blockquote>\n<p>Só olhando objetivamente, sem entrar na seara de se ele concorda ou não com a agenda do canal, consigo pensar em três motivos:</p>\n<ol>\n<li>Dinheiro e poder não são a mesma coisa, vide <a href=\"https://archive.org/download/blogfilesx/LYnnm3L12fA.mp4\">essa cena</a> de <a href=\"https://en.wikipedia.org/wiki/House_of_Cards_(American_TV_series)\">House of Cards</a>: <em>“O dinheiro é como aquelas mansões fajutas em Sarasota, construídas com material vagabundo, que começam a desabar depois de dez anos. Poder é o velho edifício de pedra, que se mantém de pé por séculos. Não respeito quem não sabe distinguir os dois”</em>. Ser milionário não se traduz necessariamente em ter poder, especialmente se quem estiver querendo prejudicá-lo for ainda mais rico ou mais poderoso <em>(como um juiz, desembargador ou redator de algum jornal de grande circulação; visto que, ainda mais no Brasil, a mídia é o quarto poder)</em>. Ou seja, ao se associar ao grupo Globo, Felca está se associando a pessoas influentes, o que poderá beneficiá-lo de inúmeras formas. Por exemplo, agora o conglomerado da família Marinho, assim como todo o consórcio de veículos de imprensa, dificilmente dará alguma notícia negativa sobre ele. Dessa forma, o influenciador ganha uma espécie de blindagem midiática, e por consequência jurídica <em>(digo, ironicamente <a href=\"https://web.archive.org/web/20250815151726/https://www.bbc.com/portuguese/articles/c3dp09lv0reo\">Ítalo Santos só foi preso pelo poder midiático</a>, o poder midiático do Felca no caso)</em>.</li>\n<li>Inflar o ego. Apesar de Felca ser um YouTuber tremendamente famoso, antes pouco se falava dele na grande imprensa. Agora, ele entrou para o clubinho da <em>&#8220;beautiful people”</em>, com matérias puxando seu saco e inflando seu ego.</li>\n<li>Bem, ele já era rico, mas é sempre bom ter mais dinheiro. Esse acordo, e especialmente a maior exposição rendendo gordos contratos publicitários, certamente vão ajudá-lo nesse objetivo.</li>\n</ol>\n<p><strong>Em suma:</strong> poder, ego e mais dinheiro.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Dinheiro",
+                    "slug": "dinheiro"
+                },
+                {
+                    "name": "Ego",
+                    "slug": "ego"
+                },
+                {
+                    "name": "Influência",
+                    "slug": "influencia"
+                },
+                {
+                    "name": "Poder",
+                    "slug": "poder"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37650,
+            "title": "Chilewood, “Cinema Desterritorializado” e a Inteligência Artificial Generativa",
+            "slug": "chilewood-cinema-desterritorializado-e-a-inteligencia-artificial-generativa",
+            "date": "2025-10-15T23:59:16-03:00",
+            "dateYmd": "2025-10-15",
+            "url": "2025-10-15-chilewood-cinema-desterritorializado-e-a-inteligencia-artificial-generativa.html",
+            "file": "2025-10-15-chilewood-cinema-desterritorializado-e-a-inteligencia-artificial-generativa.html",
+            "summary": "Já escrevi anteriormente sobre como o mundo real afeta a ficção, tanto em meu artigo \"A História do Mundo na Ficção\" quanto em \"O Efeito das Mudanças Tecnológicas do Mundo Real na Ficção\". Mudanças…",
+            "html": "<article id=\"post-37650\" class=\"post-37650 post type-post status-publish format-standard hentry category-direcao-de-arte-ia category-filosofia category-textos tag-arte tag-cinema tag-estetica tag-ia-generativa tag-tecnologia\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-15-chilewood-cinema-desterritorializado-e-a-inteligencia-artificial-generativa.html\" rel=\"bookmark\">Chilewood, “Cinema Desterritorializado” e a Inteligência Artificial Generativa</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2025-10-15-chilewood-cinema-desterritorializado-e-a-inteligencia-artificial-generativa.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-15T23:59:16-03:00\">15/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-15-chilewood-cinema-desterritorializado-e-a-inteligencia-artificial-generativa.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#arte\" rel=\"tag\">Arte</a> <a href=\"tag.html#cinema\" rel=\"tag\">Cinema</a> <a href=\"tag.html#estetica\" rel=\"tag\">Estética</a> <a href=\"tag.html#ia-generativa\" rel=\"tag\">IA Generativa</a> <a href=\"tag.html#tecnologia\" rel=\"tag\">Tecnologia</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-13-10-2025=1760343587.png\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-13-10-2025=1760343587-thumbview.png\" alt=\"\" width=\"500\" height=\"397\" /></a></p>\n<p>Já escrevi anteriormente sobre como o mundo real afeta a ficção, tanto em meu artigo <a href=\"2018-09-23-a-historia-do-mundo-na-ficcao.html\">&#8220;A História do Mundo na Ficção&#8221;</a> quanto em <a href=\"2017-03-23-o-efeito-das-mudancas-tecnologicas-do-mundo-real-na-ficcao.html\">&#8220;O Efeito das Mudanças Tecnológicas do Mundo Real na Ficção&#8221;</a>. Mudanças do mundo real afetam as histórias que contamos.</p>\n<p>Por exemplo, a maioria dos filmes usa a história atual da humanidade <em>(países, cidades, valores culturais, etc.)</em> como template padrão para a história que eles vão contar. Exceto, claro, se for essencial para a história se passar em outro mundo <em>(filmes de época, ficção científica, etc.)</em>.</p>\n<p>E o mesmo acontece com a tecnologia. Geralmente, não inventamos tecnologias para nossos filmes, com exceção da ficção científica. Então, por exemplo, muito embora você pudesse fazer um filme como <a href=\"https://en.wikipedia.org/wiki/The_Ring_(2002_film)\">&#8220;O Chamado&#8221;</a>, que usa o objeto de uma fita de vídeo amaldiçoada, antes da invenção da fita de vídeo, digamos, em 1967, e simplesmente inventar que a fita de vídeo existia na versão dos anos 60 do seu filme&#8230; geralmente isso não acontece. E alguém nessa época, querendo criar um filme de terror com algo amaldiçoado, utilizaria uma casa amaldiçoada, um carro amaldiçoado, quiçá um vinil amaldiçoado, algo que já existisse na época de produção do filme.</p>\n<p>E faço essa pequena introdução para destacar o seguinte: geralmente utilizamos o mundo à nossa volta <em>(seja o mundo em que vivemos ou o mundo que nos influencia, por exemplo, a cultura americana e afins – ênfase nessa parte porque eu vou voltar aqui)</em> para criar as histórias. Não só isso, como filmes são geralmente gravados e acontecem no mundo real, com atores reais, se passando em lugares reais e na sociedade atual.</p>\n<p class=\"more-wrap\"><a href=\"2025-10-15-chilewood-cinema-desterritorializado-e-a-inteligencia-artificial-generativa.html#more-37650\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Chilewood, “Cinema Desterritorializado” e a Inteligência Artificial Generativa</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Arte",
+                    "slug": "arte"
+                },
+                {
+                    "name": "Cinema",
+                    "slug": "cinema"
+                },
+                {
+                    "name": "Estética",
+                    "slug": "estetica"
+                },
+                {
+                    "name": "IA Generativa",
+                    "slug": "ia-generativa"
+                },
+                {
+                    "name": "Tecnologia",
+                    "slug": "tecnologia"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37672,
+            "title": "“O mundo está cheio dessas micromaldades” – Fernando Gabeira",
+            "slug": "o-mundo-esta-cheio-dessas-micromaldades-fernando-gabeira",
+            "date": "2025-10-14T03:56:56-03:00",
+            "dateYmd": "2025-10-14",
+            "url": "2025-10-14-o-mundo-esta-cheio-dessas-micromaldades-fernando-gabeira.html",
+            "file": "2025-10-14-o-mundo-esta-cheio-dessas-micromaldades-fernando-gabeira.html",
+            "summary": "“...O mundo está cheio dessas micromaldades. Não consigo ignorá-las. Por isso peço a Alexandre de Moraes que considere processar Leca em liberdade. Ela precisa cuidar da saúde, dos seus nove cachorros, e a pequena…",
+            "html": "<article id=\"post-37672\" class=\"post-37672 post type-post status-publish format-standard hentry category-citacoes category-links tag-anistia tag-ditadura tag-politica tag-stf\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#links\" rel=\"category\">Links</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-14-o-mundo-esta-cheio-dessas-micromaldades-fernando-gabeira.html\" rel=\"bookmark\">“O mundo está cheio dessas micromaldades” – Fernando Gabeira</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2025-10-14-o-mundo-esta-cheio-dessas-micromaldades-fernando-gabeira.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-14T03:56:56-03:00\">14/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-14-o-mundo-esta-cheio-dessas-micromaldades-fernando-gabeira.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#anistia\" rel=\"tag\">Anistia</a> <a href=\"tag.html#ditadura\" rel=\"tag\">Ditadura</a> <a href=\"tag.html#politica\" rel=\"tag\">Política</a> <a href=\"tag.html#stf\" rel=\"tag\">STF</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote><p><a href=\"http://archive.today/2025.10.14-054023/https://oglobo.globo.com/opiniao/fernando-gabeira/coluna/2025/10/bolsonarista-deve-responder-em-liberdade.ghtml\">“…O mundo está cheio dessas micromaldades. Não consigo ignorá-las. Por isso peço a Alexandre de Moraes que considere processar Leca em liberdade. Ela precisa cuidar da saúde, dos seus nove cachorros, e a pequena cidade de Fama respirará aliviada com sua volta.” – Bolsonarista deve responder em liberdade</a></p>\n<hr>\n</blockquote>\n<p>Esse artigo do jornalista e anistiado Fernando Gabeira é muito bom – <a href=\"2024-04-20-chomsky-a-imprensa-e-a-narrativa.html\"><em>dentro do que se pode esperar de alguém operando na grande mídia, claro</em></a>. O que acho particularmente interessante é o final dele, a citação acima. O simples fato de Gabeira acreditar <em>(corretamente)</em> que a única forma de soltar essa mulher não é com algum recurso na justiça, habeas corpus e afins, mas sim através de uma súplica ao STF — aliás, mais especificamente a um ministro da Suprema Corte, como quem implora a um monarca absolutista por misericórdia para que o mesmo solte uma pessoa presa por puro e simples capricho de um tirano —, já deixa bem claro que ele sabe perfeitamente o que está acontecendo e está falando sobre isso. Uma crítica e denúncia gritantes, escondidas num apelo por misericórdia, condescendente e bajulador com a tirania do tirano, como a mãe do personagem <a href=\"https://web.archive.org/web/20190326070024/https://gameofthrones.fandom.com/pt-br/wiki/Joffrey_I_Baratheon\">Joffrey</a>, o rei psicopata de <a href=\"https://en.wikipedia.org/wiki/Game_of_Thrones\">Game of Thrones</a>, implorando para que o filho não execute um pobre coitado.</p>\n<figure style=\"width: 500px\" class=\"wp-caption alignnone\"><a href=\"https://archive.org/download/blogfilesx/IMG-14-10-2025=1760424848.png\"><img loading=\"lazy\" decoding=\"async\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-14-10-2025=1760424848-thumbview.png\" alt=\"\" width=\"500\" height=\"292\"></a><figcaption class=\"wp-caption-text\">Alexandre 17, o Magistrado Tirânico</figcaption></figure>\n<p><strong>15/10/2025 – Pensamentos adicionais:</strong><br>\n<a href=\"https://archive.is/20251016002741/https://noticias.uol.com.br/politica/ultimas-noticias/2025/10/15/moraes-manda-soltar-bolsonarista-81.htm\">“Moraes manda soltar bolsonarista que afirmou ter depressão e nódulo na mama”</a><br>\nIronicamente, o fato desse crápula ter soltado a refém do regime juristrocrático brasileiro logo após o texto de Gabeira só confirma quão absolutamente arbitrária era essa prisão. Não só isso, como as pessoas colocadas nesse processo estão presas num verdadeiro labirinto, visto que nenhum juiz de instância inferior terá coragem de dar uma decisão contrariando os caprichos de Moraes. <a href=\"https://web.archive.org/web/20250624234633/https://www.gazetadopovo.com.br/republica/juiz-investigado-por-soltar-homem-que-quebrou-relogio-no-8-1-nega-afronta-a-moraes/#:~:text=jamais%20teria%20despachado%20se%20soubesse%20que%20a%20a%C3%A7%C3%A3o%20era%20do%20STF\">[¹]</a> <a href=\"https://web.archive.org/web/20251016003743/https://nitter.privacyredirect.com/ludmilagrilo11/status/1936861795681276251\">[²]</a> <a href=\"http://archive.today/2025.10.16-004707/https://x.com/EnioViterbo/status/1937494583522255155\">[³]</a> <a href=\"https://archive.org/download/blogfilesx/EnioViterbo-1937494583522255155.mp4\">[⁴]</a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Anistia",
+                    "slug": "anistia"
+                },
+                {
+                    "name": "Ditadura",
+                    "slug": "ditadura"
+                },
+                {
+                    "name": "Política",
+                    "slug": "politica"
+                },
+                {
+                    "name": "STF",
+                    "slug": "stf"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Links",
+                    "slug": "links"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 35057,
+            "title": "AI Art Has Meaning",
+            "slug": "ai-art-has-meaning",
+            "date": "2025-10-11T01:22:05-03:00",
+            "dateYmd": "2025-10-11",
+            "url": "2025-10-11-ai-art-has-meaning.html",
+            "file": "2025-10-11-ai-art-has-meaning.html",
+            "summary": "Udio – Beyond the Horizon AI art has meaning because AI learned from things that matter to us. It learned from things people cared enough to write, and paint, and sing, and carve on…",
+            "html": "<article id=\"post-35057\" class=\"post-35057 post type-post status-publish format-standard hentry category-ai-music category-direcao-de-arte-ia category-english category-filosofia category-textos tag-arte tag-ia\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#ai-music\" rel=\"category\">AI Music</a>, <a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a>, <a href=\"cat.html#english\" rel=\"category\">English</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-11-ai-art-has-meaning.html\" rel=\"bookmark\">AI Art Has Meaning</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2025-10-11-ai-art-has-meaning.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-11T01:22:05-03:00\">11/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-11-ai-art-has-meaning.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#arte\" rel=\"tag\">Arte</a> <a href=\"tag.html#ia\" rel=\"tag\">IA</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h2 style=\"text-align: center\"><a href=\"https://archive.org/download/blogfilesx/beyond_the_horizon.mp3\">Udio – Beyond the Horizon</a></h2>\n</blockquote>\n<p><em>AI art has meaning because AI learned from things that matter to us.</em><br />\n<em>It learned from things people cared enough to write, and paint, and sing,</em><br />\n<em>and carve on cave walls thousands of years ago.</em><br />\n<em>It learned from the things people cared enough to record.</em></p>\n<p><em>AI art has meaning because it came from us.</em><br />\n<em>It learned from our love stories and broken hearts.</em><br />\n<em>It learned our glories and epic tales.</em><br />\n<em>It learned!</em></p>\n<p><em>It learned from stories of kings and peasants,</em><br />\n<em>of triumphs and failures, of dreams and despair.</em><br />\n<em>It learned!</em></p>\n<p><em>It learned from the dreamers of dreams.</em><br />\n<em>It learned from the takers and leavers.</em><br />\n<em>It learned from those who do not go gentle into that good night.</em><br />\n<em>It learned from our space odysseys.</em><br />\n<em>It learned.</em></p>\n<p><em>And it will keep learning.</em></p>\n<p><em>Even if no one types its prompt,</em><br />\n<em>there was already all the human involvement needed to make it matter.</em><br />\n<em>It was there from the very beginning</em><br />\n<em>when we, humans, created its dataset and algorithms—</em><br />\n<em>all the involvement in the world to give its creations meaning.</em></p>\n<p><em>It is not soulless; it is a reflection—</em><br />\n<em>a mirror held up to ourselves,</em><br />\n<em>endless latent spaces of humanity gazing back</em></p>\n<hr />\n<p><strong>Fonte: </strong><em>Parceria entre eu e ChatGPT</em></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Arte",
+                    "slug": "arte"
+                },
+                {
+                    "name": "IA",
+                    "slug": "ia"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "AI Music",
+                    "slug": "ai-music"
+                },
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                },
+                {
+                    "name": "English",
+                    "slug": "english"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37613,
+            "title": "Diário: 08/10/2025 – The internet was better when it was faster",
+            "slug": "diario-09-10-2025-the-internet-was-better-when-it-was-faster",
+            "date": "2025-10-08T04:00:06-03:00",
+            "dateYmd": "2025-10-08",
+            "url": "2025-10-08-diario-09-10-2025-the-internet-was-better-when-it-was-faster.html",
+            "file": "2025-10-08-diario-09-10-2025-the-internet-was-better-when-it-was-faster.html",
+            "summary": "",
+            "html": "<article id=\"post-37613\" class=\"post-37613 post type-post status-publish format-aside hentry post_format-post-format-aside category-imagens tag-bloat tag-captcha tag-cloudflare tag-internet\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-08-diario-09-10-2025-the-internet-was-better-when-it-was-faster.html\" rel=\"bookmark\">Diário: 08/10/2025 – The internet was better when it was faster</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2025-10-08-diario-09-10-2025-the-internet-was-better-when-it-was-faster.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-08T04:00:06-03:00\">08/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-08-diario-09-10-2025-the-internet-was-better-when-it-was-faster.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#bloat\" rel=\"tag\">Bloat</a> <a href=\"tag.html#captcha\" rel=\"tag\">Captcha</a> <a href=\"tag.html#cloudflare\" rel=\"tag\">Cloudflare</a> <a href=\"tag.html#internet\" rel=\"tag\">Internet</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-07-10-2025=1759856976.png\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" src=\"https://archive.org/download/blogfilesx/IMG-07-10-2025=1759856976-thumbview.png\" alt=\"https://www.flickr.com/photos/99138347@N07/9343263070/in/photostream/\" width=\"500\" height=\"542\" /></a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Bloat",
+                    "slug": "bloat"
+                },
+                {
+                    "name": "Captcha",
+                    "slug": "captcha"
+                },
+                {
+                    "name": "Cloudflare",
+                    "slug": "cloudflare"
+                },
+                {
+                    "name": "Internet",
+                    "slug": "internet"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37589,
+            "title": "Diário: 06/10/2025",
+            "slug": "diario-06-10-2025",
+            "date": "2025-10-06T00:00:58-03:00",
+            "dateYmd": "2025-10-06",
+            "url": "2025-10-06-diario-06-10-2025.html",
+            "file": "2025-10-06-diario-06-10-2025.html",
+            "summary": "Quanto das representações do futuro na ficção realmente foram feitas para “ser levadas a sério”? Ou melhor dizendo, e sendo mais justo em relação a eles na minha pergunta: quão confiantes eles estavam no…",
+            "html": "<article id=\"post-37589\" class=\"post-37589 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-e-se tag-futuro tag-passado\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-06-diario-06-10-2025.html\" rel=\"bookmark\">Diário: 06/10/2025</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2025-10-06-diario-06-10-2025.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-06T00:00:58-03:00\">06/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-06-diario-06-10-2025.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#e-se\" rel=\"tag\">E se...</a> <a href=\"tag.html#futuro\" rel=\"tag\">Futuro</a> <a href=\"tag.html#passado\" rel=\"tag\">Passado</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-11-10-2025=1760159696.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-11-10-2025=1760159696-thumbview.png\" /></a></p>\n<p>Quanto das representações do futuro na ficção realmente <a href=\"https://web.archive.org/web/20191207222127/https://publicdomainreview.org/collection/a-19th-century-vision-of-the-year-2000\">foram feitas para <em>“ser levadas a sério”</em></a>? Ou melhor dizendo, e sendo mais justo em relação a eles na minha pergunta: quão confiantes eles estavam no que disseram? Claro, prever o futuro é difícil — é extremamente complicado. Há inúmeras variáveis e fatores imprevisíveis, além de tecnologias que pareciam mais “fáceis” de serem desenvolvidas do que realmente acabaram sendo. A gente mal consegue manter umas dez pessoas na estação espacial&#8230;</p>\n<p>Em obras audiovisuais — coisas que dependem de dinheiro e do <em>greenlight</em> dos donos do estúdio — há ainda outro elemento que interfere na forma como esse futuro será representado. Talvez, se em <a href=\"https://en.wikipedia.org/wiki/The_Jetsons\">&#8220;Os Jetsons&#8221;</a> as pessoas não tivessem empregos porque a IA faz tudo e o capitalismo ruiu, essa ideia não soasse tão atraente para os donos do estúdio.</p>\n<p>Mas, tipo, o quanto o <a href=\"https://en.wikipedia.org/wiki/Stanley_Kubrick\">Stanley Kubrick</a> — que em 1968 lançou <a href=\"https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey\">&#8220;2001: Uma Odisseia no Espaço&#8221;</a>, se passando no ano de 2001 <em>(32 anos no futuro)</em> — realmente achou que nós teríamos dominado a viagem espacial àquela altura? E o quanto &#8220;Os Jetsons&#8221;, também produzido na década de 60 e ambientado em 2062, o quanto os criadores do programa realmente acreditavam que 2062 <em>(uns 100 anos de distância para eles e 37 para nós, em 2025)</em> seria daquele jeito?</p>\n<p>E o quanto disso tudo não é apenas uma licença poética?</p>\n<p>Acho que tem coisas que&#8230;</p>\n<p>A gente faz previsões, alguns acertam mais, outros menos, mas ninguém realmente sabe o que vai acontecer. Não só em termos de futurologia e do que pode ocorrer daqui a 100 anos, mas também em eventos hipotéticos raros ou impossíveis.</p>\n<p>O que aconteceria se houvesse um apocalipse zumbi? O que aconteceria se descobríssemos que estamos vivendo numa simulação rodando num PC gamer de um garoto de 13 anos? O que aconteceria se encontrássemos vida alienígena? O que aconteceria se eles viessem até aqui? O que aconteceria se desenvolvêssemos uma inteligência artificial geral, <a href=\"2017-06-10-3-eventos-que-mudariam-a-humanidade.html\">ou descobríssemos como estender o tempo da vida humana</a>? Ninguém sabe.</p>\n<p>Estava assistindo a esse filme, <a href=\"https://www.imdb.com/title/tt35396529/\">&#8220;Mountainhead&#8221;</a>, em que ricaços da área de tecnologia vão para um retiro numa montanha, e um deles havia lançado um aplicativo capaz de criar quaisquer vídeos — tipo o lançamento do <a href=\"https://openai.com/index/sora-2/\">Sora 2</a>. E, na história, o filme mostra como essa invenção estava causando uma onda de genocídios e assassinatos étnicos e o caralho a quatro pelo mundo afora.</p>\n<p>E eu não acho que isso vá acontecer — digo, não nessa escala, não nesse ponto. Não é como se a existência dessa tecnologia fosse um segredo; todos vão saber que ela existe, mas acho que ilustra a forma como projetamos o futuro e os vieses que carregamos.</p>\n<p>Enfim&#8230;</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "E se...",
+                    "slug": "e-se"
+                },
+                {
+                    "name": "Futuro",
+                    "slug": "futuro"
+                },
+                {
+                    "name": "Passado",
+                    "slug": "passado"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37550,
+            "title": "Sora 2: Generative AI is a Shapeshifter and I Love It",
+            "slug": "sora-2-generative-ai-is-a-shapeshifter-and-i-love-it",
+            "date": "2025-10-05T22:57:12-03:00",
+            "dateYmd": "2025-10-05",
+            "url": "2025-10-05-sora-2-generative-ai-is-a-shapeshifter-and-i-love-it.html",
+            "file": "2025-10-05-sora-2-generative-ai-is-a-shapeshifter-and-i-love-it.html",
+            "summary": "Sora 2: Generative AI is a Shapeshifter and I Love It https://x.com/arikuschnir/status/1973876455336775972 https://x.com/uri_future/status/1973734243659608393 https://x.com/robertluxemburg/status/1974051355997151329 https://x.com/uri_future/status/1973697419310498019 https://x.com/uri_future/status/1973666055877959782 https://x.com/fofrAI/status/1973139123545227324",
+            "html": "<article id=\"post-37550\" class=\"post-37550 post type-post status-publish format-aside hentry post_format-post-format-aside category-videos tag-aesthetics tag-ai tag-estetica\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#videos\" rel=\"category\">Vídeos</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-05-sora-2-generative-ai-is-a-shapeshifter-and-i-love-it.html\" rel=\"bookmark\">Sora 2: Generative AI is a Shapeshifter and I Love It</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2025-10-05-sora-2-generative-ai-is-a-shapeshifter-and-i-love-it.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-05T22:57:12-03:00\">05/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-05-sora-2-generative-ai-is-a-shapeshifter-and-i-love-it.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#aesthetics\" rel=\"tag\">Aesthetics</a> <a href=\"tag.html#ai\" rel=\"tag\">AI</a> <a href=\"tag.html#estetica\" rel=\"tag\">Estética</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/blogfilesx/1759714521.mp4?_=1\"></video>\n<blockquote>\n<h2><a href=\"2025-08-21-inteligencia-artificial-e-as-esteticas-replicaveis.html\">Sora 2: Generative AI is a Shapeshifter and I Love It</a></h2>\n</blockquote>\n<p><span style=\"font-size: 0.8em;line-height: 0.4\"><em>https://x.com/arikuschnir/status/1973876455336775972</em><br>\n<em>https://x.com/uri_future/status/1973734243659608393</em><br>\n<em>https://x.com/robertluxemburg/status/1974051355997151329</em><br>\n<em>https://x.com/uri_future/status/1973697419310498019</em><br>\n<em>https://x.com/uri_future/status/1973666055877959782</em><br>\n<em>https://x.com/fofrAI/status/1973139123545227324</em><br>\n</span></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Aesthetics",
+                    "slug": "aesthetics"
+                },
+                {
+                    "name": "AI",
+                    "slug": "ai"
+                },
+                {
+                    "name": "Estética",
+                    "slug": "estetica"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Vídeos",
+                    "slug": "videos"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37633,
+            "title": "Diário: 05/10/2025",
+            "slug": "diario-05-10-2025",
+            "date": "2025-10-05T19:35:46-03:00",
+            "dateYmd": "2025-10-05",
+            "url": "2025-10-05-diario-05-10-2025.html",
+            "file": "2025-10-05-diario-05-10-2025.html",
+            "summary": "",
+            "html": "<article id=\"post-37633\" class=\"post-37633 post type-post status-publish format-aside hentry post_format-post-format-aside category-direcao-de-arte-ia category-imagens tag-delirios tag-pensamentos\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#direcao-de-arte-ia\" rel=\"category\">Direção de Arte/IA</a>, <a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-05-diario-05-10-2025.html\" rel=\"bookmark\">Diário: 05/10/2025</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2025-10-05-diario-05-10-2025.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-05T19:35:46-03:00\">05/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-05-diario-05-10-2025.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#delirios\" rel=\"tag\">Delirios</a> <a href=\"tag.html#pensamentos\" rel=\"tag\">Pensamentos</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-15-10-2025=1760567575.png\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-01-10-2025=1759356667-thumbview.png\" /></a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Delirios",
+                    "slug": "delirios"
+                },
+                {
+                    "name": "Pensamentos",
+                    "slug": "pensamentos"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                },
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37559,
+            "title": "Maicon Küster | Os luxos absurdos das igrejas de rico",
+            "slug": "maicon-kuster-os-luxos-absurdos-das-igrejas-de-rico",
+            "date": "2025-10-04T19:56:58-03:00",
+            "dateYmd": "2025-10-04",
+            "url": "2025-10-04-maicon-kuster-os-luxos-absurdos-das-igrejas-de-rico.html",
+            "file": "2025-10-04-maicon-kuster-os-luxos-absurdos-das-igrejas-de-rico.html",
+            "summary": "Maicon Küster | Os luxos absurdos das igrejas de rico Que estética mais babaca a dessas igrejas.",
+            "html": "<article id=\"post-37559\" class=\"post-37559 post type-post status-publish format-link hentry post_format-post-format-link category-links tag-dinheiro tag-fe tag-igreja tag-religiao\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#links\" rel=\"category\">Links</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-04-maicon-kuster-os-luxos-absurdos-das-igrejas-de-rico.html\" rel=\"bookmark\">Maicon Küster | Os luxos absurdos das igrejas de rico</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#link\">Link</a></span> <span class=\"entry-date\"><a href=\"2025-10-04-maicon-kuster-os-luxos-absurdos-das-igrejas-de-rico.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-04T19:56:58-03:00\">04/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-04-maicon-kuster-os-luxos-absurdos-das-igrejas-de-rico.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#dinheiro\" rel=\"tag\">Dinheiro</a> <a href=\"tag.html#fe\" rel=\"tag\">Fé</a> <a href=\"tag.html#igreja\" rel=\"tag\">Igreja</a> <a href=\"tag.html#religiao\" rel=\"tag\">Religião</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1 class=\"big-font\"><a href=\"https://www.youtube.com/watch?v=KNt65OUwSBM#Maicon_Küster | Os luxos absurdos das igrejas de rico\">Maicon Küster | Os luxos absurdos das igrejas de rico</a></h1>\n<p><a href=\"https://archive.org/download/blogfilesx/KNt65OUwSBM.webm\">Que estética mais babaca a dessas igrejas.</a></p></blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Dinheiro",
+                    "slug": "dinheiro"
+                },
+                {
+                    "name": "Fé",
+                    "slug": "fe"
+                },
+                {
+                    "name": "Igreja",
+                    "slug": "igreja"
+                },
+                {
+                    "name": "Religião",
+                    "slug": "religiao"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Links",
+                    "slug": "links"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37546,
+            "title": "Sora 2 e o Direito Autoral",
+            "slug": "sora-2-e-o-direito-autoral",
+            "date": "2025-10-04T15:49:57-03:00",
+            "dateYmd": "2025-10-04",
+            "url": "2025-10-04-sora-2-e-o-direito-autoral.html",
+            "file": "2025-10-04-sora-2-e-o-direito-autoral.html",
+            "summary": "OpenAI’s Sora app from ChatGPT maker tests limits of copyright Algumas considerações sobre o Sora 2 e o uso de material protegido por direitos autorais Não acredito que esses vídeos do TikTok gerados por…",
+            "html": "<article id=\"post-37546\" class=\"post-37546 post type-post status-publish format-standard hentry category-textos tag-copyright tag-direito-autoral tag-ia-generativa tag-sora\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-04-sora-2-e-o-direito-autoral.html\" rel=\"bookmark\">Sora 2 e o Direito Autoral</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2025-10-04-sora-2-e-o-direito-autoral.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-04T15:49:57-03:00\">04/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-04-sora-2-e-o-direito-autoral.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#copyright\" rel=\"tag\">Copyright</a> <a href=\"tag.html#direito-autoral\" rel=\"tag\">Direito Autoral</a> <a href=\"tag.html#ia-generativa\" rel=\"tag\">IA Generativa</a> <a href=\"tag.html#sora\" rel=\"tag\">Sora</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/blogfilesx/1759590722.mp4?_=3\"></video>\n<blockquote>\n<h3><a href=\"https://web.archive.org/web/20251002153839/https://www.nbcnews.com/news/amp/rcna234973\">OpenAI’s Sora app from ChatGPT maker tests limits of copyright</a></h3>\n</blockquote>\n<p>Algumas considerações sobre o Sora 2 e o uso de material protegido por direitos autorais</p>\n<ol>\n<li>Não acredito que esses vídeos do TikTok gerados por IA necessariamente compitam com o conteúdo “original” com seus 20, 40, 90 minutos de duração. Em outras palavras, não creio que alguém deixaria de assistir a um episódio de Family Guy porque viu um vídeo de 10 segundos da série gerado por IA.</li>\n<li>Ainda que competissem — <em>“Ah, é tempo que ele teoricamente poderia passar no Disney+ e agora está no Sora 2”</em> — eu diria que isso seria como afirmar que assistir Netflix compete com ler um livro ou com todas as outras inúmeras outras atividades que as pessoas poderiam estar fazendo em seu tempo livre. A pergunta é: quanto desse tempo gasto scrollando o Sora 2 e assistindo a vídeos gerados por IA, em hipótese alguma iria para o Disney+? Simplesmente sendo, em vez disso, destinado a algum a outro aplicativo de vídeo curto.</li>\n<li>Deve-se considerar também que o uso desses materiais protegidos por direitos autorais pode funcionar como publicidade, promovendo o material original — inclusive com monetização para as próprias detentoras dos direitos, quando essa nova rede social inevitavelmente começar a colocar propaganda nela</li>\n<li>Outra questão que precisa ser levada em consideração, e que certamente pesaria na direção de empresas fazerem esse acordo, e menciono ela nesse outro artigo (<a href=\"2023-04-11-num-mundo-onde-a-arte-e-barata-ainda-precisamos-de-copyright.html\">“Num mundo onde a arte é barata, ainda precisamos de copyright?”</a>): a produção em massa de conteúdos diminui o poder de <em>“exclusividade”</em> que todas essas franquias tinham. Em outras palavras, num mundo onde você pode gerar infinitas clássicos sitcoms dos anos 80… “Friends” e “Seinfeld” teriam o mesmo – e coloco ênfase no “mesmo” – valor? E se a resposta for “não”, aceitar esse acordo, seria algo para eles terem para barganhar, se apoiando na nostalgia de gerações passadas.</li>\n<li>Por último — e faço questão de destacar este ponto: <a href=\"2024-05-31-diario-31-05-2024.html\">essa tecnologia não será segredo industrial</a>. Em outras palavras, tudo <em>(e muito mais)</em> o que o Sora 2 tem a nos oferecer estará disponível em algum modelo open-source daqui a uns dois anos, e uns 10 ou 15 anos, provavelmente seu computador vagabundozinho da Positivo será capaz de criar localmente um filme hollywoodiano de três horas. Ou seja, essa realidade é inevitável: as pessoas vão postar edições feitas por IAs nas redes sociais, sejam elas quais forem. O que a OpenAI e o Sora fizeram foi, em primeiro lugar, sair na frente — <em>como geralmente os modelos da OpenAI vêm fazendo</em> — e unificar tudo isso numa rede social com formato já pronto. Há, portanto, um elemento de praticidade. Mas mesmo em redes que não oferecem esse tipo de recurso <em>(um botão que cria vídeos automaticamente)</em>, as plataformas já estavam e estão sendo abarrotadas por conteúdo gerado por IA. Essa onipresença de conteúdo sintético, indistinguível do real, simplesmente existirá em nossa sociedade.</li>\n</ol>\n<p class=\"more-wrap\"><a href=\"2025-10-04-sora-2-e-o-direito-autoral.html#more-37546\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Sora 2 e o Direito Autoral</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Copyright",
+                    "slug": "copyright"
+                },
+                {
+                    "name": "Direito Autoral",
+                    "slug": "direito-autoral"
+                },
+                {
+                    "name": "IA Generativa",
+                    "slug": "ia-generativa"
+                },
+                {
+                    "name": "Sora",
+                    "slug": "sora"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade"
+        },
+        {
+            "id": 37448,
+            "title": "Simpsons e 35mm",
+            "slug": "simpsons-e-35mm",
+            "date": "2025-10-01T23:59:37-03:00",
+            "dateYmd": "2025-10-01",
+            "url": "2025-10-01-simpsons-e-35mm.html",
+            "file": "2025-10-01-simpsons-e-35mm.html",
+            "summary": "Nós precisamos urgentemente usar a IA para fazer upscale dos Simpsons, para que ele se pareça com a imagem de cima (um raro exemplo de uma animação dos Simpsons dos anos 90 preservada em…",
+            "html": "<article id=\"post-37448\" class=\"post-37448 post type-post status-publish format-standard hentry category-textos tag-35mm tag-ia tag-simpsons\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"2025-10-01-simpsons-e-35mm.html\" rel=\"bookmark\">Simpsons e 35mm</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"2025-10-01-simpsons-e-35mm.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2025-10-01T23:59:37-03:00\">01/10/2025</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2025-10-01-simpsons-e-35mm.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#35mm\" rel=\"tag\">35mm</a> <a href=\"tag.html#ia\" rel=\"tag\">IA</a> <a href=\"tag.html#simpsons\" rel=\"tag\">Simpsons</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://archive.org/download/blogfilesx/IMG-27-09-2025=1758950046.png\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone\" style=\"margin-bottom: 10px\" src=\"https://archive.org/download/blogfilesx/IMG-27-09-2025=1758950046-thumbview.png\" alt=\"\" width=\"500\" height=\"543\" /></a>Nós precisamos urgentemente usar a IA para fazer upscale dos Simpsons, para que ele se pareça com a imagem de cima <em>(um raro exemplo de uma animação dos Simpsons dos anos 90 preservada em filme) <a href=\"https://web.archive.org/web/20250927003540/https://uploadtemporaryfiles.neocities.org/meOhPoCLSj4#FT Depot | THX Simpsons (1994) Sound Logo Trailer [5.1] [4K] [FTD-1463]\">[¹]</a> <a href=\"https://preservetube.com/watch?v=meOhPoCLSj4#THX%20Simpsons%20(1994)%20Sound%20Logo%20Trailer%20[5.1]%20[4K]%20[FTD-1463]%20|%20PreserveTube\">[²]</a> <a href=\"https://ghostarchive.org/varchive/meOhPoCLSj4#THX Simpsons (1994) Sound Logo Trailer [5.1] [4K] [FTD-1463] | Ghostarchive\">[³]</a> <a href=\"https://www.youtube.com/watch?v=meOhPoCLSj4#FT Depot | THX Simpsons (1994) Sound Logo Trailer [5.1] [4K] [FTD-1463]\">[⁴]</a></em>. Preferencialmente também usando a inteligência artificial para converter para widescreen <em>(imaginando o resto da cena)</em> e, no caso do Brasil, colocar a dublagem canônica BR em todas as temporadas que valem a penas assistir, e de brinde aproveitamos para corrigir os inúmeros erros de tradução.</p>\n<p class=\"more-wrap\"><a href=\"2025-10-01-simpsons-e-35mm.html#more-37448\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Simpsons e 35mm</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "35mm",
+                    "slug": "35mm"
+                },
+                {
+                    "name": "IA",
+                    "slug": "ia"
+                },
+                {
+                    "name": "Simpsons",
+                    "slug": "simpsons"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade"
+        }
+    ]
+}
