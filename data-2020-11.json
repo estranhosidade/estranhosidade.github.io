@@ -1,0 +1,171 @@
+{
+    "chunk": 65,
+    "totalChunks": 154,
+    "month": "2020-11",
+    "label": "novembro 2020",
+    "posts": [
+        {
+            "id": 27629,
+            "title": "Long Live Cinema",
+            "slug": "long-live-cinema",
+            "date": "2020-11-20T02:01:58-03:00",
+            "dateYmd": "2020-11-20",
+            "dateDisplay": "20/11/2020",
+            "url": "reader.html#2020-11-20-long-live-cinema.html",
+            "file": "2020-11-20-long-live-cinema.html",
+            "summary": "https://www.youtube.com/watch?v=nhpiqMdjTQ8",
+            "html": "<article id=\"post-27629\" class=\"post-27629 post type-post status-publish format-video hentry post_format-post-format-video category-autoria-de-outros category-filosofia category-videos\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#autoria-de-outros\" rel=\"category\">Autoria de Outros</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#videos\" rel=\"category\">Vídeos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2020-11-20-long-live-cinema.html\" rel=\"bookmark\">Long Live Cinema</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#video\">Vídeo</a></span> <span class=\"entry-date\"><a href=\"reader.html#2020-11-20-long-live-cinema.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2020-11-20T02:01:58-03:00\">20/11/2020</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2020-11-20-long-live-cinema.html#respond\">Deixe um comentário</a></span></div></header><!-- .entry-header --><div class=\"entry-content\"><div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"Cinema is Dead, Long Live Cinema\" width=\"474\" height=\"267\" src=\"https://www.youtube.com/embed/nhpiqMdjTQ8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n</div></article>",
+            "tags": [],
+            "cats": [
+                {
+                    "name": "Autoria de Outros",
+                    "slug": "autoria-de-outros"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Vídeos",
+                    "slug": "videos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "video",
+            "formatLabel": "Vídeo",
+            "full": "<div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"Cinema is Dead, Long Live Cinema\" width=\"474\" height=\"267\" src=\"https://www.youtube.com/embed/nhpiqMdjTQ8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n"
+        },
+        {
+            "id": 27606,
+            "title": "O Legado de Trump",
+            "slug": "o-legado-de-trump",
+            "date": "2020-11-07T18:00:32-03:00",
+            "dateYmd": "2020-11-07",
+            "dateDisplay": "07/11/2020",
+            "url": "reader.html#2020-11-07-o-legado-de-trump.html",
+            "file": "2020-11-07-o-legado-de-trump.html",
+            "summary": "O maior legado de Trump foi, sem sombra alguma de duvida, ter revelado ao mundo toda a desonestidade, parcialidade, hipocrisia e manipulação da grande mídia numa escala mundial. Eu",
+            "html": "<article id=\"post-27606\" class=\"post-27606 post type-post status-publish format-quote hentry post_format-post-format-quote category-filosofia category-textos tag-eleicao tag-midia tag-politica tag-trump\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2020-11-07-o-legado-de-trump.html\" rel=\"bookmark\">O Legado de Trump</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2020-11-07-o-legado-de-trump.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2020-11-07T18:00:32-03:00\">07/11/2020</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2020-11-07-o-legado-de-trump.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#eleicao\" rel=\"tag\">Eleição</a> <a href=\"tag.html#midia\" rel=\"tag\">Mídia</a> <a href=\"tag.html#politica\" rel=\"tag\">Política</a> <a href=\"tag.html#trump\" rel=\"tag\">Trump</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<blockquote>\n<h2>O maior legado de Trump foi, sem sombra alguma de duvida, ter revelado ao mundo toda a desonestidade, parcialidade, hipocrisia e manipulação da grande mídia numa escala mundial.</h2>\n</blockquote>\n<p class=\"wp-block-paragraph\">Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Eleição",
+                    "slug": "eleicao"
+                },
+                {
+                    "name": "Mídia",
+                    "slug": "midia"
+                },
+                {
+                    "name": "Política",
+                    "slug": "politica"
+                },
+                {
+                    "name": "Trump",
+                    "slug": "trump"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "\n<blockquote>\n<h2>O maior legado de Trump foi, sem sombra alguma de duvida, ter revelado ao mundo toda a desonestidade, parcialidade, hipocrisia e manipulação da grande mídia numa escala mundial.</h2>\n</blockquote>\n<p class=\"wp-block-paragraph\">Eu</p>\n"
+        },
+        {
+            "id": 27621,
+            "title": "Sorriso de um, desgraça do outro",
+            "slug": "sorriso-de-um-desgraca-do-outro",
+            "date": "2020-11-05T04:28:30-03:00",
+            "dateYmd": "2020-11-05",
+            "dateDisplay": "05/11/2020",
+            "url": "reader.html#2020-11-05-sorriso-de-um-desgraca-do-outro.html",
+            "file": "2020-11-05-sorriso-de-um-desgraca-do-outro.html",
+            "summary": "Sorriso de um, desgraça do outro. Eu",
+            "html": "<article id=\"post-27621\" class=\"post-27621 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-filosofia tag-desgraca tag-sorriso\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2020-11-05-sorriso-de-um-desgraca-do-outro.html\" rel=\"bookmark\">Sorriso de um, desgraça do outro</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2020-11-05-sorriso-de-um-desgraca-do-outro.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2020-11-05T04:28:30-03:00\">05/11/2020</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2020-11-05-sorriso-de-um-desgraca-do-outro.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#desgraca\" rel=\"tag\">Desgraça</a> <a href=\"tag.html#sorriso\" rel=\"tag\">Sorriso</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1><a href=\"https://web.archive.org/web/20211008224737/https://www.theguardian.com/global/2018/oct/14/the-secret-joys-of-schadenfreude-why-it-shouldnt-be-a-guilty-pleasure#:~:text=the%20japanese%20have%20a%20saying%3A%20%E2%80%9Cthe%20misfortune%20of%20others%20tastes%20like%20honey.%E2%80%9D%20\">Sorriso de um, desgraça do outro.</a></h1>\n</blockquote>\n<p>Eu</p>\n<div class=\"notranslate\"></div>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Desgraça",
+                    "slug": "desgraca"
+                },
+                {
+                    "name": "Sorriso",
+                    "slug": "sorriso"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h1><a href=\"https://web.archive.org/web/20211008224737/https://www.theguardian.com/global/2018/oct/14/the-secret-joys-of-schadenfreude-why-it-shouldnt-be-a-guilty-pleasure#:~:text=the%20japanese%20have%20a%20saying%3A%20%E2%80%9Cthe%20misfortune%20of%20others%20tastes%20like%20honey.%E2%80%9D%20\">Sorriso de um, desgraça do outro.</a></h1>\n</blockquote>\n<p>Eu</p>\n<div class=\"notranslate\"></div>\n"
+        },
+        {
+            "id": 27610,
+            "title": "Sopranos e o Tempo",
+            "slug": "sopranos-e-o-tempo",
+            "date": "2020-11-02T22:15:23-03:00",
+            "dateYmd": "2020-11-02",
+            "dateDisplay": "02/11/2020",
+            "url": "reader.html#2020-11-02-sopranos-e-o-tempo.html",
+            "file": "2020-11-02-sopranos-e-o-tempo.html",
+            "summary": "https://www.youtube.com/watch?v=rLSm2RSpVKI ...é um gosto meio agridoce e ao mesmo tempo é algo que te faz pensar no tempo passando... Comecei a assistir \"Os Sopranos\" (1999-2007), e, bem, como você deve saber o ator principal…",
+            "html": "<article id=\"post-27610\" class=\"post-27610 post type-post status-publish format-standard hentry category-filosofia category-textos tag-infancia tag-james-gandolfini tag-os-sopranos tag-tempo tag-the-twilight-zone tag-tony-soprano\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2020-11-02-sopranos-e-o-tempo.html\" rel=\"bookmark\">Sopranos e o Tempo</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2020-11-02-sopranos-e-o-tempo.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2020-11-02T22:15:23-03:00\">02/11/2020</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2020-11-02-sopranos-e-o-tempo.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#infancia\" rel=\"tag\">Infância</a> <a href=\"tag.html#james-gandolfini\" rel=\"tag\">James Gandolfini</a> <a href=\"tag.html#os-sopranos\" rel=\"tag\">Os Sopranos</a> <a href=\"tag.html#tempo\" rel=\"tag\">Tempo</a> <a href=\"tag.html#the-twilight-zone\" rel=\"tag\">The Twilight Zone</a> <a href=\"tag.html#tony-soprano\" rel=\"tag\">Tony Soprano</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"How James Gandolfini Navigates Emotion\" width=\"474\" height=\"267\" src=\"https://www.youtube.com/embed/rLSm2RSpVKI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n<blockquote>\n<h2>&#8230;é um gosto meio agridoce e ao mesmo tempo é algo que te faz pensar no tempo passando&#8230;</h2>\n</blockquote>\n<p>Comecei a assistir <a href=\"https://en.wikipedia.org/wiki/The_Sopranos\">&#8220;Os Sopranos&#8221;</a> (1999-2007), e, bem, como você deve saber o ator principal da série, que deu vida a Tony Soprano, James Gandolfini, morreu em 2013, aos 51 anos. E tudo isso me fez pensar em algumas coisas:</p>\n<p>Primeiro, você assiste aquilo vendo toda a genialidade daquele ator, que infelizmente não está mais aqui. O que ressalta a <a href=\"reader.html#2016-04-10-o-arrebatamento-e-a-singularidade.html\">imortalidade da arte</a>, e sobre deixar um legado. Ao mesmo tempo, isso nos lembra de quanto a morte nos rouba, porque imagine o quanto esse homem ainda tinha para compartilhar com o mundo, com todo aquele talento e vida dele. O mais triste é que ele morreu aos 51 anos, ele podia ter vivido outros 50 anos! Ele poderia estar aqui! Não é como se estivéssemos falando de um seriado super antigo como a primeira versão do <a href=\"https://en.wikipedia.org/wiki/The_Twilight_Zone\">&#8220;The Twilight Zone&#8221;</a> de 1959.</p>\n<p>O que me leva ao meu segundo ponto, apesar de não ser uma série <em>“super antiga”</em>, como diz a canção: o tempo não para. <a href=\"reader.html#2019-06-28-diario-28-06-2019.html\">Já mencionei isso em outros posts</a>, mas é sempre estranho perceber que coisas que aconteceram no meu tempo de vida&#8230; não são mais atuais. Perceber que o tempo está passando e que tudo, transhumanismos à parte, vai ter um fim um dia…  Se há algo que podemos tirar de consolo nessa história trágica é que James Gandolfini ao menos teve seu legado reconhecido ainda em vida. Existem artistas brilhantes e geniais que morrem como absolutos anônimos na sarjeta. James Gandolfini, nosso Tony Soprano, soube em vida o quão fantástico ator, e que talento fenomenal ele tinha, e que legado lindo ele deixou.</p>\n<p>Descanse em paz, meu caro.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Infância",
+                    "slug": "infancia"
+                },
+                {
+                    "name": "James Gandolfini",
+                    "slug": "james-gandolfini"
+                },
+                {
+                    "name": "Os Sopranos",
+                    "slug": "os-sopranos"
+                },
+                {
+                    "name": "Tempo",
+                    "slug": "tempo"
+                },
+                {
+                    "name": "The Twilight Zone",
+                    "slug": "the-twilight-zone"
+                },
+                {
+                    "name": "Tony Soprano",
+                    "slug": "tony-soprano"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"How James Gandolfini Navigates Emotion\" width=\"474\" height=\"267\" src=\"https://www.youtube.com/embed/rLSm2RSpVKI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n<blockquote>\n<h2>&#8230;é um gosto meio agridoce e ao mesmo tempo é algo que te faz pensar no tempo passando&#8230;</h2>\n</blockquote>\n<p>Comecei a assistir <a href=\"https://en.wikipedia.org/wiki/The_Sopranos\">&#8220;Os Sopranos&#8221;</a> (1999-2007), e, bem, como você deve saber o ator principal da série, que deu vida a Tony Soprano, James Gandolfini, morreu em 2013, aos 51 anos. E tudo isso me fez pensar em algumas coisas:</p>\n<p>Primeiro, você assiste aquilo vendo toda a genialidade daquele ator, que infelizmente não está mais aqui. O que ressalta a <a href=\"reader.html#2016-04-10-o-arrebatamento-e-a-singularidade.html\">imortalidade da arte</a>, e sobre deixar um legado. Ao mesmo tempo, isso nos lembra de quanto a morte nos rouba, porque imagine o quanto esse homem ainda tinha para compartilhar com o mundo, com todo aquele talento e vida dele. O mais triste é que ele morreu aos 51 anos, ele podia ter vivido outros 50 anos! Ele poderia estar aqui! Não é como se estivéssemos falando de um seriado super antigo como a primeira versão do <a href=\"https://en.wikipedia.org/wiki/The_Twilight_Zone\">&#8220;The Twilight Zone&#8221;</a> de 1959.</p>\n<p>O que me leva ao meu segundo ponto, apesar de não ser uma série <em>“super antiga”</em>, como diz a canção: o tempo não para. <a href=\"reader.html#2019-06-28-diario-28-06-2019.html\">Já mencionei isso em outros posts</a>, mas é sempre estranho perceber que coisas que aconteceram no meu tempo de vida&#8230; não são mais atuais. Perceber que o tempo está passando e que tudo, transhumanismos à parte, vai ter um fim um dia…  Se há algo que podemos tirar de consolo nessa história trágica é que James Gandolfini ao menos teve seu legado reconhecido ainda em vida. Existem artistas brilhantes e geniais que morrem como absolutos anônimos na sarjeta. James Gandolfini, nosso Tony Soprano, soube em vida o quão fantástico ator, e que talento fenomenal ele tinha, e que legado lindo ele deixou.</p>\n<p>Descanse em paz, meu caro.</p>\n"
+        }
+    ]
+}

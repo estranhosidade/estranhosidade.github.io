@@ -10,6 +10,7 @@
             "slug": "diario-03-09-2026",
             "date": "2026-09-03T18:39:20-03:00",
             "dateYmd": "2026-09-03",
+            "dateDisplay": "03/09/2026",
             "url": "reader.html#2026-09-03-diario-03-09-2026.html",
             "file": "2026-09-03-diario-03-09-2026.html",
             "summary": "Fofinha, pena que no mundo real isso iria ferrar a coluna.",
@@ -35,6 +36,8 @@
                 }
             ],
             "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
             "full": "<video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/blogfilesx/1788471159.mp4?_=1\"></video>\n<blockquote><p>\n<a href=\"https://web.archive.org/web/20260827071742/https://www.deviantart.com/removedaccount/art/Lila-in-carrier-ai-videos-1347291136?file=2\">Fofinha, pena que no mundo real isso iria ferrar a coluna.</a></p></blockquote>\n"
         },
         {
@@ -43,6 +46,7 @@
             "slug": "information-feudalism-who-owns-the-knowledge-economy",
             "date": "2026-09-01T11:07:19-03:00",
             "dateYmd": "2026-09-01",
+            "dateDisplay": "01/09/2026",
             "url": "reader.html#2026-09-01-information-feudalism-who-owns-the-knowledge-economy.html",
             "file": "2026-09-01-information-feudalism-who-owns-the-knowledge-economy.html",
             "summary": "Information Feudalism: Who Owns the Knowledge Economy Peter Drahos and John Braithwaite",
@@ -72,6 +76,8 @@
                 }
             ],
             "author": "estranhosidade",
+            "format": "link",
+            "formatLabel": "Link",
             "full": "<blockquote>\n<h1><a href=\"https://web.archive.org/web/20230926170449/https://monoskop.org/images/6/6f/Drahos%2C_Peter%3B_Braithwaite%2C_John_-_Information_Feudalism._Who_Owns_the_Knowledge_Economy.pdf\">Information Feudalism: Who Owns the Knowledge Economy</a></h1>\n<p>Peter Drahos and John Braithwaite</p></blockquote>\n"
         }
     ]

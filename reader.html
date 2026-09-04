@@ -2,8 +2,9 @@
 </div>
 		</aside><aside id="text-3" class="widget widget_text"><h1 class="widget-title">Informações</h1>			<div class="textwidget"><p>Um blog sobre transhumanismos, filosofia, fetiches… e niilismos ocasionais</p>
 </div>
-		</aside><aside id="text-4" class="widget widget_text"><h1 class="widget-title">Links Úteis do Blog</h1>			<div class="textwidget"><p><a href="/wp-admin/edit.php">Administração</a></p>
-<p><a href="https://archive.org/details/@estranhosidade">Arquivos</a><br />
+		</aside><aside id="text-4" class="widget widget_text"><h1 class="widget-title">Links Úteis do Blog</h1>			<div class="textwidget"><p><a href="/wp-admin/edit.php">Administração</a><br />
+<a href="https://archive.org/details/@estranhosidade">Arquivos</a><br />
+<a href="/feed">RSS</a><br />
 <a href="search.html">Deep Search</a><br />
 <a href="https://vimeo.com/user73174960">Vídeo Project</a></p>
 </div>
@@ -250,14 +251,33 @@ function status(msg){
 
 function paint(p){
 	document.title=(p.title?p.title+' – ':'')+(cfg.siteTitle||'');
-	var h='<article id="post-'+escHtml(p.id)+'" class="post type-post status-publish format-standard hentry">';
+	/* Mirror the theme's single-post markup (render_single_post_html()):
+	   the format-* class is what makes the theme CSS hide the title for
+	   aside/link/quote posts, and tags render as the bottom entry-meta
+	   footer exactly like the per-post static pages. */
+	var fmt=(p.format&&p.format!=='standard')?p.format:'';
+	var cls='post-'+escHtml(p.id)+' post type-post status-publish format-'+(fmt||'standard')+' hentry';
+	if(fmt) cls+=' post_format-post-format-'+fmt;
+	var h='<article id="post-'+escHtml(p.id)+'" class="'+cls+'">';
 	h+='<header class="entry-header">';
+	if(p.cats&&p.cats.length){
+		h+='<div class="entry-meta"><span class="cat-links">'
+		+p.cats.map(function(c){return '<a href="cat.html#'+escHtml(c.slug)+'" rel="category">'+escHtml(c.name)+'</a>';}).join(', ')
+		+'</span></div>';
+	}
 	h+='<h1 class="entry-title">'+escHtml(p.title)+'</h1>';
-	h+='<div class="entry-meta"><span class="entry-date">'+escHtml(String(p.date||'').slice(0,10))+'</span>';
-	if(p.author) h+=' <span class="byline"><span class="author vcard">'+escHtml(p.author)+'</span></span>';
+	h+='<div class="entry-meta">';
+	if(fmt&&p.formatLabel) h+='<span class="post-format"><a class="entry-format" href="type.html#'+escHtml(fmt)+'">'+escHtml(p.formatLabel)+'</a></span> ';
+	h+='<span class="entry-date"><a href="'+escHtml(p.url||'')+'" rel="bookmark"><time class="entry-date" datetime="'+escHtml(p.date||'')+'">'+escHtml(p.dateDisplay||String(p.date||'').slice(0,10))+'</time></a></span>';
+	if(p.author) h+=' <span class="byline"><span class="author vcard"><a class="url fn n" href="/" rel="author">'+escHtml(p.author)+'</a></span></span>';
 	h+='</div>';
 	h+='</header><!-- .entry-header -->';
 	h+='<div class="entry-content">'+(p.full||p.html||'')+'</div>';
+	if(p.tags&&p.tags.length){
+		h+='<footer class="entry-meta post-tags-bottom"><span class="tag-links">'
+		+p.tags.map(function(t){return '<a href="tag.html#'+escHtml(t.slug)+'" rel="tag">'+escHtml(t.name)+'</a>';}).join(' ')
+		+'</span></footer>';
+	}
 	h+='</article>';
 	root.innerHTML=h;
 	window.scrollTo(0,0);
