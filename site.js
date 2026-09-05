@@ -211,7 +211,19 @@ function boot(){
 		});
 	}).catch(function(e){
 		console.warn(e);
-		feed.innerHTML='<div class="post"><h3>Unable to load content.</h3></div>';
+		/* Elegant error card: wraps the message in the same
+		   <article class="post"> + <div class="entry-content"> structure
+		   real posts use, so it inherits the theme's post margin/padding.
+		   Deliberately no .type-post class — the theme CSS hides
+		   ".type-post .entry-content" in the <=400px compact list view.
+		   Inline styling mirrors reader.html's .reader-status convention. */
+		feed.innerHTML='<article class="post hentry">'
+			+'<div class="entry-content">'
+			+'<p style="margin:0;padding:30px 0;color:#888;font-style:italic;">'
+			+'Unable to load content. '
+			+'<a href="./" onclick="location.reload();return false;">Try again.</a>'
+			+'</p>'
+			+'</div></article>';
 	});
 }
 
