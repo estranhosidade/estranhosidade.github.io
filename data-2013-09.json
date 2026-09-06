@@ -1,0 +1,780 @@
+{
+    "chunk": 151,
+    "totalChunks": 154,
+    "month": "2013-09",
+    "label": "setembro 2013",
+    "posts": [
+        {
+            "id": 1001,
+            "title": "Quando…",
+            "slug": "quando-a-realid",
+            "date": "2013-09-29T08:26:04-03:00",
+            "dateYmd": "2013-09-29",
+            "dateDisplay": "29/09/2013",
+            "url": "reader.html#2013-09-29-quando-a-realid.html",
+            "file": "2013-09-29-quando-a-realid.html",
+            "summary": "Quando a realidade ao nosso redor é tão cruel, nos refugiamos em nosso próprio mundo. Eu",
+            "html": "<article id=\"post-1001\" class=\"post-1001 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-filosofia tag-dor tag-fantasia tag-imaginacao\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-29-quando-a-realid.html\" rel=\"bookmark\">Quando…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-29-quando-a-realid.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-29T08:26:04-03:00\">29/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-29-quando-a-realid.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#dor\" rel=\"tag\">Dor</a> <a href=\"tag.html#fantasia\" rel=\"tag\">Fantasia</a> <a href=\"tag.html#imaginacao\" rel=\"tag\">Imaginação</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1 style=\"padding-left:0;\">Quando a realidade ao nosso redor é tão cruel, nos refugiamos em nosso próprio mundo.</h1>\n</blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Dor",
+                    "slug": "dor"
+                },
+                {
+                    "name": "Fantasia",
+                    "slug": "fantasia"
+                },
+                {
+                    "name": "Imaginação",
+                    "slug": "imaginacao"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h1 style=\"padding-left:0;\">Quando a realidade ao nosso redor é tão cruel, nos refugiamos em nosso próprio mundo.</h1>\n</blockquote>\n<p>Eu</p>\n"
+        },
+        {
+            "id": 998,
+            "title": "A Room and World",
+            "slug": "a-room-and-world",
+            "date": "2013-09-28T22:46:09-03:00",
+            "dateYmd": "2013-09-28",
+            "dateDisplay": "28/09/2013",
+            "url": "reader.html#2013-09-28-a-room-and-world.html",
+            "file": "2013-09-28-a-room-and-world.html",
+            "summary": "",
+            "html": "<article id=\"post-998\" class=\"post-998 post type-post status-publish format-image hentry post_format-post-format-image category-imagens tag-building tag-photography tag-world\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-28-a-room-and-world.html\" rel=\"bookmark\">A Room and World</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#image\">Imagem</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-28-a-room-and-world.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-28T22:46:09-03:00\">28/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-28-a-room-and-world.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#building\" rel=\"tag\">Building</a> <a href=\"tag.html#photography\" rel=\"tag\">Photography</a> <a href=\"tag.html#world\" rel=\"tag\">World</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-22830\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2013/09/697ip6b.png\" alt=\"697ip6b.png\" width=\"920\" height=\"1252\" /></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Building",
+                    "slug": "building"
+                },
+                {
+                    "name": "Photography",
+                    "slug": "photography"
+                },
+                {
+                    "name": "World",
+                    "slug": "world"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "image",
+            "formatLabel": "Imagem",
+            "full": "<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-22830\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2013/09/697ip6b.png\" alt=\"697ip6b.png\" width=\"920\" height=\"1252\" /></p>\n"
+        },
+        {
+            "id": 995,
+            "title": "O tempo é…",
+            "slug": "o-tempo-e-indif",
+            "date": "2013-09-28T21:32:39-03:00",
+            "dateYmd": "2013-09-28",
+            "dateDisplay": "28/09/2013",
+            "url": "reader.html#2013-09-28-o-tempo-e-indif.html",
+            "file": "2013-09-28-o-tempo-e-indif.html",
+            "summary": "O tempo é indiferente aos nossos caprichos de querer detê-lo, ou avança-lo. Ele simplesmente existe, tem sua própria natureza, e caminha em seu próprio ritmo, a questão é... a nossa percepção disso. Eu",
+            "html": "<article id=\"post-995\" class=\"post-995 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-filosofia tag-passado tag-tempo\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-28-o-tempo-e-indif.html\" rel=\"bookmark\">O tempo é…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-28-o-tempo-e-indif.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-28T21:32:39-03:00\">28/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-28-o-tempo-e-indif.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#passado\" rel=\"tag\">Passado</a> <a href=\"tag.html#tempo\" rel=\"tag\">Tempo</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote><p>O tempo é indiferente aos nossos caprichos de querer detê-lo, ou avança-lo. Ele simplesmente existe, tem sua própria natureza, e caminha em seu próprio ritmo, a questão é&#8230; a nossa percepção disso.</p></blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Passado",
+                    "slug": "passado"
+                },
+                {
+                    "name": "Tempo",
+                    "slug": "tempo"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote><p>O tempo é indiferente aos nossos caprichos de querer detê-lo, ou avança-lo. Ele simplesmente existe, tem sua própria natureza, e caminha em seu próprio ritmo, a questão é&#8230; a nossa percepção disso.</p></blockquote>\n<p>Eu</p>\n"
+        },
+        {
+            "id": 993,
+            "title": "Cute Pink Outfit",
+            "slug": "cute-pink-outfit",
+            "date": "2013-09-27T23:58:33-03:00",
+            "dateYmd": "2013-09-27",
+            "dateDisplay": "27/09/2013",
+            "url": "reader.html#2013-09-27-cute-pink-outfit.html",
+            "file": "2013-09-27-cute-pink-outfit.html",
+            "summary": "",
+            "html": "<article id=\"post-993\" class=\"post-993 post type-post status-publish format-image hentry post_format-post-format-image category-beautiful-outfits category-imagens tag-ageplay tag-cute tag-girly\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#beautiful-outfits\" rel=\"category\">Beautiful Outfits</a>, <a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-27-cute-pink-outfit.html\" rel=\"bookmark\">Cute Pink Outfit</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#image\">Imagem</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-27-cute-pink-outfit.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-27T23:58:33-03:00\">27/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-27-cute-pink-outfit.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#ageplay\" rel=\"tag\">Ageplay</a> <a href=\"tag.html#cute\" rel=\"tag\">Cute</a> <a href=\"tag.html#girly\" rel=\"tag\">Girly</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><img decoding=\"async\" class=\"size-full\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/1236991_515484451866563_1935576600_n.png\" alt=\"Cute Pink Outfit\" /></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Ageplay",
+                    "slug": "ageplay"
+                },
+                {
+                    "name": "Cute",
+                    "slug": "cute"
+                },
+                {
+                    "name": "Girly",
+                    "slug": "girly"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Beautiful Outfits",
+                    "slug": "beautiful-outfits"
+                },
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "image",
+            "formatLabel": "Imagem",
+            "full": "<p><img decoding=\"async\" class=\"size-full\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/1236991_515484451866563_1935576600_n.png\" alt=\"Cute Pink Outfit\" /></p>\n"
+        },
+        {
+            "id": 988,
+            "title": "Aqueles velhos…",
+            "slug": "aqueles-velhos",
+            "date": "2013-09-27T04:01:49-03:00",
+            "dateYmd": "2013-09-27",
+            "dateDisplay": "27/09/2013",
+            "url": "reader.html#2013-09-27-aqueles-velhos.html",
+            "file": "2013-09-27-aqueles-velhos.html",
+            "summary": "Aqueles velhos companheiros tortuosos volta e cá me fazem companhia, me pesam os ombros. Nas noites frias de outono, na escuridão de meu quarto contemplo a despedida, a flerto, a namoro, a abraço, ela…",
+            "html": "<article id=\"post-988\" class=\"post-988 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-filosofia tag-suicidio tag-tristeza\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-27-aqueles-velhos.html\" rel=\"bookmark\">Aqueles velhos…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-27-aqueles-velhos.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-27T04:01:49-03:00\">27/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-27-aqueles-velhos.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#suicidio\" rel=\"tag\">Suicídio</a> <a href=\"tag.html#tristeza\" rel=\"tag\">Tristeza</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote><p>Aqueles velhos companheiros tortuosos volta e cá me fazem companhia, me pesam os ombros. Nas noites frias de outono, na escuridão de meu quarto contemplo a despedida, a flerto, a namoro, a abraço, ela se torna minha eterna amante.</p></blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Suicídio",
+                    "slug": "suicidio"
+                },
+                {
+                    "name": "Tristeza",
+                    "slug": "tristeza"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote><p>Aqueles velhos companheiros tortuosos volta e cá me fazem companhia, me pesam os ombros. Nas noites frias de outono, na escuridão de meu quarto contemplo a despedida, a flerto, a namoro, a abraço, ela se torna minha eterna amante.</p></blockquote>\n<p>Eu</p>\n"
+        },
+        {
+            "id": 977,
+            "title": "A Natureza do Sorriso",
+            "slug": "a-natureza-do-s",
+            "date": "2013-09-26T13:30:53-03:00",
+            "dateYmd": "2013-09-26",
+            "dateDisplay": "26/09/2013",
+            "url": "reader.html#2013-09-26-a-natureza-do-s.html",
+            "file": "2013-09-26-a-natureza-do-s.html",
+            "summary": "A natureza do sorriso se auto se explica, é universal, atemporal, simples. Ninguém precisa traduzir. Eu",
+            "html": "<article id=\"post-977\" class=\"post-977 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-filosofia tag-amor tag-beleza tag-sorriso\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-26-a-natureza-do-s.html\" rel=\"bookmark\">A Natureza do Sorriso</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-26-a-natureza-do-s.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-26T13:30:53-03:00\">26/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-26-a-natureza-do-s.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#amor\" rel=\"tag\">Amor</a> <a href=\"tag.html#beleza\" rel=\"tag\">Beleza</a> <a href=\"tag.html#sorriso\" rel=\"tag\">Sorriso</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1>A natureza do sorriso se auto se explica, é universal, atemporal, simples. Ninguém precisa traduzir.</h1>\n</blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Amor",
+                    "slug": "amor"
+                },
+                {
+                    "name": "Beleza",
+                    "slug": "beleza"
+                },
+                {
+                    "name": "Sorriso",
+                    "slug": "sorriso"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h1>A natureza do sorriso se auto se explica, é universal, atemporal, simples. Ninguém precisa traduzir.</h1>\n</blockquote>\n<p>Eu</p>\n"
+        },
+        {
+            "id": 968,
+            "title": "Lovely Outfit",
+            "slug": "lovely-outfit",
+            "date": "2013-09-25T14:01:44-03:00",
+            "dateYmd": "2013-09-25",
+            "dateDisplay": "25/09/2013",
+            "url": "reader.html#2013-09-25-lovely-outfit.html",
+            "file": "2013-09-25-lovely-outfit.html",
+            "summary": "",
+            "html": "<article id=\"post-968\" class=\"post-968 post type-post status-publish format-image hentry post_format-post-format-image category-beautiful-outfits category-imagens tag-ageplay tag-cute tag-women\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#beautiful-outfits\" rel=\"category\">Beautiful Outfits</a>, <a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-25-lovely-outfit.html\" rel=\"bookmark\">Lovely Outfit</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#image\">Imagem</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-25-lovely-outfit.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-25T14:01:44-03:00\">25/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-25-lovely-outfit.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#ageplay\" rel=\"tag\">Ageplay</a> <a href=\"tag.html#cute\" rel=\"tag\">Cute</a> <a href=\"tag.html#women\" rel=\"tag\">Women</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"/wp-content/uploads/2013/09/tumblr_mna0pslsji1rb9a6wo1_500.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full\" alt=\"Lovely Outfit\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/tumblr_mna0pslsji1rb9a6wo1_500.jpg\" width=\"430\" height=\"700\" /></a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Ageplay",
+                    "slug": "ageplay"
+                },
+                {
+                    "name": "Cute",
+                    "slug": "cute"
+                },
+                {
+                    "name": "Women",
+                    "slug": "women"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Beautiful Outfits",
+                    "slug": "beautiful-outfits"
+                },
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "image",
+            "formatLabel": "Imagem",
+            "full": "<p><a href=\"/wp-content/uploads/2013/09/tumblr_mna0pslsji1rb9a6wo1_500.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full\" alt=\"Lovely Outfit\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/tumblr_mna0pslsji1rb9a6wo1_500.jpg\" width=\"430\" height=\"700\" /></a></p>\n"
+        },
+        {
+            "id": 964,
+            "title": "The First Love",
+            "slug": "the-first-love",
+            "date": "2013-09-22T06:53:49-03:00",
+            "dateYmd": "2013-09-22",
+            "dateDisplay": "22/09/2013",
+            "url": "reader.html#2013-09-22-the-first-love.html",
+            "file": "2013-09-22-the-first-love.html",
+            "summary": "Moonrise Kingdom",
+            "html": "<article id=\"post-964\" class=\"post-964 post type-post status-publish format-image hentry post_format-post-format-image category-imagens tag-amor\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-22-the-first-love.html\" rel=\"bookmark\">The First Love</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#image\">Imagem</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-22-the-first-love.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-22T06:53:49-03:00\">22/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-22-the-first-love.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#amor\" rel=\"tag\">Amor</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"/wp-content/uploads/2013/09/00000-mpls_snapshot_00-45-06_2013-01-11_03-48-34.png\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full\" alt=\"The First Love\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/00000-mpls_snapshot_00-45-06_2013-01-11_03-48-34.png\" width=\"1910\" height=\"1055\" /></a></p>\n<p>Moonrise Kingdom</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Amor",
+                    "slug": "amor"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "image",
+            "formatLabel": "Imagem",
+            "full": "<p><a href=\"/wp-content/uploads/2013/09/00000-mpls_snapshot_00-45-06_2013-01-11_03-48-34.png\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full\" alt=\"The First Love\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/00000-mpls_snapshot_00-45-06_2013-01-11_03-48-34.png\" width=\"1910\" height=\"1055\" /></a></p>\n<p>Moonrise Kingdom</p>\n"
+        },
+        {
+            "id": 956,
+            "title": "Família=Problemas",
+            "slug": "familiaproblemas",
+            "date": "2013-09-22T00:28:19-03:00",
+            "dateYmd": "2013-09-22",
+            "dateDisplay": "22/09/2013",
+            "url": "reader.html#2013-09-22-familiaproblemas.html",
+            "file": "2013-09-22-familiaproblemas.html",
+            "summary": "Eu preciso desabafar, preciso colocar pra fora: Eu não falo com boa parte da minha família a muito tempo. De fato, o único que ainda mantenho contato é meu pai. E o pior de…",
+            "html": "<article id=\"post-956\" class=\"post-956 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-dor tag-familia tag-problemas tag-silencio\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-22-familiaproblemas.html\" rel=\"bookmark\">Família=Problemas</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-22-familiaproblemas.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-22T00:28:19-03:00\">22/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-22-familiaproblemas.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#dor\" rel=\"tag\">Dor</a> <a href=\"tag.html#familia\" rel=\"tag\">Família</a> <a href=\"tag.html#problemas\" rel=\"tag\">Problemas</a> <a href=\"tag.html#silencio\" rel=\"tag\">Silêncio</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><em><strong><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-957 aligncenter\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/dysfunctional_family-2.jpg\" alt=\"Dysfunctional_Family-2\" width=\"480\" height=\"280\" />Eu preciso desabafar, preciso colocar pra fora:</strong></em></p>\n<p><em>Eu não falo com boa parte da minha família a muito tempo. De fato, o único que ainda mantenho contato é meu pai. E o pior de tudo é que nem sequer sei se os motivos pelos quais as coisas terem chegado onde chegaram foram bons. Eu tenho essa coisa de simplesmente não querer discutir algo, eu simplesmente paro de falar, eu simplesmente ignoro e me isolo da pessoa, principalmente quando se trata de um parente.</em></p>\n<p><em>Não falo com meus 2 irmãos e com minha mãe há alguns anos.</em></p>\n<p><em>A primeira pessoa com que deixei de falar foi meu irmão do meio, somos três, eu sou o mais novo. Eu parei de falar com ele no dia 10 de maio de 2006, eu me lembro exatamente do dia porque me recordo do episódio que passou do seriado <b>“Minha Nada Mole Vida”,</b> dois dias depois na sexta-feira.</em></p>\n<p><em>Você talvez se pergunte o porquê desta briga, bem basicamente foi porque nós brigamos para ver que iria usar o computador para jogar <b>The Sims 2</b>. Simples assim. Nós já tínhamos tido algumas brigas (creio que duas brigas) anteriores a essa, pelo mesmo motivo, brigas por causa de ver de “quem era a vez de jogar videogame”, inclusive tínhamos ficado algumas semanas sem nos falar. Mas eventualmente tínhamos voltado a nos falar. Até que naquela quarta feira, aquele dia 10 de maio de 2006, foi a última vez que nos falamos amigavelmente. Simplesmente não nos falamos desde então, com exceção de algumas outras pouquíssimas brigas que tivemos apesar de não estarmos nos falando mais.</em></p>\n<p><em>Alguns anos depois, pra ser sincero nem sequer me lembro do ano exato, creio que no começo de 2011 ou 2012&#8230; não, provavelmente foi no começo de 2011 mesmo. Fevereiro de 2011.</em></p>\n<p><em>Eu e minha mãe tivemos uma briga, embora neste caso o problema foi&#8230; digamos que foi a junção de vários outros problemas que vinham ocorrendo com o decorrer do tempo. Minha mãe sempre foi uma mulher&#8230; fanática, uma mulher dominada pelo fanatismo e intolerância religiosa. Ela fazia reclamações constantes sobre “com quem eu conversava na internet” , e isso era muito irritante, ela também tinha um grande preconceito e intolerância pelo fato de eu ser ateu. E enfim, meu relacionamento com ela foi se desgastando tanto com o tempo (por isso e outra série de fatores) que hoje em dia, praticamente não conversamos, apenas o essencial.</em></p>\n<p><em>O último com que deixei de falar foi meu irmão mais velho, o primeiro filho. Ele sem dúvida é a pessoa que eu menos gostaria de ter parado de falar, porque ele era muito legal, porém, em alguns aspectos era simplesmente uma pessoa sem personalidade própria, um fantoche sedento por aprovação de nossa mãe.</em></p>\n<p><em>Nós paramos de conversar definitivamente, creio eu, na penúltima semana de Novembro de 2012. Para ser mais exato, acho que foi no dia 21 de Novembro de 2012.</em></p>\n<p><em>A briga foi por causa que eu estava ouvindo uma música no nosso quarto, aliás, para ser exato era <a href=\"https://web.archive.org/web/20171109055002/https://www.letras.mus.br/desce-letra/homenagem-ao-latino/\">essa</a> música.  E minha mãe, por ser fanática religiosa não havia gostado de eu estar escutando ela. Meu irmão tomou partido na briga, e reclamou de eu estar ouvindo essa música, depois reclamou de eu estar com o som ligado no quarto escutando um filme. Ambos, ele e minha mãe estavam brigando comigo, ele, falso sem personalidade apoiou a minha mãe apenas porque é um sedento por aprovação dela, e não porque ele realmente estivesse incomodado por eu estar com o som lá.</em></p>\n<p><em>No calor do momento eu simplesmente disse a ele <strong>&#8220;Faz um favor, para de falar comigo?&#8221;, </strong>após isso ele parou de pagar a minha parte da internet, de modo que eu comecei a pagá-la com o pouco dinheiro que havia guardado. Depois, quando trocamos de internet para uma internet de <strong>10MB</strong>, ele exigiu que eu pagasse 1/3 da internet (20 reais), para poder usá-la (Isso foi bem mesquinho da parte dele, diga-se de passagem). Até que ele acabou mudando de ideia.</em></p>\n<p><em>Vale ressaltar que eu e ele já tínhamos parado de nos falar por 1 mês. No dia 7 de Dezembro de 2011 (eu lembro porque isso foi 1 dia após meu aniversário) nós havíamos  brigado, o motivo foi que ele me viu vendo pornografia na internet, e resolveu se intrometer na minha vida pessoal e reclamar. Não porque ele realmente tivesse um problema comigo vendo pornografia na internet, mas sim porque esse falso sem personalidade queria agradar a fanática religiosa intolerante da nossa mãe.</em></p>\n<p><em><strong>Enfim&#8230;</strong></em></p>\n<p><em>Quer saber? O que me faz ter raiva de tudo isso, o que me deixa mais emputecido com tudo? É o fato de que se <strong>tivéssemos dinheiro</strong> provavelmente esses problemas não teriam acontecido. Se eu tivesse tido um <strong>quarto só meu, se eu tivesse tido um computador só meu, se eu tivesse tido meu cantinho, provavelmente não teríamos tido esse problema. E eu ainda falaria com eles</strong>. Isso só me faz odiar mais ainda o fato de ter vindo duma <strong>família pobre.</strong></em></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Dor",
+                    "slug": "dor"
+                },
+                {
+                    "name": "Família",
+                    "slug": "familia"
+                },
+                {
+                    "name": "Problemas",
+                    "slug": "problemas"
+                },
+                {
+                    "name": "Silêncio",
+                    "slug": "silencio"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "<p><em><strong><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-957 aligncenter\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/dysfunctional_family-2.jpg\" alt=\"Dysfunctional_Family-2\" width=\"480\" height=\"280\" />Eu preciso desabafar, preciso colocar pra fora:</strong></em></p>\n<p><em>Eu não falo com boa parte da minha família a muito tempo. De fato, o único que ainda mantenho contato é meu pai. E o pior de tudo é que nem sequer sei se os motivos pelos quais as coisas terem chegado onde chegaram foram bons. Eu tenho essa coisa de simplesmente não querer discutir algo, eu simplesmente paro de falar, eu simplesmente ignoro e me isolo da pessoa, principalmente quando se trata de um parente.</em></p>\n<p><em>Não falo com meus 2 irmãos e com minha mãe há alguns anos.</em></p>\n<p><em>A primeira pessoa com que deixei de falar foi meu irmão do meio, somos três, eu sou o mais novo. Eu parei de falar com ele no dia 10 de maio de 2006, eu me lembro exatamente do dia porque me recordo do episódio que passou do seriado <b>“Minha Nada Mole Vida”,</b> dois dias depois na sexta-feira.</em></p>\n<p><em>Você talvez se pergunte o porquê desta briga, bem basicamente foi porque nós brigamos para ver que iria usar o computador para jogar <b>The Sims 2</b>. Simples assim. Nós já tínhamos tido algumas brigas (creio que duas brigas) anteriores a essa, pelo mesmo motivo, brigas por causa de ver de “quem era a vez de jogar videogame”, inclusive tínhamos ficado algumas semanas sem nos falar. Mas eventualmente tínhamos voltado a nos falar. Até que naquela quarta feira, aquele dia 10 de maio de 2006, foi a última vez que nos falamos amigavelmente. Simplesmente não nos falamos desde então, com exceção de algumas outras pouquíssimas brigas que tivemos apesar de não estarmos nos falando mais.</em></p>\n<p><em>Alguns anos depois, pra ser sincero nem sequer me lembro do ano exato, creio que no começo de 2011 ou 2012&#8230; não, provavelmente foi no começo de 2011 mesmo. Fevereiro de 2011.</em></p>\n<p><em>Eu e minha mãe tivemos uma briga, embora neste caso o problema foi&#8230; digamos que foi a junção de vários outros problemas que vinham ocorrendo com o decorrer do tempo. Minha mãe sempre foi uma mulher&#8230; fanática, uma mulher dominada pelo fanatismo e intolerância religiosa. Ela fazia reclamações constantes sobre “com quem eu conversava na internet” , e isso era muito irritante, ela também tinha um grande preconceito e intolerância pelo fato de eu ser ateu. E enfim, meu relacionamento com ela foi se desgastando tanto com o tempo (por isso e outra série de fatores) que hoje em dia, praticamente não conversamos, apenas o essencial.</em></p>\n<p><em>O último com que deixei de falar foi meu irmão mais velho, o primeiro filho. Ele sem dúvida é a pessoa que eu menos gostaria de ter parado de falar, porque ele era muito legal, porém, em alguns aspectos era simplesmente uma pessoa sem personalidade própria, um fantoche sedento por aprovação de nossa mãe.</em></p>\n<p><em>Nós paramos de conversar definitivamente, creio eu, na penúltima semana de Novembro de 2012. Para ser mais exato, acho que foi no dia 21 de Novembro de 2012.</em></p>\n<p><em>A briga foi por causa que eu estava ouvindo uma música no nosso quarto, aliás, para ser exato era <a href=\"https://web.archive.org/web/20171109055002/https://www.letras.mus.br/desce-letra/homenagem-ao-latino/\">essa</a> música.  E minha mãe, por ser fanática religiosa não havia gostado de eu estar escutando ela. Meu irmão tomou partido na briga, e reclamou de eu estar ouvindo essa música, depois reclamou de eu estar com o som ligado no quarto escutando um filme. Ambos, ele e minha mãe estavam brigando comigo, ele, falso sem personalidade apoiou a minha mãe apenas porque é um sedento por aprovação dela, e não porque ele realmente estivesse incomodado por eu estar com o som lá.</em></p>\n<p><em>No calor do momento eu simplesmente disse a ele <strong>&#8220;Faz um favor, para de falar comigo?&#8221;, </strong>após isso ele parou de pagar a minha parte da internet, de modo que eu comecei a pagá-la com o pouco dinheiro que havia guardado. Depois, quando trocamos de internet para uma internet de <strong>10MB</strong>, ele exigiu que eu pagasse 1/3 da internet (20 reais), para poder usá-la (Isso foi bem mesquinho da parte dele, diga-se de passagem). Até que ele acabou mudando de ideia.</em></p>\n<p><em>Vale ressaltar que eu e ele já tínhamos parado de nos falar por 1 mês. No dia 7 de Dezembro de 2011 (eu lembro porque isso foi 1 dia após meu aniversário) nós havíamos  brigado, o motivo foi que ele me viu vendo pornografia na internet, e resolveu se intrometer na minha vida pessoal e reclamar. Não porque ele realmente tivesse um problema comigo vendo pornografia na internet, mas sim porque esse falso sem personalidade queria agradar a fanática religiosa intolerante da nossa mãe.</em></p>\n<p><em><strong>Enfim&#8230;</strong></em></p>\n<p><em>Quer saber? O que me faz ter raiva de tudo isso, o que me deixa mais emputecido com tudo? É o fato de que se <strong>tivéssemos dinheiro</strong> provavelmente esses problemas não teriam acontecido. Se eu tivesse tido um <strong>quarto só meu, se eu tivesse tido um computador só meu, se eu tivesse tido meu cantinho, provavelmente não teríamos tido esse problema. E eu ainda falaria com eles</strong>. Isso só me faz odiar mais ainda o fato de ter vindo duma <strong>família pobre.</strong></em></p>\n"
+        },
+        {
+            "id": 950,
+            "title": "A forma como adquirimos conhecimento é ruim",
+            "slug": "a-forma-como-adquirimos-conhecimento-e-ruim",
+            "date": "2013-09-21T00:35:00-03:00",
+            "dateYmd": "2013-09-21",
+            "dateDisplay": "21/09/2013",
+            "url": "reader.html#2013-09-21-a-forma-como-adquirimos-conhecimento-e-ruim.html",
+            "file": "2013-09-21-a-forma-como-adquirimos-conhecimento-e-ruim.html",
+            "summary": "Estava refletindo sobre a forma como aprendemos, como adquirimos conhecimento. E percebi que isso é um processo tremendamente ineficiente. Não poderia definir de outra forma, é uma maneira ruim de adquirimos conhecimento. Para você…",
+            "html": "<article id=\"post-950\" class=\"post-950 post type-post status-publish format-standard hentry category-ciencia category-textos tag-aprender tag-cerebro tag-conhecimento tag-tecnologia tag-upload\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#ciencia\" rel=\"category\">Ciência</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-21-a-forma-como-adquirimos-conhecimento-e-ruim.html\" rel=\"bookmark\">A forma como adquirimos conhecimento é ruim</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2013-09-21-a-forma-como-adquirimos-conhecimento-e-ruim.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-21T00:35:00-03:00\">21/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-21-a-forma-como-adquirimos-conhecimento-e-ruim.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#aprender\" rel=\"tag\">Aprender</a> <a href=\"tag.html#cerebro\" rel=\"tag\">Cérebro</a> <a href=\"tag.html#conhecimento\" rel=\"tag\">Conhecimento</a> <a href=\"tag.html#tecnologia\" rel=\"tag\">Tecnologia</a> <a href=\"tag.html#upload\" rel=\"tag\">Upload</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-952 aligncenter\" alt=\"Brain-Concept-2\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/brain-concept-2.jpg\" width=\"480\" height=\"406\" />Estava refletindo sobre a forma como aprendemos, como adquirimos conhecimento. E percebi que isso é um processo <strong>tremendamente ineficiente</strong>. Não poderia definir de outra forma, é uma maneira <strong>ruim de adquirimos conhecimento. P</strong>ara você aprender algo você precisa memorizar aquela informação, e memorizar os raciocínios lógicos envolvendo aquela informação.</p>\n<p>Se você quer ser médico, por exemplo, você passará quase uma década de sua vida estudando. Mas, e se fosse possível aprender todo o currículo médico, todo o conhecimento médico em apenas <strong>1 dia? </strong>E se fosse possível simplesmente fazermos o <strong>UPLOAD</strong> de informação diretamente ao nosso cérebro?</p>\n<p>Sim, talvez isso pareça muito <strong>Matrix</strong> para você, mas será que realmente é loucura pensarmos nisso? Se eu falasse para alguém na idade média que no século 21 nós teríamos uma coisa chamada internet, na qual  todas as pessoas do mundo poderiam conversar ao vivo, e compartilhar conhecimentos livremente&#8230; Sem duvida alguma eu seria mandando para a fogueira por cometer alguma heresia.</p>\n<p>Enfim, quem sabe o que o futuro nos reserva?</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Aprender",
+                    "slug": "aprender"
+                },
+                {
+                    "name": "Cérebro",
+                    "slug": "cerebro"
+                },
+                {
+                    "name": "Conhecimento",
+                    "slug": "conhecimento"
+                },
+                {
+                    "name": "Tecnologia",
+                    "slug": "tecnologia"
+                },
+                {
+                    "name": "Upload",
+                    "slug": "upload"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Ciência",
+                    "slug": "ciencia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<p><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-952 aligncenter\" alt=\"Brain-Concept-2\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/brain-concept-2.jpg\" width=\"480\" height=\"406\" />Estava refletindo sobre a forma como aprendemos, como adquirimos conhecimento. E percebi que isso é um processo <strong>tremendamente ineficiente</strong>. Não poderia definir de outra forma, é uma maneira <strong>ruim de adquirimos conhecimento. P</strong>ara você aprender algo você precisa memorizar aquela informação, e memorizar os raciocínios lógicos envolvendo aquela informação.</p>\n<p>Se você quer ser médico, por exemplo, você passará quase uma década de sua vida estudando. Mas, e se fosse possível aprender todo o currículo médico, todo o conhecimento médico em apenas <strong>1 dia? </strong>E se fosse possível simplesmente fazermos o <strong>UPLOAD</strong> de informação diretamente ao nosso cérebro?</p>\n<p>Sim, talvez isso pareça muito <strong>Matrix</strong> para você, mas será que realmente é loucura pensarmos nisso? Se eu falasse para alguém na idade média que no século 21 nós teríamos uma coisa chamada internet, na qual  todas as pessoas do mundo poderiam conversar ao vivo, e compartilhar conhecimentos livremente&#8230; Sem duvida alguma eu seria mandando para a fogueira por cometer alguma heresia.</p>\n<p>Enfim, quem sabe o que o futuro nos reserva?</p>\n"
+        },
+        {
+            "id": 946,
+            "title": "Escrever…",
+            "slug": "escrever-me-sal",
+            "date": "2013-09-20T01:01:22-03:00",
+            "dateYmd": "2013-09-20",
+            "dateDisplay": "20/09/2013",
+            "url": "reader.html#2013-09-20-escrever-me-sal.html",
+            "file": "2013-09-20-escrever-me-sal.html",
+            "summary": "Escrever me salvou da loucura. Eu",
+            "html": "<article id=\"post-946\" class=\"post-946 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes tag-escrever tag-existencia tag-salvar\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-20-escrever-me-sal.html\" rel=\"bookmark\">Escrever…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-20-escrever-me-sal.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-20T01:01:22-03:00\">20/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-20-escrever-me-sal.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#escrever\" rel=\"tag\">Escrever</a> <a href=\"tag.html#existencia\" rel=\"tag\">Existência</a> <a href=\"tag.html#salvar\" rel=\"tag\">Salvar</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1>Escrever me salvou da loucura.</h1>\n</blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Escrever",
+                    "slug": "escrever"
+                },
+                {
+                    "name": "Existência",
+                    "slug": "existencia"
+                },
+                {
+                    "name": "Salvar",
+                    "slug": "salvar"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h1>Escrever me salvou da loucura.</h1>\n</blockquote>\n<p>Eu</p>\n"
+        },
+        {
+            "id": 942,
+            "title": "Os demônios somos nós mesmos",
+            "slug": "os-demonios-somos-nos-mesmos",
+            "date": "2013-09-19T14:38:14-03:00",
+            "dateYmd": "2013-09-19",
+            "dateDisplay": "19/09/2013",
+            "url": "reader.html#2013-09-19-os-demonios-somos-nos-mesmos.html",
+            "file": "2013-09-19-os-demonios-somos-nos-mesmos.html",
+            "summary": "Os demônios somos nós mesmosOs pecadoresOs insanosOs malditos Desolados de tudo e esquecido pelo mundoSedentos pelos nossos desejos, seja lá a que custo forEste somos nósEste é vocêEu sou eu",
+            "html": "<article id=\"post-942\" class=\"post-942 post type-post status-publish format-standard hentry category-filosofia category-textos tag-existencia tag-humanos tag-maldade tag-poesia tag-vida\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-19-os-demonios-somos-nos-mesmos.html\" rel=\"bookmark\">Os demônios somos nós mesmos</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2013-09-19-os-demonios-somos-nos-mesmos.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-19T14:38:14-03:00\">19/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-19-os-demonios-somos-nos-mesmos.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#existencia\" rel=\"tag\">Existência</a> <a href=\"tag.html#humanos\" rel=\"tag\">Humanos</a> <a href=\"tag.html#maldade\" rel=\"tag\">Maldade</a> <a href=\"tag.html#poesia\" rel=\"tag\">Poesia</a> <a href=\"tag.html#vida\" rel=\"tag\">Vida</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p>Os demônios somos nós mesmos<br />Os pecadores<br />Os insanos<br />Os malditos</p>\n<p>Desolados de tudo e esquecido pelo mundo<br />Sedentos pelos nossos desejos, seja lá a que custo for<br />Este somos nós<br />Este é você<br />Eu sou eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Existência",
+                    "slug": "existencia"
+                },
+                {
+                    "name": "Humanos",
+                    "slug": "humanos"
+                },
+                {
+                    "name": "Maldade",
+                    "slug": "maldade"
+                },
+                {
+                    "name": "Poesia",
+                    "slug": "poesia"
+                },
+                {
+                    "name": "Vida",
+                    "slug": "vida"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<p>Os demônios somos nós mesmos<br />Os pecadores<br />Os insanos<br />Os malditos</p>\n<p>Desolados de tudo e esquecido pelo mundo<br />Sedentos pelos nossos desejos, seja lá a que custo for<br />Este somos nós<br />Este é você<br />Eu sou eu</p>\n"
+        },
+        {
+            "id": 939,
+            "title": "Minhas 1001 Formas De Morrer",
+            "slug": "minhas-1001-formas-de-morrer",
+            "date": "2013-09-19T02:54:23-03:00",
+            "dateYmd": "2013-09-19",
+            "dateDisplay": "19/09/2013",
+            "url": "reader.html#2013-09-19-minhas-1001-formas-de-morrer.html",
+            "file": "2013-09-19-minhas-1001-formas-de-morrer.html",
+            "summary": "Ultimamente mais do que nunca ando imaginando formas de morrer. São só fantasias, mas confesso que essas fantasias nas quais flerto com a ideia de morte vem me ajudando a suportar o fardo da…",
+            "html": "<article id=\"post-939\" class=\"post-939 post type-post status-publish format-standard hentry category-filosofia category-textos tag-dor tag-morte tag-suicidio tag-tristeza\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-19-minhas-1001-formas-de-morrer.html\" rel=\"bookmark\">Minhas 1001 Formas De Morrer</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2013-09-19-minhas-1001-formas-de-morrer.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-19T02:54:23-03:00\">19/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-19-minhas-1001-formas-de-morrer.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#dor\" rel=\"tag\">Dor</a> <a href=\"tag.html#morte\" rel=\"tag\">Morte</a> <a href=\"tag.html#suicidio\" rel=\"tag\">Suicídio</a> <a href=\"tag.html#tristeza\" rel=\"tag\">Tristeza</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p>Ultimamente mais do que nunca ando imaginando formas de morrer. São só fantasias, mas confesso que essas fantasias nas quais flerto com a ideia de morte vem me ajudando a suportar o fardo da minha existência.</p>\n<p>Numa delas, sou um gângster, ao estilo <b>“A Estrada Para Perdição</b>”, na qual na qual numa busca por vingança eu levaria um tiro pelas costas numa casa à beira mar. Um tiro, apenas um tiro. Eu sairia vagando com as poucas forças que ainda me restassem, até chegar à praia, eu me deitaria lá, enquanto meu sangue se esvaia&#8230; Eu olharia o por do sol e a onda do mar, enquanto morria. Seria lindo.</p>\n<p>Numa outra fantasia eu estaria num prédio bem alto, seria um fim de tarde, mas não estaria ensolarado como na fantasia anterior. Estaria um dia bem nublado e frio. O quarto do hotel seria bem grande, mas teria pouca mobília, seria grande e vazio, e o mais importante: Teria uma vidraça gigantesca, sem varanda. Eu ficaria olhando de longe essa vidraça com as cortinas abertas. Ficaria olhando por vários minutos&#8230; Olhando e olhando. Então eu simplesmente correria e me jogaria atravessando a vidraça com tudo. Cortes de vidros e uma queda de 15 andares. Essa ideia me veio do Lost, de quando o John Locke cai do prédio.</p>\n<p>Em outros destes meus insanos delírios eu simplesmente estou dirigindo um carro em alta velocidade escutando música <strong>&#8220;It’s Getting Better&#8221;</strong> do The <strong>Mamas &amp; The Papas</strong> e o acelero contra um muro. Lindo e emocionante. Novamente, mais uma forma de morrer surrupiada do Lost.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Dor",
+                    "slug": "dor"
+                },
+                {
+                    "name": "Morte",
+                    "slug": "morte"
+                },
+                {
+                    "name": "Suicídio",
+                    "slug": "suicidio"
+                },
+                {
+                    "name": "Tristeza",
+                    "slug": "tristeza"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<p>Ultimamente mais do que nunca ando imaginando formas de morrer. São só fantasias, mas confesso que essas fantasias nas quais flerto com a ideia de morte vem me ajudando a suportar o fardo da minha existência.</p>\n<p>Numa delas, sou um gângster, ao estilo <b>“A Estrada Para Perdição</b>”, na qual na qual numa busca por vingança eu levaria um tiro pelas costas numa casa à beira mar. Um tiro, apenas um tiro. Eu sairia vagando com as poucas forças que ainda me restassem, até chegar à praia, eu me deitaria lá, enquanto meu sangue se esvaia&#8230; Eu olharia o por do sol e a onda do mar, enquanto morria. Seria lindo.</p>\n<p>Numa outra fantasia eu estaria num prédio bem alto, seria um fim de tarde, mas não estaria ensolarado como na fantasia anterior. Estaria um dia bem nublado e frio. O quarto do hotel seria bem grande, mas teria pouca mobília, seria grande e vazio, e o mais importante: Teria uma vidraça gigantesca, sem varanda. Eu ficaria olhando de longe essa vidraça com as cortinas abertas. Ficaria olhando por vários minutos&#8230; Olhando e olhando. Então eu simplesmente correria e me jogaria atravessando a vidraça com tudo. Cortes de vidros e uma queda de 15 andares. Essa ideia me veio do Lost, de quando o John Locke cai do prédio.</p>\n<p>Em outros destes meus insanos delírios eu simplesmente estou dirigindo um carro em alta velocidade escutando música <strong>&#8220;It’s Getting Better&#8221;</strong> do The <strong>Mamas &amp; The Papas</strong> e o acelero contra um muro. Lindo e emocionante. Novamente, mais uma forma de morrer surrupiada do Lost.</p>\n"
+        },
+        {
+            "id": 935,
+            "title": "I WAS…",
+            "slug": "i-was-many-thin",
+            "date": "2013-09-16T23:27:06-03:00",
+            "dateYmd": "2013-09-16",
+            "dateDisplay": "16/09/2013",
+            "url": "reader.html#2013-09-16-i-was-many-thin.html",
+            "file": "2013-09-16-i-was-many-thin.html",
+            "summary": "I was many things, and many of those things wasn't good things. Me",
+            "html": "<article id=\"post-935\" class=\"post-935 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-english category-filosofia tag-bad tag-depression tag-good\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#english\" rel=\"category\">English</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-16-i-was-many-thin.html\" rel=\"bookmark\">I WAS…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-16-i-was-many-thin.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-16T23:27:06-03:00\">16/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-16-i-was-many-thin.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#bad\" rel=\"tag\">Bad</a> <a href=\"tag.html#depression\" rel=\"tag\">Depression</a> <a href=\"tag.html#good\" rel=\"tag\">Good</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1>I was many things, and many of those things wasn&#8217;t good things.</h1>\n</blockquote>\n<p>Me</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Bad",
+                    "slug": "bad"
+                },
+                {
+                    "name": "Depression",
+                    "slug": "depression"
+                },
+                {
+                    "name": "Good",
+                    "slug": "good"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "English",
+                    "slug": "english"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h1>I was many things, and many of those things wasn&#8217;t good things.</h1>\n</blockquote>\n<p>Me</p>\n"
+        },
+        {
+            "id": 1401,
+            "title": "Nosso Estranho Amor",
+            "slug": "nosso-estranho-amor",
+            "date": "2013-09-12T03:02:18-03:00",
+            "dateYmd": "2013-09-12",
+            "dateDisplay": "12/09/2013",
+            "url": "reader.html#2013-09-12-nosso-estranho-amor.html",
+            "file": "2013-09-12-nosso-estranho-amor.html",
+            "summary": "Era um amor pervertido? Um amor errado? Pros outros sim Para nós, jamais Eu a amava Sim, eu amava! A-M-A-V-A Do fundo meu coração Por sua doçura Por sua inocência Por sua meiguice Por…",
+            "html": "<article id=\"post-1401\" class=\"post-1401 post type-post status-publish format-standard hentry category-textos tag-abdl tag-abdl-girl tag-ageplay tag-amor tag-fofo tag-hs38 tag-poema\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-12-nosso-estranho-amor.html\" rel=\"bookmark\">Nosso Estranho Amor</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2013-09-12-nosso-estranho-amor.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-12T03:02:18-03:00\">12/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-12-nosso-estranho-amor.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#abdl\" rel=\"tag\">ABDL</a> <a href=\"tag.html#abdl-girl\" rel=\"tag\">ABDL Girl</a> <a href=\"tag.html#ageplay\" rel=\"tag\">Ageplay</a> <a href=\"tag.html#amor\" rel=\"tag\">Amor</a> <a href=\"tag.html#fofo\" rel=\"tag\">Fofo</a> <a href=\"tag.html#hs38\" rel=\"tag\">HS38</a> <a href=\"tag.html#poema\" rel=\"tag\">Poema</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><em>Era um amor pervertido?</em><br />\n<em> Um amor errado?</em><br />\n<em> Pros outros sim</em><br />\n<em> Para nós, jamais</em></p>\n<p><em>Eu a amava</em><br />\n<em> Sim, eu amava!</em><br />\n<em> A-M-A-V-A</em><br />\n<em> Do fundo meu coração</em></p>\n<p><em>Por sua doçura</em><br />\n<em> Por sua inocência</em><br />\n<em> Por sua meiguice</em><br />\n<em> Por sua infantilidade</em><br />\n<em> Por seu jeito brincalhona de ser</em></p>\n<p><em><span style=\"line-height:1.5;\">E talvez, porque por dentro fosse igual a ela:<br />\n</span>Ingênuo, bobo, tolo e infantil</em></p>\n<p><em>Amava seu sorriso</em><br />\n<em> Amava suas mãozinhas</em><br />\n<em> Os olhos dela&#8230;</em><br />\n<em> Oh, aqueles olhinhos inocentes, cheios de ternura</em><br />\n<em> Não era um algo sexual&#8230;</em></p>\n<p><em>Amava a infantilidade dela, seus gracejos, suas piadas sem graça</em><br />\n<em> Amava as conversas do tipo “qual é o seu doce favorito?”</em><br />\n<em> A amava&#8230;</em></p>\n<p><em><span style=\"line-height:1.5;\">Não sou um sádico&#8230;<br />\n</span>Não sou um sádico como podem pensar</em><br />\n<em> Não sou um monstro</em><br />\n<em> Não sou um doente</em><br />\n<em> Não sou um demônio</em><br />\n<em> Não sou o mal</em></p>\n<p><em>Não desejava machuca-lá,</em><br />\n<em> Nem feri-lá</em><br />\n<em> Nem fazê-lá sofrer</em><br />\n<em> Nem em um milhão de anos faria isso</em><br />\n<em> Nem nada contra sua vontade</em><br />\n<em> Jamais&#8230;</em></p>\n<p><em><span style=\"line-height:1.5;\">Não se tratava do que pensam!<br />\nEra sobre amor</span></em><br />\n<em> Era sobre&#8230;</em><br />\n<em> Querer protegê-la</em><br />\n<em> Fazê-la sentir-se segura</em><br />\n<em> E preencher suas necessidades</em><br />\n<em> Era sobre amá-la!</em></p>\n<p><em>A amava como mãe,</em><br />\n<em> A amava como irmã,</em><br />\n<em> A amava como filha,</em><br />\n<em> A amava como mulher</em></p>\n<p><em>Havia encontrado nela meu primeiro amor</em><br />\n<em> Havia encontrado nela meu primeiro beijo</em><br />\n<em> Havia encontrado nela minha primeira felicidade</em></p>\n<p><em>O amor da minha vida</em><br />\n<em> Minha princesinha</em></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "ABDL",
+                    "slug": "abdl"
+                },
+                {
+                    "name": "ABDL Girl",
+                    "slug": "abdl-girl"
+                },
+                {
+                    "name": "Ageplay",
+                    "slug": "ageplay"
+                },
+                {
+                    "name": "Amor",
+                    "slug": "amor"
+                },
+                {
+                    "name": "Fofo",
+                    "slug": "fofo"
+                },
+                {
+                    "name": "HS38",
+                    "slug": "hs38"
+                },
+                {
+                    "name": "Poema",
+                    "slug": "poema"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<p><em>Era um amor pervertido?</em><br />\n<em> Um amor errado?</em><br />\n<em> Pros outros sim</em><br />\n<em> Para nós, jamais</em></p>\n<p><em>Eu a amava</em><br />\n<em> Sim, eu amava!</em><br />\n<em> A-M-A-V-A</em><br />\n<em> Do fundo meu coração</em></p>\n<p><em>Por sua doçura</em><br />\n<em> Por sua inocência</em><br />\n<em> Por sua meiguice</em><br />\n<em> Por sua infantilidade</em><br />\n<em> Por seu jeito brincalhona de ser</em></p>\n<p><em><span style=\"line-height:1.5;\">E talvez, porque por dentro fosse igual a ela:<br />\n</span>Ingênuo, bobo, tolo e infantil</em></p>\n<p><em>Amava seu sorriso</em><br />\n<em> Amava suas mãozinhas</em><br />\n<em> Os olhos dela&#8230;</em><br />\n<em> Oh, aqueles olhinhos inocentes, cheios de ternura</em><br />\n<em> Não era um algo sexual&#8230;</em></p>\n<p><em>Amava a infantilidade dela, seus gracejos, suas piadas sem graça</em><br />\n<em> Amava as conversas do tipo “qual é o seu doce favorito?”</em><br />\n<em> A amava&#8230;</em></p>\n<p><em><span style=\"line-height:1.5;\">Não sou um sádico&#8230;<br />\n</span>Não sou um sádico como podem pensar</em><br />\n<em> Não sou um monstro</em><br />\n<em> Não sou um doente</em><br />\n<em> Não sou um demônio</em><br />\n<em> Não sou o mal</em></p>\n<p><em>Não desejava machuca-lá,</em><br />\n<em> Nem feri-lá</em><br />\n<em> Nem fazê-lá sofrer</em><br />\n<em> Nem em um milhão de anos faria isso</em><br />\n<em> Nem nada contra sua vontade</em><br />\n<em> Jamais&#8230;</em></p>\n<p><em><span style=\"line-height:1.5;\">Não se tratava do que pensam!<br />\nEra sobre amor</span></em><br />\n<em> Era sobre&#8230;</em><br />\n<em> Querer protegê-la</em><br />\n<em> Fazê-la sentir-se segura</em><br />\n<em> E preencher suas necessidades</em><br />\n<em> Era sobre amá-la!</em></p>\n<p><em>A amava como mãe,</em><br />\n<em> A amava como irmã,</em><br />\n<em> A amava como filha,</em><br />\n<em> A amava como mulher</em></p>\n<p><em>Havia encontrado nela meu primeiro amor</em><br />\n<em> Havia encontrado nela meu primeiro beijo</em><br />\n<em> Havia encontrado nela minha primeira felicidade</em></p>\n<p><em>O amor da minha vida</em><br />\n<em> Minha princesinha</em></p>\n"
+        },
+        {
+            "id": 930,
+            "title": "Fuck IT All",
+            "slug": "fuck-it-all",
+            "date": "2013-09-07T04:44:59-03:00",
+            "dateYmd": "2013-09-07",
+            "dateDisplay": "07/09/2013",
+            "url": "reader.html#2013-09-07-fuck-it-all.html",
+            "file": "2013-09-07-fuck-it-all.html",
+            "summary": "Foda-se tudo.",
+            "html": "<article id=\"post-930\" class=\"post-930 post type-post status-publish format-image hentry post_format-post-format-image category-imagens tag-depressao tag-suicidio\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#imagens\" rel=\"category\">Imagens</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-07-fuck-it-all.html\" rel=\"bookmark\">Fuck IT All</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#image\">Imagem</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-07-fuck-it-all.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-07T04:44:59-03:00\">07/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-07-fuck-it-all.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#depressao\" rel=\"tag\">Depressão</a> <a href=\"tag.html#suicidio\" rel=\"tag\">Suicídio</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"/wp-content/uploads/2013/09/00029-my-works.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full\" alt=\"Fuck IT All\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/00029-my-works.jpg\" width=\"819\" height=\"1235\" /></a></p>\n<p>Foda-se tudo.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Depressão",
+                    "slug": "depressao"
+                },
+                {
+                    "name": "Suicídio",
+                    "slug": "suicidio"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "image",
+            "formatLabel": "Imagem",
+            "full": "<p><a href=\"/wp-content/uploads/2013/09/00029-my-works.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full\" alt=\"Fuck IT All\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/00029-my-works.jpg\" width=\"819\" height=\"1235\" /></a></p>\n<p>Foda-se tudo.</p>\n"
+        },
+        {
+            "id": 898,
+            "title": "Nietzsche dizia…",
+            "slug": "nietzsche-dizia",
+            "date": "2013-09-07T03:40:22-03:00",
+            "dateYmd": "2013-09-07",
+            "dateDisplay": "07/09/2013",
+            "url": "reader.html#2013-09-07-nietzsche-dizia.html",
+            "file": "2013-09-07-nietzsche-dizia.html",
+            "summary": "Nietzsche dizia que aquilo que é feito por amor esta acima do bem e do mal... O destino me provará que isso era verdade. Eu",
+            "html": "<article id=\"post-898\" class=\"post-898 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes tag-amor tag-nietzsche\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-07-nietzsche-dizia.html\" rel=\"bookmark\">Nietzsche dizia…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2013-09-07-nietzsche-dizia.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-07T03:40:22-03:00\">07/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-07-nietzsche-dizia.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#amor\" rel=\"tag\">Amor</a> <a href=\"tag.html#nietzsche\" rel=\"tag\">Nietzsche</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1>Nietzsche dizia que aquilo que é feito por amor esta acima do bem e do mal&#8230; O destino me provará que isso era verdade.</h1>\n</blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Amor",
+                    "slug": "amor"
+                },
+                {
+                    "name": "Nietzsche",
+                    "slug": "nietzsche"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h1>Nietzsche dizia que aquilo que é feito por amor esta acima do bem e do mal&#8230; O destino me provará que isso era verdade.</h1>\n</blockquote>\n<p>Eu</p>\n"
+        },
+        {
+            "id": 914,
+            "title": "O século 20 e 21 segundo as pessoas do século 30",
+            "slug": "o-seculo-20-e-21-segundo-as-pessoas-do-seculo-30",
+            "date": "2013-09-07T03:38:54-03:00",
+            "dateYmd": "2013-09-07",
+            "dateDisplay": "07/09/2013",
+            "url": "reader.html#2013-09-07-o-seculo-20-e-21-segundo-as-pessoas-do-seculo-30.html",
+            "file": "2013-09-07-o-seculo-20-e-21-segundo-as-pessoas-do-seculo-30.html",
+            "summary": "Nunca houve tanta informação disponível como existe hoje em dia. Nunca documentamos tanta informação, fotos, vídeos, textos, etc, como nos tempos atuais. Podemos ver o Muro de Berlim caindo, os aviões se chocando com…",
+            "html": "<article id=\"post-914\" class=\"post-914 post type-post status-publish format-standard hentry category-historia category-textos tag-existencia tag-passado tag-russia tag-serguei-mijailovich-prokudin-gorskii\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#historia\" rel=\"category\">História</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-07-o-seculo-20-e-21-segundo-as-pessoas-do-seculo-30.html\" rel=\"bookmark\">O século 20 e 21 segundo as pessoas do século 30</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2013-09-07-o-seculo-20-e-21-segundo-as-pessoas-do-seculo-30.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-07T03:38:54-03:00\">07/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-07-o-seculo-20-e-21-segundo-as-pessoas-do-seculo-30.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#existencia\" rel=\"tag\">Existência</a> <a href=\"tag.html#passado\" rel=\"tag\">Passado</a> <a href=\"tag.html#russia\" rel=\"tag\">Rússia</a> <a href=\"tag.html#serguei-mijailovich-prokudin-gorskii\" rel=\"tag\">Serguéi Mijáilovich Prokudin-Gorskii</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p>Nunca houve tanta informação disponível como existe hoje em dia. Nunca documentamos tanta informação, fotos, vídeos, textos, etc, como nos tempos  atuais. Podemos ver o Muro de Berlim caindo, os aviões se chocando com o WTC no 11 de Setembro, podemos ver JFK sendo baleado.</p>\n<p>E isso é algo interessante de se pensar, principalmente a forma como as pessoas do futuro, e talvez em especial os historiadores do futuro, irão se relacionar com o passado. Digo, o que vêm a nossa cabeça quando pensamos em “Idade Média”?<img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-915 aligncenter\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/middle-ages-clothing-2.jpg\" alt=\"middle-ages-clothing-2\" width=\"480\" height=\"291\" /></p>\n<p>Provavelmente nos vem a nossa cabeça algo como a imagem acima, um desenho (não muito realista, diga-se de passagem), feito pelas pessoas que viveram naquela época afim de ilustrar a realidade dela. E é apenas isso que temos: Um desenho. Não existem fotos, nem vídeos, daquelas épocas obviamente. Você pode no máximo ter visto um filme <i>retratando</i> como era viver naquele tempo, mas não é algo real.</p>\n<p>Eu posso dizer o mesmo a respeito das fotografias antigas que muitas vezes tinham a qualidade técnica ruim e eram em preto e branco, de modo que você conseguia identificá-las ao olhar, você ao vê-la sabe que é antiga.</p>\n<p>Porém, e quando vemos uma foto assim:<br />\n<a href=\"/wp-content/uploads/2013/09/p02_00003991.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-916 aligncenter\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/p02_00003991.jpg\" alt=\"p02_00003991\" width=\"480\" height=\"340\" /></a></p>\n<p>A foto em questão foi tirada por um fotografo, alias, um gênio da fotografia russa, no ano de 1910, a mais de 100 anos atrás <em>(para quem se interessar em ver todo o trabalho dele, o link é esse <a href=\"http://www.loc.gov/pictures/search?st=grid&amp;co=prok\">aqui</a>)</em>. Entenderam onde eu quero chegar?</p>\n<p>As fotos preto e brancas e com baixa qualidade nos distanciavam do passado, nos faziam ter uma visão de que o passado era “muito diferente” do futuro. E o mais importante, nós dava uma “imagem” de referência, você via aquilo e sábia que era antigo.</p>\n<p>É estranho para nós termos uma visualização do passado tão realista, tão idêntica quanto a que temos do presente, e acredito que as futuras gerações vão experimentar esse sentimento muito mais do que nós. Afinal, a qualidade técnica dos dados gravados hoje é impecável. Imagina alguém do ano 3000 vendo um vídeo gravado em 2013. Seria como se nós do ano de 2013 pudéssemos ver em FULL HD as pirâmides sendo construídas.</p>\n<p>Então, creio que as pessoas no futuro conseguiram perceber que&#8230; o passado não era tão diferente do presente.</p>\n<p>Alias, eu já escrevi um abordando esse assunto dum posto de vista mais filosófico, caso você desejar lê-lo, o link está aqui <a href=\"reader.html#2013-07-15-os-nossos-problemas.html\">&#8220;Os Nossos Problemas&#8221;</a>.</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Existência",
+                    "slug": "existencia"
+                },
+                {
+                    "name": "Passado",
+                    "slug": "passado"
+                },
+                {
+                    "name": "Rússia",
+                    "slug": "russia"
+                },
+                {
+                    "name": "Serguéi Mijáilovich Prokudin-Gorskii",
+                    "slug": "serguei-mijailovich-prokudin-gorskii"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "História",
+                    "slug": "historia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<p>Nunca houve tanta informação disponível como existe hoje em dia. Nunca documentamos tanta informação, fotos, vídeos, textos, etc, como nos tempos  atuais. Podemos ver o Muro de Berlim caindo, os aviões se chocando com o WTC no 11 de Setembro, podemos ver JFK sendo baleado.</p>\n<p>E isso é algo interessante de se pensar, principalmente a forma como as pessoas do futuro, e talvez em especial os historiadores do futuro, irão se relacionar com o passado. Digo, o que vêm a nossa cabeça quando pensamos em “Idade Média”?<img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-915 aligncenter\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/middle-ages-clothing-2.jpg\" alt=\"middle-ages-clothing-2\" width=\"480\" height=\"291\" /></p>\n<p>Provavelmente nos vem a nossa cabeça algo como a imagem acima, um desenho (não muito realista, diga-se de passagem), feito pelas pessoas que viveram naquela época afim de ilustrar a realidade dela. E é apenas isso que temos: Um desenho. Não existem fotos, nem vídeos, daquelas épocas obviamente. Você pode no máximo ter visto um filme <i>retratando</i> como era viver naquele tempo, mas não é algo real.</p>\n<p>Eu posso dizer o mesmo a respeito das fotografias antigas que muitas vezes tinham a qualidade técnica ruim e eram em preto e branco, de modo que você conseguia identificá-las ao olhar, você ao vê-la sabe que é antiga.</p>\n<p>Porém, e quando vemos uma foto assim:<br />\n<a href=\"/wp-content/uploads/2013/09/p02_00003991.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-916 aligncenter\" src=\"http://estranhosidade.wordpress.com/wp-content/uploads/2013/09/p02_00003991.jpg\" alt=\"p02_00003991\" width=\"480\" height=\"340\" /></a></p>\n<p>A foto em questão foi tirada por um fotografo, alias, um gênio da fotografia russa, no ano de 1910, a mais de 100 anos atrás <em>(para quem se interessar em ver todo o trabalho dele, o link é esse <a href=\"http://www.loc.gov/pictures/search?st=grid&amp;co=prok\">aqui</a>)</em>. Entenderam onde eu quero chegar?</p>\n<p>As fotos preto e brancas e com baixa qualidade nos distanciavam do passado, nos faziam ter uma visão de que o passado era “muito diferente” do futuro. E o mais importante, nós dava uma “imagem” de referência, você via aquilo e sábia que era antigo.</p>\n<p>É estranho para nós termos uma visualização do passado tão realista, tão idêntica quanto a que temos do presente, e acredito que as futuras gerações vão experimentar esse sentimento muito mais do que nós. Afinal, a qualidade técnica dos dados gravados hoje é impecável. Imagina alguém do ano 3000 vendo um vídeo gravado em 2013. Seria como se nós do ano de 2013 pudéssemos ver em FULL HD as pirâmides sendo construídas.</p>\n<p>Então, creio que as pessoas no futuro conseguiram perceber que&#8230; o passado não era tão diferente do presente.</p>\n<p>Alias, eu já escrevi um abordando esse assunto dum posto de vista mais filosófico, caso você desejar lê-lo, o link está aqui <a href=\"reader.html#2013-07-15-os-nossos-problemas.html\">&#8220;Os Nossos Problemas&#8221;</a>.</p>\n"
+        },
+        {
+            "id": 902,
+            "title": "Nokia – The Fourth Screen",
+            "slug": "nokia-the-fourth-screen",
+            "date": "2013-09-05T09:27:57-03:00",
+            "dateYmd": "2013-09-05",
+            "dateDisplay": "05/09/2013",
+            "url": "reader.html#2013-09-05-nokia-the-fourth-screen.html",
+            "file": "2013-09-05-nokia-the-fourth-screen.html",
+            "summary": "Atualmente é um tanto difícil achar uma boa propaganda, mas sinceramente felizmente ainda existem boas propagandas. Como, por exemplo, essa propaganda da Nokia, do ano de 2008, que eu achei simplesmente genial! A seguir…",
+            "html": "<article id=\"post-902\" class=\"post-902 post type-post status-publish format-standard hentry category-autoria-de-outros category-filosofia category-textos category-videos tag-celular tag-comercial tag-foda tag-internet tag-nokia\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#autoria-de-outros\" rel=\"category\">Autoria de Outros</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a>, <a href=\"cat.html#videos\" rel=\"category\">Vídeos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2013-09-05-nokia-the-fourth-screen.html\" rel=\"bookmark\">Nokia – The Fourth Screen</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2013-09-05-nokia-the-fourth-screen.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2013-09-05T09:27:57-03:00\">05/09/2013</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2013-09-05-nokia-the-fourth-screen.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#celular\" rel=\"tag\">Celular</a> <a href=\"tag.html#comercial\" rel=\"tag\">Comercial</a> <a href=\"tag.html#foda\" rel=\"tag\">Foda</a> <a href=\"tag.html#internet\" rel=\"tag\">Internet</a> <a href=\"tag.html#nokia\" rel=\"tag\">Nokia</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p>Atualmente é um tanto difícil achar uma boa propaganda, mas sinceramente felizmente ainda existem boas propagandas.  Como, por exemplo, essa propaganda da Nokia, do ano de 2008, que eu achei simplesmente genial! A seguir segue o texto da propaganda e o vídeo:</p>\n<div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"Nokia: The Fourth Screen\" width=\"474\" height=\"356\" src=\"https://www.youtube.com/embed/yjEt8KENNr4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n<blockquote><p>No começo era uma tela.  Milhões de nós nos reuníamos num lugar público para entender o presente, para ver as visões do futuro. Compartilhar emoções, compartilhares experiências.  Ela abalou nossas vidas.</p>\n<p>Então houve uma segunda tela. Conectou-nos com nosso mundo, até mesmo com outros mundos, nos deu novos jogos incríveis para jogarmos, nos fez pensar, e nos fez dialogar. Mas embora esse fosse um mundo que todos nós podíamos compartilhar, a experiência em si estava se tornando individual.</p>\n<p>Então veio uma terceira tela e ela mudou a forma como trabalhávamos e jogávamos, e se tornou parte de algo muito maior:<strong> A internet.</strong></p>\n<p>E a revolução aconteceu. Nós podíamos jogar novos jogos, encontrar novas músicas em novos lugares. Novas comunidades, novos tipos de comunidades emergiram. Mas a experiência tinha se tornado individual, até mesmo solitária. O senso de comunidade parecia real, mas era virtual.</p>\n<p>E então tudo mudou, e mudou para sempre. Tudo veio para nós num pequeno dispositivo que poderia caber no nosso bolso. Nós escutávamos o que amávamos quando queríamos. Nós jogávamos o que nós queríamos quando queríamos. Nós compartilhamos o que nos inspirava com todos nós nos importávamos. Nós carregávamos todo sentindo de proposito conosco. Nós descobríamos novos lugares e experiências. E o senso de propósito continuou crescendo.</p>\n<p>Foi o fim de algo, foi começo de tudo.</p>\n<p>Bem-vindo a quarta tela.</p></blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Celular",
+                    "slug": "celular"
+                },
+                {
+                    "name": "Comercial",
+                    "slug": "comercial"
+                },
+                {
+                    "name": "Foda",
+                    "slug": "foda"
+                },
+                {
+                    "name": "Internet",
+                    "slug": "internet"
+                },
+                {
+                    "name": "Nokia",
+                    "slug": "nokia"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Autoria de Outros",
+                    "slug": "autoria-de-outros"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                },
+                {
+                    "name": "Vídeos",
+                    "slug": "videos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<p>Atualmente é um tanto difícil achar uma boa propaganda, mas sinceramente felizmente ainda existem boas propagandas.  Como, por exemplo, essa propaganda da Nokia, do ano de 2008, que eu achei simplesmente genial! A seguir segue o texto da propaganda e o vídeo:</p>\n<div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"Nokia: The Fourth Screen\" width=\"474\" height=\"356\" src=\"https://www.youtube.com/embed/yjEt8KENNr4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n<blockquote><p>No começo era uma tela.  Milhões de nós nos reuníamos num lugar público para entender o presente, para ver as visões do futuro. Compartilhar emoções, compartilhares experiências.  Ela abalou nossas vidas.</p>\n<p>Então houve uma segunda tela. Conectou-nos com nosso mundo, até mesmo com outros mundos, nos deu novos jogos incríveis para jogarmos, nos fez pensar, e nos fez dialogar. Mas embora esse fosse um mundo que todos nós podíamos compartilhar, a experiência em si estava se tornando individual.</p>\n<p>Então veio uma terceira tela e ela mudou a forma como trabalhávamos e jogávamos, e se tornou parte de algo muito maior:<strong> A internet.</strong></p>\n<p>E a revolução aconteceu. Nós podíamos jogar novos jogos, encontrar novas músicas em novos lugares. Novas comunidades, novos tipos de comunidades emergiram. Mas a experiência tinha se tornado individual, até mesmo solitária. O senso de comunidade parecia real, mas era virtual.</p>\n<p>E então tudo mudou, e mudou para sempre. Tudo veio para nós num pequeno dispositivo que poderia caber no nosso bolso. Nós escutávamos o que amávamos quando queríamos. Nós jogávamos o que nós queríamos quando queríamos. Nós compartilhamos o que nos inspirava com todos nós nos importávamos. Nós carregávamos todo sentindo de proposito conosco. Nós descobríamos novos lugares e experiências. E o senso de propósito continuou crescendo.</p>\n<p>Foi o fim de algo, foi começo de tudo.</p>\n<p>Bem-vindo a quarta tela.</p></blockquote>\n"
+        }
+    ]
+}
