@@ -1,14 +1,23 @@
 {
     "tags": {
+        "ditaura": "Ditaura",
+        "simpsons": "Simpsons",
+        "stf": "STF",
+        "amanha": "Amanha",
+        "biologia": "Biologia",
+        "futuro": "Futuro",
+        "robert-white": "Robert White",
+        "transhumanismo": "Transhumanismo",
         "imprensa": "Imprensa",
         "jornalismo": "Jornalismo",
         "midia": "Mídia",
-        "stf": "STF",
-        "futuro": "Futuro",
-        "transhumanismo": "Transhumanismo",
         "abdl": "ABDL",
         "ageplay": "Ageplay",
         "mommy": "Mommy",
+        "internet": "Internet",
+        "programacao": "Programação",
+        "vintage": "Vintage",
+        "wordpress": "Wordpress",
         "book": "Book",
         "copyright": "Copyright",
         "direito-autoral": "Direito Autoral",
@@ -118,7 +127,6 @@
         "indentarismo": "Indentarismo",
         "trans": "Trans",
         "woke": "Woke",
-        "simpsons": "Simpsons",
         "pokemon": "Pokemon",
         "controle": "Controle",
         "livre-mercado": "Livre Mercado",
@@ -166,16 +174,16 @@
         "verdade": "Verdade"
     },
     "cats": {
+        "direcao-de-arte-ia": "Direção de Arte/IA",
+        "links": "Links",
+        "ai-music": "AI Music",
         "diario": "Diário",
         "autoria-de-outros": "Autoria de Outros",
         "ciencia": "Ciência",
         "citacoes": "Citações",
         "english": "English",
         "videos": "Vídeos",
-        "links": "Links",
         "imagens": "Imagens",
-        "direcao-de-arte-ia": "Direção de Arte/IA",
-        "ai-music": "AI Music",
         "textos": "Textos",
         "art-work": "Art Work",
         "filosofia": "Filosofia",
@@ -197,6 +205,42 @@
         "audio": "Áudio"
     },
     "posts": [
+        {
+            "id": 40768,
+            "title": "Obedeça Às Regras: Já Pode Protestar",
+            "date": "2026-09-06",
+            "url": "reader.html#2026-09-06-obedeca-as-regras-ja-pode-protestar.html",
+            "tags": [
+                "ditaura",
+                "simpsons",
+                "stf"
+            ],
+            "cats": [
+                "direcao-de-arte-ia",
+                "links"
+            ],
+            "month": "2026-09",
+            "format": "aside"
+        },
+        {
+            "id": 40760,
+            "title": "“Se você chega no amanhã, tudo é possível”",
+            "date": "2026-09-05",
+            "url": "reader.html#2026-09-05-se-voce-chega-no-amanha-tudo-e-possivel.html",
+            "tags": [
+                "amanha",
+                "biologia",
+                "futuro",
+                "robert-white",
+                "transhumanismo"
+            ],
+            "cats": [
+                "ai-music",
+                "diario"
+            ],
+            "month": "2026-09",
+            "format": "aside"
+        },
         {
             "id": 40761,
             "title": "Imprensa e Alexandre de Moraes: o despertar ocorre com sete anos de atraso",
@@ -244,6 +288,23 @@
             ],
             "cats": [
                 "videos"
+            ],
+            "month": "2026-09",
+            "format": "aside"
+        },
+        {
+            "id": 40610,
+            "title": "Mudamos de Endereço",
+            "date": "2026-09-01",
+            "url": "reader.html#2026-09-01-mudamos-de-endereco.html",
+            "tags": [
+                "internet",
+                "programacao",
+                "vintage",
+                "wordpress"
+            ],
+            "cats": [
+                "diario"
             ],
             "month": "2026-09",
             "format": "aside"

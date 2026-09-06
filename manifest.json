@@ -1,6 +1,6 @@
 {
-    "version": "2.8.0",
-    "generatedAt": "2026-09-05T12:01:21+00:00",
+    "version": "2.9.0",
+    "generatedAt": "2026-09-06T05:49:18+00:00",
     "chunkCount": 4,
     "chunks": [
         {
@@ -30,14 +30,17 @@
         "2026-07": "julho 2026",
         "2026-06": "junho 2026"
     },
-    "totalPosts": 89,
+    "totalPosts": 92,
     "firstChunk": "data-2026-09.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-09-06-obedeca-as-regras-ja-pode-protestar.html": "data-2026-09.json",
+        "2026-09-05-se-voce-chega-no-amanha-tudo-e-possivel.html": "data-2026-09.json",
         "2026-09-05-imprensa-e-alexandre-de-moraes-o-despertar-ocorre-com-sete-anos-de-atraso.html": "data-2026-09.json",
         "2026-09-05-within-the-three-and-a-half-pounds-of-tissue-between-our-ears.html": "data-2026-09.json",
         "2026-09-03-diario-03-09-2026.html": "data-2026-09.json",
+        "2026-09-01-mudamos-de-endereco.html": "data-2026-09.json",
         "2026-09-01-information-feudalism-who-owns-the-knowledge-economy.html": "data-2026-09.json",
         "2026-08-31-diario-31-08-2026.html": "data-2026-08.json",
         "2026-08-31-diario-31-08-2026-wedding-dress.html": "data-2026-08.json",
