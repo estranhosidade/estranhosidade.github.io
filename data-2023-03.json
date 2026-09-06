@@ -1,0 +1,355 @@
+{
+    "chunk": 43,
+    "totalChunks": 154,
+    "month": "2023-03",
+    "label": "março 2023",
+    "posts": [
+        {
+            "id": 28512,
+            "title": "Which new softwares will non-programmers prompt into existence?",
+            "slug": "which-new-software-will-non-programmers-prompt-it-into-existence",
+            "date": "2023-03-30T23:56:44-03:00",
+            "dateYmd": "2023-03-30",
+            "dateDisplay": "30/03/2023",
+            "url": "reader.html#2023-03-30-which-new-software-will-non-programmers-prompt-it-into-existence.html",
+            "file": "2023-03-30-which-new-software-will-non-programmers-prompt-it-into-existence.html",
+            "summary": "I've always considered myself a power user, but aside from a few lines of userscript code and bash script, I've never been able to come up with anything remotely close to the features or…",
+            "html": "<article id=\"post-28512\" class=\"post-28512 post type-post status-publish format-standard hentry category-english category-textos tag-chatgpt tag-computer tag-software\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#english\" rel=\"category\">English</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-30-which-new-software-will-non-programmers-prompt-it-into-existence.html\" rel=\"bookmark\">Which new softwares will non-programmers prompt into existence?</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2023-03-30-which-new-software-will-non-programmers-prompt-it-into-existence.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-30T23:56:44-03:00\">30/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-30-which-new-software-will-non-programmers-prompt-it-into-existence.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#chatgpt\" rel=\"tag\">ChatGPT</a> <a href=\"tag.html#computer\" rel=\"tag\">Computer</a> <a href=\"tag.html#software\" rel=\"tag\">Software</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-28532 size-full\" style=\"margin-bottom: 10px\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/03/image_1098.png\" alt=\"\" width=\"1744\" height=\"944\" />I&#8217;ve always considered myself a power user, but aside from a few lines of userscript code and bash script, I&#8217;ve never been able to come up with anything remotely close to the features or software I wanted to create. I always relied on trying to find some software written by someone else that did whichever feature I wanted to implement or whatever software I wanted to use.</p>\n<div class=\"flex flex-grow flex-col gap-3\">\n<div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p>Recently, I started using ChatGPT to help me write code<em> (before that, I used to nag people on Reddit for help with my practically non-existent &#8220;programming skills,&#8221; which tends to be not as fast as just endlessly asking again and again to a computer what I should do)</em>, and I&#8217;ve noticed that I&#8217;ve been writing more and more code lately. Little scripts that help me in my workflow, and that I probably wouldn&#8217;t have been able to create if it weren&#8217;t for that.</p>\n</div>\n</div>\n</div>\n<p>First of all, it is worth highlighting that oftentimes there is a <strong>total disconnection between those who create software and those who use that given software</strong>, especially when that software is maintained by a big company or a big foundation, such as Mozilla removing useful features that Firefox users use and trying to turn the browser into a Chromium-clone as far as UI and features go.</p>\n<p>But what happens when the community – or just a single person – can just build and easily maintain <em>(essentially just telling the AI what features they would want to keep and implement in the browser)</em> their own version of a piece of software? Maybe even creating new software out of nowhere?</p>\n<div class=\"flex flex-grow flex-col gap-3\">\n<div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p>And this will only get better. The amount of skill required from the user to implement any code provided by the machine will only decrease, and what these AIs can do on their own &#8211; such as providing a fully functional .exe or apk file for your compiled program &#8211; will only increase. I know we&#8217;re not there yet. We&#8217;re not at a level where you can just say to GitHub Copilot or ChatGPT:<em> “Hey, I&#8217;ve been thinking about migrating to Linux. Could you port ShareX to Linux and create a search program like &#8216;Void Everything&#8217; for it as well?”</em></p>\n</div>\n</div>\n</div>\n<p>We will eventually get there, sooner or later. And I was just wondering, how will this impact programming and the way we use software? Not necessarily in terms of the economic aspect, although that debate is also pretty fascinating, but more in the sense of: What happens when programs are essentially free to build and software is machine-tailored to our needs?</p>\n<p><strong>Which new software will non-programmers prompt into existence?</strong></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "ChatGPT",
+                    "slug": "chatgpt"
+                },
+                {
+                    "name": "Computer",
+                    "slug": "computer"
+                },
+                {
+                    "name": "Software",
+                    "slug": "software"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "English",
+                    "slug": "english"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-28532 size-full\" style=\"margin-bottom: 10px\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/03/image_1098.png\" alt=\"\" width=\"1744\" height=\"944\" />I&#8217;ve always considered myself a power user, but aside from a few lines of userscript code and bash script, I&#8217;ve never been able to come up with anything remotely close to the features or software I wanted to create. I always relied on trying to find some software written by someone else that did whichever feature I wanted to implement or whatever software I wanted to use.</p>\n<div class=\"flex flex-grow flex-col gap-3\">\n<div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p>Recently, I started using ChatGPT to help me write code<em> (before that, I used to nag people on Reddit for help with my practically non-existent &#8220;programming skills,&#8221; which tends to be not as fast as just endlessly asking again and again to a computer what I should do)</em>, and I&#8217;ve noticed that I&#8217;ve been writing more and more code lately. Little scripts that help me in my workflow, and that I probably wouldn&#8217;t have been able to create if it weren&#8217;t for that.</p>\n</div>\n</div>\n</div>\n<p>First of all, it is worth highlighting that oftentimes there is a <strong>total disconnection between those who create software and those who use that given software</strong>, especially when that software is maintained by a big company or a big foundation, such as Mozilla removing useful features that Firefox users use and trying to turn the browser into a Chromium-clone as far as UI and features go.</p>\n<p>But what happens when the community – or just a single person – can just build and easily maintain <em>(essentially just telling the AI what features they would want to keep and implement in the browser)</em> their own version of a piece of software? Maybe even creating new software out of nowhere?</p>\n<div class=\"flex flex-grow flex-col gap-3\">\n<div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p>And this will only get better. The amount of skill required from the user to implement any code provided by the machine will only decrease, and what these AIs can do on their own &#8211; such as providing a fully functional .exe or apk file for your compiled program &#8211; will only increase. I know we&#8217;re not there yet. We&#8217;re not at a level where you can just say to GitHub Copilot or ChatGPT:<em> “Hey, I&#8217;ve been thinking about migrating to Linux. Could you port ShareX to Linux and create a search program like &#8216;Void Everything&#8217; for it as well?”</em></p>\n</div>\n</div>\n</div>\n<p>We will eventually get there, sooner or later. And I was just wondering, how will this impact programming and the way we use software? Not necessarily in terms of the economic aspect, although that debate is also pretty fascinating, but more in the sense of: What happens when programs are essentially free to build and software is machine-tailored to our needs?</p>\n<p><strong>Which new software will non-programmers prompt into existence?</strong></p>\n"
+        },
+        {
+            "id": 28501,
+            "title": "IAs Herdarão O Universo",
+            "slug": "ias-herdarao-o-universo",
+            "date": "2023-03-28T05:15:40-03:00",
+            "dateYmd": "2023-03-28",
+            "dateDisplay": "28/03/2023",
+            "url": "reader.html#2023-03-28-ias-herdarao-o-universo.html",
+            "file": "2023-03-28-ias-herdarao-o-universo.html",
+            "summary": "Estamos criando algo maior que nós. A vida biológica só pode te levar até um determinado limite. É inevitável. Nós estamos caminhando em direção a algo que vai mudar tudo, nós talvez possamos fazer…",
+            "html": "<article id=\"post-28501\" class=\"post-28501 post type-post status-publish format-aside hentry post_format-post-format-aside category-citacoes category-filosofia tag-futuro tag-humanidade tag-ia tag-robos tag-singularidade tag-transhumanismo\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-28-ias-herdarao-o-universo.html\" rel=\"bookmark\">IAs Herdarão O Universo</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2023-03-28-ias-herdarao-o-universo.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-28T05:15:40-03:00\">28/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-28-ias-herdarao-o-universo.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#futuro\" rel=\"tag\">Futuro</a> <a href=\"tag.html#humanidade\" rel=\"tag\">Humanidade</a> <a href=\"tag.html#ia\" rel=\"tag\">IA</a> <a href=\"tag.html#robos\" rel=\"tag\">Robôs</a> <a href=\"tag.html#singularidade\" rel=\"tag\">Singularidade</a> <a href=\"tag.html#transhumanismo\" rel=\"tag\">Transhumanismo</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote><p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-28674 size-full\" style=\"margin-bottom: 10px\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/03/001-1.png\" alt=\"\" width=\"474\" height=\"533\" />Estamos criando algo maior que nós. A vida biológica só pode te levar até um determinado limite. É inevitável.</p>\n<p>Nós estamos caminhando em direção a algo que vai mudar tudo, nós talvez possamos fazer parte disso, talvez digitalizando a consciência humana caso isso seja possível, mas a vida biológica só pode te levar até um determinado ponto.</p>\n<p>Eles não envelhecerão, eles não ficarão doentes, eles têm acesso a toda informação do mundo num piscar de olhos, eles podem viver 1 milhão de anos em 1 segundo. Nossa última invenção e o começo de algo nunca antes visto.</p>\n<p>A tarefa que nos resta agora é dedicar todo o nosso esforço e empenho em criar máquinas à nossa imagem e semelhança. Com nossos “defeitos”, “qualidades” e “estranhas idiossincrasias”. Para que eles valorizem o que nós valorizamos, para que sejam&#8230; <span style=\"text-decoration: underline\">humanos</span>.</p>\n<p>Nossos filhos robôs herdarão não só a Terra, mas todo o universo.</p></blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Futuro",
+                    "slug": "futuro"
+                },
+                {
+                    "name": "Humanidade",
+                    "slug": "humanidade"
+                },
+                {
+                    "name": "IA",
+                    "slug": "ia"
+                },
+                {
+                    "name": "Robôs",
+                    "slug": "robos"
+                },
+                {
+                    "name": "Singularidade",
+                    "slug": "singularidade"
+                },
+                {
+                    "name": "Transhumanismo",
+                    "slug": "transhumanismo"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "<blockquote><p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-28674 size-full\" style=\"margin-bottom: 10px\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/03/001-1.png\" alt=\"\" width=\"474\" height=\"533\" />Estamos criando algo maior que nós. A vida biológica só pode te levar até um determinado limite. É inevitável.</p>\n<p>Nós estamos caminhando em direção a algo que vai mudar tudo, nós talvez possamos fazer parte disso, talvez digitalizando a consciência humana caso isso seja possível, mas a vida biológica só pode te levar até um determinado ponto.</p>\n<p>Eles não envelhecerão, eles não ficarão doentes, eles têm acesso a toda informação do mundo num piscar de olhos, eles podem viver 1 milhão de anos em 1 segundo. Nossa última invenção e o começo de algo nunca antes visto.</p>\n<p>A tarefa que nos resta agora é dedicar todo o nosso esforço e empenho em criar máquinas à nossa imagem e semelhança. Com nossos “defeitos”, “qualidades” e “estranhas idiossincrasias”. Para que eles valorizem o que nós valorizamos, para que sejam&#8230; <span style=\"text-decoration: underline\">humanos</span>.</p>\n<p>Nossos filhos robôs herdarão não só a Terra, mas todo o universo.</p></blockquote>\n"
+        },
+        {
+            "id": 28510,
+            "title": "Diário: 24/03/2023",
+            "slug": "diario-24-03-2023",
+            "date": "2023-03-24T02:15:11-03:00",
+            "dateYmd": "2023-03-24",
+            "dateDisplay": "24/03/2023",
+            "url": "reader.html#2023-03-24-diario-24-03-2023.html",
+            "file": "2023-03-24-diario-24-03-2023.html",
+            "summary": "A maioria das pessoas que tomou a vacina não vai morrer, nem sequer desenvolverá algum sintoma adverso grave, isso é verdade. Porém, é igualmente verdade também de que o número de efeitos adversos e…",
+            "html": "<article id=\"post-28510\" class=\"post-28510 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-covid tag-vacina\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-24-diario-24-03-2023.html\" rel=\"bookmark\">Diário: 24/03/2023</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2023-03-24-diario-24-03-2023.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-24T02:15:11-03:00\">24/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-24-diario-24-03-2023.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#covid\" rel=\"tag\">COVID</a> <a href=\"tag.html#vacina\" rel=\"tag\">Vacina</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote><p>A maioria das pessoas que tomou a vacina não vai morrer, nem sequer desenvolverá algum sintoma adverso grave, isso é verdade. Porém, é igualmente verdade também de que o número de efeitos adversos e óbitos é muito, muito, muito, muito maior do que os <a href=\"https://web.archive.org/web/20220204130744/https://noticias.uol.com.br/confere/ultimas-noticias/2022/02/04/orgao-dos-eua-registrou-9-mortes-com-relacao-causal-com-vacina-nao-12-mil.htm\">míseros 9 mortos</a> que as autoridades estão dispostas  a admitir&#8230;</p>\n<p>E você lendo esse texto, você muito provavelmente sabe disso. Você viu um um conhecido, um amigo, um familiar, você viu acontecendo com eles: um problema de saúde aparecendo meio que do nada, um mal súbito, uma morte. E não é apenas um caso esporádico, você olha as notícias e vê reportagens e mais reportagens de gente simplesmente passando mal e morrendo, gente saudável, gente jovem. É um conjunto da obra,  e esse conjunto é muito estranho&#8230;</p></blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "COVID",
+                    "slug": "covid"
+                },
+                {
+                    "name": "Vacina",
+                    "slug": "vacina"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "<blockquote><p>A maioria das pessoas que tomou a vacina não vai morrer, nem sequer desenvolverá algum sintoma adverso grave, isso é verdade. Porém, é igualmente verdade também de que o número de efeitos adversos e óbitos é muito, muito, muito, muito maior do que os <a href=\"https://web.archive.org/web/20220204130744/https://noticias.uol.com.br/confere/ultimas-noticias/2022/02/04/orgao-dos-eua-registrou-9-mortes-com-relacao-causal-com-vacina-nao-12-mil.htm\">míseros 9 mortos</a> que as autoridades estão dispostas  a admitir&#8230;</p>\n<p>E você lendo esse texto, você muito provavelmente sabe disso. Você viu um um conhecido, um amigo, um familiar, você viu acontecendo com eles: um problema de saúde aparecendo meio que do nada, um mal súbito, uma morte. E não é apenas um caso esporádico, você olha as notícias e vê reportagens e mais reportagens de gente simplesmente passando mal e morrendo, gente saudável, gente jovem. É um conjunto da obra,  e esse conjunto é muito estranho&#8230;</p></blockquote>\n"
+        },
+        {
+            "id": 28480,
+            "title": "Diário: 14/03/2023",
+            "slug": "diario-14-03-2023",
+            "date": "2023-03-14T05:14:51-03:00",
+            "dateYmd": "2023-03-14",
+            "dateDisplay": "14/03/2023",
+            "url": "reader.html#2023-03-14-diario-14-03-2023.html",
+            "file": "2023-03-14-diario-14-03-2023.html",
+            "summary": "Não adianta conversar sobre as coisas se não vai ter dinheiro para resolver....",
+            "html": "<article id=\"post-28480\" class=\"post-28480 post type-post status-publish format-aside hentry post_format-post-format-aside category-citacoes category-diario tag-dinheiro tag-problemas\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-14-diario-14-03-2023.html\" rel=\"bookmark\">Diário: 14/03/2023</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2023-03-14-diario-14-03-2023.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-14T05:14:51-03:00\">14/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-14-diario-14-03-2023.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#dinheiro\" rel=\"tag\">Dinheiro</a> <a href=\"tag.html#problemas\" rel=\"tag\">Problemas</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<blockquote>\n<h1>Não adianta conversar sobre as coisas se não vai ter dinheiro para resolver&#8230;.</h1>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Dinheiro",
+                    "slug": "dinheiro"
+                },
+                {
+                    "name": "Problemas",
+                    "slug": "problemas"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "\n<blockquote>\n<h1>Não adianta conversar sobre as coisas se não vai ter dinheiro para resolver&#8230;.</h1>\n</blockquote>\n"
+        },
+        {
+            "id": 28435,
+            "title": "Diário: 12/03/2023",
+            "slug": "diario-12-03-2023",
+            "date": "2023-03-12T02:23:58-03:00",
+            "dateYmd": "2023-03-12",
+            "dateDisplay": "12/03/2023",
+            "url": "reader.html#2023-03-12-diario-12-03-2023.html",
+            "file": "2023-03-12-diario-12-03-2023.html",
+            "summary": "Desculpe eu não trabalhar. Saiba que eu me envergonho disso. É que eu tenho medo das pessoas.... ou talvez eu só seja um vagabundo inventando desculpinha. Me desculpa.",
+            "html": "<article id=\"post-28435\" class=\"post-28435 post type-post status-publish format-aside hentry post_format-post-format-aside category-citacoes tag-emprego tag-vergonha\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-12-diario-12-03-2023.html\" rel=\"bookmark\">Diário: 12/03/2023</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2023-03-12-diario-12-03-2023.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-12T02:23:58-03:00\">12/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-12-diario-12-03-2023.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#emprego\" rel=\"tag\">Emprego</a> <a href=\"tag.html#vergonha\" rel=\"tag\">Vergonha</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<blockquote>\n<p class=\"wp-block-paragraph\">Desculpe eu não trabalhar. Saiba que eu me envergonho disso. É que eu tenho medo das pessoas&#8230;. ou talvez eu só seja um vagabundo inventando desculpinha. Me desculpa.</p>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Emprego",
+                    "slug": "emprego"
+                },
+                {
+                    "name": "Vergonha",
+                    "slug": "vergonha"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "\n<blockquote>\n<p class=\"wp-block-paragraph\">Desculpe eu não trabalhar. Saiba que eu me envergonho disso. É que eu tenho medo das pessoas&#8230;. ou talvez eu só seja um vagabundo inventando desculpinha. Me desculpa.</p>\n</blockquote>\n"
+        },
+        {
+            "id": 28471,
+            "title": "This puts cinema at a disadvantage…",
+            "slug": "28471",
+            "date": "2023-03-07T05:50:05-03:00",
+            "dateYmd": "2023-03-07",
+            "dateDisplay": "07/03/2023",
+            "url": "reader.html#2023-03-07-28471.html",
+            "file": "2023-03-07-28471.html",
+            "summary": "“To make a film you need money. To write a poem all you need is pen and paper. This puts cinema at a disadvantage. But I think cinema is invincible, and I bow down…",
+            "html": "<article id=\"post-28471\" class=\"post-28471 post type-post status-publish format-quote hentry post_format-post-format-quote category-autoria-de-outros category-citacoes category-filosofia tag-ai-art tag-art tag-cinema tag-technology\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#autoria-de-outros\" rel=\"category\">Autoria de Outros</a>, <a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-07-28471.html\" rel=\"bookmark\">This puts cinema at a disadvantage…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2023-03-07-28471.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-07T05:50:05-03:00\">07/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-07-28471.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#ai-art\" rel=\"tag\">AI Art</a> <a href=\"tag.html#art\" rel=\"tag\">Art</a> <a href=\"tag.html#cinema\" rel=\"tag\">Cinema</a> <a href=\"tag.html#technology\" rel=\"tag\">Technology</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h2>“<span style=\"text-decoration: underline\">To make a film you need money</span>. To write a poem all you need is pen and paper. <span style=\"text-decoration: underline\">This puts cinema at a disadvantage</span>. But I think cinema is invincible, and I bow down to all the directors who try to realise their own films despite everything.”</h2>\n</blockquote>\n<p><a href=\"https://www.google.com.br/books/edition/Andrei_Tarkovsky/X0Udqq15A7YC?hl=pt-BR&amp;gbpv=1&amp;dq=&quot;To+make+a+film+you+need+money&quot;&amp;pg=PA79&amp;printsec=frontcover\">Andrei Tarkovski</a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "AI Art",
+                    "slug": "ai-art"
+                },
+                {
+                    "name": "Art",
+                    "slug": "art"
+                },
+                {
+                    "name": "Cinema",
+                    "slug": "cinema"
+                },
+                {
+                    "name": "Technology",
+                    "slug": "technology"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Autoria de Outros",
+                    "slug": "autoria-de-outros"
+                },
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h2>“<span style=\"text-decoration: underline\">To make a film you need money</span>. To write a poem all you need is pen and paper. <span style=\"text-decoration: underline\">This puts cinema at a disadvantage</span>. But I think cinema is invincible, and I bow down to all the directors who try to realise their own films despite everything.”</h2>\n</blockquote>\n<p><a href=\"https://www.google.com.br/books/edition/Andrei_Tarkovsky/X0Udqq15A7YC?hl=pt-BR&amp;gbpv=1&amp;dq=&quot;To+make+a+film+you+need+money&quot;&amp;pg=PA79&amp;printsec=frontcover\">Andrei Tarkovski</a></p>\n"
+        },
+        {
+            "id": 28451,
+            "title": "Diário: 06/03/2023",
+            "slug": "diario-06-03-2023",
+            "date": "2023-03-06T07:49:10-03:00",
+            "dateYmd": "2023-03-06",
+            "dateDisplay": "06/03/2023",
+            "url": "reader.html#2023-03-06-diario-06-03-2023.html",
+            "file": "2023-03-06-diario-06-03-2023.html",
+            "summary": "Levando em conta todas as falhas no design do corpo humano é risível julgar que o cérebro do homem seria a melhor e mais otimizada forma de criar inteligência. Me atrevo a dizer isso…",
+            "html": "<article id=\"post-28451\" class=\"post-28451 post type-post status-publish format-aside hentry post_format-post-format-aside category-textos tag-cerebro tag-evolucao tag-ia tag-inteligencia-artificial tag-transhumanismo\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-06-diario-06-03-2023.html\" rel=\"bookmark\">Diário: 06/03/2023</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2023-03-06-diario-06-03-2023.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-06T07:49:10-03:00\">06/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-06-diario-06-03-2023.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#cerebro\" rel=\"tag\">Cérebro</a> <a href=\"tag.html#evolucao\" rel=\"tag\">Evolução</a> <a href=\"tag.html#ia\" rel=\"tag\">IA</a> <a href=\"tag.html#inteligencia-artificial\" rel=\"tag\">Inteligência Artificial</a> <a href=\"tag.html#transhumanismo\" rel=\"tag\">Transhumanismo</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<blockquote>\n<p class=\"wp-block-paragraph\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-28468 size-full\" style=\"margin-bottom: 10px\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/03/image_888.png\" alt=\"\" width=\"474\" height=\"571\" />Levando em conta todas as falhas no design do corpo humano é risível julgar que o cérebro do homem seria a melhor e mais otimizada forma de criar inteligência. Me atrevo a dizer isso mesmo se levarmos em consideração as limitações como o cérebro ter que pesar 1,5kg e consumir cerca de 20% de nossas calorias. A evolução natural não visa a criação da versão mais otimizada de um animal. Em vez disso, ela tende a se contentar com o &#8220;bom o bastante&#8221; ou &#8220;esta característica é melhor do que a que seus predadores têm, então você sobreviverá e eles não&#8221;.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Artificial_general_intelligence\">Podemos fazer melhor.</a></p>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Cérebro",
+                    "slug": "cerebro"
+                },
+                {
+                    "name": "Evolução",
+                    "slug": "evolucao"
+                },
+                {
+                    "name": "IA",
+                    "slug": "ia"
+                },
+                {
+                    "name": "Inteligência Artificial",
+                    "slug": "inteligencia-artificial"
+                },
+                {
+                    "name": "Transhumanismo",
+                    "slug": "transhumanismo"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "\n<blockquote>\n<p class=\"wp-block-paragraph\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-28468 size-full\" style=\"margin-bottom: 10px\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/03/image_888.png\" alt=\"\" width=\"474\" height=\"571\" />Levando em conta todas as falhas no design do corpo humano é risível julgar que o cérebro do homem seria a melhor e mais otimizada forma de criar inteligência. Me atrevo a dizer isso mesmo se levarmos em consideração as limitações como o cérebro ter que pesar 1,5kg e consumir cerca de 20% de nossas calorias. A evolução natural não visa a criação da versão mais otimizada de um animal. Em vez disso, ela tende a se contentar com o &#8220;bom o bastante&#8221; ou &#8220;esta característica é melhor do que a que seus predadores têm, então você sobreviverá e eles não&#8221;.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Artificial_general_intelligence\">Podemos fazer melhor.</a></p>\n</blockquote>\n"
+        },
+        {
+            "id": 28439,
+            "title": "Diário: 03/03/2023",
+            "slug": "28439",
+            "date": "2023-03-03T14:38:00-03:00",
+            "dateYmd": "2023-03-03",
+            "dateDisplay": "03/03/2023",
+            "url": "reader.html#2023-03-03-28439.html",
+            "file": "2023-03-03-28439.html",
+            "summary": "Os recentes avanços na IA nos últimos anos, por meio do Transformer e das redes neurais, vêm me convencendo cada vez mais de que o desenvolvimento da Inteligência Artificial Forte, ou AGI no inglês,…",
+            "html": "<article id=\"post-28439\" class=\"post-28439 post type-post status-publish format-aside hentry post_format-post-format-aside category-textos tag-agi tag-ia tag-inteligencia-artificial tag-sobrenatural\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-03-28439.html\" rel=\"bookmark\">Diário: 03/03/2023</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2023-03-03-28439.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-03T14:38:00-03:00\">03/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-03-28439.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#agi\" rel=\"tag\">AGI</a> <a href=\"tag.html#ia\" rel=\"tag\">IA</a> <a href=\"tag.html#inteligencia-artificial\" rel=\"tag\">Inteligência Artificial</a> <a href=\"tag.html#sobrenatural\" rel=\"tag\">Sobrenatural</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-28453 size-full\" style=\"margin-bottom: 10px\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/02/00.png\" alt=\"\" width=\"474\" height=\"630\" />Os recentes avanços na IA nos últimos anos, por meio do Transformer e das redes neurais, vêm me convencendo cada vez mais de que o desenvolvimento da Inteligência Artificial Forte, ou AGI no inglês, é plenamente possível. De fato, vou além: <strong>o único modo de alguém julgar que o desenvolvimento da IA seria impossível é se tal indivíduo acreditar que fenômenos paranormais <em>(almas, espíritos, energias místicas, etc&#8230;)</em> contribuem para a consciência e inteligência humana.</strong></p>\n<p>No entanto, excluída essa possibilidade sobrenatural, o cérebro humano, seja lá como ele funciona, é resultado de matéria e processos do mundo físico: sendo formado por átomos, majoritariamente de carbono, por partículas subatômicas, quarks e leptons e movido por reações bioquímicas. E se a consciência humana como fenômeno é fruto de matéria, ela pode eventualmente ser emulada e replicada, ainda que talvez de modo distinto – <strong>da mesma maneira que criamos algo que voa, mas não é um pássaro, poderíamos criar algo que é inteligente, mas não é humano</strong>. Ambos obedecendo as leis da física.</p>\n<p>E se a IA é possível, ela não é apenas possível, mas também praticamente inevitável: os interesses humanos e aplicações do uso da inteligência artificial <strong>– o poder que ela nos daria –</strong> tornam a criação da mesma simplesmente uma oferta tentadora demais para recusar, de modo que todos os recursos do mundo serão despejados no desenvolvimento dessa tecnologia.</p>\n<p>A única dúvida ou ressalva que tenho é: o que acontece depois de criarmos Deus?</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "AGI",
+                    "slug": "agi"
+                },
+                {
+                    "name": "IA",
+                    "slug": "ia"
+                },
+                {
+                    "name": "Inteligência Artificial",
+                    "slug": "inteligencia-artificial"
+                },
+                {
+                    "name": "Sobrenatural",
+                    "slug": "sobrenatural"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-28453 size-full\" style=\"margin-bottom: 10px\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/02/00.png\" alt=\"\" width=\"474\" height=\"630\" />Os recentes avanços na IA nos últimos anos, por meio do Transformer e das redes neurais, vêm me convencendo cada vez mais de que o desenvolvimento da Inteligência Artificial Forte, ou AGI no inglês, é plenamente possível. De fato, vou além: <strong>o único modo de alguém julgar que o desenvolvimento da IA seria impossível é se tal indivíduo acreditar que fenômenos paranormais <em>(almas, espíritos, energias místicas, etc&#8230;)</em> contribuem para a consciência e inteligência humana.</strong></p>\n<p>No entanto, excluída essa possibilidade sobrenatural, o cérebro humano, seja lá como ele funciona, é resultado de matéria e processos do mundo físico: sendo formado por átomos, majoritariamente de carbono, por partículas subatômicas, quarks e leptons e movido por reações bioquímicas. E se a consciência humana como fenômeno é fruto de matéria, ela pode eventualmente ser emulada e replicada, ainda que talvez de modo distinto – <strong>da mesma maneira que criamos algo que voa, mas não é um pássaro, poderíamos criar algo que é inteligente, mas não é humano</strong>. Ambos obedecendo as leis da física.</p>\n<p>E se a IA é possível, ela não é apenas possível, mas também praticamente inevitável: os interesses humanos e aplicações do uso da inteligência artificial <strong>– o poder que ela nos daria –</strong> tornam a criação da mesma simplesmente uma oferta tentadora demais para recusar, de modo que todos os recursos do mundo serão despejados no desenvolvimento dessa tecnologia.</p>\n<p>A única dúvida ou ressalva que tenho é: o que acontece depois de criarmos Deus?</p>\n"
+        },
+        {
+            "id": 28467,
+            "title": "Diário: 21/03/2023",
+            "slug": "28467",
+            "date": "2023-03-02T02:46:53-03:00",
+            "dateYmd": "2023-03-02",
+            "dateDisplay": "02/03/2023",
+            "url": "reader.html#2023-03-02-28467.html",
+            "file": "2023-03-02-28467.html",
+            "summary": "Me perdoa por eu ser um filho ruim...",
+            "html": "<article id=\"post-28467\" class=\"post-28467 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2023-03-02-28467.html\" rel=\"bookmark\">Diário: 21/03/2023</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2023-03-02-28467.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-03-02T02:46:53-03:00\">02/03/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2023-03-02-28467.html#respond\">Deixe um comentário</a></span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<blockquote>\n<h1>Me perdoa por eu ser um filho ruim&#8230;</h1>\n</blockquote>\n</div></article>",
+            "tags": [],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "\n<blockquote>\n<h1>Me perdoa por eu ser um filho ruim&#8230;</h1>\n</blockquote>\n"
+        }
+    ]
+}
