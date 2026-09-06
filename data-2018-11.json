@@ -1,0 +1,760 @@
+{
+    "chunk": 89,
+    "totalChunks": 154,
+    "month": "2018-11",
+    "label": "novembro 2018",
+    "posts": [
+        {
+            "id": 24938,
+            "title": "Os Atuais Problemas e Dificuldades no Arquivamento da Internet",
+            "slug": "os-problemas-dos-metodos-e-tecnicas-atuais-de-arquivamento-da-internet",
+            "date": "2018-11-30T23:59:05-03:00",
+            "dateYmd": "2018-11-30",
+            "dateDisplay": "30/11/2018",
+            "url": "reader.html#2018-11-30-os-problemas-dos-metodos-e-tecnicas-atuais-de-arquivamento-da-internet.html",
+            "file": "2018-11-30-os-problemas-dos-metodos-e-tecnicas-atuais-de-arquivamento-da-internet.html",
+            "summary": "https://archive.org/download/vimeo-59207751/Internet_Archive-59207751.mp4 Quem lê meus textos sabe que um tema pelo qual sou profundamente apaixonado é a questão dos registro e preservação do arquivamento de dados, principalmente nestes tempos de big data e também tempos…",
+            "html": "<article id=\"post-24938\" class=\"post-24938 post type-post status-publish format-standard hentry category-ciencia category-textos tag-arquivamento tag-conteudo tag-controle tag-dados tag-empresas tag-informacao tag-internet tag-registro-historico tag-tecnologia\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#ciencia\" rel=\"category\">Ciência</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-30-os-problemas-dos-metodos-e-tecnicas-atuais-de-arquivamento-da-internet.html\" rel=\"bookmark\">Os Atuais Problemas e Dificuldades no Arquivamento da Internet</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2018-11-30-os-problemas-dos-metodos-e-tecnicas-atuais-de-arquivamento-da-internet.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-30T23:59:05-03:00\">30/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-30-os-problemas-dos-metodos-e-tecnicas-atuais-de-arquivamento-da-internet.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#arquivamento\" rel=\"tag\">Arquivamento</a> <a href=\"tag.html#conteudo\" rel=\"tag\">Conteúdo</a> <a href=\"tag.html#controle\" rel=\"tag\">Controle</a> <a href=\"tag.html#dados\" rel=\"tag\">Dados</a> <a href=\"tag.html#empresas\" rel=\"tag\">Empresas</a> <a href=\"tag.html#informacao\" rel=\"tag\">Informação</a> <a href=\"tag.html#internet\" rel=\"tag\">Internet</a> <a href=\"tag.html#registro-historico\" rel=\"tag\">Registro Histórico</a> <a href=\"tag.html#tecnologia\" rel=\"tag\">Tecnologia</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/vimeo-59207751/Internet_Archive-59207751.mp4?_=3\"></video>\n<p>Quem lê meus textos sabe que um tema pelo qual sou profundamente apaixonado é a questão dos <a href=\"tag.html#registros\">registro e preservação do arquivamento de dados</a>, principalmente nestes tempos de big data e também tempos onde a concentração de dados se dá, majoritariamente, em megacorporações de bilhões de dólares que, enfim… possuem suas próprias motivações, financeiras ou ideológicas, para decidir <a href=\"reader.html#2017-11-11-legados-1984-redes-sociais-registro-historico-e-backups.html\">que tipo de informação é bem vinda ou não dentro de seus servidores</a>.</p>\n<!-- /wp:post-content -->\n\n<!-- wp:paragraph -->\n<p>Eis o motivo pelo qual acho fascinante essa ideia de salvarmos dados. E, igualmente, o motivo também pelo qual noto certos problemas envolvendo o arquivamento de conteúdo nos dias de hoje:</p><p class=\"more-wrap\"><a href=\"reader.html#2018-11-30-os-problemas-dos-metodos-e-tecnicas-atuais-de-arquivamento-da-internet.html\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Os Atuais Problemas e Dificuldades no Arquivamento da Internet</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Arquivamento",
+                    "slug": "arquivamento"
+                },
+                {
+                    "name": "Conteúdo",
+                    "slug": "conteudo"
+                },
+                {
+                    "name": "Controle",
+                    "slug": "controle"
+                },
+                {
+                    "name": "Dados",
+                    "slug": "dados"
+                },
+                {
+                    "name": "Empresas",
+                    "slug": "empresas"
+                },
+                {
+                    "name": "Informação",
+                    "slug": "informacao"
+                },
+                {
+                    "name": "Internet",
+                    "slug": "internet"
+                },
+                {
+                    "name": "Registro Histórico",
+                    "slug": "registro-historico"
+                },
+                {
+                    "name": "Tecnologia",
+                    "slug": "tecnologia"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Ciência",
+                    "slug": "ciencia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "<video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/vimeo-59207751/Internet_Archive-59207751.mp4?_=2\"></video>\n<p>Quem lê meus textos sabe que um tema pelo qual sou profundamente apaixonado é a questão dos <a href=\"tag.html#registros\">registro e preservação do arquivamento de dados</a>, principalmente nestes tempos de big data e também tempos onde a concentração de dados se dá, majoritariamente, em megacorporações de bilhões de dólares que, enfim… possuem suas próprias motivações, financeiras ou ideológicas, para decidir <a href=\"reader.html#2017-11-11-legados-1984-redes-sociais-registro-historico-e-backups.html\">que tipo de informação é bem vinda ou não dentro de seus servidores</a>.</p>\n<!-- /wp:post-content -->\n\n<!-- wp:paragraph -->\n<p>Eis o motivo pelo qual acho fascinante essa ideia de salvarmos dados. E, igualmente, o motivo também pelo qual noto certos problemas envolvendo o arquivamento de conteúdo nos dias de hoje:<span id=\"more-24938\"></span></p>\n<hr>\n<p><strong>• Indexação<br><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25402\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/best-search-engine.png\" alt=\"\" width=\"474\" height=\"297\"> </strong>Talvez o maior ponto fraco no que tange a preservação de dados na internet é sobre quão<a href=\"https://youtu.be/UoH3dlKZ-A0?t=265\"> “desconectado”</a> aquela página arquivada é em relação a internet, principalmente quando o site que a hospedava originalmente sai do ar.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph /-->\n\n<!-- wp:more {\"customText\":\"Leia mais\"} /-->\n\n<!-- wp:paragraph -->\n<p>Procurar páginas arquivadas não é tão simples ou prático, por exemplo, sites salvos pelo “<a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\">Wayback Machine”</a>, um dos principais e o mais antigo serviço desse tipo, e que nesse artigo cito diversas vezes, não aparecem nos resultados do Google, Bing, Yahoo, etc… para piorar ainda mais, muita gente nem sequer sabe que serviços de arquivamento existem – <em>embora eles estejam ficando mais populares recentemente</em>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Os serviços de arquivamento também, de modo geral, não se propõe a ser um mecanismo de busca, e isso é um grande problema <em>(especialmente se as páginas salvas por aquela determinada plataforma não são indexadas pelos principais mecanismos de pesquisa)</em>. Digo, <a href=\"https://youtu.be/nlcsNuaZUa0?t=593\">você não consegue achar uma página arquivada nesses serviços digitando um texto ou uma keyword</a>, é necessário possuir previamente o URL da página original – isso por sua vez acaba limitando as pessoas que terão acesso àquele conteúdo.</p>\n<hr><!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>• <strong>Navegadores e Extensões<img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25410\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/browser_logos-100734193-large2.png\" alt=\"\" width=\"474\" height=\"317\"><br></strong>O que me leva ao meu próximo ponto: A falta duma integração nativa dos sites arquivadores com os principais navegadores. Citando um exemplo simples, se você tentar acessar uma página deletada, mas que foi arquivada por alguns desses serviços, você não é automaticamente redirecionado para a versão arquivada daquele site, embora hajam extensões que se proponham a implementar essa função, como o <a href=\"https://chrome.google.com/webstore/detail/wayback-everywhere/heienainncnjjejmamdkmbbfmblpffjj\">“Wayback Everywhere”</a> e o <a href=\"https://chrome.google.com/webstore/detail/view-page-archive-cache/hkligngkgcpcolhcnkgccglchdafcnao\">“View Page Archive &amp; Cache”</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Outra função, aliás, gigantescamente relevante possibilitada por uma dessas extensões, no caso a <a href=\"https://greasyfork.org/en/scripts/368062-autosave-to-internet-archive-wayback-machine\">“AutoSave to Internet Archive – Wayback Machine”</a> e a <a href=\"https://chrome.google.com/webstore/detail/wayback-machine-auto-arch/klnimjpfkfcfdllnbmmhjjomcmciepkk\">“Wayback Machine Auto-Archiver”</a>, é automaticamente salvar todas as páginas que você acessa no Wayback Machine sem qualquer esforço <em>(porém, claro, isso está sujeito às limitações do arquivamento de tal plataforma, que discorro mais à frente)</em>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Contudo, o simples fato de tais funções não serem elementos nativos do navegador já compromete a taxa de adesão de tal tecnologia, uma vez que <a href=\"https://www.youtube.com/watch?v=mviTS_cIWXg\">a maioria das pessoas simplesmente usa as ferramentas que vem por “default”</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>E, sendo justo, isso obviamente não é culpa ou responsabilidade das plataformas, mas sim das grandes empresas. Aliás, o motivo pelo qual eu acredito que essa interação mais ampla entre navegadores e serviços de arquivamento digital não vai acontecer é, e eu já falei sobre isso inúmeras vezes, <a href=\"reader.html#2017-11-11-legados-1984-redes-sociais-registro-historico-e-backups.html\">é o poder que as grandes empresas querem exercer sobre o que as pessoas podem ver em suas plataformas</a>. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Por exemplo, <a href=\"https://web.archive.org/web/20181003040016/https://mashable.com/2014/05/27/youtube-elliot-rodger-videos-gone/\">a própria Google, dona do Google Chrome, removeu os vídeos do assassino Elliot Rodger do Youtube</a>, não faria muito sentido então a própria empresa implementar nativamente uma solução em seu navegador que tornaria praticamente irrelevante a remoção do vídeo do Youtube, uma vez que o Google Chrome simplesmente redirecionaria para <a href=\"https://web.archive.org/web/20180215124900/https://www.youtube.com/watch?v=7KP62TE1prs\">uma versão arquivada do vídeo</a>. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A menos que talvez a própria Google resolvesse criar um serviço de arquivamento de dados no qual ela que decidisse quais dados permaneceriam ou não arquivados naquela plataforma. Entretanto… uma plataforma de “arquivamento” que deliberadamente destrói conteúdo arquivado nela é uma plataforma de arquivamento simplesmente ruim.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De modo que é importante ressaltar enfaticamente a importância de plataformas e organizações que não dependam ou que não estejam sujeitas <em>(ou tão sujeitas assim)</em> à pressões do mercado ou pressões de boicotes sociais. Para que a empresa arquivando conteúdo X não simplesmente o remova por ele ser <em>“controverso”</em>.</p>\n<blockquote>\n<pre>Aliás, só um breve comentário aqui, essa questão vai muito além apenas do arquivamento de dados “aberto ao público”, digamos assim. Até mesmo nossos dados pessoais podem vir a talvez eventualmente ser bloqueado em tais plataformas. Vide o recente caso em que a Google, ainda que devido a um alegado erro técnico, <a href=\"https://web.archive.org/web/20181105180800/https://www.washingtonpost.com/news/the-switch/wp/2017/10/31/a-mysterious-message-is-locking-google-docs-users-out-of-their-files/\">bloqueou o acesso de usuários de acessarem seus arquivos de textos no Google Docs por um curto período de tempo em 2017</a>. Abordarei esse tema mais a fundo num futuro post.</pre>\n</blockquote>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Mas voltando a questão do redirecionamento automático, este só um exemplo de como poderia haver uma maior interação entre tais serviços e os navegadores: Ao acessar um site qualquer poderia existir uma opção para visualizar páginas dentro daquele domínio e subdomínio que tivessem sido por sua vez arquivadas. Talvez um pequeno menu pop-up. Por exemplo, ao acessar a página “<strong>https://8ch.net/b/</strong>“, você poderia facilmente ver <a href=\"http://archive.is/https://8ch.net/b/res*\">todos os URLs arquivados que estivessem abaixo desse endereço</a>, tal como: <a href=\"http://archive.today/2018.10.29-004153/https://8ch.net/b/res/8427412.html\">“https://8ch.net/b/<strong>res/8427412.html</strong>“</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Estou colocando a ideia de forma abstrata e um tanto quanto vaga, e certamente haveria alguns desafios à serem lidados, mas o ponto onde eu quero chegar é que há espaço para uma maior a integração entre o arquivo duma página deletada dum site, e que foi arquivada por um desses serviços, com o restante do site em questão, que ainda existe.</p>\n<hr>\n<p>• <strong>Suporte a Páginas Antigas e Plugins Descontinuados</strong></p>\n<p><img decoding=\"async\" class=\"wp-image-25256\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/rip_flash.png\" alt=\"\"><br><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25371\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/oldweb_body5.png\" alt=\"\" width=\"474\" height=\"276\"><br>Outro problema que vale ressaltar é a própria natureza da evolução da web, de formatos e plugins que deixaram de ser suportados; aqui talvez o caso que mais ilustre o que eu estou dizendo seria o <a href=\"https://en.wikipedia.org/wiki/Adobe_Flash_Player\">Flash</a>, plugin ao qual os navegadores já vem diminuindo o suporte e que <a href=\"https://web.archive.org/web/20181028041224/https://www.theverge.com/2017/7/25/16026236/adobe-flash-end-of-support-2020\">será totalmente removido dos browsers até 2020</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":25256} /-->\n\n<!-- wp:paragraph -->\n<p>De modo que seria interessante – bem, em primeiro lugar seria interessante que os browsers sempre oferecessem <em>(ainda que não nativamente, tal como um plugin que você precisasse baixar no Chrome Store)</em> suporte a páginas da web e extensões de navegadores legado. Mas, do ponto dos serviços de arquivamento, seria interessante se eles permitissem, através de virtualização, rodar um browser antigo dentro de um browser atual. Tal como iniciativas como a do <a href=\"http://oldweb.today/\">OldWeb Today</a>.</p>\n<hr>\n<p>• <strong>Melhores Técnicas de Arquivamento<br></strong><a href=\"/wp-content/uploads/2018/11/201811290031081.png\"><img decoding=\"async\" class=\"wp-image-25368\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/201811290031081.png\" alt=\"\">Páginas </a>da internet hoje em dia são muito dinâmicas; há muito <a href=\"https://en.wikipedia.org/wiki/JavaScript\">javascript</a>, <a href=\"https://en.wikipedia.org/wiki/Ajax\">ajax</a>, etc… você clica num menu que se expande dentro da página, sem a necessidade de recarregamento do site. Há muitas interações possíveis com a página, basicamente, e é complicado para um algoritmo extrair e armazenar todas essas interações possíveis com o site.</p>\n<p>O resultado disso, na prática, é que, em muitos sistemas de arquivamento não são capazes de capturar todas interações desejáveis com o site. Em poucas palavras: Quando você clicar nesse menu expansível, numa versão arquivada, ele não <strong>necessariamente</strong> se expande. Em menos palavras ainda: Seu backup da página está incompleto.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":25368,\"linkDestination\":\"custom\"} /-->\n\n<!-- wp:paragraph -->\n<p>Em relação a esse ponto, iniciativas como <a href=\"https://webrecorder.io/\">WebRecorder</a> abordam o problema duma forma bem interessante, que é a opção de salvar a interação do usuário com a página como um todo, em vez de se basear crawlers. Essencialmente o usuário “guia” arquivamento, por assim dizer. Você quer que a página arquiva o conteúdo dentro de um menu expansível? Você vai até lá e clica nesse menu nele, enquanto o arquivamento está acontecendo.</p>\n<p>Quando alguém quer visualizar a página arquivada o WebRecorder essencialmente roda uma versão emulada da página, ao qual ele já possui o resultado para as variáveis e possíveis interações do usuário para com a página que foram registradas pela pessoa que arquivou a página.</p>\n<p><a href=\"/wp-content/uploads/2018/11/image_426.png\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25166\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/image_426.png\" alt=\"\" width=\"474\" height=\"203\"></a>É interessante também que o site permite você arquivar páginas com um navegador virtualizado, de modo que você é capaz de salvar um site, e salvar a sua interação com esse site, mesmo que tal página não funcione no seu navegador em questão, e você, igualmente, depois tem a oportunidade de visualizar o arquivo dessa página num navegador virtualizado.</p>\n<p>É uma iniciativa muito interessante que sem dúvida escolhe uma abordagem – no que tange o arquivamento de dados duma internet cada vez mais responsiva, cada vez mais dinâmica, com jQuery – muito sagaz. A <span style=\"font-weight: 400\">única crítica </span> no que tange esse método é, por ele depender de um input e duma interação manual do usuário em vez crawlers e inteligência artificial, complica ele ser utilizado em larga escala<em> (bulk archiving)</em>. Por exemplo, você tendo que arquivar 500 páginas que, para serem arquivadas em sua totalidade, dependem da interação do usuário.<br><a href=\"https://web.archive.org/save/https://scontent.fubt1-1.fna.fbcdn.net/v/t66.18014-6/10000000_2198869433659522_5415615112418304932_n.mp4?_nc_cat=100&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&amp;_nc_ht=scontent.fubt1-1.fna&amp;oh=94b8408d4f487e0636093da839895ea2&amp;oe=5CAE1CC4\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25446\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/image_447.png\" alt=\"\" width=\"474\" height=\"294\"></a>Ainda nessa questão do arquivamento de conteúdo, e aqui o que eu vou dizer se refere mais especificamente ao Internet Archive, seria interessante a plataforma parar de obedecer a requisições do arquivo <a href=\"http://en.wikipedia.org/wiki/Robots_exclusion_standard\">robots.txt</a>. Esse arquivo armazena basicamente um pedido de sites para eles, ou parte deles, não sejam arquivados ou indexados por mecanismos de buscas e similares. O resultado disso é que muitos sites não são arquivados. Embora, evidentemente ignorar essas requisições suscite uma certa discussão moral-ética, isso permitiria o arquivamento de milhões de páginas. Além disso, tal medida está longe de ser algo sem precedentes, plataformas respeitáveis como o Archive.Is <a href=\"http://archive.is/faq#Why_does_archive_is_not_obey_robots_txt_\">ignoram tais </a>requisições.</p>\n<hr>\n<p><strong>• Integridade do Backup</strong></p>\n<p></p><div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"ACM CCS 2017 - Rewriting History: Changing the Archived Web from the Present - Ada Lerner\" width=\"474\" height=\"267\" src=\"https://www.youtube.com/embed/Pn65m3l0Zw8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n<p>É necessário também garantir que aquele backup não tenha sido adulterado. Muitas vezes, dependendo método do arquivamento, uma cópia arquivada de um site pode diretamente referenciar e linkar uma página <em>(ou um elemento duma página, tal como um javascript)</em> que ainda existe, que está na “liveweb”, e que portanto pode ser alterada <em>(isso sem mencionar a possibilidade do servidor onde o arquivo está armazenado vir a ser diretamente comprometido)</em>.</p>\n<p>Colocando em poucas palavras, essencialmente, dependendo do caso, é possível “editar um backup”. Aos interessados recomendo esta matéria do Motherboard <a href=\"https://motherboard.vice.com/en_us/article/7xdn8y/joy-reid-and-the-weaponization-of-internet-archives\">“The Internet Archive Can’t Preserve the Web’s History by Itself”</a><em> (O Internet Archive Não É Capaz de Preservar a História da Internet Sozinho)</em> e este artigo científico que vão muito mais a fundo nisso do que eu sou capaz de compreender. Aconselho também o artigo <a href=\"https://web.archive.org/web/20181214061717/https://repository.wellesley.edu/cgi/viewcontent.cgi?article=1158&amp;context=scholarship\">“Rewriting History: Changing the Archived Web from the Present”</a> <em>(Reescrevendo a História: Mudando Páginas Arquivadas A Partir do Presente).</em></p>\n<p>Mas resumidamente, é importante usar múltiplos métodos de arquivamento – de preferência múltiplos métodos de arquivamento com tecnologias e meios de arquivamento distintos. Um ponto muito interessante do Archive.Is, por exemplo, que além de também, ao arquivar a página <a href=\"http://archive.fo/mtYFo/image\">produz um print-screen</a> da mesma.</p>\n<p>Outro ponto que vale a pena a ser mencionado brevemente é a necessidade algum tipo de certificação em <a href=\"https://en.wikipedia.org/wiki/Blockchain\">blockchain</a> de que o conteúdo de uma página arquivada não foi alterado em nenhum momento futuro, um “<em>timestamping”</em>. Há uma discussão interessante no site <a href=\"https://news.ycombinator.com/item?id=16919017\">neste tópico</a> do site <a href=\"https://news.ycombinator.com\">Hacker News</a> e também há uma série de artigos científicos sobre esse ponto que você pode conferir <a href=\"https://scholar.google.com/scholar?hl=pt-BR&amp;as_sdt=0,5&amp;q=%22blockchain%22+%22timestamping%22+%22web+archiving%22\">clicando aqui</a>.</p>\n<p>Recentemente o governo canadense começou a <a href=\"https://nrc-cnrc.explorecatena.com/en/\">fazer experimentos usando essa tecnologia para garantir autenticidade de certos documentos e registros públicos</a>. Aliás, isso acaba se relacionando com o conceito do <a href=\"https://en.wikipedia.org/wiki/Ethereum\">“Ethereum”</a>, uma plataforma descentralizada capaz de executar contratos inteligentes e aplicações descentralizadas usando a tecnologia, tal como toda a ideia da <a href=\"https://en.wikipedia.org/wiki/Blockchain\">blockchain</a>.</p>\n<hr><!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":25371} /-->\n\n<!-- wp:paragraph /-->\n\n<!-- wp:paragraph -->\n<p>• <strong>Multimídia, Arquivos e Big Data</strong><a href=\"http://archive.today/2018.11.21-154235/https://www.youtube.com/watch?v=psaCM1j9LEM\"><img decoding=\"async\" class=\"wp-image-25276\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/20181121135754.png\" alt=\"\"></a>Um gigantesco desafio em relação ao modelo de arquivamento de dados das plataformas tradicionais de internet envolve certas limitações da indexação de linkados em tais páginas.</p>\n<p>Por exemplo, embora se possa armazenar uma página que contenha um link para um arquivo <strong>.exe</strong> ou <strong>.rar</strong>, o arquivo em si não é indexado. Você até pode arquivar uma página do Youtube, mas o vídeo em si não é arquivado, como vocês podem ver na imagem acima. Nem sequer os comentários do vídeo são. As plataformas de arquivamento tradicionais <em>(e aqui destaco novamente coloco a exceção do WebRecorder mencionado anteriormente) </em>de modo geral não permitem o arquivamento de sites de vídeos.</p>\n<p>O Wayback Machine até <a href=\"https://web.archive.org/web/20170215192831/https://www.youtube.com/watch?v=a4DDAEJUYDg&amp;gl=US&amp;hl=en\">arquiva certos vídeos do Youtube</a> <em>(pelo que entendi o arquivamento se baseia <a href=\"https://web.archive.org/web/20181028041418/https://support.archive-it.org/hc/en-us/articles/208333753-Archiving-YouTube-videos\">em algoritmos que monitoram a relevância do vídeo na internet baseado em suas citações nas redes sociais, ou coisa do tipo</a>)</em>, mas não é algo que o próprio usuário pode submeter ao site de modo simples e direto.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph /-->\n<blockquote>\n<pre class=\"wp-block-preformatted\"><strong><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25395\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/image_4331.png\" alt=\"\" width=\"474\" height=\"253\">Uma breve observação bem técnica aqui:</strong> Você até pode arquivar o arquivo de vídeos MP4 no Wayback Machine (inclusive do Youtube e Vimeo). Porém, esse URL direto, no caso do Youtube e dos demais sites de upload vídeo não tem nada a ver com o URL da página do Youtube onde aquele vídeo em questão está arquivado, o que torna aquilo virtualmente “impesquisável” o conteúdo daquele vídeo, o por sua vez sucinta o primeiro problema abordado nesse texto. Note a diferença dos URLs, por exemplo:<br><br><strong>• URL de um vídeo em sua página original no Vimeo</strong>: <a href=\"https://vimeo.com/132569790\">https://vimeo.com/132569790</a><br><br><strong>• URL temporário do vídeo MP4 em sí embutido na página original dele no Vimeo:</strong> <a href=\"https://15-lvl3-pdl.vimeocdn.com/01/1513/5/132569790/388228915.mp4?expires=1543466339&amp;token=0608473807387737b4151\">https://15-lvl3-pdl.vimeocdn.com/01/1513/5/132569790/388228915.mp4?expires=1543466339&amp;token=0608473807387737b4151</a><br><br><strong>• Versão arquivada no Wayback Machine do URL temporário do vídeo MP4 em sí embutido na página original dele no Vimeo:</strong> <a href=\"https://web.archive.org/web/20181129033416/https://15-lvl3-pdl.vimeocdn.com/01/1513/5/132569790/388228915.mp4?expires=1543466339&amp;token=0608473807387737b4151\">https://web.archive.org/web/20181129033416/https://15-lvl3-pdl.vimeocdn.com/01/1513/5/132569790/388228915.mp4?expires=1543466339&amp;token=0608473807387737b4151</a></pre>\n</blockquote>\n<!-- /wp:preformatted -->\n\n<!-- wp:paragraph -->\n<p>Conforme a internet cada vez mais se baseia em conteúdo audiovisual, e além, será necessário um maior suporte ao arquivamento nesse aspecto, e evidentemente que isso, tal como a questão de indexar e catalogar e tornar pesquisável aquele material salvo, exige grandes recursos financeiros.</p>\n<hr>\n<p><b>• Manutenção</b><strong> de Acervos e a Instabilidade de Plataformas Digitais<br></strong><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25442\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/31.png\" alt=\"\" width=\"474\" height=\"357\"><br>Outro ponto muito importante a ser ressaltado é uma maior colaboração entre empresas que armazenam grandes quantidades de dados e esses serviços de arquivamento. Corporações estão sujeitas a interesses financeiros, pressões do mercado, reestruturações de modelos de negócio e simplesmente falências.</p>\n<blockquote>\n<h1>A página com o seu perfil do Orkut ainda existe? Suas fotos no fotolog? Suas músicas no MySpace?</h1>\n</blockquote>\n<p>Em outras palavras, o conteúdo na internet muitas vezes simplesmente desaparece, seja porque a empresa foi comprada por outra que resolveu mudar o modelo de negócios<em> (tal como o Tumblr, que recentemente <a href=\"https://web.archive.org/web/20181211001206/https://tecnoblog.net/270131/tumblr-proibe-conteudo-adulto/\">decidiu remover o conteúdo adulto da plataforma</a> deles após ser comprado pelo Yahoo, que por sua vez foi ele próprio mais tarde <a href=\"https://web.archive.org/web/20181211001346/https://tecnoblog.net/198844/verizon-compra-yahoo/\">comprado pela companhia provedora de internet Verizon</a>)</em>, o Flickr que recentemente <a href=\"https://web.archive.org/web/20181103154035/https://gizmodo.uol.com.br/flickr-deletar-fotos-fevereiro-2019/\">reduziu o número de fotos permitidas de 1 terabyte para apenas 1000 e deletará milhares de fotos dos usuários que ultrapassarem esse limite</a> e o <a href=\"https://web.archive.org/web/20181210231100/https://jovemnerd.com.br/nerdbunker/forum-uol-desativado/\">fórum do UOL Jogos que será completamente desativado mês que vem</a>.</p>\n<p>De modo que que seria importante uma colaboração maior entre estas redes sociais e plataformas e sites instituições como o Internet Archive. <em>“Ei, nós vamos deletar essa quantidade dados aqui… vocês querem ela?”</em>. Não só isso como também, por exemplo, um fórum que vai ser desabilitado poderia disponibilizado na internet como um arquivo torrent e por aí vai.<br><br><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25441\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/71muhxhrmvl.png\" alt=\"\" width=\"474\" height=\"713\">E de fato essa mesma observação é feita pela pesquisadora <a href=\"https://www.google.com.br/search?q=Abby+Smith+Rumsey&amp;oq=Abby+Smith+Rumsey&amp;aqs=chrome..69i57j69i61l3j0.2386j0j4&amp;sourceid=chrome&amp;ie=UTF-8\">Abby Smith Rumsey</a>, autora do livro <a href=\"https://www.amazon.com.br/When-We-Are-No-More-ebook/dp/B015JJ8TFY\">“When We Are No More: How Digital Memory is Shaping Our Future”</a> <em>(Quando Nós Não Formos Mais: Como A Memória Digital Está Moldando Nosso Futuro)</em>.</p>\n<blockquote>\n<p><a href=\"https://youtu.be/_ZJDFDscmWE?t=2189\">“A questão que todos nós deveríamos estar refletindo, especialmente companhias com uma quantidade de dados, como Twitter, por exemplo, que mantém o controle dos dados atualmente é desenvolver parcerias entre aquela companhia e uma instituição de preservação a longo-termo, algo público, e entregar o acervo daquele material quando eles não quiserem mais, para essa instituição visando a preservação dos mesmos.”</a></p>\n</blockquote>\n<p>E evidentemente que há <em>exceções. O Twitter de 2010 até 2017 <a href=\"https://web.archive.org/web/20181209123403/https://www.loc.gov/item/prn-10-081/twitter-archive-to-library-of-congress/2010-04-15/\">manteve uma parceria com o Biblioteca do Congresso Americano</a> fornecendo à tal instituição cópia de todos tweets. Em 2018, por iniciativa do Biblioteca do Congresso Americano, eles decidiram arquivar só determinados tweets, <a href=\"https://web.archive.org/web/20180316024643/https://blogs.loc.gov/loc/2017/12/update-on-the-twitter-archive-at-the-library-of-congress-2/\">que fossem considerados de maior relevância histórica</a>. </em></p>\n<p>Mas o motivo pelo qual isso geralmente é: Primeiramente uma certa retaguarda jurídica, hoje em dia essa questão de dados é muito sensível, existe uma grande ressalva sobre como dados de usuários são gerenciados. A ideia de uma empresa transferindo dados para uma outra instituição, uma instituição que talvez o usuário nem sequer saiba que existe, e que ele não tenha “concordado explicitamente”<em> (ainda que nos termo de uso, que ninguém lê, constasse que caso aquela plataforma deixasse de existir os dados seriam transferidos para instituições de preservação dados digitais)</em> geralmente não é algo que cai bem assim.</p>\n<p>Especialmente, e talvez isso seja o que mais motiva empresas a não fazerem isso, e não facilitarem a preservação de dados upados nela é:</p>\n<blockquote>\n<h1>“Eu vou fazer isso, e correr um risco de arranjar uma dor de cabeça no futuro em troca do que?”</h1>\n</blockquote>\n<p>E ainda que não existisse esse risco, a simples dificuldade técnica, de você ter que separar um funcionário ou grupo de funcionário para enviarem esses dados ou facilitarem a transferência desse banco de dados para tais instituições já o suficientemente – infelizmente – para desincentivar muitas empresas de quererem transferir os dados de usuário. O que, inevitavelmente, nos leva ao próximo ponto.</p>\n<hr>\n<p>• <strong>Copyright</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":25277} -->\n<figure class=\"wp-block-image\"><img decoding=\"async\" class=\"wp-image-25277\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/copyright-symbol-canvas-e1465213956717.png\" alt=\"\"></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Ainda nesse aspecto de conteúdo multimídia, isso acaba ressaltando entrando bastante na questão do copyright e do direito autoral de obras, e das nossas leis atuais sobre esse assunto, e que <a href=\"https://www.youtube.com/watch?v=tk862BbjWx4\">infelizmente por si só já é uma coisa que atravanca o arquivamento de conteúdo</a>. Tanto de conteúdo multimídia quanto o de livros, vide o caso <a href=\"https://en.wikipedia.org/wiki/Google_Book_Search_Settlement_Agreement\">“Google Book Search Settlement Agreement”</a>. Isso é outro grande empecilho do arquivamento de dados atuais. </p>\n<hr><!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>•<strong> <a href=\"https://en.wikipedia.org/wiki/Closed_platform\">“Jardins Murados”</a></strong><img decoding=\"async\" class=\"wp-image-25366\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/login_mockup1.png\" alt=\"\">Para completar, o último problema em relação ao arquivamento de dados que requerem algum login – por exemplo arquivar um post num grupo privado do Facebook não é possível. O Wayback Machine, por exemplo, arquiva posts públicos do Facebook – <a href=\"https://web.archive.org/web/20181104144843/https://www.facebook.com/photo.php?fbid=10206868314243224&amp;set=a.1204732195285&amp;type=3&amp;theater\">porém não arquiva os comentários feitos nele</a> – e o <a href=\"https://en.wikipedia.org/wiki/Archive.is\">Archive Is</a>, usando uma técnica própria é capaz de <a href=\"http://archive.today/2018.11.04-140033/https://www.facebook.com/photo.php?fbid=10206868314243224&amp;set=a.1204732195285&amp;type=3&amp;theater\">salvar posts públicos junto com os comentários na publicação</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>De modo que isso é essencialmente problemático sobretudo hoje em dia quando a internet é tão customizada assim <em>(a minha timeline do Twitter não é a mesma que a sua, por exemplo) </em>e também pela quantidade de “jardins murados”<em>(grandes plataformas essencialmente tentando se desconectar da web e criar a sua própria bolha digital)</em>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Embora haja serviços que vem implementando soluções que levam em conta esse problema e tentam até superá-lo, permitindo assim um arquivamento de dados mais profundo – e aqui menciono de novamente o WebRecorder, que possui uma forma de realizar o procedimento de arquivamento muito mais funcional e condizente com a realidade atual da web – aos interessados recomendo <a href=\"https://web.archive.org/web/20181030044318/https://blog.supdigital.org/saving-the-internet-an-interview-with-webrecorders-dragan-espenchied/\">essa entrevista</a> do criador de tal plataforma, <a href=\"https://github.com/ikreymer\">Ilya Kremer</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>É claro, evidentemente, que tal individualização e personalização da internet cria certos desafios para uma plataforma que se <span style=\"font-weight: 400\">propose </span>a salvar páginas dentro desses “jardins murados”, principalmente em como isso iria afetar a questão da busca desse conteúdo. Por exemplo, suponhamos que esses serviços de arquivamento passassem a oferecer algum suporte a isso – <em>você poder enviar seus <a href=\"https://en.wikipedia.org/wiki/Cookie\">cookies</a> de login, junto com o URL que você quer salvar</em> – e o Wayback Machine salvasse a sua página inicial do Facebook.</p>\n<p><img decoding=\"async\" class=\"wp-image-25372\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-5-43d0b55fbb13.gif\" alt=\"\"><br>Bem, a minha página inicial do Facebook é única, ela é diferente das outras milhões de páginas iniciais dos outros usuários da plataforma e, claro, diferente da página inicial padrão, tipicamente pedindo os dados de login.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":25372} --><!-- /wp:image -->\n\n<!-- wp:paragraph --><!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A partir do momento que você permite esse arquivamento de versões de páginas customizadas, digamos assim, você passa a ter que lidar com endereço de internet com várias versões <strong>diferentes e simultâneas</strong>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Isso gera alguns certos problemas em relação a questão de busca, porque, por exemplo ao pesquisar “<a href=\"https://www.facebook.com/\">https://www.facebook.com/</a>” o que eu iria ver exatamente? Qual das versões em questão eu veria? Imagino que talvez seria necessário criar alguma opção na busca de páginas de arquivamento que diferenciasse as versões customizadas de páginas e as versões “padrões”- não customizadas, no caso do Facebook e tantas outras redes sociais, uma tela de login qualquer. Algo como “versões alternativas”, “versões variantes”, etc.</p>\n<hr>\n<p>• <strong>Conclusão</strong></p>\n<p></p><div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"Do We Need a Better Archive of the Internet? | Idea Channel | PBS Digital Studios\" width=\"474\" height=\"267\" src=\"https://www.youtube.com/embed/UoH3dlKZ-A0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div>\n<!-- /wp:core-embed/youtube -->\n\n<!-- wp:paragraph -->\n<p>Todas as ideias levantadas aqui foram inspiradas por nesse fantástico vídeo acima, do agora falecido canal <a href=\"https://www.youtube.com/pbsideachannel\">“Idea Channel”</a>, que ressalta bem esse <a href=\"https://youtu.be/UoH3dlKZ-A0?t=313\"><em>“limbo digital”</em></a> que sites e conteúdos passam existir após eles serem deletados de seus links originais.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Dois últimos pontos que valeriam a pena ser abordados , o primeiro, embora não faça referência ao arquivamento propriamente dito, são:</p>\n<p><strong>1)</strong> O uso de tecnologias de inteligência artificial para filtrar melhor o conteúdo que você deseja encontrar. Caso contrário você acaba com apenas milhares e milhares de petabytes de tralha “impesquisável”. E isso é verdade tanto em relação aos mecanismos de buscas, como Google e Bing, quanto os serviços de arquivamento de conteúdo digital. Conforme a quantidade de conteúdo na internet aumenta, e por consequência o do conteúdo arquivado também, será necessário aprimorarmos tecnologias como <a href=\"https://en.wikipedia.org/wiki/Natural-language_understanding\">“natural language understanding”</a> – aos interessados, discorro mais amplamente essa questão em meu artigo <a href=\"reader.html#2016-07-26-google-e-a-organizacao-da-informacao-da-internet.html\">“Google e a Organização da Informação na Internet”</a>.</p>\n<!-- wp:paragraph -->\n<p><strong>2)</strong> Esse mais à título de curiosidade, creio eu, <a href=\"https://youtu.be/wQIlaVff4EY?t=579\">é a possibilidade do governo</a>, e até mesmo de empresas privadas não estarem secretamente <a href=\"https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)\"><em>(ou nem tão secretamente assim)</em></a> arquivando a internet. Você no mínimo se questiona se o Google realmente deleta as versões antigas de páginas indexadas por ele, fora a dúvida se eles realmente respeita os sites que pedem ao buscador para não serem arquivados. O governo então, nem se fala… E em ambos os casos, seja por dinheiro, no caso das empresas <em>(evidentemente há um potencial econômico gigantesco em todo esse big data)</em> , ou pela questão da “segurança nacional/controle” <em>(o que por si só já vale ser explorado num dedicado exclusivamente a isso)</em>, no caso dos governos, são motivos muito fortes envolvidos aqui.</p>\n<!-- /wp:paragraph -->"
+        },
+        {
+            "id": 25354,
+            "title": "Morte a Tirania da Biologia! Que Haja a Apenas o Triunfo da Vontade",
+            "slug": "morte-a-tirania-da-biologia-que-haja-a-apenas-o-triunfo-da-vontade",
+            "date": "2018-11-28T21:43:36-03:00",
+            "dateYmd": "2018-11-28",
+            "dateDisplay": "28/11/2018",
+            "url": "reader.html#2018-11-28-morte-a-tirania-da-biologia-que-haja-a-apenas-o-triunfo-da-vontade.html",
+            "file": "2018-11-28-morte-a-tirania-da-biologia-que-haja-a-apenas-o-triunfo-da-vontade.html",
+            "summary": "Morte a Tirania da Biologia! Que Haja a Apenas o Triunfo da Vontade.Eu",
+            "html": "<article id=\"post-25354\" class=\"post-25354 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-filosofia tag-biologia tag-futuro tag-singularidade tag-tecnologia tag-transhumanismo\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-28-morte-a-tirania-da-biologia-que-haja-a-apenas-o-triunfo-da-vontade.html\" rel=\"bookmark\">Morte a Tirania da Biologia! Que Haja a Apenas o Triunfo da Vontade</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-28-morte-a-tirania-da-biologia-que-haja-a-apenas-o-triunfo-da-vontade.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-28T21:43:36-03:00\">28/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-28-morte-a-tirania-da-biologia-que-haja-a-apenas-o-triunfo-da-vontade.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#biologia\" rel=\"tag\">Biologia</a> <a href=\"tag.html#futuro\" rel=\"tag\">Futuro</a> <a href=\"tag.html#singularidade\" rel=\"tag\">Singularidade</a> <a href=\"tag.html#tecnologia\" rel=\"tag\">Tecnologia</a> <a href=\"tag.html#transhumanismo\" rel=\"tag\">Transhumanismo</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<p class=\"wp-block-paragraph\"><blockquote><h1>Morte a <a href=\"reader.html#2018-11-26-diario-26-11-2018.html\">Tirania da Biologia</a>! Que Haja a Apenas o Triunfo da Vontade.</h1></blockquote><p>Eu</p></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Biologia",
+                    "slug": "biologia"
+                },
+                {
+                    "name": "Futuro",
+                    "slug": "futuro"
+                },
+                {
+                    "name": "Singularidade",
+                    "slug": "singularidade"
+                },
+                {
+                    "name": "Tecnologia",
+                    "slug": "tecnologia"
+                },
+                {
+                    "name": "Transhumanismo",
+                    "slug": "transhumanismo"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "\n<p class=\"wp-block-paragraph\"><blockquote><h1>Morte a <a href=\"reader.html#2018-11-26-diario-26-11-2018.html\">Tirania da Biologia</a>! Que Haja a Apenas o Triunfo da Vontade.</h1></blockquote><p>Eu</p></p>\n"
+        },
+        {
+            "id": 25324,
+            "title": "Diário: 26/11/2018",
+            "slug": "diario-26-11-2018",
+            "date": "2018-11-26T19:50:29-03:00",
+            "dateYmd": "2018-11-26",
+            "dateDisplay": "26/11/2018",
+            "url": "reader.html#2018-11-26-diario-26-11-2018.html",
+            "file": "2018-11-26-diario-26-11-2018.html",
+            "summary": "É difícil para mim ver homens trans. Dói. Especialmente quando eles eram mulheres bonitas. Não digo isso no sentido de “Oh, como alguém 'mutilaria' o corpo assim”, ou seja lá qual outro clichê os…",
+            "html": "<article id=\"post-25324\" class=\"post-25324 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-biologia tag-depressao tag-frustracao tag-futuro tag-tirania tag-trans tag-tristeza\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-26-diario-26-11-2018.html\" rel=\"bookmark\">Diário: 26/11/2018</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-26-diario-26-11-2018.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-26T19:50:29-03:00\">26/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-26-diario-26-11-2018.html#respond\">2 Comentários</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#biologia\" rel=\"tag\">Biologia</a> <a href=\"tag.html#depressao\" rel=\"tag\">Depressão</a> <a href=\"tag.html#frustracao\" rel=\"tag\">Frustração</a> <a href=\"tag.html#futuro\" rel=\"tag\">Futuro</a> <a href=\"tag.html#tirania\" rel=\"tag\">Tirania</a> <a href=\"tag.html#trans\" rel=\"tag\">Trans</a> <a href=\"tag.html#tristeza\" rel=\"tag\">Tristeza</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<figure class=\"wp-block-image\"><a href=\"http://archive.today/2018.11.24-014844/https://www.facebook.com/190950737930012/photos/a.199104247114661/725942037764210/?type=1&amp;theater\"><img decoding=\"async\" class=\"wp-image-25326\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/46413134_725942041097543_6775196882353258496_n-copy.png\" alt=\"\" /></a></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><em>É difícil para mim ver homens trans. Dói. Especialmente quando eles eram mulheres bonitas. Não digo isso no sentido de</em> “<em>Oh, como alguém &#8216;mutilaria&#8217; o corpo assim”, ou seja lá qual outro clichê os conservadores dizem. É difícil porque essas pessoas já nasceram com o que eu sempre quis, em belos corpos femininos, pessoas que podiam usar vestidinhos fofos sem ter que brigar por isso, sem ter que ser chamado de aberração, sem isso ser estranho. Pessoas que poderiam viver sua vida inteira sem ter sua identidade como mulher questionada uma única vez sequer. </em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>E essas pessoas “jogaram fora” o “presente” que o destino lhes deu de mão beijada. Evidentemente que digo isso a partir da <strong>minha perspectiva</strong> – pra elas não era um presente, pra elas aqueles vestidinhos certamente não eram tão fofos, pra elas era ruim, pra elas era horrível. É que pra mim é simplesmente difícil entender por que alguém iria… iria rejeitar isso. Por que alguém abriria mão dum corpinho delicado e meigo. Não consigo entender o que levaria alguém a querer ser um homem. E pra eles – estes homens – talvez o inverso pareça igualmente incontemplável, tão absurdo quanto o deles é pra mim. “Oh, por que alguém iria querer ser mulher?!”, devem pensar.</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Engraçado… parece que o destino troca nossos presentes. É a tirania da biologia que aprisiona jovens em corpos centenários, pessoas saudáveis em corpos deficientes, homens em corpos femininos e mulheres em corpos masculinos. Que a ciência ponha fim a tirania da biologia. Que haja apenas o mais sublime <strong>triunfo da vontade</strong>.</em></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Biologia",
+                    "slug": "biologia"
+                },
+                {
+                    "name": "Depressão",
+                    "slug": "depressao"
+                },
+                {
+                    "name": "Frustração",
+                    "slug": "frustracao"
+                },
+                {
+                    "name": "Futuro",
+                    "slug": "futuro"
+                },
+                {
+                    "name": "Tirania",
+                    "slug": "tirania"
+                },
+                {
+                    "name": "Trans",
+                    "slug": "trans"
+                },
+                {
+                    "name": "Tristeza",
+                    "slug": "tristeza"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "\n<figure class=\"wp-block-image\"><a href=\"http://archive.today/2018.11.24-014844/https://www.facebook.com/190950737930012/photos/a.199104247114661/725942037764210/?type=1&amp;theater\"><img decoding=\"async\" class=\"wp-image-25326\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/46413134_725942041097543_6775196882353258496_n-copy.png\" alt=\"\" /></a></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><em>É difícil para mim ver homens trans. Dói. Especialmente quando eles eram mulheres bonitas. Não digo isso no sentido de</em> “<em>Oh, como alguém &#8216;mutilaria&#8217; o corpo assim”, ou seja lá qual outro clichê os conservadores dizem. É difícil porque essas pessoas já nasceram com o que eu sempre quis, em belos corpos femininos, pessoas que podiam usar vestidinhos fofos sem ter que brigar por isso, sem ter que ser chamado de aberração, sem isso ser estranho. Pessoas que poderiam viver sua vida inteira sem ter sua identidade como mulher questionada uma única vez sequer. </em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>E essas pessoas “jogaram fora” o “presente” que o destino lhes deu de mão beijada. Evidentemente que digo isso a partir da <strong>minha perspectiva</strong> – pra elas não era um presente, pra elas aqueles vestidinhos certamente não eram tão fofos, pra elas era ruim, pra elas era horrível. É que pra mim é simplesmente difícil entender por que alguém iria… iria rejeitar isso. Por que alguém abriria mão dum corpinho delicado e meigo. Não consigo entender o que levaria alguém a querer ser um homem. E pra eles – estes homens – talvez o inverso pareça igualmente incontemplável, tão absurdo quanto o deles é pra mim. “Oh, por que alguém iria querer ser mulher?!”, devem pensar.</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Engraçado… parece que o destino troca nossos presentes. É a tirania da biologia que aprisiona jovens em corpos centenários, pessoas saudáveis em corpos deficientes, homens em corpos femininos e mulheres em corpos masculinos. Que a ciência ponha fim a tirania da biologia. Que haja apenas o mais sublime <strong>triunfo da vontade</strong>.</em></p>\n"
+        },
+        {
+            "id": 25307,
+            "title": "A entropia está com a vantagem…",
+            "slug": "a-entropia-esta-com-a-vantagem",
+            "date": "2018-11-26T14:29:54-03:00",
+            "dateYmd": "2018-11-26",
+            "dateDisplay": "26/11/2018",
+            "url": "reader.html#2018-11-26-a-entropia-esta-com-a-vantagem.html",
+            "file": "2018-11-26-a-entropia-esta-com-a-vantagem.html",
+            "summary": "E com este título quero dizer o seguinte: A capacidade das tecnologias para criar caos aumenta de modo desproporcional em comparação a capacidade das tecnologias para criar e/ou preservar a ordem. Nós temos bombas…",
+            "html": "<article id=\"post-25307\" class=\"post-25307 post type-post status-publish format-standard hentry category-filosofia category-textos tag-armas tag-bem-estar-coletivo tag-caos tag-destruicao tag-entropia tag-futuro tag-liberdade-individual tag-person-of-interest\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-26-a-entropia-esta-com-a-vantagem.html\" rel=\"bookmark\">A entropia está com a vantagem…</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2018-11-26-a-entropia-esta-com-a-vantagem.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-26T14:29:54-03:00\">26/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-26-a-entropia-esta-com-a-vantagem.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#armas\" rel=\"tag\">Armas</a> <a href=\"tag.html#bem-estar-coletivo\" rel=\"tag\">Bem-Estar Coletivo</a> <a href=\"tag.html#caos\" rel=\"tag\">Caos</a> <a href=\"tag.html#destruicao\" rel=\"tag\">Destruição</a> <a href=\"tag.html#entropia\" rel=\"tag\">Entropia</a> <a href=\"tag.html#futuro\" rel=\"tag\">Futuro</a> <a href=\"tag.html#liberdade-individual\" rel=\"tag\">Liberdade Individual</a> <a href=\"tag.html#person-of-interest\" rel=\"tag\">Person of Interest</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<p class=\"wp-block-paragraph\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25320\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-5-c3550ed62ee0.gif\" alt=\"\" width=\"474\" height=\"264\" /><br />E com este título quero dizer o seguinte: <a href=\"https://en.wikipedia.org/wiki/Accelerating_change\">A capacidade das tecnologias para criar caos aumenta</a> de modo desproporcional em comparação a capacidade das tecnologias para criar e/ou preservar a ordem.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Nós temos bombas nucleares, mas não temos, em contrapartida, algo como “campo de força nuclear”, ou algo que nos proteja dos efeitos negativos duma explosão atômica, como tanto vemos em ficções. Tanto que a melhor solução para nos defendermos das armas nucleares é, até hoje, a estratégia de <a href=\"https://en.wikipedia.org/wiki/Mutual_assured_destruction\">destruição mútua assegurada</a>, que se resume a simplesmente não usar tais dispositivos.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Longe de mim dizer que nunca teremos formas de nos defender das armas atómicas que temos hoje, mas o ponto aqui é que quando tivermos esse “campo de força” – <em>uma tecnologia essencialmente pra &#8220;conter o caos e a entropia</em> – a tecnologia pra destruir e pra criar entropia terá aumentado ainda mais. Teremos bombas ainda mais destrutivas, poderosas e acessíveis, bombas de antimatéria.<p class=\"more-wrap\"><a href=\"reader.html#2018-11-26-a-entropia-esta-com-a-vantagem.html\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">A entropia está com a vantagem…</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Armas",
+                    "slug": "armas"
+                },
+                {
+                    "name": "Bem-Estar Coletivo",
+                    "slug": "bem-estar-coletivo"
+                },
+                {
+                    "name": "Caos",
+                    "slug": "caos"
+                },
+                {
+                    "name": "Destruição",
+                    "slug": "destruicao"
+                },
+                {
+                    "name": "Entropia",
+                    "slug": "entropia"
+                },
+                {
+                    "name": "Futuro",
+                    "slug": "futuro"
+                },
+                {
+                    "name": "Liberdade Individual",
+                    "slug": "liberdade-individual"
+                },
+                {
+                    "name": "Person of Interest",
+                    "slug": "person-of-interest"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "\n<p class=\"wp-block-paragraph\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25320\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-5-c3550ed62ee0.gif\" alt=\"\" width=\"474\" height=\"264\" /><br />E com este título quero dizer o seguinte: <a href=\"https://en.wikipedia.org/wiki/Accelerating_change\">A capacidade das tecnologias para criar caos aumenta</a> de modo desproporcional em comparação a capacidade das tecnologias para criar e/ou preservar a ordem.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Nós temos bombas nucleares, mas não temos, em contrapartida, algo como “campo de força nuclear”, ou algo que nos proteja dos efeitos negativos duma explosão atômica, como tanto vemos em ficções. Tanto que a melhor solução para nos defendermos das armas nucleares é, até hoje, a estratégia de <a href=\"https://en.wikipedia.org/wiki/Mutual_assured_destruction\">destruição mútua assegurada</a>, que se resume a simplesmente não usar tais dispositivos.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Longe de mim dizer que nunca teremos formas de nos defender das armas atómicas que temos hoje, mas o ponto aqui é que quando tivermos esse “campo de força” – <em>uma tecnologia essencialmente pra &#8220;conter o caos e a entropia</em> – a tecnologia pra destruir e pra criar entropia terá aumentado ainda mais. Teremos bombas ainda mais destrutivas, poderosas e acessíveis, bombas de antimatéria.<span id=\"more-25307\"></span></p>\n<p><div class=\"embed-youtube\"><iframe loading=\"lazy\" title=\"Ed -- A Petition For Stronger Gun Laws\" width=\"474\" height=\"267\" src=\"https://www.youtube.com/embed/LORVfnFtcH0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></div></p>\n\n\n\n<p class=\"wp-block-paragraph\">Peguemos, por exemplo, a evolução do poder destrutivo das armas de fogo – <em>e de sua acessibilidade e custo</em> – não se encontra uma contrapartida, na mesma proporção, em coisas como blindagem e coletes a prova de bala. Você tem uma arma que dispara 300 tiros por minuto… mas não tem algo como uma “nuvem de nano-robôs” capaz de cobrir seu corpo e lhe proteger dos tiros. Aliás, esse princípio do <em>“a entropia sempre está com a vantagem”</em> explica muito bem <a href=\"reader.html#2014-12-21-consquencias-das-leis-da-fisica-na-criptografia.html\">o porquê é tão difícil quebrar uma criptografia na força bruta</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">E isso inevitavelmente deságua naquele velho debate sobre <a href=\"reader.html#2018-02-27-da-liberdade-a-seus-limites-liberdade-individual-bem-estar-social-utilitarismo-e-pre-crimes.html\">liberdade individual vs bem-estar social coletivo</a>. Pois, conforme a evolução tecnológica ocorre… a capacidade humana para <strong>pequenos grupos</strong> de indivíduos cometerem atos de grande destruição <a href=\"https://en.wikipedia.org/wiki/Mass_shootings_in_the_United_States#Deadliest_mass_shootings_since_1949\">cresce desproporcionalmente</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Por que fazem mais de 70 anos que uma bomba nuclear foi utilizada contra civis? Porque bombas nucleares são difíceis de se conseguir… e geralmente as pessoas que as possuem têm muito a perder. Mesmo nações tiranas e <a href=\"https://en.wikipedia.org/wiki/Pariah_state\">estados-párias</a> tem muito a perder, a população norte-coreana pode estar morrendo de fome ou sendo morta e torturada em gulags, mas seu ditador, tal como a elite do partido, vivem imersos numa riqueza extraordinária.</p>\n<p><a href=\"https://www.youtube.com/watch?v=dn4PJFivDAY\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25319\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-5-4d6ea25931d4.gif\" alt=\"\" width=\"474\" height=\"264\" /></a><br />O que acontece, novamente, partindo dessa premissa do <em>“a desordem está com a vantagem”</em>, quando formas mais e mais destrutivas passam a se tornar disponíveis para qualquer um? Ao meu ver, em algum momento futuro um constante estado de vigilância acabará sendo necessário para garantir a segurança. O tipo de coisa à la <a href=\"https://en.wikipedia.org/wiki/Person_of_Interest_(TV_series)\">&#8220;Person of Interest&#8221;</a> ou o que <a href=\"https://web.archive.org/web/20181125193326/https://www.businessinsider.com/how-china-is-watching-its-citizens-in-a-modern-surveillance-state-2018-4\">vem acontecendo na China hoje em dia</a>.</p>\n<p>\n\n</p>\n<p class=\"wp-block-paragraph\">É bonito citar frases como <a href=\"https://www.google.com.br/search?q=%22Those+who+would+give+up+essential+Liberty%2C+to+purchase+a+little+temporary+Safety%2C+deserve+neither+Liberty+nor+Safety.%22&amp;oq=%22Those+who+would+give+up+essential+Liberty%2C+to+purchase+a+little+temporary+Safety%2C+deserve+neither+Liberty+nor+Safety.%22&amp;aqs=chrome..69i57.968j0j4&amp;sourceid=chrome&amp;ie=UTF-8\"><em>“Aqueles que abrem mão da liberdade essencial por um pouco de segurança temporária não merecem nem liberdade nem segurança”</em></a>, de <a href=\"https://en.wikipedia.org/wiki/Benjamin_Franklin\">Benjamin Franklin</a>. Mas na época de Franklin não existiam bombas capazes de matar milhões de pessoas numa fração de segundos. Em algum lugar do caminho – <em>ao meu ver</em> – será necessário abrir mão, se não dá liberdade em si, da privacidade em nome do bem coletivo.</p>\n<p>\n\n</p>\n<p class=\"wp-block-paragraph\">E isso está longe de ser uma solução sem problemas e graves consequências, tal como o descomunal poder que estará sendo entregue ao estado. É uma solução horrível&#8230; e é a única.</p>\n<p></p>"
+        },
+        {
+            "id": 25294,
+            "title": "Everything I have is broken, somethings are on faith, somethings are on me…",
+            "slug": "everything-i-have-is-broken-somethings-are-on-faith-somethings-are-on-me",
+            "date": "2018-11-25T15:04:59-03:00",
+            "dateYmd": "2018-11-25",
+            "dateDisplay": "25/11/2018",
+            "url": "reader.html#2018-11-25-everything-i-have-is-broken-somethings-are-on-faith-somethings-are-on-me.html",
+            "file": "2018-11-25-everything-i-have-is-broken-somethings-are-on-faith-somethings-are-on-me.html",
+            "summary": "Everything I have is broken, somethings are on faith, somethings are on me. Me",
+            "html": "<article id=\"post-25294\" class=\"post-25294 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-english tag-bad-life tag-fault tag-guilty tag-pain tag-sadness\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#english\" rel=\"category\">English</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-25-everything-i-have-is-broken-somethings-are-on-faith-somethings-are-on-me.html\" rel=\"bookmark\">Everything I have is broken, somethings are on faith, somethings are on me…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-25-everything-i-have-is-broken-somethings-are-on-faith-somethings-are-on-me.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-25T15:04:59-03:00\">25/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-25-everything-i-have-is-broken-somethings-are-on-faith-somethings-are-on-me.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#bad-life\" rel=\"tag\">Bad Life</a> <a href=\"tag.html#fault\" rel=\"tag\">Fault</a> <a href=\"tag.html#guilty\" rel=\"tag\">Guilty</a> <a href=\"tag.html#pain\" rel=\"tag\">Pain</a> <a href=\"tag.html#sadness\" rel=\"tag\">Sadness</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1>Everything I have is broken, <a href=\"reader.html#2014-12-28-ele-morava-num-corpo-quebrado.html\">somethings are on faith</a>, somethings are on me.</h1>\n</blockquote>\n<p>Me</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Bad Life",
+                    "slug": "bad-life"
+                },
+                {
+                    "name": "Fault",
+                    "slug": "fault"
+                },
+                {
+                    "name": "Guilty",
+                    "slug": "guilty"
+                },
+                {
+                    "name": "Pain",
+                    "slug": "pain"
+                },
+                {
+                    "name": "Sadness",
+                    "slug": "sadness"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "English",
+                    "slug": "english"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h1>Everything I have is broken, <a href=\"reader.html#2014-12-28-ele-morava-num-corpo-quebrado.html\">somethings are on faith</a>, somethings are on me.</h1>\n</blockquote>\n<p>Me</p>\n"
+        },
+        {
+            "id": 25144,
+            "title": "…essa cena me lembrou quando meu pai me bateu…",
+            "slug": "essa-cena-me-lembrou-quando-meu-pai-me-bateu",
+            "date": "2018-11-23T19:58:44-03:00",
+            "dateYmd": "2018-11-23",
+            "dateDisplay": "23/11/2018",
+            "url": "reader.html#2018-11-23-essa-cena-me-lembrou-quando-meu-pai-me-bateu.html",
+            "file": "2018-11-23-essa-cena-me-lembrou-quando-meu-pai-me-bateu.html",
+            "summary": "...Essa cena me lembrou quando meu pai me bateu... O ator do filme, que eu vi nesse documentário, lembra bastante o pai, aquele homem bem fortão, com um físico bem grande... eu nem sei…",
+            "html": "<article id=\"post-25144\" class=\"post-25144 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario tag-briga tag-dor tag-familia tag-mae tag-pai tag-saudade\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-23-essa-cena-me-lembrou-quando-meu-pai-me-bateu.html\" rel=\"bookmark\">…essa cena me lembrou quando meu pai me bateu…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-23-essa-cena-me-lembrou-quando-meu-pai-me-bateu.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-23T19:58:44-03:00\">23/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#briga\" rel=\"tag\">Briga</a> <a href=\"tag.html#dor\" rel=\"tag\">Dor</a> <a href=\"tag.html#familia\" rel=\"tag\">Família</a> <a href=\"tag.html#mae\" rel=\"tag\">Mãe</a> <a href=\"tag.html#pai\" rel=\"tag\">Pai</a> <a href=\"tag.html#saudade\" rel=\"tag\">Saudade</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<figure class=\"wp-block-image\"><a href=\"https://en.wikipedia.org/wiki/Hitlerjunge_Quex_(film)\"><img decoding=\"async\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-2-b40fa28fff03.gif\" alt=\"\" class=\"wp-image-25295\" /></a></figure>\n\n\n<blockquote>\n<p>&#8230;Essa cena me lembrou quando meu <a href=\"tag.html#pai\">pai</a> me bateu&#8230; O <a href=\"https://www.google.com.br/search?hl=pt-BR&amp;site=imghp&amp;tbm=isch&amp;source=hp&amp;biw=1440&amp;bih=790&amp;q=Georg+August+Friedrich+Hermann+Schulz&amp;=&amp;oq=&amp;gs_l=\">ator</a> do <a href=\"https://en.wikipedia.org/wiki/Hitlerjunge_Quex_(film)\">filme</a>, que eu vi <a href=\"https://www.imdb.com/title/tt6566624/\">nesse documentário</a>, lembra bastante o pai, aquele homem bem fortão, com um físico bem grande&#8230; eu nem sei por que eu tô comentando sobre isso, acho que é só pela semelhança física entre ambos. Isso faz parecer que ele era um sacana, mas, não! Ele era uma pessoa maravilhosa, e eu sinto falta dele. E em 22 anos ele só encostou a mão em mim 1 dia, e em circunstâncias de profundo stress e tumulto. Te amo, pai! E, acima de tudo, <strong>eu sinto sua falta&#8230; pra caralho!</strong></p>\n</blockquote>\n\n\n<p class=\"wp-block-paragraph\"></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Briga",
+                    "slug": "briga"
+                },
+                {
+                    "name": "Dor",
+                    "slug": "dor"
+                },
+                {
+                    "name": "Família",
+                    "slug": "familia"
+                },
+                {
+                    "name": "Mãe",
+                    "slug": "mae"
+                },
+                {
+                    "name": "Pai",
+                    "slug": "pai"
+                },
+                {
+                    "name": "Saudade",
+                    "slug": "saudade"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "\n<figure class=\"wp-block-image\"><a href=\"https://en.wikipedia.org/wiki/Hitlerjunge_Quex_(film)\"><img decoding=\"async\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-2-b40fa28fff03.gif\" alt=\"\" class=\"wp-image-25295\" /></a></figure>\n\n\n<blockquote>\n<p>&#8230;Essa cena me lembrou quando meu <a href=\"tag.html#pai\">pai</a> me bateu&#8230; O <a href=\"https://www.google.com.br/search?hl=pt-BR&amp;site=imghp&amp;tbm=isch&amp;source=hp&amp;biw=1440&amp;bih=790&amp;q=Georg+August+Friedrich+Hermann+Schulz&amp;=&amp;oq=&amp;gs_l=\">ator</a> do <a href=\"https://en.wikipedia.org/wiki/Hitlerjunge_Quex_(film)\">filme</a>, que eu vi <a href=\"https://www.imdb.com/title/tt6566624/\">nesse documentário</a>, lembra bastante o pai, aquele homem bem fortão, com um físico bem grande&#8230; eu nem sei por que eu tô comentando sobre isso, acho que é só pela semelhança física entre ambos. Isso faz parecer que ele era um sacana, mas, não! Ele era uma pessoa maravilhosa, e eu sinto falta dele. E em 22 anos ele só encostou a mão em mim 1 dia, e em circunstâncias de profundo stress e tumulto. Te amo, pai! E, acima de tudo, <strong>eu sinto sua falta&#8230; pra caralho!</strong></p>\n</blockquote>\n\n\n<p class=\"wp-block-paragraph\"></p>\n"
+        },
+        {
+            "id": 25282,
+            "title": "As armas nucleares tornaram uma guerra entre superpotências…",
+            "slug": "as-armas-nucleares-tornaram-uma-guerra-entre-superpotencias",
+            "date": "2018-11-21T19:34:36-03:00",
+            "dateYmd": "2018-11-21",
+            "dateDisplay": "21/11/2018",
+            "url": "reader.html#2018-11-21-as-armas-nucleares-tornaram-uma-guerra-entre-superpotencias.html",
+            "file": "2018-11-21-as-armas-nucleares-tornaram-uma-guerra-entre-superpotencias.html",
+            "summary": "As armas nucleares tornaram uma guerra entre superpotências um ato louco de suicídio coletivo e com isso forçaram as nações mais poderosas da Terra a encontrar meios alternativos e pacíficos de resolver conflitos. Yuval…",
+            "html": "<article id=\"post-25282\" class=\"post-25282 post type-post status-publish format-quote hentry post_format-post-format-quote category-autoria-de-outros category-citacoes category-filosofia tag-armas tag-futuro tag-guerra tag-homo-deus tag-utilitarismo\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#autoria-de-outros\" rel=\"category\">Autoria de Outros</a>, <a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-21-as-armas-nucleares-tornaram-uma-guerra-entre-superpotencias.html\" rel=\"bookmark\">As armas nucleares tornaram uma guerra entre superpotências…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-21-as-armas-nucleares-tornaram-uma-guerra-entre-superpotencias.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-21T19:34:36-03:00\">21/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-21-as-armas-nucleares-tornaram-uma-guerra-entre-superpotencias.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#armas\" rel=\"tag\">Armas</a> <a href=\"tag.html#futuro\" rel=\"tag\">Futuro</a> <a href=\"tag.html#guerra\" rel=\"tag\">Guerra</a> <a href=\"tag.html#homo-deus\" rel=\"tag\">Homo Deus</a> <a href=\"tag.html#utilitarismo\" rel=\"tag\">Utilitarismo</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h2>As armas nucleares tornaram uma guerra entre superpotências um ato louco de suicídio coletivo e com isso forçaram as nações mais poderosas da Terra a encontrar meios alternativos e pacíficos de resolver conflitos.</h2>\n</blockquote>\n<p><a href=\"https://en.wikipedia.org/wiki/Yuval_Noah_Harari\">Yuval Harari</a> – <a href=\"https://books.google.com.br/books?id=dWYyCwAAQBAJ&amp;pg=PA15&amp;dq=%22Nuclear+weapons+have+turned+war+between+superpowers+into+a+mad+act+of+collective+suicide,+and+therefore+forced+the+most+powerful+nations+on+earth+to+find+alternative+and+peaceful+ways+to+resolve+conflicts%22&amp;hl=pt-BR&amp;sa=X&amp;ved=0ahUKEwjcvc_lw-beAhVBIJAKHQkfCIIQ6AEIKTAA#v=onepage&amp;q=%22Nuclear%20weapons%20have%20turned%20war%20between%20superpowers%20into%20a%20mad%20act%20of%20collective%20suicide%2C%20and%20therefore%20forced%20the%20most%20powerful%20nations%20on%20earth%20to%20find%20alternative%20and%20peaceful%20ways%20to%20resolve%20conflicts%22&amp;f=false\">Homo Deus</a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Armas",
+                    "slug": "armas"
+                },
+                {
+                    "name": "Futuro",
+                    "slug": "futuro"
+                },
+                {
+                    "name": "Guerra",
+                    "slug": "guerra"
+                },
+                {
+                    "name": "Homo Deus",
+                    "slug": "homo-deus"
+                },
+                {
+                    "name": "Utilitarismo",
+                    "slug": "utilitarismo"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Autoria de Outros",
+                    "slug": "autoria-de-outros"
+                },
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h2>As armas nucleares tornaram uma guerra entre superpotências um ato louco de suicídio coletivo e com isso forçaram as nações mais poderosas da Terra a encontrar meios alternativos e pacíficos de resolver conflitos.</h2>\n</blockquote>\n<p><a href=\"https://en.wikipedia.org/wiki/Yuval_Noah_Harari\">Yuval Harari</a> – <a href=\"https://books.google.com.br/books?id=dWYyCwAAQBAJ&amp;pg=PA15&amp;dq=%22Nuclear+weapons+have+turned+war+between+superpowers+into+a+mad+act+of+collective+suicide,+and+therefore+forced+the+most+powerful+nations+on+earth+to+find+alternative+and+peaceful+ways+to+resolve+conflicts%22&amp;hl=pt-BR&amp;sa=X&amp;ved=0ahUKEwjcvc_lw-beAhVBIJAKHQkfCIIQ6AEIKTAA#v=onepage&amp;q=%22Nuclear%20weapons%20have%20turned%20war%20between%20superpowers%20into%20a%20mad%20act%20of%20collective%20suicide%2C%20and%20therefore%20forced%20the%20most%20powerful%20nations%20on%20earth%20to%20find%20alternative%20and%20peaceful%20ways%20to%20resolve%20conflicts%22&amp;f=false\">Homo Deus</a></p>\n"
+        },
+        {
+            "id": 25271,
+            "title": "O filme “Searching” (Buscando) ilustra muito bem como as inovações tecnológicas…",
+            "slug": "o-filme-searching-buscando-ilustra-muito-bem-como-as-inovacoes-tecnologicas",
+            "date": "2018-11-20T10:36:35-03:00",
+            "dateYmd": "2018-11-20",
+            "dateDisplay": "20/11/2018",
+            "url": "reader.html#2018-11-20-o-filme-searching-buscando-ilustra-muito-bem-como-as-inovacoes-tecnologicas.html",
+            "file": "2018-11-20-o-filme-searching-buscando-ilustra-muito-bem-como-as-inovacoes-tecnologicas.html",
+            "summary": "O filme \"Searching\" (Buscando) ilustra muito bem como as inovações tecnológicas do mundo real acabam permitindo e dando origens a novas narrativas cinematográficas e simplesmente… novas histórias pra contar. Tema esse que abordo neste…",
+            "html": "<article id=\"post-25271\" class=\"post-25271 post type-post status-publish format-quote hentry post_format-post-format-quote category-ciencia category-documentarios-filmes-series category-filosofia tag-cinema tag-ficcao tag-filme tag-searching tag-storytelling tag-tecnologia\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#ciencia\" rel=\"category\">Ciência</a>, <a href=\"cat.html#documentarios-filmes-series\" rel=\"category\">Documentários &amp; Filmes &amp; Series</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-20-o-filme-searching-buscando-ilustra-muito-bem-como-as-inovacoes-tecnologicas.html\" rel=\"bookmark\">O filme “Searching” (Buscando) ilustra muito bem como as inovações tecnológicas…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-20-o-filme-searching-buscando-ilustra-muito-bem-como-as-inovacoes-tecnologicas.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-20T10:36:35-03:00\">20/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-20-o-filme-searching-buscando-ilustra-muito-bem-como-as-inovacoes-tecnologicas.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#cinema\" rel=\"tag\">Cinema</a> <a href=\"tag.html#ficcao\" rel=\"tag\">Ficção</a> <a href=\"tag.html#filme\" rel=\"tag\">Filme</a> <a href=\"tag.html#searching\" rel=\"tag\">Searching</a> <a href=\"tag.html#storytelling\" rel=\"tag\">Storytelling</a> <a href=\"tag.html#tecnologia\" rel=\"tag\">Tecnologia</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<blockquote>\n<h2 class=\"wp-block-heading\">O filme <a href=\"https://www.imdb.com/title/tt7668870/\">&#8220;Searching&#8221;</a> (Buscando) ilustra muito bem como as inovações tecnológicas do mundo real acabam permitindo e dando origens a novas narrativas cinematográficas e simplesmente… novas histórias pra contar. Tema esse que abordo <a href=\"reader.html#2017-03-23-o-efeito-das-mudancas-tecnologicas-do-mundo-real-na-ficcao.html\">neste meu artigo aqui</a>.</h2>\n</blockquote>\n<p>Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Cinema",
+                    "slug": "cinema"
+                },
+                {
+                    "name": "Ficção",
+                    "slug": "ficcao"
+                },
+                {
+                    "name": "Filme",
+                    "slug": "filme"
+                },
+                {
+                    "name": "Searching",
+                    "slug": "searching"
+                },
+                {
+                    "name": "Storytelling",
+                    "slug": "storytelling"
+                },
+                {
+                    "name": "Tecnologia",
+                    "slug": "tecnologia"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Ciência",
+                    "slug": "ciencia"
+                },
+                {
+                    "name": "Documentários &amp; Filmes &amp; Series",
+                    "slug": "documentarios-filmes-series"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "\n<blockquote>\n<h2 class=\"wp-block-heading\">O filme <a href=\"https://www.imdb.com/title/tt7668870/\">&#8220;Searching&#8221;</a> (Buscando) ilustra muito bem como as inovações tecnológicas do mundo real acabam permitindo e dando origens a novas narrativas cinematográficas e simplesmente… novas histórias pra contar. Tema esse que abordo <a href=\"reader.html#2017-03-23-o-efeito-das-mudancas-tecnologicas-do-mundo-real-na-ficcao.html\">neste meu artigo aqui</a>.</h2>\n</blockquote>\n<p>Eu</p>\n"
+        },
+        {
+            "id": 25246,
+            "title": "Diário: 15/11/2018",
+            "slug": "diario-15-11-2018",
+            "date": "2018-11-15T00:44:09-03:00",
+            "dateYmd": "2018-11-15",
+            "dateDisplay": "15/11/2018",
+            "url": "reader.html#2018-11-15-diario-15-11-2018.html",
+            "file": "2018-11-15-diario-15-11-2018.html",
+            "summary": "• “When the masters of yesterday have passed, the masters of tomorrow will express this new sense of the futility of war and the greater power of the spirit.” – Anna Coleman • Vendo…",
+            "html": "<article id=\"post-25246\" class=\"post-25246 post type-post status-publish format-aside hentry post_format-post-format-aside category-filosofia category-textos tag-anos-90 tag-biologia tag-dificuldade tag-fetiche tag-five-came-back tag-girly tag-internet tag-meia-calca tag-realidade-virtual tag-transhumanismo tag-vida\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-15-diario-15-11-2018.html\" rel=\"bookmark\">Diário: 15/11/2018</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-15-diario-15-11-2018.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-15T00:44:09-03:00\">15/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-15-diario-15-11-2018.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#anos-90\" rel=\"tag\">Anos 90</a> <a href=\"tag.html#biologia\" rel=\"tag\">Biologia</a> <a href=\"tag.html#dificuldade\" rel=\"tag\">Dificuldade</a> <a href=\"tag.html#fetiche\" rel=\"tag\">Fetiche</a> <a href=\"tag.html#five-came-back\" rel=\"tag\">Five Came Back</a> <a href=\"tag.html#girly\" rel=\"tag\">Girly</a> <a href=\"tag.html#internet\" rel=\"tag\">Internet</a> <a href=\"tag.html#meia-calca\" rel=\"tag\">Meia-calça</a> <a href=\"tag.html#realidade-virtual\" rel=\"tag\">Realidade Virtual</a> <a href=\"tag.html#transhumanismo\" rel=\"tag\">Transhumanismo</a> <a href=\"tag.html#vida\" rel=\"tag\">Vida</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<figure class=\"wp-block-image\"><a href=\"https://www.imdb.com/title/tt0693022/\"><img decoding=\"async\" class=\"wp-image-25258\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-5-1202639f22e9.gif\" alt=\"\" /></a></figure>\n\n<p><em><span style=\"font-weight:400;\">• </span><a href=\"https://youtu.be/BJzjt_aFc00?t=204\"><span style=\"font-weight:400;\">“When the masters of yesterday have passed, the masters of tomorrow will express this new sense of the futility of war and the greater power of the spirit.”</span></a><span style=\"font-weight:400;\"> – </span><a href=\"https://en.wikipedia.org/wiki/Anna_Coleman_Ladd\"><span style=\"font-weight:400;\">Anna Coleman</span></a></em></p>\n<p>• <em><a href=\"https://www.imdb.com/title/tt7440274/\">Vendo um documentário</a> sobre soldados que receberam <a href=\"https://en.wikipedia.org/wiki/Medal_of_Honor\">a maior honraria que algum militar pode receber</a>, por gestos de grandeza e coragem, soldados que salvaram seus companheiros e por aí vai. E uma coisa que me ocorreu foi que&#8230; em muitas dessas guerras, por mais admirável que seja tais gestos, e são gestos de coragem e grandeza, de fato&#8230; a guerra em que esses gesto de grandeza aconteceu foi totalmente desnecessária e fútil. Pois&#8230; há guerras “justificáveis” e “compreensíveis”, a Segunda Guerra Mundial, talvez tenha sido o último grande conflito em que você podia ir lutar sabendo que se morresse&#8230; você não estaria morrendo em vão por algo desnecessário. E infelizmente é o caso de muitos desses soldados. Eles fizeram sacrifícios extraordinários&#8230; mas as circunstâncias que os levaram a fazer tais sacrifícios, no quadro geral, não eram necessárias.</em></p>\n<p><em>• <a href=\"https://www.google.com.br/search?q=%22Mother+Falcon+-+Serpent+Tongues%22&amp;oq=%22Mother+Falcon+-+Serpent+Tongues%22&amp;aqs=chrome..69i57j0.3956j0j4&amp;sourceid=chrome&amp;ie=UTF-8\">And how many wonderful songs will you never find out that exist?</a></em></p>\n<p><em>• Manhãs nubladas de domingo.</em></p>\n<p><em><span style=\"font-weight:400;\">• “The soul belongs to heaven and the body to hell.” – </span><a href=\"https://en.wikipedia.org/wiki/The_House_That_Jack_Built_(2018_film)\"><span style=\"font-weight:400;\">The House That Jack Built (2018)<p class=\"more-wrap\"><a href=\"reader.html#2018-11-15-diario-15-11-2018.html\" class=\"more-link\">Continue lendo <span class=\"screen-reader-text\">Diário: 15/11/2018</span> <span class=\"meta-nav\">&rarr;</span></a></p></div></article>",
+            "tags": [
+                {
+                    "name": "Anos 90",
+                    "slug": "anos-90"
+                },
+                {
+                    "name": "Biologia",
+                    "slug": "biologia"
+                },
+                {
+                    "name": "Dificuldade",
+                    "slug": "dificuldade"
+                },
+                {
+                    "name": "Fetiche",
+                    "slug": "fetiche"
+                },
+                {
+                    "name": "Five Came Back",
+                    "slug": "five-came-back"
+                },
+                {
+                    "name": "Girly",
+                    "slug": "girly"
+                },
+                {
+                    "name": "Internet",
+                    "slug": "internet"
+                },
+                {
+                    "name": "Meia-calça",
+                    "slug": "meia-calca"
+                },
+                {
+                    "name": "Realidade Virtual",
+                    "slug": "realidade-virtual"
+                },
+                {
+                    "name": "Transhumanismo",
+                    "slug": "transhumanismo"
+                },
+                {
+                    "name": "Vida",
+                    "slug": "vida"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "\n<figure class=\"wp-block-image\"><a href=\"https://www.imdb.com/title/tt0693022/\"><img decoding=\"async\" class=\"wp-image-25258\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-5-1202639f22e9.gif\" alt=\"\" /></a></figure>\n\n<p><em><span style=\"font-weight:400;\">• </span><a href=\"https://youtu.be/BJzjt_aFc00?t=204\"><span style=\"font-weight:400;\">“When the masters of yesterday have passed, the masters of tomorrow will express this new sense of the futility of war and the greater power of the spirit.”</span></a><span style=\"font-weight:400;\"> – </span><a href=\"https://en.wikipedia.org/wiki/Anna_Coleman_Ladd\"><span style=\"font-weight:400;\">Anna Coleman</span></a></em></p>\n<p>• <em><a href=\"https://www.imdb.com/title/tt7440274/\">Vendo um documentário</a> sobre soldados que receberam <a href=\"https://en.wikipedia.org/wiki/Medal_of_Honor\">a maior honraria que algum militar pode receber</a>, por gestos de grandeza e coragem, soldados que salvaram seus companheiros e por aí vai. E uma coisa que me ocorreu foi que&#8230; em muitas dessas guerras, por mais admirável que seja tais gestos, e são gestos de coragem e grandeza, de fato&#8230; a guerra em que esses gesto de grandeza aconteceu foi totalmente desnecessária e fútil. Pois&#8230; há guerras “justificáveis” e “compreensíveis”, a Segunda Guerra Mundial, talvez tenha sido o último grande conflito em que você podia ir lutar sabendo que se morresse&#8230; você não estaria morrendo em vão por algo desnecessário. E infelizmente é o caso de muitos desses soldados. Eles fizeram sacrifícios extraordinários&#8230; mas as circunstâncias que os levaram a fazer tais sacrifícios, no quadro geral, não eram necessárias.</em></p>\n<p><em>• <a href=\"https://www.google.com.br/search?q=%22Mother+Falcon+-+Serpent+Tongues%22&amp;oq=%22Mother+Falcon+-+Serpent+Tongues%22&amp;aqs=chrome..69i57j0.3956j0j4&amp;sourceid=chrome&amp;ie=UTF-8\">And how many wonderful songs will you never find out that exist?</a></em></p>\n<p><em>• Manhãs nubladas de domingo.</em></p>\n<p><em><span style=\"font-weight:400;\">• “The soul belongs to heaven and the body to hell.” – </span><a href=\"https://en.wikipedia.org/wiki/The_House_That_Jack_Built_(2018_film)\"><span style=\"font-weight:400;\">The House That Jack Built (2018)<span id=\"more-25246\"></span></span></a></em><em><span style=\"font-weight:400;\">• Por trás de toda estranhosidade humana se encontra um fetiche e um TOC.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• <a href=\"http://archive.today/2018.11.15-024152/https://pastebin.com/raw/dVGcYLBW\">“You heard words that you never dreamed that existed.”</a> – </span><a href=\"https://www.imdb.com/title/tt7905466/\"><span style=\"font-weight:400;\">They Shall Not Grow Old</span></a><span style=\"font-weight:400;\"> (2018)</span></em></p>\n<p><em><span style=\"font-weight:400;\">• O corpo é a maior de prisões, você pode escapar até da Terra, mas está preso no seu corpo.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• O europeu se culpa demais, se culpa por coisas que nem foram eles que fizeram. O que passou passou… Você não vê os japoneses hoje se culpando pelo <a href=\"https://pt.wikipedia.org/wiki/Massacre_de_Nanquim\">Massacre de Nanquim</a>.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Essa </span><a href=\"reader.html#2015-09-07-fuso-horarios-existencias.html\"><span style=\"font-weight:400;\">“dessincronização da vida humana”</span></a><span style=\"font-weight:400;\">, eu acho interessante. O que eu estou querendo dizer com isso é que você sempre tem pessoas formando famílias e famílias morrendo. Alguém tem um filho no mesmo dia em que o pai de alguém morre e por aí vai&#8230;</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Tem horas que parece que a democracia moderna nada mais é do que uma forma de escravidão com uma maior mobilidade social. Você tem uma casta abastada – <a href=\"https://web.archive.org/web/20181118062021/https://www.valor.com.br/politica/5975203/marco-aurelio-ironiza-ministros-que-sao-contra-reajuste\">funcionários públicos</a> – sendo sustentada pela casta inferior.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Alguém deveria fazer um documentário sobre </span><a href=\"https://www.reddit.com/r/CrackedColdCases/\"><span style=\"font-weight:400;\">todos esses serial killers sendo presos por DNA genealógico</span></a><span style=\"font-weight:400;\"> desde o </span><a href=\"https://en.wikipedia.org/wiki/Golden_State_Killer\"><span style=\"font-weight:400;\">Golden State Killer</span></a><span style=\"font-weight:400;\">. É uma tema absolutamente fascinante!</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Alguém deveria fazer um documentário sobre o Chaves, algo bem produzido e tal, tipo o documentário contando a história de <a href=\"https://www.imdb.com/title/tt7053920/\">brinquedos que marcaram época</a> na Netflix. Talvez já exista, aliás&#8230; vai saber&#8230;</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Meu filme favorito é provavelmente o<a href=\"https://en.wikipedia.org/wiki/The_Virgin_Suicides_(film)\"> &#8220;As Virgens Suicidas&#8221;</a>. Meu filme favorito do </span><a href=\"https://en.wikipedia.org/wiki/Hayao_Miyazaki\"><span style=\"font-weight:400;\">Hayao Miyazaki </span></a><span style=\"font-weight:400;\">é o </span><a href=\"https://en.wikipedia.org/wiki/Pom_Poko\"><span style=\"font-weight:400;\">&#8220;PomPoko – A Grande Batalha dos Guaxinins&#8221;</span></a><span style=\"font-weight:400;\">, gosto desse estilo meio </span><a href=\"https://en.wikipedia.org/wiki/Mockumentary\"><span style=\"font-weight:400;\">“mockumentary”</span></a><span style=\"font-weight:400;\"> que o filme tem.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Um casamento caindo aos pedaços em que os pais ficaram juntos pelos filhos até o fim pelos filhos. </span><span style=\"font-weight:400;\">“Mas seu pai e eu fomos amigos até o fim”</span><span style=\"font-weight:400;\">. – Mãe</span></em></p>\n<p><em><span style=\"font-weight:400;\">• “Did we stop to think about the sacrifices that people made for us?” – </span><a href=\"https://en.wikipedia.org/wiki/Paul_Greengrass\"><span style=\"font-weight:400;\">Paul Greengrass </span></a><span style=\"font-weight:400;\">– </span><a href=\"https://www.imdb.com/title/tt6587094/\"><span style=\"font-weight:400;\">&#8220;Five Came Back&#8221;</span></a><span style=\"font-weight:400;\"> (2017) – Episode 03</span></em></p>\n<p><em><span style=\"font-weight:400;\">• E por que todas aquelas milhões de pessoas mataram e morreram em todas aquelas incontáveis guerras mesmo?</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Às vezes você tá tão acostumado com um problema que você esquece que é um problema. E, sim, eu estou falando da morte. Eu sempre to falando do absurdo da morte.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Ela era a inocência de meia-calça branca.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• <a href=\"reader.html#2018-01-09-me-olhei.html\">Odeio ter pelos.</a></span></em></p>\n<p><em><span style=\"font-weight:400;\">• Me sinto tão culpado e eu tenho tanto medo de ter que ter que arranjar um emprego, não é medo do trabalho em si, mas sim de ter que interagir com pessoas, ter que falar com as pessoas e tudo mais. Eu odeio falar com pessoas. Eu tenho medo de pessoas.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Cê&#8230; cê vê esse pessoal com dinheiro e tal, esse pessoal com cartão de crédito internacional, esse pessoal que compra coisa na Amazon e os caralhos, e tu fica imaginando como deve ser&#8230; ser uma dessas pessoas. Como disse inúmeras vezes aqui, ser pobre é algo que marcou muito a vida. Seria legal ver algum computador maneiro na Amazon e simplesmente comprar ele.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Toda essa questão da navegação por gestos e aplicativos de teclado são basicamente uma forma de conseguir colocar uma alta complexidade de input num dispositivo pequeno. É a “<a href=\"https://en.wikipedia.org/wiki/Graphical_user_interface\">GUI</a> mobile”, </span><a href=\"reader.html#2017-01-02-interfaces-graficas-e-o-futuro-dos-celulares-e-notebooks.html\"><span style=\"font-weight:400;\">como disse certa vez</span></a><span style=\"font-weight:400;\">. E, aliás, só pra complementar, vemos o aprimoramento disso, principalmente, no desenvolvimento do </span><a href=\"https://en.wikipedia.org/wiki/Google_Fuchsia\"><span style=\"font-weight:400;\">Fushia OS </span></a><span style=\"font-weight:400;\">e um </span><a href=\"https://www.youtube.com/watch?v=7yiAqqy--wg\"><span style=\"font-weight:400;\">foco em cada vez mais produtividade</span></a><span style=\"font-weight:400;\">, em você conseguir fazer mais coisas numa tela pequena. Basicamente você concentrar complexidade através de coisas como a navegação por gestos, teclados preditivos, inteligência artificial e uma maior proatividade do aparelho, de modo geral.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• <a href=\"/wp-content/uploads/2018/11/w8ouveo.png\">A história acontece, primeiro como meme e depois como profecia</a>.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Um sentimentos de que existe toda uma cultura, e além disso: uma faceta da vida humana, que você não está explorando profundamente, tal como a “cultura digital influencer” ou a “cultura youtuberística”. Ao mesmo tempo&#8230; existem culturas e facetas da vida humana que você não interesse em conhecer, tipo, sei lá&#8230; pessoas que assistem novela&#8230;</span></em></p>\n<p><em><span style=\"font-weight:400;\">• </span><a href=\"https://web.archive.org/web/20181012000709/https://www.dailymail.co.uk/femail/article-4493362/Dressed-kill-never-set-look-sexy.html\"><span style=\"font-weight:400;\">Mulheres que não usam calças &lt;3 </span></a></em></p>\n<p><em><span style=\"font-weight:400;\">• Aparentemente todo mundo que discorda de imigração irrestrita é nazista e quer o extermínio dos imigrantes.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• A “Tirania da Biologia” eu acho esse termo tão fantástico pra descrever a prisão que é o corpo humano. Que, curiosamente, </span><a href=\"https://web.archive.org/web/20130603063130/http://deusex.wikia.com/wiki/The_Tyranny_of_Biology\"><span style=\"font-weight:400;\">essa exata expressão é citada</span></a> <span style=\"font-weight:400;\">no jogo </span><a href=\"https://en.wikipedia.org/wiki/Deus_Ex:_Human_Revolution\"><span style=\"font-weight:400;\">&#8220;Deus Ex: Human Revolution&#8221;</span></a><span style=\"font-weight:400;\">.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• É curioso quão horrível e a vida humana pode ser. Há pessoas que a vida machuca tanto e há aqueles que mal conhecem a dor, pessoas as quais a vida lhes mostra suas faces mais doces e gentis. Pessoas que conhecem a dor tão pouco. Que têm vidas tão felizes. Dum lado você tem pessoas ricas, saudáveis e felizes e do outro você tem o cara do documentário </span><a href=\"https://www.imdb.com/title/tt0466710/\"><span style=\"font-weight:400;\">&#8220;The Boy Whose Skin Fell Off&#8221;</span></a><span style=\"font-weight:400;\">.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• E todas aquelas lembranças de infância maravilhosamente fantásticas que possuímos, e que talvez nem tenham sido tão maravilhosamente fantásticas assim, mas essa é a forma como nos lembramos delas. Como momentos perfeitamente imaculados que sentimos saudade.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Não sei se é nostalgia, provavelmente sim, mas </span><a href=\"http://archive.today/2018.11.11-000210/https://www.quora.com/Do-you-prefer-80s-and-90s-anime-over-current-animation-Why-or-why-not\"><span style=\"font-weight:400;\">acho a animação dos animes dos anos 90 muito mais bonita do que hoje em dia</span></a><span style=\"font-weight:400;\">.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Toda a revolução digital, essa desmaterialização do conhecimento e da informação, e a certo modo das interações humanas – hoje você conversando com alguém no outro lado do mundo na velocidade da luz – toda a World Wide Web é no fundo um preâmbulo, um ensaio para algo maior, que é a própria desmaterialização e virtualização da realidade através da realidade virtual. Um mundo onde você coloca um capacete e você está em qualquer lugar, e você pode sentir o calor humano, e tocar, e é indistinguível.</span></em></p>\n<p><em><span style=\"font-weight:400;\">• Acho as roupas infantis japonesas feias, elas parecem muito excessivamente “girly”, <a href=\"http://archive.today/2018.04.11-234525/https://8ch.net/abdl/res/39828.html\">parecem uma espécie de caricatura</a>.</span></em></p>\n<p><em><span style=\"font-weight:400;\">•</span> <a href=\"https://web.archive.org/web/20181114221536/http://thechangingmirror.com/phpbb/viewtopic.php?f=11&amp;t=6080&amp;sid=8f89fe0a20af5de206c52c6f3e31ae9f&amp;start=20\"><span style=\"font-weight:400;\">In relation to the nude tights&#8230; to me they represent some sort of “classic adult femininity”, if I can put it this way. It&#8217;s like when I imagine the pinnacle of femininity I think of this: nude tights and petticoats </span><span style=\"font-weight:400;\">(probably some white gloves to go with it)</span><span style=\"font-weight:400;\"> &lt;3 Also, the idea of them “wrapping and enclosing” something that we can actually all see, like&#8230; you can see their legs pretty clear despite of the pantyhose. And probably the most exciting thing about pantyhose (and tights overall) is the fact that it was/it is something that many women find annoying to dress, like “oh, they are hot”, &#8220;they tear off a lot&#8221; and so on and so forth&#8230; The idea of women being “forced” to wear something uncomfortable that it was/is sort of “unnecessary” (since you still could see the women&#8217;s legs) it was always a instant-boner-factor to me. And the tights that usually were </span> “mandatory” back in the day, like in office jobs, such as secretary and yada yada was these nude tights XD And, as white tights goes, my obsession works in a similar manner: it&#8217;s the pinnacle of the &#8220;classic girlhood&#8221;: little girls complain about wearing them saying that they are uncomfortable, many times they were forced to wear them, not by their employers, but by their parents. And there&#8217;s also the additional fact of them sort of symbolizing the “purity” and child-like innocence<span style=\"font-weight:400;\">.</span></a></em></p>\n\n<p class=\"wp-block-paragraph\">&nbsp;</p>\n"
+        },
+        {
+            "id": 25238,
+            "title": "Os simples e extraordinários momentos de outrora",
+            "slug": "os-simples-e-extraordinarios-momentos-de-outrora",
+            "date": "2018-11-12T22:48:42-03:00",
+            "dateYmd": "2018-11-12",
+            "dateDisplay": "12/11/2018",
+            "url": "reader.html#2018-11-12-os-simples-e-extraordinarios-momentos-de-outrora.html",
+            "file": "2018-11-12-os-simples-e-extraordinarios-momentos-de-outrora.html",
+            "summary": "“Os simples e extraordinários momentos de outrora.” * Inspirado pelo vídeo \"Keta\" de \"The Dictionary of Obscure Sorrows\" * Música de \"Yoko Kanno\", \"The Man In The Desert\" * Filmagens de \"Clayton Emmer\" *…",
+            "html": "<article id=\"post-25238\" class=\"post-25238 post type-post status-publish format-video hentry post_format-post-format-video category-videos tag-familia tag-nostalgia tag-passado tag-tempo tag-the-dictionary-of-obscure-sorrows tag-vida\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#videos\" rel=\"category\">Vídeos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-12-os-simples-e-extraordinarios-momentos-de-outrora.html\" rel=\"bookmark\">Os simples e extraordinários momentos de outrora</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#video\">Vídeo</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-12-os-simples-e-extraordinarios-momentos-de-outrora.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-12T22:48:42-03:00\">12/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-12-os-simples-e-extraordinarios-momentos-de-outrora.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#familia\" rel=\"tag\">Família</a> <a href=\"tag.html#nostalgia\" rel=\"tag\">Nostalgia</a> <a href=\"tag.html#passado\" rel=\"tag\">Passado</a> <a href=\"tag.html#tempo\" rel=\"tag\">Tempo</a> <a href=\"tag.html#the-dictionary-of-obscure-sorrows\" rel=\"tag\">The Dictionary of Obscure Sorrows</a> <a href=\"tag.html#vida\" rel=\"tag\">Vida</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p></p><video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/TheSimplyAndExtraordinaryMomentsFromThePast/The%20Simply%20And%20Extraordinary%20Moments%20From%20The%20Past.mp4?_=4\"></video>\n<blockquote>\n<h4>“Os simples e extraordinários momentos de outrora.”</h4>\n</blockquote>\n<p><em>* Inspirado pelo vídeo <a href=\"https://vimeo.com/83258629\">“Keta”</a> de <a href=\"http://www.dictionaryofobscuresorrows.com/post/72002621783/keta-kay-tah-n-an-image-that-inexplicably-leaps\">“The Dictionary of Obscure Sorrows”</a></em><br>\n<em>* Música de <a href=\"https://en.wikipedia.org/wiki/Yoko_Kanno\">“Yoko Kanno”</a>, <a href=\"https://www.google.com.br/search?num=50&amp;ei=eg_qW6XdJcKVwgT8-IhY&amp;q=%22Yoko+Kanno+-+The+Man+in+The+Desert%22&amp;oq=%22Yoko+Kanno+-+The+Man+in+The+Desert%22&amp;gs_l=psy-ab.3..0i30k1.75292.79838.0.80167.6.6.0.0.0.0.428.1600.2-3j1j1.5.0....0...1c.1.64.psy-ab..1.5.1587...0i13i30k1.0.t-Vqxja-FIY\">“The Man In The Desert”</a></em><br>\n<em>* Filmagens de <a href=\"https://vimeo.com/cemmer\">“Clayton Emmer”</a></em><br>\n<em>* <a href=\"https://www.dailymotion.com/video/x6wu0nh\">Mirror 01</a>, <a href=\"https://drive.google.com/open?id=1i0wBIt4_omOgmCtgEW9PQxdFtk8GtF7Z\">Mirror 02</a> e <a href=\"https://web.archive.org/web/20181113023300/https://doc-0s-3c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/vquve4f0dldggp05rv0jf21cqk0fhae9/1542074400000/15793320420108742713/*/1i0wBIt4_omOgmCtgEW9PQxdFtk8GtF7Z?e=download\">Mirror 03</a></em></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Família",
+                    "slug": "familia"
+                },
+                {
+                    "name": "Nostalgia",
+                    "slug": "nostalgia"
+                },
+                {
+                    "name": "Passado",
+                    "slug": "passado"
+                },
+                {
+                    "name": "Tempo",
+                    "slug": "tempo"
+                },
+                {
+                    "name": "The Dictionary of Obscure Sorrows",
+                    "slug": "the-dictionary-of-obscure-sorrows"
+                },
+                {
+                    "name": "Vida",
+                    "slug": "vida"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Vídeos",
+                    "slug": "videos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "video",
+            "formatLabel": "Vídeo",
+            "full": "<p></p><video preload=\"metadata\" controls=\"\" src=\"https://archive.org/download/TheSimplyAndExtraordinaryMomentsFromThePast/The%20Simply%20And%20Extraordinary%20Moments%20From%20The%20Past.mp4?_=4\"></video>\n<blockquote>\n<h4>“Os simples e extraordinários momentos de outrora.”</h4>\n</blockquote>\n<p><em>* Inspirado pelo vídeo <a href=\"https://vimeo.com/83258629\">“Keta”</a> de <a href=\"http://www.dictionaryofobscuresorrows.com/post/72002621783/keta-kay-tah-n-an-image-that-inexplicably-leaps\">“The Dictionary of Obscure Sorrows”</a></em><br>\n<em>* Música de <a href=\"https://en.wikipedia.org/wiki/Yoko_Kanno\">“Yoko Kanno”</a>, <a href=\"https://www.google.com.br/search?num=50&amp;ei=eg_qW6XdJcKVwgT8-IhY&amp;q=%22Yoko+Kanno+-+The+Man+in+The+Desert%22&amp;oq=%22Yoko+Kanno+-+The+Man+in+The+Desert%22&amp;gs_l=psy-ab.3..0i30k1.75292.79838.0.80167.6.6.0.0.0.0.428.1600.2-3j1j1.5.0....0...1c.1.64.psy-ab..1.5.1587...0i13i30k1.0.t-Vqxja-FIY\">“The Man In The Desert”</a></em><br>\n<em>* Filmagens de <a href=\"https://vimeo.com/cemmer\">“Clayton Emmer”</a></em><br>\n<em>* <a href=\"https://www.dailymotion.com/video/x6wu0nh\">Mirror 01</a>, <a href=\"https://drive.google.com/open?id=1i0wBIt4_omOgmCtgEW9PQxdFtk8GtF7Z\">Mirror 02</a> e <a href=\"https://web.archive.org/web/20181113023300/https://doc-0s-3c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/vquve4f0dldggp05rv0jf21cqk0fhae9/1542074400000/15793320420108742713/*/1i0wBIt4_omOgmCtgEW9PQxdFtk8GtF7Z?e=download\">Mirror 03</a></em></p>\n"
+        },
+        {
+            "id": 25183,
+            "title": "As “Pessoalidades” dos Ditadores",
+            "slug": "as-pessoalidades-dos-ditadores",
+            "date": "2018-11-06T19:21:50-03:00",
+            "dateYmd": "2018-11-06",
+            "dateDisplay": "06/11/2018",
+            "url": "reader.html#2018-11-06-as-pessoalidades-dos-ditadores.html",
+            "file": "2018-11-06-as-pessoalidades-dos-ditadores.html",
+            "summary": "Penso muito sobre a vida dos homens de grande poder, mais especificamente dos ditadores – pois tais personagens quase sempre são retratados como essa figura unidimensional, quase que genérica, como “apenas” genocidas e torturadores.…",
+            "html": "<article id=\"post-25183\" class=\"post-25183 post type-post status-publish format-standard hentry category-filosofia category-textos tag-banalidade tag-ditadores tag-esquisitices tag-gaddafi tag-hitler tag-humanidade tag-pessoalidades tag-por-menores\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a>, <a href=\"cat.html#textos\" rel=\"category\">Textos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-06-as-pessoalidades-dos-ditadores.html\" rel=\"bookmark\">As “Pessoalidades” dos Ditadores</a></h1><div class=\"entry-meta\"><span class=\"entry-date\"><a href=\"reader.html#2018-11-06-as-pessoalidades-dos-ditadores.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-06T19:21:50-03:00\">06/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-06-as-pessoalidades-dos-ditadores.html#respond\">1 Comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#banalidade\" rel=\"tag\">Banalidade</a> <a href=\"tag.html#ditadores\" rel=\"tag\">Ditadores</a> <a href=\"tag.html#esquisitices\" rel=\"tag\">Esquisitices</a> <a href=\"tag.html#gaddafi\" rel=\"tag\">Gaddafi</a> <a href=\"tag.html#hitler\" rel=\"tag\">Hitler</a> <a href=\"tag.html#humanidade\" rel=\"tag\">Humanidade</a> <a href=\"tag.html#pessoalidades\" rel=\"tag\">Pessoalidades</a> <a href=\"tag.html#por-menores\" rel=\"tag\">Por Menores</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\">\n<figure class=\"wp-block-image\"><img decoding=\"async\" class=\"wp-image-25184\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/screen-shot-2017-08-29-at-3-12-47-pm.png\" alt=\"\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Penso muito sobre a vida dos homens de grande poder, mais especificamente dos ditadores – pois tais personagens quase sempre são retratados como essa figura unidimensional, quase que genérica, como “apenas” genocidas e torturadores.</p>\n\n\n\n<p class=\"wp-block-paragraph\">São homens aos quais o cargo se funde com o indivíduo que o ocupa, afinal <em>“um ditador faz o que ditadores fazem”</em>. Não falo aqui de toda a complexa dinâmica da geopolítica internacional, não falo da prisão e execução sumária de inimigos e dissidentes, ou sobre os gulags e ““campos de reeducação social”” – essas são as facetas de sempre. E são verdade, evidentemente.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mas aqui me refiro às trivialidades, às “banalidadezinhas” e “picuinhas humanas”. <a href=\"http://archive.today/2018.11.07-161326/https://estranhosidade.wordpress.com/2018/06/15/diario-15-06-2018/\">Nossas “pessoalidades”</a>. Será que Hitler achava engraçado piadas de pessoas com câncer? Será que o ditador da Coréia do Norte, Kim Jong-un, é ciumento? Será que ele acha ruim ver em sua esposa usando roupa curta? Será que Stalin contava o equivalente russo da “piada do pavê” no natal? E o Gaddafi, ele tinha algum fetiche sexual esquisito?</p>\n\n\n\n<p class=\"wp-block-paragraph\">Falo aqui, eu acho, sobre o <em>“tiozão do whatsapp”</em> que fala o que pensa e <em>“manda a real”</em> que existe em todos nós lá no fundo. Falo do “humano”&#8230; sobre quem é essa pessoa quando você coloca no plano de fundo toda a questão envolvendo <a href=\"https://en.wikipedia.org/wiki/Killing_of_Jamal_Khashoggi\">assassinatos internacionais e corpos desmembrados e dissolvidos em ácido</a> e afins&#8230;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sobre, se só sobrevivesse você e o ditador de algum país qualquer, e ambos porventura acabassem se cruzando nas ruínas da civilização humana, e uma conversa se desse início&#8230;</p>\n\n\n\n<blockquote class=\"wp-block-quote is-style-large is-layout-flow wp-block-quote-is-layout-flow\" style=\"text-align:center;\">\n<h2>Com que homem você estaria conversando?</h2>\n</blockquote>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Banalidade",
+                    "slug": "banalidade"
+                },
+                {
+                    "name": "Ditadores",
+                    "slug": "ditadores"
+                },
+                {
+                    "name": "Esquisitices",
+                    "slug": "esquisitices"
+                },
+                {
+                    "name": "Gaddafi",
+                    "slug": "gaddafi"
+                },
+                {
+                    "name": "Hitler",
+                    "slug": "hitler"
+                },
+                {
+                    "name": "Humanidade",
+                    "slug": "humanidade"
+                },
+                {
+                    "name": "Pessoalidades",
+                    "slug": "pessoalidades"
+                },
+                {
+                    "name": "Por Menores",
+                    "slug": "por-menores"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                },
+                {
+                    "name": "Textos",
+                    "slug": "textos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "standard",
+            "formatLabel": "",
+            "full": "\n<figure class=\"wp-block-image\"><img decoding=\"async\" class=\"wp-image-25184\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/screen-shot-2017-08-29-at-3-12-47-pm.png\" alt=\"\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Penso muito sobre a vida dos homens de grande poder, mais especificamente dos ditadores – pois tais personagens quase sempre são retratados como essa figura unidimensional, quase que genérica, como “apenas” genocidas e torturadores.</p>\n\n\n\n<p class=\"wp-block-paragraph\">São homens aos quais o cargo se funde com o indivíduo que o ocupa, afinal <em>“um ditador faz o que ditadores fazem”</em>. Não falo aqui de toda a complexa dinâmica da geopolítica internacional, não falo da prisão e execução sumária de inimigos e dissidentes, ou sobre os gulags e ““campos de reeducação social”” – essas são as facetas de sempre. E são verdade, evidentemente.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mas aqui me refiro às trivialidades, às “banalidadezinhas” e “picuinhas humanas”. <a href=\"http://archive.today/2018.11.07-161326/https://estranhosidade.wordpress.com/2018/06/15/diario-15-06-2018/\">Nossas “pessoalidades”</a>. Será que Hitler achava engraçado piadas de pessoas com câncer? Será que o ditador da Coréia do Norte, Kim Jong-un, é ciumento? Será que ele acha ruim ver em sua esposa usando roupa curta? Será que Stalin contava o equivalente russo da “piada do pavê” no natal? E o Gaddafi, ele tinha algum fetiche sexual esquisito?</p>\n\n\n\n<p class=\"wp-block-paragraph\">Falo aqui, eu acho, sobre o <em>“tiozão do whatsapp”</em> que fala o que pensa e <em>“manda a real”</em> que existe em todos nós lá no fundo. Falo do “humano”&#8230; sobre quem é essa pessoa quando você coloca no plano de fundo toda a questão envolvendo <a href=\"https://en.wikipedia.org/wiki/Killing_of_Jamal_Khashoggi\">assassinatos internacionais e corpos desmembrados e dissolvidos em ácido</a> e afins&#8230;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sobre, se só sobrevivesse você e o ditador de algum país qualquer, e ambos porventura acabassem se cruzando nas ruínas da civilização humana, e uma conversa se desse início&#8230;</p>\n\n\n\n<blockquote class=\"wp-block-quote is-style-large is-layout-flow wp-block-quote-is-layout-flow\" style=\"text-align:center;\">\n<h2>Com que homem você estaria conversando?</h2>\n</blockquote>\n"
+        },
+        {
+            "id": 25116,
+            "title": "A tragédia da morte é a tragédia do fim…",
+            "slug": "a-tragedia-da-morte-e-a-tragedia-do-fim",
+            "date": "2018-11-03T03:41:00-03:00",
+            "dateYmd": "2018-11-03",
+            "dateDisplay": "03/11/2018",
+            "url": "reader.html#2018-11-03-a-tragedia-da-morte-e-a-tragedia-do-fim.html",
+            "file": "2018-11-03-a-tragedia-da-morte-e-a-tragedia-do-fim.html",
+            "summary": "A tragédia da morte é a tragédia do fim. E, acima de tudo, do que lhe é roubado: tudo Eu",
+            "html": "<article id=\"post-25116\" class=\"post-25116 post type-post status-publish format-quote hentry post_format-post-format-quote category-citacoes category-filosofia tag-eternidade tag-fim tag-jason-silva tag-morte tag-tragedia\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#citacoes\" rel=\"category\">Citações</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-03-a-tragedia-da-morte-e-a-tragedia-do-fim.html\" rel=\"bookmark\">A tragédia da morte é a tragédia do fim…</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-03-a-tragedia-da-morte-e-a-tragedia-do-fim.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-03T03:41:00-03:00\">03/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-03-a-tragedia-da-morte-e-a-tragedia-do-fim.html#respond\">1 Comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#eternidade\" rel=\"tag\">Eternidade</a> <a href=\"tag.html#fim\" rel=\"tag\">Fim</a> <a href=\"tag.html#jason-silva\" rel=\"tag\">Jason Silva</a> <a href=\"tag.html#morte\" rel=\"tag\">Morte</a> <a href=\"tag.html#tragedia\" rel=\"tag\">Tragédia</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>\n<h1>A tragédia da morte é a tragédia do fim. E, acima de tudo, do que lhe é roubado: <a href=\"https://www.google.com.br/search?num=50&amp;ei=MkLdW573NIOLwgSA6LqgCg&amp;q=%22I+can%E2%80%99t+get+over+the+fact+that+one+day+all+of+this+is+going+to+die%22+-+Jason+Silva&amp;oq=%22I+can%E2%80%99t+get+over+the+fact+that+one+day+all+of+this+is+going+to+die%22+-+Jason+Silva&amp;gs_l=psy-ab.3...4305.4305.0.4502.1.1.0.0.0.0.155.155.0j1.1.0....0...1c.1.64.psy-ab..0.0.0....0.nWGtBZqGyTk\">tudo</a></h1>\n</blockquote>\n\n<p class=\"wp-block-paragraph\">Eu</p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "Eternidade",
+                    "slug": "eternidade"
+                },
+                {
+                    "name": "Fim",
+                    "slug": "fim"
+                },
+                {
+                    "name": "Jason Silva",
+                    "slug": "jason-silva"
+                },
+                {
+                    "name": "Morte",
+                    "slug": "morte"
+                },
+                {
+                    "name": "Tragédia",
+                    "slug": "tragedia"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>\n<h1>A tragédia da morte é a tragédia do fim. E, acima de tudo, do que lhe é roubado: <a href=\"https://www.google.com.br/search?num=50&amp;ei=MkLdW573NIOLwgSA6LqgCg&amp;q=%22I+can%E2%80%99t+get+over+the+fact+that+one+day+all+of+this+is+going+to+die%22+-+Jason+Silva&amp;oq=%22I+can%E2%80%99t+get+over+the+fact+that+one+day+all+of+this+is+going+to+die%22+-+Jason+Silva&amp;gs_l=psy-ab.3...4305.4305.0.4502.1.1.0.0.0.0.155.155.0j1.1.0....0...1c.1.64.psy-ab..0.0.0....0.nWGtBZqGyTk\">tudo</a></h1>\n</blockquote>\n\n<p class=\"wp-block-paragraph\">Eu</p>\n"
+        },
+        {
+            "id": 25126,
+            "title": "4 Vídeos e uma Infinidade de Fofura",
+            "slug": "4-videos-e-uma-infinidade-de-fofura",
+            "date": "2018-11-02T06:22:47-03:00",
+            "dateYmd": "2018-11-02",
+            "dateDisplay": "02/11/2018",
+            "url": "reader.html#2018-11-02-4-videos-e-uma-infinidade-de-fofura.html",
+            "file": "2018-11-02-4-videos-e-uma-infinidade-de-fofura.html",
+            "summary": "Faz algum tempo que não posto vídeos de conteúdo infantilista aqui no blog, para não perder o costume estou postando esses 4 vídeos fofinhos: O primeiro é o vídeo é o das duas garotinhas…",
+            "html": "<article id=\"post-25126\" class=\"post-25126 post type-post status-publish format-video hentry post_format-post-format-video category-videos tag-abdl tag-ageplay tag-cute tag-infantilismo tag-tights\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#videos\" rel=\"category\">Vídeos</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-02-4-videos-e-uma-infinidade-de-fofura.html\" rel=\"bookmark\">4 Vídeos e uma Infinidade de Fofura</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#video\">Vídeo</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-02-4-videos-e-uma-infinidade-de-fofura.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-02T06:22:47-03:00\">02/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-02-4-videos-e-uma-infinidade-de-fofura.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#abdl\" rel=\"tag\">ABDL</a> <a href=\"tag.html#ageplay\" rel=\"tag\">Ageplay</a> <a href=\"tag.html#cute\" rel=\"tag\">Cute</a> <a href=\"tag.html#infantilismo\" rel=\"tag\">Infantilismo</a> <a href=\"tag.html#tights\" rel=\"tag\">Tights</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><a href=\"https://web.archive.org/web/20181102063106im_/https://i.imgur.com/z12IHBe.mp4\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25129\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-6-ba7215d894f4.gif\" alt=\"\" width=\"474\" height=\"283\" /></a><br />\n<em>Faz algum tempo que não posto vídeos de conteúdo infantilista aqui no blog, para não perder o costume estou postando esses 4 vídeos fofinhos: O <strong><a href=\"https://drive.google.com/open?id=1XgVNlu0X9u-EFC6VGV6L6KJxEu5mhE5Y\">primeiro</a></strong> é o vídeo é o das duas garotinhas brincando na cama (adorei essa outfit de meia-calça branca e blusa da Hello Kitty dela), o <a href=\"https://drive.google.com/open?id=1RdoBfZHlLfIR3hvnTiNp-POSut_ReGpx\"><strong>segundo</strong></a> é da bebê sentada na cadeirinha, o <strong><a href=\"https://drive.google.com/open?id=10dMQq8E46t0iD4HzN2zF-Per0QoloSy7\">terceiro</a> </strong>é duma mocinha sendo vestida pela mamãe dela e o <strong><a href=\"https://drive.google.com/open?id=1NVuK-kQVVhdegJ16Vc119vl_tdbgKdnM\">quarto</a> </strong>de uma bebê lendo (fingindo na verdade, bebês não sabem ler </em>◕‿◕<em>) que está lendo um livro. Os arquivos estão zipados, a senha para descompactá-los é:<strong>estranhosidade</strong></em></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "ABDL",
+                    "slug": "abdl"
+                },
+                {
+                    "name": "Ageplay",
+                    "slug": "ageplay"
+                },
+                {
+                    "name": "Cute",
+                    "slug": "cute"
+                },
+                {
+                    "name": "Infantilismo",
+                    "slug": "infantilismo"
+                },
+                {
+                    "name": "Tights",
+                    "slug": "tights"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Vídeos",
+                    "slug": "videos"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "video",
+            "formatLabel": "Vídeo",
+            "full": "<p><a href=\"https://web.archive.org/web/20181102063106im_/https://i.imgur.com/z12IHBe.mp4\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-25129\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2018/11/ezgif-6-ba7215d894f4.gif\" alt=\"\" width=\"474\" height=\"283\" /></a><br />\n<em>Faz algum tempo que não posto vídeos de conteúdo infantilista aqui no blog, para não perder o costume estou postando esses 4 vídeos fofinhos: O <strong><a href=\"https://drive.google.com/open?id=1XgVNlu0X9u-EFC6VGV6L6KJxEu5mhE5Y\">primeiro</a></strong> é o vídeo é o das duas garotinhas brincando na cama (adorei essa outfit de meia-calça branca e blusa da Hello Kitty dela), o <a href=\"https://drive.google.com/open?id=1RdoBfZHlLfIR3hvnTiNp-POSut_ReGpx\"><strong>segundo</strong></a> é da bebê sentada na cadeirinha, o <strong><a href=\"https://drive.google.com/open?id=10dMQq8E46t0iD4HzN2zF-Per0QoloSy7\">terceiro</a> </strong>é duma mocinha sendo vestida pela mamãe dela e o <strong><a href=\"https://drive.google.com/open?id=1NVuK-kQVVhdegJ16Vc119vl_tdbgKdnM\">quarto</a> </strong>de uma bebê lendo (fingindo na verdade, bebês não sabem ler </em>◕‿◕<em>) que está lendo um livro. Os arquivos estão zipados, a senha para descompactá-los é:<strong>estranhosidade</strong></em></p>\n"
+        },
+        {
+            "id": 25035,
+            "title": "“curral ideológico”",
+            "slug": "curral-ideologico",
+            "date": "2018-11-01T17:50:12-03:00",
+            "dateYmd": "2018-11-01",
+            "dateDisplay": "01/11/2018",
+            "url": "reader.html#2018-11-01-curral-ideologico.html",
+            "file": "2018-11-01-curral-ideologico.html",
+            "summary": "O negro, a mulher, as pessoas trans, enfim... as ditas minorias, para a usar a terminológia de tais militantes, para a esquerda são apenas uma espécie de “curral ideológico”, é como ela os vêem.…",
+            "html": "<article id=\"post-25035\" class=\"post-25035 post type-post status-publish format-quote hentry post_format-post-format-quote category-ciencia category-filosofia tag-cotas tag-esquerda tag-hipocrisia tag-manipulacao tag-politica tag-sociedade\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#ciencia\" rel=\"category\">Ciência</a>, <a href=\"cat.html#filosofia\" rel=\"category\">Filosofia</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2018-11-01-curral-ideologico.html\" rel=\"bookmark\">“curral ideológico”</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#quote\">Citação</a></span> <span class=\"entry-date\"><a href=\"reader.html#2018-11-01-curral-ideologico.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2018-11-01T17:50:12-03:00\">01/11/2018</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2018-11-01-curral-ideologico.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#cotas\" rel=\"tag\">Cotas</a> <a href=\"tag.html#esquerda\" rel=\"tag\">Esquerda</a> <a href=\"tag.html#hipocrisia\" rel=\"tag\">Hipocrisia</a> <a href=\"tag.html#manipulacao\" rel=\"tag\">Manipulação</a> <a href=\"tag.html#politica\" rel=\"tag\">Política</a> <a href=\"tag.html#sociedade\" rel=\"tag\">Sociedade</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><blockquote>O negro, a mulher, as pessoas trans, enfim&#8230; as ditas minorias, para a usar a terminológia de tais militantes, para a esquerda são apenas uma espécie de “curral ideológico”, é como ela os vêem. O negro, por exemplo, só serve para a esquerda se for aquele negro estereotipado, que fala mal da polícia militar, que usa dreadlocks, membro de religiões africanas, fã de racionais e por aí vai. Se é algo que difere disso&#8230; é atacado, chamado de <a href=\"http://archive.today/2018.07.09-235934/https://www1.folha.uol.com.br/poder/2018/06/ciro-gomes-chama-vereador-fernando-holiday-de-capitaozinho-do-mato.shtml\">“capitãozinho do mato”</a>. Vê se a Carta-Capital ou o Buzzfeed abrem espaço para um negro contra cotas raciais ir lá se manifestar?</blockquote>\n\n\nEu\n\n</div></article>",
+            "tags": [
+                {
+                    "name": "Cotas",
+                    "slug": "cotas"
+                },
+                {
+                    "name": "Esquerda",
+                    "slug": "esquerda"
+                },
+                {
+                    "name": "Hipocrisia",
+                    "slug": "hipocrisia"
+                },
+                {
+                    "name": "Manipulação",
+                    "slug": "manipulacao"
+                },
+                {
+                    "name": "Política",
+                    "slug": "politica"
+                },
+                {
+                    "name": "Sociedade",
+                    "slug": "sociedade"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Ciência",
+                    "slug": "ciencia"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "quote",
+            "formatLabel": "Citação",
+            "full": "<blockquote>O negro, a mulher, as pessoas trans, enfim&#8230; as ditas minorias, para a usar a terminológia de tais militantes, para a esquerda são apenas uma espécie de “curral ideológico”, é como ela os vêem. O negro, por exemplo, só serve para a esquerda se for aquele negro estereotipado, que fala mal da polícia militar, que usa dreadlocks, membro de religiões africanas, fã de racionais e por aí vai. Se é algo que difere disso&#8230; é atacado, chamado de <a href=\"http://archive.today/2018.07.09-235934/https://www1.folha.uol.com.br/poder/2018/06/ciro-gomes-chama-vereador-fernando-holiday-de-capitaozinho-do-mato.shtml\">“capitãozinho do mato”</a>. Vê se a Carta-Capital ou o Buzzfeed abrem espaço para um negro contra cotas raciais ir lá se manifestar?</blockquote>\n\n\nEu\n\n"
+        }
+    ]
+}
