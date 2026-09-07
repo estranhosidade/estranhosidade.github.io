@@ -1,0 +1,267 @@
+<!DOCTYPE html><html lang="pt_BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How to enable sequential download by default on qBittorrent – Estranhosidade</title><link rel="alternate" type="application/rss+xml" title="Estranhosidade RSS" href="rss.xml"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="stylesheet" href="style.css"><style>#comment-respond{display:none!important;}</style></head><body class="wp-embed-responsive wp-theme-estranhosidade-theme masthead-fixed singular single single-post postid-37183"><div id="page" class="hfeed site"><header id="masthead" class="site-header"><div class="header-main"><h1 class="site-title"><a href="/" rel="home">Estranhosidade</a></h1></div><!-- .header-main --></header><!-- #masthead --><div id="main" class="site-main"><div id="primary" class="content-area"><div id="content" class="site-content" role="main"><article id="post-37183" class="post-37183 post type-post status-publish format-standard hentry category-english category-textos tag-download tag-open-source tag-pirataria tag-tecnologia tag-torrent"><header class="entry-header"><div class="entry-meta"><span class="cat-links"><a href="cat.html#english" rel="category">English</a>, <a href="cat.html#textos" rel="category">Textos</a></span></div><h1 class="entry-title">How to enable sequential download by default on qBittorrent</h1><div class="entry-meta"><span class="entry-date"><a href="2025-09-04-how-to-enable-sequential-download-by-default-on-qbittorrent.html" rel="bookmark"><time class="entry-date" datetime="2025-09-04T20:59:03-03:00">04/09/2025</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="/" rel="author">estranhosidade</a></span></span> <span class="comments-link"><a href="2025-09-04-how-to-enable-sequential-download-by-default-on-qbittorrent.html#respond">Deixe um comentário</a></span></div></header><!-- .entry-header --><div class="entry-content"><p><a href="https://archive.org/download/blogfilesx/IMG-03-09-2025=1756887168.png"><img loading="lazy" decoding="async" class="alignnone" src="https://archive.org/download/blogfilesx/IMG-03-09-2025=1756887168-thumbview.png" alt="" width="500" height="500"></a></p>
+<blockquote>
+<h1>“I really don’t like when someone tries to tell me how I should use a piece of software.”</h1>
+</blockquote>
+<p>If you don’t have the patience for my rambling and just want to learn how it’s done, skip to the word “<strong>TUTORIAL</strong>”.</p>
+<p>There are some projects where the developer suffers from a kind of “small power syndrome” and refuses to implement features the community desperately wants. One example that comes to mind is <a href="https://web.archive.org/web/20210119062252/https://newpipe.net/blog/pinned/newpipe-and-online-advertising/">NewPipe refusing to add SponsorBlock support on their third-party YouTube player</a>, which led to the creation of New NewPipe, and a fallout over project guidelines.</p>
+<p>Another example is the qBittorrent developer refusing – for up to 10+ years – to add the option allowing users to set sequential download to be default <a href="https://github.com/qbittorrent/qBittorrent/issues/164">[¹]</a> <a href="https://github.com/qbittorrent/qBittorrent/discussions/20280">[²]</a> <a href="https://github.com/qbittorrent/qBittorrent/issues/6998">[³]</a> <a href="https://github.com/qbittorrent/qBittorrent/issues/8588">[</a><a href="https://github.com/qbittorrent/qBittorrent/issues/8588">⁴</a><a href="https://github.com/qbittorrent/qBittorrent/issues/8588">]</a> <a href="https://github.com/qbittorrent/qBittorrent/issues/9046">[⁵]</a>. The option exists, but it requires the user to manually enable it for each download. He has his reasons and the usual sermon of <em>“Oh, it would be harmful if this was extensively used…”</em> — honestly, you’re pirating movies, man. Cut the BS virtue signaling, you are a pirate, not Martin Luther King or something.</p>
+<blockquote>
+<h3><a href="https://github.com/qbittorrent/qBittorrent/issues/164#:~:text=There%20is%20a%20strong%20and%20growing%20power%20trip%20mentality">“There is a strong and growing power trip mentality (in the open source community)”</a></h3>
+</blockquote>
+<p>Anyway, it’s pretty annoying, because you usually end up facing the following scenario: you want to watch a movie, you click to download torrent, it goes to qBittorrent, but forget to tick that option. You wait five minutes, go to hit play, and only then remember you forgot to enable it! Then you have to wait another 3 or 4 minutes to download the beginning, and only then are you able to watch your movie or TV show.</p>
+<p>At first, I tried <a href="https://github.com/qbittorrent/qBittorrent/wiki/Compiling-with-MSVC-2019-(static-linkage)">recompiling qBittorrent from source code</a> until I realized I wasn’t smart enough to figure that out and we’re still at least 6 or 7 ChatGPTs away from being able to just sa<em>y, “Hey, ChatGPT, modify this code and compile it,”</em> and get a neat little .exe. But then I remembered that qBittorrent has <strong>a web interface</strong> — since many people use <a href="https://en.wikipedia.org/wiki/Seedbox">seedboxes</a> — and you can access program data in your browser, both inside and outside your local network. And that made me think: <em>“Well, if there’s a web interface, maybe there’s also an API I can use to talk to qBittorrent installed on my computer”</em>, <a href="https://web.archive.org/web/20250826071656/https://github.com/qbittorrent/qBittorrent/wiki/WebUI-API-(qBittorrent-4.1)#:~:text=sequentialDownload">and indeed, there is!</a> From there, the process becomes much simpler — so simple that even an idiot like me could do it. I have been trying to find a solution to this issue for years and years. I finally found one.</p>
+<p><strong>TUTORIAL:</strong></p>
+<p><strong>What programs will we need?</strong><br>
+Besides qBittorrent itself, we’ll need:</p>
+<p>• <strong>Python</strong>, which will be required to run our Python script:<br>
+<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+<p>• <strong>AutoHotkey</strong>, simply to hide the Python window our script will create. Technically this step is optional, but I’d recommend doing it, because otherwise you might accidentally close the window:<br>
+<a href="https://www.autohotkey.com/download/">https://www.autohotkey.com/download/</a></p>
+<p>• This <strong>Python</strong> script I̶ ̶w̶r̶o̶t̶e̶ ChatGPT made it for me. The code will constantly — every 10 seconds — send requests essentially saying: <em><strong>“Check all existing torrents, enable ‘Download in sequential order’</strong></em> (toggleSequentialDownload) and <em><strong>‘Download first and last pieces first’</strong></em> (toggleFirstLastPiecePrio) for all of them.” The script will run in a loop that keeps sending this request:<br>
+<a href="https://archive.org/download/blogfilesx/qBittorrentsequentialbydefault.py">https://archive.org/download/blogfilesx/qBittorrentsequentialbydefault.py</a></p>
+<p><strong>What to do?<br>
+</strong><br>
+<a href="https://archive.org/download/blogfilesx/IMG-03-09-2025=1756884307.png"><img loading="lazy" decoding="async" class="alignnone" style="margin-bottom: 10px" src="https://archive.org/download/blogfilesx/IMG-03-09-2025=1756884307-thumbview.png" alt="" width="500" height="294"></a>1) Open qBittorrent, go to the Web UI option, and configure it as shown in the image below <em>(be sure all checkboxes are identical)</em>, then click OK. After that, download our Python script and run it. Assuming both the IP and port are the same, it should work. Both the Python script and our new qBittorrent setting will point to the same local IP/port, <strong>127.0.0.1:8085</strong>. This will allow our code to control the torrent client. <strong>If the qBittorrent asks for a password</strong>, just set it as 123456 – don’t worry, this won’t be a problem because we are using a localhost IP, so it is not accessible outside your local network<em>.</em></p>
+<p>2) Download our Python script and choose a folder to put it in. Let’s suppose:<br>
+<strong>“C:\Code\qBittorrentsequentialbydefault.py”</strong></p>
+<p>3) Make an AutoHotkey script that will run this Python script with Windows hidden <em>(because Microsoft is stupid and never implemented an easy option to initiate folders without a GUI on Windows).</em> You can simply create a text file and put the single following line there:<br>
+<strong>Run, “C:\Code\qBittorrentsequentialbydefault.py”,, Hide<br>
+</strong><br>
+Then change its extension from .txt to .ahk, so AutoHotkey runs it. To keep consistency let’s name our file <strong>“qBittorrentsequentialbydefault.ahk”</strong>.</p>
+<p>4) Almost there. Now we already have:</p>
+<ul>
+<li>The qBittorrent settings configured correctly</li>
+<li>The Python script that will constantly tell qBittorrent to enable sequential mode for all downloads</li>
+<li>The AutoHotkey script that executes the Python script communicating with qBittorrent and hides its window.</li>
+</ul>
+<p>5) The only thing left is to adjust so that our AutoHotkey code starts alongside Windows. For that it’s quite simple. Type <strong>shell:startup</strong> in Windows Explorer or using the Windows+R command. This will take us to the Windows startup folder; any shortcut or <span style="text-decoration: underline">file</span> placed there will automatically start up alongside Windows. Then paste our qBittorrentsequentialbydefault.ahk file <em>(don’t create a shortcut; put the .ahk file there directly, to make it simpler)</em>.</p>
+<p>6) And that’s it. Now every time you run Windows, the code will start automatically. The script is pretty lightweight, so it won’t be a problem to keep in the background since it just sends a few requests on the local network. To finish it off, since the code is still not running <em>(because we didn’t restart Windows yet)</em>, just click on the AutoHotkey code we just created and it will run our script in the background. Now, every time you add a torrent, it will automatically be set to sequential mode, as well as prioritizing the first and last pieces of a file first.</p>
+<hr>
+<p><a href="https://archive.org/download/blogfilesx/IMG-04-09-2025=1757031305.png"><img decoding="async" src="https://archive.org/download/blogfilesx/IMG-04-09-2025=1757031305-thumbview.png"></a></p>
+<p>Here is an example of our code working <em>(if you click the python script directly to see the window)</em>: at first, the code gives us an error, because it couldn’t find qBittorrent, since the software wasn’t open. When we run qBittorrent it shows us a series of message <em><strong>“All torrents already configured.”</strong>, signaling </em><em>it is looping</em>. When we add a new torrent, it automatically sets sequential download to default “<strong>Updated 1 torrent: sequential + first/last piece enabled.”</strong></p>
+<p>The tutorial assumes you are using Windows, but if you are on Linux or any other OS, the process is usually the same on the Python side — the only difference is that you will have to use another tool if you want to hide that python window.</p>
+<p>I didn’t pay any attention to code itself, just asked the computer to create it, feel free to improve it</p>
+</div><footer class="entry-meta post-tags-bottom"><span class="tag-links"><a href="tag.html#download" rel="tag">Download</a> <a href="tag.html#open-source" rel="tag">Open-Source</a> <a href="tag.html#pirataria" rel="tag">Pirataria</a> <a href="tag.html#tecnologia" rel="tag">Tecnologia</a> <a href="tag.html#torrent" rel="tag">Torrent</a> </span></footer></article></div><!-- #content --></div><!-- #primary --><div id="secondary"><div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary"><aside id="text-6" class="widget widget_text"><h1 class="widget-title">Título</h1>			<div class="textwidget"><h1><a href="index.html">Estranhosidade</a></h1>
+</div>
+		</aside><aside id="text-3" class="widget widget_text"><h1 class="widget-title">Informações</h1>			<div class="textwidget"><p>Um blog sobre transhumanismos, filosofia, fetiches… e niilismos ocasionais</p>
+</div>
+		</aside><aside id="text-4" class="widget widget_text"><h1 class="widget-title">Links Úteis do Blog</h1>			<div class="textwidget"><p><a href="/wp-admin/edit.php">Administração</a><br>
+<a href="https://archive.org/details/@estranhosidade">Arquivos</a><br>
+<a href="/rss.xml">RSS</a><br>
+<a href="search.html">Deep Search</a><br>
+<a href="https://vimeo.com/user73174960">Vídeo Project</a></p>
+</div>
+		</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="search.html">
+				<label>
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="search-field" placeholder="Pesquisar …" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Pesquisar">
+			</form></aside><aside id="text-2" class="widget widget_text"><h1 class="widget-title">Contato</h1>			<div class="textwidget"><p>estranhosidade@gmail.com</p>
+</div>
+		</aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Categorias</h1><nav aria-label="Categorias">
+			<ul>
+					<li class="cat-item cat-item-20556"><a href="cat.html#about-sex">About Sex</a>
+</li>
+	<li class="cat-item cat-item-20557"><a href="cat.html#ai-music">AI Music</a>
+</li>
+	<li class="cat-item cat-item-20558"><a href="cat.html#art-work">Art Work</a>
+</li>
+	<li class="cat-item cat-item-20559"><a href="cat.html#autoria-de-outros">Autoria de Outros</a>
+</li>
+	<li class="cat-item cat-item-20560"><a href="cat.html#beautiful-outfits">Beautiful Outfits</a>
+</li>
+	<li class="cat-item cat-item-20561"><a href="cat.html#ciencia">Ciência</a>
+</li>
+	<li class="cat-item cat-item-20562"><a href="cat.html#citacoes">Citações</a>
+</li>
+	<li class="cat-item cat-item-20563"><a href="cat.html#diario">Diário</a>
+</li>
+	<li class="cat-item cat-item-20564"><a href="cat.html#dicionario-das-tristezas-obscuras-inspirado">Dicionário das Tristezas Obscuras (Inspirado)</a>
+</li>
+	<li class="cat-item cat-item-20565"><a href="cat.html#direcao-de-arte-ia">Direção de Arte/IA</a>
+</li>
+	<li class="cat-item cat-item-20566"><a href="cat.html#documentarios-filmes-series">Documentários &amp; Filmes &amp; Series</a>
+</li>
+	<li class="cat-item cat-item-20567"><a href="cat.html#em-desenvolvimento">Em Desenvolvimento</a>
+</li>
+	<li class="cat-item cat-item-20568"><a href="cat.html#english">English</a>
+</li>
+	<li class="cat-item cat-item-20569"><a href="cat.html#filosofia">Filosofia</a>
+</li>
+	<li class="cat-item cat-item-20570"><a href="cat.html#historia">História</a>
+</li>
+	<li class="cat-item cat-item-20571"><a href="cat.html#imagens">Imagens</a>
+</li>
+	<li class="cat-item cat-item-20572"><a href="cat.html#links">Links</a>
+</li>
+	<li class="cat-item cat-item-20573"><a href="cat.html#musica">Música</a>
+</li>
+	<li class="cat-item cat-item-20574"><a href="cat.html#shitposting">Shitposting</a>
+</li>
+	<li class="cat-item cat-item-20575"><a href="cat.html#society-reset">Society-Reset</a>
+</li>
+	<li class="cat-item cat-item-20576"><a href="cat.html#textos">Textos</a>
+</li>
+	<li class="cat-item cat-item-20577"><a href="cat.html#videos">Vídeos</a>
+</li>
+			</ul>
+
+			</nav></aside><aside id="archives-3" class="widget widget_archive"><h1 class="widget-title">Arquivos</h1><nav aria-label="Arquivos">
+			<ul>
+					<li><a href="month.html#2026-09">setembro 2026</a> (7)</li>
+	<li><a href="month.html#2026-08">agosto 2026</a> (38)</li>
+	<li><a href="month.html#2026-07">julho 2026</a> (28)</li>
+	<li><a href="month.html#2026-06">junho 2026</a> (21)</li>
+	<li><a href="month.html#2026-05">maio 2026</a> (15)</li>
+	<li><a href="month.html#2026-04">abril 2026</a> (23)</li>
+	<li><a href="month.html#2026-03">março 2026</a> (9)</li>
+	<li><a href="month.html#2026-02">fevereiro 2026</a> (17)</li>
+	<li><a href="month.html#2026-01">janeiro 2026</a> (14)</li>
+	<li><a href="month.html#2025-12">dezembro 2025</a> (6)</li>
+	<li><a href="month.html#2025-11">novembro 2025</a> (6)</li>
+	<li><a href="month.html#2025-10">outubro 2025</a> (16)</li>
+	<li><a href="month.html#2025-09">setembro 2025</a> (20)</li>
+	<li><a href="month.html#2025-08">agosto 2025</a> (15)</li>
+	<li><a href="month.html#2025-07">julho 2025</a> (22)</li>
+	<li><a href="month.html#2025-06">junho 2025</a> (23)</li>
+	<li><a href="month.html#2025-05">maio 2025</a> (11)</li>
+	<li><a href="month.html#2025-04">abril 2025</a> (6)</li>
+	<li><a href="month.html#2025-03">março 2025</a> (7)</li>
+	<li><a href="month.html#2025-02">fevereiro 2025</a> (5)</li>
+	<li><a href="month.html#2025-01">janeiro 2025</a> (12)</li>
+	<li><a href="month.html#2024-12">dezembro 2024</a> (16)</li>
+	<li><a href="month.html#2024-11">novembro 2024</a> (21)</li>
+	<li><a href="month.html#2024-10">outubro 2024</a> (17)</li>
+	<li><a href="month.html#2024-09">setembro 2024</a> (27)</li>
+	<li><a href="month.html#2024-08">agosto 2024</a> (15)</li>
+	<li><a href="month.html#2024-07">julho 2024</a> (25)</li>
+	<li><a href="month.html#2024-06">junho 2024</a> (21)</li>
+	<li><a href="month.html#2024-05">maio 2024</a> (19)</li>
+	<li><a href="month.html#2024-04">abril 2024</a> (10)</li>
+	<li><a href="month.html#2024-03">março 2024</a> (9)</li>
+	<li><a href="month.html#2024-02">fevereiro 2024</a> (13)</li>
+	<li><a href="month.html#2024-01">janeiro 2024</a> (10)</li>
+	<li><a href="month.html#2023-12">dezembro 2023</a> (5)</li>
+	<li><a href="month.html#2023-11">novembro 2023</a> (10)</li>
+	<li><a href="month.html#2023-10">outubro 2023</a> (9)</li>
+	<li><a href="month.html#2023-09">setembro 2023</a> (24)</li>
+	<li><a href="month.html#2023-08">agosto 2023</a> (18)</li>
+	<li><a href="month.html#2023-07">julho 2023</a> (20)</li>
+	<li><a href="month.html#2023-06">junho 2023</a> (5)</li>
+	<li><a href="month.html#2023-05">maio 2023</a> (9)</li>
+	<li><a href="month.html#2023-04">abril 2023</a> (7)</li>
+	<li><a href="month.html#2023-03">março 2023</a> (9)</li>
+	<li><a href="month.html#2023-02">fevereiro 2023</a> (1)</li>
+	<li><a href="month.html#2023-01">janeiro 2023</a> (3)</li>
+	<li><a href="month.html#2022-12">dezembro 2022</a> (2)</li>
+	<li><a href="month.html#2022-11">novembro 2022</a> (2)</li>
+	<li><a href="month.html#2022-10">outubro 2022</a> (5)</li>
+	<li><a href="month.html#2022-09">setembro 2022</a> (4)</li>
+	<li><a href="month.html#2022-08">agosto 2022</a> (6)</li>
+	<li><a href="month.html#2022-07">julho 2022</a> (2)</li>
+	<li><a href="month.html#2022-06">junho 2022</a> (6)</li>
+	<li><a href="month.html#2022-05">maio 2022</a> (5)</li>
+	<li><a href="month.html#2022-04">abril 2022</a> (3)</li>
+	<li><a href="month.html#2022-03">março 2022</a> (4)</li>
+	<li><a href="month.html#2022-02">fevereiro 2022</a> (3)</li>
+	<li><a href="month.html#2022-01">janeiro 2022</a> (4)</li>
+	<li><a href="month.html#2021-10">outubro 2021</a> (1)</li>
+	<li><a href="month.html#2021-09">setembro 2021</a> (2)</li>
+	<li><a href="month.html#2021-06">junho 2021</a> (2)</li>
+	<li><a href="month.html#2021-04">abril 2021</a> (1)</li>
+	<li><a href="month.html#2021-02">fevereiro 2021</a> (1)</li>
+	<li><a href="month.html#2021-01">janeiro 2021</a> (8)</li>
+	<li><a href="month.html#2020-12">dezembro 2020</a> (1)</li>
+	<li><a href="month.html#2020-11">novembro 2020</a> (4)</li>
+	<li><a href="month.html#2020-10">outubro 2020</a> (6)</li>
+	<li><a href="month.html#2020-09">setembro 2020</a> (9)</li>
+	<li><a href="month.html#2020-08">agosto 2020</a> (6)</li>
+	<li><a href="month.html#2020-07">julho 2020</a> (5)</li>
+	<li><a href="month.html#2020-06">junho 2020</a> (8)</li>
+	<li><a href="month.html#2020-05">maio 2020</a> (2)</li>
+	<li><a href="month.html#2020-04">abril 2020</a> (2)</li>
+	<li><a href="month.html#2020-03">março 2020</a> (11)</li>
+	<li><a href="month.html#2020-02">fevereiro 2020</a> (3)</li>
+	<li><a href="month.html#2020-01">janeiro 2020</a> (1)</li>
+	<li><a href="month.html#2019-12">dezembro 2019</a> (3)</li>
+	<li><a href="month.html#2019-11">novembro 2019</a> (8)</li>
+	<li><a href="month.html#2019-10">outubro 2019</a> (14)</li>
+	<li><a href="month.html#2019-09">setembro 2019</a> (8)</li>
+	<li><a href="month.html#2019-08">agosto 2019</a> (6)</li>
+	<li><a href="month.html#2019-07">julho 2019</a> (6)</li>
+	<li><a href="month.html#2019-06">junho 2019</a> (21)</li>
+	<li><a href="month.html#2019-05">maio 2019</a> (11)</li>
+	<li><a href="month.html#2019-04">abril 2019</a> (12)</li>
+	<li><a href="month.html#2019-03">março 2019</a> (16)</li>
+	<li><a href="month.html#2019-02">fevereiro 2019</a> (5)</li>
+	<li><a href="month.html#2019-01">janeiro 2019</a> (10)</li>
+	<li><a href="month.html#2018-12">dezembro 2018</a> (7)</li>
+	<li><a href="month.html#2018-11">novembro 2018</a> (14)</li>
+	<li><a href="month.html#2018-10">outubro 2018</a> (19)</li>
+	<li><a href="month.html#2018-09">setembro 2018</a> (25)</li>
+	<li><a href="month.html#2018-08">agosto 2018</a> (13)</li>
+	<li><a href="month.html#2018-07">julho 2018</a> (16)</li>
+	<li><a href="month.html#2018-06">junho 2018</a> (21)</li>
+	<li><a href="month.html#2018-05">maio 2018</a> (25)</li>
+	<li><a href="month.html#2018-04">abril 2018</a> (30)</li>
+	<li><a href="month.html#2018-03">março 2018</a> (17)</li>
+	<li><a href="month.html#2018-02">fevereiro 2018</a> (17)</li>
+	<li><a href="month.html#2018-01">janeiro 2018</a> (19)</li>
+	<li><a href="month.html#2017-12">dezembro 2017</a> (19)</li>
+	<li><a href="month.html#2017-11">novembro 2017</a> (13)</li>
+	<li><a href="month.html#2017-10">outubro 2017</a> (21)</li>
+	<li><a href="month.html#2017-09">setembro 2017</a> (21)</li>
+	<li><a href="month.html#2017-08">agosto 2017</a> (11)</li>
+	<li><a href="month.html#2017-07">julho 2017</a> (11)</li>
+	<li><a href="month.html#2017-06">junho 2017</a> (10)</li>
+	<li><a href="month.html#2017-05">maio 2017</a> (18)</li>
+	<li><a href="month.html#2017-04">abril 2017</a> (22)</li>
+	<li><a href="month.html#2017-03">março 2017</a> (16)</li>
+	<li><a href="month.html#2017-02">fevereiro 2017</a> (17)</li>
+	<li><a href="month.html#2017-01">janeiro 2017</a> (23)</li>
+	<li><a href="month.html#2016-12">dezembro 2016</a> (15)</li>
+	<li><a href="month.html#2016-11">novembro 2016</a> (14)</li>
+	<li><a href="month.html#2016-10">outubro 2016</a> (13)</li>
+	<li><a href="month.html#2016-09">setembro 2016</a> (18)</li>
+	<li><a href="month.html#2016-08">agosto 2016</a> (21)</li>
+	<li><a href="month.html#2016-07">julho 2016</a> (21)</li>
+	<li><a href="month.html#2016-06">junho 2016</a> (15)</li>
+	<li><a href="month.html#2016-05">maio 2016</a> (15)</li>
+	<li><a href="month.html#2016-04">abril 2016</a> (16)</li>
+	<li><a href="month.html#2016-03">março 2016</a> (10)</li>
+	<li><a href="month.html#2016-02">fevereiro 2016</a> (11)</li>
+	<li><a href="month.html#2016-01">janeiro 2016</a> (14)</li>
+	<li><a href="month.html#2015-12">dezembro 2015</a> (21)</li>
+	<li><a href="month.html#2015-11">novembro 2015</a> (19)</li>
+	<li><a href="month.html#2015-10">outubro 2015</a> (23)</li>
+	<li><a href="month.html#2015-09">setembro 2015</a> (24)</li>
+	<li><a href="month.html#2015-08">agosto 2015</a> (22)</li>
+	<li><a href="month.html#2015-07">julho 2015</a> (16)</li>
+	<li><a href="month.html#2015-06">junho 2015</a> (24)</li>
+	<li><a href="month.html#2015-05">maio 2015</a> (36)</li>
+	<li><a href="month.html#2015-04">abril 2015</a> (40)</li>
+	<li><a href="month.html#2015-03">março 2015</a> (50)</li>
+	<li><a href="month.html#2015-02">fevereiro 2015</a> (36)</li>
+	<li><a href="month.html#2015-01">janeiro 2015</a> (52)</li>
+	<li><a href="month.html#2014-12">dezembro 2014</a> (35)</li>
+	<li><a href="month.html#2014-11">novembro 2014</a> (51)</li>
+	<li><a href="month.html#2014-10">outubro 2014</a> (44)</li>
+	<li><a href="month.html#2014-09">setembro 2014</a> (20)</li>
+	<li><a href="month.html#2014-08">agosto 2014</a> (42)</li>
+	<li><a href="month.html#2014-07">julho 2014</a> (55)</li>
+	<li><a href="month.html#2014-06">junho 2014</a> (45)</li>
+	<li><a href="month.html#2014-05">maio 2014</a> (33)</li>
+	<li><a href="month.html#2014-04">abril 2014</a> (54)</li>
+	<li><a href="month.html#2014-03">março 2014</a> (38)</li>
+	<li><a href="month.html#2014-02">fevereiro 2014</a> (11)</li>
+	<li><a href="month.html#2014-01">janeiro 2014</a> (32)</li>
+	<li><a href="month.html#2013-12">dezembro 2013</a> (48)</li>
+	<li><a href="month.html#2013-11">novembro 2013</a> (19)</li>
+	<li><a href="month.html#2013-10">outubro 2013</a> (34)</li>
+	<li><a href="month.html#2013-09">setembro 2013</a> (19)</li>
+	<li><a href="month.html#2013-08">agosto 2013</a> (25)</li>
+	<li><a href="month.html#2013-07">julho 2013</a> (144)</li>
+			</ul>
+
+			</nav></aside></div><!-- #primary-sidebar --></div><!-- #secondary --></div><!-- #main --><footer id="colophon" class="site-footer"><div class="site-info">© Estranhosidade</div></footer><!-- #colophon --></div><!-- #page --></body></html>
