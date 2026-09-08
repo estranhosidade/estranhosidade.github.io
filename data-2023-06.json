@@ -1,6 +1,6 @@
 {
     "chunk": 40,
-    "totalChunks": 154,
+    "totalChunks": 40,
     "month": "2023-06",
     "label": "junho 2023",
     "posts": [
@@ -199,61 +199,6 @@
             "author": "estranhosidade",
             "format": "standard",
             "formatLabel": ""
-        },
-        {
-            "id": 28820,
-            "title": "Diário: 05/06/2023 – 1900",
-            "slug": "diario-05-06-2023",
-            "date": "2023-06-05T11:26:38-03:00",
-            "dateYmd": "2023-06-05",
-            "dateDisplay": "05/06/2023",
-            "url": "2023-06-05-diario-05-06-2023.html",
-            "file": "2023-06-05-diario-05-06-2023.html",
-            "summary": "Ele claramente tinha TOC ou transtorno de pânico devido às circunstâncias em que foi criado. De muitas maneiras, esse filme me lembra de obras como \"As Virgens Suicidas\" (por que elas não fugiram?), ou…",
-            "html": "<article id=\"post-28820\" class=\"post-28820 post type-post status-publish format-aside hentry post_format-post-format-aside category-diario category-documentarios-filmes-series tag-a-lenda-de-1900 tag-familia tag-medo tag-pais tag-the-legend-of-1900 tag-toc tag-vida\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"cat.html#diario\" rel=\"category\">Diário</a>, <a href=\"cat.html#documentarios-filmes-series\" rel=\"category\">Documentários &amp; Filmes &amp; Series</a></span></div><h1 class=\"entry-title\"><a href=\"2023-06-05-diario-05-06-2023.html\" rel=\"bookmark\">Diário: 05/06/2023 – 1900</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"2023-06-05-diario-05-06-2023.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2023-06-05T11:26:38-03:00\">05/06/2023</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"2023-06-05-diario-05-06-2023.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#a-lenda-de-1900\" rel=\"tag\">A Lenda de 1900</a> <a href=\"tag.html#familia\" rel=\"tag\">Família</a> <a href=\"tag.html#medo\" rel=\"tag\">Medo</a> <a href=\"tag.html#pais\" rel=\"tag\">País</a> <a href=\"tag.html#the-legend-of-1900\" rel=\"tag\">The Legend of 1900</a> <a href=\"tag.html#toc\" rel=\"tag\">TOC</a> <a href=\"tag.html#vida\" rel=\"tag\">Vida</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p><em><a href=\"https://imdb.com/title/tt0120731\"><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-28822 aligncenter\" src=\"https://estranhosidade.wordpress.com/wp-content/uploads/2023/06/000.png\" alt=\"\" width=\"222\" height=\"327\" /></a></em><em>Ele claramente tinha TOC ou transtorno de pânico devido às circunstâncias em que foi criado. De muitas maneiras, esse filme me lembra de obras como <a href=\"https://www.imdb.com/title/tt0159097\"><strong>&#8220;As Virgens Suicidas&#8221;</strong></a> (por que elas não fugiram?), ou <a href=\"https://www.imdb.com/title/tt8143990\"><strong>&#8220;Kajillionaire&#8221;</strong> </a>(por que ela não deixou seus pais golpistas mais cedo?), ou <a href=\"https://www.imdb.com/title/tt1379182/\"><strong>&#8220;Dente Canino&#8221;</strong></a> (por que eles não escaparam de casa antes?).</em></p>\n<p><em>O ponto é que, quando você nasce em certas circunstâncias, é muito fácil ficar preso em um <strong>ciclo</strong> do qual simplesmente não consegue escapar, e essa coisa acaba te destruindo (o que acaba aludindo ao <a href=\"2021-01-04-a-criacao-e-os-filhos.html\">meu post escrito após eu ver o Kajillionaire</a>). Acho que isso diz muito sobre como os primeiros anos de nossas vidas acabam por moldar nossa interação com o mundo exterior.</em></p>\n<p><em>O filme não afirma claramente, mas a ideia de criar uma criança escondida em um navio é profundamente trágica. Digo, claramente, o operador da caldeira deveria tê-lo entregado aos serviços sociais, simples assim&#8230; No geral&#8230; achei esse filme bastante triste.</em></p>\n<p><em>É um bom filme, não me entenda mal, mas é trágico e simplesmente triste porque retrata essa pessoa lindamente talentosa que poderia ter conquistado o mundo&#8230; jogando sua vida fora e escolhendo essencialmente cometer suicídio em vez de enfrentar o mundo&#8230;</em></p>\n<p><em>Se bem que&#8230; quem sou eu para falar sobre tomar coragem para enfrentar a vida?</em></p>\n</div></article>",
-            "tags": [
-                {
-                    "name": "A Lenda de 1900",
-                    "slug": "a-lenda-de-1900"
-                },
-                {
-                    "name": "Família",
-                    "slug": "familia"
-                },
-                {
-                    "name": "Medo",
-                    "slug": "medo"
-                },
-                {
-                    "name": "País",
-                    "slug": "pais"
-                },
-                {
-                    "name": "The Legend of 1900",
-                    "slug": "the-legend-of-1900"
-                },
-                {
-                    "name": "TOC",
-                    "slug": "toc"
-                },
-                {
-                    "name": "Vida",
-                    "slug": "vida"
-                }
-            ],
-            "cats": [
-                {
-                    "name": "Diário",
-                    "slug": "diario"
-                },
-                {
-                    "name": "Documentários &amp; Filmes &amp; Series",
-                    "slug": "documentarios-filmes-series"
-                }
-            ],
-            "author": "estranhosidade",
-            "format": "aside",
-            "formatLabel": "Nota"
         }
     ]
 }
