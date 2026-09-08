@@ -1,5 +1,10 @@
 {
     "tags": {
+        "3d": "3D",
+        "astra": "Astra",
+        "chatgpt": "ChatGPT",
+        "ia-generativa": "IA Generativa",
+        "tecnologia": "Tecnologia",
         "ditaura": "Ditaura",
         "simpsons": "Simpsons",
         "stf": "STF",
@@ -24,7 +29,6 @@
         "livro": "Livro",
         "censura": "Censura",
         "eleicao": "Eleição",
-        "ia-generativa": "IA Generativa",
         "machine-translation": "Machine Translation",
         "morte": "Morte",
         "tights": "Tights",
@@ -45,7 +49,6 @@
         "luto": "Luto",
         "cinema": "Cinema",
         "gravadoras": "Gravadoras",
-        "tecnologia": "Tecnologia",
         "first-communion": "First Communion",
         "avioes-e-musicas": "Aviões e Músicas",
         "feminization": "Feminization",
@@ -255,7 +258,6 @@
         "pai": "Pai",
         "civilizacao": "Civilização",
         "evolucao-tecnologica": "Evolução Tecnológica",
-        "3d": "3D",
         "jogos": "Jogos",
         "simulacao": "Simulação",
         "bolsonaro": "Bolsonaro",
@@ -778,7 +780,6 @@
         "fiscal": "Fiscal",
         "a-lenda-de-1900": "A Lenda de 1900",
         "the-legend-of-1900": "The Legend of 1900",
-        "chatgpt": "ChatGPT",
         "artistas": "Artistas",
         "everything-is-a-remix": "Everything is a Remix",
         "soberba": "Soberba",
@@ -3628,6 +3629,7 @@
         "sexualidade-humana": "Sexualidade Humana"
     },
     "cats": {
+        "videos": "Vídeos",
         "direcao-de-arte-ia": "Direção de Arte/IA",
         "links": "Links",
         "ai-music": "AI Music",
@@ -3636,7 +3638,6 @@
         "ciencia": "Ciência",
         "citacoes": "Citações",
         "english": "English",
-        "videos": "Vídeos",
         "imagens": "Imagens",
         "textos": "Textos",
         "art-work": "Art Work",
@@ -3816,6 +3817,24 @@
         "gallery": "Galeria"
     },
     "posts": [
+        {
+            "id": 40662,
+            "title": "This Blender + Higgsfield AI Workflow Changes How You Make AI Video",
+            "date": "2026-09-07",
+            "url": "2026-09-07-this-blender-higgsfield-ai-workflow-changes-how-you-make-ai-video.html",
+            "tags": [
+                "3d",
+                "astra",
+                "chatgpt",
+                "ia-generativa",
+                "tecnologia"
+            ],
+            "cats": [
+                "videos"
+            ],
+            "month": "2026-09",
+            "format": "aside"
+        },
         {
             "id": 40768,
             "title": "Obedeça Às Regras: Já Pode Protestar",

@@ -39,7 +39,7 @@ function monthHeader(month,label){
 	var d=document.createElement('div');
 	d.className='month-header';
 	d.setAttribute('data-month',month);
-	d.innerHTML='<h2 class="month-title">'+escHtml(label||month)+'</h2>';
+	d.innerHTML='<h1 class="month-title">'+escHtml(label||month)+'</h1>';
 	return d;
 }
 
@@ -55,14 +55,15 @@ function resolveStart(){
 	return 0;
 }
 
+/* month.html no longer ships a static archive heading — the month label
+   lives in the feed's .month-header divs. Only the document title still
+   needs updating when the visitor jumps to a month via the hash. */
 function updateHeading(){
 	var h=(window.location.hash||'').replace(/^#/,'');
-	var headEl=document.getElementById('wpx-arc-heading');
-	if(!headEl||!h) return;
+	if(!h) return;
 	for(var i=0;i<state.chunks.length;i++){
 		var c=state.chunks[i];
 		if(c&&c.month===h&&c.label){
-			headEl.textContent=c.label;
 			if(cfg.siteTitle) document.title=c.label+' – '+cfg.siteTitle;
 			break;
 		}

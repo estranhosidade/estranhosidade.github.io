@@ -3743,7 +3743,7 @@ a.citation+a.citation {
     color: var(--text-bright) !important;
   }
 
-  :is(.comment-reply-title, .archive-title, .page-title, .entry-format, .entry-date *, .comments-link *, .author *, .post-edit-link) {
+  :is(.comment-reply-title, .page-title, .entry-format, .entry-date *, .comments-link *, .author *, .post-edit-link) {
     color: var(--link) !important;
   }
 
@@ -3958,26 +3958,19 @@ textarea {
   margin-bottom: 10px;
 }
 
+
 .month-title {
-  display: inline-block;
+  text-align: center;
   margin: 0;
   padding: 0.2em 0.75em;
   font-size: var(--text-size-xs, 0.8em);
   font-weight: var(--weight-bold, 700);
-  /* Set explicitly so the blog index divider (h2, line-height: 1 via the
-     generic h2 rule) and the month-archive heading (h1, line-height 1.38…)
-     render pixel-identically regardless of heading tag. */
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   opacity: 0.85;
 }
 
-/*
- * Every other archive/author/search/404 title keeps the same visual
- * treatment. Month titles are excluded because .month-title above is
- * their single source of truth (avoids a duplicated rule to keep in sync).
- */
 :is(.archive-title, .page-title:not(.month-title)) {
   text-align: center;
   font-size: var(--text-size-xs, 0.8em);
