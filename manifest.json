@@ -1,6 +1,6 @@
 {
-    "version": "2.9.2",
-    "generatedAt": "2026-09-08T17:27:45+00:00",
+    "version": "2.10.0",
+    "generatedAt": "2026-09-09T09:02:45+00:00",
     "chunkCount": 40,
     "chunks": [
         {
@@ -246,7 +246,7 @@
         "2023-07": "julho 2023",
         "2023-06": "junho 2023"
     },
-    "totalPosts": 615,
+    "totalPosts": 616,
     "firstChunk": "data-2026-09.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml"

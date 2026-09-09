@@ -3547,9 +3547,16 @@ a.post-thumbnail:hover {
     position: relative;
   }
 
-  /* Remove the top padding that creates the gap */
+  /* Remove the top padding that creates the gap.
+     The left padding reserves the #secondary column and the right padding
+     reserves the #content-sidebar column. The right gutter is ALWAYS
+     reserved, even on pages where #content-sidebar is not rendered, so the
+     content column stays centered between the two sidebar columns. */
   .content-area {
     padding-top: 0 !important;
+    box-sizing: border-box;
+    padding-left: 182px; /* #secondary column */
+    padding-right: 21.04761904%; /* reserved #content-sidebar column */
   }
 
   #secondary {
@@ -3561,12 +3568,20 @@ a.post-thumbnail:hover {
     z-index: 10;
   }
 
-  /* Site Content: Pushed right to clear the sidebar */
+  /* Site Content: fixed width, centered between #secondary and the
+     reserved #content-sidebar gutter */
   .site-content {
     margin-top: 31px;
-    margin-left: 182px;
-    margin-right: 0;
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 520px;
+	padding-left: 200px;
+  }
+
+  /* Full-width pages keep the same centered position */
+  .full-width .site-content {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Main Content: Reset to fill the available space naturally */
@@ -3582,8 +3597,16 @@ a.post-thumbnail:hover {
     width: 222px;
   }
 
+  .content-area {
+    padding-left: 222px;
+  }
+}
+
+@media screen and (min-width: 1218px) {
+  /* Neutralize the legacy right padding (10.0 media queries) so the fixed
+     520px column stays intact */
   .site-content {
-    margin-left: 222px;
+    padding-right: 0;
   }
 }
 

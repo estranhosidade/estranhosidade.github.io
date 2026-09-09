@@ -1,5 +1,7 @@
 {
     "tags": {
+        "estranhosidade": "Estranhosidade",
+        "poesia": "Poesia",
         "3d": "3D",
         "astra": "Astra",
         "chatgpt": "ChatGPT",
@@ -118,7 +120,6 @@
         "hypocrisy": "Hypocrisy",
         "learning": "Learning",
         "money": "Money",
-        "estranhosidade": "Estranhosidade",
         "futurist": "Futurist",
         "mae": "Mãe",
         "perda": "Perda",
@@ -262,7 +263,6 @@
         "simulacao": "Simulação",
         "bolsonaro": "Bolsonaro",
         "emotional": "Emotional",
-        "poesia": "Poesia",
         "revolta": "Revolta",
         "anistia": "Anistia",
         "capitalism": "Capitalism",
@@ -3629,11 +3629,11 @@
         "sexualidade-humana": "Sexualidade Humana"
     },
     "cats": {
+        "diario": "Diário",
         "videos": "Vídeos",
         "direcao-de-arte-ia": "Direção de Arte/IA",
         "links": "Links",
         "ai-music": "AI Music",
-        "diario": "Diário",
         "autoria-de-outros": "Autoria de Outros",
         "ciencia": "Ciência",
         "citacoes": "Citações",
@@ -3817,6 +3817,21 @@
         "gallery": "Galeria"
     },
     "posts": [
+        {
+            "id": 40816,
+            "title": "Diário: 09/09/2026",
+            "date": "2026-09-09",
+            "url": "2026-09-09-diario-09-09-2026.html",
+            "tags": [
+                "estranhosidade",
+                "poesia"
+            ],
+            "cats": [
+                "diario"
+            ],
+            "month": "2026-09",
+            "format": "aside"
+        },
         {
             "id": 40662,
             "title": "This Blender + Higgsfield AI Workflow Changes How You Make AI Video",

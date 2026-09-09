@@ -1,6 +1,32 @@
 {
-    "generatedAt": "2026-09-08T17:27:45+00:00",
+    "generatedAt": "2026-09-09T09:02:45+00:00",
     "posts": [
+        {
+            "id": 40816,
+            "title": "Diário: 09/09/2026",
+            "slug": "diario-09-09-2026",
+            "author": "estranhosidade",
+            "date": "2026-09-09",
+            "url": "2026-09-09-diario-09-09-2026.html",
+            "summary": "Eu sou estranho demais pra toda essa normalidade Doutor Trabalho, casamento, filho, meu eu não sei porra nenhuma Eu vim defeituoso de fábrica ou me defeituaram pela vida Minha terrível imitação dum ser humano…",
+            "text": "Eu sou estranho demais pra toda essa normalidade Doutor Trabalho, casamento, filho, meu eu não sei porra nenhuma Eu vim defeituoso de fábrica ou me defeituaram pela vida Minha terrível imitação dum ser humano normal Terry, talvez também eu seja só uma pessoinha bizarra Andando pra baixo pra cima Um erro que respira esperando a morte vir Futuro animal morto Eu sou estranho demais pra toda essa normalidade Doutor Trabalho, casamento, filho, meu eu não sou porra nenhuma Eu vim defeituoso de fábrica ou me defeituaram pela vida Minha terrível imitação dum ser humano normal Minha terrível imitação dum ser humano normal Minha terrível imitação dum ser humano normal Minha terrível imitação dum ser humano normal Minha terrível imitação dum ser humano normal",
+            "tags": [
+                {
+                    "name": "Estranhosidade",
+                    "slug": "estranhosidade"
+                },
+                {
+                    "name": "Poesia",
+                    "slug": "poesia"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ]
+        },
         {
             "id": 40662,
             "title": "This Blender + Higgsfield AI Workflow Changes How You Make AI Video",
