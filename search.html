@@ -1,17 +1,329 @@
-<!DOCTYPE html><html lang="pt_BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Busca – Estranhosidade</title><link rel="alternate" type="application/rss+xml" title="Estranhosidade RSS" href="rss.xml"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="stylesheet" href="style.css"><style>#comment-respond{display:none!important;}.wpx-search-line{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:4px;}.wpx-search-line label{opacity:.7;white-space:nowrap;}.wpx-search-input{flex:1 1 320px;min-width:200px;height:30px;padding:4px 12px;border:1px solid rgba(128,128,128,.5);border-radius:4px;background:transparent;color:inherit;font:inherit;outline:none;}.wpx-search-input:focus{border-color:currentColor;}.wpx-sort{height:30px;padding:0 5px;border:1px solid rgba(128,128,128,.5);border-radius:4px;background:transparent;color:inherit;font:inherit;font-size:13px;cursor:pointer;}.wpx-fb{margin:18px 0 14px;opacity:.75;font-size:13px;}.wpx-fb b{opacity:1;}.wpx-progress{position:relative;height:4px;margin:10px 0;overflow:hidden;border-radius:2px;background:rgba(128,128,128,.3);display:none;}.wpx-progress.wpx-on{display:block;}.wpx-progress i{position:absolute;left:-30%;width:30%;height:100%;background:#0073aa;animation:wpx-progress-move 1.5s infinite linear;}@keyframes wpx-progress-move{0%{left:-30%;width:20%;}50%{width:50%;}100%{left:100%;width:20%;}}.wpx-results .result{margin:0 0 18px;}.wpx-results .result-title{color:#0073aa;font-size:15px;font-weight:bold;line-height:1.2;}.wpx-results .result-url{margin:1px 0 2px;overflow:hidden;color:#0073aa;font-size:13px;white-space:nowrap;text-overflow:ellipsis;}.wpx-results .result-snippet{font-size:13px;line-height:1.4;}.wpx-results .result-extra{margin-top:3px;font-size:12px;opacity:.8;}.wpx-results .result-extra .lbl{font-weight:bold;}.wpx-results .intro .tips{margin-top:14px;opacity:.7;font-size:12px;}.wpx-fb .error{color:#ef4444;}.highlight{padding:1px 2px;border-radius:2px;background:#fff804;color:#000;}.wpx-fb .highlight{background:none;color:inherit;padding:0;}.wpx-pager{margin-top:20px;display:none;}.wpx-pager.wpx-on{display:block;}.wpx-pager-links{display:flex;gap:15px;margin-top:8px;}</style></head><body class="search-page full-width"><div id="page" class="hfeed site"><header id="masthead" class="site-header"><div class="header-main"><h1 class="site-title"><a href="/" rel="home">Estranhosidade</a></h1></div><!-- .header-main --></header><!-- #masthead --><div id="main" class="site-main"><div id="main-content" class="main-content"><div id="primary" class="content-area"><div id="content" class="site-content" role="main"><header class="page-header"><h1 class="page-title" id="wpx-sh">Busca</h1></header><form id="wpx-search-form" class="wpx-search-line" role="search"><label for="wpx-q">Busca:</label><input id="wpx-q" class="wpx-search-input" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar…"><select id="wpx-sort" class="wpx-sort" aria-label="Busca"><option value="newest">Mais recentes</option><option value="oldest">Mais antigos</option></select></form><div id="wpx-fb" class="wpx-fb" aria-live="polite"></div><div id="wpx-progress" class="wpx-progress" role="status"><i></i></div><section id="wpx-results" class="wpx-results"></section><div id="wpx-pager" class="wpx-pager"></div></div><!-- #content --></div><!-- #primary --></div><!-- #main-content --><script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"i18n":{"heading":"Busca","noResults":"Nenhum resultado para:","error":"Erro ao carregar o índice de busca.","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","opsHint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","searching":"Pesquisando por","about":"Cerca de","resultsFor":"resultados para","resultFor":"resultado para","previous":"Anterior","next":"Próximo","createdOn":"Criado em:","tagsLabel":"Tags:","catsLabel":"Categorias:","noPreview":"Nenhuma pré-visualização de texto disponível.","relatedNote":"(relatedsearch detectado; listando posts com tags/categorias correspondentes)","newest":"Mais recentes","oldest":"Mais antigos","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]}};(function(){
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pesquisa</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>:root {
+--bg-color-search: #fff;
+--input-bg-search: #fff;
+--panel-bg-search: #fff;
+--text-color-search: #2b2b2b;
+--heading-color-search: #2b2b2b;
+--text-muted-search: #2b2b2b;
+--link-color-search: #24890d;
+--primary-color-search: #24890d;
+--url-color-search: #24890d;
+--visited-color-search: #24890d;
+--border-color-search: #00ffaa;
+--dark-bg-image: none;
+}
+@media (prefers-color-scheme: dark) { :root {
+--bg-color-search: #000;
+--input-bg-search: #000;
+--panel-bg-search: #000;
+--text-color-search: #d5d5d5;
+--heading-color-search: #d5d5d5;
+--text-muted-search: #d5d5d5;
+--link-color-search: #0fa;
+--primary-color-search: #0fa;
+--url-color-search: #0fa;
+--visited-color-search: #0fa;
+--border-color-search: #7777772b;
+--dark-bg-image: url("data:image/gif;base64,R0lGODlhkACQALMAAAAAABkKUBYuaTo2ekI5jkhorlmYxlOb4YJWtn18z7JsxLyD5I7A7cfF9OOy7erf9iwAAAAAkACQAEAE/hDISau9OOvNu/9gKI5kaZ5oqq6XMLBwHAZybd94ru987//A0OBBCxqPyKRyyWxSik6WwNAwcKDRrHarTDys3LB4TC6bXua0es1uu9/weBQrZwfu9bx+z5cHBnR9bF4GaIKHGYF8hoiNjo+QkZKTZFNfL4pLjJScnZ6foKE8m6KlJXcHpqqrkXeZrDKvsLO0tba3uLm6bKRJAg8EArvDxGM0Q4DFggMMySgGDGAYAQYPCcobvdg5DdveNdrf4uPk5eYYwmKyb+FKfwoPCs7n9AEI7fT5iA/6/f7/AAMKHHhrnT4BBR4cwEewYagBCQw6nNgQkAM8DhlS3Mixo8ePcCBDitShUV9JShJHqlypLECBLCffCEgQc0dNljhzurlZbp5OO8N4Tnu5waUpoqcGDCjQ4EGDAj4pDDCQrpzLqj+zat3KtesPpBWpeh1LtqzZs2hHpKQ3Vei3qVjTwlCwka7cu3hhrM3LN9/evoD9RQAAOw==");
+} }
+* {
+  box-sizing: border-box;
+  /* Match the theme-wide monospace look (theme style.css: * {font-family: Consolas}). */
+  font-family: Consolas, monospace;
+}
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100%;
+  background-color: var(--bg-color-search);
+  background-repeat: repeat;
+  color: var(--text-color-search);
+  font: 12px/1.28 Arial, Helvetica, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background-image: var(--dark-bg-image, none) !important;
+    background-repeat: repeat !important;
+    background-size: auto;
+  }
+  .search-input,
+  .sort-select,
+  .go-back-btn {
+    background-color: var(--input-bg-search);
+  }
+}
+a {
+  color: var(--link-color-search);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.date-label {
+  color: var(--text-color-search);
+  font-weight: bold;
+}
+.date-value,
+.categories-value,
+.tags-value {
+  color: var(--text-muted-search);
+}
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 18px 28px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-top: 8px;
+  margin-bottom: 20px;
+}
+.search-line {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+  gap: 8px;
+  vertical-align: middle;
+}
+label {
+  align-self: center;
+  color: var(--text-muted-search);
+  white-space: nowrap;
+}
+#search-label {
+  display: none;
+}
+.search-input {
+  width: 100%;
+  flex: 1 1 600px;
+  height: 30px;
+  padding: 4px 12px;
+  border: 1px solid var(--border-color-search);
+  border-radius: 4px;
+  background: var(--input-bg-search);
+  color: var(--text-color-search);
+  outline: none;
+}
+.search-input:focus {
+  border-color: var(--primary-color-search);
+  box-shadow: inset 0 1px 2px #00000014;
+}
+.sort-select {
+  height: 30px;
+  padding: 0 5px;
+  border: 1px solid var(--border-color-search);
+  border-radius: 4px;
+  background: var(--input-bg-search);
+  color: var(--text-color-search);
+  font-size: 12px;
+  cursor: pointer;
+}
+.go-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 30px;
+  padding: 0 12px;
+  border: 1px solid var(--border-color-search);
+  border-radius: 4px;
+  background: var(--input-bg-search);
+  color: var(--text-color-search);
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+.go-back-btn:hover {
+  border-color: var(--primary-color-search);
+  color: var(--primary-color-search);
+}
+.go-back-btn svg {
+  width: 14px;
+  height: 14px;
+}
+.meta {
+  margin: 18px 0 14px;
+  color: var(--text-muted-search);
+  font-size: 12px;
+}
+.meta .highlight {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+.results {
+  max-width: 100%;
+  margin: 0;
+}
+.result {
+  margin: 0 0 18px;
+}
+.result-title {
+  display: inline-block;
+  color: var(--link-color-search);
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.result-title:visited {
+  color: var(--visited-color-search);
+}
+.result-url {
+  max-width: 100%;
+  margin: 1px 0 2px;
+  overflow: hidden;
+  color: var(--url-color-search);
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.result-snippet {
+  color: var(--text-color-search);
+  font-size: 13px;
+  line-height: 1.4;
+}
+.result-extra {
+  margin-top: 3px;
+  color: var(--text-muted-search);
+  font-size: 12px;
+}
+.empty,
+.error,
+.intro {
+  margin: 20px 0 0;
+  color: var(--text-color-search);
+}
+.error {
+  color: #ef4444;
+}
+.tips {
+  margin-top: 14px;
+  color: var(--text-muted-search);
+  font-size: 12px;
+}
+.state-hidden {
+  display: none !important;
+}
+.highlight {
+  padding: 1px 2px;
+  border-radius: 2px;
+  background: #fff804;
+  color: #000;
+}
+.progress-container {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 4px;
+  margin: 10px 0;
+  overflow: hidden;
+  border-radius: 2px;
+  background: var(--border-color-search);
+}
+.progress-bar {
+  position: absolute;
+  left: -30%;
+  width: 30%;
+  height: 100%;
+  background: var(--primary-color-search);
+  animation: progress-move 1.5s infinite linear;
+}
+.pager {
+  margin-top: 20px;
+}
+.pager-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+}
+@keyframes progress-move {
+  0% { left: -30%; width: 20%; }
+  50% { width: 50%; }
+  100% { left: 100%; width: 20%; }
+}
+@media (max-width: 700px) {
+  .page {
+    padding: 10px 12px 24px;
+  }
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .sort-select {
+    width: 100%;
+    margin-left: 0;
+  }
+  .search-input {
+    min-width: 0;
+  }
+}</style>
+</head>
+<body>
+<main class="page" id="page">
+<section class="hero">
+<form id="search-form" class="search-line">
+<button type="button" id="go-back" class="go-back-btn" title="Voltar">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+<span class="go-back-text">Voltar</span>
+</button>
+<label for="q" id="search-label">Pesquisar:</label>
+<input id="q" class="search-input" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="">
+</form>
+<select id="sort-select" class="sort-select" aria-label="Ordenar">
+<option value="newest" id="opt-newest">Mais recentes</option>
+<option value="oldest" id="opt-oldest">Mais antigos</option>
+<option value="relevance" id="opt-relevance">Relevância</option>
+</select>
+</section>
+<div id="feedback"></div>
+<div id="progress" class="progress-container state-hidden">
+<div class="progress-bar"></div>
+</div>
+<section id="results" class="results"></section>
+<div id="pager" class="pager state-hidden"></div>
+</main>
+<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais recentes","oldest":"Mais antigos","relevance":"Relevância","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]}};(function(){
 "use strict";
 var cfg      = WPX_SEARCH;
 var i18n     = cfg.i18n || {};
 var PER_PAGE = cfg.perPage || 10000;
-var form     = document.getElementById('wpx-search-form');
-var input    = document.getElementById('wpx-q');
-var sortEl   = document.getElementById('wpx-sort');
-var fbEl     = document.getElementById('wpx-fb');
-var progEl   = document.getElementById('wpx-progress');
-var resEl    = document.getElementById('wpx-results');
-var pagerEl  = document.getElementById('wpx-pager');
-var headEl   = document.getElementById('wpx-sh');
+var form     = document.getElementById('search-form');
+var input    = document.getElementById('q');
+var sortEl   = document.getElementById('sort-select');
+var fbEl     = document.getElementById('feedback');
+var progEl   = document.getElementById('progress');
+var resEl    = document.getElementById('results');
+var pagerEl  = document.getElementById('pager');
+var goBackBtn = document.getElementById('go-back');
 if (!form || !input || !resEl) return;
+
+/* Fill the localised bits of the static markup (same ids as the live page). */
+var labelEl = document.getElementById('search-label');
+if (labelEl && i18n.search_label) labelEl.textContent = i18n.search_label;
+var goBackText = document.querySelector ? document.querySelector('.go-back-text') : null;
+if (goBackText && i18n.go_back) goBackText.textContent = i18n.go_back;
+var optNew = document.getElementById('opt-newest');
+var optOld = document.getElementById('opt-oldest');
+var optRel = document.getElementById('opt-relevance');
+if (optNew && i18n.newest) optNew.textContent = i18n.newest;
+if (optOld && i18n.oldest) optOld.textContent = i18n.oldest;
+if (optRel && i18n.relevance) optRel.textContent = i18n.relevance;
 
 var indexPromise = null;
 var currentQuery = '';
@@ -21,7 +333,7 @@ var state        = { q: '', rows: [], parsed: null };
 /* ── Index loading (fetched into memory — never offered as a file download) ── */
 function loadIndex(){
   if (!indexPromise) {
-    if (progEl) progEl.classList.add('wpx-on');
+    if (progEl) progEl.classList.remove('state-hidden');
     indexPromise = fetch(cfg.indexUrl, { cache: 'force-cache' })
       .then(function(r){
         if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -29,8 +341,9 @@ function loadIndex(){
       })
       .then(function(t){
         var data = JSON.parse(String(t).replace(/^\uFEFF+/, '').trim());
-        if (!Array.isArray(data)) throw new Error('bad index');
-        return data;
+        var list = Array.isArray(data) ? data : (data && Array.isArray(data.posts) ? data.posts : null);
+        if (!list) throw new Error('bad index');
+        return list;
       });
     indexPromise.catch(function(){ indexPromise = null; });
   }
@@ -39,6 +352,7 @@ function loadIndex(){
 
 function lower(s){ return String(s == null ? '' : s).toLowerCase(); }
 function pad2(n){ n = parseInt(n, 10); return (n < 10 ? '0' : '') + n; }
+function isWord(ch){ return !!ch && /[\p{L}\p{N}]/u.test(ch); }
 
 /* ── Query parsing — port of cbs_parse_query (Custom Blog Search) ── */
 function parseQuery(query){
@@ -99,7 +413,6 @@ function containsWholeTerm(haystack, term){
   if (!term) return true;
   var h = lower(haystack), t = lower(term);
   if (!t || t.length > h.length) return false;
-  var isWord = function(ch){ return !!ch && /[\p{L}\p{N}]/u.test(ch); };
   var idx = 0;
   while (true) {
     var found = h.indexOf(t, idx);
@@ -118,12 +431,14 @@ function prepare(items){
   return items.map(function(item){
     var terms = (item.tags || []).concat(item.cats || []).map(termName).join(' ');
     return {
-      item:   item,
-      title:  lower(item.title),
-      body:   lower(itemBody(item)),
-      author: lower(item.author),
-      terms:  lower(terms),
-      date:   String(item.date || '')
+      item:    item,
+      title:   lower(item.title),
+      summary: lower(item.summary || ''),
+      body:    lower(itemBody(item)),
+      author:  lower(item.author),
+      terms:   lower(terms),
+      date:    String(item.date || ''),
+      score:   0
     };
   });
 }
@@ -166,6 +481,36 @@ function expressionMatches(row, expr){
   return true;
 }
 
+/* ── Relevance score (static analogue of the live server's match ranking):
+   whole-term hits in the title weigh most, then summary, then body. ── */
+function countOccurrences(haystack, term){
+  if (!haystack || !term) return 0;
+  var t = lower(term);
+  if (haystack === t) return 1000; /* exact field match dominates */
+  var n = 0, found = 0;
+  while (true) {
+    found = haystack.indexOf(t, found);
+    if (found === -1) return n;
+    var before = found > 0 ? haystack.charAt(found - 1) : '';
+    var after  = (found + t.length) < haystack.length ? haystack.charAt(found + t.length) : '';
+    if (!isWord(before) && !isWord(after)) n++;
+    found = found + 1;
+  }
+}
+function scoreItem(row, p){
+  var terms = snippetTerms(p.alternates || []);
+  if (!terms.length) return 0;
+  var score = 0;
+  terms.forEach(function(t){
+    var c = countOccurrences(row.title, t);
+    if (c) score += Math.min(1000, c) * 4;
+    var cs = countOccurrences(row.summary, t);
+    if (cs) score += Math.min(1000, cs) * 2;
+    score += Math.min(1000, countOccurrences(row.body, t));
+  });
+  return score;
+}
+
 function runSearch(items, rawQuery, sort){
   var p = parseQuery(rawQuery);
   if (p.text === '' && !p.author && !p.after && !p.before && !p.id && !p.related) {
@@ -184,11 +529,19 @@ function runSearch(items, rawQuery, sort){
         if (expressionMatches(row, exprs[j])) { ok = true; break; }
       }
     }
-    if (ok) rows.push(row);
+    if (ok) {
+      row.score = scoreItem(row, p);
+      rows.push(row);
+    }
   }
   rows.sort(function(a, b){
-    var cmp = a.date < b.date ? -1 : (a.date > b.date ? 1 : 0);
-    return sort === 'oldest' ? cmp : -cmp;
+    var byDate = a.date < b.date ? -1 : (a.date > b.date ? 1 : 0);
+    if (sort === 'oldest') return byDate;
+    if (sort === 'relevance') {
+      if (b.score !== a.score) return b.score - a.score;
+      return -byDate; /* ties: newest first */
+    }
+    return -byDate; /* 'newest' (and any unknown value default) */
   });
   return { parsed: p, rows: rows };
 }
@@ -226,7 +579,6 @@ function keywordSnippet(text, terms, radius, maxWindows){
   maxWindows = maxWindows || 4;
   if (!text || !terms || !terms.length) return null;
   var h = lower(text), hlen = h.length;
-  var isWord = function(ch){ return !!ch && /[\p{L}\p{N}]/u.test(ch); };
   var matches = [];
   terms.forEach(function(term, idx){
     var t = lower(term), tlen = t.length;
@@ -349,10 +701,10 @@ function keywordSnippet(text, terms, radius, maxWindows){
 }
 
 /* ── Highlighting — port of the live plugin's helpers ── */
-var _decoder = document.createElement('textarea');
+var _decoder = document.createElement('div');
 function decodeEntities(s){
-  _decoder.innerHTML = s == null ? '' : String(s);
-  return _decoder.value;
+  _decoder.textContent = s == null ? '' : String(s);
+  return _decoder.innerHTML;
 }
 function esc(v){
   var d = document.createElement('div');
@@ -383,7 +735,7 @@ function highlight(text, q){
   if (!pattern) return safe;
   var regex;
   try {
-    regex = new RegExp('(?<![\\p{L}\\p{N}])(' + pattern + ')(?![\\p{L}\\p{N}])', 'giu');
+    regex = new RegExp('(?<![\p{L}\p{N}])(' + pattern + ')(?![\p{L}\p{N}])', 'giu');
   } catch (e) {
     regex = new RegExp('(' + pattern + ')', 'gi');
   }
@@ -395,16 +747,15 @@ function highlightArray(items, q){
 }
 function fmtDate(v){
   var p = String(v || '').split('-');
-  if (p.length !== 3) return v || 'N/A';
+  if (p.length !== 3) return v || i18n.not_available || 'N/A';
   var months = i18n.months || [];
   return (months[parseInt(p[1], 10) - 1] || p[1]) + ' ' + parseInt(p[2], 10) + ', ' + p[0];
 }
 
 function intro(){
-  if (headEl) headEl.textContent = i18n.heading;
-  fbEl.innerHTML = '<div class="intro">' + esc(i18n.intro) + '<div class="tips">' + esc(i18n.opsHint) + '</div></div>';
+  fbEl.innerHTML = '<div class="intro">' + esc(i18n.intro) + '<div class="tips">' + esc(i18n.operators_hint) + '</div></div>';
   resEl.innerHTML = '';
-  if (pagerEl) { pagerEl.classList.remove('wpx-on'); pagerEl.innerHTML = ''; }
+  if (pagerEl) { pagerEl.classList.add('state-hidden'); pagerEl.innerHTML = ''; }
 }
 
 function renderResult(row, q, parsed){
@@ -412,16 +763,16 @@ function renderResult(row, q, parsed){
   var terms = snippetTerms(parsed && parsed.alternates ? parsed.alternates : []);
   var body = itemBody(item);
   var snippet = (body && terms.length) ? keywordSnippet(body, terms) : null;
-  if (snippet === null) snippet = item.summary || i18n.noPreview;
+  if (snippet === null) snippet = item.summary || i18n.no_text_preview;
   var tags = (item.tags || []).map(termName).filter(Boolean);
   var cats = (item.cats || []).map(termName).filter(Boolean);
   var buf = '<article class="result">'
-    + '<a class="result-title" target="_top" href="' + esc(item.url) + '">' + highlight(item.title || 'Untitled', q) + '</a>'
+    + '<a class="result-title" target="_top" href="' + esc(item.url) + '">' + highlight(item.title || i18n.untitled, q) + '</a>'
     + '<div class="result-url">' + highlight(item.url || '', q) + '</div>'
     + '<div class="result-snippet">' + highlight(snippet, q) + '</div>'
-    + '<div class="result-extra"><span class="lbl">' + esc(i18n.createdOn) + '</span> <span class="val">' + esc(fmtDate(item.date)) + '</span></div>';
-  if (tags.length) buf += '<div class="result-extra"><span class="lbl">' + esc(i18n.tagsLabel) + '</span> <span class="val">' + highlightArray(tags, q) + '</span></div>';
-  if (cats.length) buf += '<div class="result-extra"><span class="lbl">' + esc(i18n.catsLabel) + '</span> <span class="val">' + highlightArray(cats, q) + '</span></div>';
+    + '<div class="result-extra"><span class="date-label">' + esc(i18n.created_on) + '</span> <span class="date-value">' + esc(fmtDate(item.date)) + '</span></div>';
+  if (tags.length) buf += '<div class="result-extra"><span class="date-label">' + esc(i18n.tags) + '</span> <span class="tags-value">' + highlightArray(tags, q) + '</span></div>';
+  if (cats.length) buf += '<div class="result-extra"><span class="date-label">' + esc(i18n.categories) + '</span> <span class="categories-value">' + highlightArray(cats, q) + '</span></div>';
   buf += '</article>';
   return buf;
 }
@@ -433,14 +784,14 @@ function renderResults(page){
   if (page > pages) page = pages || 1;
   if (page < 1) page = 1;
   if (!total) {
-    fbEl.innerHTML = '<div class="meta">' + esc(i18n.noResults) + ' <b>' + esc(state.q) + '</b></div>';
+    fbEl.innerHTML = '<div class="empty">' + esc(i18n.no_results) + '</div>';
     resEl.innerHTML = '';
-    if (pagerEl) { pagerEl.classList.remove('wpx-on'); pagerEl.innerHTML = ''; }
+    if (pagerEl) { pagerEl.classList.add('state-hidden'); pagerEl.innerHTML = ''; }
     return;
   }
-  var extra = (state.parsed && state.parsed.related) ? ' <span class="tips">' + esc(i18n.relatedNote) + '</span>' : '';
+  var extra = (state.parsed && state.parsed.related) ? ' <span class="tips">' + esc(i18n.relatedsearch_detected) + '</span>' : '';
   fbEl.innerHTML = '<div class="meta">' + esc(i18n.about) + ' ' + Number(total).toLocaleString() + ' '
-    + (total === 1 ? i18n.resultFor : i18n.resultsFor) + ' <b>' + esc(state.q) + '</b>' + extra + '</div>';
+    + (total === 1 ? i18n.result_for : i18n.results_for) + ' <b>' + esc(state.q) + '</b>' + extra + '</div>';
   var slice = rows.slice((page - 1) * PER_PAGE, page * PER_PAGE);
   var buf = '';
   slice.forEach(function(row){ buf += renderResult(row, state.q, state.parsed); });
@@ -450,13 +801,13 @@ function renderResults(page){
 
 function renderPager(page, pages){
   if (!pagerEl) return;
-  if (pages <= 1) { pagerEl.classList.remove('wpx-on'); pagerEl.innerHTML = ''; return; }
-  var h = '<div class="wpx-pager-links">';
+  if (pages <= 1) { pagerEl.classList.add('state-hidden'); pagerEl.innerHTML = ''; return; }
+  var h = '<div class="pager-links">';
   if (page > 1) h += '<a href="#" data-page="' + (page - 1) + '">' + esc(i18n.previous) + '</a>';
   if (page < pages) h += '<a href="#" data-page="' + (page + 1) + '">' + esc(i18n.next) + '</a>';
   h += '</div>';
   pagerEl.innerHTML = h;
-  pagerEl.classList.add('wpx-on');
+  pagerEl.classList.remove('state-hidden');
   Array.prototype.forEach.call(pagerEl.querySelectorAll('[data-page]'), function(x){
     x.onclick = function(e){
       e.preventDefault();
@@ -475,12 +826,13 @@ function search(q, page, push){
     return;
   }
   if (push !== false) {
-    history.replaceState(null, '', location.pathname + '?s=' + encodeURIComponent(currentQuery)
+    history.replaceState(null, '', location.pathname + '?q=' + encodeURIComponent(currentQuery)
       + '&page=' + page + '&sort=' + encodeURIComponent(sort));
   }
-  fbEl.innerHTML = '<div class="meta">' + esc(i18n.searching) + ' <b>' + esc(currentQuery) + '</b>...</div>';
+  fbEl.innerHTML = '<div class="meta">' + esc(i18n.searching_for) + ' <b>' + esc(currentQuery) + '</b>...</div>';
   resEl.innerHTML = '';
-  if (pagerEl) { pagerEl.classList.remove('wpx-on'); pagerEl.innerHTML = ''; }
+  if (pagerEl) { pagerEl.classList.add('state-hidden'); pagerEl.innerHTML = ''; }
+  if (progEl) progEl.classList.remove('state-hidden');
   loadIndex().then(function(items){
     if (currentQuery !== String(q || '').trim()) return; /* superseded by a newer query */
     var res = runSearch(items, currentQuery, sort);
@@ -488,9 +840,9 @@ function search(q, page, push){
     renderResults(page);
   }).catch(function(err){
     var msg = err && err.message ? ' (' + err.message + ')' : '';
-    fbEl.innerHTML = '<div class="error">' + esc(i18n.error) + esc(msg) + '</div>';
+    fbEl.innerHTML = '<div class="error">' + esc(i18n.search_error) + esc(msg) + '</div>';
   }).then(function(){
-    if (progEl) progEl.classList.remove('wpx-on');
+    if (progEl) progEl.classList.add('state-hidden');
   });
 }
 
@@ -513,15 +865,35 @@ if (sortEl) {
     search(input.value, 1, true);
   });
 }
+if (goBackBtn) {
+  goBackBtn.addEventListener('click', function(){
+    /* When embedded in the DeepSearch overlay iframe, "Go back" should
+       simply dismiss the overlay instead of navigating iframe history. */
+    if (typeof window !== 'undefined' && window.self !== window.top) {
+      window.parent.postMessage({ type: 'cbs_deepsearch_close' }, '*');
+      return;
+    }
+    history.back();
+  });
+}
+if (typeof window !== 'undefined' && window.addEventListener) {
+  window.addEventListener('message', function(e){
+    if (e.data && e.data.type === 'cbs_deepsearch') {
+      input.value = e.data.query;
+      clearTimeout(timer);
+      timer = setTimeout(function(){ search(e.data.query, 1, false); }, 400);
+    }
+  });
+}
 
-/* Deep link (?s= / ?q= [&page=] [&sort=]) from the sidebar search widget or
+/* Deep link (?q= / ?s= [&page=] [&sort=]) from the sidebar search widget or
    rewritten /search/ URLs runs the search on load. */
 (function(){
   var p = new URLSearchParams(location.search);
-  var q = (p.get('s') || p.get('q') || '').trim();
+  var q = (p.get('q') || p.get('s') || '').trim();
   var page = Math.max(1, parseInt(p.get('page') || '1', 10) || 1);
   var sp = p.get('sort') || 'newest';
-  if (sortEl && (sp === 'newest' || sp === 'oldest')) sortEl.value = sp;
+  if (sortEl && (sp === 'newest' || sp === 'oldest' || sp === 'relevance')) sortEl.value = sp;
   if (q) {
     input.value = q;
     search(q, page, false);
@@ -530,4 +902,6 @@ if (sortEl) {
     loadIndex().catch(function(){}); /* warm the index so the first search is instant */
   }
 })();
-})();</script></div><!-- #main --><footer id="colophon" class="site-footer"><div class="site-info">&copy; Estranhosidade</div></footer><!-- #colophon --></div><!-- #page --></body></html>
+})();</script>
+</body>
+</html>

@@ -1123,7 +1123,6 @@ a.post-thumbnail:hover {
 
 .site-content .entry-header {
   background-color: var(--bg);
-  padding: 0 var(--space-md) var(--space-base);
 }
 
 .site-content .has-post-thumbnail .entry-header {
@@ -3496,7 +3495,27 @@ a.post-thumbnail:hover {
     border-radius: 0 !important;
     text-decoration: none !important;
     line-height: 1;
+    /* Never wrap onto 2 lines; JS shrinks the font-size or widens the bar
+       instead when a tag is too wide (see VERTICAL_TAG_MODE in functions.js) */
+    white-space: nowrap;
     transition: background-color 0.2s, color 0.2s;
+  }
+
+  /* Internal toggle (VERTICAL_TAG_MODE in js/functions.js):
+     - 'wrap' mode: class below restores the old wrapping behavior, where
+       a tag that does not fit breaks onto 2 lines at the fixed 11px size.
+     - 'wider' mode: the width:auto rule below makes the absolutely
+       positioned bar grow to fit its widest content, so every tag of the
+       post fits on one line at the full 11px font-size. */
+  .list-view .site-content .hentry .tag-links-top.entry-meta.tags-legacy-wrap a {
+    white-space: normal;
+  }
+
+  .list-view .site-content .hentry .tag-links-top.entry-meta.tags-fit-wide {
+    width: auto;
+    /* The bar may grow to fit the widest tag, but never shrink below the
+       normal (non-wider) mode width, so the gutter still feels consistent. */
+    min-width: 100px;
   }
 
   /* Styling for the JS-injected ellipsis */
