@@ -1,0 +1,76 @@
+{
+  "comments": [
+    {
+      "id": "1924",
+      "key": "24129",
+      "wp_id": "1924",
+      "post_id": 24129,
+      "author": "Ganbah",
+      "author_url": "",
+      "content": "Imigração não é crime.",
+      "date": "2018-06-29 09:25:15",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1925",
+      "key": "24129",
+      "wp_id": "1925",
+      "post_id": 24129,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Entrar ilegalmente nos EUA é crime. Se você quer entrar num país, ou imigrar para lá, você precisa preencher todos os dados e tramites legais.\n\nhttps://en.wikipedia.org/wiki/Illegal_entry",
+      "date": "2018-06-30 04:59:09",
+      "parent": "1924",
+      "status": "approved"
+    },
+    {
+      "id": "1926",
+      "key": "24129",
+      "wp_id": "1926",
+      "post_id": 24129,
+      "author": "Ganbah",
+      "author_url": "",
+      "content": "Nem tudo o que é ilegal é um CRIME.",
+      "date": "2018-07-18 12:34:16",
+      "parent": "1925",
+      "status": "approved"
+    },
+    {
+      "id": "1927",
+      "key": "24129",
+      "wp_id": "1927",
+      "post_id": 24129,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Novamente, entrar ilegalmente nos EUA é crime, eles têm uma lei contra isso, e a lei deles considera que isso é crime. É considerado um &quot;misdemeanor&quot; lá, que é basicamente como eles chamam um &quot;crime de menor gravidade&quot;, mas ainda sim é crime, é um ato criminoso.\n\n&quot;The illegal entry of non-nationals into the United States is a misdemeanor according to the Immigration and Nationality Act of 1965, which prohibits non-nationals from entering or attempting to enter the United States at any time or place which has not been designated by an immigration officer, and also prohibits non-nationals from eluding inspection by immigration officers&quot;\n\nDefinição de &quot;Misdemeanor&quot; &quot;A misdemeano is any &quot;lesser&quot; CRIMINAL ACT in some common law legal systems&quot;.\n\nFontes: \n\nhttps://en.wikipedia.org/wiki/Illegal_entry#United_States\nhttps://en.wikipedia.org/wiki/Misdemeanor",
+      "date": "2018-07-19 11:25:59",
+      "parent": "1926",
+      "status": "approved"
+    },
+    {
+      "id": "1928",
+      "key": "24129",
+      "wp_id": "1928",
+      "post_id": 24129,
+      "author": "Ganbah",
+      "author_url": "",
+      "content": "Algumas coisas ilegais só resultam em delito. Nem toda ilegalidade é crime.",
+      "date": "2018-07-19 14:14:04",
+      "parent": "1927",
+      "status": "approved"
+    },
+    {
+      "id": "1929",
+      "key": "24129",
+      "wp_id": "1929",
+      "post_id": 24129,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Vamos ser específico, estamos falando de imigração ilegal de acordo com as leis dos Estados Unidos. \n\nEu citei a lei americana dizendo diz que isso é um crime, um ato criminoso.",
+      "date": "2018-07-19 15:18:29",
+      "parent": "1928",
+      "status": "approved"
+    }
+  ]
+}
