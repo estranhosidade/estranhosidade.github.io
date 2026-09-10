@@ -1,0 +1,28 @@
+{
+  "comments": [
+    {
+      "id": "1844",
+      "key": "9423",
+      "wp_id": "1844",
+      "post_id": 9423,
+      "author": "camila vasconcelos",
+      "author_url": "https://plus.google.com/105410951587136658942",
+      "content": "só tenho uma coisa a dizer: me surpreendi com a qualidade de conteúdo.",
+      "date": "2017-03-04 08:49:29",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1845",
+      "key": "9423",
+      "wp_id": "1845",
+      "post_id": 9423,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Nossa, Camila, fico muito de você ter gostado desse texto.  Acho que esse, até hoje, foi um dos textos que deu mais trabalho para escrever. Demorei vários meses pesquisando sobre ele e tudo mais.\n\nMas, certamente valeu a pena, porque é um assunto fascinante, e, apesar de dar trabalho, é muito legal pensar sobre os impactos que esse tipo de tecnologia terá na vida humana.\n\nQualquer dúvida sobre o texto, é só perguntar :)",
+      "date": "2017-03-04 16:52:06",
+      "parent": "1844",
+      "status": "approved"
+    }
+  ]
+}
