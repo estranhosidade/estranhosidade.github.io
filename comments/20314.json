@@ -1,0 +1,28 @@
+{
+  "comments": [
+    {
+      "id": "1897",
+      "key": "20314",
+      "wp_id": "1897",
+      "post_id": 20314,
+      "author": "Mr Dartangnan",
+      "author_url": "https://plus.google.com/100660163284132757429",
+      "content": "Eu entendo perfeitamente. Uma vez comentei com uma ex-namorada sobre infantilismo e por algum motivo as perguntas dela, por mais que racionalmente eu soubesse eram apenas dúvidas de quem não conhece o assunto, interiormente eu me senti quase que ofendido. Nunca mais conversei sobre infantilismo com alguém que não fosse do meio",
+      "date": "2017-08-01 20:35:16",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1898",
+      "key": "20314",
+      "wp_id": "1898",
+      "post_id": 20314,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "É algo complicado de falar. As pessoas não entendem direito, e te olham torto... E às vezes o relacionamento vai para o brejo :\\",
+      "date": "2017-08-05 03:33:41",
+      "parent": "1897",
+      "status": "approved"
+    }
+  ]
+}
