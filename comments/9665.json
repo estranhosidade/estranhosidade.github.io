@@ -1,0 +1,76 @@
+{
+  "comments": [
+    {
+      "id": "1837",
+      "key": "9665",
+      "wp_id": "1837",
+      "post_id": 9665,
+      "author": "Tatiany",
+      "author_url": "",
+      "content": "Oi?",
+      "date": "2015-10-04 22:27:36",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1838",
+      "key": "9665",
+      "wp_id": "1838",
+      "post_id": 9665,
+      "author": "Mr. Unhappy",
+      "author_url": "http://unhappypeople.wordpress.com",
+      "content": "Oi.",
+      "date": "2015-10-05 04:22:41",
+      "parent": "1837",
+      "status": "approved"
+    },
+    {
+      "id": "1839",
+      "key": "9665",
+      "wp_id": "1839",
+      "post_id": 9665,
+      "author": "Tatiany",
+      "author_url": "",
+      "content": "De onde você é? Porque o anonimato?",
+      "date": "2015-10-05 04:38:27",
+      "parent": "1838",
+      "status": "approved"
+    },
+    {
+      "id": "1840",
+      "key": "9665",
+      "wp_id": "1840",
+      "post_id": 9665,
+      "author": "Mr. Unhappy",
+      "author_url": "http://unhappypeople.wordpress.com",
+      "content": "De onde eu sou? Bem, eu sou do estado de São Paulo, é só isto que eu poderia dizer em relação a este assunto.\n\nPor que o anonimato? Bem, esta é uma boa pergunta…\n\nBasicamente, porque aqui eu falo de coisas extremamente pessoais, coisas que eu não teria coragem de que meus amigos e familia lessem. Falo de coisas pelo qual eu sofreria um ostracismo social se as pessoas soubessem. Que me olhariam com estranheza.\n\nComo o nome do site diz, eu falo aqui da minha “ESTRANHOSIDADE”.\n\nQuero dizer, basta olhar meus certos posts meus, como estes:\n\n* https://estranhosidade.wordpress.com/2014/07/05/como-me-tornei-infantilista/\n\n* https://estranhosidade.wordpress.com/2013/08/28/about-sex-eu-queria-ser-uma-menina/\n\n* https://estranhosidade.wordpress.com/2015/06/25/inveja-de-meninas/\n\n* https://estranhosidade.wordpress.com/2014/01/26/a-garota-dentro-de-mim/\n\nE você entenderá o porquê eu não em exponho.Eu diria que este blog é uma tentativa de me salvar escrevendo o que eu sinto. Ainda que ninguem leia, eu preciso dizer o que eu sinto.\n\nSabe, de por pra fora o que eu sinto. Ao mesmo tempo, eu pago um certo preço aqui, porque… eu escrevo muitos textos interessantes, que não são sobre este meus “segredos” e “bizarrisses”, porém, eu obviamente, não posso mostrá-los para meus amigos e conhecidos, visto que poderiam descobrir quem eu sou, se procurassem estes textos na internet e achassem neste site kk\n\nEnfim… Eu espero que tenha respondido a sua pergunta :)",
+      "date": "2015-10-05 05:25:46",
+      "parent": "1837",
+      "status": "approved"
+    },
+    {
+      "id": "1841",
+      "key": "9665",
+      "wp_id": "1841",
+      "post_id": 9665,
+      "author": "Tatiany",
+      "author_url": "",
+      "content": "Gostaria de ter mais tempo pra ler seus &quot;segredos&quot; e &quot;bizarrices&quot;, li alguns posts e gostei do lado &quot;lateral&quot; como você vê as coisas, te achei em alguns casos engraçado e vi que temos algumas mesmas opiniões, também percebi que você escreve muito bem. \n\nQuanto ao anonimato, eu gostei, pode permitir uma amizade sem futilidades, mas só para dar &quot;asas&quot; a imaginação, então você é um menino? de quantos anos?",
+      "date": "2015-10-05 14:58:20",
+      "parent": "1840",
+      "status": "approved"
+    },
+    {
+      "id": "1842",
+      "key": "9665",
+      "wp_id": "1842",
+      "post_id": 9665,
+      "author": "Mr. Unhappy",
+      "author_url": "http://unhappypeople.wordpress.com",
+      "content": "Sobre a primeira pergunta... é complicado. Digamos que eu nasci menino que gostaria de ter nascido menina.\n\nSobre a minha idade, eu tenho 23.",
+      "date": "2015-10-06 13:35:47",
+      "parent": "1841",
+      "status": "approved"
+    }
+  ]
+}
