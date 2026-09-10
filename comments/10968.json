@@ -1,0 +1,28 @@
+{
+  "comments": [
+    {
+      "id": "1846",
+      "key": "10968",
+      "wp_id": "1846",
+      "post_id": 10968,
+      "author": "Intelligenza Artificiale: dal poker alla cucina, ormai è ovunque",
+      "author_url": "https://hej.ai/blog/intelligenza-artificiale-ovunque/",
+      "content": "[&amp;#8230;] ti sei incuriosito ecco alcuni link che potrebbero interessarti in ambito cinematografico, medico, artistico, automobilistico, legale, politico e [&amp;#8230;]",
+      "date": "2019-06-20 16:08:28",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1847",
+      "key": "10968",
+      "wp_id": "1847",
+      "post_id": 10968,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Thank you! I'll give a look into!",
+      "date": "2019-06-20 20:30:41",
+      "parent": "1846",
+      "status": "approved"
+    }
+  ]
+}
