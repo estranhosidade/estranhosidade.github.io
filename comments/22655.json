@@ -1,0 +1,28 @@
+{
+  "comments": [
+    {
+      "id": "1915",
+      "key": "22655",
+      "wp_id": "1915",
+      "post_id": 22655,
+      "author": "gustavo souza",
+      "author_url": "",
+      "content": "Olá sei que as vezes é foda escrever e não obter nenhuma resposta, mas na boa eu me importo com o que você escreve, sério graças ao seu blog descobri que o DDLG, além de descobrir que gosto disso e que não tem nada de &quot;errado&quot;.\nObrigador por existir e me dar bons insights sobre algumas coisas.",
+      "date": "2018-01-27 19:46:14",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1916",
+      "key": "22655",
+      "wp_id": "1916",
+      "post_id": 22655,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Obrigado.",
+      "date": "2018-01-28 00:22:03",
+      "parent": "1915",
+      "status": "approved"
+    }
+  ]
+}
