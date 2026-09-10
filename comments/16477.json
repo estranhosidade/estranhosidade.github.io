@@ -1,0 +1,88 @@
+{
+  "comments": [
+    {
+      "id": "1871",
+      "key": "16477",
+      "wp_id": "1871",
+      "post_id": 16477,
+      "author": "Julia Monteiro",
+      "author_url": "",
+      "content": "FOI VC que criou essa palavra?",
+      "date": "2019-10-30 21:23:17",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1872",
+      "key": "16477",
+      "wp_id": "1872",
+      "post_id": 16477,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Sim. Essa palavra foi, mas a ideia a ideia como um todo foi inspirada no projeto &quot;The Dictionary of Obscure Sorrows&quot;.",
+      "date": "2019-10-31 10:58:49",
+      "parent": "1871",
+      "status": "approved"
+    },
+    {
+      "id": "1873",
+      "key": "16477",
+      "wp_id": "1873",
+      "post_id": 16477,
+      "author": "Julia Monteiro",
+      "author_url": "",
+      "content": "eu posso criar um canal no youtube com esse nome? tem problema não né?",
+      "date": "2019-10-31 19:16:04",
+      "parent": "1872",
+      "status": "approved"
+    },
+    {
+      "id": "1874",
+      "key": "16477",
+      "wp_id": "1874",
+      "post_id": 16477,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Sem problema.",
+      "date": "2019-10-31 19:36:49",
+      "parent": "1873",
+      "status": "approved"
+    },
+    {
+      "id": "1875",
+      "key": "16477",
+      "wp_id": "1875",
+      "post_id": 16477,
+      "author": "Julia Monteiro",
+      "author_url": "",
+      "content": "onde encontro esse projeto? e qual foi a palavra que te inspirou?",
+      "date": "2019-10-31 19:57:52",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1876",
+      "key": "16477",
+      "wp_id": "1876",
+      "post_id": 16477,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "No site do cara https://www.dictionaryofobscuresorrows.com e no canal do youtube dele https://www.youtube.com/channel/UCDetdM5XDZD1xrQHDPgEg5w (os vídeos estão em inglês mas tem legenda). É um projeto gringo no qual o cara inventa palavras para descrever emoções. Não foi uma palavra em específico, mas é mais a ideia como um todo que me inspirou. Tem outros outras palavras que cheguei a criar, caso esteja interessada:\nhttps://estranhosidade.wordpress.com/category/dicionario-das-tristezas-obscuras-inspirado/",
+      "date": "2019-10-31 21:17:32",
+      "parent": "1875",
+      "status": "approved"
+    },
+    {
+      "id": "1877",
+      "key": "16477",
+      "wp_id": "1877",
+      "post_id": 16477,
+      "author": "Julia Monteiro",
+      "author_url": "",
+      "content": "Gostei da palavra, bonita, posso colocar a sua definição tbm na minha página? como eu poderia colocar a referencia?",
+      "date": "2019-11-03 20:01:57",
+      "parent": "0",
+      "status": "approved"
+    }
+  ]
+}
