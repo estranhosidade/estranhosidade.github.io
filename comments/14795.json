@@ -1,0 +1,28 @@
+{
+  "comments": [
+    {
+      "id": "1864",
+      "key": "14795",
+      "wp_id": "1864",
+      "post_id": 14795,
+      "author": "Dartangnan",
+      "author_url": "",
+      "content": "Seus textos são bem interessantes, mas é uma pena que sempre demonstrem uma certa melancolia. Não que você deva escrever isso ou aquilo. Acho sua proposta de ser honesto no blog algo muito legal. Mas a qualidade de seus escritos deixam suas emoções ali contidas quase palpáveis, como escrita em braile, o que causa uma certa... aflição.",
+      "date": "2016-09-02 16:47:06",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1865",
+      "key": "14795",
+      "wp_id": "1865",
+      "post_id": 14795,
+      "author": "Sr. Estranho",
+      "author_url": "http://unhappypeople.wordpress.com",
+      "content": "Eu escrevo muito o que eu sinto, esse blog é uma representação despedida de minha alma. Aqui eu tento ao máximo não apenas não mentir, mas também não esconder nada. E muitas vezes eu sou um tanto melancólico e triste.  \n\nPorém, em alguns textos, especialmente em relação ao futuro, eu também tento mostrar uma certa esperança de que as coisas podem, ao menos teoricamente, ser muito boas um dia. Talvez eu seja um otimista da vida alheia. Eu acredito na solução dos problemas de outras pessoas e de pessoas que nascerão, mas sou um tanto cético e um pouco descrente em relação a solução de meus problemas.",
+      "date": "2016-09-02 21:36:43",
+      "parent": "1864",
+      "status": "approved"
+    }
+  ]
+}
