@@ -35,6 +35,54 @@
       "date": "2016-10-08 02:48:37",
       "parent": "0",
       "status": "approved"
+    },
+    {
+      "id": "1763",
+      "key": "1765",
+      "wp_id": "1763",
+      "post_id": 1765,
+      "author": "Déby",
+      "author_url": "",
+      "content": "Oi, onde vc conseguiu o arquivo,por fvr?",
+      "date": "2016-10-08 02:50:36",
+      "parent": "1760",
+      "status": "approved"
+    },
+    {
+      "id": "1764",
+      "key": "1765",
+      "wp_id": "1764",
+      "post_id": 1765,
+      "author": "Sr. Estranho",
+      "author_url": "http://unhappypeople.wordpress.com",
+      "content": "Olá Déby, realmente esse filme é muito difícil de achar. Mas, você pode encontrar o filme aqui:\n\n<strong>Link para assistir o filme online: </strong>http://video.meta.ua/7851554.video (clique na primeira opção do lado esquerdo, creio eu)\n\n<strong>Torrent (No Formato de Magnet Link) do Filme: </strong>magnet:?xt=urn:btih:E790E26E9A4D6C58AC8A8CF5DBC8F83454D79259&amp;amp;tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet\n\nInfelizmente nenhum dos links contem legendas em português ou em inglês sequer. No primeiro link, o para assistir online, o filme está com áudio em italiano. No segundo, o filme contem o áudio em russo e em italiano.\n\nCaso você não saiba como baixar magnet link, segue o link do tutorial: https://www.youtube.com/watch?v=6WMbWSPpdgA",
+      "date": "2016-10-08 04:28:30",
+      "parent": "1762",
+      "status": "approved"
+    },
+    {
+      "id": "1765",
+      "key": "1765",
+      "wp_id": "1765",
+      "post_id": 1765,
+      "author": "Déby",
+      "author_url": "",
+      "content": "Nooooossa,obg,consegui. 😘",
+      "date": "2016-10-08 21:26:56",
+      "parent": "1764",
+      "status": "approved"
+    },
+    {
+      "id": "1766",
+      "key": "1765",
+      "wp_id": "1766",
+      "post_id": 1765,
+      "author": "Renato Martins Lazzari",
+      "author_url": "https://plus.google.com/117106620457292622237",
+      "content": "Assisti esse filme em '77 na TV aberta, numa daquelas sessões da madrugada, e tinha legendas...",
+      "date": "2019-05-03 22:37:09",
+      "parent": "0",
+      "status": "approved"
     }
   ]
 }
