@@ -1,0 +1,28 @@
+{
+  "comments": [
+    {
+      "id": "1888",
+      "key": "19405",
+      "wp_id": "1888",
+      "post_id": 19405,
+      "author": "Augusto Trevizani (@augusto68009)",
+      "author_url": "http://twitter.com/augusto68009",
+      "content": "Onde eu poderia ver o episodio ?",
+      "date": "2017-07-13 00:53:44",
+      "parent": "0",
+      "status": "approved"
+    },
+    {
+      "id": "1889",
+      "key": "19405",
+      "wp_id": "1889",
+      "post_id": 19405,
+      "author": "Sr. Estranho",
+      "author_url": "http://estranhosidade.wordpress.com",
+      "content": "Ótima pergunta. Ele ainda não foi ao ar – por isso que eu não coloquei. Porém, eles disponibilizam todos os episódios do programa no site dele:\n\nhttps://spuitenenslikken.bnn.nl\n\nMas assim que ele for ao ar eu vou colocar um link nesse post :)",
+      "date": "2017-07-13 17:52:57",
+      "parent": "1888",
+      "status": "approved"
+    }
+  ]
+}
