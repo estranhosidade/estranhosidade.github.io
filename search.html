@@ -16,7 +16,7 @@
 --text-muted-search: #767676;
 --link-color-search: #24890d;
 --primary-color-search: #24890d;
---url-color-search: #30d8ff;
+--url-color-search: #004cdc;
 --visited-color-search: #24890d;
 --border-color-search: #202020;
 --linkhover: #41a62a;
@@ -463,7 +463,7 @@ var currentQuery = '';
 var timer        = null;
 var state        = { q: '', rows: [], parsed: null };
 
-/* ── Index loading (fetched into memory — never offered as a file download) ── */
+/* -- Index loading (fetched into memory — never offered as a file download) -- */
 function loadIndex(){
   if (!indexPromise) {
     if (progEl) progEl.classList.remove('state-hidden');
@@ -487,7 +487,7 @@ function lower(s){ return String(s == null ? '' : s).toLowerCase(); }
 function pad2(n){ n = parseInt(n, 10); return (n < 10 ? '0' : '') + n; }
 function isWord(ch){ return !!ch && /[\p{L}\p{N}]/u.test(ch); }
 
-/* ── Query parsing — port of cbs_parse_query (Custom Blog Search) ── */
+/* -- Query parsing — port of cbs_parse_query (Custom Blog Search) -- */
 function parseQuery(query){
   var out = { text: '', alternates: [], excludes: [], author: '', after: '', before: '', id: 0, related: '' };
   query = String(query || '').trim();
@@ -540,7 +540,7 @@ function parseQuery(query){
   return out;
 }
 
-/* ── Whole-term matching — port of cbs_contains_whole_term ── */
+/* -- Whole-term matching — port of cbs_contains_whole_term -- */
 function containsWholeTerm(haystack, term){
   term = String(term || '').trim();
   if (!term) return true;
@@ -557,7 +557,7 @@ function containsWholeTerm(haystack, term){
   }
 }
 
-/* ── Index rows: precomputed lowercase fields for fast matching ── */
+/* -- Index rows: precomputed lowercase fields for fast matching -- */
 function termName(t){ return typeof t === 'string' ? t : (t && t.name) || ''; }
 function itemBody(item){ var b = String(item.text || ''); return b ? b : String(item.summary || ''); }
 function prepare(items){
@@ -614,8 +614,8 @@ function expressionMatches(row, expr){
   return true;
 }
 
-/* ── Relevance score (static analogue of the live server's match ranking):
-   whole-term hits in the title weigh most, then summary, then body. ── */
+/* -- Relevance score (static analogue of the live server's match ranking):
+   whole-term hits in the title weigh most, then summary, then body. -- */
 function countOccurrences(haystack, term){
   if (!haystack || !term) return 0;
   var t = lower(term);
@@ -678,7 +678,7 @@ function runSearch(items, rawQuery, sort){
   });
   return { parsed: p, rows: rows };
 }
-/* ── Snippet terms — port of cbs_snippet_terms ── */
+/* -- Snippet terms — port of cbs_snippet_terms -- */
 function snippetTerms(alternates){
   var terms = [], seen = {}, out = [];
   (alternates || []).forEach(function(expr){
@@ -706,7 +706,7 @@ function snippetTerms(alternates){
   return out;
 }
 
-/* ── Keyword-centred snippet — port of cbs_keyword_snippet ── */
+/* -- Keyword-centred snippet — port of cbs_keyword_snippet -- */
 function keywordSnippet(text, terms, radius, maxWindows){
   radius = radius || 60;
   maxWindows = maxWindows || 4;
@@ -833,7 +833,7 @@ function keywordSnippet(text, terms, radius, maxWindows){
   return outStr.replace(/(?:\s*\[\.\.\.\]){2,}/g, ' [...]').replace(/\s+/g, ' ').trim();
 }
 
-/* ── Highlighting — port of the live plugin's helpers ── */
+/* -- Highlighting — port of the live plugin's helpers -- */
 var _decoder = document.createElement('div');
 function decodeEntities(s){
   _decoder.textContent = s == null ? '' : String(s);
