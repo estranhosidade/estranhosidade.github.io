@@ -167,7 +167,7 @@ Table of Contents:
   --text-muted-search: #767676;
   --link-color-search: #24890d;
   --primary-color-search: #24890d;
-  --url-color-search: #324ed0;
+  --url-color-search: #30d8ff;
   --visited-color-search: #24890d;
   --border-color-search: #202020;
 }
@@ -224,7 +224,7 @@ Table of Contents:
     --text-muted-search: #939393;
     --link-color-search: #0fa;
     --primary-color-search: #07c956;
-    --url-color-search: #537cf7;
+    --url-color-search: #30d8ff;
     --visited-color-search: #00e76d;
     --border-color-search: #7777772b;
   }
@@ -924,13 +924,16 @@ div.wp-caption.alignright :is(img[class*="wp-image-"], .wp-caption-text) {
 
 .search-toggle {
   background-color: var(--link);
+  align-items: center;
   cursor: pointer;
+  display: flex;
   float: right;
   height: var(--header-height);
-  margin-right: 38px;
-  text-align: center;
+  justify-content: center;
+  /* The .menu-toggle button this used to clear is gone (the search toggle
+     replaced it), so the toggle sits flush at the right edge of the bar. */
+  margin-right: 0;
   width: var(--header-height);
-  display: none;
 }
 
 .search-toggle:hover,
@@ -942,7 +945,7 @@ div.wp-caption.alignright :is(img[class*="wp-image-"], .wp-caption-text) {
   color: var(--text-white);
   content: "";
   font-size: var(--text-size-2xl);
-  margin-top: var(--text-size-md);
+  line-height: 1;
 }
 
 .search-toggle .screen-reader-text {
@@ -1180,7 +1183,10 @@ a.post-thumbnail:hover {
   display: block;
 }
 
-.entry-meta .tag-links a {
+/* Tag chips. The GitHub Comments submit button (.ghc-submit) shares
+   these exact rules so it renders as the same pill. */
+.entry-meta .tag-links a,
+.ghc-submit {
   background-color: var(--text-muted);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   color: var(--text-white);
@@ -1195,12 +1201,14 @@ a.post-thumbnail:hover {
   text-transform: uppercase;
 }
 
-.entry-meta .tag-links a:hover {
+.entry-meta .tag-links a:hover,
+.ghc-submit:hover {
   background-color: var(--linkhover);
   color: var(--text-white);
 }
 
-.entry-meta .tag-links a::before {
+.entry-meta .tag-links a::before,
+.ghc-submit::before {
   border-top: var(--space-md) solid transparent;
   border-right: 8px solid var(--text-muted);
   border-bottom: var(--space-md) solid transparent;
@@ -1212,11 +1220,13 @@ a.post-thumbnail:hover {
   width: 0;
 }
 
-.entry-meta .tag-links a:hover::before {
+.entry-meta .tag-links a:hover::before,
+.ghc-submit:hover::before {
   border-right-color: var(--linkhover);
 }
 
-.entry-meta .tag-links a::after {
+.entry-meta .tag-links a::after,
+.ghc-submit::after {
   background-color: var(--text-white);
   border-radius: var(--radius-full);
   content: "";
@@ -2526,6 +2536,14 @@ a.post-thumbnail:hover {
     margin-right: var(--space-md);
   }
 
+  /* Default chip icon for standard posts ("Padrao") - only the span
+     rendered by content.php carries .entry-format-standard, so the
+     format-specific rules below keep winning for real formats. */
+  .site-content .post-format.entry-format-standard a::before {
+    content: "\f100"; /* genericons "standard" */
+    margin-right: var(--space-2xs);
+  }
+
   .site-content .format-video .post-format a::before {
     content: "";
   }
@@ -3385,7 +3403,8 @@ a.post-thumbnail:hover {
     margin: var(--space-xl) auto;
   }
 
-  .entry-meta .tag-links a {
+  .entry-meta .tag-links a,
+  .ghc-submit {
     color: var(--text-white);
   }
 
@@ -3828,12 +3847,14 @@ a.citation+a.citation {
     border-top: 1px solid var(--accent-strong);
   }
 
-  .entry-meta .tag-links a {
+  .entry-meta .tag-links a,
+  .ghc-submit {
     background-color: var(--accent-strong);
     color: var(--selection-text);
   }
 
-  .entry-meta .tag-links a::before {
+  .entry-meta .tag-links a::before,
+  .ghc-submit::before {
     border-right-color: var(--accent-strong);
   }
 
@@ -3921,11 +3942,14 @@ article.related-post {
 ========================================================================== */
 
 .entry-meta .tag-links a::after,
-.entry-meta .tag-links a::before {
+.entry-meta .tag-links a::before,
+.ghc-submit::after,
+.ghc-submit::before {
   display: none;
 }
 
-.entry-meta .tag-links a {
+.entry-meta .tag-links a,
+.ghc-submit {
   border-radius: 5px;
 }
 
@@ -3949,19 +3973,17 @@ article.related-post {
  * Exclude the elements behind those icon pseudo-elements from the override
  * so the genericons font (set above) can never be clobbered by Consolas.
  */
-
-*:not(:is(.site-content .format-aside .post-format a,
-    .site-content .entry-date a,
-    .attachment .site-content span.entry-date,
-    .entry-content .edit-link a,
-    .entry-meta .edit-link a)),
+ 
+*:not(:is(
+    .wp-video,
+    .wp-video *,
+)),
 button,
 input,
 select,
 textarea {
   font-family: Consolas;
 }
-
 /* ==========================================================================
 19.0 SIDEBAR HIDING
 ========================================================================== */
@@ -3982,22 +4004,33 @@ textarea {
 ========================================================================== */
 
 /*
- * One markup, two places:
+ * Blog index only: dividers injected between months by js/month-labels.js
+ * (also as Catch Infinite Scroll appends further pages).
  *
- *   - Blog index: dividers injected between months by js/month-labels.js
- *     (also as Catch Infinite Scroll appends further pages);
- *   - Month archives: archive.php renders the page title server-side with
- *     the same <div class="month-header" data-month="YYYY-MM"> wrapper and
- *     a <h1 class="page-title month-title"> heading.
+ * Month ARCHIVE pages no longer render this markup — archive.php prints
+ * the same <header class="archive-header"> / <h1 class="archive-title">
+ * used by the category, tag and author archives, so those page headers
+ * share the exact same CSS rules as every other archive page.
  *
- * The .month-title rule below is therefore the single source of truth for
- * the month label look ("março 2026", "setembro 2026", …).
+ * The .month-title rule below stays the single source of truth for the
+ * blog-index month label look ("março 2026", "setembro 2026", …).
  */
 
 .month-header {
   text-align: center;
   clear: both;
   margin-bottom: 10px;
+}
+
+/*
+ * Extra space between a post and the month divider that follows it
+ * (blog index). Uses padding instead of margin-top on purpose: the
+ * preceding article already has margin-bottom: var(--space-md) (10px),
+ * and adjacent sibling margins collapse, so a margin-top here would
+ * cancel out and change nothing visually.
+ */
+.post + .month-header {
+  padding-top: 10px;
 }
 
 
@@ -4021,6 +4054,14 @@ textarea {
   letter-spacing: 0.12em;
   opacity: 0.85;
 }
+
+@media screen and (width <= 1008px) {
+  .site-content {
+    margin-right: 0%;
+    padding: 0 var(--space-md);
+  }
+}
+
 
 /* === Inlined from genericons/genericons.css === */
 @font-face {
