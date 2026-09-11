@@ -1,0 +1,261 @@
+/**
+ * GitHub Front-End Comments — frontend styles.
+ *
+ * Inherits theme colors, margins, padding and fonts. The goal is to look
+ * identical to the native WordPress comment area with minimal overrides.
+ *
+ * Based on the Estranhosidade theme's comment styling.
+ */
+
+/* --- Comments container ----------------------------------------------------
+   The wrapper (.comments-area) sizing and the site-wide typography come from
+   the theme's style.css (".comments-area", global font rules), so nothing is
+   redeclared here. Only box-sizing protection for the plugin markup. */
+
+.ghc-comments *,
+.ghc-comments *::before,
+.ghc-comments *::after {
+	box-sizing: border-box;
+}
+
+.ghc-hidden { display: none !important; }
+
+/* --- Comment list ---------------------------------------------------------- */
+
+.ghc-comment-list {
+	list-style: none;
+	margin: 0 0 var(--space-4xl, 3em) 0;
+	padding: 0;
+}
+
+.ghc-comment-list .children {
+	list-style: none;
+	margin-left: 15px;
+}
+
+@media (max-width: 600px) {
+	.ghc-comment-list .children {
+		margin-left: 10px;
+	}
+}
+
+.ghc-comment {
+	border-top: 1px solid var(--border-light, rgba(0, 0, 0, 0.1));
+	margin-bottom: var(--space-xl, 1.5em);
+	padding-top: var(--space-xl, 1.5em);
+}
+
+.ghc-comment-list > .ghc-comment:first-child {
+	border-top: 0;
+	padding-top: 0;
+}
+
+.ghc-comment-header {
+	position: relative;
+	padding-left: var(--space-2xl, 2.5em);
+}
+
+.ghc-avatar {
+	border: 1px solid var(--border-light, rgba(0, 0, 0, 0.1));
+	height: var(--text-size-lg, 1.25em);
+	padding: var(--space-2xs, 0.25em);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: var(--text-size-lg, 1.25em);
+	border-radius: 0;
+	background: transparent;
+}
+
+.ghc-author {
+	font-size: var(--text-size-md, 1em);
+	line-height: var(--lh-nav, 1.5);
+	font-weight: var(--weight-black, 700);
+}
+
+.ghc-author a {
+	color: var(--text, inherit);
+	text-decoration: none;
+}
+
+.ghc-author a:hover {
+	color: var(--linkhover, inherit);
+}
+
+.ghc-date {
+	font-size: var(--text-size-sm, 0.875em);
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+.ghc-date a {
+	color: var(--text-muted, inherit);
+}
+
+.ghc-date a:hover {
+	color: var(--linkhover, inherit);
+}
+
+/* --- Comment body and actions ---------------------------------------------- */
+
+.ghc-comment-body {
+	padding-left: var(--space-2xl, 2.5em);
+}
+
+.ghc-comment-body > p:first-child { margin-top: 0; }
+.ghc-comment-body > p:last-child { margin-bottom: 0; }
+
+.ghc-comment-body code,
+.ghc-comment-body pre,
+.ghc-comment-body blockquote {
+	font-size: 0.95em;
+}
+
+.ghc-comment-actions {
+	margin-top: var(--space-xl, 1.5em);
+	padding-left: var(--space-2xl, 2.5em);
+}
+
+.ghc-reply-btn {
+	cursor: pointer;
+	font-size: var(--text-size-sm, 0.875em);
+	line-height: 2;
+	text-transform: uppercase;
+	color: var(--text-muted, inherit);
+	text-decoration: none;
+}
+
+.ghc-reply-btn:hover {
+	color: var(--linkhover, inherit);
+}
+
+/* --- Form ------------------------------------------------------------------ */
+
+.ghc-reply-status {
+	margin-bottom: var(--space-xl, 1.5em);
+	font-size: 0.9em;
+}
+
+.ghc-cancel-reply {
+	cursor: pointer;
+	background: none;
+	border: 0;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+	text-decoration: underline;
+}
+
+.ghc-comment-form-wrap {
+	margin-bottom: var(--space-xl, 1.5em);
+}
+
+.ghc-form {
+	margin: 0;
+	padding: 0;
+}
+
+.ghc-form p {
+	margin-bottom: 0;
+}
+
+.ghc-field {
+	margin-bottom: 0.9em;
+}
+
+.ghc-field label {
+	display: block;
+	margin-bottom: 0.3em;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+/* Sizing, border, radius, padding, background, font and focus state come
+   from the theme's global ":is(input, textarea)" rules (style.css, section
+   3.0) - the same ones that style the native comment form fields. Only the
+   width is declared here because the GHC form is not inside .comment-form. */
+.ghc-field input[type="text"],
+.ghc-field textarea {
+	width: 100%;
+}
+
+.ghc-hp {
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	margin: -1px !important;
+	padding: 0 !important;
+	border: 0 !important;
+	clip: rect(0 0 0 0) !important;
+	overflow: hidden !important;
+}
+
+.ghc-submit-row {
+	margin: 0;
+}
+
+/* Look (pill, colors, hover) comes from the theme's tag-chip rules
+   (style.css shares them with .entry-meta .tag-links a); only what the
+   theme does not style lives here. */
+.ghc-submit {
+	cursor: pointer;
+	border: 0;
+	vertical-align: bottom;
+}
+
+.ghc-submit:active {
+	background-color: var(--link-active, #55d737);
+}
+
+.ghc-submit[disabled] {
+	opacity: 0.6;
+	cursor: progress;
+}
+
+/* --- Messages -------------------------------------------------------------- */
+
+.ghc-form-message {
+	margin-top: 0.9em;
+	padding: 0.75em 1em;
+	border: 1px solid var(--border-light, rgba(0, 0, 0, 0.1));
+	font-size: 0.95em;
+}
+
+.ghc-form-message.ghc-ok {
+	border-color: rgba(60, 160, 80, 0.45);
+	background: rgba(60, 160, 80, 0.08);
+}
+
+.ghc-form-message.ghc-bad {
+	border-color: rgba(200, 60, 60, 0.45);
+	background: rgba(200, 60, 60, 0.08);
+}
+
+/* --- No-JS fallback --------------------------------------------------------- */
+
+.ghc-noscript {
+	padding: 1em;
+	border: 1px solid var(--border-light, rgba(0, 0, 0, 0.1));
+	text-align: center;
+}
+
+/* --- Dark mode support ----------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+	.ghc-comment {
+		border-top-color: var(--border-white-light, rgba(255, 255, 255, 0.1));
+	}
+
+	.ghc-avatar {
+		border-color: var(--border-white-light, rgba(255, 255, 255, 0.1));
+	}
+
+	/* Field borders/colors in dark mode are forced on every input/textarea
+	   by the theme's ":is(.comments-area:focus, input, textarea)" dark-mode
+	   rule (!important), so nothing is needed here. */
+
+	.ghc-form-message {
+		border-color: var(--border-white-light, rgba(255, 255, 255, 0.1));
+	}
+}
+
