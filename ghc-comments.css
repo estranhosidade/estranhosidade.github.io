@@ -129,6 +129,27 @@
 	color: var(--linkhover, inherit);
 }
 
+/* --- Inline answer bar ------------------------------------------------------ */
+/* When a visitor clicks Reply on a comment, the form is moved directly below
+   that comment (see setReply() in ghc-comments.js). The bar is indented to
+   match the comment body and separated by a left rule, like a quote. */
+
+.ghc-comment .ghc-inline-reply {
+	margin: var(--space-lg, 1.2em) 0 var(--space-xl, 1.5em) var(--space-2xl, 2.5em);
+	padding-left: var(--space-lg, 1.2em);
+	border-left: 2px solid var(--border-light, rgba(0, 0, 0, 0.1));
+}
+
+.ghc-comment .ghc-inline-reply .ghc-reply-status {
+	margin-bottom: 0.6em;
+}
+
+@media (max-width: 600px) {
+	.ghc-comment .ghc-inline-reply {
+		margin-left: var(--space-xl, 1.5em);
+	}
+}
+
 /* --- Form ------------------------------------------------------------------ */
 
 .ghc-reply-status {
@@ -248,6 +269,10 @@
 
 	.ghc-avatar {
 		border-color: var(--border-white-light, rgba(255, 255, 255, 0.1));
+	}
+
+	.ghc-comment .ghc-inline-reply {
+		border-left-color: var(--border-white-light, rgba(255, 255, 255, 0.1));
 	}
 
 	/* Field borders/colors in dark mode are forced on every input/textarea

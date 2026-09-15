@@ -45,7 +45,10 @@
 		totalPages: 1,
 		replyTo: null,
 		replyAuthor: '',
-		loading: false
+		loading: false,
+		// Where the form lives by default (below the list). Remembered the
+		// first time the form is moved inline so it can be put back later.
+		formHome: null
 	};
 
 	/* --- Helpers ----------------------------------------------------------- */
@@ -69,6 +72,17 @@
 
 	function initial(author) {
 		return author ? String(author).trim().charAt(0) : '?';
+	}
+
+	// Pseudo-random hue (0-359) derived from the author name, so each
+	// author keeps the same color across page loads and re-renders.
+	function avatarHue(author) {
+		var str = String(author || '?').toLowerCase();
+		var hash = 0;
+		for (var i = 0; i < str.length; i++) {
+			hash = ((hash * 31) + str.charCodeAt(i)) >>> 0;
+		}
+		return hash % 360;
 	}
 
 	function findComment(id) {
@@ -187,7 +201,9 @@
 
 	function renderComment(node) {
 		var header = el('header', 'ghc-comment-header');
-		header.appendChild(el('span', 'ghc-avatar', esc(initial(node.author))));
+		var avatar = el('span', 'ghc-avatar', esc(initial(node.author)));
+		avatar.style.setProperty('--ghc-hue', avatarHue(node.author));
+		header.appendChild(avatar);
 
 		var meta = el('div', 'ghc-comment-meta');
 		var authorHtml = node.authorUrl
@@ -254,6 +270,7 @@
 
 	function render() {
 		root.innerHTML = '';
+		state.formHome = null; // The re-render rebuilds the form node.
 		root.appendChild(renderList());
 		bindFormEvents();
 	}
@@ -325,6 +342,14 @@
 		state.replyTo = id;
 		state.replyAuthor = author || '';
 
+		var formWrap = root.querySelector('.ghc-comment-form-wrap');
+
+		// Remember where the form lives by default (below the list) the first
+		// time it is moved, so it can always be returned there afterwards.
+		if (id && formWrap && !state.formHome) {
+			state.formHome = { parent: formWrap.parentNode, next: formWrap.nextSibling };
+		}
+
 		var status = root.querySelector('[data-ghc-reply-status]');
 		var text = root.querySelector('[data-ghc-reply-text]');
 
@@ -335,6 +360,45 @@
 			} else {
 				text.innerHTML = '';
 				status.classList.add('ghc-hidden');
+			}
+		}
+
+		// Inline answer bar: move the form directly below the comment being
+		// replied to. Without a target (new top-level comment or cancelled
+		// reply) the form goes back to its default spot below the list.
+		if (formWrap) {
+			var target = id ? document.getElementById('ghc-comment-' + id) : null;
+			var textareaEl = formWrap.querySelector('#ghc-content');
+
+			if (target) {
+				formWrap.classList.add('ghc-inline-reply');
+				// Place the bar between the comment body and its children so
+				// the whole reply thread stays visually grouped underneath.
+				var childrenList = null;
+				for (var i = 0; i < target.children.length; i++) {
+					var child = target.children[i];
+					if (child.tagName === 'UL' && /(^|\s)children(\s|$)/.test(child.className)) {
+						childrenList = child;
+						break;
+					}
+				}
+				if (childrenList) {
+					target.insertBefore(formWrap, childrenList);
+				} else {
+					target.appendChild(formWrap);
+				}
+				// A shorter box reads better as an inline answer bar.
+				if (textareaEl) {
+					textareaEl.setAttribute('rows', '4');
+				}
+			} else {
+				formWrap.classList.remove('ghc-inline-reply');
+				if (textareaEl) {
+					textareaEl.setAttribute('rows', '8');
+				}
+				if (state.formHome && state.formHome.parent) {
+					state.formHome.parent.insertBefore(formWrap, state.formHome.next);
+				}
 			}
 		}
 
