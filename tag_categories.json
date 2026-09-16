@@ -1,5 +1,11 @@
 {
     "tags": {
+        "fashion": "Fashion",
+        "mh370": "MH370",
+        "moda": "Moda",
+        "white-tights": "White Tights",
+        "ditadura": "Ditadura",
+        "stf": "STF",
         "abdl": "ABDL",
         "ageplay": "Ageplay",
         "cute": "Cute",
@@ -14,7 +20,6 @@
         "tecnologia": "Tecnologia",
         "ditaura": "Ditaura",
         "simpsons": "Simpsons",
-        "stf": "STF",
         "amanha": "Amanha",
         "biologia": "Biologia",
         "futuro": "Futuro",
@@ -36,7 +41,6 @@
         "eleicao": "Eleição",
         "machine-translation": "Machine Translation",
         "morte": "Morte",
-        "white-tights": "White Tights",
         "ciencia": "Ciência",
         "dinheiro": "Dinheiro",
         "influencia": "Influência",
@@ -46,7 +50,6 @@
         "daddy": "Daddy",
         "regressed": "Regressed",
         "adreams": "ADreams",
-        "mh370": "MH370",
         "doenca": "Doença",
         "fator-merda": "Fator Merda",
         "luto": "Luto",
@@ -64,20 +67,14 @@
         "stonetoss": "Stonetoss",
         "zumbi-filosofico": "Zumbi Filosófico",
         "cultura": "Cultura",
-        "filme": "Filme",
-        "cinismo": "Cinismo",
-        "justica": "Justiça",
-        "leis": "Leis",
-        "parcialidade": "Parcialidade",
-        "reducao-da-maioridade": "Redução da Maioridade",
-        "vip": "VIP"
+        "filme": "Filme"
     },
     "cats": {
+        "diario": "Diário",
         "direcao-de-arte-ia": "Direção de Arte/IA",
         "imagens": "Imagens",
         "ai-music": "AI Music",
         "art-work": "Art Work",
-        "diario": "Diário",
         "videos": "Vídeos",
         "links": "Links",
         "autoria-de-outros": "Autoria de Outros",
@@ -95,6 +92,38 @@
         "link": "Link"
     },
     "posts": [
+        {
+            "id": 40868,
+            "title": "Diário: 15/09/2026",
+            "date": "2026-09-16",
+            "url": "reader.html#2026-09-16-diario-15-09-2026.html",
+            "tags": [
+                "fashion",
+                "mh370",
+                "moda",
+                "white-tights"
+            ],
+            "cats": [
+                "diario"
+            ],
+            "month": "2026-09",
+            "format": "aside"
+        },
+        {
+            "id": 40863,
+            "title": "Reunião de gangsters rivais",
+            "date": "2026-09-15",
+            "url": "reader.html#2026-09-15-reuniao-de-gangsters-rivais.html",
+            "tags": [
+                "ditadura",
+                "stf"
+            ],
+            "cats": [
+                "diario"
+            ],
+            "month": "2026-09",
+            "format": "aside"
+        },
         {
             "id": 40841,
             "title": "Diário: 12/09/2026",
@@ -637,25 +666,6 @@
             ],
             "month": "2026-08",
             "format": "aside"
-        },
-        {
-            "id": 40305,
-            "title": "Quem mais está preso com Champinha?",
-            "date": "2026-08-15",
-            "url": "reader.html#2026-08-15-quem-mais-esta-preso-com-champinha.html",
-            "tags": [
-                "cinismo",
-                "justica",
-                "leis",
-                "parcialidade",
-                "reducao-da-maioridade",
-                "vip"
-            ],
-            "cats": [
-                "textos"
-            ],
-            "month": "2026-08",
-            "format": ""
         }
     ]
 }
