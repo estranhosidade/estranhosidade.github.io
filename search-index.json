@@ -1,6 +1,66 @@
 {
-    "generatedAt": "2026-09-15T03:23:06+00:00",
+    "generatedAt": "2026-09-16T03:01:26+00:00",
     "posts": [
+        {
+            "id": 40868,
+            "title": "Diário: 15/09/2026",
+            "slug": "diario-15-09-2026",
+            "author": "estranhosidade",
+            "date": "2026-09-16",
+            "url": "reader.html#2026-09-16-diario-15-09-2026.html",
+            "summary": "Minha mãe nunca me vestiu assim quando eu era pequeno. Que pena.",
+            "text": "Minha mãe nunca me vestiu assim quando eu era pequeno. Que pena.",
+            "tags": [
+                {
+                    "name": "Fashion",
+                    "slug": "fashion"
+                },
+                {
+                    "name": "MH370",
+                    "slug": "mh370"
+                },
+                {
+                    "name": "Moda",
+                    "slug": "moda"
+                },
+                {
+                    "name": "White Tights",
+                    "slug": "white-tights"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ]
+        },
+        {
+            "id": 40863,
+            "title": "Reunião de gangsters rivais",
+            "slug": "reuniao-de-gangsters-rivais",
+            "author": "estranhosidade",
+            "date": "2026-09-15",
+            "url": "reader.html#2026-09-15-reuniao-de-gangsters-rivais.html",
+            "summary": "“Hoje foi o velório do STF. A sessão teve momentos que pareciam uma “reunião de gangsters rivais” – Demétrio Magnoli Quem poderia imaginar isso, não é, Demétrio? Eles foram tão dignos e justos quando…",
+            "text": "“Hoje foi o velório do STF. A sessão teve momentos que pareciam uma “reunião de gangsters rivais” – Demétrio Magnoli Quem poderia imaginar isso, não é, Demétrio? Eles foram tão dignos e justos quando condenaram aquele bando de miseráveis e fudidos a 14 anos de prisão, sem nem direito a sustentação oral, por causa de um protesto...",
+            "tags": [
+                {
+                    "name": "Ditadura",
+                    "slug": "ditadura"
+                },
+                {
+                    "name": "STF",
+                    "slug": "stf"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ]
+        },
         {
             "id": 40841,
             "title": "Diário: 12/09/2026",
@@ -1085,48 +1145,6 @@
                 {
                     "name": "Imagens",
                     "slug": "imagens"
-                }
-            ]
-        },
-        {
-            "id": 40305,
-            "title": "Quem mais está preso com Champinha?",
-            "slug": "quem-mais-esta-preso-com-champinha",
-            "author": "estranhosidade",
-            "date": "2026-08-15",
-            "url": "reader.html#2026-08-15-quem-mais-esta-preso-com-champinha.html",
-            "summary": "É um tanto curioso que a imprensa não busque, ou não se interesse em buscar, informações sobre os outros presos da \"Unidade Experimental de Saúde\", onde Champinha se encontra. É uma peculiar preguiça. O…",
-            "text": "É um tanto curioso que a imprensa não busque, ou não se interesse em buscar, informações sobre os outros presos da \"Unidade Experimental de Saúde\", onde Champinha se encontra. É uma peculiar preguiça. O máximo que achei foi uma reportagem do R7 [¹] [²] [³] falando sobre uma rebelião na unidade em que ele se encontra — o local abriga cinco detentos, todos menores de idade quando cometeram seus crimes e posteriormente transferidos para lá. A matéria, embora foque totalmente no Champinha, até chega a mostrar os rostos de alguns dos outros presos, mas, sem outras informações, fica inviável para uma pessoa comum pesquisar mais a fundo. Digo que é curioso, pois seria interessantíssimo sabermos quem são essas pessoas e, talvez ainda mais relevante que isso, sabermos quais foram seus crimes e contra quem foram cometidos. Até para termos uma métrica do que alguém precisa fazer para ficar preso lá. Porque esse é um regime excepcional — essencialmente, uma prisão perpétua brasileira para pessoas que cometeram crimes quando eram menores de idade. Porém... o que chama a estranheza, é que, em todos os notórios casos de massacres em escolas e outras barbaridades cometidos no Brasil por assassinos menores de idade ao longo da última década e afins, tal como no caso do assassinato de Gabriel Kuhn – morto, esquartejado e estuprado por Daniel Petry – não houve este entendimento, e estes foram considerados absolutamente aptos a viver em sociedade com o resto de nós. Então, o critério certamente não é apenas ser “psicopata”. Se tivesse que apostar, diria facilmente que esses quatro presos não estão lá por serem psicopatas fodidos que mataram/estupraram/torturaram alguém, mas por serem psicopatas fodidos que mataram/estupraram/torturaram o familiar de alguém importante... “Num país onde simplesmente não dá para acreditar na justiça, todo mundo perde.”",
-            "tags": [
-                {
-                    "name": "Cinismo",
-                    "slug": "cinismo"
-                },
-                {
-                    "name": "Justiça",
-                    "slug": "justica"
-                },
-                {
-                    "name": "Leis",
-                    "slug": "leis"
-                },
-                {
-                    "name": "Parcialidade",
-                    "slug": "parcialidade"
-                },
-                {
-                    "name": "Redução da Maioridade",
-                    "slug": "reducao-da-maioridade"
-                },
-                {
-                    "name": "VIP",
-                    "slug": "vip"
-                }
-            ],
-            "cats": [
-                {
-                    "name": "Textos",
-                    "slug": "textos"
                 }
             ]
         }
