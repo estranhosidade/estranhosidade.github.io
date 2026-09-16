@@ -1,6 +1,6 @@
 {
-    "version": "2.10.0",
-    "generatedAt": "2026-09-15T03:23:06+00:00",
+    "version": "2.11.0",
+    "generatedAt": "2026-09-16T03:01:26+00:00",
     "chunkCount": 2,
     "chunks": [
         {
@@ -18,11 +18,13 @@
         "2026-09": "setembro 2026",
         "2026-08": "agosto 2026"
     },
-    "totalPosts": 33,
+    "totalPosts": 34,
     "firstChunk": "data-2026-09.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-09-16-diario-15-09-2026.html": "data-2026-09.json",
+        "2026-09-15-reuniao-de-gangsters-rivais.html": "data-2026-09.json",
         "2026-09-12-diario-12-09-2026.html": "data-2026-09.json",
         "2026-09-09-diario-09-09-2026.html": "data-2026-09.json",
         "2026-09-07-this-blender-higgsfield-ai-workflow-changes-how-you-make-ai-video.html": "data-2026-09.json",
@@ -54,7 +56,6 @@
         "2026-08-18-diario-18-08-2026-how-men-and-women-should-be-dressed.html": "data-2026-08.json",
         "2026-08-17-o-terapeuta-robo.html": "data-2026-08.json",
         "2026-08-16-diario-16-08-2026-part-02.html": "data-2026-08.json",
-        "2026-08-16-diario-16-08-2026.html": "data-2026-08.json",
-        "2026-08-15-quem-mais-esta-preso-com-champinha.html": "data-2026-08.json"
+        "2026-08-16-diario-16-08-2026.html": "data-2026-08.json"
     }
 }
