@@ -41,6 +41,8 @@ Text Domain: twentyfourteen
   ========================================================================== */
 :root {
  --post-gap: 36px;
+ --gallery-columns: 3;
+ --gallery-gap: 10px;
  --link: #24890d;
  --visitedlink: color-mix(in srgb, var(--link) 80%, white 20%);
  --visitedlinkhover: color-mix(in srgb, var(--visitedlink) 80%, black 20%);
@@ -103,7 +105,8 @@ Text Domain: twentyfourteen
  --space-base: 12px;
  --space-lg: 18px;
  --space-xl: 24px;
- --space-2xl: 30px;
+    --space-2xl: 30px;
+--space-body-padding: 30px;
  --space-3xl: 36px;
  --space-4xl: 37px;
  --space-5xl: 72px;
@@ -111,6 +114,7 @@ Text Domain: twentyfourteen
  --radius-md: 3px;
  --radius-lg: 10px;
  --radius-full: 50%;
+ --media-radius: 10px;
  --font-body: Consolas, monospace;
  --font-mono: monospace, serif;
  --font-genericons: normal 16px/1 genericons;
@@ -146,10 +150,10 @@ Text Domain: twentyfourteen
  --media-space: 1em;
  --heading-line-height: 1.2;
  --heading-image-gap: 0.5em;
- --page-bottom-space: 20px;
- --topspace: 200px;
- --widgetbottom: 13px;
- --widgetbottomcompact: 15px;
+  --topspace: 200px;
+ --page-bottom-space: 22px;
+ --widgetbottom: 5px;
+ --widgetbottomcompact: 16px;
  --desktop-sidebar: 182px;
  --desktop-content-gutter: 21.04761904%;
  --desktop-content-width: 520px;
@@ -223,6 +227,13 @@ Text Domain: twentyfourteen
   --primary-color-search: #07c956;
   --url-color-search: #30d8ff;
   --border-color-search: #7777772b;
+  --widget-h1-color: #38ff00;
+ }
+}
+
+@media (prefers-color-scheme: dark) {
+ .textwidget :is(h1, h1 a) {
+  color: #38ff00 !important;
  }
 }
 
@@ -269,6 +280,7 @@ body {
  margin: 0 auto;
  line-height: var(--line-space);
  overflow-wrap: break-word;
+   padding-bottom: var(--space-body-padding);
 }
 
 a {
@@ -451,6 +463,11 @@ img {
  width: 100%;
  max-width: 100%;
  height: auto;
+}
+
+img,
+video {
+ border-radius: var(--media-radius) !important;
 }
 
 figure { margin: 0; }
@@ -1006,6 +1023,16 @@ a.post-thumbnail:hover { background-color: #999; }
 
 .entry-content .edit-link a:hover { color: var(--linkhover); }
 
+/* Edit link on top of pages (below the title) */
+.edit-link-top {
+ clear: both;
+ display: block;
+ font-size: var(--text-size-sm);
+ font-weight: var(--weight-normal);
+ line-height: var(--lh-meta);
+ text-transform: uppercase;
+}
+
 .entry-content .more-link { white-space: nowrap; }
 
 .hentry .mejs-container, .widget .mejs-container { margin: var(--space-base) 0 var(--space-lg); }
@@ -1097,6 +1124,66 @@ a.post-thumbnail:hover { background-color: #999; }
 }
 
 .gallery-item:hover .gallery-caption { opacity: 1; }
+
+/* ==========================================================================
+   Custom galleries (normal grid + masonry)
+   ========================================================================== */
+.gallery_normal,
+.gallery_masonry {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+/* Hide the <br> tags so they don't break the grid layout */
+.gallery_normal br,
+.gallery_masonry br {
+  display: none;
+}
+
+/* Make the anchor tags behave as block-level grid items */
+.gallery_normal a,
+.gallery_masonry a {
+  display: block;
+  width: 100%;
+}
+
+/* Exactly 1 image — grow it full-width */
+.gallery_normal:has(> a:nth-of-type(1)):not(:has(> a:nth-of-type(2))),
+.gallery_masonry:has(> a:nth-of-type(1)):not(:has(> a:nth-of-type(2))) {
+  grid-template-columns: 1fr;
+}
+
+/* Exactly 2 images (counting the <a> tags instead of <img>) */
+.gallery_normal:has(> a:nth-of-type(2)):not(:has(> a:nth-of-type(3))),
+.gallery_masonry:has(> a:nth-of-type(2)):not(:has(> a:nth-of-type(3))) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Exactly 3 images */
+.gallery_normal:has(> a:nth-of-type(3)):not(:has(> a:nth-of-type(4))),
+.gallery_masonry:has(> a:nth-of-type(3)):not(:has(> a:nth-of-type(4))) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* Exactly 4 images */
+.gallery_normal:has(> a:nth-of-type(4)):not(:has(> a:nth-of-type(5))),
+.gallery_masonry:has(> a:nth-of-type(4)):not(:has(> a:nth-of-type(5))) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Style the images to fill their anchor tag containers */
+.gallery_normal img,
+.gallery_masonry img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 
 :is(.format-aside, .format-quote, .format-link) :is(.entry-content, .entry-summary) { padding-top: 0; }
 
@@ -1251,9 +1338,10 @@ a.post-thumbnail:hover { background-color: #999; }
 .comment-form p { margin-bottom: 0; }
 
 .comments-area {
+ border-top: 1px dotted var(--border);
  margin: var(--space-md) auto var(--space-4xl);
  max-width: var(--max-width-content);
- padding: 0 var(--space-xs);
+ padding: 20px var(--space-xs) 0;
 }
 
 :is(.comment-reply-title, .comments-title) {
@@ -1493,6 +1581,14 @@ a.post-thumbnail:hover { background-color: #999; }
 .widget h1 {
  font-size: var(--text-size-3xl);
  line-height: var(--lh-heading);
+}
+
+/* First element of the first sidebar widget sits flush at the top,
+  whatever it is (widget-title h1, .textwidget > h1, p, ...) and at
+  every viewport width. */
+.primary-sidebar .widget:first-child > :first-child,
+.primary-sidebar .widget:first-child .textwidget > :first-child {
+ margin-top: 0;
 }
 
 .widget h2 {
@@ -1897,8 +1993,6 @@ a.post-thumbnail:hover { background-color: #999; }
  .site-header .customize-partial-edit-shortcut button { top: var(--space-md); }
 }
 
-.month-header + .hentry { padding: 0 !important; }
-
 @media screen and (width >=400px) {
 :is(#short_header) {
   margin: 13.5px auto 0;
@@ -1906,31 +2000,22 @@ a.post-thumbnail:hover { background-color: #999; }
  }
 }
 
-@media screen and (width >=400px) {
-#secondary a:not(h1 a) ,
-#main > #secondary :first-child {
- margin-top: 0px;
+/* Allow vertical margins on textwidget links at every viewport width. */
+#secondary .textwidget a {
+ display: inline-block;
 }
 
-.month-header ~ .month-header {
- margin-top: var(--post-gap);
- padding-top: var(--post-gap);
+@media screen and (width >=400px) {
+nav li,
+#secondary :is(li, .textwidget > p a) {
+ margin-bottom: var(--widgetbottom);
 }
 }
 
 @media screen and (width <=400px) {
-
-.site-content .month-header {margin-top: 10px}
-
 nav li,
 #secondary :is(li, .textwidget a) {
  margin-bottom: var(--widgetbottomcompact);
-}
-
-/* Textwidget links are inline <a> separated by <br>; make them take
-  vertical spacing like nav li items on small screens. */
-#secondary .textwidget a {
- display: inline-block;
 }
 
  .list-view .site-content .post-thumbnail {
@@ -2504,20 +2589,39 @@ nav li,
  }
 }
 
-@media screen and (width < 700px) {
- .tag-links-top.entry-meta { display: none; }
+/*
+ * Below 670px there is no left gutter for the vertical tag rail (and the
+ * rail used to be dropped altogether under 700px, so tags disappeared on
+ * phones). js/functions.js moves the same block below the post content and
+ * adds .tags-bottom (see "Bottom tags" further down); without that class
+ * (JavaScript disabled) the block stays hidden instead of showing up as a
+ * plain block inside the entry header.
+ */
+@media screen and (width < 670px) {
+ .tag-links-top.entry-meta:not(.tags-bottom) { display: none; }
 }
 
-@media screen and (width >=600px) {
+/* From 670px up there is room for the vertical tag rail in the left gutter. */
+@media screen and (width >=670px) {
  .list-view .site-content .hentry { position: relative; }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta {
+ .list-view .site-content .hentry .tag-links-top.entry-meta:not(.tags-bottom) {
   display: block !important;
   position: absolute;
   right: 100%;
   left: auto;
   margin-left: 0;
-  width: max-content;
+  /*
+   * min-content: the rail is exactly as wide as the longest *single word*
+   * among its tags. A long tag (e.g. "Transhumanismism") widens the rail so
+   * the word is never broken, while a multi-word tag wraps onto several lines
+   * at the spaces instead of stretching the rail to its full single-line
+   * width (the old max-content behaviour). This replaces the dynamic
+   * font-size shrinking the theme JS used to do to avoid mid-word breaks.
+   */
+  width: min-content;
+  /* Uniform tag size for the whole rail: 12px (--text-size-sm). */
+  font-size: var(--text-size-sm);
   box-sizing: border-box;
   padding: 0;
   text-align: center;
@@ -2527,12 +2631,12 @@ nav li,
   overflow: hidden;
  }
 
- .list-view .site-content .hentry:hover .tag-links-top.entry-meta { opacity: 1; }
+ .list-view .site-content .hentry:hover .tag-links-top.entry-meta:not(.tags-bottom) { opacity: 1; }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta::before {
+ .list-view .site-content .hentry .tag-links-top.entry-meta:not(.tags-bottom)::before {
   content: "TAGS";
   display: block;
-  font-size: var(--text-size-xs);
+  font-size: var(--text-size-sm);
   font-weight: var(--weight-bold);
   color: var(--accent-strong);
   text-transform: uppercase;
@@ -2542,54 +2646,64 @@ nav li,
   letter-spacing: 0.5px;
  }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta a {
+ .list-view .site-content .hentry .tag-links-top.entry-meta:not(.tags-bottom) a {
   display: block;
   background: transparent !important;
   color: var(--accent-strong) !important;
   margin: 1px 0;
   padding: 2px 4px;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: var(--text-size-sm);
   font-weight: var(--weight-bold);
   text-align: center;
   border: none !important;
   border-radius: 0 !important;
   text-decoration: none !important;
   line-height: 1;
+  /*
+   * Wrap at spaces only: a multi-word tag becomes several lines, and a single
+   * long word widens the rail (min-content above) instead of being broken in
+   * the middle. overflow-wrap:anywhere used to split words
+   * ("Transhumanismism" -> "Transhumanismis" + "m"); hyphens:none stops the
+   * browser from adding hyphenated breaks of its own.
+   */
   white-space: normal;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
   word-break: normal;
+  hyphens: none;
   transition: background-color 0.2s, color 0.2s;
  }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta.tags-legacy-wrap a {
+ .list-view .site-content .hentry .tag-links-top.entry-meta.tags-legacy-wrap:not(.tags-bottom) a {
   white-space: normal;
  }
 
  /*
-  * Keep tags-fit-wide inside the fixed rail.
-  * It must not expand the rail and push it into .entry-content.
+  * The rail is no longer clamped to a fixed 100px width (nor does its
+  * font-size get shrunk by JS): it is sized by min-content, so it stays as
+  * narrow as its widest single word — long words are accommodated, multi-word
+  * tags wrap, and the rail can never expand into .entry-content.
   */
- .list-view .site-content .hentry .tag-links-top.entry-meta.tags-fit-wide {
-  width: 100px;
+ .list-view .site-content .hentry .tag-links-top.entry-meta.tags-fit-wide:not(.tags-bottom) {
+  width: min-content;
  }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta .tag-ellipsis {
+ .list-view .site-content .hentry .tag-links-top.entry-meta:not(.tags-bottom) .tag-ellipsis {
   display: block;
   color: var(--accent-strong);
-  font-size: 11px;
+  font-size: var(--text-size-sm);
   font-weight: var(--weight-bold);
   text-align: center;
   margin-top: 2px;
   letter-spacing: 2px;
  }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta a:hover {
+ .list-view .site-content .hentry .tag-links-top.entry-meta:not(.tags-bottom) a:hover {
   background-color: var(--accent-strong) !important;
   color: var(--tag-color-hover) !important;
  }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta a::before {
+ .list-view .site-content .hentry .tag-links-top.entry-meta:not(.tags-bottom) a::before {
   content: "#";
   display: inline !important;
   position: static !important;
@@ -2601,13 +2715,53 @@ nav li,
   transition: color 0.2s;
  }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta a:hover::before {
+ .list-view .site-content .hentry .tag-links-top.entry-meta:not(.tags-bottom) a:hover::before {
   color: var(--tag-color-hover) !important;
  }
 
- .list-view .site-content .hentry .tag-links-top.entry-meta a::after {
+ .list-view .site-content .hentry .tag-links-top.entry-meta:not(.tags-bottom) a::after {
   display: none !important;
  }
+}
+
+/* ==========================================================================
+  Bottom tags (narrow screens)
+  --------------------------------------------------------------------------
+  js/functions.js moves the list/archive tag block (".tag-links-top") to the
+  bottom of .post and adds .tags-bottom whenever the viewport is narrower than
+  670px. The :not(.tags-bottom) guards on the rail rules above keep the
+  relocated block out of the rail styling, so it falls back to the theme's
+  regular bottom tag list - the same appearance as the single post
+  "footer.entry-meta.post-tags-bottom" block. Tags that used to vanish below
+  700px therefore stay reachable on phones.
+  ========================================================================== */
+@media screen and (width < 670px) {
+ .hentry > .tag-links-top.entry-meta.tags-bottom {
+  box-sizing: border-box;
+  clear: both;
+  display: block;
+  float: none;
+  left: auto;
+  margin: var(--space-base) 0 0;
+  max-width: 100%;
+  padding: var(--space-base) var(--space-md) 0;
+  position: static;
+  right: auto;
+  text-align: left;
+  width: auto;
+ }
+}
+
+/*
+ * At 400px and below a list/archive card is title + metadata only (the post
+ * content and the category links are hidden there too, see the "Responsive
+ * layout" section), so the relocated bottom tags are dropped as well. Scoped
+ * to .list-view, which the theme adds to every non-single view (index,
+ * category, tag, date, post format, author and search), so the tag block of
+ * an individual post is untouched.
+ */
+@media screen and (width <=400px) {
+ .list-view .hentry > .tag-links-top.entry-meta.tags-bottom { display: none; }
 }
 
 /* ==========================================================================
@@ -2642,6 +2796,7 @@ img, video { border-radius: 0 !important; }
 .comment-awaiting-moderation,
 .logged-in-as,
 #colophon,
+.post-navigation,
 .nav-links,
 span.comments-link { display: none !important; }
 
@@ -2858,7 +3013,6 @@ article.related-post { margin-bottom: 10px !important; }
 .month-header {
  text-align: center;
  clear: both;
- margin-bottom: 10px;
 }
 
 .archive-title,
@@ -3170,6 +3324,10 @@ article.related-post { margin-bottom: 10px !important; }
  }
 }
 
+
+.month-header + .hentry { padding: 0 !important; }
+
+div.month-header {margin-top:10px; margin-bottom: 10px}
 
 /* === Inlined from genericons/genericons.css === */
 @font-face {
