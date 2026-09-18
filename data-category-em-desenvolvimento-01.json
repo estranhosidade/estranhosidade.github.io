@@ -1,0 +1,68 @@
+{
+    "type": "em-desenvolvimento",
+    "segment": 1,
+    "cats": {
+        "em-desenvolvimento": "Em Desenvolvimento"
+    },
+    "posts": {
+        "em-desenvolvimento": [
+            {
+                "id": 39014,
+                "title": "Uma Obsessiva Análise de “Quero Ser John Malkovich”",
+                "date": "2026-05-06",
+                "url": "reader.html#2026-05-06-quero-ser-john-malkovitch.html",
+                "tags": [
+                    "geek",
+                    "nerd"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "em-desenvolvimento",
+                    "textos"
+                ],
+                "month": "2026-05",
+                "format": ""
+            },
+            {
+                "id": 38357,
+                "title": "O Padrão Ouro das IA Generativas",
+                "date": "2026-02-19",
+                "url": "reader.html#2026-02-19-o-padrao-ouro-das-ia-generativas.html",
+                "tags": [
+                    "3d",
+                    "automacao",
+                    "ia",
+                    "ia-generativa",
+                    "jogos",
+                    "simulacao",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "em-desenvolvimento",
+                    "textos"
+                ],
+                "month": "2026-02",
+                "format": ""
+            },
+            {
+                "id": 31686,
+                "title": "O TOC é uma prisão de dentro para fora",
+                "date": "2024-06-25",
+                "url": "reader.html#2024-06-25-o-toc-e-uma-prisao-de-dentro-para-fora.html",
+                "tags": [
+                    "desabafo",
+                    "doenca",
+                    "mania",
+                    "toc",
+                    "transtorno"
+                ],
+                "cats": [
+                    "em-desenvolvimento",
+                    "textos"
+                ],
+                "month": "2024-06",
+                "format": ""
+            }
+        ]
+    }
+}

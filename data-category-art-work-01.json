@@ -1,0 +1,1502 @@
+{
+    "type": "art-work",
+    "segment": 1,
+    "cats": {
+        "art-work": "Art Work"
+    },
+    "posts": {
+        "art-work": [
+            {
+                "id": 40816,
+                "title": "Diário: 09/09/2026",
+                "date": "2026-09-09",
+                "url": "reader.html#2026-09-09-diario-09-09-2026.html",
+                "tags": [
+                    "estranhosidade",
+                    "poesia"
+                ],
+                "cats": [
+                    "ai-music",
+                    "art-work",
+                    "diario",
+                    "direcao-de-arte-ia"
+                ],
+                "month": "2026-09",
+                "format": "aside"
+            },
+            {
+                "id": 40484,
+                "title": "Diário: 21/08/2026",
+                "date": "2026-08-21",
+                "url": "reader.html#2026-08-21-diario-21-08-2026.html",
+                "tags": [
+                    "white-tights"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2026-08",
+                "format": "aside"
+            },
+            {
+                "id": 40378,
+                "title": "Diário: 19/08/2026",
+                "date": "2026-08-19",
+                "url": "reader.html#2026-08-19-diario-19-08-2026.html",
+                "tags": [
+                    "death",
+                    "fim",
+                    "morte"
+                ],
+                "cats": [
+                    "ai-music",
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2026-08",
+                "format": "aside"
+            },
+            {
+                "id": 39845,
+                "title": "O Dinheiro e a Abstração",
+                "date": "2026-08-19",
+                "url": "reader.html#2026-08-19-o-dinheiro-e-a-abstracao.html",
+                "tags": [
+                    "bitcoin",
+                    "dinheiro",
+                    "economia",
+                    "ouro"
+                ],
+                "cats": [
+                    "art-work",
+                    "textos"
+                ],
+                "month": "2026-08",
+                "format": ""
+            },
+            {
+                "id": 40161,
+                "title": "A Aura, o Autor e a IA Generativa",
+                "date": "2026-08-11",
+                "url": "reader.html#2026-08-11-a-aura-o-autor-e-a-ia-generativa.html",
+                "tags": [
+                    "aesthetics",
+                    "arte",
+                    "autor",
+                    "copia",
+                    "estetica",
+                    "ia-generativa",
+                    "original",
+                    "remix"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2026-08",
+                "format": ""
+            },
+            {
+                "id": 40155,
+                "title": "Diário: 07/08/2026",
+                "date": "2026-08-07",
+                "url": "reader.html#2026-08-07-diario-07-08-2026.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2026-08",
+                "format": "aside"
+            },
+            {
+                "id": 40091,
+                "title": "Diário: 04/08/2026",
+                "date": "2026-08-04",
+                "url": "reader.html#2026-08-04-diario-04-08-2026.html",
+                "tags": [
+                    "adeus",
+                    "despida",
+                    "familia"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia"
+                ],
+                "month": "2026-08",
+                "format": "aside"
+            },
+            {
+                "id": 40081,
+                "title": "Diário: 03/08/2026",
+                "date": "2026-08-03",
+                "url": "reader.html#2026-08-03-diario-03-08-2026.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2026-08",
+                "format": "aside"
+            },
+            {
+                "id": 39561,
+                "title": "Diário: 26/06/2026",
+                "date": "2026-06-26",
+                "url": "reader.html#2026-06-26-diario-28-06-2026.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2026-06",
+                "format": "aside"
+            },
+            {
+                "id": 39446,
+                "title": "Prisons of Mind",
+                "date": "2026-06-13",
+                "url": "reader.html#2026-06-13-prisons-of-mind.html",
+                "tags": [
+                    "prisao"
+                ],
+                "cats": [
+                    "art-work",
+                    "autoria-de-outros",
+                    "direcao-de-arte-ia",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2026-06",
+                "format": "aside"
+            },
+            {
+                "id": 39223,
+                "title": "Diário: 31/05/2026",
+                "date": "2026-05-31",
+                "url": "reader.html#2026-05-31-diario-31-05-2026.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "diario",
+                    "direcao-de-arte-ia"
+                ],
+                "month": "2026-05",
+                "format": "aside"
+            },
+            {
+                "id": 38686,
+                "title": "Por que o Sora fechou?",
+                "date": "2026-05-14",
+                "url": "reader.html#2026-05-14-por-que-o-sora-fechou.html",
+                "tags": [
+                    "direto-autoral",
+                    "futuro",
+                    "openai",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "art-work",
+                    "textos"
+                ],
+                "month": "2026-05",
+                "format": ""
+            },
+            {
+                "id": 38697,
+                "title": "Algum dia haverá LLMs locais realmente “úteis”?",
+                "date": "2026-03-30",
+                "url": "reader.html#2026-03-30-algum-dia-havera-llms-locais-realmente-uteis.html",
+                "tags": [
+                    "computacao",
+                    "futuro",
+                    "ia",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "textos"
+                ],
+                "month": "2026-03",
+                "format": ""
+            },
+            {
+                "id": 38257,
+                "title": "Diário: 19/01/2026",
+                "date": "2026-01-19",
+                "url": "reader.html#2026-01-19-diario-19-01-2026.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2026-01",
+                "format": "aside"
+            },
+            {
+                "id": 37920,
+                "title": "Diário: 18/11/2025",
+                "date": "2025-11-18",
+                "url": "reader.html#2025-11-18-diario-18-11-2025.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2025-11",
+                "format": "aside"
+            },
+            {
+                "id": 36572,
+                "title": "Preso a Tudo e Todos",
+                "date": "2025-07-09",
+                "url": "reader.html#2025-07-09-preso-a-tudo-e-todos.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2025-07",
+                "format": ""
+            },
+            {
+                "id": 36513,
+                "title": "“Pior do que um bandoleiro, só um tribunal falso”",
+                "date": "2025-07-03",
+                "url": "reader.html#2025-07-03-pior-do-que-um-bandoleiro-so-um-tribunal-falso.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2025-07",
+                "format": "aside"
+            },
+            {
+                "id": 36105,
+                "title": "A Eterna Busca Pela Realidade Virtual",
+                "date": "2025-06-26",
+                "url": "reader.html#2025-06-26-a-eterna-busca-pela-realidade-virtual.html",
+                "tags": [
+                    "futuro",
+                    "realidade-aumentada",
+                    "realidade-virtual"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "textos"
+                ],
+                "month": "2025-06",
+                "format": ""
+            },
+            {
+                "id": 36399,
+                "title": "A Morte da Tirania",
+                "date": "2025-06-26",
+                "url": "reader.html#2025-06-26-a-morte-da-tirania.html",
+                "tags": [
+                    "the-end-of-evangelion"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2025-06",
+                "format": "aside"
+            },
+            {
+                "id": 36355,
+                "title": "Diário: 22/06/2025 – Reversed Roles",
+                "date": "2025-06-23",
+                "url": "reader.html#2025-06-23-diario-22-06-2025-reversed-roles.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2025-06",
+                "format": "aside"
+            },
+            {
+                "id": 36299,
+                "title": "O Império da Mentira e A Suprema Morte do Direito",
+                "date": "2025-06-18",
+                "url": "reader.html#2025-06-18-o-imperio-da-mentira-e-a-suprema-morte-do-direito.html",
+                "tags": [
+                    "ditadura",
+                    "liberdade",
+                    "stf",
+                    "tirania"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2025-06",
+                "format": "image"
+            },
+            {
+                "id": 36218,
+                "title": "STF, Censura e o Controle da Narrativa Pela Velha Mídia",
+                "date": "2025-06-15",
+                "url": "reader.html#2025-06-15-stf-censura-e-o-controle-da-narrativa-pela-velha-midia.html",
+                "tags": [
+                    "censura",
+                    "ditadura",
+                    "liberdade-de-expressao",
+                    "plataformas",
+                    "politica",
+                    "stf"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "textos"
+                ],
+                "month": "2025-06",
+                "format": ""
+            },
+            {
+                "id": 36249,
+                "title": "世界の終わり 宇宙 VR そして白いタイツ",
+                "date": "2025-06-12",
+                "url": "reader.html#2025-06-12-%e4%b8%96%e7%95%8c%e3%81%ae%e7%b5%82%e3%82%8f%e3%82%8a-%e5%ae%87%e5%ae%99-vr-%e3%81%9d%e3%81%97%e3%81%a6%e7%99%bd%e3%81%84%e3%82%bf%e3%82%a4%e3%83%84.html",
+                "tags": [
+                    "dreams",
+                    "fantasy",
+                    "tights"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2025-06",
+                "format": "aside"
+            },
+            {
+                "id": 36288,
+                "title": "“Morreu, mané”!",
+                "date": "2025-06-05",
+                "url": "reader.html#2025-06-05-morreu-mane.html",
+                "tags": [
+                    "censura",
+                    "ditadura",
+                    "imprensa",
+                    "liberdade",
+                    "revolta"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2025-06",
+                "format": "aside"
+            },
+            {
+                "id": 36135,
+                "title": "Venomous Words",
+                "date": "2025-06-03",
+                "url": "reader.html#2025-06-03-venomous-words.html",
+                "tags": [
+                    "fake-news",
+                    "imprensa",
+                    "media",
+                    "new-york-times",
+                    "news",
+                    "press"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia"
+                ],
+                "month": "2025-06",
+                "format": "image"
+            },
+            {
+                "id": 35968,
+                "title": "Diário: 25/05/2025",
+                "date": "2025-05-25",
+                "url": "reader.html#2025-05-25-diario-25-05-2025.html",
+                "tags": [
+                    "dor",
+                    "familia",
+                    "morte",
+                    "pai",
+                    "saudade"
+                ],
+                "cats": [
+                    "art-work",
+                    "diario",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2025-05",
+                "format": "aside"
+            },
+            {
+                "id": 35888,
+                "title": "You Can’t Freeze Time and There is Nothing to  Backup Yourself Into",
+                "date": "2025-05-09",
+                "url": "reader.html#2025-05-09-you-cant-freeze-time-and-there-is-nothing-to-backup-yourself-into.html",
+                "tags": [
+                    "identity",
+                    "sorrow",
+                    "unkown"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "textos"
+                ],
+                "month": "2025-05",
+                "format": ""
+            },
+            {
+                "id": 36154,
+                "title": "A Morte da Lei",
+                "date": "2025-05-01",
+                "url": "reader.html#2025-05-01-a-morte-da-lei.html",
+                "tags": [
+                    "brasil",
+                    "ditadura",
+                    "justica",
+                    "lei"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2025-05",
+                "format": "image"
+            },
+            {
+                "id": 35245,
+                "title": "Diário: 16/01/2025",
+                "date": "2025-01-14",
+                "url": "reader.html#2025-01-14-diario-16-01-2025.html",
+                "tags": [
+                    "abdl",
+                    "ageplay",
+                    "ia",
+                    "infantilismo"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2025-01",
+                "format": "aside"
+            },
+            {
+                "id": 35071,
+                "title": "Sobre a Recomendação Algorítmica e a Publicidade na Era da Mídia Sintética",
+                "date": "2025-01-03",
+                "url": "reader.html#2025-01-03-sobre-a-recomendacao-algoritmica-e-a-publicidade-na-era-da-midia-sintetica.html",
+                "tags": [
+                    "algoritimo",
+                    "capitalismo",
+                    "divulgacao",
+                    "ia",
+                    "inteligencia-artificial",
+                    "publicidade"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2025-01",
+                "format": ""
+            },
+            {
+                "id": 34687,
+                "title": "Trabalho: A Segunda Maior Tragédia da Vida",
+                "date": "2024-12-22",
+                "url": "reader.html#2024-12-22-trabalho-a-segunda-maior-tragedia-da-vida.html",
+                "tags": [
+                    "automacao",
+                    "capitalismo",
+                    "dinheiro-morte",
+                    "economia",
+                    "ia",
+                    "robos",
+                    "tecnologia",
+                    "transhumanismo",
+                    "ubi"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2024-12",
+                "format": ""
+            },
+            {
+                "id": 34050,
+                "title": "Por que você não consegue achar aquele vídeo que assistiu há alguns dias?",
+                "date": "2024-12-06",
+                "url": "reader.html#2024-12-06-por-que-voce-nao-consegue-achar-aquele-video-que-assistiu-ha-alguns-dias.html",
+                "tags": [
+                    "big-tech",
+                    "controle",
+                    "dark-pattern",
+                    "enshitification",
+                    "internet",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "art-work",
+                    "textos"
+                ],
+                "month": "2024-12",
+                "format": ""
+            },
+            {
+                "id": 34849,
+                "title": "Diário: 04/12/2024",
+                "date": "2024-12-04",
+                "url": "reader.html#2024-12-04-diario-04-12-2024.html",
+                "tags": [
+                    "fim",
+                    "futuro",
+                    "morte",
+                    "poesia",
+                    "tempo"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia"
+                ],
+                "month": "2024-12",
+                "format": "aside"
+            },
+            {
+                "id": 34587,
+                "title": "Como Regimes Totalitários Perseguem Dissidentes Políticos",
+                "date": "2024-11-17",
+                "url": "reader.html#2024-11-17-como-regimes-totalitarios-podem-perseguir-dissidentes-politicos.html",
+                "tags": [
+                    "democracia",
+                    "ditadura",
+                    "estado",
+                    "justica",
+                    "liberdade",
+                    "libertario",
+                    "russia"
+                ],
+                "cats": [
+                    "art-work",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2024-11",
+                "format": ""
+            },
+            {
+                "id": 33508,
+                "title": "Senzalas Ideológicas",
+                "date": "2024-09-26",
+                "url": "reader.html#2024-09-26-senzalas-ideologicas.html",
+                "tags": [
+                    "escravidao",
+                    "imprensa",
+                    "lavagem-cerebral",
+                    "manipulacao",
+                    "mentiras",
+                    "midia"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2024-09",
+                "format": "image"
+            },
+            {
+                "id": 32884,
+                "title": "Cúmplices Duma Tirania",
+                "date": "2024-08-22",
+                "url": "reader.html#2024-08-22-cumplices-duma-tirania.html",
+                "tags": [
+                    "ia-arte",
+                    "imprensa",
+                    "manipulacao",
+                    "mentira",
+                    "midia"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "imagens"
+                ],
+                "month": "2024-08",
+                "format": "image"
+            },
+            {
+                "id": 32447,
+                "title": "De Verde, De Amarelo",
+                "date": "2024-08-07",
+                "url": "reader.html#2024-08-07-de-verde-de-amarelo.html",
+                "tags": [
+                    "ai",
+                    "ditadura",
+                    "justica",
+                    "liberdade"
+                ],
+                "cats": [
+                    "ai-music",
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "textos"
+                ],
+                "month": "2024-08",
+                "format": "audio"
+            },
+            {
+                "id": 32523,
+                "title": "Pessoas Mortas, Bibliotecas Queimadas",
+                "date": "2024-07-30",
+                "url": "reader.html#2024-07-30-pessoas-mortas-bibliotecas-queimadas.html",
+                "tags": [
+                    "informacao",
+                    "morte",
+                    "vida"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2024-07",
+                "format": "image"
+            },
+            {
+                "id": 32464,
+                "title": "唯一足りないのはおむつです",
+                "date": "2024-07-26",
+                "url": "reader.html#2024-07-26-%e5%94%af%e4%b8%80%e8%b6%b3%e3%82%8a%e3%81%aa%e3%81%84%e3%81%ae%e3%81%af%e3%81%8a%e3%82%80%e3%81%a4%e3%81%a7%e3%81%99.html",
+                "tags": [
+                    "abdl",
+                    "cute",
+                    "lolita",
+                    "white-tights"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2024-07",
+                "format": "image"
+            },
+            {
+                "id": 32217,
+                "title": "Os Desafios na Criação de Arte Via IA",
+                "date": "2024-07-16",
+                "url": "reader.html#2024-07-16-os-desafios-na-criacao-de-arte-via-ia.html",
+                "tags": [
+                    "ai-arte",
+                    "arte",
+                    "automatic1111",
+                    "comfyui",
+                    "ghost-in-the-shell",
+                    "ilustracao",
+                    "prompt",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens",
+                    "textos"
+                ],
+                "month": "2024-07",
+                "format": ""
+            },
+            {
+                "id": 31167,
+                "title": "I Want To Go Back To What I Never Was",
+                "date": "2024-07-05",
+                "url": "reader.html#2024-07-05-i-want-to-go-back-to-what-i-never-was.html",
+                "tags": [
+                    "white-tights"
+                ],
+                "cats": [
+                    "ai-music",
+                    "art-work",
+                    "musica"
+                ],
+                "month": "2024-07",
+                "format": "aside"
+            },
+            {
+                "id": 32032,
+                "title": "Cobaias da Pfizer",
+                "date": "2024-07-02",
+                "url": "reader.html#2024-07-02-cobaias-da-pfizer.html",
+                "tags": [
+                    "covid",
+                    "liberdade",
+                    "vacina"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens",
+                    "links"
+                ],
+                "month": "2024-07",
+                "format": "link"
+            },
+            {
+                "id": 31655,
+                "title": "All the countless wonders death robs us of",
+                "date": "2024-06-15",
+                "url": "reader.html#2024-06-15-todas-as-incontaveis-maravilhas-que-a-morte-nos-rouba.html",
+                "tags": [
+                    "morte",
+                    "prisao",
+                    "tecnologia",
+                    "tranhumanism",
+                    "transcender",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2024-06",
+                "format": ""
+            },
+            {
+                "id": 31362,
+                "title": "As Fotos de Lollete Bebê",
+                "date": "2024-05-17",
+                "url": "reader.html#2024-05-17-as-fotos-de-lollete-bebe.html",
+                "tags": [
+                    "abdl",
+                    "infantilismo"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2024-05",
+                "format": ""
+            },
+            {
+                "id": 31287,
+                "title": "All Art is Found",
+                "date": "2024-05-08",
+                "url": "reader.html#2024-05-08-toda-arte-e-descoberta.html",
+                "tags": [
+                    "arte",
+                    "criacao",
+                    "plato"
+                ],
+                "cats": [
+                    "art-work",
+                    "english",
+                    "imagens"
+                ],
+                "month": "2024-05",
+                "format": "aside"
+            },
+            {
+                "id": 31260,
+                "title": "Diário: 04/05/2024",
+                "date": "2024-05-04",
+                "url": "reader.html#2024-05-04-diario-04-05-2024.html",
+                "tags": [
+                    "ai",
+                    "aliens",
+                    "art"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2024-05",
+                "format": "aside"
+            },
+            {
+                "id": 31101,
+                "title": "Diário: 13/04/2024",
+                "date": "2024-04-13",
+                "url": "reader.html#2024-04-13-diario-13-04-2024.html",
+                "tags": [
+                    "ditadura",
+                    "justica",
+                    "politica",
+                    "stf"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens",
+                    "textos"
+                ],
+                "month": "2024-04",
+                "format": "aside"
+            },
+            {
+                "id": 31082,
+                "title": "Música: De Dentro pra Fora",
+                "date": "2024-04-12",
+                "url": "reader.html#2024-04-12-de-dentro-pra-fora.html",
+                "tags": [
+                    "composicao",
+                    "letra"
+                ],
+                "cats": [
+                    "ai-music",
+                    "art-work",
+                    "filosofia",
+                    "musica",
+                    "textos"
+                ],
+                "month": "2024-04",
+                "format": "aside"
+            },
+            {
+                "id": 31068,
+                "title": "Diário: 10/04/2024",
+                "date": "2024-04-10",
+                "url": "reader.html#2024-04-10-diario-10-04-2024.html",
+                "tags": [
+                    "ditadura",
+                    "imprensa",
+                    "propaganda"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2024-04",
+                "format": "aside"
+            },
+            {
+                "id": 29809,
+                "title": "Robôs Herdarão o Mundo",
+                "date": "2023-09-23",
+                "url": "reader.html#2023-09-23-softwares-herdarao-o-universo.html",
+                "tags": [
+                    "ai-arte",
+                    "futuro",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2023-09",
+                "format": "aside"
+            },
+            {
+                "id": 29468,
+                "title": "Bleeding Gold and Touching The Sky",
+                "date": "2023-08-31",
+                "url": "reader.html#2023-08-31-bleeding-gold-and-touching-the-sky.html",
+                "tags": [],
+                "cats": [
+                    "art-work"
+                ],
+                "month": "2023-08",
+                "format": "image"
+            },
+            {
+                "id": 29362,
+                "title": "FIDE, Trans e o “Xadrez Negro”",
+                "date": "2023-08-20",
+                "url": "reader.html#2023-08-20-fide-trans-e-o-xadrez-negro.html",
+                "tags": [
+                    "biologia",
+                    "esquerda",
+                    "lacracao",
+                    "trans",
+                    "xadrez"
+                ],
+                "cats": [
+                    "art-work",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2023-08",
+                "format": ""
+            },
+            {
+                "id": 29112,
+                "title": "O Futuro À Sua Porta",
+                "date": "2023-08-05",
+                "url": "reader.html#2023-08-05-o-futuro-a-sua-porta.html",
+                "tags": [
+                    "futuro",
+                    "geracoes",
+                    "passado",
+                    "tempo"
+                ],
+                "cats": [
+                    "art-work",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2023-08",
+                "format": ""
+            },
+            {
+                "id": 28975,
+                "title": "O Viajante do Tempo e um iPhone fabricado em 1950",
+                "date": "2023-07-19",
+                "url": "reader.html#2023-07-19-o-viajante-do-tempo-e-um-iphone-fabricado-em-1950.html",
+                "tags": [
+                    "carl-sagan",
+                    "iphone",
+                    "passado",
+                    "retrofuturismo",
+                    "tecnologia",
+                    "transhumanismo",
+                    "viagem-no-tempo"
+                ],
+                "cats": [
+                    "art-work",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2023-07",
+                "format": ""
+            },
+            {
+                "id": 29078,
+                "title": "Entre a ‘Transfobia’ e o Transhumanismo",
+                "date": "2023-07-05",
+                "url": "reader.html#2023-07-05-entre-a-transfobia-e-o-transhumanismo.html",
+                "tags": [
+                    "coerencia",
+                    "conservadorismo",
+                    "ideologia",
+                    "libertarianismo",
+                    "trans",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "art-work",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2023-07",
+                "format": ""
+            },
+            {
+                "id": 28815,
+                "title": "Do Mind Copies Dream of Metaverse Heaven?",
+                "date": "2023-05-10",
+                "url": "reader.html#2023-05-10-do-mind-copies-dream-of-metaverse-heaven.html",
+                "tags": [
+                    "black-mirror",
+                    "clone",
+                    "e-se",
+                    "metarverso",
+                    "mind-copy",
+                    "realidade-virtual"
+                ],
+                "cats": [
+                    "art-work",
+                    "direcao-de-arte-ia",
+                    "textos"
+                ],
+                "month": "2023-05",
+                "format": "aside"
+            },
+            {
+                "id": 24485,
+                "title": "A Ilusão da Importância do Sofrimento",
+                "date": "2018-08-23",
+                "url": "reader.html#2018-08-23-a-ilusao-da-importancia-do-sofrimento.html",
+                "tags": [
+                    "deus",
+                    "dor",
+                    "ilusao",
+                    "placebo",
+                    "religiao",
+                    "sofrimento"
+                ],
+                "cats": [
+                    "art-work",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2018-08",
+                "format": ""
+            },
+            {
+                "id": 23152,
+                "title": "6 Desenhos e um Fundo Cinza",
+                "date": "2018-03-31",
+                "url": "reader.html#2018-03-31-6-desenhos-e-um-fundo-cinza.html",
+                "tags": [
+                    "dark",
+                    "desenhos"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2018-03",
+                "format": "image"
+            },
+            {
+                "id": 23094,
+                "title": "Diário: 27/03/18",
+                "date": "2018-03-27",
+                "url": "reader.html#2018-03-27-diario-27-03-2018.html",
+                "tags": [
+                    "culpa",
+                    "desabafo",
+                    "fetiche",
+                    "morte",
+                    "pai",
+                    "saudade"
+                ],
+                "cats": [
+                    "art-work",
+                    "diario"
+                ],
+                "month": "2018-03",
+                "format": "aside"
+            },
+            {
+                "id": 20929,
+                "title": "About Sex: Understanding The Body Swap and The Transformation Fetishes",
+                "date": "2017-10-10",
+                "url": "reader.html#2017-10-10-about-sex-understanding-the-body-swap-and-the-transformation-fetishes.html",
+                "tags": [
+                    "abdl",
+                    "ageplay",
+                    "animal-transformation",
+                    "autogynephilia",
+                    "body-swap",
+                    "fetish",
+                    "transformation"
+                ],
+                "cats": [
+                    "about-sex",
+                    "art-work",
+                    "english",
+                    "textos",
+                    "videos"
+                ],
+                "month": "2017-10",
+                "format": "video"
+            },
+            {
+                "id": 17952,
+                "title": "O Potencial da Tecnologia como Fonte de Inspiração Artística",
+                "date": "2017-03-08",
+                "url": "reader.html#2017-03-08-o-potencial-da-tecnologia-como-fonte-de-inspiracao-artistica.html",
+                "tags": [
+                    "arte",
+                    "cultura",
+                    "inclusao",
+                    "sociedade",
+                    "tecnologia",
+                    "transcender",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "art-work",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-03",
+                "format": ""
+            },
+            {
+                "id": 16799,
+                "title": "Mère et Fille",
+                "date": "2017-01-01",
+                "url": "reader.html#2017-01-01-mere-et-fille.html",
+                "tags": [
+                    "amor",
+                    "fofo",
+                    "mae-e-filha",
+                    "photoshop"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2017-01",
+                "format": ""
+            },
+            {
+                "id": 15139,
+                "title": "The Past Is “Wikipedized”",
+                "date": "2016-09-11",
+                "url": "reader.html#2016-09-11-the-past-is-wikipedized.html",
+                "tags": [
+                    "existence",
+                    "finished",
+                    "life",
+                    "past"
+                ],
+                "cats": [
+                    "art-work",
+                    "english",
+                    "filosofia",
+                    "textos",
+                    "videos"
+                ],
+                "month": "2016-09",
+                "format": "video"
+            },
+            {
+                "id": 14085,
+                "title": "Mr. Explosion",
+                "date": "2016-07-18",
+                "url": "reader.html#2016-07-18-mr-explosion.html",
+                "tags": [
+                    "photoshop"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2016-07",
+                "format": "image"
+            },
+            {
+                "id": 12491,
+                "title": "The Titanic And The Stolen Zeitgeist",
+                "date": "2016-04-25",
+                "url": "reader.html#2016-04-25-the-titanic-and-the-stolen-zeitgeist.html",
+                "tags": [
+                    "john-lennon",
+                    "life",
+                    "nihilism",
+                    "time",
+                    "titanic",
+                    "what-if",
+                    "zeitgeist"
+                ],
+                "cats": [
+                    "art-work",
+                    "english",
+                    "filosofia",
+                    "textos",
+                    "videos"
+                ],
+                "month": "2016-04",
+                "format": "video"
+            },
+            {
+                "id": 11358,
+                "title": "Old Age is a Disease…",
+                "date": "2016-03-05",
+                "url": "reader.html#2016-03-05-a-velhice-e-uma-doenca-e-ela-pode-ser-curada.html",
+                "tags": [
+                    "curar",
+                    "cure",
+                    "disease",
+                    "doenca",
+                    "old-age",
+                    "transhumanism",
+                    "transhumanismo",
+                    "velhice"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2016-03",
+                "format": "image"
+            },
+            {
+                "id": 9461,
+                "title": "Violins",
+                "date": "2015-09-07",
+                "url": "reader.html#2015-09-07-violins.html",
+                "tags": [
+                    "ceu",
+                    "indiferenca",
+                    "inferno",
+                    "violins"
+                ],
+                "cats": [
+                    "art-work",
+                    "autoria-de-outros",
+                    "musica"
+                ],
+                "month": "2015-09",
+                "format": "image"
+            },
+            {
+                "id": 8945,
+                "title": "Uma Construção Social",
+                "date": "2015-07-01",
+                "url": "reader.html#2015-07-01-uma-construcao-social.html",
+                "tags": [
+                    "antropologia",
+                    "cisgenero",
+                    "cultura",
+                    "genero",
+                    "papeis-de-genero",
+                    "sexo",
+                    "sociedade",
+                    "transexual"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2015-07",
+                "format": "image"
+            },
+            {
+                "id": 8123,
+                "title": "Me Dê Um Motivo",
+                "date": "2015-04-07",
+                "url": "reader.html#2015-04-07-me-de-um-motivo.html",
+                "tags": [
+                    "motivo",
+                    "pobreza",
+                    "proposito",
+                    "razao",
+                    "vida"
+                ],
+                "cats": [
+                    "art-work",
+                    "filosofia",
+                    "imagens"
+                ],
+                "month": "2015-04",
+                "format": "image"
+            },
+            {
+                "id": 8051,
+                "title": "Picturialism ABDL",
+                "date": "2015-04-02",
+                "url": "reader.html#2015-04-02-picturialism-abdl.html",
+                "tags": [
+                    "abdl",
+                    "ageplay",
+                    "deep",
+                    "infantilismo",
+                    "pictorialismo"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2015-04",
+                "format": ""
+            },
+            {
+                "id": 7543,
+                "title": "O Sorriso da Garota Trans",
+                "date": "2015-02-23",
+                "url": "reader.html#2015-02-23-o-sorriso-da-garota-trans.html",
+                "tags": [
+                    "genero",
+                    "mulher",
+                    "transexualidade",
+                    "verdade",
+                    "voce"
+                ],
+                "cats": [
+                    "about-sex",
+                    "art-work",
+                    "english",
+                    "filosofia",
+                    "imagens"
+                ],
+                "month": "2015-02",
+                "format": "image"
+            },
+            {
+                "id": 7129,
+                "title": "Nós Parodiamos o Futuro Antes de Inventá-lo",
+                "date": "2015-01-30",
+                "url": "reader.html#2015-01-30-nos-parodiamos-o-futuro-antes-de-inventa-lo.html",
+                "tags": [
+                    "futuro",
+                    "georges-melies",
+                    "imaginar",
+                    "inventar",
+                    "lua",
+                    "parodia",
+                    "transcender",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "art-work",
+                    "citacoes",
+                    "filosofia"
+                ],
+                "month": "2015-01",
+                "format": "quote"
+            },
+            {
+                "id": 6670,
+                "title": "A Terra Salgada",
+                "date": "2015-01-01",
+                "url": "reader.html#2015-01-01-a-terra-salgada.html",
+                "tags": [
+                    "geracoes",
+                    "odio",
+                    "perdurar",
+                    "tempo",
+                    "terra"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2015-01",
+                "format": "image"
+            },
+            {
+                "id": 5643,
+                "title": "Sapatos",
+                "date": "2014-11-02",
+                "url": "reader.html#2014-11-02-sapatos-2.html",
+                "tags": [
+                    "fashion",
+                    "heels",
+                    "moda",
+                    "sapatos"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2014-11",
+                "format": "image"
+            },
+            {
+                "id": 5353,
+                "title": "THE SKIRT THAT I WORE",
+                "date": "2014-10-03",
+                "url": "reader.html#2014-10-03-the-skirt-that-i-wore.html",
+                "tags": [
+                    "cocaine",
+                    "crossdressing",
+                    "inner-side",
+                    "skin",
+                    "skirt",
+                    "transgender"
+                ],
+                "cats": [
+                    "art-work",
+                    "english",
+                    "filosofia",
+                    "imagens",
+                    "textos"
+                ],
+                "month": "2014-10",
+                "format": "image"
+            },
+            {
+                "id": 4828,
+                "title": "Não Deixe Nada Definir Você",
+                "date": "2014-08-01",
+                "url": "reader.html#2014-08-01-nao-deixe-nada-definir-voce.html",
+                "tags": [
+                    "mtf",
+                    "mulher",
+                    "ser",
+                    "transexualidade",
+                    "transgender",
+                    "verdade",
+                    "voce"
+                ],
+                "cats": [
+                    "about-sex",
+                    "art-work",
+                    "english",
+                    "imagens"
+                ],
+                "month": "2014-08",
+                "format": "image"
+            },
+            {
+                "id": 4776,
+                "title": "LOSER",
+                "date": "2014-07-30",
+                "url": "reader.html#2014-07-30-loser-2.html",
+                "tags": [
+                    "bom-em-nada",
+                    "fracassado",
+                    "loser",
+                    "perdedor",
+                    "sadness"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2014-07",
+                "format": "image"
+            },
+            {
+                "id": 1439,
+                "title": "Cute",
+                "date": "2013-11-15",
+                "url": "reader.html#2013-11-15-cute.html",
+                "tags": [
+                    "cute",
+                    "little-girl",
+                    "photoshop"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens"
+                ],
+                "month": "2013-11",
+                "format": "image"
+            },
+            {
+                "id": 775,
+                "title": "Some Drawings of Mine",
+                "date": "2013-08-06",
+                "url": "reader.html#2013-08-06-some-drawings-of-mine.html",
+                "tags": [],
+                "cats": [
+                    "art-work",
+                    "galeria"
+                ],
+                "month": "2013-08",
+                "format": "image"
+            },
+            {
+                "id": 676,
+                "title": "Things That I Think",
+                "date": "2013-07-31",
+                "url": "reader.html#2013-07-31-676.html",
+                "tags": [
+                    "pensamentos",
+                    "photoshop"
+                ],
+                "cats": [
+                    "art-work"
+                ],
+                "month": "2013-07",
+                "format": "image"
+            }
+        ]
+    }
+}

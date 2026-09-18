@@ -1,0 +1,2499 @@
+{
+    "type": "documentarios-filmes-series",
+    "segment": 1,
+    "cats": {
+        "documentarios-filmes-series": "Documentários & Filmes & Series"
+    },
+    "posts": {
+        "documentarios-filmes-series": [
+            {
+                "id": 39471,
+                "title": "Diário: 18/06/2026",
+                "date": "2026-06-18",
+                "url": "reader.html#2026-06-18-diario-18-06-2026.html",
+                "tags": [
+                    "dor",
+                    "fator-merda",
+                    "luto"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2026-06",
+                "format": "aside"
+            },
+            {
+                "id": 39446,
+                "title": "Prisons of Mind",
+                "date": "2026-06-13",
+                "url": "reader.html#2026-06-13-prisons-of-mind.html",
+                "tags": [
+                    "prisao"
+                ],
+                "cats": [
+                    "art-work",
+                    "autoria-de-outros",
+                    "direcao-de-arte-ia",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2026-06",
+                "format": "aside"
+            },
+            {
+                "id": 39423,
+                "title": "“Nunca poderia sair desse navio. No máximo, posso sair da minha vida”",
+                "date": "2026-06-11",
+                "url": "reader.html#2026-06-11-diario-12-06-2026.html",
+                "tags": [
+                    "ansiedade",
+                    "depressao",
+                    "medo",
+                    "morte",
+                    "prisao",
+                    "sociedade"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2026-06",
+                "format": "quote"
+            },
+            {
+                "id": 39014,
+                "title": "Uma Obsessiva Análise de “Quero Ser John Malkovich”",
+                "date": "2026-05-06",
+                "url": "reader.html#2026-05-06-quero-ser-john-malkovitch.html",
+                "tags": [
+                    "geek",
+                    "nerd"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "em-desenvolvimento",
+                    "textos"
+                ],
+                "month": "2026-05",
+                "format": ""
+            },
+            {
+                "id": 36456,
+                "title": "“I feel like something bad is going to happen to me. I feel like something bad has happened. It hasn’t reached me yet but it’s on its way”",
+                "date": "2025-06-30",
+                "url": "reader.html#2025-06-30-i-feel-like-something-bad-is-going-to-happen-to-me-i-feel-like-something-bad-has-happened-it-hasnt-reached-me-yet-but-its-on-its-way.html",
+                "tags": [
+                    "death",
+                    "fear",
+                    "tragedy"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2025-06",
+                "format": "quote"
+            },
+            {
+                "id": 36183,
+                "title": "A opinião do autor é só mais uma",
+                "date": "2025-06-10",
+                "url": "reader.html#2025-06-10-a-opiniao-do-autor-e-so-mais-uma.html",
+                "tags": [
+                    "arte",
+                    "criacao",
+                    "interpretacao"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2025-06",
+                "format": "quote"
+            },
+            {
+                "id": 35947,
+                "title": "“While one couple were missing their youth, the other were dreaming of their future.”",
+                "date": "2025-06-06",
+                "url": "reader.html#2025-06-06-while-one-couple-were-missing-their-youth-the-other-were-dreaming-of-their-future.html",
+                "tags": [
+                    "death",
+                    "life",
+                    "missing"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english"
+                ],
+                "month": "2025-06",
+                "format": "quote"
+            },
+            {
+                "id": 35729,
+                "title": "Diário: 12/04/2025",
+                "date": "2025-04-12",
+                "url": "reader.html#2025-04-12-diario-12-04-2025.html",
+                "tags": [
+                    "automacao",
+                    "fan-edit",
+                    "ia-generativa"
+                ],
+                "cats": [
+                    "diario",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2025-04",
+                "format": "aside"
+            },
+            {
+                "id": 33789,
+                "title": "Filmes Filmados usando iPhones e Apenas Marketing",
+                "date": "2024-11-23",
+                "url": "reader.html#2024-11-23-filmes-filmados-usando-iphones.html",
+                "tags": [
+                    "cinema",
+                    "publicidade"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2024-11",
+                "format": ""
+            },
+            {
+                "id": 34476,
+                "title": "“Não Estou Mais Aqui” – Clézão",
+                "date": "2024-11-14",
+                "url": "reader.html#2024-11-14-nao-estou-mais-aqui.html",
+                "tags": [
+                    "ainda-estou-aqui",
+                    "ditadura",
+                    "estado",
+                    "exilado",
+                    "judiciario",
+                    "politica"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "links",
+                    "textos"
+                ],
+                "month": "2024-11",
+                "format": ""
+            },
+            {
+                "id": 34315,
+                "title": "O Cinema Mudo e a Estética do Passado",
+                "date": "2024-11-11",
+                "url": "reader.html#2024-11-11-o-cinema-mudo-e-a-estetica-do-passado.html",
+                "tags": [
+                    "aesthetics",
+                    "estetica",
+                    "narrativa",
+                    "passado",
+                    "tempo"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2024-11",
+                "format": ""
+            },
+            {
+                "id": 33357,
+                "title": "Atemporalidade VS Naturalidade nos Filmes",
+                "date": "2024-09-22",
+                "url": "reader.html#2024-09-22-atemporalidade-vs-naturalidade-nos-filmes.html",
+                "tags": [
+                    "arte",
+                    "cinema",
+                    "ficcao",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2024-09",
+                "format": ""
+            },
+            {
+                "id": 32708,
+                "title": "A Ficção e A Natureza da Realidade",
+                "date": "2024-08-20",
+                "url": "reader.html#2024-08-20-a-ficcao-e-a-natureza-da-realidade.html",
+                "tags": [
+                    "filme",
+                    "natureza",
+                    "realidade",
+                    "simulacao"
+                ],
+                "cats": [
+                    "direcao-de-arte-ia",
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2024-08",
+                "format": ""
+            },
+            {
+                "id": 32251,
+                "title": "Arquivo X, um comentário do IMDB de 1998 e uns pensamentos…",
+                "date": "2024-07-14",
+                "url": "reader.html#2024-07-14-arquivo-x-um-comentario-do-imdb-de-1998-e-uns-pensamentos.html",
+                "tags": [
+                    "internet",
+                    "jason-scott",
+                    "tecnologia",
+                    "tempo",
+                    "vida"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2024-07",
+                "format": ""
+            },
+            {
+                "id": 31737,
+                "title": "Os dois segundos abençoados antes de lembrar porque estou dormindo no gramado",
+                "date": "2024-06-19",
+                "url": "reader.html#2024-06-19-os-dois-segundos-abencoados-antes-de-lembrar-porque-estou-dormindo-no-gramado.html",
+                "tags": [
+                    "problemas",
+                    "simpsons"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2024-06",
+                "format": "quote"
+            },
+            {
+                "id": 31633,
+                "title": "Os Caçadores da Arca de San Junipero",
+                "date": "2024-06-02",
+                "url": "reader.html#2024-06-02-os-cacadores-da-arca-de-san-junipero.html",
+                "tags": [
+                    "grandeza",
+                    "san-junipero"
+                ],
+                "cats": [
+                    "documentarios-filmes-series"
+                ],
+                "month": "2024-06",
+                "format": "aside"
+            },
+            {
+                "id": 31576,
+                "title": "“Então, não existe céu? Não.”",
+                "date": "2024-05-30",
+                "url": "reader.html#2024-05-30-entao-nao-existe-ceu-nao.html",
+                "tags": [
+                    "deus",
+                    "fe",
+                    "religao",
+                    "utilitarismo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2024-05",
+                "format": "quote"
+            },
+            {
+                "id": 30657,
+                "title": "Review: “One Year After Body-swap Terrorism Incident”",
+                "date": "2024-02-19",
+                "url": "reader.html#2024-02-19-review-one-year-after-body-swap-terrorism-incident.html",
+                "tags": [
+                    "body-swap",
+                    "fiction",
+                    "gender"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "english",
+                    "textos"
+                ],
+                "month": "2024-02",
+                "format": ""
+            },
+            {
+                "id": 30496,
+                "title": "Um Easter Egg de 20 Anos",
+                "date": "2024-02-05",
+                "url": "reader.html#2024-02-05-um-easter-egg-de-20-anos.html",
+                "tags": [
+                    "nostalgia",
+                    "referencia",
+                    "simpsons"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2024-02",
+                "format": "aside"
+            },
+            {
+                "id": 30325,
+                "title": "Side by Side by Side",
+                "date": "2024-02-02",
+                "url": "reader.html#2024-02-02-side-by-side-by-side.html",
+                "tags": [
+                    "cinema",
+                    "futurismo",
+                    "futuro",
+                    "ia"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2024-02",
+                "format": ""
+            },
+            {
+                "id": 29830,
+                "title": "“Palm Springs” e Loops Temporais",
+                "date": "2023-11-02",
+                "url": "reader.html#2023-11-02-palm-springs-e-loops-temporais.html",
+                "tags": [
+                    "loop",
+                    "universo-paralelo",
+                    "viagem-no-tempo"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2023-11",
+                "format": ""
+            },
+            {
+                "id": 28781,
+                "title": "A maioria dos filmes é sobre dinheiro…",
+                "date": "2023-07-16",
+                "url": "reader.html#2023-07-16-a-maioria-dos-filmes-e-sobre-dinheiro.html",
+                "tags": [
+                    "aborto",
+                    "dinheiro",
+                    "e-se"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2023-07",
+                "format": ""
+            },
+            {
+                "id": 28840,
+                "title": "Nefarious",
+                "date": "2023-06-09",
+                "url": "reader.html#2023-06-09-28840.html",
+                "tags": [
+                    "direita",
+                    "esquerda",
+                    "hollywood"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2023-06",
+                "format": "aside"
+            },
+            {
+                "id": 28820,
+                "title": "Diário: 05/06/2023 – 1900",
+                "date": "2023-06-05",
+                "url": "reader.html#2023-06-05-diario-05-06-2023.html",
+                "tags": [
+                    "a-lenda-de-1900",
+                    "familia",
+                    "medo",
+                    "pais",
+                    "the-legend-of-1900",
+                    "toc",
+                    "vida"
+                ],
+                "cats": [
+                    "diario",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2023-06",
+                "format": "aside"
+            },
+            {
+                "id": 28087,
+                "title": "Cadeias de Produção e o Cinema",
+                "date": "2022-08-18",
+                "url": "reader.html#2022-08-18-cadeias-de-producao-e-o-cinema.html",
+                "tags": [
+                    "cinema",
+                    "economia",
+                    "evolucao",
+                    "filme",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2022-08",
+                "format": ""
+            },
+            {
+                "id": 28146,
+                "title": "A Garota da Foto",
+                "date": "2022-08-04",
+                "url": "reader.html#2022-08-04-a-garota-da-foto.html",
+                "tags": [
+                    "fator-merda",
+                    "tempo",
+                    "tristeza"
+                ],
+                "cats": [
+                    "diario",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2022-08",
+                "format": "aside"
+            },
+            {
+                "id": 27965,
+                "title": "If nothing matters, all the pain and guilt you felt in your life will go away",
+                "date": "2022-06-21",
+                "url": "reader.html#2022-06-21-if-nothing-matters-all-the-pain-and-guilt-you-felt-in-your-life-will-go-away.html",
+                "tags": [
+                    "life",
+                    "meaningless",
+                    "nihilism"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2022-06",
+                "format": "quote"
+            },
+            {
+                "id": 27896,
+                "title": "Maybe you never knew who you really were",
+                "date": "2022-04-17",
+                "url": "reader.html#2022-04-17-maybe-you-never-knew-who-you-really-were.html",
+                "tags": [
+                    "you"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english"
+                ],
+                "month": "2022-04",
+                "format": "quote"
+            },
+            {
+                "id": 27800,
+                "title": "Por que ele cobraria pelo lanche grátis?",
+                "date": "2022-01-01",
+                "url": "reader.html#2022-01-01-27800.html",
+                "tags": [],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2022-01",
+                "format": "quote"
+            },
+            {
+                "id": 27786,
+                "title": "Homebody (2021): Review",
+                "date": "2021-09-22",
+                "url": "reader.html#2021-09-22-homebody-2021-review.html",
+                "tags": [
+                    "autogynephilia",
+                    "biology",
+                    "gender",
+                    "identity",
+                    "sex"
+                ],
+                "cats": [
+                    "about-sex",
+                    "documentarios-filmes-series",
+                    "english",
+                    "textos"
+                ],
+                "month": "2021-09",
+                "format": ""
+            },
+            {
+                "id": 27644,
+                "title": "A Criação e os Filhos",
+                "date": "2021-01-04",
+                "url": "reader.html#2021-01-04-a-criacao-e-os-filhos.html",
+                "tags": [
+                    "causalidade",
+                    "criacao",
+                    "filhos",
+                    "kynodontas",
+                    "pais",
+                    "the-virgin-suicides"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2021-01",
+                "format": "aside"
+            },
+            {
+                "id": 27625,
+                "title": "We don’t even belong to each other",
+                "date": "2020-12-29",
+                "url": "reader.html#2020-12-29-we-dont-even-belong-to-each-other.html",
+                "tags": [
+                    "belong",
+                    "breakfast-at-tiffany",
+                    "love",
+                    "relation"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english"
+                ],
+                "month": "2020-12",
+                "format": "quote"
+            },
+            {
+                "id": 27386,
+                "title": "Regardless of how this particular thing works itself out, I will be dying. So will you… So will everyone here.",
+                "date": "2020-07-13",
+                "url": "reader.html#2020-07-13-regardless-of-how-this-particular-thing-works-itself-out-i-will-be-dying-so-will-you-so-will-everyone-here.html",
+                "tags": [
+                    "charlie-kaufman",
+                    "death",
+                    "end",
+                    "nihilism",
+                    "synecdoche"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english"
+                ],
+                "month": "2020-07",
+                "format": "quote"
+            },
+            {
+                "id": 26553,
+                "title": "That’s because you have it",
+                "date": "2019-10-17",
+                "url": "reader.html#2019-10-17-thats-because-you-have-it.html",
+                "tags": [
+                    "importance",
+                    "money",
+                    "the-aviator"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2019-10",
+                "format": "quote"
+            },
+            {
+                "id": 25898,
+                "title": "She got so drunk at sad songs",
+                "date": "2019-03-28",
+                "url": "reader.html#2019-03-28-she-got-so-drunk-at-sad-songs.html",
+                "tags": [
+                    "drunk",
+                    "life",
+                    "sadness",
+                    "songs",
+                    "the-outer-limits"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2019-03",
+                "format": "quote"
+            },
+            {
+                "id": 25780,
+                "title": "I Freaking Love Old Sci-Fi Shows",
+                "date": "2019-03-11",
+                "url": "reader.html#2019-03-11-i-freaking-love-old-sci-fi-shows.html",
+                "tags": [
+                    "sci-fi",
+                    "shows",
+                    "the-outer-limits",
+                    "the-twilight-zone"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2019-03",
+                "format": "quote"
+            },
+            {
+                "id": 25712,
+                "title": "Tenho certeza que meus clientes nunca…",
+                "date": "2019-02-23",
+                "url": "reader.html#2019-02-23-tenho-certeza-que-meus-clientes-nunca.html",
+                "tags": [
+                    "fotografia",
+                    "lembranca",
+                    "nostalgia",
+                    "one-hour-photo",
+                    "saudade",
+                    "tempo",
+                    "transcender"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2019-02",
+                "format": "quote"
+            },
+            {
+                "id": 25312,
+                "title": "mais 27.184 americanos, e mais milhares de laocianos, cambojanos e vietnamitas, do norte e do sul, precisariam morrer….",
+                "date": "2018-12-06",
+                "url": "reader.html#2018-12-06-mais-27-184-americanos-e-mais-milhares-de-laocianos-cambojanos-e-vietnamitas-do-norte-e-do-sul-precisariam-morrer.html",
+                "tags": [
+                    "guerra",
+                    "historia",
+                    "morte",
+                    "passado",
+                    "vietna"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "videos"
+                ],
+                "month": "2018-12",
+                "format": "quote"
+            },
+            {
+                "id": 25271,
+                "title": "O filme “Searching” (Buscando) ilustra muito bem como as inovações tecnológicas…",
+                "date": "2018-11-20",
+                "url": "reader.html#2018-11-20-o-filme-searching-buscando-ilustra-muito-bem-como-as-inovacoes-tecnologicas.html",
+                "tags": [
+                    "cinema",
+                    "ficcao",
+                    "filme",
+                    "searching",
+                    "storytelling",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "ciencia",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2018-11",
+                "format": "quote"
+            },
+            {
+                "id": 24703,
+                "title": "Amo os documentários do Louis Theroux",
+                "date": "2018-09-22",
+                "url": "reader.html#2018-09-22-amo-os-documentarios-do-louis-theroux.html",
+                "tags": [
+                    "dicas",
+                    "louis-theroux"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2018-09",
+                "format": "link"
+            },
+            {
+                "id": 24342,
+                "title": "E se um escritor estiver tentando criar uma história onde não acontece nada demais?",
+                "date": "2018-07-29",
+                "url": "reader.html#2018-07-29-e-se-um-escritor-estiver-tentando-criar-uma-historia-onde-nao-acontece-nada-demais.html",
+                "tags": [
+                    "adaptation",
+                    "charlie-kaufman",
+                    "escrever"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2018-07",
+                "format": "quote"
+            },
+            {
+                "id": 24004,
+                "title": "Ele tinha uma certa qualidade mágica que todos os genuínos poetas e artistas têm para elevar as coisas…",
+                "date": "2018-06-23",
+                "url": "reader.html#2018-06-23-ele-tinha-uma-certa-qualidade-magica-que-todos-os-genuinos-poetas-e-artistas-tem-para-elevar-as-coisas.html",
+                "tags": [
+                    "artistas",
+                    "poetas",
+                    "searching-for-sugar-man",
+                    "sixto-rodriguez"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2018-06",
+                "format": "quote"
+            },
+            {
+                "id": 23675,
+                "title": "Prohibition: A Film by Ken Burns and Lynn",
+                "date": "2018-05-18",
+                "url": "reader.html#2018-05-18-prohibition-a-film-by-ken-burns-and-lynn.html",
+                "tags": [
+                    "comercio",
+                    "drogas",
+                    "estados",
+                    "legalizacao",
+                    "lei-seca",
+                    "proibicao"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2018-05",
+                "format": "link"
+            },
+            {
+                "id": 23525,
+                "title": "Diário: 05/05/18 – 16 Pensamentos Aleatórios",
+                "date": "2018-05-05",
+                "url": "reader.html#2018-05-05-diario-05-05-2018-16-pensamentos-aleatorios.html",
+                "tags": [
+                    "alemanha",
+                    "apps",
+                    "cgp-grey",
+                    "internet",
+                    "meia-calca",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "diario",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2018-05",
+                "format": "aside"
+            },
+            {
+                "id": 22938,
+                "title": "Ótimo site com curta-metragens",
+                "date": "2018-03-27",
+                "url": "reader.html#2018-03-27-otimo-site-com-curta-metragens.html",
+                "tags": [
+                    "dicas",
+                    "filmes",
+                    "lista"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2018-03",
+                "format": "link"
+            },
+            {
+                "id": 22408,
+                "title": "As pessoas não podem ser respostas. Elas são apenas mais perguntas",
+                "date": "2017-12-11",
+                "url": "reader.html#2017-12-11-as-pessoas-nao-podem-ser-respostas-elas-sao-apenas-mais-perguntas.html",
+                "tags": [
+                    "perguntas",
+                    "pessoas",
+                    "the-end-of-the-fing-world",
+                    "vida"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2017-12",
+                "format": "quote"
+            },
+            {
+                "id": 22366,
+                "title": "Somos uma família, mas não sabemos nada um do outro",
+                "date": "2017-12-06",
+                "url": "reader.html#2017-12-06-somos-uma-familia-mas-nao-sabemos-nada-um-do-outro.html",
+                "tags": [
+                    "familia",
+                    "ignorancia",
+                    "passado",
+                    "segredos"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2017-12",
+                "format": "quote"
+            },
+            {
+                "id": 22223,
+                "title": "Filmes que poderiam facilmente ser episódios do Black Mirror",
+                "date": "2017-11-23",
+                "url": "reader.html#2017-11-23-filmes-que-poderiam-facilmente-ser-episodios-do-black-mirror.html",
+                "tags": [
+                    "black-mirror",
+                    "ficcao-cientifica",
+                    "futurismo",
+                    "listas"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "links"
+                ],
+                "month": "2017-11",
+                "format": "link"
+            },
+            {
+                "id": 21175,
+                "title": "O Mundo Real Transformado em Entretenimento Televisivo",
+                "date": "2017-10-14",
+                "url": "reader.html#2017-10-14-o-mundo-real-transformado-em-entretenimento-televisivo.html",
+                "tags": [
+                    "documentario",
+                    "entretenimento",
+                    "internet",
+                    "reality-show",
+                    "tecnologia",
+                    "tv"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-10",
+                "format": ""
+            },
+            {
+                "id": 20707,
+                "title": "…mas você faz o que você pode para garantir que você ainda vai estar por aí depois ter ido embora",
+                "date": "2017-09-28",
+                "url": "reader.html#2017-09-28-mas-voce-faz-o-que-voce-pode-para-garantir-que-voce-ainda-vai-estar-por-ai-depois-ter-ido-embora.html",
+                "tags": [
+                    "legado",
+                    "lembrar",
+                    "morte",
+                    "passado",
+                    "registros",
+                    "tempo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2017-09",
+                "format": "quote"
+            },
+            {
+                "id": 20880,
+                "title": "50 Documentários Para Assistir Antes de Morrer",
+                "date": "2017-09-07",
+                "url": "reader.html#2017-09-07-50-documentarios-para-assistir-antes-de-morrer.html",
+                "tags": [
+                    "documentarios",
+                    "lista"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2017-09",
+                "format": "link"
+            },
+            {
+                "id": 20817,
+                "title": "A Transhumanist View on the “San Junipero” episode of the Black Mirror series",
+                "date": "2017-08-28",
+                "url": "reader.html#2017-08-28-a-transhumanist-view-on-the-san-junipero-episode-of-the-black-mirror-series.html",
+                "tags": [
+                    "black-mirror",
+                    "moral",
+                    "preconception",
+                    "society",
+                    "technology",
+                    "transhumanism",
+                    "values"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "english",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-08",
+                "format": ""
+            },
+            {
+                "id": 20741,
+                "title": "Uma Visão Transhumanista sobre o episódio “San Junipero” do seriado Black Mirror",
+                "date": "2017-08-20",
+                "url": "reader.html#2017-08-20-uma-visao-transhumanista-sobre-o-episodio-san-junipero-do-seriado-black-mirror.html",
+                "tags": [
+                    "black-mirror",
+                    "moral",
+                    "preconceito",
+                    "sociedade",
+                    "tecnologia",
+                    "transhumanismo",
+                    "valores"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-08",
+                "format": ""
+            },
+            {
+                "id": 20657,
+                "title": "Marie-Poupée (1976) – Dando Banho na Sua Baby Girl",
+                "date": "2017-08-09",
+                "url": "reader.html#2017-08-09-marie-poupee-1976-dando-banho-na-sua-baby-girl.html",
+                "tags": [
+                    "abdl",
+                    "ageplay",
+                    "cute",
+                    "marie-poupee"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos",
+                    "videos"
+                ],
+                "month": "2017-08",
+                "format": ""
+            },
+            {
+                "id": 19964,
+                "title": "…talvez um lar que jamais tenha existido",
+                "date": "2017-07-05",
+                "url": "reader.html#2017-07-05-talvez-um-lar-que-jamais-tenha-existido.html",
+                "tags": [
+                    "bokeh",
+                    "idealizacao",
+                    "passado",
+                    "solidao"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2017-07",
+                "format": "quote"
+            },
+            {
+                "id": 19137,
+                "title": "Sim, eu estou bem. Só estou tendo uma vida ruim…",
+                "date": "2017-05-16",
+                "url": "reader.html#2017-05-16-sim-eu-estou-bem-so-estou-tendo-uma-vida-ruim.html",
+                "tags": [
+                    "comedia",
+                    "depressao",
+                    "morrer",
+                    "people-places-things",
+                    "vida"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2017-05",
+                "format": "quote"
+            },
+            {
+                "id": 18487,
+                "title": "…quando eramos todos estamos estranhos que teriam se cruzado na rua antes de o mundo acabar…",
+                "date": "2017-04-04",
+                "url": "reader.html#2017-04-04-quando-eramos-todos-estamos-estranhos-que-teriam-se-cruzado-na-rua-antes-de-o-mundo-acabar.html",
+                "tags": [
+                    "fim",
+                    "the-walking-dead",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2017-04",
+                "format": "quote"
+            },
+            {
+                "id": 18478,
+                "title": "Sinto que eu estou tomando o lugar de outra pessoa",
+                "date": "2017-04-03",
+                "url": "reader.html#2017-04-03-sinto-que-eu-estou-tomando-o-lugar-de-outra-pessoa.html",
+                "tags": [
+                    "existencia",
+                    "felicidade",
+                    "the-discovery",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2017-04",
+                "format": "quote"
+            },
+            {
+                "id": 16496,
+                "title": "La Boum (1980)",
+                "date": "2016-12-11",
+                "url": "reader.html#2016-12-11-la-boum-1980.html",
+                "tags": [
+                    "ballet",
+                    "cute",
+                    "fofa",
+                    "la-boum",
+                    "tights"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "imagens"
+                ],
+                "month": "2016-12",
+                "format": "image"
+            },
+            {
+                "id": 16155,
+                "title": "11 Documentários Sobre Tecnologia Que Valem A Pena Assistir",
+                "date": "2016-11-13",
+                "url": "reader.html#2016-11-13-11-documentarios-sobre-tecnologia-que-valem-a-pena-assistir.html",
+                "tags": [
+                    "big-data",
+                    "cinema",
+                    "cinema-digital",
+                    "dicas",
+                    "documentario",
+                    "internet",
+                    "remix",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2016-11",
+                "format": ""
+            },
+            {
+                "id": 15536,
+                "title": "Ele disse para não olharem os fatos…",
+                "date": "2016-09-29",
+                "url": "reader.html#2016-09-29-ele-disse-para-nao-olharem-os-fatos.html",
+                "tags": [
+                    "fatos",
+                    "mentira",
+                    "sentido",
+                    "verdade"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2016-09",
+                "format": "quote"
+            },
+            {
+                "id": 15503,
+                "title": "Fosse eu deus por um segundo…",
+                "date": "2016-09-28",
+                "url": "reader.html#2016-09-28-fosse-eu-deus-por-um-segundo.html",
+                "tags": [
+                    "ageplay",
+                    "ballet",
+                    "cute",
+                    "kawaii",
+                    "sam-2015",
+                    "tights"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "imagens"
+                ],
+                "month": "2016-09",
+                "format": "image"
+            },
+            {
+                "id": 14921,
+                "title": "Um amor como o nosso é caro. Pense dessa forma. Nós pagamos por ele ao não nos vermos",
+                "date": "2016-09-04",
+                "url": "reader.html#2016-09-04-um-amor-como-nosso-e-caro-pense-dessa-forma-nos-pagamos-por-ele-ao-nao-nos-vermos.html",
+                "tags": [
+                    "amor",
+                    "hs38",
+                    "lumb",
+                    "solidao"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2016-09",
+                "format": "quote"
+            },
+            {
+                "id": 7357,
+                "title": "Blockbusters Publicitários",
+                "date": "2016-08-10",
+                "url": "reader.html#2016-08-10-blockbusters-publicitarios.html",
+                "tags": [
+                    "cinema",
+                    "produtos",
+                    "propaganda",
+                    "publicidade"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2016-08",
+                "format": ""
+            },
+            {
+                "id": 14451,
+                "title": "Ninguém foi preso e ninguém era o mais sábio. E a vida simplesmente… continuou",
+                "date": "2016-08-09",
+                "url": "reader.html#2016-08-09-ninguem-foi-preso-e-ninguem-era-o-mais-sabio-e-a-vida-simplesmente-continuou.html",
+                "tags": [
+                    "crime",
+                    "esquecer",
+                    "prisao",
+                    "segredo",
+                    "sonhos",
+                    "the-details"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2016-08",
+                "format": "quote"
+            },
+            {
+                "id": 13106,
+                "title": "A História Vista A Partir dos Olhos de um Imortal",
+                "date": "2016-08-02",
+                "url": "reader.html#2016-08-02-a-historia-vista-a-partir-dos-olhos-de-um-imortal.html",
+                "tags": [
+                    "eternidade",
+                    "pespectiva",
+                    "sociedade",
+                    "the-man-from-earth"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2016-08",
+                "format": ""
+            },
+            {
+                "id": 14208,
+                "title": "Eu não sei o que eu sou. Acho que talvez eu não seja nada",
+                "date": "2016-07-23",
+                "url": "reader.html#2016-07-23-eu-nao-sei-o-que-eu-sou-acho-que-talvez-eu-nao-seja-nada.html",
+                "tags": [
+                    "bojack-horseman",
+                    "nada",
+                    "niilismo",
+                    "ser"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2016-07",
+                "format": "quote"
+            },
+            {
+                "id": 12195,
+                "title": "Talvez os pássaros possam lê-las",
+                "date": "2016-04-11",
+                "url": "reader.html#2016-04-11-talvez-os-passaros-possam-le-las.html",
+                "tags": [
+                    "byzantium",
+                    "desabafar",
+                    "escrever",
+                    "guardar",
+                    "segredo",
+                    "verdade"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2016-04",
+                "format": "quote"
+            },
+            {
+                "id": 12190,
+                "title": "Minha salvadora, meu fardo; minha musa.",
+                "date": "2016-04-02",
+                "url": "reader.html#2016-04-02-minha-salvadora-meu-fardo-minha-musa.html",
+                "tags": [
+                    "byzantium",
+                    "fardo",
+                    "historia",
+                    "musa",
+                    "salvacao",
+                    "segredos"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2016-04",
+                "format": "quote"
+            },
+            {
+                "id": 11866,
+                "title": "a única coisa que torna o vazio suportável… são os outros",
+                "date": "2016-03-25",
+                "url": "reader.html#2016-03-25-a-unica-coisa-que-torna-o-vazio-suportavel-sao-os-outros.html",
+                "tags": [
+                    "aliens",
+                    "carl-sagan",
+                    "contact",
+                    "planetas",
+                    "sozinhos",
+                    "universo",
+                    "vazio"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2016-03",
+                "format": "quote"
+            },
+            {
+                "id": 10388,
+                "title": "Restauração de Filmes e a Entropia",
+                "date": "2016-02-25",
+                "url": "reader.html#2016-02-25-restauracao-de-filmes-e-a-entropia.html",
+                "tags": [
+                    "arte",
+                    "caos",
+                    "entropia",
+                    "fisica",
+                    "ordem",
+                    "restauracao"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2016-02",
+                "format": "quote"
+            },
+            {
+                "id": 10620,
+                "title": "Isso é tudo que somos",
+                "date": "2015-12-24",
+                "url": "reader.html#2015-12-24-isso-e-tudo-que-somos.html",
+                "tags": [
+                    "existir",
+                    "fim",
+                    "humano",
+                    "morte",
+                    "niilismo",
+                    "profano",
+                    "sentido",
+                    "the-knick"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "imagens"
+                ],
+                "month": "2015-12",
+                "format": "image"
+            },
+            {
+                "id": 10546,
+                "title": "Are you content simply to write about the accomplishments of other people?",
+                "date": "2015-12-15",
+                "url": "reader.html#2015-12-15-are-you-content-simply-to-write-about-the-accomplishments-of-other-people.html",
+                "tags": [
+                    "ambitions",
+                    "desire",
+                    "envy",
+                    "happy"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english",
+                    "filosofia"
+                ],
+                "month": "2015-12",
+                "format": "quote"
+            },
+            {
+                "id": 10359,
+                "title": "Eu quero cada um destes 45 dias",
+                "date": "2015-12-06",
+                "url": "reader.html#2015-12-06-eu-quero-cada-um-destes-45-dias.html",
+                "tags": [
+                    "agora",
+                    "amor",
+                    "existir",
+                    "futuro",
+                    "how-i-met-your-mother",
+                    "morte",
+                    "passado",
+                    "tempo",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-12",
+                "format": "quote"
+            },
+            {
+                "id": 10205,
+                "title": "A morte é uma doença, é como qualquer outra",
+                "date": "2015-11-26",
+                "url": "reader.html#2015-11-26-a-morte-e-uma-doenca-e-como-qualquer-outra.html",
+                "tags": [
+                    "cura",
+                    "doenca",
+                    "morte",
+                    "the-fountain",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-11",
+                "format": "quote"
+            },
+            {
+                "id": 9647,
+                "title": "A Maior Perda…",
+                "date": "2015-09-26",
+                "url": "reader.html#2015-09-26-a-maior-perda.html",
+                "tags": [
+                    "dor",
+                    "lembranca",
+                    "perda",
+                    "perfect-sense",
+                    "saudade"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2015-09",
+                "format": "quote"
+            },
+            {
+                "id": 9528,
+                "title": "mas eu acho que você já está lá",
+                "date": "2015-09-12",
+                "url": "reader.html#2015-09-12-mas-eu-acho-que-voce-ja-esta-la.html",
+                "tags": [
+                    "dor",
+                    "inferno",
+                    "the-lord-of-war",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-09",
+                "format": "quote"
+            },
+            {
+                "id": 9414,
+                "title": "Ninguém Existe de Propósito",
+                "date": "2015-09-03",
+                "url": "reader.html#2015-09-03-ninguem-existe-de-proposito.html",
+                "tags": [
+                    "existir",
+                    "morrer",
+                    "niilismo",
+                    "rick-and-morty",
+                    "sentindo",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-09",
+                "format": "quote"
+            },
+            {
+                "id": 9328,
+                "title": "… pare este mundo você não existe",
+                "date": "2015-08-23",
+                "url": "reader.html#2015-08-23-pare-este-mundo-voce-nao-existe.html",
+                "tags": [
+                    "e-se",
+                    "existir",
+                    "morrer",
+                    "mr-nobody",
+                    "possibilidades",
+                    "voce"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-08",
+                "format": "quote"
+            },
+            {
+                "id": 9253,
+                "title": "Deus é Ciência",
+                "date": "2015-08-17",
+                "url": "reader.html#2015-08-17-deus-e-ciencia.html",
+                "tags": [
+                    "ateismo",
+                    "deus",
+                    "fe",
+                    "fringe",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-08",
+                "format": "quote"
+            },
+            {
+                "id": 9169,
+                "title": "Veremos os Estúpidos Filmes da Marvel",
+                "date": "2015-08-11",
+                "url": "reader.html#2015-08-11-veremos-os-estupidos-filmes-da-marvel.html",
+                "tags": [
+                    "comum",
+                    "estranho",
+                    "fordismo",
+                    "mr-robot",
+                    "normal",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-08",
+                "format": "quote"
+            },
+            {
+                "id": 9155,
+                "title": "Vendemos Versões Desonestas de Nós Mesmos Para Outras Pessoas",
+                "date": "2015-08-09",
+                "url": "reader.html#2015-08-09-vendemos-versoes-desonestas-de-nos-mesmos-para-outras-pessoas.html",
+                "tags": [
+                    "amor",
+                    "carente",
+                    "charlie-kaufman",
+                    "desonestidade",
+                    "mentira",
+                    "morte",
+                    "synecdoche",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-08",
+                "format": "quote"
+            },
+            {
+                "id": 9112,
+                "title": "Estou aqui, Kat. Estou aqui",
+                "date": "2015-07-27",
+                "url": "reader.html#2015-07-27-estou-aqui-kat-estou-aqui.html",
+                "tags": [
+                    "adeus",
+                    "despedida",
+                    "dor",
+                    "mae",
+                    "saudade",
+                    "white-bird-in-a-blizzard"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-07",
+                "format": "quote"
+            },
+            {
+                "id": 9032,
+                "title": "Você Simplesmente Continua Vivendo…",
+                "date": "2015-07-13",
+                "url": "reader.html#2015-07-13-voce-simplesmente-continua-vivendo.html",
+                "tags": [
+                    "niilismo",
+                    "sabedoria",
+                    "the-twilight-zone",
+                    "viver"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-07",
+                "format": "quote"
+            },
+            {
+                "id": 8720,
+                "title": "Hold On Forever…",
+                "date": "2015-05-28",
+                "url": "reader.html#2015-05-28-hold-on-forever.html",
+                "tags": [
+                    "forever",
+                    "love",
+                    "the-age-of-adaline"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english",
+                    "filosofia"
+                ],
+                "month": "2015-05",
+                "format": "quote"
+            },
+            {
+                "id": 8518,
+                "title": "I’m sorry I don’t know things…",
+                "date": "2015-05-11",
+                "url": "reader.html#2015-05-11-im-sorry-i-dont-know-things.html",
+                "tags": [
+                    "game-of-thrones",
+                    "innocence",
+                    "know"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english",
+                    "filosofia"
+                ],
+                "month": "2015-05",
+                "format": "quote"
+            },
+            {
+                "id": 8454,
+                "title": "The Man On The Moon",
+                "date": "2015-05-06",
+                "url": "reader.html#2015-05-06-the-man-on-the-moon.html",
+                "tags": [
+                    "man-on-the-moon",
+                    "mentira",
+                    "troll",
+                    "verdade"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-05",
+                "format": "image"
+            },
+            {
+                "id": 8337,
+                "title": "A História Como Um Acontecimento Atemporal",
+                "date": "2015-04-28",
+                "url": "reader.html#2015-04-28-a-historia-como-um-acontecimento-atemporal.html",
+                "tags": [
+                    "atemporal",
+                    "conceito",
+                    "futuro",
+                    "passado",
+                    "presente",
+                    "tempo"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-04",
+                "format": ""
+            },
+            {
+                "id": 8092,
+                "title": "Quarteto Fantástico",
+                "date": "2015-04-07",
+                "url": "reader.html#2015-04-07-quarteto-fantastico.html",
+                "tags": [
+                    "futuro",
+                    "humanos",
+                    "ideias",
+                    "inventar",
+                    "quarteto-fantastico",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-04",
+                "format": "quote"
+            },
+            {
+                "id": 7841,
+                "title": "Not Frightened of Anything",
+                "date": "2015-03-13",
+                "url": "reader.html#2015-03-13-not-frightened-of-anything.html",
+                "tags": [
+                    "fear",
+                    "love",
+                    "quotes",
+                    "the-reader"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english",
+                    "filosofia"
+                ],
+                "month": "2015-03",
+                "format": "quote"
+            },
+            {
+                "id": 6756,
+                "title": "Meu pai dizia que nascemos…",
+                "date": "2015-01-06",
+                "url": "reader.html#2015-01-06-meu-pai-dizia-que-nascemos.html",
+                "tags": [
+                    "aqui",
+                    "existir",
+                    "gangs-of-new-york",
+                    "historia",
+                    "lembrancas",
+                    "morrer",
+                    "passado",
+                    "tempo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2015-01",
+                "format": "quote"
+            },
+            {
+                "id": 6064,
+                "title": "Posso Cheirá-la Como Uma Flor",
+                "date": "2014-11-26",
+                "url": "reader.html#2014-11-26-posso-cheira-la-como-uma-flor.html",
+                "tags": [
+                    "cheiro",
+                    "flor",
+                    "mulher",
+                    "sentir"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2014-11",
+                "format": "quote"
+            },
+            {
+                "id": 5978,
+                "title": "Sua Vergonha Será Sua Tortura",
+                "date": "2014-11-22",
+                "url": "reader.html#2014-11-22-sua-vergonha-sera-sua-tortura.html",
+                "tags": [
+                    "desejar",
+                    "morte",
+                    "punicao",
+                    "tortura",
+                    "vergonha"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2014-11",
+                "format": "quote"
+            },
+            {
+                "id": 5869,
+                "title": "O Bastante",
+                "date": "2014-11-17",
+                "url": "reader.html#2014-11-17-5869.html",
+                "tags": [
+                    "bastante",
+                    "morrer",
+                    "necessario",
+                    "suficiente",
+                    "tempo",
+                    "vida"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2014-11",
+                "format": ""
+            },
+            {
+                "id": 5781,
+                "title": "Quando as pessoas que o adoram deixam de adorá-lo…",
+                "date": "2014-11-12",
+                "url": "reader.html#2014-11-12-quando-as-pessoas-que-o-adoram-deixam-de-adora-lo.html",
+                "tags": [
+                    "adorar",
+                    "charlie-kaufman",
+                    "filme",
+                    "memorial",
+                    "morrer",
+                    "new-york",
+                    "observar",
+                    "passar",
+                    "synecdoche",
+                    "tempo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2014-11",
+                "format": "quote"
+            },
+            {
+                "id": 5533,
+                "title": "Talvez nós pudéssemos começar uma vida nova…",
+                "date": "2014-10-24",
+                "url": "reader.html#2014-10-24-talvez-nos-pudessemos-comecar-uma-vida-nova.html",
+                "tags": [
+                    "cest-pas-moi",
+                    "canada",
+                    "criancas",
+                    "je-le-jure",
+                    "mudar",
+                    "recomecar",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2014-10",
+                "format": "quote"
+            },
+            {
+                "id": 5536,
+                "title": "Estou acostumado a morrer de tempo em tempo…",
+                "date": "2014-10-22",
+                "url": "reader.html#2014-10-22-estou-acostumado-a-morrer-de-tempo-em-tempo.html",
+                "tags": [
+                    "agua",
+                    "crianca",
+                    "dor",
+                    "mamae",
+                    "matou",
+                    "morrer",
+                    "piscina",
+                    "suicidio"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2014-10",
+                "format": "quote"
+            },
+            {
+                "id": 5529,
+                "title": "Quando eu nasci, o médico disse que…",
+                "date": "2014-10-14",
+                "url": "reader.html#2014-10-14-quando-eu-nasci-o-medico-disse-que.html",
+                "tags": [
+                    "cest-pas-moi",
+                    "canada",
+                    "creep",
+                    "estranho",
+                    "fuzilamento",
+                    "garoto",
+                    "je-le-jure",
+                    "medico",
+                    "nascer",
+                    "normal"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2014-10",
+                "format": "quote"
+            },
+            {
+                "id": 5240,
+                "title": "Mr. Nobody",
+                "date": "2014-09-18",
+                "url": "reader.html#2014-09-18-mr-nobody.html",
+                "tags": [
+                    "amor",
+                    "casal",
+                    "couple",
+                    "filme",
+                    "love",
+                    "mr-nobody"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "imagens"
+                ],
+                "month": "2014-09",
+                "format": "image"
+            },
+            {
+                "id": 4742,
+                "title": "Submarine",
+                "date": "2014-07-22",
+                "url": "reader.html#2014-07-22-submarine.html",
+                "tags": [
+                    "poster",
+                    "submarine"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "imagens"
+                ],
+                "month": "2014-07",
+                "format": "image"
+            },
+            {
+                "id": 4721,
+                "title": "Eu ainda não sei bem exatamente o que eu sou…",
+                "date": "2014-07-22",
+                "url": "reader.html#2014-07-22-eu-ainda-nao-sei-bem-exatamente-o-que-eu-sou.html",
+                "tags": [
+                    "indie",
+                    "personalidade",
+                    "se-descobrir",
+                    "ser",
+                    "ser-diferente",
+                    "submarine",
+                    "voce"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2014-07",
+                "format": "quote"
+            },
+            {
+                "id": 3805,
+                "title": "A Nossa Sorte…",
+                "date": "2014-06-09",
+                "url": "reader.html#2014-06-09-a-nossa-sorte-p.html",
+                "tags": [
+                    "afortunado",
+                    "alegria",
+                    "amor",
+                    "filme",
+                    "sorte",
+                    "toda-forma-de-amor"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2014-06",
+                "format": "quote"
+            },
+            {
+                "id": 3802,
+                "title": "My father is an…",
+                "date": "2014-06-08",
+                "url": "reader.html#2014-06-08-my-father-is-an.html",
+                "tags": [
+                    "being-flynn",
+                    "father",
+                    "invisible",
+                    "movies",
+                    "quotes"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "english"
+                ],
+                "month": "2014-06",
+                "format": "quote"
+            },
+            {
+                "id": 2803,
+                "title": "O Final FODA de Six Feet Under",
+                "date": "2014-03-26",
+                "url": "reader.html#2014-03-26-o-final-foda-de-six-feet-under.html",
+                "tags": [
+                    "binge-watching",
+                    "despedida",
+                    "final",
+                    "morte",
+                    "olhos",
+                    "six-feet-under",
+                    "vida"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2014-03",
+                "format": ""
+            },
+            {
+                "id": 2419,
+                "title": "3 Filmes e a Relação Deles com Pais e Família",
+                "date": "2014-03-01",
+                "url": "reader.html#2014-03-01-3-filmes-e-a-relacao-deles-com-pais-e-familia.html",
+                "tags": [
+                    "big-fish",
+                    "estrada-para-perdicao",
+                    "familia",
+                    "os-excentricos-tenenbaums",
+                    "pai",
+                    "peixe-grande-e-suas-historias-maravilhosas",
+                    "relacionamento",
+                    "road-to-perdition",
+                    "the-royal-tenenbaums"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2014-03",
+                "format": ""
+            },
+            {
+                "id": 2188,
+                "title": "O Filme “Her” e o Futuro Tecnológico",
+                "date": "2014-01-19",
+                "url": "reader.html#2014-01-19-o-filme-her-e-o-futuro-tecnologico.html",
+                "tags": [
+                    "futuro",
+                    "google-glass",
+                    "her",
+                    "siri"
+                ],
+                "cats": [
+                    "ciencia",
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2014-01",
+                "format": ""
+            },
+            {
+                "id": 1811,
+                "title": "Fé, Razão e o filme “Contato”",
+                "date": "2013-12-16",
+                "url": "reader.html#2013-12-16-fe-razao-e-o-filme-contato.html",
+                "tags": [
+                    "ateismo",
+                    "carl-sagan",
+                    "contact",
+                    "contato",
+                    "duvida",
+                    "fe",
+                    "filme",
+                    "razao",
+                    "religiao"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2013-12",
+                "format": ""
+            },
+            {
+                "id": 1591,
+                "title": "Granulado, Digital e Cinema",
+                "date": "2013-12-05",
+                "url": "reader.html#2013-12-05-granulado-digital-e-cinema.html",
+                "tags": [
+                    "as-virgens-suicidas",
+                    "cinema",
+                    "cinema-digital",
+                    "evolucao",
+                    "melhor"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2013-12",
+                "format": ""
+            },
+            {
+                "id": 1223,
+                "title": "Eu não tenho…",
+                "date": "2013-10-28",
+                "url": "reader.html#2013-10-28-eu-nao-tenho.html",
+                "tags": [
+                    "mr-nobody"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-10",
+                "format": "quote"
+            },
+            {
+                "id": 882,
+                "title": "A Existência É …",
+                "date": "2013-08-27",
+                "url": "reader.html#2013-08-27-a-existencia-e.html",
+                "tags": [
+                    "existencia"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-08",
+                "format": "quote"
+            },
+            {
+                "id": 846,
+                "title": "Amélie…",
+                "date": "2013-08-18",
+                "url": "reader.html#2013-08-18-amelie-vai-ao-c.html",
+                "tags": [],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-08",
+                "format": "quote"
+            },
+            {
+                "id": 757,
+                "title": "Alguns dos relacionamentos mais bem sucedidos",
+                "date": "2013-08-05",
+                "url": "reader.html#2013-08-05-alguns-dos-relacionamentos-mais-bem-sucedidos-sao-baseados-em-mentiras-e-enganos-como-estes-geralmente-sao-os-motivos-de-seu-termino-e-um-lugar-logico-para-se-comecar.html",
+                "tags": [
+                    "amor",
+                    "mentiras"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2013-08",
+                "format": "quote"
+            },
+            {
+                "id": 625,
+                "title": "Tantas ideias para escrever…",
+                "date": "2013-07-27",
+                "url": "reader.html#2013-07-27-tantas-ideias-para-escrever.html",
+                "tags": [
+                    "dor",
+                    "escrever",
+                    "tristeza"
+                ],
+                "cats": [
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2013-07",
+                "format": "quote"
+            },
+            {
+                "id": 566,
+                "title": "Why have a civilization anymore if…",
+                "date": "2013-07-26",
+                "url": "reader.html#2013-07-26-why-have-a-civi.html",
+                "tags": [
+                    "citacoes",
+                    "existencia",
+                    "sentido",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-07",
+                "format": "quote"
+            },
+            {
+                "id": 384,
+                "title": "As Pessoas Viam…",
+                "date": "2013-07-19",
+                "url": "reader.html#2013-07-19-as-pessoas-viam.html",
+                "tags": [
+                    "as-virgens-suicidas",
+                    "the-virgin-suicides"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2013-07",
+                "format": "quote"
+            },
+            {
+                "id": 386,
+                "title": "Eu não tenho nenhuma religião…",
+                "date": "2013-07-19",
+                "url": "reader.html#2013-07-19-eu-nao-tenho-ne.html",
+                "tags": [
+                    "ateismo",
+                    "crenca",
+                    "deus"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-07",
+                "format": "quote"
+            },
+            {
+                "id": 381,
+                "title": "Quero lhe dizer…",
+                "date": "2013-07-19",
+                "url": "reader.html#2013-07-19-quero-lhe-dizer.html",
+                "tags": [
+                    "erros",
+                    "k-pax"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-07",
+                "format": "quote"
+            },
+            {
+                "id": 380,
+                "title": "Você quer se to…",
+                "date": "2013-07-19",
+                "url": "reader.html#2013-07-19-voce-quer-se-to.html",
+                "tags": [],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-07",
+                "format": "quote"
+            },
+            {
+                "id": 370,
+                "title": "Da Primeira Vez…",
+                "date": "2013-07-19",
+                "url": "reader.html#2013-07-19-da-primeira-vez.html",
+                "tags": [
+                    "house",
+                    "internet",
+                    "solidao"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-07",
+                "format": "quote"
+            },
+            {
+                "id": 346,
+                "title": "Despedidas e Séries de Televisão",
+                "date": "2013-07-19",
+                "url": "reader.html#2013-07-19-despedidas-e-series-de-televisao.html",
+                "tags": [
+                    "adeus",
+                    "despedidas",
+                    "i-love-lucy",
+                    "lost"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 304,
+                "title": "Virgens Suicidas",
+                "date": "2013-07-19",
+                "url": "reader.html#2013-07-19-virgens-suicidas.html",
+                "tags": [
+                    "the-virgin-suicides"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 260,
+                "title": "Ars et Vita",
+                "date": "2013-07-17",
+                "url": "reader.html#2013-07-17-ars-et-vita.html",
+                "tags": [
+                    "existencia"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 230,
+                "title": "Brilho Eterno De Uma Mente Sem Lembrança – A Maior Decepção Amorosa que Nunca Aconteceu",
+                "date": "2013-07-17",
+                "url": "reader.html#2013-07-17-brilho-eterno-de-uma-mente-sem-lembranca-a-maior-decepcao-amorosa-que-nunca-aconteceu.html",
+                "tags": [
+                    "amor",
+                    "desilusao-amorosa",
+                    "tristeza"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 226,
+                "title": "ABC do Amor",
+                "date": "2013-07-17",
+                "url": "reader.html#2013-07-17-abc-do-amor.html",
+                "tags": [
+                    "abc-do-amor",
+                    "amor",
+                    "desilusao-amorosa"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 199,
+                "title": "Existe vida após a morte?",
+                "date": "2013-07-16",
+                "url": "reader.html#2013-07-16-199.html",
+                "tags": [
+                    "mr-nobody"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "documentarios-filmes-series",
+                    "filosofia"
+                ],
+                "month": "2013-07",
+                "format": "quote"
+            },
+            {
+                "id": 50,
+                "title": "Mr. Nobody – Quando é Simplesmente Melhor não Escolher",
+                "date": "2013-07-15",
+                "url": "reader.html#2013-07-15-mr-nobody-quando-e-simplesmente-melhor-nao-escolher.html",
+                "tags": [
+                    "efeito-borboleta",
+                    "escolha",
+                    "mr-nobody"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 79,
+                "title": "ABC do Amor",
+                "date": "2013-07-15",
+                "url": "reader.html#2013-07-15-abc-do-amor-2.html",
+                "tags": [
+                    "abc-do-amor",
+                    "amor",
+                    "comedia-romantica"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            }
+        ]
+    }
+}
