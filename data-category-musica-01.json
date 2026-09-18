@@ -1,0 +1,647 @@
+{
+    "type": "musica",
+    "segment": 1,
+    "cats": {
+        "musica": "Música"
+    },
+    "posts": {
+        "musica": [
+            {
+                "id": 39738,
+                "title": "“You’re looking out for yourself now”",
+                "date": "2026-07-11",
+                "url": "reader.html#2026-07-11-youre-looking-out-for-yourself-now.html",
+                "tags": [],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2026-07",
+                "format": "quote"
+            },
+            {
+                "id": 37855,
+                "title": "Não Sei Viver/Meu Mundo Dum Homem Só",
+                "date": "2025-11-10",
+                "url": "reader.html#2025-11-10-nao-sei-viver-meu-mundo-dum-homem-so.html",
+                "tags": [],
+                "cats": [
+                    "ai-music",
+                    "direcao-de-arte-ia",
+                    "musica"
+                ],
+                "month": "2025-11",
+                "format": "aside"
+            },
+            {
+                "id": 35924,
+                "title": "Outer Limits Recordings – Julie",
+                "date": "2025-05-13",
+                "url": "reader.html#2025-05-13-outer-limits-recordings-julie.html",
+                "tags": [
+                    "death",
+                    "sam-mehran",
+                    "sorrow",
+                    "suicide"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "english",
+                    "musica"
+                ],
+                "month": "2025-05",
+                "format": "audio"
+            },
+            {
+                "id": 35015,
+                "title": "Helene & Mile (The Beatles) – For No One",
+                "date": "2024-12-21",
+                "url": "reader.html#2024-12-21-helene-mile-the-beatles-for-no-one.html",
+                "tags": [
+                    "comfy"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "musica",
+                    "videos"
+                ],
+                "month": "2024-12",
+                "format": "aside"
+            },
+            {
+                "id": 31167,
+                "title": "I Want To Go Back To What I Never Was",
+                "date": "2024-07-05",
+                "url": "reader.html#2024-07-05-i-want-to-go-back-to-what-i-never-was.html",
+                "tags": [
+                    "white-tights"
+                ],
+                "cats": [
+                    "ai-music",
+                    "art-work",
+                    "musica"
+                ],
+                "month": "2024-07",
+                "format": "aside"
+            },
+            {
+                "id": 31683,
+                "title": "IT’S GONE NOW　IT’S GONE NOW　IT’S GONE NOW",
+                "date": "2024-06-15",
+                "url": "reader.html#2024-06-15-its-gone-now%e3%80%80its-gone-now%e3%80%80its-gone-now.html",
+                "tags": [],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2024-06",
+                "format": "aside"
+            },
+            {
+                "id": 31082,
+                "title": "Música: De Dentro pra Fora",
+                "date": "2024-04-12",
+                "url": "reader.html#2024-04-12-de-dentro-pra-fora.html",
+                "tags": [
+                    "composicao",
+                    "letra"
+                ],
+                "cats": [
+                    "ai-music",
+                    "art-work",
+                    "filosofia",
+                    "musica",
+                    "textos"
+                ],
+                "month": "2024-04",
+                "format": "aside"
+            },
+            {
+                "id": 27519,
+                "title": "Lábio a lábio, olho a olho, mão a mão",
+                "date": "2020-09-26",
+                "url": "reader.html#2020-09-26-labio-a-labio-olho-a-olho-mao-a-mao.html",
+                "tags": [
+                    "anos-2000",
+                    "makoto-kawamoto",
+                    "nostalgia",
+                    "rurouni-kenshin"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "musica"
+                ],
+                "month": "2020-09",
+                "format": "quote"
+            },
+            {
+                "id": 26561,
+                "title": "…the most beautiful songs I never found…",
+                "date": "2019-10-23",
+                "url": "reader.html#2019-10-23-the-most-beautiful-songs-i-never-found.html",
+                "tags": [
+                    "blood-and-guts",
+                    "blood-and-guts-a-history-of-surgery",
+                    "moving-on",
+                    "the-confession-tapes"
+                ],
+                "cats": [
+                    "citacoes",
+                    "musica"
+                ],
+                "month": "2019-10",
+                "format": "aside"
+            },
+            {
+                "id": 26364,
+                "title": "…nós respeitosamente pedimos desculpas, mas não estaremos lá quando você morrer",
+                "date": "2019-07-28",
+                "url": "reader.html#2019-07-28-nos-respeitosamente-pedimos-desculpas-mas-nao-estaremos-la-quando-voce-morrer.html",
+                "tags": [
+                    "ceu",
+                    "deus",
+                    "diabo",
+                    "inferno",
+                    "morte",
+                    "ritt-momney",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "musica",
+                    "textos"
+                ],
+                "month": "2019-07",
+                "format": "aside"
+            },
+            {
+                "id": 25990,
+                "title": "Lucy Dacus – My Mother & I",
+                "date": "2019-05-14",
+                "url": "reader.html#2019-05-14-lucy-dacus-my-mother-i.html",
+                "tags": [
+                    "indie",
+                    "mae",
+                    "traducao"
+                ],
+                "cats": [
+                    "musica"
+                ],
+                "month": "2019-05",
+                "format": "audio"
+            },
+            {
+                "id": 25603,
+                "title": "MONDO GROSSO – ラビリンス",
+                "date": "2019-01-13",
+                "url": "reader.html#2019-01-13-mondo-grosso-%e3%83%a9%e3%83%93%e3%83%aa%e3%83%b3%e3%82%b9.html",
+                "tags": [
+                    "a-e-s-t-h-e-t-h-i-c",
+                    "beautiful",
+                    "free",
+                    "japao",
+                    "mondo-grosso"
+                ],
+                "cats": [
+                    "musica"
+                ],
+                "month": "2019-01",
+                "format": "audio"
+            },
+            {
+                "id": 25451,
+                "title": "Second Hand King – Woke Up At 7",
+                "date": "2018-12-20",
+                "url": "reader.html#2018-12-20-second-hand-king-woke-up-at-7.html",
+                "tags": [
+                    "fim",
+                    "fim-do-mundo",
+                    "second-hand-king",
+                    "terra",
+                    "traducao",
+                    "universo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "filosofia",
+                    "musica",
+                    "textos"
+                ],
+                "month": "2018-12",
+                "format": "audio"
+            },
+            {
+                "id": 24488,
+                "title": "E quando você estiver morto, eu ainda estarei vivo…",
+                "date": "2018-08-24",
+                "url": "reader.html#2018-08-24-e-quando-voce-estiver-morto-eu-ainda-estarei-vivo.html",
+                "tags": [
+                    "morte",
+                    "portal",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "musica"
+                ],
+                "month": "2018-08",
+                "format": "quote"
+            },
+            {
+                "id": 12530,
+                "title": "“Singularidade” dos The Lipbs",
+                "date": "2016-06-01",
+                "url": "reader.html#2016-06-01-singularidade-dos-the-lipbs.html",
+                "tags": [
+                    "singularidade",
+                    "the-lisps",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2016-06",
+                "format": "audio"
+            },
+            {
+                "id": 12282,
+                "title": "“A História de um Artista” de Daniel Johnston",
+                "date": "2016-04-28",
+                "url": "reader.html#2016-04-28-a-historia-de-um-artista-de-daniel-johnston.html",
+                "tags": [
+                    "arte",
+                    "artista",
+                    "daniel-johnston",
+                    "depressao",
+                    "dor",
+                    "fracassado",
+                    "inutil",
+                    "reconhecimento"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2016-04",
+                "format": "audio"
+            },
+            {
+                "id": 10845,
+                "title": "Feels Like Cozy Cloudy Days",
+                "date": "2016-01-14",
+                "url": "reader.html#2016-01-14-feels-like-cozy-cloudy-days.html",
+                "tags": [
+                    "cloudy",
+                    "cozy",
+                    "depression",
+                    "sadness",
+                    "sondre-lerche",
+                    "winter"
+                ],
+                "cats": [
+                    "citacoes",
+                    "english",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2016-01",
+                "format": "quote"
+            },
+            {
+                "id": 9846,
+                "title": "…mas a vida nunca lhe foi prometida…",
+                "date": "2015-10-15",
+                "url": "reader.html#2015-10-15-mas-a-vida-nunca-lhe-foi-prometida.html",
+                "tags": [
+                    "acaso",
+                    "existir",
+                    "morrer",
+                    "second-hand-king",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2015-10",
+                "format": "quote"
+            },
+            {
+                "id": 9461,
+                "title": "Violins",
+                "date": "2015-09-07",
+                "url": "reader.html#2015-09-07-violins.html",
+                "tags": [
+                    "ceu",
+                    "indiferenca",
+                    "inferno",
+                    "violins"
+                ],
+                "cats": [
+                    "art-work",
+                    "autoria-de-outros",
+                    "musica"
+                ],
+                "month": "2015-09",
+                "format": "image"
+            },
+            {
+                "id": 9335,
+                "title": "Você Percebe?",
+                "date": "2015-08-24",
+                "url": "reader.html#2015-08-24-voce-percebe.html",
+                "tags": [
+                    "adeus",
+                    "dizer",
+                    "morrer",
+                    "passageiro",
+                    "perceber",
+                    "tempo",
+                    "the-flaming-lips",
+                    "vida"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2015-08",
+                "format": "quote"
+            },
+            {
+                "id": 7181,
+                "title": "Mas eu lhe agradeço por seu tempo…",
+                "date": "2015-02-02",
+                "url": "reader.html#2015-02-02-mas-eu-lhe-agradeco-por-seu-tempo.html",
+                "tags": [
+                    "despedida",
+                    "esquecer",
+                    "lembranca",
+                    "nostalgia",
+                    "sixto-rodriguez",
+                    "tempo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2015-02",
+                "format": "quote"
+            },
+            {
+                "id": 5654,
+                "title": "But there never seems to be enough time…",
+                "date": "2014-11-02",
+                "url": "reader.html#2014-11-02-but-there-never-seems-to-be-enough-time.html",
+                "tags": [
+                    "death",
+                    "jim-croce",
+                    "life",
+                    "living",
+                    "time"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "english",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2014-11",
+                "format": "quote"
+            },
+            {
+                "id": 5251,
+                "title": "E as músicas que ele gostava…",
+                "date": "2014-09-25",
+                "url": "reader.html#2014-09-25-e-as-musicas-que-ele-gostava.html",
+                "tags": [
+                    "escritas",
+                    "existir",
+                    "musicas",
+                    "nostalgia",
+                    "passado"
+                ],
+                "cats": [
+                    "citacoes",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2014-09",
+                "format": "quote"
+            },
+            {
+                "id": 3633,
+                "title": "Facas do Gramado (Lawn Knives) – Born Gold",
+                "date": "2014-06-02",
+                "url": "reader.html#2014-06-02-facas-do-gramado-lawn-knives-born-gold.html",
+                "tags": [
+                    "bandcamp",
+                    "born-gold",
+                    "eletronic-music",
+                    "lawn-knives",
+                    "letras",
+                    "lyrics",
+                    "musica-eletronica",
+                    "traducao"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "musica",
+                    "videos"
+                ],
+                "month": "2014-06",
+                "format": "audio"
+            },
+            {
+                "id": 3540,
+                "title": "E aqueles que f…",
+                "date": "2014-05-20",
+                "url": "reader.html#2014-05-20-e-aqueles-que-f.html",
+                "tags": [
+                    "crazy-ones",
+                    "danca",
+                    "friedrich-nietzsche",
+                    "insanos",
+                    "ouvir"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "filosofia",
+                    "musica"
+                ],
+                "month": "2014-05",
+                "format": "quote"
+            },
+            {
+                "id": 3433,
+                "title": "Concerto De Aranjuez Adagio",
+                "date": "2014-05-12",
+                "url": "reader.html#2014-05-12-concerto-de-aranjuez-adagio.html",
+                "tags": [
+                    "concerto",
+                    "contemplacao",
+                    "espanha",
+                    "joaquin-rodrigo",
+                    "musica-classica"
+                ],
+                "cats": [
+                    "musica"
+                ],
+                "month": "2014-05",
+                "format": ""
+            },
+            {
+                "id": 3157,
+                "title": "Against Me! – Transgender Dysphoria Blues",
+                "date": "2014-04-21",
+                "url": "reader.html#2014-04-21-against-me-transgender-dysphoria-blues.html",
+                "tags": [
+                    "against-me",
+                    "armario",
+                    "clipes",
+                    "se-assumir",
+                    "transexualidade"
+                ],
+                "cats": [
+                    "musica",
+                    "videos"
+                ],
+                "month": "2014-04",
+                "format": "audio"
+            },
+            {
+                "id": 2435,
+                "title": "“Um Dia Eu Crescerei, Eu serei uma Linda Garota”",
+                "date": "2014-02-27",
+                "url": "reader.html#2014-02-27-um-dia-eu-crescerei-eu-serei-uma-linda-garota.html",
+                "tags": [
+                    "antony-and-the-johnsons",
+                    "identidade-de-genero",
+                    "transexualidade"
+                ],
+                "cats": [
+                    "musica",
+                    "textos"
+                ],
+                "month": "2014-02",
+                "format": ""
+            },
+            {
+                "id": 1943,
+                "title": "Pensamentos de um Ateu Moribundo",
+                "date": "2013-12-22",
+                "url": "reader.html#2013-12-22-pensamentos-de-um-ateu-moribundo.html",
+                "tags": [
+                    "ateismo",
+                    "fe",
+                    "morte",
+                    "placebo",
+                    "realidade",
+                    "religiao"
+                ],
+                "cats": [
+                    "filosofia",
+                    "musica",
+                    "textos"
+                ],
+                "month": "2013-12",
+                "format": ""
+            },
+            {
+                "id": 832,
+                "title": "The Peddlers – On A Clear Day You Can See Forever",
+                "date": "2013-08-17",
+                "url": "reader.html#2013-08-17-the-peddlers-on-a-clear-day-you-can-see-forever.html",
+                "tags": [
+                    "breaking-bad"
+                ],
+                "cats": [
+                    "musica"
+                ],
+                "month": "2013-08",
+                "format": "video"
+            },
+            {
+                "id": 504,
+                "title": "Eu, Você, Ele, Ela… Nós somos o Creep",
+                "date": "2013-07-21",
+                "url": "reader.html#2013-07-21-eu-voce-ele-ela-nos-somos-o-creep.html",
+                "tags": [
+                    "creep",
+                    "depressao"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "musica",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 500,
+                "title": "Lost – Jumping Jack’s Flash",
+                "date": "2013-07-21",
+                "url": "reader.html#2013-07-21-lost-jumping-jacks-flash.html",
+                "tags": [
+                    "lost",
+                    "ost"
+                ],
+                "cats": [
+                    "musica"
+                ],
+                "month": "2013-07",
+                "format": "audio"
+            },
+            {
+                "id": 472,
+                "title": "Trilha Sonora: A Emoção de uma Obra",
+                "date": "2013-07-20",
+                "url": "reader.html#2013-07-20-trilha-sonora-a-emocao-de-uma-obra.html",
+                "tags": [
+                    "ost"
+                ],
+                "cats": [
+                    "musica",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 175,
+                "title": "Cultura, Música e Tecnologia",
+                "date": "2013-07-15",
+                "url": "reader.html#2013-07-15-cultura-musica-e-tecnologia.html",
+                "tags": [
+                    "antigamente",
+                    "tempo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "musica",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            }
+        ]
+    }
+}
