@@ -76,6 +76,9 @@ Text Domain: twentyfourteen
  --border-white-light: rgb(255 255 255 / 20%);
  --border-white-medium: rgb(255 255 255 / 30%);
  --border-white-soft: rgb(255 255 255 / 70%);
+  --media-border: 1px dotted rgba(0, 0, 0);
+  --media-max-height: 300px;
+  --video-max-height: 415px;
  --focus-color: #21759b;
  --focus-bg: #f1f1f1;
  --placeholder: #939393;
@@ -227,6 +230,9 @@ Text Domain: twentyfourteen
   --primary-color-search: #07c956;
   --url-color-search: #30d8ff;
   --border-color-search: #7777772b;
+  --media-border: 1px dotted rgba(255, 255, 255);
+  --media-max-height: 300px;
+  --video-max-height: 415px;
   --widget-h1-color: #38ff00;
  }
 }
@@ -1126,7 +1132,7 @@ a.post-thumbnail:hover { background-color: #999; }
 .gallery-item:hover .gallery-caption { opacity: 1; }
 
 /* ==========================================================================
-   Custom galleries (normal grid + masonry)
+/* Custom galleries (normal grid + masonry)
    ========================================================================== */
 .gallery_normal,
 .gallery_masonry {
@@ -1158,7 +1164,7 @@ a.post-thumbnail:hover { background-color: #999; }
   grid-template-columns: 1fr;
 }
 
-/* Exactly 2 images (counting the <a> tags instead of <img>) */
+/* Exactly 2 images */
 .gallery_normal:has(> a:nth-of-type(2)):not(:has(> a:nth-of-type(3))),
 .gallery_masonry:has(> a:nth-of-type(2)):not(:has(> a:nth-of-type(3))) {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1174,6 +1180,12 @@ a.post-thumbnail:hover { background-color: #999; }
 .gallery_normal:has(> a:nth-of-type(4)):not(:has(> a:nth-of-type(5))),
 .gallery_masonry:has(> a:nth-of-type(4)):not(:has(> a:nth-of-type(5))) {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Generic rule: Auto-center any solitary last item in the final row */
+.gallery_normal > a:last-child:nth-child(3n + 1),
+.gallery_masonry > a:last-child:nth-child(3n + 1) {
+  grid-column: 2;
 }
 
 /* Style the images to fill their anchor tag containers */
@@ -1341,7 +1353,6 @@ a.post-thumbnail:hover { background-color: #999; }
  border-top: 1px dotted var(--border);
  margin: var(--space-md) auto var(--space-4xl);
  max-width: var(--max-width-content);
- padding: 20px var(--space-xs) 0;
 }
 
 :is(.comment-reply-title, .comments-title) {
@@ -2053,11 +2064,6 @@ nav li,
   clear: none;
   margin: 0;
   text-transform: none;
- }
- :is(#short_header) {
-  border-bottom: 1px solid var(--border-light);
-  margin: 13.5px auto 0;
-  padding-bottom: 13.5px;
  }
  .error404 .page-header {
   border-bottom: 0;
@@ -3322,12 +3328,21 @@ article.related-post { margin-bottom: 10px !important; }
  #main > #main-content > #content-sidebar .widget:first-child > :is(h1, h2, h3, h4, h5, h6) {
   margin-top: 0 !important;
  }
+
+/* ==========================================================================
+   Media elements styling
+   ========================================================================== */
+video,
+img {
+    border-radius: 10px !important;
+    border: var(--media-border);
+    max-height: var(--media-max-height);
 }
 
+video {
+    max-height: var(--video-max-height);
+}
 
-.month-header + .hentry { padding: 0 !important; }
-
-div.month-header {margin-top:10px; margin-bottom: 10px}
 
 /* === Inlined from genericons/genericons.css === */
 @font-face {
