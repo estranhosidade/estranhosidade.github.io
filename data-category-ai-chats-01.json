@@ -1,0 +1,203 @@
+{
+    "type": "ai-chats",
+    "segment": 1,
+    "cats": {
+        "ai-chats": "AI Chats"
+    },
+    "posts": {
+        "ai-chats": [
+            {
+                "id": 40127,
+                "title": "Diário: 31/08/2026",
+                "date": "2026-08-31",
+                "url": "reader.html#2026-08-31-diario-31-08-2026.html",
+                "tags": [
+                    "abdl",
+                    "censura",
+                    "direito-autoral",
+                    "eleicao",
+                    "ia-generativa",
+                    "machine-translation",
+                    "morte",
+                    "tights"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "diario-colecao"
+                ],
+                "month": "2026-08",
+                "format": "aside"
+            },
+            {
+                "id": 39720,
+                "title": "Diário: 31/07/2026",
+                "date": "2026-07-31",
+                "url": "reader.html#2026-07-31-diario-31-07-2026.html",
+                "tags": [
+                    "abdl",
+                    "ansiedade",
+                    "dinheiro",
+                    "emprego",
+                    "futuro",
+                    "gamificacao",
+                    "hipocrisia",
+                    "morte",
+                    "passado",
+                    "pobreza",
+                    "tempo",
+                    "teoria-da-informacao"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "diario-colecao",
+                    "direcao-de-arte-ia",
+                    "filosofia"
+                ],
+                "month": "2026-07",
+                "format": "aside"
+            },
+            {
+                "id": 39988,
+                "title": "A Loteria e a Natureza do Trabalho",
+                "date": "2026-07-31",
+                "url": "reader.html#2026-07-31-a-loteria-e-a-natureza-do-trabalho.html",
+                "tags": [
+                    "capitalismo",
+                    "dinheiro",
+                    "economia",
+                    "emprego",
+                    "liberdade",
+                    "sociedade",
+                    "trabalho"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2026-07",
+                "format": ""
+            },
+            {
+                "id": 39446,
+                "title": "Prisons of Mind",
+                "date": "2026-06-13",
+                "url": "reader.html#2026-06-13-prisons-of-mind.html",
+                "tags": [
+                    "prisao"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "art-work",
+                    "autoria-de-outros",
+                    "direcao-de-arte-ia",
+                    "documentarios-filmes-series"
+                ],
+                "month": "2026-06",
+                "format": "aside"
+            },
+            {
+                "id": 38357,
+                "title": "O Padrão Ouro das IA Generativas",
+                "date": "2026-02-19",
+                "url": "reader.html#2026-02-19-o-padrao-ouro-das-ia-generativas.html",
+                "tags": [
+                    "3d",
+                    "automacao",
+                    "ia",
+                    "ia-generativa",
+                    "jogos",
+                    "simulacao",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "em-desenvolvimento",
+                    "textos"
+                ],
+                "month": "2026-02",
+                "format": ""
+            },
+            {
+                "id": 38347,
+                "title": "O MCP e o Robô com Bloquinho de Notas",
+                "date": "2026-02-09",
+                "url": "reader.html#2026-02-09-o-mcp-e-o-robo-com-bloquinho-de-notas.html",
+                "tags": [
+                    "automacao",
+                    "general-purpose-technologies",
+                    "ia",
+                    "internet-das-coisas",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "textos"
+                ],
+                "month": "2026-02",
+                "format": ""
+            },
+            {
+                "id": 36486,
+                "title": "Diário: 31/07/2025",
+                "date": "2025-07-31",
+                "url": "reader.html#2025-07-31-diario-31-07-2025.html",
+                "tags": [
+                    "desabafo",
+                    "igualidade",
+                    "linguagem",
+                    "politica"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "diario-colecao"
+                ],
+                "month": "2025-07",
+                "format": "aside"
+            },
+            {
+                "id": 35964,
+                "title": "Diário: 30/06/2025",
+                "date": "2025-06-30",
+                "url": "reader.html#2025-06-30-diario-30-06-2025.html",
+                "tags": [
+                    "ditadura",
+                    "fetiche",
+                    "genero",
+                    "ia-generativa",
+                    "jornalismo",
+                    "justica",
+                    "politica",
+                    "sequestro",
+                    "sexualidade"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "diario-colecao"
+                ],
+                "month": "2025-06",
+                "format": "aside"
+            },
+            {
+                "id": 35489,
+                "title": "Diário: 30/05/2025",
+                "date": "2025-05-30",
+                "url": "reader.html#2025-05-30-diario-30-02-2025.html",
+                "tags": [
+                    "backup",
+                    "depressao",
+                    "imprensa",
+                    "perda",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "ai-chats",
+                    "diario-colecao",
+                    "filosofia"
+                ],
+                "month": "2025-05",
+                "format": "aside"
+            }
+        ]
+    }
+}
