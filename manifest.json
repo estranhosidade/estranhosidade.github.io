@@ -1,6 +1,6 @@
 {
     "version": "2.12.1",
-    "generatedAt": "2026-09-21T06:17:39+00:00",
+    "generatedAt": "2026-09-27T05:16:51+00:00",
     "chunkCount": 154,
     "chunks": [
         {
@@ -929,11 +929,14 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2613,
+    "totalPosts": 2616,
     "firstChunk": "data-mounth-2026-09_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-09-25-a-menina-a-prisao-e-a-reforma-antimanicomial.html": "data-mounth-2026-09_01.json",
+        "2026-09-22-diario-22-09-2026.html": "data-mounth-2026-09_01.json",
+        "2026-09-21-programa-apollo-e-as-pontes-incompletas.html": "data-mounth-2026-09_01.json",
         "2026-09-19-diario-19-09-2026-the-role-swapper-01.html": "data-mounth-2026-09_01.json",
         "2026-09-18-ninguem-sai-vivo-daqui-mas-eu-saio-brigando.html": "data-mounth-2026-09_01.json",
         "2026-09-17-diario-17-08-2026-ce-vai-perder.html": "data-mounth-2026-09_01.json",
@@ -1320,7 +1323,7 @@
         "2024-10-01-pigtails-n-pacifiers.html": "data-mounth-2024-10_01.json",
         "2024-10-01-em-defesa-da-arte-ilegal-e-da-ia-generativa.html": "data-mounth-2024-10_01.json",
         "2024-09-30-diario-30-09-2024.html": "data-mounth-2024-09_01.json",
-        "2024-09-27-what-is-parenthesis-but-an-idea-trying-to-escape-what-is-a-footnote-but-an-idea-that-jumped-off-the-cliff.html": "data-mounth-2024-09_01.json",
+        "2024-09-27-what-is-parenthesis-but-an-idea-trying-to-escape.html": "data-mounth-2024-09_01.json",
         "2024-09-26-senzalas-ideologicas.html": "data-mounth-2024-09_01.json",
         "2024-09-25-god-bless-the-death-penalty.html": "data-mounth-2024-09_01.json",
         "2024-09-25-geoblock-global-takedown-e-a-censura-na-internet.html": "data-mounth-2024-09_01.json",
@@ -2621,7 +2624,7 @@
         "2015-05-02-linguagem-e-abstracao.html": "data-mounth-2015-05_01.json",
         "2015-05-01-a-vida-como-um-investimento-de-risco.html": "data-mounth-2015-05_01.json",
         "2015-04-30-diario-30-04-2015.html": "data-mounth-2015-04_01.json",
-        "2015-04-30-escolher-e-sempre-perder.html": "data-mounth-2015-04_01.json",
+        "2015-04-30-escolher-e-perder-sempre.html": "data-mounth-2015-04_01.json",
         "2015-04-29-autores-de-nossas-tragedias.html": "data-mounth-2015-04_01.json",
         "2015-04-29-should-i-hate-myself-because-of-loving.html": "data-mounth-2015-04_01.json",
         "2015-04-28-a-historia-como-um-acontecimento-atemporal.html": "data-mounth-2015-04_01.json",

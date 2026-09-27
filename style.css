@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: Twenty Fourteen - Estranhosidade Fork
 Theme URI:
 Author: the WordPress team
@@ -44,12 +44,16 @@ Text Domain: twentyfourteen
  --gallery-columns: 3;
  --gallery-gap: 10px;
  --link: #24890d;
+ --visitedlink: #50a13d;
  --visitedlink: color-mix(in srgb, var(--link) 80%, white 20%);
+ --visitedlinkhover: #408131;
  --visitedlinkhover: color-mix(in srgb, var(--visitedlink) 80%, black 20%);
  --linkhover: #41a62a;
  --link-active: #55d737;
  --accent: #24890d;
- --accent-bright: var(--accent);
+  --purple: #9b51e0;
+  --linespiler: var(--border-light);
+  --accent-bright: var(--accent);
  --accent-strong: var(--accent);
  --text: #2b2b2b;
  --text-muted: #767676;
@@ -69,16 +73,16 @@ Text Domain: twentyfourteen
  --sidebar-text: #212123;
  --sidebar-text-strong: #696969;
  --sidebar-text-dim: rgb(255 255 255 / 40%);
- --border: #00ffaa;
- --hr-border: #008000;
+ --border: rgb(0 0 0 / 10%);
+ --hr-border: rgb(0 0 0 / 10%);
  --border-light: rgb(0 0 0 / 10%);
  --border-strong: rgb(0 0 0 / 30%);
  --border-white-light: rgb(255 255 255 / 20%);
  --border-white-medium: rgb(255 255 255 / 30%);
  --border-white-soft: rgb(255 255 255 / 70%);
-  --media-border: 1px dotted rgba(0, 0, 0);
-  --media-max-height: 300px;
-  --video-max-height: 415px;
+ --media-border: 1px dotted rgba(0, 0, 0);
+ --media-max-height: 300px;
+ --video-max-height: 550px;
  --focus-color: #21759b;
  --focus-bg: #f1f1f1;
  --placeholder: #939393;
@@ -108,8 +112,8 @@ Text Domain: twentyfourteen
  --space-base: 12px;
  --space-lg: 18px;
  --space-xl: 24px;
-    --space-2xl: 30px;
---space-body-padding: 30px;
+ --space-2xl: 30px;
+ --space-body-padding: 30px;
  --space-3xl: 36px;
  --space-4xl: 37px;
  --space-5xl: 72px;
@@ -136,12 +140,13 @@ Text Domain: twentyfourteen
  --weight-normal: 400;
  --weight-bold: 700;
  --weight-black: 900;
- --lh-body: 1;
+ --lh-body: 1.5;
  --lh-tight: 1.2;
  --lh-widget: 1.2857142857;
  --lh-meta: 1.3333333333;
  --lh-nav: 1.7142857142;
  --lh-heading: 1.0909090909;
+--lh-compact-link: 1.15;
  --max-width-content: 450px;
  --max-width-hentry: 450px;
  --max-width-site: 1260px;
@@ -155,7 +160,7 @@ Text Domain: twentyfourteen
  --heading-image-gap: 0.5em;
   --topspace: 200px;
  --page-bottom-space: 22px;
- --widgetbottom: 5px;
+ --widgetbottom: 2px;
  --widgetbottomcompact: 16px;
  --desktop-sidebar: 182px;
  --desktop-content-gutter: 21.04761904%;
@@ -195,16 +200,19 @@ Text Domain: twentyfourteen
   --sidebar-text-strong: var(--text-strong);
   --sidebar-text-dim: var(--text-muted);
   --link: #0fa;
+  --visitedlink: #33ffbb;
   --visitedlink: color-mix(in srgb, var(--link) 80%, white 20%);
+  --visitedlinkhover: #29cc96;
   --visitedlinkhover: color-mix(in srgb, var(--visitedlink) 80%, black 20%);
   --linkhover: #0fa;
   --accent: #07c956;
   --accent-strong: #00FF80;
   --accent-bright: #07ffaa;
   --special-yellow: #ffd700;
-  --border: #7777772b;
-  --hr-border: #07ffaa;
-  --border-light: #3551d2;
+  --linespiler: var(--purple);
+  --border: rgb(255 255 255 / 20%);
+  --hr-border: rgb(255 255 255 / 20%);
+  --border-light: rgb(255 255 255 / 10%);
   --border-strong: rgb(255 255 255 / 30%);
   --selection-bg: #00FF80;
   --selection-text: #333;
@@ -229,7 +237,7 @@ Text Domain: twentyfourteen
   --text-muted-search: #939393;
   --primary-color-search: #07c956;
   --url-color-search: #30d8ff;
-  --border-color-search: #7777772b;
+  --border-color-search: rgb(119 119 119 / 17%);
   --media-border: 1px dotted rgba(255, 255, 255);
   --media-max-height: 300px;
   --video-max-height: 415px;
@@ -1083,7 +1091,7 @@ a.post-thumbnail:hover { background-color: #999; }
 }
 
 /* ==========================================================================
-  Galleries & post navigation
+  Galleries
   ========================================================================== */
 .gallery {
  --thumb-size: 100px;
@@ -1131,9 +1139,6 @@ a.post-thumbnail:hover { background-color: #999; }
 
 .gallery-item:hover .gallery-caption { opacity: 1; }
 
-/* ==========================================================================
-/* Custom galleries (normal grid + masonry)
-   ========================================================================== */
 .gallery_normal,
 .gallery_masonry {
   width: 100%;
@@ -1197,6 +1202,139 @@ a.post-thumbnail:hover { background-color: #999; }
   display: block;
 }
 
+/* ==========================================================================
+   Small gallery ("contact sheet")
+
+   Dense grid of small thumbnails, used for long runs of scans / magazine
+   pages where the reader wants to see the whole run at once instead of a
+   3-up magazine grid.
+
+   Markup (this is what the editor produces for a pasted image run):
+
+     <div class="gallery_small">
+       <a href="..."><img src="..." alt="..."></a>
+       <a href="..."><img src="..." alt="..."></a>
+     </div>
+
+   STANDALONE variant: do not add .gallery_normal / .gallery_masonry to the
+   same element. Those set their own column counts (including the :has()
+   rules for 1-4 items) and the two layouts would fight each other.
+
+   Two notes on the cascade, both learned from this file's own later rules:
+
+     1. The "Media elements styling" block at the very end of the sheet puts
+        `border-radius: 10px !important` on every `img:not(.spinner)`, plus
+        `border: var(--media-border)` (1px dotted). It sits AFTER this
+        section, so the image reset below has to out-specify it, not just
+        out-order it - see the comment on `.gallery_small img:not(.spinner)`.
+     2. The text measure is capped at --max-width-content (450px), so the
+        sheet spans the column rather than the window: 40px tiles + 3px
+        gutters give ~10 columns. Narrow the tiles to get more columns.
+   ========================================================================== */
+.gallery_small {
+  /* Tokens live on the class, not :root, so this block can be lifted into
+     another stylesheet on its own. --gallery-small-tile is the knob. */
+  --gallery-small-tile: 40px;                          /* narrowest tile   */
+  --gallery-small-row: calc(var(--gallery-small-tile) * 1.33); /* tile box */
+  --gallery-small-gap: 3px;                            /* hairline gutter  */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--gallery-small-tile), 1fr));
+  grid-auto-rows: var(--gallery-small-row);
+  /* "dense" lets a double-width tile backfill the hole it would otherwise
+     leave at the end of a row. */
+  grid-auto-flow: row dense;
+  gap: var(--gallery-small-gap);
+
+  /* The shared .gallery_normal / .gallery_masonry rule above caps a gallery
+     at 500px and centres it, so both are overridden here. */
+  width: 100%;
+  max-width: none;
+  margin: var(--flow-space) 0;
+  padding: 0;
+
+  /* No bed: no background, no border. The sheet reads as a bare run of
+     thumbnails on the page background, with the grid gap alone separating
+     them. (A tinted bed + hairline edge was tried here and removed - it boxed
+     the sheet in and the gutters read as background rather than as gutter.) */
+
+  /* Removes the descender gap left underneath inline images. */
+  line-height: 0;
+}
+
+/* WordPress injects <br> between pasted images - hide them so the grid
+   tracks stay intact. ("a:has(> img) + br" is already covered further down,
+   this keeps the block self-contained.) */
+.gallery_small br {
+  display: none;
+}
+
+.gallery_small > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+/* Every 7th tile runs double width, giving the sheet its irregular rhythm
+   (a side-by-side spread of two pages) without leaving a ragged hole. */
+.gallery_small > a:nth-child(7n + 3) {
+  grid-column: span 2;
+}
+
+/* The :not(.spinner) is load-bearing, not decoration. The "Media elements
+   styling" block at the end of this sheet sets
+   `img:not(.spinner) { border-radius: 10px !important; border: ... }`.
+   A plain `.gallery_small img` ties that on specificity (one class + one
+   type), and because that block comes LAST in the file it would win on
+   source order - leaving the tiles rounded, which breaks the sheet. Adding
+   :not(.spinner) makes this selector 0,2,1 and it wins on specificity
+   regardless of order. Keep the two in sync if that block ever changes. */
+.gallery_small img:not(.spinner) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  /* Beat the end-of-file "Media elements styling" rules. */
+  border: 0 !important;
+  border-radius: 0 !important;
+  /* Crop to the tile box so every cell lines up whatever the source aspect
+     ratio is. */
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+/* A .spinner image is a loading placeholder, not a tile - leave the theme's
+   own treatment of it alone. */
+.gallery_small img.spinner {
+  max-width: 100%;
+}
+
+.gallery_small > a:hover img,
+.gallery_small > a:focus-visible img {
+  transform: scale(1.06);
+}
+
+/* Breakpoints only touch the tile width; row height and gutter are derived
+   from it, so the sheet keeps its proportions instead of drifting. Values
+   step down from the 40px base. */
+@media (max-width: 600px) {
+  .gallery_small {
+    --gallery-small-tile: 34px;
+  }
+}
+
+@media (max-width: 380px) {
+  .gallery_small {
+    --gallery-small-tile: 28px;
+  }
+}
+
+/* ==========================================================================
+  Post Navigation
+  ========================================================================== */
+  
 :is(.format-aside, .format-quote, .format-link) :is(.entry-content, .entry-summary) { padding-top: 0; }
 
 .site-content :is(.format-link, .format-aside, .format-quote) .entry-title { display: none; }
@@ -1723,8 +1861,6 @@ a.post-thumbnail:hover { background-color: #999; }
 
 .widget_rss li { margin-bottom: var(--space-lg); }
 
-.widget_rss li:last-child, .widget_text>div> :last-child { margin-bottom: 0; }
-
 .widget_text :is(ul, ol) { margin: 0 0 var(--space-base) var(--space-md); }
 
 .widget_text li> :is(ul, ol) { margin-bottom: 0; }
@@ -2004,30 +2140,64 @@ a.post-thumbnail:hover { background-color: #999; }
  .site-header .customize-partial-edit-shortcut button { top: var(--space-md); }
 }
 
-@media screen and (width >=400px) {
-:is(#short_header) {
-  margin: 13.5px auto 0;
-  padding-bottom: 13.5px;
- }
-}
-
 /* Allow vertical margins on textwidget links at every viewport width. */
 #secondary .textwidget a {
  display: inline-block;
 }
 
 @media screen and (width >=400px) {
-nav li,
-#secondary :is(li, .textwidget > p a) {
- margin-bottom: var(--widgetbottom);
-}
+  /* line-height has to sit on the BLOCK that establishes the line boxes (the
+     li, the p) - not on the inline <a>. An inline link's own line-height only
+     shrinks its inline box; the line box is sized by the containing block's
+     strut and stays at the inherited --lh-body (18px), which is why a wrapped
+     entry kept the full gap even with the link set to 1.15. */
+  #secondary nav li,
+  #secondary .textwidget > p {
+    line-height: var(--lh-compact-link);
+  }
+
+  /* Scoped to the sidebar: a bare `nav li` also matches every list inside
+     every nav on the site, which is only harmless today because the other
+     navs are display:none. */
+  #secondary nav li,
+  #secondary :is(li, .textwidget > p a) {
+    margin-bottom: var(--widgetbottom);
+  }
+
+  /* These links are inline, so the site-wide `li > *` flow margin below does
+     not reach them. Pin it to 0 so it cannot start applying if the display
+     ever changes. */
+  #secondary nav li > a {
+    margin-top: 0;
+  }
+
+  /* Compact plain-text widget links by making each link its own row, carrying
+     the SAME margin as a nav li so both widgets share one rhythm. */
+  #secondary .textwidget > p a {
+    display: block;
+    margin-bottom: var(--widgetbottom);
+  }
+
+  /* Block links already provide the row breaks, so the authored <br> elements
+     would otherwise create extra anonymous line boxes. */
+  #secondary .textwidget > p br {
+    display: none;
+  }
 }
 
 @media screen and (width <=400px) {
-nav li,
-#secondary :is(li, .textwidget a) {
- margin-bottom: var(--widgetbottomcompact);
-}
+  /* Same block-level line-height as the >=400px block: on the li / the p, not
+     on the inline link, so a wrapped entry is spaced identically at every
+     width. */
+  #secondary nav li,
+  #secondary .textwidget > p {
+    line-height: var(--lh-compact-link);
+  }
+
+  #secondary nav li,
+  #secondary :is(li, .textwidget > p a) {
+    margin-bottom: var(--widgetbottomcompact);
+  }
 
  .list-view .site-content .post-thumbnail {
   background: none;
@@ -2928,7 +3098,6 @@ a.citation + a.citation { margin-left: -10px !important; }
  .wp-caption-text:not([href]) { color: var(--text-muted); }
  .cat-links>[href] { color: var(--text-bright) !important; }
  .comment-reply-title,
- .page-title,
  .entry-format,
  .entry-date *,
  .comments-link *,
@@ -3014,16 +3183,27 @@ article.related-post { margin-bottom: 10px !important; }
 .entry-content .edit-link a::before,
 .entry-meta .edit-link a::before { font-family: genericons; }
 
-*:not(.wp-video, .wp-video *) { font-family: Consolas; }
-
 .month-header {
  text-align: center;
  clear: both;
 }
 
+/* Every month divider after the first gets breathing room and two subtle rules.
+   The general sibling selector also works as later months are appended by JS. */
+.month-header ~ .month-header {
+ border-top: 1px solid var(--purple);
+ border-bottom: 1px solid var(--purple);
+ margin-top: 40px;
+ margin-bottom: 40px;
+ padding-top: 4px;
+ padding-bottom: 4px;
+}
+
 .archive-title,
 .page-title,
 .month-title {
+  color: var(--text);
+
  text-align: center;
  font-size: var(--text-size-xs, 0.8em);
  font-weight: var(--weight-bold, 700);
@@ -3328,15 +3508,15 @@ article.related-post { margin-bottom: 10px !important; }
  #main > #main-content > #content-sidebar .widget:first-child > :is(h1, h2, h3, h4, h5, h6) {
   margin-top: 0 !important;
  }
+}
 
 /* ==========================================================================
    Media elements styling
    ========================================================================== */
 video,
-img {
+img:not(.spinner) {
     border-radius: 10px !important;
     border: var(--media-border);
-    max-height: var(--media-max-height);
 }
 
 video {
