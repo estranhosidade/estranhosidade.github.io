@@ -1,0 +1,288 @@
+{
+    "type": "dicionario-das-tristezas-obscuras-inspirado",
+    "segment": 1,
+    "cats": {
+        "dicionario-das-tristezas-obscuras-inspirado": "Dicionário das Tristezas Obscuras (Inspirado)"
+    },
+    "posts": {
+        "dicionario-das-tristezas-obscuras-inspirado": [
+            {
+                "id": 28050,
+                "title": "Dicionário das Tristezas Obscuras: Çáha",
+                "date": "2022-06-21",
+                "url": "reader.html#2022-06-21-dicionario-das-tristezas-obscuras-caha.html",
+                "tags": [
+                    "lembrar",
+                    "nostalgia",
+                    "passado",
+                    "saudade"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado"
+                ],
+                "month": "2022-06",
+                "format": ""
+            },
+            {
+                "id": 27230,
+                "title": "Dicionário das Tristezas Obscuras: Mortunuaz",
+                "date": "2020-06-20",
+                "url": "reader.html#2020-06-20-dicionario-das-tristezas-obscuras-mortunaz.html",
+                "tags": [
+                    "alivio",
+                    "dor",
+                    "impossivel",
+                    "morte",
+                    "perder",
+                    "tristeza"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2020-06",
+                "format": ""
+            },
+            {
+                "id": 22109,
+                "title": "Dicionário das Tristezas Obscuras: Zonethy",
+                "date": "2017-11-17",
+                "url": "reader.html#2017-11-17-dicionario-das-tristezas-obscuras-zonethy.html",
+                "tags": [
+                    "falsidade",
+                    "hipocrisia",
+                    "honestidade",
+                    "mentiras",
+                    "politica"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-11",
+                "format": ""
+            },
+            {
+                "id": 21485,
+                "title": "Dicionário das Tristezas Obscuras: Zinepidi",
+                "date": "2017-10-14",
+                "url": "reader.html#2017-10-14-dicionario-das-tristezas-obscuras-zinepidi.html",
+                "tags": [
+                    "arte",
+                    "criacao",
+                    "destino",
+                    "livro"
+                ],
+                "cats": [
+                    "citacoes",
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia"
+                ],
+                "month": "2017-10",
+                "format": ""
+            },
+            {
+                "id": 21117,
+                "title": "Dicionário das Tristezas Obscuras: Utopialismo",
+                "date": "2017-09-27",
+                "url": "reader.html#2017-09-27-dicionario-das-tristezas-obscuras-utopialismo.html",
+                "tags": [
+                    "futorlogia",
+                    "futuro",
+                    "passado",
+                    "retrofuturismo",
+                    "steampunk"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-09",
+                "format": ""
+            },
+            {
+                "id": 20890,
+                "title": "Dicionário das Tristezas Obscuras: Kimâi",
+                "date": "2017-09-12",
+                "url": "reader.html#2017-09-12-dicionario-das-tristezas-obscuras-kimai.html",
+                "tags": [
+                    "alegria",
+                    "depressao",
+                    "morte",
+                    "vida"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-09",
+                "format": ""
+            },
+            {
+                "id": 19418,
+                "title": "Dicionário das Tristezas Obscuras: Dotena",
+                "date": "2017-05-31",
+                "url": "reader.html#2017-05-31-dicionario-das-tristezas-obscuras-dotena.html",
+                "tags": [
+                    "dor",
+                    "lembrancas",
+                    "morte",
+                    "sofrimento"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-05",
+                "format": "aside"
+            },
+            {
+                "id": 18551,
+                "title": "Dicionário das Tristezas Obscuras: Zinauí",
+                "date": "2017-04-08",
+                "url": "reader.html#2017-04-08-dicionario-das-tristezas-obscuras-zinaui.html",
+                "tags": [
+                    "entender",
+                    "epoca",
+                    "historia",
+                    "mudanca",
+                    "mudancas",
+                    "sociedade"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-04",
+                "format": ""
+            },
+            {
+                "id": 18502,
+                "title": "Dicionário das Tristezas Obscuras: Mevedaz",
+                "date": "2017-04-05",
+                "url": "reader.html#2017-04-05-dicionario-das-tristezas-obscuras-mevedaz.html",
+                "tags": [
+                    "aflicao",
+                    "apostas",
+                    "e-se",
+                    "medo",
+                    "vida"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-04",
+                "format": "quote"
+            },
+            {
+                "id": 17770,
+                "title": "Dicionário das Tristezas Obscuras: Videnifio",
+                "date": "2017-02-25",
+                "url": "reader.html#2017-02-25-dicionario-das-tristezas-obscuras-videnifio.html",
+                "tags": [
+                    "deslumbramento",
+                    "futuro",
+                    "genios",
+                    "grandeza",
+                    "steve-jobs",
+                    "van-gogh"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-02",
+                "format": ""
+            },
+            {
+                "id": 17532,
+                "title": "Dicionário das Tristezas Obscuras: Medercia",
+                "date": "2017-02-13",
+                "url": "reader.html#2017-02-13-dicionario-das-tristezas-obscuras-medercia.html",
+                "tags": [
+                    "amargura",
+                    "banalidade",
+                    "medo",
+                    "mudanca",
+                    "odio"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-02",
+                "format": ""
+            },
+            {
+                "id": 17127,
+                "title": "Dicionário: Ficcionisonalismo",
+                "date": "2017-01-25",
+                "url": "reader.html#2017-01-25-dicionario-ficcionisonalismo.html",
+                "tags": [
+                    "absurdo",
+                    "estranheza",
+                    "status-quo"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2017-01",
+                "format": ""
+            },
+            {
+                "id": 16643,
+                "title": "Dicionário das Tristezas Obscuras: Sensumemoriare",
+                "date": "2016-12-28",
+                "url": "reader.html#2016-12-28-dicionario-das-tristezas-obscuras.html",
+                "tags": [
+                    "anos-90",
+                    "lembranca",
+                    "memoria",
+                    "nostalgia",
+                    "passado",
+                    "sentimentos"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2016-12",
+                "format": ""
+            },
+            {
+                "id": 16477,
+                "title": "Dicionário: Momentalismo",
+                "date": "2016-12-13",
+                "url": "reader.html#2016-12-13-momentalismo.html",
+                "tags": [
+                    "constatacao",
+                    "dicionario",
+                    "epifania",
+                    "futuro",
+                    "passado",
+                    "sentimento"
+                ],
+                "cats": [
+                    "dicionario-das-tristezas-obscuras-inspirado",
+                    "filosofia",
+                    "textos"
+                ],
+                "month": "2016-12",
+                "format": ""
+            }
+        ]
+    }
+}

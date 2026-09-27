@@ -1,0 +1,1041 @@
+{
+    "type": "links",
+    "segment": 1,
+    "cats": {
+        "links": "Links"
+    },
+    "posts": {
+        "links": [
+            {
+                "id": 40768,
+                "title": "Obedeça Às Regras: Já Pode Protestar",
+                "date": "2026-09-06",
+                "url": "reader.html#2026-09-06-obedeca-as-regras-ja-pode-protestar.html",
+                "tags": [
+                    "ditaura",
+                    "simpsons",
+                    "stf"
+                ],
+                "cats": [
+                    "direcao-de-arte-ia",
+                    "links"
+                ],
+                "month": "2026-09",
+                "format": "aside"
+            },
+            {
+                "id": 40611,
+                "title": "Information Feudalism: Who Owns the Knowledge Economy",
+                "date": "2026-09-01",
+                "url": "reader.html#2026-09-01-information-feudalism-who-owns-the-knowledge-economy.html",
+                "tags": [
+                    "book",
+                    "copyright",
+                    "direito-autoral",
+                    "livro"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-09",
+                "format": "link"
+            },
+            {
+                "id": 40208,
+                "title": "Não volte para onde um dia você foi feliz",
+                "date": "2026-08-11",
+                "url": "reader.html#2026-08-11-nao-volte-para-onde-um-dia-voce-foi-feliz.html",
+                "tags": [
+                    "nostalgia",
+                    "passado"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "links"
+                ],
+                "month": "2026-08",
+                "format": "quote"
+            },
+            {
+                "id": 40147,
+                "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
+                "date": "2026-08-06",
+                "url": "reader.html#2026-08-06-minimax-h3-an-open-model-breaking-the-boundaries-between-tasks-and-modalities.html",
+                "tags": [
+                    "ia-generativa",
+                    "previsao",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-08",
+                "format": "link"
+            },
+            {
+                "id": 40117,
+                "title": "Transparência Performativa",
+                "date": "2026-08-05",
+                "url": "reader.html#2026-08-05-transparencia-performativa.html",
+                "tags": [
+                    "eleicao",
+                    "stf",
+                    "tse",
+                    "urna"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-08",
+                "format": "link"
+            },
+            {
+                "id": 39817,
+                "title": "Diário: 19/07/2026",
+                "date": "2026-07-19",
+                "url": "reader.html#2026-07-19-diario-19-07-2026.html",
+                "tags": [
+                    "estranhosidade",
+                    "futurist"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-07",
+                "format": "link"
+            },
+            {
+                "id": 39706,
+                "title": "“Novo governo acusa governo anterior de mentir”",
+                "date": "2026-07-09",
+                "url": "reader.html#2026-07-09-novo-governo-acusa-governo-anterior-de-mentir.html",
+                "tags": [
+                    "framing",
+                    "imprensa",
+                    "manipulacao"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-07",
+                "format": "link"
+            },
+            {
+                "id": 39612,
+                "title": "Sony anuncia fim da mídia física para consoles PlayStation em 2028",
+                "date": "2026-07-01",
+                "url": "reader.html#2026-07-01-sony-anuncia-fim-da-midia-fisica-para-consoles-playstation-em-2028.html",
+                "tags": [
+                    "admiravel-mundo-novo",
+                    "controle"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-07",
+                "format": "link"
+            },
+            {
+                "id": 39586,
+                "title": "Morre o dublador Figueira Júnior, de ‘Dragon Ball’, aos 60 anos",
+                "date": "2026-06-28",
+                "url": "reader.html#2026-06-28-morre-o-dublador-figueira-junior-de-dragon-ball-aos-60-anos.html",
+                "tags": [
+                    "fator-merda",
+                    "luto",
+                    "morte"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-06",
+                "format": "link"
+            },
+            {
+                "id": 39502,
+                "title": "Diário: 22/06/2026",
+                "date": "2026-06-22",
+                "url": "reader.html#2026-06-22-diario-22-06-2026.html",
+                "tags": [
+                    "infinito",
+                    "jorge-luis-borges",
+                    "la-biblioteca-de-babel",
+                    "teorema-do-macaco-infinito",
+                    "teoria-da-informacao"
+                ],
+                "cats": [
+                    "filosofia",
+                    "links"
+                ],
+                "month": "2026-06",
+                "format": "link"
+            },
+            {
+                "id": 39471,
+                "title": "Diário: 18/06/2026",
+                "date": "2026-06-18",
+                "url": "reader.html#2026-06-18-diario-18-06-2026.html",
+                "tags": [
+                    "dor",
+                    "fator-merda",
+                    "luto"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2026-06",
+                "format": "aside"
+            },
+            {
+                "id": 39346,
+                "title": "Lista: quem apoiou os abusos de Moraes e depois mudou de opinião",
+                "date": "2026-05-31",
+                "url": "reader.html#2026-05-31-lista-quem-apoiou-os-abusos-de-moraes-e-depois-mudou-de-opiniao.html",
+                "tags": [
+                    "ditadura",
+                    "imprensa"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-05",
+                "format": "link"
+            },
+            {
+                "id": 39121,
+                "title": "Há canções que parecem carregar em si a eternidade",
+                "date": "2026-05-21",
+                "url": "reader.html#2026-05-21-ha-cancoes-que-parecem-carregar-em-si-a-eternidade.html",
+                "tags": [],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "links"
+                ],
+                "month": "2026-05",
+                "format": "link"
+            },
+            {
+                "id": 39112,
+                "title": "Diário: 03/05/2026 – Advogada é presa em flagrante após abandonar cachorro idoso em rua",
+                "date": "2026-05-03",
+                "url": "reader.html#2026-05-03-03-05-2026-advogada-e-presa.html",
+                "tags": [
+                    "direito-penal",
+                    "esquerda",
+                    "justica-penal-do-inimigo",
+                    "punitivismo",
+                    "viganca"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2026-05",
+                "format": "aside"
+            },
+            {
+                "id": 39069,
+                "title": "Diário: 29/04/2026",
+                "date": "2026-04-29",
+                "url": "reader.html#2026-04-29-diario-29-04-2026.html",
+                "tags": [
+                    "estupro",
+                    "feminismo",
+                    "lacracao",
+                    "woke"
+                ],
+                "cats": [
+                    "diario",
+                    "links"
+                ],
+                "month": "2026-04",
+                "format": "aside"
+            },
+            {
+                "id": 39029,
+                "title": "“A polícia é o SUS da direita”",
+                "date": "2026-04-27",
+                "url": "reader.html#2026-04-27-a-policia-e-o-sus-da-direita.html",
+                "tags": [
+                    "direita",
+                    "esquerda",
+                    "policia",
+                    "violencia"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "links"
+                ],
+                "month": "2026-04",
+                "format": "quote"
+            },
+            {
+                "id": 38907,
+                "title": "Diário: 18/04/2026",
+                "date": "2026-04-18",
+                "url": "reader.html#2026-04-18-diario-18-04-2026.html",
+                "tags": [
+                    "asilo",
+                    "ditadura",
+                    "exilado",
+                    "perseguicao"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "links"
+                ],
+                "month": "2026-04",
+                "format": "link"
+            },
+            {
+                "id": 37672,
+                "title": "“O mundo está cheio dessas micromaldades” – Fernando Gabeira",
+                "date": "2025-10-14",
+                "url": "reader.html#2025-10-14-o-mundo-esta-cheio-dessas-micromaldades-fernando-gabeira.html",
+                "tags": [
+                    "anistia",
+                    "ditadura",
+                    "politica",
+                    "stf"
+                ],
+                "cats": [
+                    "citacoes",
+                    "links"
+                ],
+                "month": "2025-10",
+                "format": ""
+            },
+            {
+                "id": 37559,
+                "title": "Maicon Küster | Os luxos absurdos das igrejas de rico",
+                "date": "2025-10-04",
+                "url": "reader.html#2025-10-04-maicon-kuster-os-luxos-absurdos-das-igrejas-de-rico.html",
+                "tags": [
+                    "dinheiro",
+                    "fe",
+                    "igreja",
+                    "religiao"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2025-10",
+                "format": "link"
+            },
+            {
+                "id": 35399,
+                "title": "DeepSeek Has Been Inevitable and Here’s Why (History Tells Us)",
+                "date": "2025-01-28",
+                "url": "reader.html#2025-01-28-deepseek-has-been-inevitable-and-heres-why-history-tells-us.html",
+                "tags": [
+                    "browser",
+                    "economia",
+                    "ia",
+                    "navegadores"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2025-01",
+                "format": "link"
+            },
+            {
+                "id": 34476,
+                "title": "“Não Estou Mais Aqui” – Clézão",
+                "date": "2024-11-14",
+                "url": "reader.html#2024-11-14-nao-estou-mais-aqui.html",
+                "tags": [
+                    "ainda-estou-aqui",
+                    "ditadura",
+                    "estado",
+                    "exilado",
+                    "judiciario",
+                    "politica"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "links",
+                    "textos"
+                ],
+                "month": "2024-11",
+                "format": ""
+            },
+            {
+                "id": 33211,
+                "title": "“Self Translation: Faithful Rendition or Rewriting?” – Mohamed Tawfik",
+                "date": "2024-09-14",
+                "url": "reader.html#2024-09-14-self-translation-faithful-rendition-or-rewriting-mohamed-tawfik.html",
+                "tags": [
+                    "filosofia",
+                    "traducao"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "links"
+                ],
+                "month": "2024-09",
+                "format": "link"
+            },
+            {
+                "id": 33095,
+                "title": "“Multa para VPN cria meio para punir grandes usuários do X”",
+                "date": "2024-09-06",
+                "url": "reader.html#2024-09-06-multa-para-vpn-cria-meio-para-punir-grandes-usuarios-do-x.html",
+                "tags": [
+                    "ditadura",
+                    "justica",
+                    "liberdade",
+                    "tirania"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2024-09",
+                "format": "link"
+            },
+            {
+                "id": 32789,
+                "title": "Silvio Santos morre aos 93 anos em São Paulo",
+                "date": "2024-08-17",
+                "url": "reader.html#2024-08-17-silvio-santos-morre-aos-93-anos-em-sao-paulo.html",
+                "tags": [
+                    "luto",
+                    "tempo",
+                    "tv"
+                ],
+                "cats": [
+                    "ai-music",
+                    "direcao-de-arte-ia",
+                    "links"
+                ],
+                "month": "2024-08",
+                "format": "link"
+            },
+            {
+                "id": 32716,
+                "title": "Mandela Effect — Glitches in the Matrix",
+                "date": "2024-08-13",
+                "url": "reader.html#2024-08-13-mandela-effect-glitches-in-the-matrix.html",
+                "tags": [
+                    "efeito-mandela",
+                    "matrix",
+                    "realidade-virtual"
+                ],
+                "cats": [
+                    "about-sex",
+                    "links",
+                    "videos"
+                ],
+                "month": "2024-08",
+                "format": "link"
+            },
+            {
+                "id": 32032,
+                "title": "Cobaias da Pfizer",
+                "date": "2024-07-02",
+                "url": "reader.html#2024-07-02-cobaias-da-pfizer.html",
+                "tags": [
+                    "covid",
+                    "liberdade",
+                    "vacina"
+                ],
+                "cats": [
+                    "art-work",
+                    "imagens",
+                    "links"
+                ],
+                "month": "2024-07",
+                "format": "link"
+            },
+            {
+                "id": 31858,
+                "title": "Diário: 26/06/2024",
+                "date": "2024-06-26",
+                "url": "reader.html#2024-06-26-diario-26-06-2024.html",
+                "tags": [
+                    "censura",
+                    "ditadura",
+                    "imprensa",
+                    "justica"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2024-06",
+                "format": "link"
+            },
+            {
+                "id": 30985,
+                "title": "“Estados Unidos nega extradição de Allan dos Santos”",
+                "date": "2024-03-14",
+                "url": "reader.html#2024-03-14-estados-unidos-nega-extradicao-de-allan-dos-santos.html",
+                "tags": [
+                    "brasil",
+                    "ditadura",
+                    "liberdade",
+                    "stf"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2024-03",
+                "format": "quote"
+            },
+            {
+                "id": 30414,
+                "title": "“Homem que sobreviveu à injeção letal será executado na quinta-feira por método inédito nos EUA: asfixia com gás nitrogênio; ONG fala em ‘tortura'”",
+                "date": "2024-01-24",
+                "url": "reader.html#2024-01-24-homem-que-sobreviveu-a-injecao-letal-sera-executado-na-quinta-feira-por-metodo-inedito-nos-eua-asfixia-com-gas-nitrogenio-ong-fala-em-tortura.html",
+                "tags": [
+                    "ciencia",
+                    "covid",
+                    "imprensa",
+                    "jornalismo",
+                    "parcialidade",
+                    "pena-de-morte"
+                ],
+                "cats": [
+                    "filosofia",
+                    "links"
+                ],
+                "month": "2024-01",
+                "format": "aside"
+            },
+            {
+                "id": 29968,
+                "title": "“How Will A.I. Learn Next?”",
+                "date": "2023-10-13",
+                "url": "reader.html#2023-10-13-how-will-a-i-learn-next.html",
+                "tags": [],
+                "cats": [
+                    "links"
+                ],
+                "month": "2023-10",
+                "format": "link"
+            },
+            {
+                "id": 29731,
+                "title": "“The Tyranny of the Marginal User”",
+                "date": "2023-09-25",
+                "url": "reader.html#2023-09-25-the-tyranny-of-the-marginal-user.html",
+                "tags": [
+                    "internet"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2023-09",
+                "format": "link"
+            },
+            {
+                "id": 29770,
+                "title": "IAs ETs",
+                "date": "2023-09-20",
+                "url": "reader.html#2023-09-20-ias-ets.html",
+                "tags": [
+                    "aliens",
+                    "ciencia",
+                    "futuro",
+                    "ia",
+                    "inteligencia-artificial"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2023-09",
+                "format": "link"
+            },
+            {
+                "id": 29759,
+                "title": "Julgamento sumário e oculto…",
+                "date": "2023-09-19",
+                "url": "reader.html#2023-09-19-julgamento-sumario-e-oculto.html",
+                "tags": [
+                    "ditadura",
+                    "justica"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2023-09",
+                "format": "link"
+            },
+            {
+                "id": 29460,
+                "title": "“França desafia ultimato de militares e embaixador permanece no Níger”",
+                "date": "2023-08-29",
+                "url": "reader.html#2023-08-29-franca-desafia-ultimato-de-militares-e-embaixador-permanece-no-niger.html",
+                "tags": [
+                    "colonialismo",
+                    "franca",
+                    "hipocrisia",
+                    "politica"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2023-08",
+                "format": "link"
+            },
+            {
+                "id": 28914,
+                "title": "“Web-based cryptography is always snake oil”",
+                "date": "2023-07-02",
+                "url": "reader.html#2023-07-02-web-based-cryptography-is-always-snake-oil.html",
+                "tags": [
+                    "criptografia",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "links"
+                ],
+                "month": "2023-07",
+                "format": "link"
+            },
+            {
+                "id": 28887,
+                "title": "“Maybe we could tone down the JavaScript”",
+                "date": "2023-07-02",
+                "url": "reader.html#2023-07-02-maybe-we-could-tone-down-the-javascript.html",
+                "tags": [
+                    "bloat",
+                    "javascript",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "links"
+                ],
+                "month": "2023-07",
+                "format": "link"
+            },
+            {
+                "id": 28074,
+                "title": "Como o mercado investidor usa o ESG para impor ideologia às empresas",
+                "date": "2022-07-03",
+                "url": "reader.html#2022-07-03-como-o-mercado-investidor-usa-o-esg-para-impor-ideologia-as-empresas.html",
+                "tags": [
+                    "capitalismo",
+                    "empresas",
+                    "esquerda",
+                    "lacracao"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "links"
+                ],
+                "month": "2022-07",
+                "format": "link"
+            },
+            {
+                "id": 27933,
+                "title": "Elon Musk, Milton Neves e a imprensa envenenada",
+                "date": "2022-05-27",
+                "url": "reader.html#2022-05-27-elon-musk-milton-neves-e-a-imprensa-envenenada.html",
+                "tags": [
+                    "conservadorismo",
+                    "direita",
+                    "elon-musk",
+                    "esquerda",
+                    "imprensa",
+                    "midia",
+                    "odio-do-bem"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "links"
+                ],
+                "month": "2022-05",
+                "format": "link"
+            },
+            {
+                "id": 27824,
+                "title": "Especialista alemão diz que “não se justifica estigmatizar os não vacinados”",
+                "date": "2022-01-21",
+                "url": "reader.html#2022-01-21-especialista-alemao-diz-que-nao-se-justifica-estigmatizar-os-nao-vacinados.html",
+                "tags": [
+                    "covid",
+                    "preconceito",
+                    "vacina"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "links"
+                ],
+                "month": "2022-01",
+                "format": "link"
+            },
+            {
+                "id": 27747,
+                "title": "Why U.S. Corporate Media Amplify Communist Propaganda",
+                "date": "2021-06-03",
+                "url": "reader.html#2021-06-03-27747.html",
+                "tags": [],
+                "cats": [
+                    "links"
+                ],
+                "month": "2021-06",
+                "format": "link"
+            },
+            {
+                "id": 26813,
+                "title": "Análise: Gugu Liberato foi o Silvio Santos da geração millennial",
+                "date": "2019-11-23",
+                "url": "reader.html#2019-11-23-analise-gugu-liberato-foi-o-silvio-santos-da-geracao-millennial.html",
+                "tags": [
+                    "gugu",
+                    "legado",
+                    "morte",
+                    "passar",
+                    "tempo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "filosofia",
+                    "links"
+                ],
+                "month": "2019-11",
+                "format": "link"
+            },
+            {
+                "id": 26617,
+                "title": "Major Linux Problems on the Desktop, 2019 Edition",
+                "date": "2019-10-27",
+                "url": "reader.html#2019-10-27-major-linux-problems-on-the-desktop-2019-edition.html",
+                "tags": [
+                    "desktop",
+                    "linux",
+                    "mac-os",
+                    "pc",
+                    "windows"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2019-10",
+                "format": "link"
+            },
+            {
+                "id": 25058,
+                "title": "De suas torres de marfim, comentaristas não entendem opção por Bolsonaro",
+                "date": "2018-10-29",
+                "url": "reader.html#2018-10-29-de-suas-torres-de-marfim-comentaristas-nao-entendem-opcao-por-bolsonaro.html",
+                "tags": [
+                    "conservadorismo",
+                    "crime",
+                    "esquerda",
+                    "politica",
+                    "progressismo"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2018-10",
+                "format": "link"
+            },
+            {
+                "id": 25032,
+                "title": "Ideias #77: Sinalização de virtude, como ‘parecer’ bom se tornou mais importante que ‘ser’ bom.",
+                "date": "2018-10-27",
+                "url": "reader.html#2018-10-27-ideias-77-sinalizacao-de-virtude-como-parecer-bom-se-tornou-mais-importante-que-ser-bom.html",
+                "tags": [
+                    "direita",
+                    "esquerda",
+                    "podcast",
+                    "politica",
+                    "politicamente-correto",
+                    "sinalizacao-de-virtude"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2018-10",
+                "format": "link"
+            },
+            {
+                "id": 24940,
+                "title": "Com o povo se voltando contra suas ideias, os progressistas já começam a condenar a democracia",
+                "date": "2018-10-22",
+                "url": "reader.html#2018-10-22-com-o-povo-se-voltando-contra-suas-ideias-os-progressistas-ja-comecam-a-condenar-a-democracia.html",
+                "tags": [
+                    "democracia",
+                    "direita",
+                    "esquerda",
+                    "politica"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2018-10",
+                "format": "link"
+            },
+            {
+                "id": 24805,
+                "title": "As leis de copyright atuais são uma bosta",
+                "date": "2018-09-26",
+                "url": "reader.html#2018-09-26-as-leis-de-copyright-atuais-sao-uma-bosta.html",
+                "tags": [
+                    "arte",
+                    "cgp-grey",
+                    "copyright",
+                    "corporativismo",
+                    "criatividade"
+                ],
+                "cats": [
+                    "citacoes",
+                    "filosofia",
+                    "links"
+                ],
+                "month": "2018-09",
+                "format": "link"
+            },
+            {
+                "id": 24703,
+                "title": "Amo os documentários do Louis Theroux",
+                "date": "2018-09-22",
+                "url": "reader.html#2018-09-22-amo-os-documentarios-do-louis-theroux.html",
+                "tags": [
+                    "dicas",
+                    "louis-theroux"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2018-09",
+                "format": "link"
+            },
+            {
+                "id": 24197,
+                "title": "List of Autocorrect Words in English",
+                "date": "2018-07-04",
+                "url": "reader.html#2018-07-04-list-of-autocorrect-words-in-english.html",
+                "tags": [
+                    "autocorrect",
+                    "writing"
+                ],
+                "cats": [
+                    "english",
+                    "links"
+                ],
+                "month": "2018-07",
+                "format": "link"
+            },
+            {
+                "id": 23675,
+                "title": "Prohibition: A Film by Ken Burns and Lynn",
+                "date": "2018-05-18",
+                "url": "reader.html#2018-05-18-prohibition-a-film-by-ken-burns-and-lynn.html",
+                "tags": [
+                    "comercio",
+                    "drogas",
+                    "estados",
+                    "legalizacao",
+                    "lei-seca",
+                    "proibicao"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2018-05",
+                "format": "link"
+            },
+            {
+                "id": 23472,
+                "title": "Médicos não podem decidir se vida de Charlie Gard vale a pena",
+                "date": "2018-04-28",
+                "url": "reader.html#2018-04-28-medicos-nao-podem-decidir-se-vida-de-charlie-gard-vale-a-pena.html",
+                "tags": [
+                    "big-brother",
+                    "charlie-gard",
+                    "direitos-dos-pais",
+                    "escolha",
+                    "etica",
+                    "governo",
+                    "liberdade-individual",
+                    "sjw"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2018-04",
+                "format": "link"
+            },
+            {
+                "id": 22938,
+                "title": "Ótimo site com curta-metragens",
+                "date": "2018-03-27",
+                "url": "reader.html#2018-03-27-otimo-site-com-curta-metragens.html",
+                "tags": [
+                    "dicas",
+                    "filmes",
+                    "lista"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2018-03",
+                "format": "link"
+            },
+            {
+                "id": 22591,
+                "title": "Brigitte Bardot diz que assédio em Hollywood é “hipocrisia”",
+                "date": "2018-01-19",
+                "url": "reader.html#2018-01-19-brigitte-bardot-diz-que-assedio-em-hollywood-e-hipocrisia.html",
+                "tags": [
+                    "assedio",
+                    "esquerdismo",
+                    "feminismo",
+                    "hollywood",
+                    "machismo",
+                    "sexismo",
+                    "sjw"
+                ],
+                "cats": [
+                    "filosofia",
+                    "links"
+                ],
+                "month": "2018-01",
+                "format": "link"
+            },
+            {
+                "id": 22223,
+                "title": "Filmes que poderiam facilmente ser episódios do Black Mirror",
+                "date": "2017-11-23",
+                "url": "reader.html#2017-11-23-filmes-que-poderiam-facilmente-ser-episodios-do-black-mirror.html",
+                "tags": [
+                    "black-mirror",
+                    "ficcao-cientifica",
+                    "futurismo",
+                    "listas"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "links"
+                ],
+                "month": "2017-11",
+                "format": "link"
+            },
+            {
+                "id": 20880,
+                "title": "50 Documentários Para Assistir Antes de Morrer",
+                "date": "2017-09-07",
+                "url": "reader.html#2017-09-07-50-documentarios-para-assistir-antes-de-morrer.html",
+                "tags": [
+                    "documentarios",
+                    "lista"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "links"
+                ],
+                "month": "2017-09",
+                "format": "link"
+            },
+            {
+                "id": 19968,
+                "title": "Searching for Lost Knowledge in the Age of Intelligent Machines",
+                "date": "2017-07-07",
+                "url": "reader.html#2017-07-07-searching-for-lost-knowledge-in-the-age-of-intelligent-machines.html",
+                "tags": [
+                    "akashic-records",
+                    "historia",
+                    "inteligencia-artificial",
+                    "passado",
+                    "registros-akashicos"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "links"
+                ],
+                "month": "2017-07",
+                "format": "link"
+            },
+            {
+                "id": 17417,
+                "title": "Dica de Programa: Phrase Express",
+                "date": "2017-02-07",
+                "url": "reader.html#2017-02-07-dica-de-programa-phrase-express.html",
+                "tags": [
+                    "dicas",
+                    "escrever",
+                    "idioma",
+                    "lingua",
+                    "produtividade",
+                    "programas",
+                    "software"
+                ],
+                "cats": [
+                    "links",
+                    "textos"
+                ],
+                "month": "2017-02",
+                "format": "link"
+            },
+            {
+                "id": 16051,
+                "title": "“Time Travel: A History” de James Gleick",
+                "date": "2016-11-01",
+                "url": "reader.html#2016-11-01-time-travel-a-history-de-james-gleick.html",
+                "tags": [
+                    "livro",
+                    "tempo",
+                    "viagem-no-tempo"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2016-11",
+                "format": "link"
+            },
+            {
+                "id": 9002,
+                "title": "Crianças Transgêneras",
+                "date": "2015-07-22",
+                "url": "reader.html#2015-07-22-criancas-transgeneras.html",
+                "tags": [
+                    "genero",
+                    "papeis-de-genero",
+                    "sociedade",
+                    "transexualidade"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "imagens",
+                    "links",
+                    "textos"
+                ],
+                "month": "2015-07",
+                "format": "link"
+            },
+            {
+                "id": 2771,
+                "title": "Fotografia de Nishe",
+                "date": "2014-03-17",
+                "url": "reader.html#2014-03-17-fotografia-de-nishe.html",
+                "tags": [
+                    "emocao",
+                    "emocoes",
+                    "flickr",
+                    "fotografia",
+                    "gestos",
+                    "nishe",
+                    "sonho"
+                ],
+                "cats": [
+                    "links"
+                ],
+                "month": "2014-03",
+                "format": "link"
+            }
+        ]
+    }
+}
