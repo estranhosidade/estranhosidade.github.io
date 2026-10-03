@@ -1,8 +1,13 @@
 {
     "version": "2.12.1",
-    "generatedAt": "2026-09-27T05:16:51+00:00",
-    "chunkCount": 154,
+    "generatedAt": "2026-10-03T19:47:21+00:00",
+    "chunkCount": 155,
     "chunks": [
+        {
+            "file": "data-mounth-2026-10_01.json",
+            "month": "2026-10",
+            "label": "outubro 2026"
+        },
         {
             "file": "data-mounth-2026-09_01.json",
             "month": "2026-09",
@@ -775,6 +780,7 @@
         }
     ],
     "months": {
+        "2026-10": "outubro 2026",
         "2026-09": "setembro 2026",
         "2026-08": "agosto 2026",
         "2026-07": "julho 2026",
@@ -929,11 +935,19 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2616,
-    "firstChunk": "data-mounth-2026-09_01.json",
+    "totalPosts": 2624,
+    "firstChunk": "data-mounth-2026-10_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-10-03-diario-03-10-2026.html": "data-mounth-2026-10_01.json",
+        "2026-10-02-diario-02-10-2026.html": "data-mounth-2026-10_01.json",
+        "2026-10-01-diario-01-10-2026.html": "data-mounth-2026-10_01.json",
+        "2026-09-30-diario-30-09-2026.html": "data-mounth-2026-09_01.json",
+        "2026-09-29-diario-29-09-2026.html": "data-mounth-2026-09_01.json",
+        "2026-09-29-omega-the-last-days-of-the-world.html": "data-mounth-2026-09_01.json",
+        "2026-09-28-we-solemnly-apologize-but-we-wont-be-there-when-you-die.html": "data-mounth-2026-09_01.json",
+        "2026-09-27-diario-27-09-2026.html": "data-mounth-2026-09_01.json",
         "2026-09-25-a-menina-a-prisao-e-a-reforma-antimanicomial.html": "data-mounth-2026-09_01.json",
         "2026-09-22-diario-22-09-2026.html": "data-mounth-2026-09_01.json",
         "2026-09-21-programa-apollo-e-as-pontes-incompletas.html": "data-mounth-2026-09_01.json",

@@ -99,7 +99,7 @@
 --font-mono: monospace, serif;
 --font-genericons: normal 16px/1 genericons;
 --text-size-xs: 11px;
---text-size-sm: 12px;
+--text-size-sm: 11px;
 --text-size-md: 12px;
 --text-size-base: 14px;
 --text-size-lg: 18px;
@@ -434,6 +434,43 @@ label {
   .search-input {
     min-width: 0;
   }
+}
+--wpx-thumb-placeholder: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZyBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMzgiIGN5PSIzNyIgcj0iOSIvPjxwYXRoIGQ9Ik0yNCA2NmwxNi0xNyAxMSAxMSAxMi0xNSAxMyAyMXoiLz48L2c+PC9zdmc+");
+--wpx-thumb-placeholder-quote: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjIuODggMTA4LjUxIj48cGF0aCBmaWxsPSIjMDAwIiBkPSJNNjMuMDksMGguMDdDNzkuODcuNTUsOTQuODgsNi41LDEwNS42MywxNS43MWMxMSw5LjQ2LDE3LjY1LDIyLjM1LDE3LjIzLDM2LjQ0djBhNDMuMjksNDMuMjksMCwwLDEtNy42NiwyMy4xNkE1NS4xNSw1NS4xNSwwLDAsMSw5NS42Myw5Mi42MmE3Mi44MSw3Mi44MSwwLDAsMS0yOC4zOSw4LjY0LDYyLjIsNjIuMiwwLDAsMS0yNi40Ni0zLjQyTDUuMzEsMTA4LjUxLDE1LjQ5LDgyLjg1YTQ5LDQ5LDAsMCwxLTEwLTEyLjI5QTQwLjgsNDAuOCwwLDAsMSwuMjQsNDUuODEsNDUuMzksNDUuMzksMCwwLDEsMTAsMjIuNjEsNTUuNzgsNTUuNzgsMCwwLDEsMjYuMzMsOC44LDY3LjA2LDY3LjA2LDAsMCwxLDQzLjg1LDIsNzMuODksNzMuODksMCwwLDEsNjMuMDcsMFpNNDQsMzUuMTloOC4xMWE1LjY4LDUuNjgsMCwwLDEsNS42Nyw1LjY3YzAsMTEuNjcsMywyNC40OS0xMS4zMiwyOC4xNS02LjQ4LDEuNjYtOC4xNy01LjQ4LTEuMjgtNiw0LjItLjMsNS0zLDUuMTYtNy4xMkg0My43OWE1LjY4LDUuNjgsMCwwLDEtNS42Ny01LjY3VjQxQTUuODYsNS44NiwwLDAsMSw0NCwzNS4xOVptMjYuNzcsMGg4LjFhNS42OSw1LjY5LDAsMCwxLDUuNjgsNS42N2MwLDExLjY3LDMsMjQuNDktMTEuMzMsMjguMTUtNi40OCwxLjY2LTguMTctNS40OC0xLjI3LTYsNC4yLS4zLDUtMyw1LjE1LTcuMTJoLTYuNWE1LjY4LDUuNjgsMCwwLDEtNS42Ny01LjY3VjQxYTUuODUsNS44NSwwLDAsMSw1Ljg0LTUuODRaTTYyLjg2LDkuNEg2Mi44QTY0LjI0LDY0LjI0LDAsMCwwLDQ2LDExLjEsNTcuNjQsNTcuNjQsMCwwLDAsMzEsMTcsNDYuNyw0Ni43LDAsMCwwLDE3LjM4LDI4LjQxYTM1Ljk0LDM1Ljk0LDAsMCwwLTcuODEsMTguNCwzMS40OSwzMS40OSwwLDAsMCw0LDE5LjEyQTQxLjIzLDQxLjIzLDAsMCwwLDI0LDc3Ljc3bDIuNzMsMi4xNi01LjU1LDE0LDIwLTYsMS41LjU5QTUyLjg0LDUyLjg0LDAsMCwwLDY2LjQ3LDkxLjlhNjMuNTYsNjMuNTYsMCwwLDAsMjQuNzItNy41NCw0NS43Niw0NS43NiwwLDAsMCwxNi4yNi0xNC4yNywzNCwzNCwwLDAsMCw2LTE4LjE3djBjLjMyLTExLjExLTUtMjEuNC0xNC0yOS05LjIxLTcuOS0yMi4xNS0xMy0zNi42NS0xMy40NFoiLz48L3N2Zz4=");
+:root {
+  --wpx-thumb-w: 92px;
+  --wpx-thumb-gap: 14px;
+}
+/* Display:grid, not float - the title/URL/snippet are in .result-body and must
+   wrap cleanly beside the cell at any result width. */
+.result--thumb {
+  display: grid;
+  grid-template-columns: var(--wpx-thumb-w) minmax(0, 1fr);
+  column-gap: var(--wpx-thumb-gap);
+  align-items: start;
+}
+.result--thumb .result-body {
+  min-width: 0;
+}
+.result-thumb {
+  display: block;
+  width: var(--wpx-thumb-w);
+  height: 72px;
+  object-fit: cover;
+  border-radius: 3px;
+  background-color: rgba(127, 127, 127, 0.12);
+  background-size: cover;
+  background-position: center;
+}
+/* No media at all: the quotation glyph marks the result as text-only. */
+.result-thumb.is-none {
+  background-image: var(--wpx-thumb-placeholder-quote);
+  background-repeat: no-repeat;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .result-thumb {
+    transition: opacity 0.15s ease-in-out;
+  }
 }</style>
 </head>
 <body>
@@ -460,7 +497,7 @@ label {
 <section id="results" class="results"></section>
 <div id="pager" class="pager state-hidden"></div>
 </main>
-<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"baseUrl":"https://estranhosidade.github.io/","i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais recentes","oldest":"Mais antigos","relevance":"Relevância","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]}};(function(){
+<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"baseUrl":"https://estranhosidade.github.io/","i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais recentes","oldest":"Mais antigos","relevance":"Relevância","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]},"thumbs":true,"thumbPlaceholder":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZyBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMzgiIGN5PSIzNyIgcj0iOSIvPjxwYXRoIGQ9Ik0yNCA2NmwxNi0xNyAxMSAxMSAxMi0xNSAxMyAyMXoiLz48L2c+PC9zdmc+","thumbPlaceholderQuote":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjIuODggMTA4LjUxIj48cGF0aCBmaWxsPSIjMDAwIiBkPSJNNjMuMDksMGguMDdDNzkuODcuNTUsOTQuODgsNi41LDEwNS42MywxNS43MWMxMSw5LjQ2LDE3LjY1LDIyLjM1LDE3LjIzLDM2LjQ0djBhNDMuMjksNDMuMjksMCwwLDEtNy42NiwyMy4xNkE1NS4xNSw1NS4xNSwwLDAsMSw5NS42Myw5Mi42MmE3Mi44MSw3Mi44MSwwLDAsMS0yOC4zOSw4LjY0LDYyLjIsNjIuMiwwLDAsMS0yNi40Ni0zLjQyTDUuMzEsMTA4LjUxLDE1LjQ5LDgyLjg1YTQ5LDQ5LDAsMCwxLTEwLTEyLjI5QTQwLjgsNDAuOCwwLDAsMSwuMjQsNDUuODEsNDUuMzksNDUuMzksMCwwLDEsMTAsMjIuNjEsNTUuNzgsNTUuNzgsMCwwLDEsMjYuMzMsOC44LDY3LjA2LDY3LjA2LDAsMCwxLDQzLjg1LDIsNzMuODksNzMuODksMCwwLDEsNjMuMDcsMFpNNDQsMzUuMTloOC4xMWE1LjY4LDUuNjgsMCwwLDEsNS42Nyw1LjY3YzAsMTEuNjcsMywyNC40OS0xMS4zMiwyOC4xNS02LjQ4LDEuNjYtOC4xNy01LjQ4LTEuMjgtNiw0LjItLjMsNS0zLDUuMTYtNy4xMkg0My43OWE1LjY4LDUuNjgsMCwwLDEtNS42Ny01LjY3VjQxQTUuODYsNS44NiwwLDAsMSw0NCwzNS4xOVptMjYuNzcsMGg4LjFhNS42OSw1LjY5LDAsMCwxLDUuNjgsNS42N2MwLDExLjY3LDMsMjQuNDktMTEuMzMsMjguMTUtNi40OCwxLjY2LTguMTctNS40OC0xLjI3LTYsNC4yLS4zLDUtMyw1LjE1LTcuMTJoLTYuNWE1LjY4LDUuNjgsMCwwLDEtNS42Ny01LjY3VjQxYTUuODUsNS44NSwwLDAsMSw1Ljg0LTUuODRaTTYyLjg2LDkuNEg2Mi44QTY0LjI0LDY0LjI0LDAsMCwwLDQ2LDExLjEsNTcuNjQsNTcuNjQsMCwwLDAsMzEsMTcsNDYuNyw0Ni43LDAsMCwwLDE3LjM4LDI4LjQxYTM1Ljk0LDM1Ljk0LDAsMCwwLTcuODEsMTguNCwzMS40OSwzMS40OSwwLDAsMCw0LDE5LjEyQTQxLjIzLDQxLjIzLDAsMCwwLDI0LDc3Ljc3bDIuNzMsMi4xNi01LjU1LDE0LDIwLTYsMS41LjU5QTUyLjg0LDUyLjg0LDAsMCwwLDY2LjQ3LDkxLjlhNjMuNTYsNjMuNTYsMCwwLDAsMjQuNzItNy41NCw0NS43Niw0NS43NiwwLDAsMCwxNi4yNi0xNC4yNywzNCwzNCwwLDAsMCw2LTE4LjE3djBjLjMyLTExLjExLTUtMjEuNC0xNC0yOS05LjIxLTcuOS0yMi4xNS0xMy0zNi42NS0xMy40NFoiLz48L3N2Zz4="};(function(){
 "use strict";
 var cfg      = WPX_SEARCH;
 var i18n     = cfg.i18n || {};
@@ -928,15 +965,62 @@ function renderResult(row, q, parsed){
   if (snippet === null) snippet = item.summary || i18n.no_text_preview;
   var tags = (item.tags || []).map(termName).filter(Boolean);
   var cats = (item.cats || []).map(termName).filter(Boolean);
-  var buf = '<article class="result">'
+
+  /* Thumbnail column. The cell is reserved for EVERY result while the feature
+     is on, so the rows stay aligned whether or not a post has media. */
+  var THUMBS = !!cfg.thumbs;
+  var useThumb = THUMBS && !!(item.thumb && item.thumb.primary);
+  var thumb = THUMBS
+    ? (useThumb
+      ? '<img class="result-thumb" alt="" decoding="async" fetchpriority="low"'
+        + ' src="' + esc(cfg.thumbPlaceholder || '') + '"'
+        + ' data-src="' + esc(item.thumb.primary) + '"'
+        + ' data-fallback="' + esc(item.thumb.fallback || item.thumb.primary) + '">'
+      : '<span class="result-thumb is-none" aria-hidden="true"></span>')
+    : '';
+
+  var card = THUMBS
+    ? '<article class="result result--thumb">' + thumb + '<div class="result-body">'
+    : '<article class="result">';
+
+  /* A post that is JUST a picture already shows that picture, so the text
+     preview would repeat it in words. The live page skips the snippet in that
+     case; this does the same. */
+  var mediaOnly = useThumb && snippet === item.summary && !terms.length;
+  var buf = card
     + '<a class="result-title" target="_top" href="' + esc(item.url) + '">' + highlight(item.title || i18n.untitled, q) + '</a>'
     + '<div class="result-url">' + highlight((cfg.baseUrl||'') + item.url, q) + '</div>'
-    + '<div class="result-snippet">' + highlight(snippet, q) + '</div>'
+    + (mediaOnly ? '' : '<div class="result-snippet">' + highlight(snippet, q) + '</div>')
     + '<div class="result-extra"><span class="date-label">' + esc(i18n.created_on) + '</span> <span class="date-value">' + esc(fmtDate(item.date)) + '</span></div>';
   if (tags.length) buf += '<div class="result-extra"><span class="date-label">' + esc(i18n.tags) + '</span> <span class="tags-value">' + highlightArray(tags, q) + '</span></div>';
   if (cats.length) buf += '<div class="result-extra"><span class="date-label">' + esc(i18n.categories) + '</span> <span class="categories-value">' + highlightArray(cats, q) + '</span></div>';
-  buf += '</article>';
+  /* The wrapper opened above must be closed on the same condition it was
+     opened - not on useThumb, which is false for media-less results. */
+  buf += (THUMBS ? '</div>' : '') + '</article>';
   return buf;
+}
+
+/* Swap the placeholder in every freshly rendered thumbnail for its real URL.
+
+   The browser is the only thing that can answer "does this _thumb derivative
+   actually exist?" - archive.org generates it for some items and not others,
+   and the URL itself cannot tell you which. The <img> therefore starts on the
+   placeholder and the real URL is assigned here, with the post's own image as
+   a one-shot fallback when the derivative 404s. */
+function loadThumbs(root){
+  if (!cfg.thumbs || !root) return;
+  var imgs = root.querySelectorAll('img.result-thumb[data-src]');
+  Array.prototype.forEach.call(imgs, function(img){
+    var real = img.getAttribute('data-src');
+    if (!real || img.dataset.bound) return;
+    img.dataset.bound = '1';
+    img.addEventListener('error', function(){
+      var fb = img.getAttribute('data-fallback');
+      /* Only retry once, and never back onto the URL that just failed. */
+      if (fb && img.getAttribute('src') !== fb) img.setAttribute('src', fb);
+    });
+    img.src = real;
+  });
 }
 
 function renderResults(page){
@@ -958,6 +1042,8 @@ function renderResults(page){
   var buf = '';
   slice.forEach(function(row){ buf += renderResult(row, state.q, state.parsed); });
   resEl.innerHTML = buf;
+  /* Only after the markup exists - loadThumbs replaces the placeholder src. */
+  loadThumbs(resEl);
   renderPager(page, pages);
 }
 

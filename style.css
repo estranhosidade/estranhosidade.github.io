@@ -126,7 +126,7 @@ Text Domain: twentyfourteen
  --font-mono: monospace, serif;
  --font-genericons: normal 16px/1 genericons;
  --text-size-xs: 11px;
- --text-size-sm: 12px;
+ --text-size-sm: 11px;
  --text-size-md: 12px;
  --text-size-base: 14px;
  --text-size-lg: 18px;
@@ -612,7 +612,20 @@ hr {
  opacity: 1;
 }
 
-:is(.comment-content, .entry-content, .entry-summary, #site-header, .widget) img, .wp-caption, :is(embed, iframe, object, video) { max-width: 100%; }
+/*
+ * Images, media and captions are never wider than their container.
+ *
+ * `.widget` was removed from the :is() list on purpose. It made this rule
+ * reach EVERY image inside EVERY sidebar and footer widget, so a widget that
+ * happens to print a picture inherited main-content image behaviour it never
+ * asked for. Anything a widget wants for its own images it should size itself -
+ * the related-posts widget does exactly that, with its own .related-post-thumb
+ * rule capping the picture at 190px and preserving its aspect ratio.
+ *
+ * Measured before removing it: the sidebar contained no images other than the
+ * widget's own thumbnail, so nothing that was relying on this rule lost it.
+ */
+:is(.comment-content, .entry-content, .entry-summary, #site-header) img, .wp-caption, :is(embed, iframe, object, video) { max-width: 100%; }
 
 :is(p, span)> :is(embed, iframe, object) { margin-bottom: 0; }
 
@@ -1004,6 +1017,43 @@ a.post-thumbnail:hover { background-color: #999; }
 }
 
 .site-content :is(.entry-content, .entry-summary, .page-content) { padding: var(--space-base) var(--space-md) 0; }
+
+/* .entry-meta obeys the same measure as .entry-content — ON THIS PAGE ONLY.
+ *
+ * Both are capped at --max-width-content and centred with "margin: 0 auto",
+ * but .entry-content also carries a horizontal gutter (--space-md here, then
+ * --space-lg / --space-2xl at the two breakpoints below). The theme uses the
+ * default content-box sizing, so that padding sits OUTSIDE the 450px: the
+ * content block occupies 470px while the metadata row occupied a bare 450px.
+ * Centring two different widths inside the same column left .entry-meta inset
+ * by the gutter on each side, which is why the genericons icon on the edit-link
+ * row sat to the LEFT of the paragraph text below it instead of aligning with
+ * it.
+ *
+ * SCOPED TO PAGES ON PURPOSE.
+ *
+ * This was first written against every .site-content .entry-meta, which broke
+ * the post header on ordinary posts: those meta rows are a flex row of
+ * indivisible items (see the >=1008px "Post metadata behaves like a row of
+ * indivisible items" rule), and the extra padding plus border-box squeezed
+ * them - see the "PADRÃO / date / EDITAR" row on a post header. Pages do not
+ * use that flex layout, so they are unaffected either way; scoping to .page
+ * leaves the 2,621 posts exactly as they were.
+ *
+ * ".page" is WordPress' own body class for post_type=page, so no template or
+ * PHP support is needed. Verified against the live site: /garotas/ carries
+ * ".page", while a post carries ".single.single-post" and never ".page".
+ * The site has 3 pages against 2,621 posts, so this is a small, well-defined
+ * set rather than a broad one.
+ *
+ * Only the horizontal padding is mirrored here - not the top one - so the
+ * vertical rhythm around the metadata is unchanged.
+ */
+.page .site-content .entry-meta {
+ box-sizing: border-box;
+ padding-left: var(--space-md);
+ padding-right: var(--space-md);
+}
 
 .page .entry-content { padding-top: 0; }
 
@@ -2219,6 +2269,13 @@ a.post-thumbnail:hover { background-color: #999; }
   margin: 0;
   padding: var(--space-base) 0 9px;
  }
+/* A card that is immediately followed by a month divider (the .month-header
+     divs the index/category/month feeds emit, and that site.js inserts while
+     appending months) already gets its separation from the divider itself, so
+     its own hairline would read as a stray rule under the month label. */
+  .list-view .site-content .hentry:has(+ .month-header) {
+   border-bottom: 0;
+  }
  .list-view .site-content :is(.cat-links, .type-post .entry-content, .type-page .entry-content, .type-post .entry-summary, .type-page .entry-summary, footer.entry-meta) { display: none; }
  .list-view .site-content .entry-title {
   clear: none;
@@ -2393,6 +2450,15 @@ a.post-thumbnail:hover { background-color: #999; }
  :is(.archive-header, .comments-area, .image-navigation, .page-header, .page-content, .post-navigation, .site-content .entry-content, .site-content .entry-summary, .site-content footer.entry-meta) {
   padding-right: var(--space-lg);
   padding-left: var(--space-lg);
+ }
+
+ /* Pages only: keep .entry-meta tracking .entry-content's gutter at this
+    breakpoint, matching the base rule scoped to the same pages. Posts are
+    excluded on purpose - see the ".entry-meta obeys the same measure"
+    comment in the "Posts & content" section for why. */
+ .page .site-content .entry-meta {
+ padding-right: var(--space-lg);
+ padding-left: var(--space-lg);
  }
  .singular .site-content .hentry.has-post-thumbnail { margin-top: 0; }
  .full-width .site-content {
@@ -2710,6 +2776,12 @@ a.post-thumbnail:hover { background-color: #999; }
  :is(.archive-header, .comments-area, .image-navigation, .page-header, .page-content, .post-navigation, .site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content footer.entry-meta) {
   padding-right: var(--space-2xl);
   padding-left: var(--space-2xl);
+ }
+
+ /* Pages only: same reason as the --space-lg rule above. */
+ .page .site-content .entry-meta {
+ padding-right: var(--space-2xl);
+ padding-left: var(--space-2xl);
  }
 }
 
@@ -3193,8 +3265,8 @@ article.related-post { margin-bottom: 10px !important; }
 .month-header ~ .month-header {
  border-top: 1px solid var(--purple);
  border-bottom: 1px solid var(--purple);
- margin-top: 40px;
- margin-bottom: 40px;
+ margin-top: 20px;
+ margin-bottom: 20px;
  padding-top: 4px;
  padding-bottom: 4px;
 }
@@ -3296,6 +3368,7 @@ article.related-post { margin-bottom: 10px !important; }
   margin: 0;
   box-sizing: border-box;
   align-self: start;
+  padding: 0;
  }
 
  /* Keep the central content rules deterministic instead of inheriting the
@@ -3335,15 +3408,6 @@ article.related-post { margin-bottom: 10px !important; }
   Sidebars share the same top edge and horizontal inset as the main column.
   ========================================================================== */
 @media screen and (width >= 1008px) {
- /* Give all three desktop columns the same vertical starting line. */
- #main > #secondary,
- #main > #content-sidebar,
- #main > #main-content > #content-sidebar,
- #main > #primary,
- #main > #main-content > #primary {
-  padding-top: 0 !important;
- }
-
  #main > #secondary,
  #main > #content-sidebar,
  #main > #main-content > #content-sidebar {
@@ -3496,7 +3560,6 @@ article.related-post { margin-bottom: 10px !important; }
  #main > #content-sidebar,
  #main > #main-content > #content-sidebar {
   margin-top: 0 !important;
-  padding-top: 0 !important;
  }
 
  #main > #content-sidebar .widget:first-child,
@@ -3514,7 +3577,7 @@ article.related-post { margin-bottom: 10px !important; }
    Media elements styling
    ========================================================================== */
 video,
-img:not(.spinner) {
+img:not(.spinner, .gallery_films__item *) {
     border-radius: 10px !important;
     border: var(--media-border);
 }
@@ -3522,6 +3585,233 @@ img:not(.spinner) {
 video {
     max-height: var(--video-max-height);
 }
+
+/* Hold the dotted border back until the media has actually rendered.
+   At first paint an unloaded <img> is an empty box (the reset above gives it
+   width:100%/height:auto, so it collapses to a 1px-tall sliver), which the
+   rule above outlines as a bare dotted rectangle floating in the column.
+   There is no CSS-only way to ask "has this loaded" - :loaded is a stalled
+   proposal, not a shipping pseudo-class - so js/functions.js adds .is-loaded
+   on the element's load/loadeddata event and this rule waits for it.
+
+   border-COLOR, not `border: 0`: the 1px stays reserved either way, so the
+   border appearing with the image causes no reflow. Using `border: 0` would
+   collapse the box and then re-open it, a 2px jump per image.
+
+   Scoped to html.js so a visitor without JavaScript keeps the plain border
+   rather than losing it forever. Specificity (0,3,2) out-specifies the
+   `img:not(.spinner)` rule above (0,2,1) - it has to, since that block is
+   last in the file. Keep in sync with .gallery_small img:not(.spinner). */
+html.js video:not(.is-loaded),
+html.js img:not(.spinner):not(.is-loaded) {
+    border-color: transparent;
+}
+
+
+/* ==========================================================================
+   Film gallery (.gallery_films)
+   --------------------------------------------------------------------------
+   Poster wall for the /filmes page: one tile per film, each linking to its
+   IMDb page. The native title= tooltip is the only affordance; there is
+   deliberately no hover panel, so a poster is never covered up and nothing
+   is legible only while hovering.
+
+   Generated by the IMDb Film Gallery plugin; the plugin no longer ships its
+   own stylesheet, so these rules live here with .gallery_small above.
+
+   Markup:
+
+     <div class="gallery_films">
+       <article class="gallery_films__item">
+         <a class="gallery_films__link" href="https://www.imdb.com/title/tt.../"
+            title="Title (Year)&#10;&#10;MOVIE SYNOPSIS&#10;...&#10;Genre: ...">
+           <img class="gallery_films__poster" src="...small..." srcset="...">
+         </a>
+       </article>
+     </div>
+   ========================================================================== */
+/* ==========================================================================
+   IMDb Film Gallery - .gallery_films
+   --------------------------------------------------------------------------
+   Poster wall for the /filmes page: one square-cornered tile per film, each
+   linking to its IMDb page. The native title= tooltip is the only affordance;
+   there is deliberately no hover panel, so a poster is never covered up and
+   nothing is legible only while hovering.
+
+   Markup:
+
+     <div class="gallery_films">
+       <article class="gallery_films__item">
+         <a class="gallery_films__link" href="https://www.imdb.com/title/tt.../"
+            title="Title (Year)&#10;&#10;MOVIE SYNOPSIS&#10;...&#10;Genre: ...">
+           <img class="gallery_films__poster" src="...small..." srcset="...">
+         </a>
+       </article>
+     </div>
+
+   Cascade notes - both are load-bearing, keep in sync with the theme:
+
+     1. Posters deliberately do NOT set border or border-radius, so they
+        inherit this theme's "Media elements styling" rule
+        (`img:not(.spinner) { border-radius: 10px !important; border: ... }`)
+        and look identical to every other image on the site. Do not add a
+        forced radius here; that fights the theme.
+     2. --max-width-content caps the reading column at 450px, which is far too
+        narrow for a poster wall, so the gallery page opts out via
+        .imdb-gallery-page below.
+   ========================================================================== */
+
+/* Twenty Fourteen sizes .page-content for prose. A 70px-tile poster wall wants
+   the whole column, so the gallery page is widened. The class comes from the
+   IMDb Film Gallery plugin, which sets it only on the configured page. */
+.imdb-gallery-page .site-content :is(.entry-content, .page-content) {
+  max-width: none;
+}
+
+.gallery_films {
+  /* Tokens on the class, not :root, so this file stays portable. */
+  --films-tile: 70px;                            /* poster width            */
+  --films-row: calc(var(--films-tile) * 1.5);   /* 2:3 poster + breathing  */
+  --films-gap: 4px;
+  --films-radius: 10px;      /* match the theme's image radius  */
+  /* Placeholder shown while a poster loads. Follows the colour scheme: a
+     hardcoded light grey is a block of glare on a dark page. */
+  --films-placeholder: #e8e8e4;
+  --films-placeholder-text: #2b2b2b;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--films-tile), 1fr));
+  grid-auto-rows: var(--films-row);
+  gap: var(--films-gap);
+
+  /* Escape the 450px cap inherited from the shared gallery rules. */
+  width: 100%;
+  max-width: none;
+  margin: 1.5em 0;
+  padding: 0;
+}
+
+/* WordPress injects <br> between pasted blocks; hide so the grid stays intact. */
+.gallery_films br {
+  display: none;
+}
+
+.gallery_films__item {
+  position: relative;
+  display: block;
+  min-width: 0;
+}
+
+.gallery_films__link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--films-radius);
+  text-decoration: none;
+  /* Sits behind the poster while it loads. Kept as a token so dark mode can
+     replace it: a fixed light grey reads as a flash of glare on a black page. */
+  background: var(--films-placeholder);
+}
+
+/* Keyboard users still need a focus ring, now the pointer affordance is gone. */
+.gallery_films__link:focus-visible {
+  outline: 3px solid #24890d;
+  outline-offset: 2px;
+  z-index: 2;
+}
+
+/* --- the poster --------------------------------------------------------- */
+/*
+   Border and radius are deliberately NOT set, so each poster inherits exactly
+   what this theme gives every other image. The end-of-file "Media elements
+   styling" block applies through its own img:not(.spinner) selector:
+
+     img:not(.spinner) { border-radius: 10px !important; border: var(--media-border); }
+
+   That is the look we want: the same 10px corners and media border as post
+   thumbnails and content images, so the wall reads as native to the theme.
+   An earlier version forced both to 0 to get square tiles, which fought the
+   theme rather than matching it.
+*/
+.gallery_films__poster {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  /* Posters are 2:3; cover keeps every tile on one baseline grid even if a
+     source image arrives with a different ratio. */
+  object-fit: cover;
+  /* A lazy poster that is still decoding has its alt text painted on top of
+     the tile. The alt stays in the markup for screen readers; this only stops
+     it being drawn. */
+  color: transparent;
+  font-size: 0;
+}
+
+/* Fallback for the rare film the API has no artwork for: a titled block reads
+   better than a broken-image icon. The font is a share of the tile width, so
+   the text tracks --films-tile at every breakpoint instead of being tuned to
+   one size. */
+.gallery_films__noposter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  text-align: center;
+  font-size: calc(var(--films-tile) * 0.14);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--films-placeholder-text);
+  background: var(--films-placeholder);
+}
+
+/* Dark mode: the placeholder is near-black so a loading poster is a gap in the
+   wall rather than a flash of light grey. --bg tracks the site's own dark
+   background, and the text is lifted to stay legible on it. Both are declared
+   on .gallery_films so the same tokens feed the link and the no-poster
+   fallback. */
+@media (prefers-color-scheme: dark) {
+  .gallery_films {
+    --films-placeholder: #111;
+    --films-placeholder-text: #d5d5d5;
+  }
+}
+
+/* Breakpoints touch only the tile width; row height and gutter derive from it,
+   so the sheet keeps its proportions. Values step down from the 70px base.
+   They must stay BELOW the base: with a 70px tile, leaving the old 42px/36px
+   here would make the posters much smaller on a phone than on a desktop.
+   Both are the 50px-base ratios (0.84 and 0.72) carried over to the new base,
+   so the phone and tablet layouts keep the same relative density. */
+@media (max-width: 900px) {
+  .gallery_films {
+    --films-tile: 59px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery_films {
+    --films-tile: 50px;
+    --films-gap: 3px;
+  }
+}
+
+/* The whole tile is the click target; no hover transform either, to match the
+   flat reference poster wall. */
+@media (prefers-reduced-motion: reduce) {
+  .gallery_films__link,
+  .gallery_films__poster {
+    transition: none;
+  }
+}
+
+/* ==========================================================================
+   End of film gallery
+   ========================================================================== */
 
 
 /* === Inlined from genericons/genericons.css === */
@@ -3991,3 +4281,7 @@ html :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
 
 /* Post Relationships widget (static bundle) */
 .post-relationships{margin:0}.related-post{margin:0 0 2em 0;padding:0}.related-post:last-child{margin-bottom:0}.related-post-title{margin:0 0 0.35em 0;padding:0;font-size:1.1em;line-height:1.3}.related-post-title a{text-decoration:underline}.related-post-date{margin:0 0 0.65em 0;font-size:0.85em;opacity:0.7}.related-post-excerpt{margin:0;line-height:1.5}
+.related-post-thumb{display:block;max-width:min(190px,100%);height:auto;margin:0;border-radius:var(--media-radius,3px);background-color:var(--panel-color,rgba(127,127,127,0.12))}
+.related-post-thumb-link{display:block;margin:0;line-height:0;text-decoration:none}
+.related-post-thumb-link:hover .related-post-thumb,.related-post-thumb-link:active .related-post-thumb{opacity:0.85}
+@media (prefers-reduced-motion: no-preference){.related-post-thumb{transition:opacity 0.15s ease-in-out}}
