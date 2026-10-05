@@ -1,0 +1,1013 @@
+{
+    "type": "historia",
+    "segment": 1,
+    "cats": {
+        "historia": "História"
+    },
+    "posts": {
+        "historia": [
+            {
+                "id": 36328,
+                "title": "O Tempo e as Sedes de Governo",
+                "date": "2025-07-13",
+                "url": "reader.html#2025-07-13-o-tempo-e-sedes-de-governo.html",
+                "tags": [
+                    "paises",
+                    "tempo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2025-07",
+                "format": ""
+            },
+            {
+                "id": 34141,
+                "title": "Sobre Referendos Constitucionais, Votações Teatrais e o Poder Político Real",
+                "date": "2024-11-13",
+                "url": "reader.html#2024-11-13-sobre-referendos-constitucionais-votacoes-teatrais-e-o-poder-politico-real.html",
+                "tags": [
+                    "constituicao",
+                    "de-facto",
+                    "de-jure",
+                    "democracia",
+                    "direito",
+                    "geopolitica",
+                    "independencia",
+                    "juspositivismo",
+                    "politica",
+                    "relacoes-internacionais",
+                    "voto"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2024-11",
+                "format": ""
+            },
+            {
+                "id": 32298,
+                "title": "Trump Eleito",
+                "date": "2024-07-14",
+                "url": "reader.html#2024-07-14-trump-eleito.html",
+                "tags": [
+                    "eleicao",
+                    "politica",
+                    "trump"
+                ],
+                "cats": [
+                    "historia",
+                    "imagens"
+                ],
+                "month": "2024-07",
+                "format": "aside"
+            },
+            {
+                "id": 30081,
+                "title": "3 Futuros Impossíveis e um Amanhã Terrível Para A Palestina",
+                "date": "2023-12-11",
+                "url": "reader.html#2023-12-11-3-futuros-impossiveis-e-um-amanha-terrivel-para-palestina.html",
+                "tags": [
+                    "geopolitica",
+                    "guerra",
+                    "hamas",
+                    "israel",
+                    "palestina",
+                    "politica"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2023-12",
+                "format": ""
+            },
+            {
+                "id": 22820,
+                "title": "Relatos Antigos Sobre o Infantilismo e Alguns Pensamentos…",
+                "date": "2019-11-19",
+                "url": "reader.html#2019-11-19-relatos-antigos-sobre-o-infantilismo-e-alguns-pensamentos.html",
+                "tags": [
+                    "abdl",
+                    "ageplay",
+                    "epocas",
+                    "geracoes",
+                    "infantilismo",
+                    "tempo"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "filosofia",
+                    "galeria",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2019-11",
+                "format": ""
+            },
+            {
+                "id": 24168,
+                "title": "E se os movimentos pró-independência não tivessem acontecido?",
+                "date": "2018-07-04",
+                "url": "reader.html#2018-07-04-e-se-os-movimentos-pro-independencia-nao-tivessem-acontecido.html",
+                "tags": [
+                    "colonialismo",
+                    "colonizacao",
+                    "e-se",
+                    "europa",
+                    "historia-alternativa",
+                    "independencia",
+                    "israel-e-palestina"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2018-07",
+                "format": ""
+            },
+            {
+                "id": 23754,
+                "title": "Parades Intermináveis e Pinturas Infinitas",
+                "date": "2018-05-27",
+                "url": "reader.html#2018-05-27-parades-interminaveis-e-pinturas-infinitas.html",
+                "tags": [
+                    "capitalismo",
+                    "compreesao",
+                    "percepcao"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2018-05",
+                "format": ""
+            },
+            {
+                "id": 23305,
+                "title": "Os Genocidas Têm Dúvidas?",
+                "date": "2018-04-17",
+                "url": "reader.html#2018-04-17-os-genocidas-tem-duvidas.html",
+                "tags": [
+                    "assassinato",
+                    "crimes-contra-a-humanidade",
+                    "duvida",
+                    "genocidio",
+                    "hitler",
+                    "humanidade",
+                    "questionamentos"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2018-04",
+                "format": ""
+            },
+            {
+                "id": 23274,
+                "title": "1945, 1969 e 2011",
+                "date": "2018-04-14",
+                "url": "reader.html#2018-04-14-1945-1969-e-2011.html",
+                "tags": [
+                    "epocas",
+                    "escrever",
+                    "existencia",
+                    "futuro",
+                    "passado",
+                    "presente",
+                    "seculo-20",
+                    "tempo"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2018-04",
+                "format": ""
+            },
+            {
+                "id": 23235,
+                "title": "As Histórias das Vidas Anônimas dos Serial Killers Jamais Descobertos",
+                "date": "2018-04-10",
+                "url": "reader.html#2018-04-10-as-historias-das-vidas-anonimas-dos-serial-killers-jamais-descobertos.html",
+                "tags": [
+                    "crime",
+                    "individualidade",
+                    "passado",
+                    "percepcao",
+                    "segredo",
+                    "serial-killer",
+                    "the-dictionary-of-obscure-sorrows",
+                    "zodiaco"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2018-04",
+                "format": ""
+            },
+            {
+                "id": 22780,
+                "title": "Incentivos Fiscais e o Desenvolvimento Tecnológico",
+                "date": "2018-02-22",
+                "url": "reader.html#2018-02-22-diario-21-02-2018-incentivos-fiscais-e-o-desenvolvimento-tecnologico.html",
+                "tags": [
+                    "capitalismo",
+                    "elon-musk",
+                    "estado",
+                    "governo",
+                    "livre-mercado"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2018-02",
+                "format": ""
+            },
+            {
+                "id": 22792,
+                "title": "Nos de tecnologia e construiremos uma humanidade em torno dela",
+                "date": "2018-02-19",
+                "url": "reader.html#2018-02-19-nos-de-tecnologia-e-construiremos-uma-humanidade-em-torno-dela.html",
+                "tags": [
+                    "futurismo",
+                    "humanidade",
+                    "tecnologia",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2018-02",
+                "format": ""
+            },
+            {
+                "id": 22070,
+                "title": "Nós rotineiramente e conscientemente fazemos registros físicos de nosso conhecimento…",
+                "date": "2017-11-14",
+                "url": "reader.html#2017-11-14-nos-rotineiramente-e-conscientemente-fazemos-registros-fisicos-de-nosso-conhecimento.html",
+                "tags": [
+                    "conhecimento",
+                    "escrever",
+                    "registros"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "filosofia",
+                    "historia"
+                ],
+                "month": "2017-11",
+                "format": "quote"
+            },
+            {
+                "id": 21998,
+                "title": "Legados: 1984, Redes Sociais, Registro Histórico e Backups",
+                "date": "2017-11-11",
+                "url": "reader.html#2017-11-11-legados-1984-redes-sociais-registro-historico-e-backups.html",
+                "tags": [
+                    "big-brother",
+                    "censura",
+                    "legado",
+                    "morte",
+                    "redes-sociais",
+                    "registros"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-11",
+                "format": ""
+            },
+            {
+                "id": 21308,
+                "title": "Como a Guerra às Drogas Arruinou Milhões de Vidas",
+                "date": "2017-11-05",
+                "url": "reader.html#2017-11-05-como-a-guerra-as-drogas-arruinou-milhoes-de-vidas.html",
+                "tags": [
+                    "drogas",
+                    "guerra",
+                    "politica"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-11",
+                "format": ""
+            },
+            {
+                "id": 21830,
+                "title": "Os Novos Tiranos e a Primavera Árabe",
+                "date": "2017-11-02",
+                "url": "reader.html#2017-11-02-os-novos-tiranos-e-a-primavera-arabe.html",
+                "tags": [
+                    "ditadura",
+                    "governo",
+                    "politica",
+                    "primavera-arabe"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-11",
+                "format": ""
+            },
+            {
+                "id": 21766,
+                "title": "A “Ameaça” Norte-Coreana, Reformas Econômicas Sauditas e Independência da Catalunha",
+                "date": "2017-10-29",
+                "url": "reader.html#2017-10-29-a-ameaca-norte-coreana-reformas-economicas-sauditas-e-independencia-da-catalunha.html",
+                "tags": [
+                    "arabia-saudita",
+                    "catalonia",
+                    "economia",
+                    "espanha",
+                    "opiniao",
+                    "politica",
+                    "sociedade"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-10",
+                "format": ""
+            },
+            {
+                "id": 21157,
+                "title": "3 Pensamentos Sobre As Diferentes Gerações",
+                "date": "2017-10-03",
+                "url": "reader.html#2017-10-03-3-pensamentos-sobre-as-diferentes-geracoes.html",
+                "tags": [
+                    "futuro",
+                    "geracoes",
+                    "globalizacao",
+                    "mudancas",
+                    "passado",
+                    "tecnologia",
+                    "tempo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-10",
+                "format": ""
+            },
+            {
+                "id": 19782,
+                "title": "…e não mudamos tanto assim…",
+                "date": "2017-08-01",
+                "url": "reader.html#2017-08-01-e-nao-mudamos-tanto-assim.html",
+                "tags": [
+                    "black-mirror",
+                    "capitalismo",
+                    "futurismo",
+                    "modo-de-vida",
+                    "passado"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-08",
+                "format": ""
+            },
+            {
+                "id": 19709,
+                "title": "Alienígenas No Céu De Roma Antiga…",
+                "date": "2017-06-25",
+                "url": "reader.html#2017-06-25-alienigenas-no-ceu-de-roma-antiga.html",
+                "tags": [
+                    "aliens",
+                    "ceticismo",
+                    "e-se",
+                    "metodo-cientifico",
+                    "teoria"
+                ],
+                "cats": [
+                    "ciencia",
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-06",
+                "format": ""
+            },
+            {
+                "id": 19093,
+                "title": "Hoje em dia o melhor que você pode esperar é um…",
+                "date": "2017-05-15",
+                "url": "reader.html#2017-05-15-hoje-em-dia-o-melhor-que-voce-pode-esperar-e-um.html",
+                "tags": [
+                    "acaso",
+                    "fator-merda",
+                    "morte",
+                    "sorte",
+                    "vida"
+                ],
+                "cats": [
+                    "citacoes",
+                    "historia"
+                ],
+                "month": "2017-05",
+                "format": "quote"
+            },
+            {
+                "id": 18562,
+                "title": "O Depois do Fim Duma Guerra",
+                "date": "2017-04-07",
+                "url": "reader.html#2017-04-07-o-depois-do-fim-duma-guerra.html",
+                "tags": [
+                    "dor",
+                    "geracao",
+                    "guerras",
+                    "peste-negra",
+                    "tempo",
+                    "violencia"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-04",
+                "format": ""
+            },
+            {
+                "id": 18296,
+                "title": "Noções de Registro Histórico e a Evolução Tecnológica",
+                "date": "2017-04-04",
+                "url": "reader.html#2017-04-04-nocoes-de-registro-historico-e-a-evolucao-tecnologica.html",
+                "tags": [
+                    "backup",
+                    "mind-upload",
+                    "morte",
+                    "registro",
+                    "registros",
+                    "tecnologia"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2017-04",
+                "format": ""
+            },
+            {
+                "id": 16922,
+                "title": "A direita ganhou a guerra econômica…",
+                "date": "2017-01-11",
+                "url": "reader.html#2017-01-11-a-direita-ganhou-a-guerra-economica.html",
+                "tags": [
+                    "direita",
+                    "esquerda",
+                    "politica"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "filosofia",
+                    "historia"
+                ],
+                "month": "2017-01",
+                "format": "quote"
+            },
+            {
+                "id": 15410,
+                "title": "Refugiados, Hipocrisia e Aviões",
+                "date": "2016-10-03",
+                "url": "reader.html#2016-10-03-refugiados-hipocrisia-e-avioes.html",
+                "tags": [
+                    "crise",
+                    "europa",
+                    "falsidade",
+                    "hipocrisia",
+                    "politica",
+                    "refugiados"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2016-10",
+                "format": ""
+            },
+            {
+                "id": 13106,
+                "title": "A História Vista A Partir dos Olhos de um Imortal",
+                "date": "2016-08-02",
+                "url": "reader.html#2016-08-02-a-historia-vista-a-partir-dos-olhos-de-um-imortal.html",
+                "tags": [
+                    "eternidade",
+                    "pespectiva",
+                    "sociedade",
+                    "the-man-from-earth"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2016-08",
+                "format": ""
+            },
+            {
+                "id": 9774,
+                "title": "O Conservadorismo Irracional dos Cientistas",
+                "date": "2016-03-29",
+                "url": "reader.html#2016-03-29-o-conservadorismo-irracional-dos-cientistas.html",
+                "tags": [
+                    "conservadorismo",
+                    "crenca",
+                    "motherboard",
+                    "progresso",
+                    "robert-j-white",
+                    "sergio-canavero",
+                    "the-brain-that-wouldnt-die",
+                    "transhumanismo",
+                    "transplante-de-cabeca"
+                ],
+                "cats": [
+                    "ciencia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2016-03",
+                "format": ""
+            },
+            {
+                "id": 10064,
+                "title": "De Gutenberg ao Kindle",
+                "date": "2015-11-17",
+                "url": "reader.html#2015-11-17-de-gutenberg-ao-kindle.html",
+                "tags": [
+                    "futuro",
+                    "gutenberg",
+                    "invencoes",
+                    "kindle",
+                    "niilismo",
+                    "passado",
+                    "singularidade",
+                    "tempo",
+                    "transhumanismo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-11",
+                "format": ""
+            },
+            {
+                "id": 9298,
+                "title": "Como Realmente Acaba…",
+                "date": "2015-08-25",
+                "url": "reader.html#2015-08-25-como-realmente-acaba.html",
+                "tags": [
+                    "dor",
+                    "e-se",
+                    "holocausto",
+                    "morrer",
+                    "segunda-guerra",
+                    "sonhos"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-08",
+                "format": ""
+            },
+            {
+                "id": 8550,
+                "title": "O Pensamento de Que Nem Sempre o Passado Havia Acontecido",
+                "date": "2015-05-17",
+                "url": "reader.html#2015-05-17-o-pensamento-de-que-nem-sempre-o-passado-havia-acontecido.html",
+                "tags": [
+                    "acontecimentos",
+                    "e-se",
+                    "eventos",
+                    "passado",
+                    "potencial",
+                    "tempo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-05",
+                "format": ""
+            },
+            {
+                "id": 8506,
+                "title": "O “American Way Of Life”",
+                "date": "2015-05-11",
+                "url": "reader.html#2015-05-11-o-american-way-of-life.html",
+                "tags": [
+                    "american-way-of-life",
+                    "anos-50",
+                    "eua",
+                    "tempo"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-05",
+                "format": ""
+            },
+            {
+                "id": 8337,
+                "title": "A História Como Um Acontecimento Atemporal",
+                "date": "2015-04-28",
+                "url": "reader.html#2015-04-28-a-historia-como-um-acontecimento-atemporal.html",
+                "tags": [
+                    "atemporal",
+                    "conceito",
+                    "futuro",
+                    "passado",
+                    "presente",
+                    "tempo"
+                ],
+                "cats": [
+                    "documentarios-filmes-series",
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-04",
+                "format": ""
+            },
+            {
+                "id": 8037,
+                "title": "Conceitos Diluídos",
+                "date": "2015-04-15",
+                "url": "reader.html#2015-04-15-conceitos-diluidos.html",
+                "tags": [
+                    "arte",
+                    "conceito",
+                    "dadaismo",
+                    "devianart",
+                    "efemero",
+                    "entender",
+                    "pictorialismo",
+                    "sociedade",
+                    "surrealismo",
+                    "tempo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-04",
+                "format": ""
+            },
+            {
+                "id": 7970,
+                "title": "O Vislumbre",
+                "date": "2015-03-26",
+                "url": "reader.html#2015-03-26-o-vislumbre.html",
+                "tags": [
+                    "compreender",
+                    "fragamento",
+                    "morte",
+                    "quadro-geral",
+                    "tudo",
+                    "vida",
+                    "vislumbre"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-03",
+                "format": ""
+            },
+            {
+                "id": 7904,
+                "title": "A Filosofia da Restauração de Arte",
+                "date": "2015-03-24",
+                "url": "reader.html#2015-03-24-a-filosofia-da-restauracao-da-arte.html",
+                "tags": [
+                    "arte",
+                    "artista",
+                    "conceito",
+                    "preservar",
+                    "sociedade",
+                    "visao"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2015-03",
+                "format": ""
+            },
+            {
+                "id": 4581,
+                "title": "Não Basta Inventar, Tem Que Divulgar",
+                "date": "2014-07-18",
+                "url": "reader.html#2014-07-18-nao-basta-inventar-tem-que-divulgar.html",
+                "tags": [
+                    "descobridor",
+                    "divulgacao",
+                    "fenicios",
+                    "inventar",
+                    "jamais-saberemos",
+                    "misterios",
+                    "pedro-alvares-cabral",
+                    "publicidade",
+                    "saber",
+                    "vencedores"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2014-07",
+                "format": ""
+            },
+            {
+                "id": 2925,
+                "title": "1961 e 2001",
+                "date": "2014-04-23",
+                "url": "reader.html#2014-04-23-1961-e-2001.html",
+                "tags": [
+                    "anos-2000",
+                    "anos-60",
+                    "eventos",
+                    "humanidade",
+                    "john-f-kennedy",
+                    "marcar",
+                    "meia-noite-em-paris",
+                    "nostalgia",
+                    "passado",
+                    "vida"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2014-04",
+                "format": ""
+            },
+            {
+                "id": 2087,
+                "title": "Seria essa a época mais emocionante pra se viver?",
+                "date": "2014-01-07",
+                "url": "reader.html#2014-01-07-seria-essa-a-epoca-mais-emocionante-pra-se-viver.html",
+                "tags": [
+                    "emocionante",
+                    "navegacao",
+                    "revolucao",
+                    "seculo-20",
+                    "viver"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2014-01",
+                "format": ""
+            },
+            {
+                "id": 1519,
+                "title": "A Internet e os Meios de Distribuição de Conteúdo/Informação",
+                "date": "2013-11-25",
+                "url": "reader.html#2013-11-25-a-internet-e-os-meios-de-distribuicao-de-conteudoinformacao.html",
+                "tags": [
+                    "breaking-bad",
+                    "evolucao",
+                    "house-of-cards",
+                    "i-love-lucy",
+                    "internet",
+                    "netflix",
+                    "tecnologia",
+                    "televisao",
+                    "tempo",
+                    "the-twilight-zone",
+                    "tv"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-11",
+                "format": ""
+            },
+            {
+                "id": 1497,
+                "title": "As Expectativas das Gerações",
+                "date": "2013-11-23",
+                "url": "reader.html#2013-11-23-as-expectativas-das-geracoes.html",
+                "tags": [
+                    "expectativas",
+                    "lua",
+                    "marte",
+                    "tecnologia",
+                    "viagem"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-11",
+                "format": ""
+            },
+            {
+                "id": 914,
+                "title": "O século 20 e 21 segundo as pessoas do século 30",
+                "date": "2013-09-07",
+                "url": "reader.html#2013-09-07-o-seculo-20-e-21-segundo-as-pessoas-do-seculo-30.html",
+                "tags": [
+                    "existencia",
+                    "passado",
+                    "russia",
+                    "serguei-mijailovich-prokudin-gorskii"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-09",
+                "format": ""
+            },
+            {
+                "id": 870,
+                "title": "O Século que Mudou O Mundo",
+                "date": "2013-08-21",
+                "url": "reader.html#2013-08-21-o-seculo-que-mudou-o-mundo.html",
+                "tags": [
+                    "guerra",
+                    "lua",
+                    "seculo-20"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-08",
+                "format": ""
+            },
+            {
+                "id": 320,
+                "title": "As Histórias do Passado",
+                "date": "2013-07-19",
+                "url": "reader.html#2013-07-19-as-historias-do-passado.html",
+                "tags": [
+                    "cartas",
+                    "cultura",
+                    "passado",
+                    "relacionamentos",
+                    "vida"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 192,
+                "title": "Hitler: O Maior Herói em Potencial",
+                "date": "2013-07-16",
+                "url": "reader.html#2013-07-16-hitler-o-maior-heroi-em-potencial.html",
+                "tags": [
+                    "adolf-hitler",
+                    "alemanha-nazista",
+                    "nazismo",
+                    "segunda-guerra-mundial"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 175,
+                "title": "Cultura, Música e Tecnologia",
+                "date": "2013-07-15",
+                "url": "reader.html#2013-07-15-cultura-musica-e-tecnologia.html",
+                "tags": [
+                    "antigamente",
+                    "tempo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "musica",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 96,
+                "title": "O futuro não será como esperamos",
+                "date": "2013-07-15",
+                "url": "reader.html#2013-07-15-o-futuro-nao-sera-como-esperamos.html",
+                "tags": [
+                    "cultura",
+                    "futuro",
+                    "passado"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 41,
+                "title": "A “Melhor” Arma De Matar Pessoas",
+                "date": "2013-07-15",
+                "url": "reader.html#2013-07-15-a-melhor-arma-de-matar-pessoas.html",
+                "tags": [
+                    "adolf-hitler",
+                    "guerras",
+                    "hiroshima-e-nagazaki",
+                    "nazismo",
+                    "segunda-guerra-mundial"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 74,
+                "title": "Roman Polanski: Quando a Arte Imita a Vida",
+                "date": "2013-07-15",
+                "url": "reader.html#2013-07-15-roman-polanski-quando-a-arte-imita-a-vida.html",
+                "tags": [
+                    "charles-manson",
+                    "cinema",
+                    "franca"
+                ],
+                "cats": [
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            },
+            {
+                "id": 34,
+                "title": "Escravidão, Direitos das Mulheres, Segregação e Casamento Gay",
+                "date": "2013-07-15",
+                "url": "reader.html#2013-07-15-escravidao-direitos-das-mulheres-segregacao-e-casamento-gay.html",
+                "tags": [
+                    "mulheres",
+                    "racismo"
+                ],
+                "cats": [
+                    "filosofia",
+                    "historia",
+                    "textos"
+                ],
+                "month": "2013-07",
+                "format": ""
+            }
+        ]
+    }
+}
