@@ -78,7 +78,7 @@
                 "data-category-diario-colecao-01.json"
             ],
             "cats": {
-                "diario-colecao": "Diario Coleção"
+                "diario-colecao": "Diário Coleção"
             }
         },
         "dicionario-das-tristezas-obscuras-inspirado": {
@@ -123,6 +123,7 @@
         },
         "filosofia": {
             "files": [
+                "data-category-filosofia-05.json",
                 "data-category-filosofia-04.json",
                 "data-category-filosofia-03.json",
                 "data-category-filosofia-02.json",
@@ -190,6 +191,7 @@
         },
         "textos": {
             "files": [
+                "data-category-textos-05.json",
                 "data-category-textos-04.json",
                 "data-category-textos-03.json",
                 "data-category-textos-02.json",

@@ -92,6 +92,19 @@ Text Domain: twentyfourteen
  --slider-dot: #4d4d4d;
  --toggle-color: #24c044;
  --toggle-hover: #1b522c;
+ /* Dark hover for the post content toggle. Derived from --toggle-color rather
+    than hard-coded, so it stays a true "darker sibling" of whatever the button
+    happens to be in a given scheme, instead of drifting toward a fixed green
+    that only makes sense against the light masthead.
+
+    Works unchanged in dark mode: the masthead is --header-bg-color, which is
+    #000 in BOTH schemes, and --toggle-color is never redefined for dark. So
+    this mix resolves to the same dark green either way - a clearly darker block
+    than its resting state, still opaque enough to read as a button against the
+    black bar, and still light enough behind the white glyph to clear a 5:1
+    contrast ratio. */
+ --toggle-hover-active: color-mix(in srgb, var(--toggle-color) 65%, black 35%);
+  --toggle-icon-size: 22px;
  --ephemera-meta: #ccc;
  --thumbnail-bg: #b2b2b2;
  --tag-color-hover: #ffffff;
@@ -813,6 +826,144 @@ div.wp-caption.alignright :is(img[class*="wp-image-"], .wp-caption-text) {
 }
 
 .search-toggle .screen-reader-text { left: 5px; }
+
+/* ==========================================================================
+   Post content toggle (small screens)
+
+   At <=400px the list view hides the post body entirely - style.css:
+   ".list-view .site-content :is(... .entry-content, .entry-summary ...)
+   { display: none; }" - leaving only title, date, tags and Edit. That is a
+   deliberate density choice, but it means the words of the post cannot be read
+   at all on a phone.
+
+   This button sits immediately beside the search toggle and puts the body back.
+   It reuses the search toggle's own visual language exactly - same size, same
+   --toggle-color block, same hover -- so it reads as part of the masthead
+   rather than as an add-on bolted to it.
+
+   The class it sets (.show-post-content) is what the override further down the
+   file keys on, and it is set on <body> so ONE class flips every post on the
+   page at once. Toggling per-post would need a class per article and would make
+   the button ambiguous about what it controls.
+   ========================================================================== */
+
+.post-content-toggle {
+  align-items: center;
+  background-color: var(--toggle-color);
+  border: 0;
+  color: var(--text-white);
+  cursor: pointer;
+  display: flex;
+  float: right;
+  height: var(--header-height);
+  justify-content: center;
+  margin-right: 0;
+  padding: 0;
+  width: var(--header-height);
+  -webkit-appearance: none;
+  appearance: none;
+
+  /* Colour-only, so it costs nothing to animate and cannot move the button or
+     shift the masthead. Durations elsewhere in this theme sit around 0.2-0.3s;
+     this is at the quick end because the change is a single flat fill and a slow
+     fade would read as lag rather than as feedback. */
+  transition: background-color 0.15s ease-in-out;
+
+  /* CLOSED book - the resting state, where the list view shows titles only and
+     the text of each post is still shut away. Declared here so the glyph is
+     defined once and .active only has to name the other one. */
+  --toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 19.5A2.5 2.5 0 0 1 6.5 17H20'/%3E%3Cpath d='M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z'/%3E%3C/svg%3E");
+}
+
+/* OPEN book - .active is set by js/functions.js at the same moment it adds
+   .show-post-content to <body>, so the artwork tracks the mode the reader is
+   actually in and cannot drift away from it. */
+.post-content-toggle.active {
+  --toggle-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'/%3E%3Cpath d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'/%3E%3C/svg%3E");
+}
+
+/* Two distinct hover behaviours, which is why this is no longer one shared rule.
+
+   .active is the button's ON state and stays exactly as bright as it was - the
+   open book on a light green block tells the reader which mode they are in, and
+   dimming it while they hover would make an active button look like it switched
+   itself off.
+
+   :hover and :focus are what actually move: they darken. The old rule pointed
+   every one of the three at --linkhover, which is a LIGHTER green than the
+   resting --toggle-color, so hovering did nothing visible on the active button -
+   the colour it was already showing - and only read as feedback on the inactive
+   one.
+
+   The dark value is derived from --toggle-color rather than borrowed from
+   --linkhover, so it is a genuine darker sibling of the button in every scheme,
+   including dark mode where --linkhover is a near-fluorescent #0fa that would
+   glow rather than darken. Focus is kept in this group alongside hover so
+   keyboard users get the same affordance, as it already did. */
+.post-content-toggle.active {
+  background-color: var(--linkhover);
+}
+
+.post-content-toggle:hover,
+.post-content-toggle:focus {
+  background-color: var(--toggle-hover-active);
+}
+
+/* Hidden above the breakpoint. The list view only hides the post body at <=400px,
+   so at any wider width the text is already on screen and this button would be
+   claiming a control over something it cannot change. Hiding it here rather than
+   in a media query means there is exactly ONE place that decides when the
+   button exists.
+
+   401px, not 400px, because the rule it pairs with is "width <=400px" - a
+   400px-wide phone is the first width at which the content is actually hidden,
+   and that is where the button has to appear. */
+@media screen and (width > 400px) {
+  .post-content-toggle {
+    display: none;
+  }
+}
+
+.post-content-toggle:focus-visible {
+  outline: 2px solid var(--text-white);
+  outline-offset: -4px;
+}
+
+/* The glyphs are drawn inline instead of pulled from the bundled Genericons
+   webfont: that font ships exactly one book (a closed one), so pairing it with
+   an open book drawn by hand would leave two icons of visibly different weight
+   and detail. Two SVGs off the same 24px grid always match.
+
+   They are applied as CSS masks rather than as fills so the artwork inherits
+   currentColor - the button already sets --text-white, and :hover / :focus /
+   .active only change the background, so the icons need no second set of
+   colour rules to stay visible.
+
+   One custom property holds whichever glyph the current state calls for, and
+   the single ::before rule consumes it, so "which icon" and "how the icon is
+   drawn" are each defined exactly once. */
+.post-content-toggle::before {
+  -webkit-mask: var(--toggle-icon) center / contain no-repeat;
+  mask: var(--toggle-icon) center / contain no-repeat;
+  background-color: currentColor;
+  content: "";
+  display: block;
+  height: var(--toggle-icon-size);
+  width: var(--toggle-icon-size);
+}
+
+/* The icon is decorative: the accessible name lives in the button's own text,
+   which is visually hidden. Without this the glyph would be announced as an
+   unpronounceable private-use character. */
+.post-content-toggle .screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
 .search-box-wrapper {
  box-sizing: border-box;
@@ -2277,6 +2428,43 @@ a.post-thumbnail:hover { background-color: #999; }
    border-bottom: 0;
   }
  .list-view .site-content :is(.cat-links, .type-post .entry-content, .type-page .entry-content, .type-post .entry-summary, .type-page .entry-summary, footer.entry-meta) { display: none; }
+  /* The rule above is what removes the words of the post on a small screen. The
+     toggle button in the masthead sets .show-post-content on <body>, and this is
+     what puts them back.
+
+     It must be a MORE SPECIFIC selector than the rule it defeats, not merely a
+     later one: the rule above carries .list-view .site-content plus a compound
+     :is() selector, which is a lot of specificity to out-rank. Scoping the
+     override under body.show-post-content adds a class on top of all of it.
+
+     The two body classes are COMPOUND (.show-post-content.list-view), never
+     separated by a space. WordPress puts .list-view on <body> itself, so
+     "body.show-post-content .list-view" asks for a .list-view DESCENDANT of
+     the body - and there is none, so the whole rule matched nothing and the
+     toggle did nothing. A descendant combinator there is the whole bug; the
+     compound form also keeps the selector valid in the non-list-view case,
+     where the body simply lacks .list-view and nothing is revealed.
+
+     It is deliberately scoped to .list-view, because that is the ONLY context
+     where the content was hidden. Nothing here can reveal an excerpt on a single
+     post page, where the body was never hidden in the first place.
+
+     Only .entry-content and .entry-summary are restored. .cat-links and
+     footer.entry-meta stay hidden on purpose: those are navigation chrome, not
+     the post itself, and a phone screen does not need them back. */
+  body.show-post-content.list-view .site-content :is(.type-post .entry-content, .type-page .entry-content, .type-post .entry-summary, .type-page .entry-summary) { display: block; }
+ /* Breathing room above the text that was just revealed.
+    On a wide screen .hentry is a flex column, so the header and the body are
+    two flex items and never touch; the gap between them is whatever the flex
+    line spacing leaves. At <=400px .hentry falls back to display:block, the
+    two become ordinary siblings, and nothing is left between them - the first
+    paragraph or video butts straight against the meta row.
+
+    Only when the content is actually shown: while it is display:none this
+    margin has no box to sit in, so scoping it to the same state as the reveal
+    keeps the two behaviours described in one place, and means the spacing can
+    never disagree with whether there is text to space away from. */
+ body.show-post-content.list-view .site-content :is(.type-post .entry-content, .type-page .entry-content, .type-post .entry-summary, .type-page .entry-summary) { margin-top: var(--space-base); }
  .list-view .site-content .entry-title {
   clear: none;
   font-size: 15px;
@@ -3809,10 +3997,53 @@ html.js img:not(.spinner):not(.is-loaded) {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .post-content-toggle {
+    transition: none;
+  }
+}
+
 /* ==========================================================================
    End of film gallery
    ========================================================================== */
 
+
+
+
+.site-main {margin-bottom: 50px}
+
+/* ==========================================================================
+   HEADER ADJUSTS
+   ========================================================================== */
+
+@media screen and (width >= 583px) {
+  .widget-area.content-sidebar,
+  #main > #primary, #main > #main-content > #primary {
+    padding-top: 20px !important;
+  }
+}
+
+@media screen and (width >= 583px) {
+
+/* single posts and bigger resolutions*/
+body.single-post #main > #primary,
+body.single-post #main > #main-content > #primary {
+    padding-top: 20px !important;
+}
+    
+    
+#main > #primary:has(#content > .month-header),
+#main > #main-content > #primary:has(#content > .month-header) {
+    padding-top: 10px !important;
+}
+}
+
+@media screen and (width <= 583px) {
+#main > #primary:has(#content > .month-header),
+#main > #main-content > #primary:has(#content > .month-header) {
+    padding-top: 10px !important;
+}
+}
 
 /* === Inlined from genericons/genericons.css === */
 @font-face {
