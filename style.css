@@ -1132,7 +1132,6 @@ a.post-thumbnail:hover { background-color: #999; }
 :is(.single, .group-blog) .byline { display: inline; }
 
 .site-content .entry-meta {
- background-color: var(--bg);
  margin-bottom: 8px;
 }
 
@@ -2352,7 +2351,10 @@ a.post-thumbnail:hover { background-color: #999; }
      shrinks its inline box; the line box is sized by the containing block's
      strut and stays at the inherited --lh-body (18px), which is why a wrapped
      entry kept the full gap even with the link set to 1.15. */
-  #secondary nav li,
+  /* `#secondary li` (not `nav li`): widgets that output a bare <ul> - such as
+     the alphabetical pages list - are not wrapped in a <nav> and must share
+     the same compact row rhythm as the nav-wrapped widget lists. */
+  #secondary li,
   #secondary .textwidget > p {
     line-height: var(--lh-compact-link);
   }
@@ -2390,7 +2392,7 @@ a.post-thumbnail:hover { background-color: #999; }
   /* Same block-level line-height as the >=400px block: on the li / the p, not
      on the inline link, so a wrapped entry is spaced identically at every
      width. */
-  #secondary nav li,
+  #secondary li,
   #secondary .textwidget > p {
     line-height: var(--lh-compact-link);
   }
@@ -4516,3 +4518,111 @@ html :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
 .related-post-thumb-link{display:block;margin:0;line-height:0;text-decoration:none}
 .related-post-thumb-link:hover .related-post-thumb,.related-post-thumb-link:active .related-post-thumb{opacity:0.85}
 @media (prefers-reduced-motion: no-preference){.related-post-thumb{transition:opacity 0.15s ease-in-out}}
+
+/* Sidebar Swap (static bundle) */
+/*
+ * Sidebar Swap
+ * ------------
+ * Trades the positions of the two sidebar columns. Loaded by sidebar-swap.php,
+ * which adds .sidebar-swap to the body only when the content sidebar is
+ * actually being rendered.
+ *
+ * The desktop layout is a CSS grid with three tracks declared in DOM order:
+ *
+ *     grid-template-columns: <main sidebar> <content> <content sidebar>
+ *                              #secondary       #primary  #content-sidebar
+ *
+ * so the swap is a reversal of the track list plus a re-pointing of the two
+ * sidebar items. The theme's own selector forms are mirrored verbatim - both
+ * "#main > X" and the nested "#main > #main-content > X" - because the theme
+ * guards both and which one applies depends on the template.
+ *
+ * THE PART THAT ACTUALLY MATTERS: #secondary is position:absolute
+ * -----------------------------------------------------------------
+ * The theme does NOT lay #secondary out as a grid item. In its >=1008px block
+ * it sets #secondary { position: absolute; top: 0; left: 0; width:
+ * var(--desktop-sidebar); min-height: 100vh }, and separately (as a vestige
+ * of the grid work) sets grid-column: 1 on it. An absolutely positioned
+ * element is not a grid item, so grid-column is inert on it: the sidebar lands
+ * on the left because of left:0, not because of grid-column.
+ *
+ * That is why a swap expressed purely as "reverse the tracks + move
+ * grid-column" does nothing visible. Reversing the track list only reflows the
+ * columns that ARE items (#primary and #content-sidebar); #secondary ignores
+ * all of it. So `position: static` is the load-bearing declaration here - it is
+ * what puts #secondary back into the grid, after which grid-column: 3 decides
+ * which track it lands in. Without it the rest of this file is inert.
+ *
+ * The WIDTHS travel with their columns: #secondary is --desktop-sidebar
+ * (182px) and #content-sidebar is --desktop-content-sidebar (280px).
+ * Reversing the track order without exchanging the sizes would resize both
+ * sidebars, which is the one way to get this subtly wrong.
+ *
+ * Only the track assignment, each item's grid-column and #secondary's own
+ * positioning are touched. Padding, colours, widgets, typography and the
+ * content column itself are all inherited unchanged from the theme, which is
+ * why nothing else is repeated here.
+ *
+ * The :has() guards are belt-and-braces. The PHP already declines to swap when
+ * the content sidebar is absent (the theme flags those screens with the
+ * "full-width" body class), so in practice the swap is skipped before CSS is
+ * reached; these keep the grid correct even if a template renders a third
+ * sidebar-less page the plugin does not know about, instead of moving
+ * #secondary into a track that has nothing in it.
+ *
+ * Scoped to >=1008px to match the grid layout it modifies. Below that the
+ * columns are stacked, so they have no left/right identity to trade.
+ */
+
+@media screen and (width >= 1008px) {
+  /* The track list, reversed. */
+  .sidebar-swap #main:has(#content-sidebar) {
+    grid-template-columns: var(--desktop-content-sidebar) minmax(0, 1fr) var(--desktop-sidebar);
+  }
+
+  /* The content sidebar (280px) takes the first track. */
+  .sidebar-swap #main:has(#content-sidebar) > #content-sidebar,
+  .sidebar-swap #main:has(#content-sidebar) > #main-content > #content-sidebar {
+    grid-column: 1;
+    grid-row: 1;
+    /* Travels with the column: the 280px track it now sits in. */
+    width: var(--desktop-content-sidebar);
+
+    /* NO `padding` RESET HERE - it is load-bearing that it stays absent.
+       The theme insets both rails with `padding-left/right: var(--space-md)`
+       (style.css, the >=1008px "sidebars share the same horizontal inset"
+       block), which is what holds the widgets 10px off the rail's outer edge.
+       On the right that inset reads as margin against the page edge; on the
+       left, after the swap, it is the ONLY thing keeping the column off the
+       viewport edge. Resetting it here does not merely change spacing - it
+       welds the sidebar flush to x=0. */
+  }
+
+  /* The main sidebar (182px) takes the third. */
+  .sidebar-swap #main:has(#content-sidebar) > #secondary,
+  .sidebar-swap #main:has(#content-sidebar) > #main-content > #secondary {
+    /* Rejoin the grid. Everything below depends on this - see the header. */
+    position: static;
+    top: auto;
+    left: auto;
+
+    grid-column: 3;
+    grid-row: 1;
+
+    /* It carried min-height:100vh as the full-height left rail. As a top
+       aligned right sidebar that paints a 100vh strip beside short pages, so
+       it is dropped in favour of the behaviour the right sidebar already had. */
+    min-height: 0;
+
+    /* Travels with the column: the 182px track it now sits in. */
+    width: var(--desktop-sidebar);
+  }
+
+  /* The theme pins the left rail's background to a fixed 182px-wide strip on
+     the left of .site. With the sidebar on the right that strip is now empty
+     space, so it is retired here; .site keeps position:relative for the
+     footer, which does not depend on it. */
+  .sidebar-swap .site::before {
+    width: 0;
+  }
+}

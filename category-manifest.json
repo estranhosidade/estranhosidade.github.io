@@ -123,6 +123,7 @@
         },
         "filosofia": {
             "files": [
+                "data-category-filosofia-06.json",
                 "data-category-filosofia-05.json",
                 "data-category-filosofia-04.json",
                 "data-category-filosofia-03.json",
@@ -191,6 +192,8 @@
         },
         "textos": {
             "files": [
+                "data-category-textos-07.json",
+                "data-category-textos-06.json",
                 "data-category-textos-05.json",
                 "data-category-textos-04.json",
                 "data-category-textos-03.json",
