@@ -5,6 +5,42 @@
     "label": "outubro 2026",
     "posts": [
         {
+            "id": 41500,
+            "title": "Diário: 13/10/2026",
+            "slug": "diario-13-10-2026",
+            "date": "2026-10-13T18:01:51-03:00",
+            "dateYmd": "2026-10-13",
+            "dateDisplay": "13/10/2026",
+            "url": "reader.html#2026-10-13-diario-13-10-2026.html",
+            "file": "2026-10-13-diario-13-10-2026.html",
+            "summary": "[¹] [²] [³]",
+            "html": "<article id=\"post-41500\" class=\"post type-post format-aside hentry\"><header class=\"entry-header\"><div class=\"entry-meta\"><span class=\"cat-links\"><a href=\"categories.html#diario\" rel=\"category\">Diário</a></span></div><h1 class=\"entry-title\"><a href=\"reader.html#2026-10-13-diario-13-10-2026.html\" rel=\"bookmark\">Diário: 13/10/2026</a></h1><div class=\"entry-meta\"><span class=\"post-format\"><a class=\"entry-format\" href=\"type.html#aside\">Nota</a></span> <span class=\"entry-date\"><a href=\"reader.html#2026-10-13-diario-13-10-2026.html\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2026-10-13T18:01:51-03:00\">13/10/2026</time></a></span> <span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"/\" rel=\"author\">estranhosidade</a></span></span> <span class=\"comments-link\"><a href=\"reader.html#2026-10-13-diario-13-10-2026.html#respond\">Deixe um comentário</a></span></div><div class=\"entry-meta tag-links-top\"><span class=\"tag-links\"><a href=\"tag.html#ai\" rel=\"tag\">AI</a> <a href=\"tag.html#programming\" rel=\"tag\">Programming</a> <a href=\"tag.html#reverse-enginier\" rel=\"tag\">Reverse enginier</a> </span><span class=\"tag-ellipsis\" style=\"display: none;\">...</span></div></header><!-- .entry-header --><div class=\"entry-content\"><p style=\"text-align: center;\"><a href=\"https://archive.org/download/blogfilesx/IMG-13-10-2026=1791910537.jpg\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-13-10-2026=1791910537-thumbview.png\" /></a> <a href=\"https://web.archive.org/web/20261013154052/https://uploadtemporaryfiles.neocities.org/twitter-jshchnz-2109344813451776281\">[¹]</a> <a href=\"https://archive.ph/2026.10.13-154049/https://uploadtemporaryfiles.neocities.org/twitter-jshchnz-2109344813451776281\">[²]</a> <a href=\"https://x.com/jshchnz/status/2109344813451776281\">[³]</a></p>\n</div></article>",
+            "tags": [
+                {
+                    "name": "AI",
+                    "slug": "ai"
+                },
+                {
+                    "name": "Programming",
+                    "slug": "programming"
+                },
+                {
+                    "name": "Reverse enginier",
+                    "slug": "reverse-enginier"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "author": "estranhosidade",
+            "format": "aside",
+            "formatLabel": "Nota",
+            "full": "<p style=\"text-align: center;\"><a href=\"https://archive.org/download/blogfilesx/IMG-13-10-2026=1791910537.jpg\"><img decoding=\"async\" src=\"https://archive.org/download/blogfilesx/IMG-13-10-2026=1791910537-thumbview.png\" /></a> <a href=\"https://web.archive.org/web/20261013154052/https://uploadtemporaryfiles.neocities.org/twitter-jshchnz-2109344813451776281\">[¹]</a> <a href=\"https://archive.ph/2026.10.13-154049/https://uploadtemporaryfiles.neocities.org/twitter-jshchnz-2109344813451776281\">[²]</a> <a href=\"https://x.com/jshchnz/status/2109344813451776281\">[³]</a></p>\n"
+        },
+        {
             "id": 41468,
             "title": "Diário: 10/10/2026",
             "slug": "diario-10-10-2026",

@@ -1,6 +1,40 @@
 {
-    "generatedAt": "2026-10-12T23:49:24+00:00",
+    "generatedAt": "2026-10-13T21:35:35+00:00",
     "posts": [
+        {
+            "id": 41500,
+            "title": "Diário: 13/10/2026",
+            "slug": "diario-13-10-2026",
+            "author": "estranhosidade",
+            "date": "2026-10-13",
+            "url": "reader.html#2026-10-13-diario-13-10-2026.html",
+            "summary": "[¹] [²] [³]",
+            "text": "[¹] [²] [³]",
+            "tags": [
+                {
+                    "name": "AI",
+                    "slug": "ai"
+                },
+                {
+                    "name": "Programming",
+                    "slug": "programming"
+                },
+                {
+                    "name": "Reverse enginier",
+                    "slug": "reverse-enginier"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "thumb": {
+                "primary": "https://archive.org/download/blogfilesx/IMG-13-10-2026=1791910537-thumbview_thumb.jpg",
+                "fallback": "https://archive.org/download/blogfilesx/IMG-13-10-2026=1791910537-thumbview.png"
+            }
+        },
         {
             "id": 41468,
             "title": "Diário: 10/10/2026",
@@ -39053,11 +39087,7 @@
                     "name": "Textos",
                     "slug": "textos"
                 }
-            ],
-            "thumb": {
-                "primary": "https://i.vimeocdn.com/video/459696443-90b16a18e581ca7ce0843b70eb7d7383cc5544e68a8490332da93b22b0d559ee-d_295x166?region=us",
-                "fallback": "https://i.vimeocdn.com/video/459696443-90b16a18e581ca7ce0843b70eb7d7383cc5544e68a8490332da93b22b0d559ee-d_1280?region=us"
-            }
+            ]
         },
         {
             "id": 24759,
@@ -44811,11 +44841,7 @@
                     "name": "Textos",
                     "slug": "textos"
                 }
-            ],
-            "thumb": {
-                "primary": "https://i.vimeocdn.com/video/555306477-a568c6acf658f1dc4186aa13159482afa8b8f9a9bfd510633ddee169f4192d14-d_295x166?region=us",
-                "fallback": "https://i.vimeocdn.com/video/555306477-a568c6acf658f1dc4186aa13159482afa8b8f9a9bfd510633ddee169f4192d14-d_1280?region=us"
-            }
+            ]
         },
         {
             "id": 23152,
@@ -49077,11 +49103,7 @@
                     "name": "Vídeos",
                     "slug": "videos"
                 }
-            ],
-            "thumb": {
-                "primary": "https://i.vimeocdn.com/video/662665739-7c9537ba81b40dc9512ccd027f734602fd62522f17f9d29cfa0ee77f0c40ba9a-d_640?region=us",
-                "fallback": "https://i.vimeocdn.com/video/662665739-7c9537ba81b40dc9512ccd027f734602fd62522f17f9d29cfa0ee77f0c40ba9a-d_1280?region=us"
-            }
+            ]
         },
         {
             "id": 21326,
@@ -67266,11 +67288,7 @@
                     "name": "Textos",
                     "slug": "textos"
                 }
-            ],
-            "thumb": {
-                "primary": "https://i.vimeocdn.com/video/459696443-90b16a18e581ca7ce0843b70eb7d7383cc5544e68a8490332da93b22b0d559ee-d_295x166?region=us",
-                "fallback": "https://i.vimeocdn.com/video/459696443-90b16a18e581ca7ce0843b70eb7d7383cc5544e68a8490332da93b22b0d559ee-d_1280?region=us"
-            }
+            ]
         },
         {
             "id": 9924,
@@ -67588,11 +67606,7 @@
                     "name": "Textos",
                     "slug": "textos"
                 }
-            ],
-            "thumb": {
-                "primary": "https://i.vimeocdn.com/video/410143414-dda3919c6ae328cd19047944e672c578837659b974536bdb6e1ca9b51b965f75-d_295x166?region=us",
-                "fallback": "https://i.vimeocdn.com/video/410143414-dda3919c6ae328cd19047944e672c578837659b974536bdb6e1ca9b51b965f75-d_1280?region=us"
-            }
+            ]
         },
         {
             "id": 9732,
@@ -86918,11 +86932,7 @@
                     "name": "Filosofia",
                     "slug": "filosofia"
                 }
-            ],
-            "thumb": {
-                "primary": "https://i.vimeocdn.com/video/459696443-90b16a18e581ca7ce0843b70eb7d7383cc5544e68a8490332da93b22b0d559ee-d_295x166?region=us",
-                "fallback": "https://i.vimeocdn.com/video/459696443-90b16a18e581ca7ce0843b70eb7d7383cc5544e68a8490332da93b22b0d559ee-d_1280?region=us"
-            }
+            ]
         },
         {
             "id": 5687,

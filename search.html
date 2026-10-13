@@ -208,17 +208,48 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   min-height: 100%;
-  background-color: var(--bg-color-search);
-  background-repeat: repeat;
   color: var(--text-color-search);
   font: 12px/1.28 Arial, Helvetica, sans-serif;
 }
+/* Canvas underlay (propagated to the full canvas, painted below everything).
+   It matches the bg tile's base colour, so while the background layer is
+   decoded/rasterized there is nothing bright to flash. */
+html {
+  background-color: #000;
+}
+/* Fixed, non-scrolling background layer. Because it never moves while the page
+   scrolls (Up/Down/Home/End), the browser never re-rasterizes it, so the
+   repeating bg image can no longer flash. It also only spans the viewport
+   instead of the whole (potentially huge) document, saving raster memory.
+   z-index:-1 keeps it behind all content; the canvas underlay above sits
+   beneath it in the same colour, so even a worst-case repaint is invisible. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: #000;
+  background-repeat: repeat;
+  background-size: auto;
+  background-image: var(--dark-bg-image, none);
+}
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: var(--bg-color-search, #fff) !important;
+  }
+  body::before {
+    background-color: var(--bg-color-search, #fff);
+    background-image: var(--light-bg-image, none);
+  }
+}
 @media (prefers-color-scheme: dark) {
-  html,
-  body {
-    background-image: var(--dark-bg-image, none) !important;
-    background-repeat: repeat !important;
-    background-size: auto;
+  html {
+    background-color: var(--bg-color-search, #000) !important;
+  }
+  body::before {
+    background-color: var(--bg-color-search, #000);
+    background-image: var(--dark-bg-image, none);
   }
   .search-input,
   .sort-select,
@@ -438,39 +469,86 @@ label {
 }
 --wpx-thumb-placeholder: url("https://estranhosidade.local/wp-content/mu-plugins/wptr-icon-image.svg");
 --wpx-thumb-placeholder-quote: url("https://estranhosidade.local/wp-content/mu-plugins/wptr-icon-quote.svg");
-:root {
-  --wpx-thumb-w: 92px;
-  --wpx-thumb-gap: 14px;
-}
-/* Display:grid, not float - the title/URL/snippet are in .result-body and must
-   wrap cleanly beside the cell at any result width. */
+/* Thumbnail column. The renderer adds .result--thumb to EVERY result while the
+   feature is on - not just the ones with media - so the list keeps a single
+   left edge. Turning the setting off removes it and the plain block layout
+   returns. */
 .result--thumb {
-  display: grid;
-  grid-template-columns: var(--wpx-thumb-w) minmax(0, 1fr);
-  column-gap: var(--wpx-thumb-gap);
-  align-items: start;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
 }
 .result--thumb .result-body {
   min-width: 0;
+  flex: 1 1 auto;
 }
+/* Image cell (mirrors the live page's .result-thumb rules): 96px square with
+   the theme's media radius, starting at opacity 0 and fading in via .is-loaded
+   so the layout never jumps and nothing flashes at full size. */
 .result-thumb {
   display: block;
-  width: var(--wpx-thumb-w);
-  height: 72px;
+  flex: 0 0 auto;
+  width: 96px;
+  height: 96px;
+  border: 0;
+  border-radius: var(--media-radius, 10px);
   object-fit: cover;
-  border-radius: 3px;
-  background-color: rgba(127, 127, 127, 0.12);
-  background-size: cover;
-  background-position: center;
+  background: var(--input-bg-search);
+  opacity: 0;
+  transition: opacity 0.2s;
 }
-/* No media at all: the quotation glyph marks the result as text-only. */
+.result-thumb.is-loaded {
+  opacity: 1;
+}
+/* Download failed: an in-place span keeps the cell. The photo glyph shows the
+   result HAD media - the data IS in the resolver answer (the CDN merely 4xx'd
+   this time). Hiding it would misreport the post as having no media at all. */
+.result-thumb.is-failed {
+  position: relative;
+  display: inline-block;
+  background-color: var(--input-bg-search);
+  opacity: 1;
+}
+.result-thumb.is-failed::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  right: 22%;
+  bottom: 22%;
+  left: 22%;
+  background-color: var(--link-color-search);
+  -webkit-mask: var(--wpx-thumb-placeholder) center / contain no-repeat;
+  mask: var(--wpx-thumb-placeholder) center / contain no-repeat;
+}
+/* No media at all: the quotation glyph marks the result as text-only. The
+   in-place span keeps the flex CELL, so the body text starts at the same
+   horizontal position whether the result has media, a failed download, or
+   none at all - the list keeps one clean left edge either way. */
 .result-thumb.is-none {
-  background-image: var(--wpx-thumb-placeholder-quote);
-  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  padding: 0;
+  opacity: 1;
 }
-@media (prefers-reduced-motion: no-preference) {
+.result-thumb.is-none::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  right: 22%;
+  bottom: 22%;
+  left: 22%;
+  background-color: var(--link-color-search);
+  -webkit-mask: var(--wpx-thumb-placeholder-quote) center / contain no-repeat;
+  mask: var(--wpx-thumb-placeholder-quote) center / contain no-repeat;
+}
+@media (max-width: 700px) {
+  .result--thumb {
+    gap: 10px;
+  }
   .result-thumb {
-    transition: opacity 0.15s ease-in-out;
+    width: 72px;
+    height: 72px;
   }
 }</style>
 </head>
@@ -486,9 +564,11 @@ label {
 <input id="q" class="search-input" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="">
 </form>
 <select id="sort-select" class="sort-select" aria-label="Ordenar">
-<option value="newest" id="opt-newest">Mais recentes</option>
-<option value="oldest" id="opt-oldest">Mais antigos</option>
-<option value="relevance" id="opt-relevance">Relevância</option>
+<option value="relevance" id="opt-relevance" selected>Melhores resultados</option>
+<option value="newest" id="opt-newest">Mais Recentes</option>
+<option value="oldest" id="opt-oldest">Mais Antigos</option>
+<option value="az" id="opt-az">Ordem Alfabética A à Z</option>
+<option value="za" id="opt-za">Ordem Alfabética Z à A</option>
 </select>
 </section>
 <div id="feedback"></div>
@@ -498,7 +578,7 @@ label {
 <section id="results" class="results"></section>
 <div id="pager" class="pager state-hidden"></div>
 </main>
-<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"baseUrl":"https://estranhosidade.github.io/","i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais recentes","oldest":"Mais antigos","relevance":"Relevância","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]},"thumbs":true,"thumbPlaceholder":"https://estranhosidade.local/wp-content/mu-plugins/wptr-icon-image.svg","thumbPlaceholderQuote":"https://estranhosidade.local/wp-content/mu-plugins/wptr-icon-quote.svg"};(function(){
+<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"baseUrl":"https://estranhosidade.github.io/","i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais Recentes","oldest":"Mais Antigos","relevance":"Melhores resultados","az":"Ordem Alfabética A à Z","za":"Ordem Alfabética Z à A","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]},"thumbs":true};(function(){
 "use strict";
 var cfg      = WPX_SEARCH;
 var i18n     = cfg.i18n || {};
@@ -521,14 +601,22 @@ if (goBackText && i18n.go_back) goBackText.textContent = i18n.go_back;
 var optNew = document.getElementById('opt-newest');
 var optOld = document.getElementById('opt-oldest');
 var optRel = document.getElementById('opt-relevance');
+var optAz  = document.getElementById('opt-az');
+var optZa  = document.getElementById('opt-za');
 if (optNew && i18n.newest) optNew.textContent = i18n.newest;
 if (optOld && i18n.oldest) optOld.textContent = i18n.oldest;
 if (optRel && i18n.relevance) optRel.textContent = i18n.relevance;
+if (optAz && i18n.az) optAz.textContent = i18n.az;
+if (optZa && i18n.za) optZa.textContent = i18n.za;
 
 var indexPromise = null;
 var currentQuery = '';
 var timer        = null;
 var state        = { q: '', rows: [], parsed: null };
+/* Expose the search internals so tests (and the DeepSearch overlay parent
+   frame, when this page is embedded) can drive them directly. Harmless in
+   normal use. */
+window.WPX2_SEARCH_INTERNAL = { parseQuery: parseQuery, runSearch: runSearch, normalizeMatchText: normalizeMatchText, titleMatchTier: titleMatchTier, bodyCoverageOf: bodyCoverageOf, queryMatchTerms: queryMatchTerms };
 
 /* -- Index loading (fetched into memory — never offered as a file download) -- */
 function loadIndex(){
@@ -711,6 +799,119 @@ function scoreItem(row, p){
   return score;
 }
 
+/* -- Relevance ranking — port of the live server-side tiers (cbs_search_data) --
+   The live page orders "Melhores resultados" by, in order:
+     1. match tier: a full phrase in a substantial body (TIER_BODY_PHRASE)
+        outranks every title tier; within title tiers, exact > phrase >
+        all terms > some terms > none;
+     2. coverage: how many of the query's significant terms the post's
+        title + body contain;
+     3. date: newest first.
+   The static port cannot scan full bodies server-side, so it mirrors the
+   live body scan's cap: only queries with a multi-word phrase scan bodies,
+   and only while the match set is at most MATCH_BODY_CAP rows. */
+var MATCH_STOPWORDS = ['a','an','and','are','as','at','be','but','by','for','from','in','is','it','of','on','or','that','the','this','to','was','were','will','with'];
+var TIER_BODY_PHRASE = -1; /* full phrase in a substantial body - strongest */
+var TIER_EXACT = 1;       /* title *is* the query */
+var TIER_PHRASE = 2;      /* title contains the whole query phrase */
+var TIER_ALL_TERMS = 3;   /* title contains every significant word */
+var TIER_SOME_TERMS = 4;  /* title contains some of the words */
+var TIER_NONE = 5;        /* no title match (body-only hit) */
+var MATCH_BODY_CAP = 2000;
+
+function stripAccents(s){ return String(s).normalize ? String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '') : String(s); }
+function decodeMatchEntities(s){
+  s = String(s);
+  return s.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, function(m, body){
+    if (body.charAt(0) === '#') {
+      var code = (body.charAt(1) === 'x' || body.charAt(1) === 'X')
+        ? parseInt(body.slice(2), 16)
+        : parseInt(body.slice(1), 10);
+      if (!isFinite(code) || code <= 0 || code > 0x10ffff) return m;
+      try { return String.fromCodePoint(code); } catch (e) { return m; }
+    }
+    var named = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' }[body.toLowerCase()];
+    return named === undefined ? m : named;
+  });
+}
+function normalizeMatchText(text){
+  text = decodeMatchEntities(String(text == null ? '' : text)).replace(/<[^>]*>/g, ' ');
+  text = stripAccents(text).toLowerCase();
+  return text.replace(/[^\p{L}\p{N}]+/gu, ' ').replace(/\s+/g, ' ').trim();
+}
+/* Significant words of the query - port of cbs_query_match_terms(). */
+function queryMatchTerms(alternates){
+  var phrases = [], terms = [], seen = {};
+  (alternates || []).forEach(function(expr){
+    if (!expr) return;
+    var mm = String(expr).match(/"([^"]+)"/g) || [];
+    mm.forEach(function(q){
+      var phrase = normalizeMatchText(q.replace(/"/g, ''));
+      if (phrase && phrases.indexOf(phrase) === -1) phrases.push(phrase);
+    });
+    normalizeMatchText(expr).split(' ').forEach(function(word){
+      if (!word) return;
+      if (word.indexOf('"') !== -1) return;
+      if (MATCH_STOPWORDS.indexOf(word) !== -1) return;
+      if (!seen[word]) { seen[word] = 1; terms.push(word); }
+    });
+  });
+  return { phrases: phrases, terms: terms };
+}
+function phraseWordCount(phrases){
+  var best = 0;
+  (phrases || []).forEach(function(phrase){
+    var n = String(phrase).split(' ').filter(Boolean).length;
+    if (n > best) best = n;
+  });
+  return best;
+}
+/* Title tier - port of cbs_title_match_tier(). */
+function titleMatchTier(normTitle, phrases, terms){
+  normTitle = String(normTitle || '').trim();
+  if (!normTitle) return TIER_NONE;
+  var best = TIER_NONE;
+  var paddedTitle = ' ' + normTitle + ' ';
+  (phrases || []).forEach(function(phrase){
+    if (normTitle === phrase) { best = Math.min(best, TIER_EXACT); return; }
+    if (paddedTitle.indexOf(' ' + phrase + ' ') !== -1) best = Math.min(best, TIER_PHRASE);
+  });
+  if (best !== TIER_NONE && best !== TIER_SOME_TERMS) return best;
+  /* cbs_title_match_tier() only considers significant terms. */
+  var significant = (terms || []).filter(function(t){ return t.length > 1 || /\p{N}/u.test(t); });
+  if (!significant.length) return best;
+  var matched = 0;
+  significant.forEach(function(t){ if (paddedTitle.indexOf(' ' + t + ' ') !== -1) matched++; });
+  if (matched === significant.length) return Math.min(best, TIER_ALL_TERMS);
+  if (matched > 0) return Math.min(best, TIER_SOME_TERMS);
+  return best;
+}
+/* Full phrase inside a substantial body - port of cbs_body_phrase_tier(). */
+function bodyPhraseTier(normBody, phrases){
+  var longest = '';
+  (phrases || []).forEach(function(phrase){ if (phrase.length > longest.length) longest = phrase; });
+  if (longest.length < 5) return false;
+  var words = String(longest).split(' ').filter(Boolean).length;
+  if (words < 2) return false;
+  /* cbs_body_phrase_min_ratio(): a phrase this short must fill a meaningful
+     share of the body - the same 4.0 ratio the live page applies. */
+  var minLen = Math.floor(normBody.length / 4.0);
+  if (minLen < 150) minLen = 150;
+  if (longest.length < minLen) return false;
+  return (' ' + normBody + ' ').indexOf(' ' + longest + ' ') !== -1;
+}
+/* Coverage - port of cbs_body_coverage_map(): fraction of significant terms
+   found in the post's title + full body. */
+function bodyCoverageOf(row, terms){
+  var significant = (terms || []).filter(function(t){ return t.length > 1 || /\p{N}/u.test(t); });
+  if (!significant.length) return 0;
+  var haystack = normalizeMatchText((row.item.title || '') + ' ' + (row.item.text || row.item.summary || ''));
+  if (!haystack) return 0;
+  var padded = ' ' + haystack + ' ';
+  var hit = 0;
+  significant.forEach(function(t){ if (padded.indexOf(' ' + t + ' ') !== -1) hit++; });
+  return hit / significant.length;
+}
 function runSearch(items, rawQuery, sort){
   var p = parseQuery(rawQuery);
   if (p.text === '' && !p.author && !p.after && !p.before && !p.id && !p.related) {
@@ -729,19 +930,59 @@ function runSearch(items, rawQuery, sort){
         if (expressionMatches(row, exprs[j])) { ok = true; break; }
       }
     }
-    if (ok) {
-      row.score = scoreItem(row, p);
-      rows.push(row);
-    }
+    if (ok) rows.push(row);
   }
+  if (sort === 'az' || sort === 'za') {
+    /* Alphabetical - port of cbs_title_sort_key() + the live date tiebreak.
+       (cbs_tiebreak_date() prefers the published date, then the ID; the static
+       index has no separate post_id on the row, so the slug stands in.) */
+    rows.forEach(function(row){ row.sortKey = normalizeMatchText(row.item.title); });
+    rows.sort(function(a, b){
+      if (a.sortKey !== b.sortKey) {
+        return (sort === 'za') ? (a.sortKey < b.sortKey ? 1 : -1)
+                               : (a.sortKey < b.sortKey ? -1 : 1);
+      }
+      var byDate = a.date < b.date ? -1 : (a.date > b.date ? 1 : 0);
+      if (byDate !== 0) return -byDate;
+      return a.slug < b.slug ? -1 : (a.slug > b.slug ? 1 : 0);
+    });
+    return { parsed: p, rows: rows };
+  }
+  if (sort === 'relevance') {
+    /* Tier ranking - port of the live server-side sort (see block comment). */
+    var match = queryMatchTerms(p.alternates);
+    var scanBodies = match.phrases.length > 0 && phraseWordCount(match.phrases) >= 2
+                     && rows.length <= MATCH_BODY_CAP;
+    var bodyNormCache = [];
+    var cacheBody = function(idx){
+      if (bodyNormCache[idx] === undefined) {
+        bodyNormCache[idx] = scanBodies
+          ? normalizeMatchText((rows[idx].item.text || rows[idx].item.summary || ''))
+          : '';
+      }
+      return bodyNormCache[idx];
+    };
+    rows.forEach(function(row, idx){
+      var tier = TIER_NONE;
+      if (scanBodies && bodyPhraseTier(cacheBody(idx), match.phrases)) {
+        tier = TIER_BODY_PHRASE;
+      }
+      if (tier !== TIER_BODY_PHRASE) {
+        tier = titleMatchTier(normalizeMatchText(row.item.title), match.phrases, match.terms);
+      }
+      row.tier = tier;
+      row.coverage = bodyCoverageOf(row, match.terms);
+    });
+    rows.sort(function(a, b){
+      if (a.tier !== b.tier) return a.tier - b.tier;
+      if (a.coverage !== b.coverage) return b.coverage - a.coverage;
+      return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0);
+    });
+    return { parsed: p, rows: rows };
+  }
+  /* 'newest' (and any unknown value default). */
   rows.sort(function(a, b){
-    var byDate = a.date < b.date ? -1 : (a.date > b.date ? 1 : 0);
-    if (sort === 'oldest') return byDate;
-    if (sort === 'relevance') {
-      if (b.score !== a.score) return b.score - a.score;
-      return -byDate; /* ties: newest first */
-    }
-    return -byDate; /* 'newest' (and any unknown value default) */
+    return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0);
   });
   return { parsed: p, rows: rows };
 }
@@ -968,15 +1209,22 @@ function renderResult(row, q, parsed){
   var cats = (item.cats || []).map(termName).filter(Boolean);
 
   /* Thumbnail column. The cell is reserved for EVERY result while the feature
-     is on, so the rows stay aligned whether or not a post has media. */
+     is on, so the rows stay aligned whether or not a post has media. The pair
+     comes from wptr_resolve() (the WP Thumbnail Resolver mu-plugin) at export
+     time - primary plus the one-shot fallback - exactly like the live page's
+     cbs_thumb_cell(). A non-image primary (a resolver answer the image test
+     rejects) becomes .is-none, same gate the live page applies. */
   var THUMBS = !!cfg.thumbs;
-  var useThumb = THUMBS && !!(item.thumb && item.thumb.primary);
+  var pair = (item && item.thumb) || null;
+  var primary = pair && typeof pair === 'object' ? String(pair.primary || '') : '';
+  var fallback = pair && typeof pair === 'object' ? String(pair.fallback || '') : '';
+  var useThumb = THUMBS && !!primary;
   var thumb = THUMBS
     ? (useThumb
       ? '<img class="result-thumb" alt="" decoding="async" fetchpriority="low"'
-        + ' src="' + esc(cfg.thumbPlaceholder || '') + '"'
-        + ' data-src="' + esc(item.thumb.primary) + '"'
-        + ' data-fallback="' + esc(item.thumb.fallback || item.thumb.primary) + '">'
+        + ' src="' + esc(primary) + '"'
+        + (fallback && fallback !== primary ? ' data-fallback="' + esc(fallback) + '"' : '')
+        + ' data-src="' + esc(primary) + '">'
       : '<span class="result-thumb is-none" aria-hidden="true"></span>')
     : '';
 
@@ -1001,26 +1249,37 @@ function renderResult(row, q, parsed){
   return buf;
 }
 
-/* Swap the placeholder in every freshly rendered thumbnail for its real URL.
+/* Bind the real resolver URL into every freshly rendered thumbnail.
 
-   The browser is the only thing that can answer "does this _thumb derivative
-   actually exist?" - archive.org generates it for some items and not others,
-   and the URL itself cannot tell you which. The <img> therefore starts on the
-   placeholder and the real URL is assigned here, with the post's own image as
-   a one-shot fallback when the derivative 404s. */
+   The browser is the only thing that can answer "does this derivative actually
+   exist?" - archive.org generates it for some items and not others, and the
+   URL itself cannot tell you which. The <img> therefore carries the resolver's
+   primary URL directly (with data-src mirroring it, same attribute the live
+   page uses) and the post's own image rides along in data-fallback for a
+   one-shot retry when the derivative 404s. Once both answers fail the <img>
+   becomes an in-place .is-failed span: the CELL survives (the body text keeps
+   its horizontal position) and the photo glyph still marks the post as HAVING
+   media - only the download is missing, not the picture. */
 function loadThumbs(root){
   if (!cfg.thumbs || !root) return;
-  var imgs = root.querySelectorAll('img.result-thumb[data-src]');
+  var imgs = root.querySelectorAll('img.result-thumb[data-src]:not([data-bound])');
   Array.prototype.forEach.call(imgs, function(img){
     var real = img.getAttribute('data-src');
-    if (!real || img.dataset.bound) return;
-    img.dataset.bound = '1';
+    if (!real) return;
+    img.setAttribute('data-bound', '1');
+    img.addEventListener('load', function(){ img.classList.add('is-loaded'); });
     img.addEventListener('error', function(){
       var fb = img.getAttribute('data-fallback');
       /* Only retry once, and never back onto the URL that just failed. */
-      if (fb && img.getAttribute('src') !== fb) img.setAttribute('src', fb);
+      if (fb && img.getAttribute('src') !== fb) { img.setAttribute('src', fb); return; }
+      var span = document.createElement('span');
+      span.className = 'result-thumb is-failed';
+      span.setAttribute('aria-hidden', 'true');
+      if (img.parentNode) img.parentNode.replaceChild(span, img);
     });
     img.src = real;
+    /* A cached image can finish before the listeners above attach. */
+    if (img.complete && img.naturalWidth > 0) img.classList.add('is-loaded');
   });
 }
 
@@ -1067,7 +1326,7 @@ function renderPager(page, pages){
 
 function search(q, page, push){
   currentQuery = String(q || '').trim();
-  var sort = sortEl ? sortEl.value : 'newest';
+  var sort = sortEl ? sortEl.value : 'relevance';
   clearTimeout(timer);
   if (!currentQuery) {
     history.replaceState(null, '', location.pathname);
@@ -1141,8 +1400,10 @@ if (typeof window !== 'undefined' && window.addEventListener) {
   var p = new URLSearchParams(location.search);
   var q = (p.get('q') || p.get('s') || '').trim();
   var page = Math.max(1, parseInt(p.get('page') || '1', 10) || 1);
-  var sp = p.get('sort') || 'newest';
-  if (sortEl && (sp === 'newest' || sp === 'oldest' || sp === 'relevance')) sortEl.value = sp;
+  /* Default sort - cbs_default_sort(): "relevance" (Melhores resultados),
+     so the static page opens with the same ordering as the live /search/. */
+  var sp = p.get('sort') || 'relevance';
+  if (sortEl && (sp === 'newest' || sp === 'oldest' || sp === 'relevance' || sp === 'az' || sp === 'za')) sortEl.value = sp;
   if (q) {
     input.value = q;
     search(q, page, false);

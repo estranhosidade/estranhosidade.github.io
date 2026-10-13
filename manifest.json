@@ -1,6 +1,6 @@
 {
-    "version": "2.12.1",
-    "generatedAt": "2026-10-12T23:49:24+00:00",
+    "version": "2.13.0",
+    "generatedAt": "2026-10-13T21:35:35+00:00",
     "chunkCount": 155,
     "chunks": [
         {
@@ -935,11 +935,12 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2630,
+    "totalPosts": 2631,
     "firstChunk": "data-mounth-2026-10_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-10-13-diario-13-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-10-diario-10-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-09-estados-unidos-terao-primeira-execucao-publica-em-90-anos.html": "data-mounth-2026-10_01.json",
         "2026-10-09-diario-09-10-2026.html": "data-mounth-2026-10_01.json",
