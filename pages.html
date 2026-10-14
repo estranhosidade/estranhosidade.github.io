@@ -243,37 +243,60 @@
 			</nav></aside></div><!-- #primary-sidebar --></div><!-- #secondary --><script>var WPX_PAGES={"dataUrl":"pages-data.json","heading":"Páginas","siteTitle":"Estranhosidade","i18n":{"noResults":"Nenhum resultado encontrado.","error":"Não foi possível carregar a página."}};(function(){
 	var cfg     = WPX_PAGES;
 	var headEl  = document.getElementById('wpx-arc-heading');
+	var shortEl = document.getElementById('short_header');
 	var postsEl = document.getElementById('wpx-arc-posts');
 
 	function getHash(){ return decodeURIComponent(window.location.hash.replace(/^#/,'')); }
 	function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-	function crumb(item){
-		while(postsEl.firstChild) postsEl.removeChild(postsEl.firstChild);
-		var p=document.createElement('p');
-		var a=document.createElement('a');
-		a.href='pages.html';
-		a.textContent=cfg.heading;
-		p.appendChild(a);
-		p.appendChild(document.createTextNode(' \u203A '+item.title));
-		postsEl.appendChild(p);
+	// Re-arm the IMDb Film Gallery tooltip after a page is injected.
+	//
+	// gallery.js only exists on the live /filmes page, and it scans for
+	// .gallery_films__link tiles once, when it first loads. In this SPA the
+	// gallery is injected after load (from pages-data.json), so that initial
+	// scan finds nothing. Appending a fresh <script src="gallery.js"> re-runs
+	// the plugin's own init() against the just-injected tiles - the SPA
+	// equivalent of the live page enqueuing the script. A dynamically inserted
+	// script element always executes (served from cache, no re-download), and
+	// any bubble/live-region a previous render left in <body> is removed first
+	// so repeated visits never stack duplicate tooltips.
+	function armGallery(){
+		if(!postsEl.querySelector('.gallery_films__link')) return;
+		var oldTip=document.getElementById('imdb-gallery-tip');
+		if(oldTip&&oldTip.parentNode) oldTip.parentNode.removeChild(oldTip);
+		var oldLive=document.getElementById('imdb-live-region');
+		if(oldLive&&oldLive.parentNode) oldLive.parentNode.removeChild(oldLive);
+		var s=document.createElement('script');
+		s.src='gallery.js';
+		document.body.appendChild(s);
 	}
 
 	function renderArticle(item){
-		crumb(item);
 		var article=document.createElement('article');
 		article.className='page type-page hentry';
+		// Match the live single-page markup exactly: the title lives in an
+		// entry-header, with no breadcrumb and no archive-header above it.
+		var header=document.createElement('header');
+		header.className='entry-header';
 		var title=document.createElement('h1');
 		title.className='entry-title';
 		title.textContent=item.title;
-		article.appendChild(title);
+		header.appendChild(title);
+		article.appendChild(header);
 		var content=document.createElement('div');
 		content.className='entry-content';
 		content.innerHTML=item.content||'';
 		article.appendChild(content);
+		while(postsEl.firstChild) postsEl.removeChild(postsEl.firstChild);
 		postsEl.appendChild(article);
+		// An individual page is not an archive: hide the "Páginas" short_header
+		// so the view matches the live single-page layout.
+		if(shortEl) shortEl.style.display='none';
 		if(!item.title) document.title=cfg.siteTitle;
 		else document.title=item.title+' \u2013 '+cfg.siteTitle;
+		// The film gallery (/filmes) injects poster tiles here; re-arm its
+		// tooltip now that they are in the DOM (no-op on non-gallery pages).
+		armGallery();
 	}
 
 	// Alphabetical list of every exported page (native DOM: page titles and
@@ -298,6 +321,9 @@
 		});
 		while(postsEl.firstChild) postsEl.removeChild(postsEl.firstChild);
 		postsEl.appendChild(ul);
+		// The no-hash index IS the archive listing, so the "Páginas" short_header
+		// is shown again (it was hidden when an individual page was open).
+		if(shortEl) shortEl.style.display='';
 	}
 
 	var cache=null;

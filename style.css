@@ -4626,3 +4626,141 @@ html :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
     width: 0;
   }
 }
+
+/* IMDb Film Gallery tooltip (static bundle) */
+/*
+ * IMDb Film Gallery - tooltip.
+ *
+ * The bubble replaces the native title= tooltip, which is drawn by the
+ * browser and cannot be given a max-width, padding or a background - and the
+ * native one cannot be made narrow at all, which is the reason this file
+ * exists.
+ *
+ * Appearance follows the browser's own tooltip, because that is what a reader
+ * has already seen everywhere else on the web and expects here: a flat slab,
+ * a clearly visible border, small type, tight line spacing, a slight corner
+ * radius, and no drop shadow. The border and the radius are both load-bearing
+ * - drop either and it reads as an unstyled box. The shadow is not: a popover
+ * card would have one, and that is the look being avoided.
+ *
+ * In light ("white") mode the slab is white with a black border and black
+ * text, so the outline is what separates a white bubble from a white page -
+ * exactly the job the border does for the dark one. Dark mode keeps a
+ * near-black fill with a white hairline. Colours are exposed as tokens
+ * (--imdb-tip-*) so a site can override either scheme without touching the
+ * rest of the file.
+ */
+
+/* The gallery's grid and the column override live in the theme's style.css.
+   Only the tooltip needs to be here, because it only exists when this
+   plugin's JavaScript has run. */
+.imdb-gallery-tip {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+
+	box-sizing: border-box;
+	/* The measure a tooltip wants, not a hard line count. CSS wraps at word
+	   boundaries, so this adapts to the actual glyph widths, to the font size
+	   and to the viewport; a fixed number of inserted newlines cannot. */
+	max-width: min(320px, calc(100vw - 32px));
+	/* Prevents a short tooltip ("Drama") from stretching to the full cap. */
+	width: max-content;
+
+	/* Native tooltips sit tight against their text. */
+	margin: 0;
+	padding: 4px 6px;
+
+	/* White fill: this is the light-mode slab, and also the fallback for
+	   browsers without colour-scheme support - so light is the base rule and
+	   the dark media query below only overrides it. */
+	background: var(--imdb-tip-bg, #fff);
+	/* Black, and this matters: on a white page a white bubble is invisible
+	   without it, and a hairline would only suggest a box. The border is what
+	   makes a native tooltip read as a distinct object, so it has to be
+	   genuinely darker than the fill - hence solid black rather than a grey. */
+	border: 1px solid var(--imdb-tip-border, #000);
+	/* Black text: a light fill cannot carry the light text the dark slab used. */
+	color: var(--imdb-tip-text, #000);
+
+	/* Small but clearly rounded. Square corners read as an unstyled box; this
+	   stays far short of the pill shape a popover card would use. */
+	border-radius: 6px;
+	/* No drop shadow: the reference has none, and one would immediately make
+	   this look like a designed popover instead of a tooltip. */
+	box-shadow: none;
+
+	/* Sits in the same type as the page rather than at a fixed 13px, so it
+	   matches on the site whatever --text-size-base is set to. */
+	font-family: inherit;
+	font-size: 0.8125em;
+	font-weight: 400;
+	line-height: 1.35;
+
+	text-align: left;
+	white-space: pre-line;
+	overflow-wrap: break-word;
+	/* Avoids leaving a single orphaned word on the last line of the synopsis,
+	   which is what a narrow measure tends to produce. Unsupported browsers
+	   ignore it and still wrap normally. */
+	text-wrap: pretty;
+
+	/* Never intercept the pointer: the bubble often sits over the tile the
+	   user is moving toward, and swallowing hover would make it flicker. */
+	pointer-events: none;
+
+	/* Kept in the DOM and moved by script, so it must not be focusable or
+	   announced when it is merely present but empty. */
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 120ms ease-out;
+}
+
+.imdb-gallery-tip.is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* A native tooltip is one flat colour. The first line is the film title, so it
+   is only marked by a slightly heavier weight, and the genre line is only
+   dimmed - both subtle, because a strong title in a 13px slab stops reading as
+   a tooltip. */
+.imdb-gallery-tip__line:first-child {
+	display: block;
+	font-weight: 600;
+}
+
+/* The renderer separates title, synopsis and genres with blank lines. A full
+   empty line would be far too much at this padding, so each one collapses to
+   a small fixed gap - enough to tell the three parts apart at a glance, which
+   is all a native tooltip would have given you. */
+.imdb-gallery-tip__line:empty {
+	display: block;
+	height: 0.4em;
+}
+
+/* --- colour scheme ------------------------------------------------------- *
+ * The defaults above are light ("white") mode: white fill, black border, black
+ * text. Dark mode inverts the colours rather than the shape - a near-black fill
+ * lifted off the page slightly, because a near-black slab on a black page
+ * loses its edge, with a white hairline as the outline. The border stays
+ * clearly distinct from the fill in both modes: it is the element that gives
+ * the bubble an outline, and dimming it is what made the first attempt look
+ * borderless. Both schemes are exposed as tokens so a site can override
+ * either without touching the rest. */
+@media (prefers-color-scheme: dark) {
+	.imdb-gallery-tip {
+		--imdb-tip-bg: #1a1a1a;
+		/* Full white on dark, per the design: against a near-black bubble the
+		   white hairline is what separates it from a dark poster underneath. */
+		--imdb-tip-border: #fff;
+		--imdb-tip-text: #ededed;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.imdb-gallery-tip {
+		transition: none;
+	}
+}

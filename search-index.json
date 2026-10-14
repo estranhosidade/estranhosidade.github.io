@@ -1,5 +1,5 @@
 {
-    "generatedAt": "2026-10-13T21:35:35+00:00",
+    "generatedAt": "2026-10-14T09:01:32+00:00",
     "posts": [
         {
             "id": 41500,
@@ -14,6 +14,10 @@
                 {
                     "name": "AI",
                     "slug": "ai"
+                },
+                {
+                    "name": "Piracy",
+                    "slug": "piracy"
                 },
                 {
                     "name": "Programming",
@@ -107,7 +111,7 @@
             "date": "2026-10-09",
             "url": "reader.html#2026-10-09-diario-09-10-2026.html",
             "summary": "Tudo isso que estamos vivendo, com esses inúmeros vídeos de IA [¹] [²] [³], e a ideia de você ter qualquer video imaginável [¹] [²] [³] renderizado na sua frente... Talvez uma realidade onde…",
-            "text": "Tudo isso que estamos vivendo, com esses inúmeros vídeos de IA [¹] [²] [³], e a ideia de você ter qualquer video imaginável [¹] [²] [³] renderizado na sua frente... Talvez uma realidade onde os atores do \"Breaking Bad\" [¹] [²] [³] participaram duma sitcom turca no inicio dos anos 2000... Todo isso me parece muito... o que aconteceu no mundo do filme \"Ready Player One\", e outros, antes deles terem essa tecnologia para realidade virtual imersiva (muito embora a tecnologia de realidade virtual imersiva naquele filme não seja tãooo avançada assim, não parece ser baseada em interfaces cérebro-maquina, que é o único caminho possível para Full-dive VR, mas okay, o que conta é o conceito que eles queriam ilustrar...) A IA Generativa, é o prelúdio da realidade generativa. Curiosamente na história do mundo desse filme, cenas e momentos de obras icônicas, tais como o \"The Shinning\" (O Iluminado) de 1980 eram referenciadas e renderizadas/transformadas numa espécie de “fase de videogame” ou “atração de parque de diversão” (aliás, o espírito era similar ao de um parque de diversões mesmo – se formos traçar paralelos com as coisas que existem no mundo real atualmente, como “Parque do Harry Potter”).",
+            "text": "Tudo isso que estamos vivendo, com esses inúmeros vídeos de IA [¹] [²] [³], e a ideia de você ter qualquer video imaginável [¹] [²] [³] renderizado na sua frente... Talvez uma realidade onde os atores do \"Breaking Bad\" [¹] [²] [³] participaram duma sitcom turca no inicio dos anos 2000... Todo isso me parece muito... o que aconteceu no mundo do filme \"Ready Player One\", e outros, antes deles terem essa tecnologia para realidade virtual imersiva (muito embora a tecnologia de realidade virtual imersiva naquele filme não seja tãooo avançada assim, não parece ser baseada em interfaces cérebro-maquina, que é o único caminho possível para Full-dive VR, para realidade virtual matrixiana, mas okay, o que conta é o conceito que eles queriam ilustrar...) A IA Generativa, é o prelúdio da realidade generativa. Curiosamente na história do mundo desse filme, cenas e momentos de obras icônicas, tais como o \"The Shinning\" (O Iluminado) de 1980 eram referenciadas e renderizadas/transformadas numa espécie de “fase de videogame” ou “atração de parque de diversão” (aliás, o espírito era similar ao de um parque de diversões mesmo – se formos traçar paralelos com as coisas que existem no mundo real atualmente, como “Parque do Harry Potter”).",
             "tags": [
                 {
                     "name": "Futuro",
