@@ -1,6 +1,6 @@
 {
     "version": "2.13.0",
-    "generatedAt": "2026-10-14T09:01:32+00:00",
+    "generatedAt": "2026-10-15T10:14:25+00:00",
     "chunkCount": 155,
     "chunks": [
         {
@@ -935,11 +935,13 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2631,
+    "totalPosts": 2633,
     "firstChunk": "data-mounth-2026-10_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-10-15-diario-15-10-2026.html": "data-mounth-2026-10_01.json",
+        "2026-10-14-ou-e-o-comeco-do-fim-ou-e-o-fim.html": "data-mounth-2026-10_01.json",
         "2026-10-13-diario-13-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-10-diario-10-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-09-estados-unidos-terao-primeira-execucao-publica-em-90-anos.html": "data-mounth-2026-10_01.json",
@@ -2392,7 +2394,7 @@
         "2016-06-09-playing-with-her-teddy-bear.html": "data-mounth-2016-06_01.json",
         "2016-06-05-about-sex-os-melhores-contos-infantilistas-parte-02.html": "data-mounth-2016-06_01.json",
         "2016-06-04-a-senseless-death-like-all-the-others.html": "data-mounth-2016-06_01.json",
-        "2016-06-01-singularidade-dos-the-lipbs.html": "data-mounth-2016-06_01.json",
+        "2016-06-01-singularidade-do-the-lipbs.html": "data-mounth-2016-06_01.json",
         "2016-05-31-a-transcendencia-tecnologica-sempre-aconteceu.html": "data-mounth-2016-05_01.json",
         "2016-05-30-pantyhouse-e-meia-calca.html": "data-mounth-2016-05_01.json",
         "2016-05-30-a-morte-como-viral.html": "data-mounth-2016-05_01.json",

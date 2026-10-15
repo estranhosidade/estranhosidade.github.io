@@ -22,6 +22,7 @@
 --post-gap: 36px;
 --gallery-columns: 3;
 --gallery-gap: 10px;
+--link: #24890d;
 --visitedlink: color-mix(in srgb, var(--link) 80%, white 20%);
 --visitedlinkhover: color-mix(in srgb, var(--visitedlink) 80%, black 20%);
 --linkhover: #41a62a;
@@ -31,11 +32,13 @@
 --linespiler: var(--border-light);
 --accent-bright: var(--accent);
 --accent-strong: var(--accent);
+--text: #2b2b2b;
 --text-muted: #767676;
 --text-strong: #000;
 --text-bright: #4a4a4a;
 --text-soft: var(--text-muted);
 --text-white: #fff;
+--bg: #fff;
 --fullbg: #fff;
 --surface: var(--bg);
 --code-bg: #d8d8d8;
@@ -47,6 +50,7 @@
 --sidebar-text: #212123;
 --sidebar-text-strong: #696969;
 --sidebar-text-dim: rgb(255 255 255 / 40%);
+--border: rgb(0 0 0 / 10%);
 --hr-border: rgb(0 0 0 / 10%);
 --border-light: rgb(0 0 0 / 10%);
 --border-strong: rgb(0 0 0 / 30%);
@@ -157,7 +161,9 @@
 --visited-color-search: #0fa;
 --border-color-search: rgb(119 119 119 / 17%);
 --dark-bg-image: url("data:image/gif;base64,R0lGODlhkACQALMAAAAAABkKUBYuaTo2ekI5jkhorlmYxlOb4YJWtn18z7JsxLyD5I7A7cfF9OOy7erf9iwAAAAAkACQAEAE/hDISau9OOvNu/9gKI5kaZ5oqq6XMLBwHAZybd94ru987//A0OBBCxqPyKRyyWxSik6WwNAwcKDRrHarTDys3LB4TC6bXua0es1uu9/weBQrZwfu9bx+z5cHBnR9bF4GaIKHGYF8hoiNjo+QkZKTZFNfL4pLjJScnZ6foKE8m6KlJXcHpqqrkXeZrDKvsLO0tba3uLm6bKRJAg8EArvDxGM0Q4DFggMMySgGDGAYAQYPCcobvdg5DdveNdrf4uPk5eYYwmKyb+FKfwoPCs7n9AEI7fT5iA/6/f7/AAMKHHhrnT4BBR4cwEewYagBCQw6nNgQkAM8DhlS3Mixo8ePcCBDitShUV9JShJHqlypLECBLCffCEgQc0dNljhzurlZbp5OO8N4Tnu5waUpoqcGDCjQ4EGDAj4pDDCQrpzLqj+zat3KtesPpBWpeh1LtqzZs2hHpKQ3Vei3qVjTwlCwka7cu3hhrM3LN9/evoD9RQAAOw==");
+--bg: #000;
 --fullbg: #000;
+--text: #d5d5d5;
 --text-muted: #939393;
 --text-strong: #fff;
 --text-bright: #e2e2e2;
@@ -167,6 +173,7 @@
 --sidebar-text: var(--text);
 --sidebar-text-strong: var(--text-strong);
 --sidebar-text-dim: var(--text-muted);
+--link: #0fa;
 --visitedlink: color-mix(in srgb, var(--link) 80%, white 20%);
 --visitedlinkhover: color-mix(in srgb, var(--visitedlink) 80%, black 20%);
 --linkhover: #0fa;
@@ -175,6 +182,7 @@
 --accent-bright: #07ffaa;
 --special-yellow: #ffd700;
 --linespiler: var(--purple);
+--border: rgb(255 255 255 / 20%);
 --hr-border: rgb(255 255 255 / 20%);
 --border-light: rgb(255 255 255 / 10%);
 --border-strong: rgb(255 255 255 / 30%);
@@ -232,23 +240,22 @@ body::before {
   background-color: #000;
   background-repeat: repeat;
   background-size: auto;
-  background-image: var(--dark-bg-image, none);
 }
 @media (prefers-color-scheme: light) {
   html {
-    background-color: var(--bg-color-search, #fff) !important;
+    background-color: var(--bg, #fff) !important;
   }
   body::before {
-    background-color: var(--bg-color-search, #fff);
+    background-color: var(--bg, #fff);
     background-image: var(--light-bg-image, none);
   }
 }
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: var(--bg-color-search, #000) !important;
+    background-color: var(--bg, #000) !important;
   }
   body::before {
-    background-color: var(--bg-color-search, #000);
+    background-color: var(--bg, #000);
     background-image: var(--dark-bg-image, none);
   }
   .search-input,
@@ -504,51 +511,104 @@ label {
    result HAD media - the data IS in the resolver answer (the CDN merely 4xx'd
    this time). Hiding it would misreport the post as having no media at all. */
 .result-thumb.is-failed {
-  position: relative;
-  display: inline-block;
-  background-color: var(--input-bg-search);
   opacity: 1;
+  background-color: var(--input-bg-search);
+  /* Anchor for the ::after glyph layer. The glyph cannot be painted as a
+     background-image here for the same reason as on .is-none: a data: URI is
+     an isolated document, so custom properties cannot reach a fill inside it.
+     It is masked instead, which reads only the alpha channel and lets the
+     colour come from CSS. That forces the glyph onto its own layer, because
+     background-color always paints *under* background-image - both on one
+     element would hide the glyph colour behind the cell fill. */
+  position: relative;
 }
 .result-thumb.is-failed::after {
   content: "";
   position: absolute;
-  top: 22%;
-  right: 22%;
-  bottom: 22%;
-  left: 22%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: var(--link-color-search);
-  -webkit-mask: var(--wpx-thumb-placeholder) center / contain no-repeat;
-  mask: var(--wpx-thumb-placeholder) center / contain no-repeat;
+  /* The translucency the glyph used to carry as opacity="0.55" inside the SVG,
+     now applied here so it stays tunable without regenerating the data URI. */
+  opacity: 0.55;
+  -webkit-mask-image: var(--wpx-thumb-placeholder);
+  mask-image: var(--wpx-thumb-placeholder);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  /* Square viewBox (100 x 100), so a single percentage scales both axes and
+     the mark stays centred and undistorted in the square cell. */
+  -webkit-mask-size: 55%;
+  mask-size: 55%;
 }
 /* No media at all: the quotation glyph marks the result as text-only. The
-   in-place span keeps the flex CELL, so the body text starts at the same
-   horizontal position whether the result has media, a failed download, or
-   none at all - the list keeps one clean left edge either way. */
+   in-place span keeps the CELL, so the body text starts at the same horizontal
+   position whether the result has media, a failed download, or none at all -
+   the list keeps one clean left edge either way. */
 .result-thumb.is-none {
-  position: relative;
-  display: inline-block;
-  background: transparent;
-  padding: 0;
   opacity: 1;
+  background-color: var(--input-bg-search);
+  /* Anchor for the ::after glyph layer below. The mobile override only
+     resizes .result-thumb, so the layer follows the cell automatically. */
+  position: relative;
 }
 .result-thumb.is-none::after {
   content: "";
   position: absolute;
-  top: 22%;
-  right: 22%;
-  bottom: 22%;
-  left: 22%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: var(--link-color-search);
-  -webkit-mask: var(--wpx-thumb-placeholder-quote) center / contain no-repeat;
-  mask: var(--wpx-thumb-placeholder-quote) center / contain no-repeat;
+  /* See the .is-failed::after note: colour from CSS, shape from the mask. */
+  opacity: 0.55;
+  -webkit-mask-image: var(--wpx-thumb-placeholder-quote);
+  mask-image: var(--wpx-thumb-placeholder-quote);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  /* The quote icon's own viewBox is wider than tall (122.88 x 108.51), so only
+     the width is set and the height follows the aspect ratio, which keeps the
+     bubble undistorted and centred in the square cell. */
+  -webkit-mask-size: 58%;
+  mask-size: 58%;
 }
 @media (max-width: 700px) {
+  /* Responsive layout (image 02): the thumbnail FLOATS instead of holding a
+     flex column open. As a flex item it reserved a permanent gutter and
+     squeezed the title, URL and snippet into a narrow column for the entire
+     height of the snippet. Floated, the same markup wraps beside the cell for
+     as many lines as it is tall and then returns to the full column width.
+
+     The title MUST be display:block here for that to happen. It is an
+     inline-block in the base rules, and an inline-block is an atomic inline:
+     it never overlaps a float, so the browser pushed the WHOLE title down
+     below the cell instead of letting it sit beside it. That left an empty
+     band to the right of the thumbnail - the exact hole this fixes - and then
+     dropped the URL and snippet below it too, wasting the full width of every
+     row.
+
+     As a block the title's own line boxes wrap around the float, so the title
+     occupies the space beside the thumbnail and the URL follows underneath. */
   .result--thumb {
-    gap: 10px;
+    display: flow-root;
+  }
+  .result--thumb .result-body {
+    display: block;
+    flex: none;
+  }
+  .result--thumb .result-title {
+    display: block;
   }
   .result-thumb {
-    width: 72px;
-    height: 72px;
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin: 0 10px 6px 0;
   }
 }</style>
 </head>
@@ -1155,11 +1215,32 @@ function esc(v){
 function getHighlightTerms(q){
   if (!q) return [];
   var text = q;
+  /* Operator tokens and exclusions are blanked FIRST, in the same order the
+     live page uses, so neither they nor a quoted phrase buried inside them can
+     reach the highlight list: author:/after:/before:/id:, relatedsearch:,
+     -word and -"phrase" exclusions, and the OR keyword. */
   text = text.replace(/\b(?:author|after|before|id|relatedsearch(?:\[[^\]]+\])?):(?:"[^"]+"|'[^']+'|\S+)/gi, ' ');
-  text = text.replace(/["']/g, ' ');
   text = text.replace(/(^|\s)-(?:"[^"]*"|'[^']*'|\S+)/g, ' ');
   text = text.replace(/(^|\s)OR(?=\s|$)/g, ' ');
-  var terms = text.split(/[\s|]+/).map(function(t){ return t.trim(); }).filter(function(t){ return t.length > 0; });
+  /* Quoted phrases are collected now, with their spaces kept, so a phrase stays
+     ONE term and highlights as a single block (live page behaviour). */
+  var phrases = [], pm, phraseRe = /"([^"]+)"|'([^']+)'/g;
+  while ((pm = phraseRe.exec(text)) !== null) {
+    var ph = (pm[1] || pm[2] || '').trim();
+    if (ph) phrases.push(ph);
+  }
+  /* Quotes (and the | alternative separator) are syntax, not content. */
+  text = text.replace(/["'|]/g, ' ');
+  text = text.replace(/\s+/g, ' ').trim();
+  /* THE WHOLE QUERY IS ONE TERM.
+     The previous behaviour split the query into words, so every word of a
+     multi-word query was highlighted anywhere it appeared on its own: searching
+     "a chegada" lit up every stray "a" and every unrelated "chegada" across the
+     title, URL, snippet, tags and categories. Only the exact phrase is
+     highlighted now, as a single block. */
+  var terms = [];
+  if (text) terms.push(text);
+  phrases.forEach(function(p){ terms.push(p); });
   var seen = {}, uniq = [];
   terms.forEach(function(t){
     var k = t.toLowerCase();

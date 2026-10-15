@@ -1,6 +1,78 @@
 {
-    "generatedAt": "2026-10-14T09:01:32+00:00",
+    "generatedAt": "2026-10-15T10:14:25+00:00",
     "posts": [
+        {
+            "id": 41518,
+            "title": "Diário: 15/10/2026",
+            "slug": "diario-15-10-2026",
+            "author": "estranhosidade",
+            "date": "2026-10-15",
+            "url": "reader.html#2026-10-15-diario-15-10-2026.html",
+            "summary": "",
+            "text": "",
+            "tags": [
+                {
+                    "name": "Wayback Machine",
+                    "slug": "wayback-machine"
+                },
+                {
+                    "name": "Web Archiving",
+                    "slug": "web-archiving"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Direção de Arte/IA",
+                    "slug": "direcao-de-arte-ia"
+                },
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "thumb": {
+                "primary": "https://archive.org/download/blogfilesx/IMG-15-10-2026=1792048409-thumbview_thumb.jpg",
+                "fallback": "https://archive.org/download/blogfilesx/IMG-15-10-2026=1792048409-thumbview.png"
+            }
+        },
+        {
+            "id": 41510,
+            "title": "“Ou é o começo do fim ou é o fim”",
+            "slug": "ou-e-o-comeco-do-fim-ou-e-o-fim",
+            "author": "estranhosidade",
+            "date": "2026-10-14",
+            "url": "reader.html#2026-10-14-ou-e-o-comeco-do-fim-ou-e-o-fim.html",
+            "summary": "“Ou é o começo do fim ou é o fim” Vital Farias – Veja (Margarida)",
+            "text": "“Ou é o começo do fim ou é o fim” Vital Farias – Veja (Margarida)",
+            "tags": [
+                {
+                    "name": "Fim",
+                    "slug": "fim"
+                },
+                {
+                    "name": "Morte",
+                    "slug": "morte"
+                },
+                {
+                    "name": "Vida",
+                    "slug": "vida"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Autoria de Outros",
+                    "slug": "autoria-de-outros"
+                },
+                {
+                    "name": "Citações",
+                    "slug": "citacoes"
+                },
+                {
+                    "name": "Filosofia",
+                    "slug": "filosofia"
+                }
+            ]
+        },
         {
             "id": 41500,
             "title": "Diário: 13/10/2026",
@@ -23326,7 +23398,7 @@
             "date": "2023-09-18",
             "url": "reader.html#2023-09-18-o-desconhecido-e-o-lexico-futurista.html",
             "summary": "Imagem do jornal \"San Francisco Call\" de 19 de Novembro de 1896 / Cena do filme \"The Thirteenth Floor\" (Décimo Terceiro Andar) É verdadeiramente fascinante como o ser humano, ao deparar-se com um fenômeno…",
-            "text": "Imagem do jornal \"San Francisco Call\" de 19 de Novembro de 1896 / Cena do filme \"The Thirteenth Floor\" (Décimo Terceiro Andar) É verdadeiramente fascinante como o ser humano, ao deparar-se com um fenômeno que não faz sentido tenta compreendê-lo por meio das ferramentas, e da visão de mundo, e do “léxico futurista” que possui para interpretar esse mistério, e como dependendo do nosso conhecimento à época, essa incógnita toma diferentes formas. Não é mera coincidência que os relatos de OVNIs surgem paralelamente aos avanços na tecnologia da aviação e da astronomia do fim do século 19 e começo do século 21. Ganhamos a capacidade de entender que esses estranhos pássaros mecânicos podiam existir e que o universo era algo muito mais complexo do que pensávamos, de que a Terra não era o centro de nada, de que haviam planetas, de que talvez fosse possível até mesmo viajar até eles. E a partir do momento que temos a capacidade de conceitualizar isso, toda uma nova forma de ver o mundo se abre. De uma poética forma, esse \"léxico futurista\" se assemelha a linguagem alienígena no filme \"Arrival\" (A Chegada): enquanto a língua alienígena permitia o ser humano ver o futuro, como uma dimensão extra não-linear, esse léxico permite o ser humano imaginar futuros. Antes disso tais misteriosos eventos sendo tidos como \"fadas\" ou intervenções divinas e outros fenômenos sobrenaturais E hoje sendo “explicados” como algo possivelmente futurista, algo que não existe ainda, mas que poderia talvez existir: “glitches” na realidade virtual dentro da qual estaríamos vivendo, explicação essa que só poderia ser imaginada num mundo onde, não somente o conceito de “computador” ou cérebros eletrônicos já existia no \"Zeitgeist\" daquela determinada sociedade, mas também um entendimento maior sobre simulações virtuais de ambiente e do papel que estímulos elétricos possuem na percepção do ser humano sobre a realidade. Um mundo onde esse conceito pode ser extrapolado para imaginarmos que talvez ele seja resultado duma simulação digital que todos nós estaríamos vivendo.",
+            "text": "Imagem do jornal \"San Francisco Call\" de 19 de Novembro de 1896 / Cena do filme \"The Thirteenth Floor\" (Décimo Terceiro Andar) É verdadeiramente fascinante como o ser humano, ao deparar-se com um fenômeno que não faz sentido tenta compreendê-lo por meio das ferramentas, e da visão de mundo, e do “léxico futurista” que possui para interpretar esse mistério, e como dependendo do nosso conhecimento à época, essa incógnita toma diferentes formas. Não é mera coincidência que os relatos de OVNIs surgem paralelamente aos avanços na tecnologia da aviação e da astronomia do fim do século 19 e começo do século 21. Ganhamos a capacidade de entender que esses estranhos pássaros mecânicos podiam existir e que o universo era algo muito mais complexo do que pensávamos, de que a Terra não era o centro de nada, de que haviam planetas, de que talvez fosse possível até mesmo viajar até eles. E a partir do momento que temos a capacidade de conceitualizar isso, toda uma nova forma de ver o mundo se abre. De uma poética forma, esse \"léxico futurista\" se assemelha a linguagem alienígena no filme \"Arrival\" (A Chegada): enquanto a língua alienígena permitia o ser humano ver o futuro, como uma dimensão extra não-linear, esse léxico permite o ser humano imaginar futuros. E nós, meu caro, nós só conseguimos criar aquilo que, primeiro, fomos capazes de imaginar. Louise: I know what it is. Donnelly: What? Louise: It's not a weapon. It's a gift. Antes disso tais misteriosos eventos sendo tidos como \"fadas\" ou intervenções divinas e outros fenômenos sobrenaturais E hoje sendo “explicados” como algo possivelmente futurista, algo que não existe ainda, mas que poderia talvez existir: “glitches” na realidade virtual dentro da qual estaríamos vivendo, explicação essa que só poderia ser imaginada num mundo onde, não somente o conceito de “computador” ou cérebros eletrônicos já existia no \"Zeitgeist\" daquela determinada sociedade, mas também um entendimento maior sobre simulações virtuais de ambiente e do papel que estímulos elétricos possuem na percepção do ser humano sobre a realidade. Um mundo onde esse conceito pode ser extrapolado para imaginarmos que talvez ele seja resultado duma simulação digital que todos nós estaríamos vivendo. Como disse uma inteligência artificial, um dia um mero pensamento na cabeça de Turing: “A linguagem é uma tecnologia do pensamento.”",
             "tags": [
                 {
                     "name": "Futurismo",
@@ -30382,11 +30454,7 @@
                     "name": "English",
                     "slug": "english"
                 }
-            ],
-            "thumb": {
-                "primary": "https://i.ytimg.com/vi/nhpiqMdjTQ8/hqdefault.jpg",
-                "fallback": "https://i.ytimg.com/vi/nhpiqMdjTQ8/mqdefault.jpg"
-            }
+            ]
         },
         {
             "id": 27382,
@@ -61213,11 +61281,11 @@
         },
         {
             "id": 12530,
-            "title": "“Singularidade” dos The Lipbs",
-            "slug": "singularidade-dos-the-lipbs",
+            "title": "“Singularidade” do The Lipbs",
+            "slug": "singularidade-do-the-lipbs",
             "author": "estranhosidade",
             "date": "2016-06-01",
-            "url": "reader.html#2016-06-01-singularidade-dos-the-lipbs.html",
+            "url": "reader.html#2016-06-01-singularidade-do-the-lipbs.html",
             "summary": "https://www.youtube.com/watch?v=VGDhrH_uLUw Eu viverei para ver um milhão de coisas, que os homens nunca foram feitos para ver Meus sentidos e minhas capacidades, eu ampliarei através de máquinas Audição, visão, tátil, paladar e olfato Convertidos…",
             "text": "https://www.youtube.com/watch?v=VGDhrH_uLUw Eu viverei para ver um milhão de coisas, que os homens nunca foram feitos para ver Meus sentidos e minhas capacidades, eu ampliarei através de máquinas Audição, visão, tátil, paladar e olfato Convertidos em fluxos de dados e pedaços flutuantes de binário Cada pedaço de comida que você provar e cada pensamento que cogitar Cada som que você pode ouvir e cada olhar de relance que você vê por anos e anos Todos eles armazenados de forma conveniente em petabytes de memória Para que você possa sempre referenciá-los caso você esqueça Singularidade (Singularidade!) Singularidade (Singularidade!) Singularidade (Singularidade, oh! Eu não sei) Singularidade (Singularidade, oh! Eu não sei) Agora, uma vez que toda essa experiência pode caber numa acessível GRID A existência não é mais uma coisa mentalmente projetada As conexões que você tem dentro de si são muito facilmente percebidas Através de imagiologia artificial você se duplica 10 vezes duma vez só Sua consciência pode ser desfrutada por qualquer um, para sempre e além E você vive em qualquer estado que você ou qualquer outra pessoa crie Você pode ser um esquilo gigante, uma estátua ou um gato falante O dirigível da Goodyear, um traço mágico, um polvo ou um cérebro num jarro Você mantém todas as lembranças e sentimentos que você quiser E agora você pode começar sua vida como um extropiano upado Singularidade (Singularidade!) Singularidade (Singularidade!) Singularidade (Singularidade, oh! Eu não sei) Singularidade (Singularidade, oh! Eu não sei) Minha mãe está tão horrorizada com essa fantasia pós-humana Ela diz que perderemos aquela coisa especial que faz nós seres humanos sermos o que somos Mas eu não sei, eu não estou tão certo se humanos são tão bons e puros Talvez nós estaríamos muito melhor se nós nos livrassemos desses violentos corpos Quando todos estiverem na nuvem nós iremos além da superfície deste planeta Expandindo para o espaço como uma corrida de sinais de informação A matéria no sistema solar se converterá em massa computacional E o sol se tornará a orbita central de um cérebro que cresce na vasta imensidão do espaço e do vazio por anos-luz e séculos-luz E isso se replica exponencialmente como uma boneca russa em um sonho cósmico Quando cada canto do universo estiver preenchido ele vai explodir rapidamente Erradicando finalmente o experimento que nós criamos a partir da Terra Enquanto isso, o cérebro vai respirar na impossibilidade da escuridão E anti-matéria por todo lugar fará o universo recuar E agora o que você veria se você fosse uma mosca no vácuo é todas as luzes e cores no universo simplesmente colapsando E o tempo irá parar... E de um ponto do tamanho da cabeça de um alfinete uma gigantesca explosão irrompe no espaço E trilhões de partículas novas voam em um ritmo fotônico, E mais uma vez o relógio começará a fazer tique-taque e tique-taque E anos se passarão, bilhões ou até mesmo além, antes das pequenas proteínas se combinarem E uma vez mais em mares ferventes duma minúscula anomalia azul Um planeta impotente boiando ao redor duma pequena bola de fogo tão ardente Um ordinário canto do universo iria abrigar a faísca da inteligência que nos trouxe aqui e nos trouxe isto... Singularidade (Singularidade!) Singularidade (Singularidade, oh. Eu não sei) Singularidade (Singularidade!) Singularidade (Singularidade, oh! Eu não sei) Singularidade (Singularidade!) Singularidade (Singularidade, oh! Eu não sei) Oh! Eu não sei Oh! Eu não sei Oh! Eu não sei Fonte: The Lisps – Singularity",
             "tags": [
