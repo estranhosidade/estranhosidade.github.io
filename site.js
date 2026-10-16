@@ -1,6 +1,20 @@
 (function(){
 'use strict';
 var cfg  = window.WPX_EXPORT || {};
+
+/* Post-content toggle — same contract as the theme's header.php button.
+   Toggles .show-post-content on <body>, mirrors state on the button.
+   Runs independently of the feed so it works on search.html too. */
+(function(){
+  var btn = document.querySelector('.post-content-toggle');
+  if (!btn) return;
+  btn.addEventListener('click', function(){
+    var on = document.body.classList.toggle('show-post-content');
+    btn.classList.toggle('active', on);
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+})();
+
 var feed = document.getElementById('wpx-feed');
 if(!feed) return;
 

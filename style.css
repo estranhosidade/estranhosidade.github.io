@@ -814,15 +814,23 @@ div.wp-caption.alignright :is(img[class*="wp-image-"], .wp-caption-text) {
  justify-content: center;
  margin-right: 0;
  width: var(--header-height);
+
+  /* Magnifying glass SVG — same 24px grid and stroke weight as the
+     post-content-toggle book icons, so the two icons match in size and
+     boldness instead of the search icon reading lighter/smaller. */
+  --search-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
 }
 
 .search-toggle:hover, .search-toggle.active { background-color: var(--linkhover); }
 
 .search-toggle::before {
- color: var(--text-white);
- content: "";
- font-size: var(--text-size-2xl);
- line-height: 1;
+ -webkit-mask: var(--search-icon) center / contain no-repeat;
+ mask: var(--search-icon) center / contain no-repeat;
+ background-color: currentColor;
+ content: "";
+ display: block;
+ height: var(--toggle-icon-size);
+ width: var(--toggle-icon-size);
 }
 
 .search-toggle .screen-reader-text { left: 5px; }
@@ -2476,6 +2484,11 @@ a.post-thumbnail:hover { background-color: #999; }
   text-transform: none;
  }
  .list-view .site-content :is(.format-aside, .format-link, .format-quote) .entry-title { display: block; }
+  /* When the toggle is open (content already visible), the entry-title of a
+     quote/link/note post is redundant - the content itself is the title.
+     Hide it so the page doesn't show the same text twice. */
+  body.show-post-content.list-view .site-content :is(.format-aside, .format-link, .format-quote) .entry-title { display: none; }
+
  .list-view .site-content .entry-meta {
   background-color: transparent;
   clear: none;

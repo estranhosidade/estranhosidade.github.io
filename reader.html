@@ -6,7 +6,7 @@
 		</aside><aside id="text-4" class="widget widget_text"><h1 class="widget-title">Informação</h1>			<div class="textwidget"><p><a href="/wp-admin/edit.php">Administração</a><br />
 <a href="https://archive.org/details/@estranhosidade">Arquivos</a><br />
 <a href="/rss.xml">RSS</a><br />
-<a href="pages.html#search">Deep Search</a><br />
+<a href="/search/">Deep Search</a><br />
 <a href="https://vimeo.com/user73174960">Vídeo Project</a></p>
 </div>
 		</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="search.html">
@@ -23,7 +23,7 @@
 <a href="pages.html#garotas">Garotas</a>
 </li>
 <li class="alphabetical-pages-sidebar-item">
-<a href="pages.html#search">Search</a>
+<a href="/search">Search</a>
 </li>
 </ul>
 </aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Categorias</h1><nav aria-label="Categorias">
@@ -82,7 +82,7 @@
 
 			</nav></aside><aside id="archives-3" class="widget widget_archive"><h1 class="widget-title">Arquivos</h1><nav aria-label="Arquivos">
 			<ul>
-					<li><a href='month.html#2026-10'>outubro 2026</a>&nbsp;(13)</li>
+					<li><a href='month.html#2026-10'>outubro 2026</a>&nbsp;(15)</li>
 	<li><a href='month.html#2026-09'>setembro 2026</a>&nbsp;(25)</li>
 	<li><a href='month.html#2026-08'>agosto 2026</a>&nbsp;(38)</li>
 	<li><a href='month.html#2026-07'>julho 2026</a>&nbsp;(28)</li>
@@ -412,16 +412,21 @@ function render(){
 		status('No post selected.');
 		return;
 	}
-	status('Loading…');
+	var loadingTimer = setTimeout(function(){
+		status('Loading…');
+		}, 4000);
 	loadJson(cfg.manifest||'manifest.json').then(function(m){
+		clearTimeout(loadingTimer);
 		var file=(m.posts&&m.posts[name])||null;
 		if(file){
 			return loadJson(file).then(function(chunk){ return findIn(chunk,name); });
 		}
 		return scanChunks(m,name).then(function(chunk){ return chunk?findIn(chunk,name):null; });
 	}).then(function(p){
+		clearTimeout(loadingTimer);
 		if(p){ paint(p); loadRelated(name); } else { status('Post not found: '+name); }
 	}).catch(function(e){
+		clearTimeout(loadingTimer);
 		console.warn(e);
 		status('Unable to load content.');
 	});

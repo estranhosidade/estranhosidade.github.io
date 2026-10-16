@@ -1,6 +1,6 @@
 {
     "version": "2.13.0",
-    "generatedAt": "2026-10-15T10:14:25+00:00",
+    "generatedAt": "2026-10-16T10:40:13+00:00",
     "chunkCount": 155,
     "chunks": [
         {
@@ -935,11 +935,13 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2633,
+    "totalPosts": 2635,
     "firstChunk": "data-mounth-2026-10_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-10-16-it-basically-reconstructs-it-from-a-learned-representation.html": "data-mounth-2026-10_01.json",
+        "2026-10-16-you-truly-dont-understand-what-just-happened-to-mathematics.html": "data-mounth-2026-10_01.json",
         "2026-10-15-diario-15-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-14-ou-e-o-comeco-do-fim-ou-e-o-fim.html": "data-mounth-2026-10_01.json",
         "2026-10-13-diario-13-10-2026.html": "data-mounth-2026-10_01.json",

@@ -362,6 +362,9 @@ label {
   color: var(--text-muted-search);
   font-size: 12px;
 }
+.meta-match {
+  color: var(--link);
+}
 .meta .highlight {
   background: none;
   color: inherit;
@@ -416,6 +419,11 @@ label {
   margin-top: 14px;
   color: var(--text-muted-search);
   font-size: 12px;
+}
+.didyoumean a {
+  color: var(--link-color-search);
+  cursor: pointer;
+  text-decoration: underline;
 }
 .state-hidden {
   display: none !important;
@@ -474,8 +482,8 @@ label {
     min-width: 0;
   }
 }
---wpx-thumb-placeholder: url("https://estranhosidade.local/wp-content/mu-plugins/wptr-icon-image.svg");
---wpx-thumb-placeholder-quote: url("https://estranhosidade.local/wp-content/mu-plugins/wptr-icon-quote.svg");
+--wpx-thumb-placeholder: url("mu-plugins/wptr-icon-image.svg");
+--wpx-thumb-placeholder-quote: url("mu-plugins/wptr-icon-quote.svg");
 /* Thumbnail column. The renderer adds .result--thumb to EVERY result while the
    feature is on - not just the ones with media - so the list keeps a single
    left edge. Turning the setting off removes it and the plain block layout
@@ -623,6 +631,9 @@ label {
 <label for="q" id="search-label">Pesquisar:</label>
 <input id="q" class="search-input" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="">
 </form>
+<button type="button" class="post-content-toggle" aria-pressed="false">
+<span class="screen-reader-text">Mostrar o texto dos posts</span>
+</button>
 <select id="sort-select" class="sort-select" aria-label="Ordenar">
 <option value="relevance" id="opt-relevance" selected>Melhores resultados</option>
 <option value="newest" id="opt-newest">Mais Recentes</option>
@@ -638,11 +649,12 @@ label {
 <section id="results" class="results"></section>
 <div id="pager" class="pager state-hidden"></div>
 </main>
-<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"baseUrl":"https://estranhosidade.github.io/","i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais Recentes","oldest":"Mais Antigos","relevance":"Melhores resultados","az":"Ordem Alfabética A à Z","za":"Ordem Alfabética Z à A","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]},"thumbs":true};(function(){
+<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"baseUrl":"https://estranhosidade.github.io/","i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais Recentes","oldest":"Mais Antigos","relevance":"Melhores resultados","az":"Ordem Alfabética A à Z","za":"Ordem Alfabética Z à A","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","showing_corrected":"Mostrando resultados para","search_instead_for":"Pesquisar literalmente por","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]},"thumbs":true,"typoFix":true};(function(){
 "use strict";
 var cfg      = WPX_SEARCH;
 var i18n     = cfg.i18n || {};
 var PER_PAGE = cfg.perPage || 10000;
+var TYPO_FIX = !!cfg.typoFix;
 var form     = document.getElementById('search-form');
 var input    = document.getElementById('q');
 var sortEl   = document.getElementById('sort-select');
@@ -672,11 +684,11 @@ if (optZa && i18n.za) optZa.textContent = i18n.za;
 var indexPromise = null;
 var currentQuery = '';
 var timer        = null;
-var state        = { q: '', rows: [], parsed: null };
+var state        = { q: '', rows: [], parsed: null, did_you_mean: null };
 /* Expose the search internals so tests (and the DeepSearch overlay parent
    frame, when this page is embedded) can drive them directly. Harmless in
    normal use. */
-window.WPX2_SEARCH_INTERNAL = { parseQuery: parseQuery, runSearch: runSearch, normalizeMatchText: normalizeMatchText, titleMatchTier: titleMatchTier, bodyCoverageOf: bodyCoverageOf, queryMatchTerms: queryMatchTerms };
+window.WPX2_SEARCH_INTERNAL = { parseQuery: parseQuery, runSearch: runSearch, runSearchCore: runSearchCore, normalizeMatchText: normalizeMatchText, titleMatchTier: titleMatchTier, bodyCoverageOf: bodyCoverageOf, queryMatchTerms: queryMatchTerms, stringDistance: stringDistance, typoCorrectQuery: typoCorrectQuery, typoCorrectWord: typoCorrectWord, typoVocabulary: typoVocabulary };
 
 /* -- Index loading (fetched into memory — never offered as a file download) -- */
 function loadIndex(){
@@ -801,7 +813,7 @@ function passesOperators(row, p){
 }
 
 function passesExcludes(row, p){
-  var all = row.title + ' ' + row.body;
+  var all = row.title + ' ' + row.body + ' ' + (row.item && row.item.url ? row.item.url : '');
   for (var i = 0; i < p.excludes.length; i++) {
     var ex = p.excludes[i];
     if (ex && all.indexOf(lower(ex)) !== -1) return false;
@@ -820,9 +832,9 @@ function expressionMatches(row, expr){
   });
   for (var i = 0; i < tokens.length; i++) {
     var w = lower(tokens[i]);
-    if (row.title.indexOf(w) === -1 && row.body.indexOf(w) === -1) return false;
+    if (row.title.indexOf(w) === -1 && row.body.indexOf(w) === -1 && (row.item && row.item.url ? row.item.url.indexOf(w) === -1 : true)) return false;
   }
-  var all = row.title + ' ' + row.body;
+  var all = row.title + ' ' + row.body + ' ' + (row.item && row.item.url ? row.item.url : '');
   for (var j = 0; j < phrases.length; j++) {
     if (phrases[j] && !containsWholeTerm(all, phrases[j])) return false;
   }
@@ -972,10 +984,135 @@ function bodyCoverageOf(row, terms){
   significant.forEach(function(t){ if (padded.indexOf(' ' + t + ' ') !== -1) hit++; });
   return hit / significant.length;
 }
-function runSearch(items, rawQuery, sort){
-  var p = parseQuery(rawQuery);
-  if (p.text === '' && !p.author && !p.after && !p.before && !p.id && !p.related) {
-    return { parsed: p, rows: [] };
+/* -- Typo tolerance (did you mean) — port of Custom Blog Search 2.11's
+      cbs_string_distance / cbs_typo_vocabulary / cbs_typo_correct_word /
+      cbs_typo_correct_query. Fires only when the literal query matched
+      nothing, and only reports a correction that actually found posts. -- */
+/* Same list as the live cbs_match_stopwords() (Portuguese + English): a
+   stopword must never be "corrected" into a different real word. */
+var TYPO_STOPWORDS = ['a','ao','aos','as','com','da','das','de','do','dos','e','eh','ela','ele','eles','em','entre','essa','esse','esta','este','estou','eu','foi','isso','isto','ja','la','lhe','mais','mas','me','mesmo','meu','minha','muito','na','nas','nem','no','nos','nosso','num','numa','o','os','ou','para','pela','pelas','pelo','pelos','por','que','quem','se','sem','ser','seu','sua','suas','tambem','te','tem','um','uma','umas','uns','voce','an','and','are','at','be','by','for','from','in','into','is','it','its','of','on','or','that','the','this','to','was','were','will','with'];
+
+/* Restricted Damerau-Levenshtein (optimal string alignment) distance — a
+   transposition ("futurista" typed as "futuritsa") costs ONE edit, which
+   plain Levenshtein charges two; that common typo class would fall outside
+   the tolerance budget without it. Inputs are normalizeMatchText() output,
+   so byte-wise indexing is safe. */
+function stringDistance(a, b){
+  a = String(a); b = String(b);
+  if (a === b) return 0;
+  var la = a.length, lb = b.length;
+  if (!la) return lb;
+  if (!lb) return la;
+  if (Math.abs(la - lb) > 2) return Infinity; /* always outside tolerance */
+  var d = [], i, j;
+  for (i = 0; i <= la; i++) { d[i] = [i]; }
+  for (j = 1; j <= lb; j++) { d[0][j] = j; }
+  for (i = 1; i <= la; i++) {
+    for (j = 1; j <= lb; j++) {
+      var cost = a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1;
+      var best = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost);
+      if (i > 1 && j > 1 && a.charAt(i - 1) === b.charAt(j - 2) && a.charAt(i - 2) === b.charAt(j - 1)) {
+        best = Math.min(best, d[i - 2][j - 2] + 1);
+      }
+      d[i][j] = best;
+    }
+  }
+  return d[la][lb];
+}
+
+/* -- Typo vocabulary: every distinct normalized word of 3+ chars from post
+   titles, tags and categories in the exported index. This is the correction
+   dictionary behind typoCorrectWord(). Built once per search page load. -- */
+var _typoVocabCache = null;
+function typoVocabulary(items){
+  if (_typoVocabCache) return _typoVocabCache;
+  var words = {}, seen = {};
+  (items || []).forEach(function(item){
+    var src = [item.title || ''];
+    if (item.tags) src = src.concat(item.tags.map(function(t){ return typeof t === 'string' ? t : (t && t.name) || ''; }));
+    if (item.cats) src = src.concat(item.cats.map(function(t){ return typeof t === 'string' ? t : (t && t.name) || ''; }));
+    src.forEach(function(s){
+      normalizeMatchText(s).split(/\s+/).forEach(function(w){
+        if (w.length >= 3 && !seen[w]) { seen[w] = true; words[w] = true; }
+      });
+    });
+  });
+  _typoVocabCache = Object.keys(words).sort();
+  return _typoVocabCache;
+}
+
+/* Closest known spelling for a (probably misspelled) normalized query word,
+   or null when the word is already known or nothing is close enough.
+   Guards: same first letter, within one edit (<=6 letters) or two edits
+   (>=7 letters), close enough in length. Ties break toward smallest length
+   delta, then alphabetically. */
+function typoCorrectWord(word, vocab){
+  var len = String(word || '').length;
+  if (len < 4 || vocab.indexOf(word) !== -1) return null;
+  var max = (len >= 7) ? 2 : 1;
+  var best = null, bestScore = null;
+  for (var i = 0; i < vocab.length; i++){
+    var candidate = vocab[i];
+    if (!candidate || candidate.charAt(0) !== word.charAt(0)) continue;
+    var delta = Math.abs(candidate.length - len);
+    if (delta > max) continue;
+    var distance = stringDistance(word, candidate);
+    if (distance < 1 || distance > max) continue;
+    var score = distance * 10 + delta;
+    if (bestScore === null || score < bestScore || (score === bestScore && candidate < best)){
+      best = candidate;
+      bestScore = score;
+    }
+  }
+  return best;
+}
+
+/* The query with its misspelled bare words corrected, or null when no word
+   should change. Never rewrites quoted chunks, exclusions (-word),
+   operators (author:, after:, before:, id:, relatedsearch:), the OR keyword
+   or the | separator. */
+function typoCorrectQuery(query, vocab){
+  var q = String(query || '').trim();
+  if (q === '' || !vocab || !vocab.length) return null;
+  // Blank out quoted chunks so their words are never corrected.
+  var quoted = [], work = q.replace(/(?:^|\s)(-?)([\"'])(.*?)\2/g, function(m, neg, quote, inner){
+    var key = '__CBS_TQ' + quoted.length + '__';
+    quoted.push({ key: key, val: m[0] });
+    return ' ' + neg + key + ' ';
+  });
+  var changed = false;
+  var tokens = work.split(/(\s+)/);
+  var out = [];
+  for (var i = 0; i < tokens.length; i++){
+    var token = tokens[i];
+    if (token.trim() === '') { out.push(token); continue; }
+    // Restore quoted chunks verbatim.
+    var restorable = null;
+    for (var j = 0; j < quoted.length; j++){
+      if (quoted[j].key === token) { restorable = quoted[j].val; break; }
+      if ('-' + quoted[j].key === token) { restorable = quoted[j].val; break; }
+    }
+    if (restorable !== null) { out.push(restorable); continue; }
+    // Exclusions, operators, OR, | are never corrected.
+    if (/^-/.test(token) || /^(?:author|after|before|id|relatedsearch(?:\[[^\]]*\])?):/i.test(token) || token === 'OR' || token === '|') {
+      out.push(token); continue;
+    }
+    var norm = normalizeMatchText(token);
+    if (norm === '' || norm.indexOf(' ') !== -1 || norm.length < 4 || TYPO_STOPWORDS.indexOf(norm) !== -1 || /^\d+$/.test(norm)) {
+      out.push(token); continue;
+    }
+    var fix = typoCorrectWord(norm, vocab);
+    if (fix !== null) { out.push(fix); changed = true; }
+    else { out.push(token); }
+  }
+  if (!changed) return null;
+  var corrected = out.join('').replace(/\s+/g, ' ').trim();
+  return (corrected === '' || corrected === q) ? null : corrected;
+}
+function runSearchCore(items, query, sort){
+  var p = parseQuery(query);
+  if (p.text === '' && !p.author && !p.after && !p.before && !p.id && !p.related){
+    return { parsed: p, rows: [], did_you_mean: null };
   }
   var prepared = prepare(items);
   var rows = [];
@@ -1006,7 +1143,7 @@ function runSearch(items, rawQuery, sort){
       if (byDate !== 0) return -byDate;
       return a.slug < b.slug ? -1 : (a.slug > b.slug ? 1 : 0);
     });
-    return { parsed: p, rows: rows };
+    return { parsed: p, rows: rows, did_you_mean: null };
   }
   if (sort === 'relevance') {
     /* Tier ranking - port of the live server-side sort (see block comment). */
@@ -1038,13 +1175,31 @@ function runSearch(items, rawQuery, sort){
       if (a.coverage !== b.coverage) return b.coverage - a.coverage;
       return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0);
     });
-    return { parsed: p, rows: rows };
+    return { parsed: p, rows: rows, did_you_mean: null };
   }
   /* 'newest' (and any unknown value default). */
   rows.sort(function(a, b){
     return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0);
   });
-  return { parsed: p, rows: rows };
+  return { parsed: p, rows: rows, did_you_mean: null };
+}
+
+/* -- runSearch — literal search with optional typo correction on zero results.
+   Mirrors cbs_search_data(): when the literal query finds nothing and typo
+   tolerance is enabled, retry with typoCorrectQuery() and surface
+   did_you_mean for the UI banner. -- */
+function runSearch(items, query, sort){
+  var res = runSearchCore(items, query, sort);
+  if (res.rows.length > 0 || !TYPO_FIX) return res;
+  var vocab = typoVocabulary(items);
+  var corrected = typoCorrectQuery(query, vocab);
+  if (corrected === null || corrected === query) return res;
+  var res2 = runSearchCore(items, corrected, sort);
+  if (res2.rows.length > 0){
+    res2.did_you_mean = corrected;
+    return res2;
+  }
+  return res;
 }
 /* -- Snippet terms — port of cbs_snippet_terms -- */
 function snippetTerms(alternates){
@@ -1310,8 +1465,8 @@ function renderResult(row, q, parsed){
     : '';
 
   var card = THUMBS
-    ? '<article class="result result--thumb">' + thumb + '<div class="result-body">'
-    : '<article class="result">';
+    ? '<article class="result result--thumb"><a href="' + esc(item.url) + '" target="_top">' + thumb + '</a><div class="result-body">'
+    : '<article class="result"><a href="' + esc(item.url) + '" target="_top">' + thumb + '</a>';
 
   /* A post that is JUST a picture already shows that picture, so the text
      preview would repeat it in words. The live page skips the snippet in that
@@ -1370,15 +1525,38 @@ function renderResults(page){
   var pages = total ? Math.ceil(total / PER_PAGE) : 0;
   if (page > pages) page = pages || 1;
   if (page < 1) page = 1;
+  var extra = (state.parsed && state.parsed.related) ? ' <span class="tips">' + esc(i18n.relatedsearch_detected) + '</span>' : '';
+  /* Did-you-mean banner: shown when a typo correction found results. */
+  if (state.did_you_mean) {
+    var dym = '<div class="tips didyoumean">' + esc(i18n.showing_corrected) + ' <b>' + esc(state.did_you_mean) + '</b> — <a href="#" id="dym-link">' + esc(i18n.search_instead_for) + ' <b>' + esc(state.q) + '</b></a></div>';
+    if (!total) {
+      fbEl.innerHTML = dym + '<div class="empty">' + esc(i18n.no_results) + '</div>';
+      resEl.innerHTML = '';
+      if (pagerEl) { pagerEl.classList.add('state-hidden'); pagerEl.innerHTML = ''; }
+      /* Clicking "Search instead for" runs the original (uncorrected) query. */
+      var dymLink = document.getElementById('dym-link');
+      if (dymLink) dymLink.onclick = function(e){ e.preventDefault(); search(state.q, 1, true); };
+      return;
+    }
+    /* Results exist: show banner above the meta line. */
+    fbEl.innerHTML = dym + '<div class="meta">' + esc(i18n.about) + ' ' + Number(total).toLocaleString() + ' '
+      + (total === 1 ? i18n.result_for : i18n.results_for) + ' <b class="meta-match">' + esc(state.did_you_mean) + '</b>' + extra + '</div>';
+    var slice = rows.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+    var buf = '';
+    slice.forEach(function(row){ buf += renderResult(row, state.q, state.parsed); });
+    resEl.innerHTML = buf;
+    loadThumbs(resEl);
+    renderPager(page, pages);
+    return;
+  }
   if (!total) {
     fbEl.innerHTML = '<div class="empty">' + esc(i18n.no_results) + '</div>';
     resEl.innerHTML = '';
     if (pagerEl) { pagerEl.classList.add('state-hidden'); pagerEl.innerHTML = ''; }
     return;
   }
-  var extra = (state.parsed && state.parsed.related) ? ' <span class="tips">' + esc(i18n.relatedsearch_detected) + '</span>' : '';
   fbEl.innerHTML = '<div class="meta">' + esc(i18n.about) + ' ' + Number(total).toLocaleString() + ' '
-    + (total === 1 ? i18n.result_for : i18n.results_for) + ' <b>' + esc(state.q) + '</b>' + extra + '</div>';
+    + (total === 1 ? i18n.result_for : i18n.results_for) + ' <b class="meta-match">' + esc(state.q) + '</b>' + extra + '</div>';
   var slice = rows.slice((page - 1) * PER_PAGE, page * PER_PAGE);
   var buf = '';
   slice.forEach(function(row){ buf += renderResult(row, state.q, state.parsed); });
@@ -1418,14 +1596,14 @@ function search(q, page, push){
     history.replaceState(null, '', location.pathname + '?q=' + encodeURIComponent(currentQuery)
       + '&page=' + page + '&sort=' + encodeURIComponent(sort));
   }
-  fbEl.innerHTML = '<div class="meta">' + esc(i18n.searching_for) + ' <b>' + esc(currentQuery) + '</b>...</div>';
+  fbEl.innerHTML = '<div class="meta">' + esc(i18n.searching_for) + ' <b class="meta-match">' + esc(currentQuery) + '</b>...</div>';
   resEl.innerHTML = '';
   if (pagerEl) { pagerEl.classList.add('state-hidden'); pagerEl.innerHTML = ''; }
   if (progEl) progEl.classList.remove('state-hidden');
   loadIndex().then(function(items){
     if (currentQuery !== String(q || '').trim()) return; /* superseded by a newer query */
     var res = runSearch(items, currentQuery, sort);
-    state = { q: currentQuery, rows: res.rows, parsed: res.parsed };
+    state = { q: currentQuery, rows: res.rows, parsed: res.parsed, did_you_mean: res.did_you_mean };
     renderResults(page);
   }).catch(function(err){
     var msg = err && err.message ? ' (' + err.message + ')' : '';
