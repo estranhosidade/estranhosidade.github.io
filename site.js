@@ -13,6 +13,14 @@ var cfg  = window.WPX_EXPORT || {};
     btn.classList.toggle('active', on);
     btn.setAttribute('aria-pressed', on ? 'true' : 'false');
   });
+  /* Default to content-shown on small screens so the post text is visible
+     without an extra tap. The CSS hides the button above the breakpoint, so
+     this only takes effect where the toggle actually exists. */
+  if ( window.innerWidth <= 400 ) {
+    document.body.classList.add( 'show-post-content' );
+    btn.classList.add( 'active' );
+    btn.setAttribute( 'aria-pressed', 'true' );
+  }
 })();
 
 var feed = document.getElementById('wpx-feed');

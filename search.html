@@ -417,13 +417,19 @@ label {
 }
 .tips {
   margin-top: 14px;
+  margin-bottom: 14px;
   color: var(--text-muted-search);
   font-size: 12px;
 }
-.didyoumean a {
+.meta-match {
   color: var(--link-color-search);
+}
+.didyoumean a {
+  display: inline-block;
+  color: var(--link-color-search);
+  font-weight: bold;
+  line-height: 1.2;
   cursor: pointer;
-  text-decoration: underline;
 }
 .state-hidden {
   display: none !important;
@@ -480,6 +486,37 @@ label {
   }
   .search-input {
     min-width: 0;
+  }
+  /* Responsive layout (image 02): the thumbnail FLOATS instead of holding a
+     flex column open. As a flex item it reserved a permanent 96px gutter and
+     squeezed the title, URL and snippet into a narrow column for the entire
+     height of the snippet. Floated, the same markup wraps beside the cell for
+     as many lines as it is tall and then returns to the full column width.
+
+     The title MUST be display:block here for that to happen. It is an
+     inline-block in the base rules, and an inline-block is an atomic inline:
+     it never overlaps a float, so the browser pushed the WHOLE title down below
+     the cell instead of letting it sit beside it. That left an empty band to
+     the right of the thumbnail - the exact hole this fixes - and then dropped
+     the URL and snippet below it too, wasting the full width of every row.
+
+     As a block the title's own line boxes wrap around the float, so the title
+     occupies the space beside the thumbnail and the URL follows underneath it. */
+  .result--thumb {
+    display: flow-root;
+  }
+  .result--thumb .result-body {
+    display: block;
+    flex: none;
+  }
+  .result--thumb .result-title {
+    display: block;
+  }
+  .result-thumb {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin: 0 10px 6px 0;
   }
 }
 --wpx-thumb-placeholder: url("mu-plugins/wptr-icon-image.svg");

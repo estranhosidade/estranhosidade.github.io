@@ -3463,6 +3463,18 @@ article.related-post { margin-bottom: 10px !important; }
  clear: both;
 }
 
+
+/* Hide header search (magnifier icon + expandable search box) on 404
+   not-found pages and on empty search-result pages. The "no posts found"
+   message itself is handled in 404.php / content-none.php (search form
+   removed there). */
+body.error404 .search-toggle,
+body.error404 #search-container,
+body.search-no-results .search-toggle,
+body.search-no-results #search-container {
+	display: none !important;
+}
+
 /* Every month divider after the first gets breathing room and two subtle rules.
    The general sibling selector also works as later months are appended by JS. */
 .month-header ~ .month-header {
