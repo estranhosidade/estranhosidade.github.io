@@ -1,6 +1,48 @@
 {
-    "generatedAt": "2026-10-19T02:17:38+00:00",
+    "generatedAt": "2026-10-20T06:59:51+00:00",
     "posts": [
+        {
+            "id": 41574,
+            "title": "“estamos abrindo seu código fonte”",
+            "slug": "estamos-abrindo-seu-codigo-fonte",
+            "author": "estranhosidade",
+            "date": "2026-10-19",
+            "url": "reader.html#2026-10-19-estamos-abrindo-seu-codigo-fonte.html",
+            "summary": "“Desculpe querida, estamos abrindo seu código fonte.”",
+            "text": "“Desculpe querida, estamos abrindo seu código fonte.”",
+            "tags": [
+                {
+                    "name": "Adobe",
+                    "slug": "adobe"
+                },
+                {
+                    "name": "Open-Source",
+                    "slug": "open-source"
+                },
+                {
+                    "name": "Photoshop",
+                    "slug": "photoshop"
+                },
+                {
+                    "name": "Reverse enginier",
+                    "slug": "reverse-enginier"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                },
+                {
+                    "name": "Shitposting",
+                    "slug": "shitposting"
+                }
+            ],
+            "thumb": {
+                "primary": "https://archive.org/download/blogfilesx/IMG-19-10-2026=1792440526-thumbview_thumb.jpg",
+                "fallback": "https://archive.org/download/blogfilesx/IMG-19-10-2026=1792440526-thumbview.png"
+            }
+        },
         {
             "id": 41563,
             "title": "Dr. Dog (AI Music, Bill Fay) – Be At Peace With Yourself",

@@ -3379,7 +3379,6 @@ a.citation + a.citation { margin-left: -10px !important; }
  .author *,
  .post-edit-link { color: var(--link) !important; }
  .entry-title * { color: var(--text-bright) !important; }
- .infinite-loader .spinner { filter: invert(1); }
  .list-view .site-content .infinite-wrap .hentry:first-of-type { border-top: 1px solid var(--text-bright); }
  .url,
  p [href]:not(.citation),
