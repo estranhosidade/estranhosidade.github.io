@@ -1,6 +1,74 @@
 {
-    "generatedAt": "2026-10-20T06:59:51+00:00",
+    "generatedAt": "2026-10-22T06:20:37+00:00",
     "posts": [
+        {
+            "id": 41507,
+            "title": "“movies as we know them will not exist”",
+            "slug": "movies-as-we-know-them-will-not-exist",
+            "author": "estranhosidade",
+            "date": "2026-10-22",
+            "url": "reader.html#2026-10-22-movies-as-we-know-them-will-not-exist.html",
+            "summary": "[...]The bit requirements necessary for computer generation of real-time realistic images in motion are as yet far beyond the present state of the art. [...] These capabilities are possible only for single motionless images.…",
+            "text": "[...]The bit requirements necessary for computer generation of real-time realistic images in motion are as yet far beyond the present state of the art. [...] These capabilities are possible only for single motionless images. Six bits of information are required to produce each of the 245,760 points that constitute one image or cycle, and several seconds are necessary to complete the cycle. Yet JPL scientists estimate that a computing capability of at least two megacycles (two million cycles) per second would be required to generate motion with the same image-transforming capabilities. [...] It is quite clear that human communication is trending toward these possibilities. If the visual subsystems exist today, it's folly to assume that the computing hardware won't exist tomorrow [...] The notion of ‘reality’ will be utterly and finally obscured when we reach that point. There'll be no need for ‘movies’ to be made on location since any conceivable scene will be generated in totally convincing reality within the information processing system. By that time, of course, movies as we know them will not exist[...] Gene Youngblood – Expanded Cinema [¹] [²] [³]",
+            "tags": [
+                {
+                    "name": "AI",
+                    "slug": "ai"
+                },
+                {
+                    "name": "Generative AI",
+                    "slug": "generative-ai"
+                },
+                {
+                    "name": "Léxico Futurista",
+                    "slug": "lexico-futurista"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Diário",
+                    "slug": "diario"
+                }
+            ],
+            "thumb": {
+                "primary": "https://archive.org/download/blogfilesx/IMG-22-10-2026=1792643456-thumbview_thumb.jpg",
+                "fallback": "https://archive.org/download/blogfilesx/IMG-22-10-2026=1792643456-thumbview.png"
+            }
+        },
+        {
+            "id": 41593,
+            "title": "Diário: 20/10/2026",
+            "slug": "diario-20-10-2026",
+            "author": "estranhosidade",
+            "date": "2026-10-20",
+            "url": "reader.html#2026-10-20-diario-20-10-2026.html",
+            "summary": "[¹] [²]",
+            "text": "[¹] [²]",
+            "tags": [
+                {
+                    "name": "Body Swap",
+                    "slug": "body-swap"
+                },
+                {
+                    "name": "Incest",
+                    "slug": "incest"
+                },
+                {
+                    "name": "Pedophilia",
+                    "slug": "pedophilia"
+                }
+            ],
+            "cats": [
+                {
+                    "name": "Imagens",
+                    "slug": "imagens"
+                }
+            ],
+            "thumb": {
+                "primary": "https://archive.org/download/blogfilesx/IMG-20-10-2026=1792474356-thumbview_thumb.jpg",
+                "fallback": "https://archive.org/download/blogfilesx/IMG-20-10-2026=1792474356-thumbview.png"
+            }
+        },
         {
             "id": 41574,
             "title": "“estamos abrindo seu código fonte”",

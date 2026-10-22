@@ -1,6 +1,6 @@
 {
     "version": "2.13.0",
-    "generatedAt": "2026-10-20T06:59:51+00:00",
+    "generatedAt": "2026-10-22T06:20:37+00:00",
     "chunkCount": 155,
     "chunks": [
         {
@@ -935,11 +935,13 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2638,
+    "totalPosts": 2640,
     "firstChunk": "data-mounth-2026-10_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-10-22-movies-as-we-know-them-will-not-exist.html": "data-mounth-2026-10_01.json",
+        "2026-10-20-diario-20-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-19-estamos-abrindo-seu-codigo-fonte.html": "data-mounth-2026-10_01.json",
         "2026-10-18-dr-dog-ai-music-bill-fay-be-at-peace-with-yourself.html": "data-mounth-2026-10_01.json",
         "2026-10-17-diario-17-10-2026.html": "data-mounth-2026-10_01.json",
