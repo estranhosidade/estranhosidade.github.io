@@ -1,6 +1,6 @@
 {
     "version": "2.13.0",
-    "generatedAt": "2026-10-22T06:20:37+00:00",
+    "generatedAt": "2026-10-23T10:49:24+00:00",
     "chunkCount": 155,
     "chunks": [
         {
@@ -935,11 +935,12 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2640,
+    "totalPosts": 2643,
     "firstChunk": "data-mounth-2026-10_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-10-23-diario-23-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-22-movies-as-we-know-them-will-not-exist.html": "data-mounth-2026-10_01.json",
         "2026-10-20-diario-20-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-19-estamos-abrindo-seu-codigo-fonte.html": "data-mounth-2026-10_01.json",
@@ -964,6 +965,7 @@
         "2026-09-29-diario-29-09-2026.html": "data-mounth-2026-09_01.json",
         "2026-09-29-omega-the-last-days-of-the-world.html": "data-mounth-2026-09_01.json",
         "2026-09-28-we-solemnly-apologize-but-we-wont-be-there-when-you-die.html": "data-mounth-2026-09_01.json",
+        "2026-09-27-o-software-ainda-importara-quando-a-ia-escrever-todos-os-nossos-programas.html": "data-mounth-2026-09_01.json",
         "2026-09-27-diario-27-09-2026.html": "data-mounth-2026-09_01.json",
         "2026-09-25-a-menina-a-prisao-e-a-reforma-antimanicomial.html": "data-mounth-2026-09_01.json",
         "2026-09-22-diario-22-09-2026.html": "data-mounth-2026-09_01.json",
@@ -2115,6 +2117,7 @@
         "2017-11-05-como-a-guerra-as-drogas-arruinou-milhoes-de-vidas.html": "data-mounth-2017-11_01.json",
         "2017-11-02-os-novos-tiranos-e-a-primavera-arabe.html": "data-mounth-2017-11_01.json",
         "2017-11-02-diario-02-11-2017.html": "data-mounth-2017-11_01.json",
+        "2017-10-30-about-sex-relatos-de-uma-sexualidade-parafilica.html": "data-mounth-2017-10_01.json",
         "2017-10-29-eu-sou-contra-o-trabalho-eu-sou-contra-a-morte-e-eu-sou-contra-o-sofrimento.html": "data-mounth-2017-10_01.json",
         "2017-10-29-a-ameaca-norte-coreana-reformas-economicas-sauditas-e-independencia-da-catalunha.html": "data-mounth-2017-10_01.json",
         "2017-10-27-horas-em-que-a-ideia-do-suicidio-parece-tao-boa-tao-atraente-tao-gostoooosa.html": "data-mounth-2017-10_01.json",

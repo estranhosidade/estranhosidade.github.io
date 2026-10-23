@@ -193,6 +193,7 @@
         },
         "textos": {
             "files": [
+                "data-category-textos-08.json",
                 "data-category-textos-07.json",
                 "data-category-textos-06.json",
                 "data-category-textos-05.json",
