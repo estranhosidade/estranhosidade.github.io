@@ -1,5 +1,5 @@
 {
-    "generatedAt": "2026-10-23T10:49:24+00:00",
+    "generatedAt": "2026-10-23T20:25:41+00:00",
     "posts": [
         {
             "id": 41635,
@@ -39,7 +39,7 @@
             "date": "2026-10-22",
             "url": "reader.html#2026-10-22-movies-as-we-know-them-will-not-exist.html",
             "summary": "[...]The bit requirements necessary for computer generation of real-time realistic images in motion are as yet far beyond the present state of the art. [...] These capabilities are possible only for single motionless images.…",
-            "text": "[...]The bit requirements necessary for computer generation of real-time realistic images in motion are as yet far beyond the present state of the art. [...] These capabilities are possible only for single motionless images. Six bits of information are required to produce each of the 245,760 points that constitute one image or cycle, and several seconds are necessary to complete the cycle. Yet JPL scientists estimate that a computing capability of at least two megacycles (two million cycles) per second would be required to generate motion with the same image-transforming capabilities[...]It is quite clear that human communication is trending toward these possibilities. If the visual subsystems exist today, it's folly to assume that the computing hardware won't exist tomorrow [...]The notion of ‘reality’ will be utterly and finally obscured when we reach that point. There'll be no need for ‘movies’ to be made on location since any conceivable scene will be generated in totally convincing reality within the information processing system. By that time, of course, movies as we know them will not exist[...] Gene Youngblood – Expanded Cinema [¹] [²] [³]",
+            "text": "[...]The bit requirements necessary for computer generation of real-time realistic images in motion are as yet far beyond the present state of the art. [...] These capabilities are possible only for single motionless images. Six bits of information are required to produce each of the 245,760 points that constitute one image or cycle, and several seconds are necessary to complete the cycle. Yet JPL scientists estimate that a computing capability of at least two megacycles (two million cycles) per second would be required to generate motion with the same image-transforming capabilities[...]It is quite clear that human communication is trending toward these possibilities. If the visual subsystems exist today, it's folly to assume that the computing hardware won't exist tomorrow [...]The notion of ‘reality’ will be utterly and finally obscured when we reach that point. There'll be no need for ‘movies’ to be made on location since any conceivable scene will be generated in totally convincing reality within the information processing system. By that time, of course, movies as we know them will not exist[...] Gene Youngblood – Expanded Cinema [¹] [²] [³] [⁴]",
             "tags": [
                 {
                     "name": "AI",

@@ -14,10 +14,8 @@
 --text-color-search: #2b2b2b;
 --heading-color-search: #2b2b2b;
 --text-muted-search: #767676;
---link-color-search: #24890d;
 --primary-color-search: #24890d;
 --url-color-search: #004cdc;
---visited-color-search: #24890d;
 --border-color-search: #202020;
 --post-gap: 36px;
 --gallery-columns: 3;
@@ -148,17 +146,16 @@
 --hr-opacity: 0.2;
 --dark-bg-image: none;
 }
-@media (prefers-color-scheme: dark) { :root {
+@media (prefers-color-scheme: dark) {
+:root {
 --bg-color-search: #181a1b;
 --input-bg-search: #181a1b;
 --panel-bg-search: #181a1b;
 --text-color-search: #d5d5d5;
 --heading-color-search: #d5d5d5;
 --text-muted-search: #939393;
---link-color-search: #0fa;
 --primary-color-search: #07c956;
 --url-color-search: #30d8ff;
---visited-color-search: #0fa;
 --border-color-search: rgb(119 119 119 / 17%);
 --dark-bg-image: url("data:image/gif;base64,R0lGODlhkACQALMAAAAAABkKUBYuaTo2ekI5jkhorlmYxlOb4YJWtn18z7JsxLyD5I7A7cfF9OOy7erf9iwAAAAAkACQAEAE/hDISau9OOvNu/9gKI5kaZ5oqq6XMLBwHAZybd94ru987//A0OBBCxqPyKRyyWxSik6WwNAwcKDRrHarTDys3LB4TC6bXua0es1uu9/weBQrZwfu9bx+z5cHBnR9bF4GaIKHGYF8hoiNjo+QkZKTZFNfL4pLjJScnZ6foKE8m6KlJXcHpqqrkXeZrDKvsLO0tba3uLm6bKRJAg8EArvDxGM0Q4DFggMMySgGDGAYAQYPCcobvdg5DdveNdrf4uPk5eYYwmKyb+FKfwoPCs7n9AEI7fT5iA/6/f7/AAMKHHhrnT4BBR4cwEewYagBCQw6nNgQkAM8DhlS3Mixo8ePcCBDitShUV9JShJHqlypLECBLCffCEgQc0dNljhzurlZbp5OO8N4Tnu5waUpoqcGDCjQ4EGDAj4pDDCQrpzLqj+zat3KtesPpBWpeh1LtqzZs2hHpKQ3Vei3qVjTwlCwka7cu3hhrM3LN9/evoD9RQAAOw==");
 --bg: #000;
@@ -205,26 +202,29 @@
 --media-max-height: 300px;
 --video-max-height: 415px;
 --widget-h1-color: #38ff00;
-} }
+}
+}
+
 * {
-  box-sizing: border-box;
-  /* Match the theme-wide monospace look (theme style.css: * {font-family: Consolas}). */
-  font-family: Consolas, monospace;
+box-sizing: border-box;
+/* Match the theme-wide monospace look (theme style.css: * {font-family: Consolas}). */
+font-family: Consolas, monospace;
 }
-html,
-body {
-  margin: 0 !important;
-  padding: 0 !important;
-  min-height: 100%;
-  color: var(--text-color-search);
-  font: 12px/1.28 Arial, Helvetica, sans-serif;
-}
+html {
 /* Canvas underlay (propagated to the full canvas, painted below everything).
    It matches the bg tile's base colour, so while the background layer is
    decoded/rasterized there is nothing bright to flash. */
-html {
-  background-color: #000;
+background-color: #000;
 }
+html,
+body {
+margin: 0 !important;
+padding: 0 !important;
+min-height: 100%;
+color: var(--text-color-search);
+font: 12px/1.28 Arial, Helvetica, sans-serif;
+}
+
 /* Fixed, non-scrolling background layer. Because it never moves while the page
    scrolls (Up/Down/Home/End), the browser never re-rasterizes it, so the
    repeating bg image can no longer flash. It also only spans the viewport
@@ -232,295 +232,154 @@ html {
    z-index:-1 keeps it behind all content; the canvas underlay above sits
    beneath it in the same colour, so even a worst-case repaint is invisible. */
 body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background-color: #000;
-  background-repeat: repeat;
-  background-size: auto;
+content: "";
+position: fixed;
+inset: 0;
+z-index: -1;
+pointer-events: none;
+background-color: #000;
+background-repeat: repeat;
+background-size: auto;
 }
+
 @media (prefers-color-scheme: light) {
-  html {
-    background-color: var(--bg, #fff) !important;
-  }
-  body::before {
-    background-color: var(--bg, #fff);
-    background-image: var(--light-bg-image, none);
-  }
+html {
+background-color: var(--bg, #fff) !important;
+}
+body::before {
+background-color: var(--bg, #fff);
+background-image: var(--light-bg-image, none);
+}
 }
 @media (prefers-color-scheme: dark) {
-  html {
-    background-color: var(--bg, #000) !important;
-  }
-  body::before {
-    background-color: var(--bg, #000);
-    background-image: var(--dark-bg-image, none);
-  }
-  .search-input,
-  .sort-select,
-  .go-back-btn {
-    background-color: var(--input-bg-search);
-  }
+html {
+background-color: var(--bg, #000) !important;
+}
+body::before {
+background-color: var(--bg, #000);
+background-image: var(--dark-bg-image, none);
+}
+.search-input,
+.sort-select,
+.go-back-btn {
+background-color: var(--input-bg-search);
+}
 }
 a {
-  color: var(--link-color-search);
-  text-decoration: none;
+color: var(--link);
+text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 .date-label {
-  color: var(--text-color-search);
-  font-weight: bold;
+color: var(--text-color-search);
+font-weight: bold;
 }
 .date-value,
 .categories-value,
 .tags-value {
-  color: var(--text-muted-search);
+color: var(--text-muted-search);
 }
 .page {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 16px 18px 28px;
+max-width: 1200px;
+margin: 0 auto;
+padding: 16px 18px 28px;
 }
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  padding-top: 8px;
-  margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+padding-top: 8px;
+margin-bottom: 20px;
 }
 .search-line {
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  flex: 1;
-  gap: 8px;
-  vertical-align: middle;
+display: inline-flex;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+flex: 1;
+gap: 8px;
+vertical-align: middle;
 }
 label {
-  align-self: center;
-  color: var(--text-muted-search);
-  white-space: nowrap;
+align-self: center;
+color: var(--text-muted-search);
+white-space: nowrap;
 }
 #search-label {
-  display: none;
+display: none;
 }
 .search-input {
-  width: 100%;
-  flex: 1 1 600px;
-  height: 30px;
-  padding: 4px 12px;
-  border: 1px solid var(--border-color-search);
-  border-radius: 4px;
-  background: var(--input-bg-search);
-  color: var(--text-color-search);
-  outline: none;
+width: 100%;
+flex: 1 1 600px;
+height: 30px;
+padding: 4px 12px;
+border: 1px solid var(--border-color-search);
+border-radius: 4px;
+background: var(--input-bg-search);
+color: var(--text-color-search);
+outline: none;
 }
 .search-input:focus {
-  border-color: var(--primary-color-search);
-  box-shadow: inset 0 1px 2px #00000014;
+border-color: var(--primary-color-search);
+box-shadow: inset 0 1px 2px #00000014;
 }
 .sort-select {
-  height: 30px;
-  padding: 0 5px;
-  border: 1px solid var(--border-color-search);
-  border-radius: 4px;
-  background: var(--input-bg-search);
-  color: var(--text-color-search);
-  font-size: 12px;
-  cursor: pointer;
+height: 30px;
+padding: 0 5px;
+border: 1px solid var(--border-color-search);
+border-radius: 4px;
+background: var(--input-bg-search);
+color: var(--text-color-search);
+font-size: 12px;
+cursor: pointer;
 }
 .go-back-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  height: 30px;
-  padding: 0 12px;
-  border: 1px solid var(--border-color-search);
-  border-radius: 4px;
-  background: var(--input-bg-search);
-  color: var(--text-color-search);
-  font-size: 12px;
-  cursor: pointer;
-  transition: background 0.2s, border-color 0.2s;
+display: inline-flex;
+align-items: center;
+gap: 6px;
+height: 30px;
+padding: 0 12px;
+border: 1px solid var(--border-color-search);
+border-radius: 4px;
+background: var(--input-bg-search);
+color: var(--text-color-search);
+font-size: 12px;
+cursor: pointer;
+transition:
+background 0.2s,
+border-color 0.2s;
 }
 .go-back-btn:hover {
-  border-color: var(--primary-color-search);
-  color: var(--primary-color-search);
+border-color: var(--primary-color-search);
+color: var(--primary-color-search);
 }
 .go-back-btn svg {
-  width: 14px;
-  height: 14px;
+width: 14px;
+height: 14px;
 }
 .meta {
-  margin: 18px 0 14px;
-  color: var(--text-muted-search);
-  font-size: 12px;
+margin: 18px 0 14px;
+color: var(--text-muted-search);
+font-size: 12px;
 }
 .meta-match {
-  color: var(--link);
+color: var(--link);
 }
 .meta .highlight {
-  background: none;
-  color: inherit;
-  padding: 0;
+background: none;
+color: inherit;
+padding: 0;
 }
 .results {
-  max-width: 100%;
-  margin: 0;
+max-width: 100%;
+margin: 0;
 }
 .result {
-  margin: 0 0 18px;
+margin: 0 0 18px;
 }
-.result-title {
-  display: inline-block;
-  color: var(--link-color-search);
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 1.2;
-}
-.result-title:visited {
-  color: var(--visited-color-search);
-}
-.result-url {
-  max-width: 100%;
-  margin: 1px 0 2px;
-  overflow: hidden;
-  color: var(--url-color-search);
-  font-size: 13px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.result-snippet {
-  color: var(--text-color-search);
-  font-size: 13px;
-  line-height: 1.4;
-}
-.result-extra {
-  margin-top: 3px;
-  color: var(--text-muted-search);
-  font-size: 12px;
-}
-.empty,
-.error,
-.intro {
-  margin: 20px 0 0;
-  color: var(--text-color-search);
-}
-.error {
-  color: #ef4444;
-}
-.tips {
-  margin-top: 14px;
-  margin-bottom: 14px;
-  color: var(--text-muted-search);
-  font-size: 12px;
-}
-.meta-match {
-  color: var(--link-color-search);
-}
-.didyoumean a {
-  display: inline-block;
-  color: var(--link-color-search);
-  font-weight: bold;
-  line-height: 1.2;
-  cursor: pointer;
-}
-.state-hidden {
-  display: none !important;
-}
-.highlight {
-  padding: 1px 2px;
-  border-radius: 2px;
-  background: #fff804;
-  color: #000;
-}
-.progress-container {
-  display: none;
-  position: relative;
-  width: 100%;
-  height: 4px;
-  margin: 10px 0;
-  overflow: hidden;
-  border-radius: 2px;
-  background: var(--border-color-search);
-}
-.progress-bar {
-  position: absolute;
-  left: -30%;
-  width: 30%;
-  height: 100%;
-  background: var(--primary-color-search);
-  animation: progress-move 1.5s infinite linear;
-}
-.pager {
-  margin-top: 20px;
-}
-.pager-links {
-  display: flex;
-  gap: 15px;
-  margin-top: 8px;
-}
-@keyframes progress-move {
-  0% { left: -30%; width: 20%; }
-  50% { width: 50%; }
-  100% { left: 100%; width: 20%; }
-}
-@media (max-width: 700px) {
-  .page {
-    padding: 10px 12px 24px;
-  }
-  .hero {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-  .sort-select {
-    width: 100%;
-    margin-left: 0;
-  }
-  .search-input {
-    min-width: 0;
-  }
-  /* Responsive layout (image 02): the thumbnail FLOATS instead of holding a
-     flex column open. As a flex item it reserved a permanent 96px gutter and
-     squeezed the title, URL and snippet into a narrow column for the entire
-     height of the snippet. Floated, the same markup wraps beside the cell for
-     as many lines as it is tall and then returns to the full column width.
-
-     The title MUST be display:block here for that to happen. It is an
-     inline-block in the base rules, and an inline-block is an atomic inline:
-     it never overlaps a float, so the browser pushed the WHOLE title down below
-     the cell instead of letting it sit beside it. That left an empty band to
-     the right of the thumbnail - the exact hole this fixes - and then dropped
-     the URL and snippet below it too, wasting the full width of every row.
-
-     As a block the title's own line boxes wrap around the float, so the title
-     occupies the space beside the thumbnail and the URL follows underneath it. */
-  .result--thumb {
-    display: flow-root;
-  }
-  .result--thumb .result-body {
-    display: block;
-    flex: none;
-  }
-  .result--thumb .result-title {
-    display: block;
-  }
-  .result-thumb {
-    float: left;
-    width: 64px;
-    height: 64px;
-    margin: 0 10px 6px 0;
-  }
-}
---wpx-thumb-placeholder: url("mu-plugins/wptr-icon-image.svg");
---wpx-thumb-placeholder-quote: url("mu-plugins/wptr-icon-quote.svg");
 /* Thumbnail column. The renderer adds .result--thumb to EVERY result while the
    feature is on - not just the ones with media - so the list keeps a single
    left edge. Turning the setting off removes it and the plain block layout
@@ -534,14 +393,19 @@ label {
   min-width: 0;
   flex: 1 1 auto;
 }
-/* Image cell (mirrors the live page's .result-thumb rules): 96px square with
-   the theme's media radius, starting at opacity 0 and fading in via .is-loaded
-   so the layout never jumps and nothing flashes at full size. */
 .result-thumb {
+  /* display:block so the empty <span> placeholder is sized by width/height
+     exactly like the <img>; an inline box would ignore both. */
   display: block;
   flex: 0 0 auto;
   width: 96px;
   height: 96px;
+  /* No border. The theme paints media with var(--media-border), but that is
+     deliberately NOT inherited here: at 96px the dotted frame reads as noise
+     around every row. Only the corner radius is taken from the theme
+     (--media-radius, forwarded by cbs_theme_vars() and identical in light and
+     dark mode), so the thumbs still match the theme's media shape while the
+     image sits directly on the panel background. */
   border: 0;
   border-radius: var(--media-radius, 10px);
   object-fit: cover;
@@ -549,24 +413,33 @@ label {
   opacity: 0;
   transition: opacity 0.2s;
 }
+/* The real image has landed: fade it in over the placeholder. */
 .result-thumb.is-loaded {
   opacity: 1;
 }
-/* Download failed: an in-place span keeps the cell. The photo glyph shows the
-   result HAD media - the data IS in the resolver answer (the CDN merely 4xx'd
-   this time). Hiding it would misreport the post as having no media at all. */
+/* The post HAS media but every URL for it failed (see the error handler in
+   loadThumbs). Fall back to the photo glyph, because a picture was expected and
+   only failed to load - not a text-only post. The failed <img> is swapped for a
+   plain <span> by that handler, because ::after cannot render on a replaced
+   element; this rule therefore paints into an ordinary box and needs none of the
+   broken-image suppression a dead <img> would have required. */
 .result-thumb.is-failed {
   opacity: 1;
   background-color: var(--input-bg-search);
   /* Anchor for the ::after glyph layer. The glyph cannot be painted as a
-     background-image here for the same reason as on .is-none: a data: URI is
-     an isolated document, so custom properties cannot reach a fill inside it.
-     It is masked instead, which reads only the alpha channel and lets the
-     colour come from CSS. That forces the glyph onto its own layer, because
-     background-color always paints *under* background-image - both on one
-     element would hide the glyph colour behind the cell fill. */
+     background-image here for the same reason as on .is-none: a data: URI is an
+     isolated document, so custom properties cannot reach a fill inside it. It is
+     masked instead, which reads only the alpha channel and lets the colour come
+     from CSS. That forces the glyph onto its own layer, because
+     background-color always paints *under* background-image - both on one element
+     would hide the glyph colour behind the cell fill. */
   position: relative;
 }
+/* Photo mark, drawn as a mask so it takes the theme's --link colour, exactly as
+   the quote glyph does on .is-none::after. Only the alpha channel of the data URI
+   is used; the colour and the translucency both come from CSS below.
+   -webkit-mask-* is kept alongside mask-* for Safari < 15.4, which ships only
+   the prefixed form. */
 .result-thumb.is-failed::after {
   content: "";
   position: absolute;
@@ -574,32 +447,45 @@ label {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--link-color-search);
+  background-color: var(--link);
   /* The translucency the glyph used to carry as opacity="0.55" inside the SVG,
      now applied here so it stays tunable without regenerating the data URI. */
   opacity: 0.55;
-  -webkit-mask-image: var(--wpx-thumb-placeholder);
-  mask-image: var(--wpx-thumb-placeholder);
+  -webkit-mask-image: var(--cbs-thumb-placeholder-image);
+  mask-image: var(--cbs-thumb-placeholder-image);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
   mask-position: center;
-  /* Square viewBox (100 x 100), so a single percentage scales both axes and
-     the mark stays centred and undistorted in the square cell. */
+  /* Square viewBox (100 x 100), so a single percentage scales both axes and the
+     mark stays centred and undistorted in the square cell. */
   -webkit-mask-size: 55%;
   mask-size: 55%;
 }
-/* No media at all: the quotation glyph marks the result as text-only. The
-   in-place span keeps the CELL, so the body text starts at the same horizontal
-   position whether the result has media, a failed download, or none at all -
-   the list keeps one clean left edge either way. */
+/* No usable media: an empty reserved cell. It keeps the row height and the
+   shared left edge, but it no longer shows the photo mark: a post with no media
+   would display "missing picture" forever while never resolving to one. A
+   quotation mark says why the cell is empty instead - this is a text-only post.
+   The photo glyph stays on the <img> above, where the image really is coming. */
 .result-thumb.is-none {
   opacity: 1;
   background-color: var(--input-bg-search);
-  /* Anchor for the ::after glyph layer below. The mobile override only
-     resizes .result-thumb, so the layer follows the cell automatically. */
+  /* Anchor for the ::after glyph layer below. The mobile override only resizes
+     .result-thumb, so the layer follows the cell automatically. */
   position: relative;
 }
+/* The quote glyph is NOT painted as a background-image here.
+   A data: URI is an isolated document, so CSS custom properties never cascade
+   into it: a fill="var(--link)" written inside the SVG would not resolve, and
+   the glyph could never follow the theme. Using the same SVG as a MASK reads
+   only its alpha channel, so the colour can come from this layer's own
+   background-color - which is what finally lets the quote track var(--link)
+   (#24890d light / #0fa dark) exactly like every other accent on the page.
+   A separate ::after is required because background-color is always painted
+   *under* background-image: painting both on this element would let the cell
+   fill hide the glyph colour entirely.
+   -webkit-mask-* is kept alongside mask-* for Safari < 15.4, which ships only
+   the prefixed form. */
 .result-thumb.is-none::after {
   content: "";
   position: absolute;
@@ -607,11 +493,12 @@ label {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--link-color-search);
-  /* See the .is-failed::after note: colour from CSS, shape from the mask. */
+  background-color: var(--link);
+  /* The translucency the glyph used to carry as opacity="0.55" inside the SVG,
+     now applied here so it stays tunable without regenerating the data URI. */
   opacity: 0.55;
-  -webkit-mask-image: var(--wpx-thumb-placeholder-quote);
-  mask-image: var(--wpx-thumb-placeholder-quote);
+  -webkit-mask-image: var(--cbs-thumb-placeholder-quote);
+  mask-image: var(--cbs-thumb-placeholder-quote);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -622,23 +509,137 @@ label {
   -webkit-mask-size: 58%;
   mask-size: 58%;
 }
+
+.result-title {
+display: inline-block;
+color: var(--link);
+font-size: 15px;
+font-weight: bold;
+line-height: 1.2;
+}
+.result-title:visited {
+color: var(--link);
+}
+.result-url {
+max-width: 100%;
+margin: 1px 0 2px;
+overflow: hidden;
+color: var(--url-color-search);
+font-size: 13px;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.result-snippet {
+color: var(--text-color-search);
+font-size: 13px;
+line-height: 1.4;
+}
+.result-extra {
+margin-top: 3px;
+color: var(--text-muted-search);
+font-size: 12px;
+}
+.empty,
+.error,
+.intro {
+margin: 20px 0 0;
+color: var(--text-color-search);
+}
+.error {
+color: #ef4444;
+}
+.tips {
+margin-top: 14px;
+margin-bottom: 14px;
+color: var(--text-muted-search);
+font-size: 12px;
+}
+.didyoumean a {
+display: inline-block;
+color: var(--link);
+font-weight: bold;
+line-height: 1.2;
+cursor: pointer;
+}
+.state-hidden {
+display: none !important;
+}
+.highlight {
+padding: 1px 2px;
+border-radius: 2px;
+background: #fff804;
+color: #000;
+}
+.progress-container {
+display: none;
+position: relative;
+width: 100%;
+height: 4px;
+margin: 10px 0;
+overflow: hidden;
+border-radius: 2px;
+background: var(--border-color-search);
+}
+.progress-bar {
+position: absolute;
+left: -30%;
+width: 30%;
+height: 100%;
+background: var(--primary-color-search);
+animation: progress-move 1.5s infinite linear;
+}
+.pager {
+margin-top: 20px;
+}
+.pager-links {
+display: flex;
+gap: 15px;
+margin-top: 8px;
+}
+@keyframes progress-move {
+0% {
+left: -30%;
+width: 20%;
+}
+50% {
+width: 50%;
+}
+100% {
+left: 100%;
+width: 20%;
+}
+}
 @media (max-width: 700px) {
-  /* Responsive layout (image 02): the thumbnail FLOATS instead of holding a
-     flex column open. As a flex item it reserved a permanent gutter and
-     squeezed the title, URL and snippet into a narrow column for the entire
-     height of the snippet. Floated, the same markup wraps beside the cell for
-     as many lines as it is tall and then returns to the full column width.
+.page {
+padding: 10px 12px 24px;
+}
+.hero {
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+.sort-select {
+width: 100%;
+margin-left: 0;
+}
+.search-input {
+min-width: 0;
+}
+/* Responsive layout (image 02): the thumbnail FLOATS instead of holding a
+   flex column open. As a flex item it reserved a permanent 64px gutter and
+   squeezed the title, URL and snippet into a narrow column for the entire
+   height of the snippet. Floated, the same markup wraps beside the cell for as
+   many lines as it is tall and then returns to the full column width.
 
-     The title MUST be display:block here for that to happen. It is an
-     inline-block in the base rules, and an inline-block is an atomic inline:
-     it never overlaps a float, so the browser pushed the WHOLE title down
-     below the cell instead of letting it sit beside it. That left an empty
-     band to the right of the thumbnail - the exact hole this fixes - and then
-     dropped the URL and snippet below it too, wasting the full width of every
-     row.
+   The title MUST be display:block here for that to happen. It is an
+   inline-block in the base rules, and an inline-block is an atomic inline: it
+   never overlaps a float, so the browser pushed the WHOLE title down below the
+   64px cell instead of letting it sit beside it. That left an empty band to the
+   right of the thumbnail - the exact hole this fixes - and then dropped the URL
+   and snippet below it too, wasting the full width of every row.
 
-     As a block the title's own line boxes wrap around the float, so the title
-     occupies the space beside the thumbnail and the URL follows underneath. */
+   As a block the title's own line boxes wrap around the float, so the title
+   occupies the space beside the thumbnail and the URL follows underneath it. */
   .result--thumb {
     display: flow-root;
   }
@@ -655,7 +656,13 @@ label {
     height: 64px;
     margin: 0 10px 6px 0;
   }
-}</style>
+
+}
+:root {
+--cbs-thumb-placeholder-image: url("mu-plugins/wptr-icon-image.svg");
+--cbs-thumb-placeholder-quote: url("mu-plugins/wptr-icon-quote.svg");
+}
+</style>
 </head>
 <body>
 <main class="page" id="page">
@@ -668,9 +675,6 @@ label {
 <label for="q" id="search-label">Pesquisar:</label>
 <input id="q" class="search-input" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="">
 </form>
-<button type="button" class="post-content-toggle" aria-pressed="false">
-<span class="screen-reader-text">Mostrar o texto dos posts</span>
-</button>
 <select id="sort-select" class="sort-select" aria-label="Ordenar">
 <option value="relevance" id="opt-relevance" selected>Melhores resultados</option>
 <option value="newest" id="opt-newest">Mais Recentes</option>
@@ -997,19 +1001,17 @@ function titleMatchTier(normTitle, phrases, terms){
 }
 /* Full phrase inside a substantial body - port of cbs_body_phrase_tier(). */
 function bodyPhraseTier(normBody, phrases){
-  var longest = '';
-  (phrases || []).forEach(function(phrase){ if (phrase.length > longest.length) longest = phrase; });
-  if (longest.length < 5) return false;
-  var words = String(longest).split(' ').filter(Boolean).length;
-  if (words < 2) return false;
-  /* cbs_body_phrase_min_ratio(): a phrase this short must fill a meaningful
-     share of the body - the same 4.0 ratio the live page applies. */
-  var minLen = Math.floor(normBody.length / 4.0);
-  if (minLen < 150) minLen = 150;
-  if (longest.length < minLen) return false;
-  return (' ' + normBody + ' ').indexOf(' ' + longest + ' ') !== -1;
-}
-/* Coverage - port of cbs_body_coverage_map(): fraction of significant terms
+  var body = String(normBody || '');
+  if (!body || phraseWordCount(phrases) < 2) return false;
+  var padded = ' ' + body + ' ';
+  for (var i = 0; i < (phrases || []).length; i++) {
+    var phrase = String(phrases[i] || '').trim();
+    if (!phrase || phrase.indexOf(' ') === -1) continue;
+    if (padded.indexOf(' ' + phrase + ' ') === -1) continue;
+    if (body.length >= Math.max(120, Math.ceil(phrase.length * 4))) return true;
+  }
+  return false;
+}/* Coverage - port of cbs_body_coverage_map(): fraction of significant terms
    found in the post's title + full body. */
 function bodyCoverageOf(row, terms){
   var significant = (terms || []).filter(function(t){ return t.length > 1 || /\p{N}/u.test(t); });
@@ -1407,41 +1409,22 @@ function esc(v){
 function getHighlightTerms(q){
   if (!q) return [];
   var text = q;
-  /* Operator tokens and exclusions are blanked FIRST, in the same order the
-     live page uses, so neither they nor a quoted phrase buried inside them can
-     reach the highlight list: author:/after:/before:/id:, relatedsearch:,
-     -word and -"phrase" exclusions, and the OR keyword. */
   text = text.replace(/\b(?:author|after|before|id|relatedsearch(?:\[[^\]]+\])?):(?:"[^"]+"|'[^']+'|\S+)/gi, ' ');
   text = text.replace(/(^|\s)-(?:"[^"]*"|'[^']*'|\S+)/g, ' ');
   text = text.replace(/(^|\s)OR(?=\s|$)/g, ' ');
-  /* Quoted phrases are collected now, with their spaces kept, so a phrase stays
-     ONE term and highlights as a single block (live page behaviour). */
   var phrases = [], pm, phraseRe = /"([^"]+)"|'([^']+)'/g;
   while ((pm = phraseRe.exec(text)) !== null) {
-    var ph = (pm[1] || pm[2] || '').trim();
-    if (ph) phrases.push(ph);
+    var phrase = (pm[1] || pm[2] || '').trim();
+    if (phrase) phrases.push(phrase);
   }
-  /* Quotes (and the | alternative separator) are syntax, not content. */
-  text = text.replace(/["'|]/g, ' ');
-  text = text.replace(/\s+/g, ' ').trim();
-  /* THE WHOLE QUERY IS ONE TERM.
-     The previous behaviour split the query into words, so every word of a
-     multi-word query was highlighted anywhere it appeared on its own: searching
-     "a chegada" lit up every stray "a" and every unrelated "chegada" across the
-     title, URL, snippet, tags and categories. Only the exact phrase is
-     highlighted now, as a single block. */
-  var terms = [];
-  if (text) terms.push(text);
-  phrases.forEach(function(p){ terms.push(p); });
-  var seen = {}, uniq = [];
-  terms.forEach(function(t){
-    var k = t.toLowerCase();
-    if (!seen[k]) { seen[k] = true; uniq.push(t); }
+  var seen = {}, unique = [];
+  phrases.forEach(function(phrase){
+    var key = phrase.toLowerCase();
+    if (!seen[key]) { seen[key] = true; unique.push(phrase); }
   });
-  uniq.sort(function(a, b){ return b.length - a.length; });
-  return uniq;
-}
-function highlight(text, q){
+  unique.sort(function(a, b){ return b.length - a.length; });
+  return unique;
+}function highlight(text, q){
   var safe = esc(text);
   var terms = getHighlightTerms(q);
   if (!terms.length) return safe;
