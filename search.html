@@ -1398,8 +1398,8 @@ function keywordSnippet(text, terms, radius, maxWindows){
 /* -- Highlighting — port of the live plugin's helpers -- */
 var _decoder = document.createElement('div');
 function decodeEntities(s){
-  _decoder.textContent = s == null ? '' : String(s);
-  return _decoder.innerHTML;
+  _decoder.innerHTML = s == null ? '' : String(s);
+  return _decoder.textContent;
 }
 function esc(v){
   var d = document.createElement('div');
