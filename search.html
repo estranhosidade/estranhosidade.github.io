@@ -261,7 +261,8 @@ background-image: var(--dark-bg-image, none);
 }
 .search-input,
 .sort-select,
-.go-back-btn {
+.go-back-btn,
+.search-btn {
 background-color: var(--input-bg-search);
 }
 }
@@ -359,6 +360,31 @@ color: var(--primary-color-search);
 .go-back-btn svg {
 width: 14px;
 height: 14px;
+}
+.search-btn {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+height: 34px;
+width: 34px;
+padding: 0;
+border: 1px solid var(--border-color-search);
+border-radius: 4px;
+background: var(--input-bg-search);
+color: var(--text-color-search);
+cursor: pointer;
+transition:
+background 0.2s,
+border-color 0.2s,
+color 0.2s;
+}
+.search-btn:hover {
+border-color: var(--primary-color-search);
+color: var(--primary-color-search);
+}
+.search-btn svg {
+width: 16px;
+height: 16px;
 }
 .meta {
 margin: 18px 0 14px;
@@ -674,6 +700,7 @@ min-width: 0;
 </button>
 <label for="q" id="search-label">Pesquisar:</label>
 <input id="q" class="search-input" type="search" name="q" autocomplete="off" spellcheck="false" placeholder="">
+<button type="button" id="search-btn" class="search-btn" title="Search"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
 </form>
 <select id="sort-select" class="sort-select" aria-label="Ordenar">
 <option value="relevance" id="opt-relevance" selected>Melhores resultados</option>
@@ -704,6 +731,7 @@ var progEl   = document.getElementById('progress');
 var resEl    = document.getElementById('results');
 var pagerEl  = document.getElementById('pager');
 var goBackBtn = document.getElementById('go-back');
+var searchBtn = document.getElementById('search-btn');
 if (!form || !input || !resEl) return;
 
 /* Fill the localised bits of the static markup (same ids as the live page). */
@@ -725,6 +753,10 @@ if (optZa && i18n.za) optZa.textContent = i18n.za;
 var indexPromise = null;
 var currentQuery = '';
 var timer        = null;
+var lastPushedQuery = null;
+var lastPushedPage = null;
+var lastPushedSort = null;
+var pushTimer    = null;
 var state        = { q: '', rows: [], parsed: null, did_you_mean: null };
 /* Expose the search internals so tests (and the DeepSearch overlay parent
    frame, when this page is embedded) can drive them directly. Harmless in
@@ -1604,17 +1636,42 @@ function renderPager(page, pages){
 }
 
 function search(q, page, push){
+  clearTimeout(pushTimer);
+  pushTimer = null;
   currentQuery = String(q || '').trim();
   var sort = sortEl ? sortEl.value : 'relevance';
   clearTimeout(timer);
   if (!currentQuery) {
-    history.replaceState(null, '', location.pathname);
+    if (push !== false) history.replaceState(null, '', location.pathname);
+    lastPushedQuery = null;
+    lastPushedPage = null;
+    lastPushedSort = null;
     intro();
     return;
   }
   if (push !== false) {
-    history.replaceState(null, '', location.pathname + '?q=' + encodeURIComponent(currentQuery)
-      + '&page=' + page + '&sort=' + encodeURIComponent(sort));
+    var isPrefixRelated = lastPushedQuery !== null &&
+      (currentQuery.indexOf(lastPushedQuery) === 0 || lastPushedQuery.indexOf(currentQuery) === 0);
+    var stateChanged = !isPrefixRelated || page !== lastPushedPage || sort !== lastPushedSort;
+    var urlBase = location.pathname + '?q=' + encodeURIComponent(currentQuery)
+      + '&page=' + page + '&sort=' + encodeURIComponent(sort);
+    history.replaceState(null, '', urlBase);
+    if (stateChanged) {
+      var capturedQuery = currentQuery;
+      var capturedPage = page;
+      var capturedSort = sort;
+      pushTimer = setTimeout(function(){
+        if (currentQuery !== capturedQuery) return;
+        history.pushState({ q: capturedQuery, page: capturedPage, sort: capturedSort }, '', urlBase);
+        lastPushedQuery = capturedQuery;
+        lastPushedPage = capturedPage;
+        lastPushedSort = capturedSort;
+      }, 4000);
+    } else {
+      lastPushedQuery = currentQuery;
+      lastPushedPage = page;
+      lastPushedSort = sort;
+    }
   }
   fbEl.innerHTML = '<div class="meta">' + esc(i18n.searching_for) + ' <b class="meta-match">' + esc(currentQuery) + '</b>...</div>';
   resEl.innerHTML = '';
@@ -1652,6 +1709,12 @@ if (sortEl) {
     search(input.value, 1, true);
   });
 }
+if (searchBtn) {
+  searchBtn.addEventListener('click', function(){
+    clearTimeout(timer);
+    search(input.value, 1, true);
+  });
+}
 if (goBackBtn) {
   goBackBtn.addEventListener('click', function(){
     /* When embedded in the DeepSearch overlay iframe, "Go back" should
@@ -1669,6 +1732,26 @@ if (typeof window !== 'undefined' && window.addEventListener) {
       input.value = e.data.query;
       clearTimeout(timer);
       timer = setTimeout(function(){ search(e.data.query, 1, false); }, 400);
+    }
+  });
+}
+
+if (typeof window !== 'undefined' && window.addEventListener) {
+  window.addEventListener('popstate', function(){
+    clearTimeout(timer);
+    clearTimeout(pushTimer);
+    pushTimer = null;
+    var p = new URLSearchParams(location.search);
+    var q = (p.get('q') || p.get('s') || '').trim();
+    var page = Math.max(1, parseInt(p.get('page') || '1', 10) || 1);
+    var sp = p.get('sort') || 'relevance';
+    if (sortEl && (sp === 'newest' || sp === 'oldest' || sp === 'relevance' || sp === 'az' || sp === 'za')) sortEl.value = sp;
+    if (q) {
+      input.value = q;
+      search(q, page, false);
+    } else {
+      input.value = '';
+      intro();
     }
   });
 }

@@ -187,6 +187,7 @@
         },
         "textos": {
             "files": [
+                "data-category-textos-02.json",
                 "data-category-textos-01.json"
             ],
             "cats": {
