@@ -1,6 +1,6 @@
 {
     "version": "2.13.0",
-    "generatedAt": "2026-10-28T09:02:28+00:00",
+    "generatedAt": "2026-10-31T00:31:46+00:00",
     "chunkCount": 155,
     "chunks": [
         {
@@ -935,11 +935,13 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2647,
+    "totalPosts": 2649,
     "firstChunk": "data-mounth-2026-10_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-10-30-por-que-a-direita-nao-abandonou-o-bolsonarismo.html": "data-mounth-2026-10_01.json",
+        "2026-10-30-diario-30-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-27-o-software-ainda-importara-quando-a-ia-escrever-todos-os-nossos-programas.html": "data-mounth-2026-10_01.json",
         "2026-10-27-diario-27-10-2026.html": "data-mounth-2026-10_01.json",
         "2026-10-26-diario-26-10-2026.html": "data-mounth-2026-10_01.json",
@@ -975,7 +977,7 @@
         "2026-09-22-diario-22-09-2026.html": "data-mounth-2026-09_01.json",
         "2026-09-21-programa-apollo-e-as-pontes-incompletas.html": "data-mounth-2026-09_01.json",
         "2026-09-19-diario-19-09-2026-the-role-swapper-01.html": "data-mounth-2026-09_01.json",
-        "2026-09-18-ninguem-sai-vivo-daqui-mas-eu-saio-brigando.html": "data-mounth-2026-09_01.json",
+        "2026-09-18-belchior-ai-cover-ninguem-sai-vivo-daqui-mas-eu-saio-brigando.html": "data-mounth-2026-09_01.json",
         "2026-09-17-diario-17-08-2026-ce-vai-perder.html": "data-mounth-2026-09_01.json",
         "2026-09-16-the-os-is-the-workflow.html": "data-mounth-2026-09_01.json",
         "2026-09-16-diario-15-09-2026.html": "data-mounth-2026-09_01.json",

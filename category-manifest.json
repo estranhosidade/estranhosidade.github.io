@@ -137,6 +137,14 @@
                 "galeria": "Galeria"
             }
         },
+        "gifsmp4": {
+            "files": [
+                "data-category-gifsmp4-01.json"
+            ],
+            "cats": {
+                "gifsmp4": "GifsMP4"
+            }
+        },
         "historia": {
             "files": [
                 "data-category-historia-01.json"
@@ -187,6 +195,7 @@
         },
         "textos": {
             "files": [
+                "data-category-textos-03.json",
                 "data-category-textos-02.json",
                 "data-category-textos-01.json"
             ],

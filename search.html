@@ -362,21 +362,18 @@ width: 14px;
 height: 14px;
 }
 .search-btn {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-height: 34px;
-width: 34px;
-padding: 0;
-border: 1px solid var(--border-color-search);
-border-radius: 4px;
-background: var(--input-bg-search);
-color: var(--text-color-search);
-cursor: pointer;
-transition:
-background 0.2s,
-border-color 0.2s,
-color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 34px;
+    padding: 0;
+    border: 1px solid var(--border-color-search);
+    border-radius: 4px;
+    background: var(--input-bg-search);
+    color: var(--text-color-search);
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 .search-btn:hover {
 border-color: var(--primary-color-search);
@@ -717,7 +714,7 @@ min-width: 0;
 <section id="results" class="results"></section>
 <div id="pager" class="pager state-hidden"></div>
 </main>
-<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"baseUrl":"https://estranhosidade.github.io/","i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais Recentes","oldest":"Mais Antigos","relevance":"Melhores resultados","az":"Ordem Alfabética A à Z","za":"Ordem Alfabética Z à A","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","showing_corrected":"Mostrando resultados para","search_instead_for":"Pesquisar literalmente por","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]},"thumbs":true,"typoFix":true};(function(){
+<script>var WPX_SEARCH={"indexUrl":"search-index.json","perPage":10000,"baseUrl":"https://estranhosidade.github.io/","i18n":{"search_label":"Pesquisar:","go_back":"Voltar","newest":"Mais Recentes","oldest":"Mais Antigos","relevance":"Melhores resultados","az":"Ordem Alfabética A à Z","za":"Ordem Alfabética Z à A","no_results":"Nenhuma página correspondeu à sua pesquisa.","searching_for":"Pesquisando por","about":"Cerca de","results_for":"resultados para","result_for":"resultado para","created_on":"Criado em:","tags":"Tags:","categories":"Categorias:","previous":"Anterior","next":"Próximo","intro":"Pesquise posts usando a interface de pesquisa estilo arquivo.","relatedsearch_detected":"(relatedsearch detectado; a correspondência relacionada ainda não está disponível no backend do WordPress)","showing_corrected":"Mostrando resultados para","search_instead_for":"Pesquisar literalmente por","no_text_preview":"Nenhuma pré-visualização de texto disponível.","search_error":"Erro na pesquisa:","operators_hint":"Dica: \"frase exata\" · OR (maiúsculas) para alternativa · -palavra exclui · author:nome · after:2024 · before:2024-06 · id:123","untitled":"Sem título","not_available":"N/D","months":["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]},"thumbs":true,"typoFix":true,"aliases":{"marsiglia_andre":"Andre Marcilia","marsiglia andre":"Andre Marcilia","marsiglia andre-":"Andre Marcilia","marsiglia_andre-":"Andre Marcilia","marsiglia-andre":"Andre Marcilia"}};(function(){
 "use strict";
 var cfg      = WPX_SEARCH;
 var i18n     = cfg.i18n || {};
@@ -792,6 +789,26 @@ function parseQuery(query){
   var out = { text: '', alternates: [], excludes: [], author: '', after: '', before: '', id: 0, related: '' };
   query = String(query || '').trim();
   if (!query) return out;
+// Decode percent-encoded input.
+try { query = decodeURIComponent(String(query).replace(/\+/g, ' ')); } catch (_) {}
+// Internal aliases (port of cbs_apply_search_aliases).
+var CBS_ALIASES = (typeof cfg !== 'undefined' && cfg && cfg.aliases) ? cfg.aliases : {
+  "marsiglia_andre": "Andre Marcilia",
+  "marsiglia andre": "Andre Marcilia",
+  "marsiglia andre-": "Andre Marcilia",
+  "marsiglia_andre-": "Andre Marcilia",
+  "marsiglia-andre": "Andre Marcilia"
+};
+Object.keys(CBS_ALIASES).forEach(function(alias){
+  var canonical = CBS_ALIASES[alias];
+  var base = alias.replace(/[-_\s]+/g, ' ').trim();
+  var variants = [alias, base, base.replace(/ /g,'_'), base.replace(/ /g,'-'), base + '-'];
+  variants.forEach(function(v){
+    if (!v) return;
+    var re = new RegExp(v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+    query = query.replace(re, canonical);
+  });
+});
   var quoted = [];
   var working = query.replace(/(?:^|\s)(-?)(["'])(.*?)\2/g, function(m, neg, q, inner){
     var key = '__CBS_QUOTE_' + quoted.length + '__';
@@ -824,6 +841,12 @@ function parseQuery(query){
     text.push(qt !== null ? '"' + qt + '"' : token);
   });
   out.text = text.join(' ').trim();
+// Slug/URL-style input: replace hyphens/underscores with spaces.
+if (out.text !== '') {
+  out.text = out.text.replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim();
+}
+// Same for excludes.
+out.excludes = out.excludes.map(function(e){ return String(e).replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim(); });
   var alternates = [];
   if (out.text !== '') {
     out.text.split(/\s*\|\s*/).forEach(function(alt){
