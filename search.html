@@ -1515,7 +1515,7 @@ function renderResult(row, q, parsed){
   var terms = snippetTerms(parsed && parsed.alternates ? parsed.alternates : []);
   var body = itemBody(item);
   var snippet = (body && terms.length) ? keywordSnippet(body, terms) : null;
-  if (snippet === null) snippet = item.summary || i18n.no_text_preview;
+  if (snippet === null) snippet = item.summary || '';
   var tags = (item.tags || []).map(termName).filter(Boolean);
   var cats = (item.cats || []).map(termName).filter(Boolean);
 

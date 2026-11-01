@@ -3797,7 +3797,23 @@ img:not(.spinner, .gallery_films__item *) {
 }
 
 video {
+    width: auto !important;
+    height: auto !important;
+    max-width: min(var(--video-max-height), 100%) !important;
     max-height: var(--video-max-height);
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 10px !important;
+    border: var(--media-border) !important;
+}
+
+/* Keep the shortcode wrapper from stretching beyond the video's max width,
+   so the border (and the player) follow the video instead of the container. */
+.wp-video {
+    max-width: min(var(--video-max-height), 100%) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 /* Hold the dotted border back until the media has actually rendered.
