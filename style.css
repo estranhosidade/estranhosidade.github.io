@@ -4074,15 +4074,23 @@ body.single-post #main > #main-content > #primary {
 }
     
     
+/* The live theme places .month-header directly in #content. The static
+   exporter inserts the feed wrapper, so its month header is one level deeper:
+   #content > #wpx-feed > .month-header. Support both structures. */
 #main > #primary:has(#content > .month-header),
-#main > #main-content > #primary:has(#content > .month-header) {
+#main > #main-content > #primary:has(#content > .month-header),
+#main > #primary:has(#content > #wpx-feed > .month-header),
+#main > #main-content > #primary:has(#content > #wpx-feed > .month-header) {
     padding-top: 10px !important;
 }
 }
 
 @media screen and (width <= 583px) {
+/* Also match the static export's #content > #wpx-feed wrapper. */
 #main > #primary:has(#content > .month-header),
-#main > #main-content > #primary:has(#content > .month-header) {
+#main > #main-content > #primary:has(#content > .month-header),
+#main > #primary:has(#content > #wpx-feed > .month-header),
+#main > #main-content > #primary:has(#content > #wpx-feed > .month-header) {
     padding-top: 10px !important;
 }
 }
