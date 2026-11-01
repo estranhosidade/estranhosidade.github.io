@@ -1,0 +1,26 @@
+{
+    "type": "gifsmp4",
+    "segment": 1,
+    "cats": {
+        "gifsmp4": "GifsMP4"
+    },
+    "posts": {
+        "gifsmp4": [
+            {
+                "id": 41807,
+                "title": "Diário: 30/10/2026",
+                "date": "2026-10-30",
+                "url": "reader.html#2026-10-30-diario-30-10-2026.html",
+                "tags": [
+                    "ballet",
+                    "tights"
+                ],
+                "cats": [
+                    "gifsmp4"
+                ],
+                "month": "2026-10",
+                "format": "aside"
+            }
+        ]
+    }
+}
