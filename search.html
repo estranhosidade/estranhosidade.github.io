@@ -298,7 +298,7 @@ margin-bottom: 20px;
 .search-line {
 display: inline-flex;
 align-items: center;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 width: 100%;
 flex: 1;
 gap: 8px;
@@ -314,7 +314,8 @@ display: none;
 }
 .search-input {
 width: 100%;
-flex: 1 1 600px;
+min-width: 0;
+	flex: 1 1 auto;
 height: 30px;
 padding: 4px 12px;
 border: 1px solid var(--border-color-search);
@@ -378,6 +379,7 @@ height: 14px;
     height: 30px;
     width: 34px;
     padding: 0;
+    flex-shrink: 0;
     border: 1px solid var(--border-color-search);
     border-radius: 4px;
     background: var(--input-bg-search);

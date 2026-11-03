@@ -4086,7 +4086,7 @@ body.single-post #main > #main-content > #primary {
 }
 
 @media screen and (width <= 583px) {
-/* Also match the static export's #content > #wpx-feed wrapper. */
+.site-content .entry-header,
 #main > #primary:has(#content > .month-header),
 #main > #main-content > #primary:has(#content > .month-header),
 #main > #primary:has(#content > #wpx-feed > .month-header),
