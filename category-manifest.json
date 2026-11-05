@@ -123,6 +123,7 @@
         },
         "filosofia": {
             "files": [
+                "data-category-filosofia-02.json",
                 "data-category-filosofia-01.json"
             ],
             "cats": {

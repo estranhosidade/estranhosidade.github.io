@@ -3429,6 +3429,10 @@ a.citation + a.citation { margin-left: -10px !important; }
   background-color: var(--code-bg);
   border: 1px solid var(--accent);
  }
+ 
+ .spinner {
+    filter: invert(1);
+}
 }
 
 /* ==========================================================================
@@ -4049,51 +4053,9 @@ html.js img:not(.spinner):not(.is-loaded) {
    End of film gallery
    ========================================================================== */
 
-
-
-
 .site-main {margin-bottom: 50px}
 
-/* ==========================================================================
-   HEADER ADJUSTS
-   ========================================================================== */
 
-@media screen and (width >= 583px) {
-  .widget-area.content-sidebar,
-  #main > #primary, #main > #main-content > #primary {
-    padding-top: 20px !important;
-  }
-}
-
-@media screen and (width >= 583px) {
-
-/* single posts and bigger resolutions*/
-body.single-post #main > #primary,
-body.single-post #main > #main-content > #primary {
-    padding-top: 20px !important;
-}
-    
-    
-/* The live theme places .month-header directly in #content. The static
-   exporter inserts the feed wrapper, so its month header is one level deeper:
-   #content > #wpx-feed > .month-header. Support both structures. */
-#main > #primary:has(#content > .month-header),
-#main > #main-content > #primary:has(#content > .month-header),
-#main > #primary:has(#content > #wpx-feed > .month-header),
-#main > #main-content > #primary:has(#content > #wpx-feed > .month-header) {
-    padding-top: 10px !important;
-}
-}
-
-@media screen and (width <= 583px) {
-.site-content .entry-header,
-#main > #primary:has(#content > .month-header),
-#main > #main-content > #primary:has(#content > .month-header),
-#main > #primary:has(#content > #wpx-feed > .month-header),
-#main > #main-content > #primary:has(#content > #wpx-feed > .month-header) {
-    padding-top: 10px !important;
-}
-}
 
 /* === Inlined from genericons/genericons.css === */
 @font-face {
