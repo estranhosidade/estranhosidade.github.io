@@ -262,15 +262,26 @@
 
 	function renderPosts(data, slug){
 		var termMap  = type==='tag' ? data.tags : (type==='cat' ? data.cats : (type==='format' ? (data.formats||{}) : data.months));
-		var termName = termMap[slug] || slug;
+		var termName = termMap[slug] || (slug==='standard'?'PadrÃ£o':slug);
 		headEl.textContent=termName;
 		var filtered=data.posts.filter(function(p){
 			if(type==='month') return p.month===slug;
-			if(type==='format') return (p.format||'')===slug;
+			if(type==='format') return (p.format||'standard')===slug;
 			return (type==='tag'?p.tags:p.cats).indexOf(slug)!==-1;
 		});
 		if(!filtered.length){ showNoResults(); return; }
-		postsEl.innerHTML=filtered.map(card).join('');
+		var lastMonth=null;
+		var html='';
+		filtered.forEach(function(p){
+			var mk=String(p.month||'').slice(0,7);
+			if(mk && mk!==lastMonth){
+				var label=(data.months && data.months[mk]) || mk;
+				html += '<div class="month-header" data-month="'+esc(mk)+'"><h1 class="month-title">'+esc(label)+'</h1></div>';
+				lastMonth=mk;
+			}
+			html += card(p);
+		});
+		postsEl.innerHTML=html;
 	}
 
 	// -- Category archives: per-type segments, newest → oldest ---------------

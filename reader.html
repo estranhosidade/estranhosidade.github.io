@@ -358,7 +358,7 @@ function commentWidget(postId){
 	   footer exactly like the per-post static pages. Classes mirror the
 	   theme's cleaned post_class() filter (no post-{id}, status-publish,
 	   category/tag or post_format- classes). */
-	var fmt=(p.format&&p.format!=='standard')?p.format:'';
+	var fmt=p.format||'standard';
 	var cls='post type-post format-'+(fmt||'standard')+' hentry';
 	var h='<article id="post-'+escHtml(p.id)+'" class="'+cls+'">';
 	h+='<header class="entry-header">';
@@ -369,7 +369,7 @@ function commentWidget(postId){
 	}
 	h+='<h1 class="entry-title">'+escHtml(p.title)+'</h1>';
 	h+='<div class="entry-meta">';
-	if(fmt&&p.formatLabel) h+='<span class="post-format"><a class="entry-format" href="type.html#'+escHtml(fmt)+'">'+escHtml(p.formatLabel)+'</a></span> ';
+	if(p.formatLabel) h+='<span class="post-format"><a class="entry-format" href="type.html#'+escHtml(fmt)+'">'+escHtml(p.formatLabel)+'</a></span> ';
 	h+='<span class="entry-date"><a href="'+escHtml(p.url||'')+'" rel="bookmark"><time class="entry-date" datetime="'+escHtml(p.date||'')+'">'+escHtml(p.dateDisplay||String(p.date||'').slice(0,10))+'</time></a></span>';
 	if(p.author) h+=' <span class="byline"><span class="author vcard"><a class="url fn n" href="/" rel="author">'+escHtml(p.author)+'</a></span></span>';
 	h+='</div>';
