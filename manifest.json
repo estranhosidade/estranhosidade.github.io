@@ -1,6 +1,6 @@
 {
     "version": "2.13.0",
-    "generatedAt": "2026-11-08T00:05:55+00:00",
+    "generatedAt": "2026-11-10T06:36:52+00:00",
     "chunkCount": 156,
     "chunks": [
         {
@@ -941,11 +941,12 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2656,
+    "totalPosts": 2657,
     "firstChunk": "data-mounth-2026-11_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-11-09-diario-09-11-2026.html": "data-mounth-2026-11_01.json",
         "2026-11-07-diario-07-11-2026.html": "data-mounth-2026-11_01.json",
         "2026-11-05-radiohead-ai-cover-and-the-things-you-want-they-are-unbuyable.html": "data-mounth-2026-11_01.json",
         "2026-11-05-then-we-are-in-the-matrix.html": "data-mounth-2026-11_01.json",
