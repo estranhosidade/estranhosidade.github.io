@@ -419,12 +419,28 @@ function pump(){
    collapses rapid wheel bursts into a single batch at a time. */
 function nearBottom(){
 	if(!state.sentinel) return false;
-	return state.sentinel.getBoundingClientRect().top < window.innerHeight+300;
+	var rect = state.sentinel.getBoundingClientRect();
+	if(rect.bottom < 0) return false;
+	var sec = document.getElementById('secondary');
+	if(sec){ var secRect = sec.getBoundingClientRect(); if(secRect.top >= rect.top && secRect.top < window.innerHeight * 0.4) return false; }
+	return rect.top <= window.innerHeight + 80 && rect.bottom >= 0;
 }
 
+var scrollDwellTimer = null;
 function onScroll(){
-	if(state.loading||!hasMore()) return;
-	if(nearBottom()) pump();
+	if(state.loading||!hasMore()){
+		if(scrollDwellTimer){ clearTimeout(scrollDwellTimer); scrollDwellTimer = null; }
+		return;
+	}
+	if(!nearBottom()){
+		if(scrollDwellTimer){ clearTimeout(scrollDwellTimer); scrollDwellTimer = null; }
+		return;
+	}
+	if(scrollDwellTimer) return;
+	scrollDwellTimer = setTimeout(function(){
+		scrollDwellTimer = null;
+		if(nearBottom() && !state.loading && hasMore()) pump();
+	}, 350);
 }
 
 /* categories.html ships no static archive heading - the selected

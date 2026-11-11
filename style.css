@@ -932,6 +932,12 @@ div.wp-caption.alignright :is(img[class*="wp-image-"], .wp-caption-text) {
   }
 }
 
+/* Hidden on isolated / single posts: the content is already full length,
+   so the toggle button is only meant for list-view / feed contexts. */
+:is(.single, .single-post, .singular) .post-content-toggle {
+  display: none !important;
+}
+
 .post-content-toggle:focus-visible {
   outline: 2px solid var(--text-white);
   outline-offset: -4px;
@@ -2437,7 +2443,10 @@ a.post-thumbnail:hover { background-color: #999; }
   .list-view .site-content .hentry:has(+ .month-header) {
    border-bottom: 0;
   }
- .list-view .site-content :is(.cat-links, .type-post .entry-content, .type-page .entry-content, .type-post .entry-summary, .type-page .entry-summary, footer.entry-meta) { display: none; }
+ .list-view .site-content :is(.cat-links, .type-post .entry-content, .type-post .entry-summary, footer.entry-meta) { display: none; }
+ /* Pages (including page-archive single-page views like /filmes and /garotas) never hide their content */
+ .type-page .entry-content,
+ .page-archive .entry-content { display: block !important; }
   /* The rule above is what removes the words of the post on a small screen. The
      toggle button in the masthead sets .show-post-content on <body>, and this is
      what puts them back.
