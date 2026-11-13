@@ -7,6 +7,40 @@
     "posts": {
         "diario": [
             {
+                "id": 41961,
+                "title": "Diário: 13/11/2026",
+                "date": "2026-11-13",
+                "url": "reader.html#2026-11-13-diario-13-11-2026.html",
+                "tags": [
+                    "politica",
+                    "stf"
+                ],
+                "cats": [
+                    "diario"
+                ],
+                "month": "2026-11",
+                "format": "aside"
+            },
+            {
+                "id": 41944,
+                "title": "Diário: 12/11/2026",
+                "date": "2026-11-12",
+                "url": "reader.html#2026-11-12-diario-12-11-2026.html",
+                "tags": [
+                    "brasil",
+                    "direito-penal",
+                    "lei",
+                    "maioridade-penal",
+                    "prisao-perpetua",
+                    "reducao-da-maioridade"
+                ],
+                "cats": [
+                    "diario"
+                ],
+                "month": "2026-11",
+                "format": "aside"
+            },
+            {
                 "id": 41407,
                 "title": "Diário Coleção: 31/10/2026",
                 "date": "2026-10-31",
