@@ -1,14 +1,20 @@
 {
     "tags": {
+        "politica": "Política",
+        "stf": "STF",
+        "brasil": "Brasil",
+        "direito-penal": "Direito Penal",
+        "lei": "Lei",
+        "maioridade-penal": "Maioridade Penal",
+        "prisao-perpetua": "Prisão Perpétua",
+        "reducao-da-maioridade": "Redução da Maioridade",
         "computer": "Computer",
         "singularity": "Singularity",
         "transhumanism": "Transhumanism",
         "autoritarismo": "Autoritarismo",
         "direito": "Direito",
-        "direito-penal": "Direito Penal",
         "esquerdismo": "Esquerdismo",
         "hipocrisia": "Hipocrisia",
-        "lei": "Lei",
         "radiohead": "Radiohead",
         "futuro": "Futuro",
         "matrix": "Matrix",
@@ -32,8 +38,6 @@
         "direita": "Direita",
         "imprensa": "Imprensa",
         "manipulacao": "Manipulação",
-        "politica": "Política",
-        "stf": "STF",
         "ballet": "Ballet",
         "tights": "Tights",
         "software": "Software",
@@ -180,7 +184,6 @@
         "filme": "Filme",
         "cinismo": "Cinismo",
         "parcialidade": "Parcialidade",
-        "reducao-da-maioridade": "Redução da Maioridade",
         "vip": "VIP",
         "anuncios": "Anúncios",
         "computer-vision": "Computer Vision",
@@ -213,7 +216,6 @@
         "liberdade": "Liberdade",
         "fake": "Fake",
         "sissy": "Sissy",
-        "brasil": "Brasil",
         "libertarianismo": "Libertarianismo",
         "violencia": "Violência",
         "medo": "Medo",
@@ -1091,7 +1093,6 @@
         "hs38": "HS38",
         "mediocridade": "Mediocridade",
         "nacao": "Nação",
-        "prisao-perpetua": "Prisão Perpétua",
         "blood-and-guts": "Blood and Guts",
         "blood-and-guts-a-history-of-surgery": "Blood and Guts: A History of Surgery",
         "moving-on": "Moving On",
@@ -3662,6 +3663,7 @@
         "sexualidade-humana": "Sexualidade Humana"
     },
     "cats": {
+        "diario": "Diário",
         "art-work": "Art Work",
         "imagens": "Imagens",
         "filosofia": "Filosofia",
@@ -3673,7 +3675,6 @@
         "autoria-de-outros": "Autoria de Outros",
         "documentarios-filmes-series": "Documentários & Filmes & Series",
         "english": "English",
-        "diario": "Diário",
         "gifsmp4": "GifsMP4",
         "videos": "Vídeos",
         "shitposting": "Shitposting",
@@ -3855,6 +3856,40 @@
         "video": "Vídeo"
     },
     "posts": [
+        {
+            "id": 41961,
+            "title": "Diário: 13/11/2026",
+            "date": "2026-11-13",
+            "url": "reader.html#2026-11-13-diario-13-11-2026.html",
+            "tags": [
+                "politica",
+                "stf"
+            ],
+            "cats": [
+                "diario"
+            ],
+            "month": "2026-11",
+            "format": "aside"
+        },
+        {
+            "id": 41944,
+            "title": "Diário: 12/11/2026",
+            "date": "2026-11-12",
+            "url": "reader.html#2026-11-12-diario-12-11-2026.html",
+            "tags": [
+                "brasil",
+                "direito-penal",
+                "lei",
+                "maioridade-penal",
+                "prisao-perpetua",
+                "reducao-da-maioridade"
+            ],
+            "cats": [
+                "diario"
+            ],
+            "month": "2026-11",
+            "format": "aside"
+        },
         {
             "id": 41915,
             "title": "Diário: 09/11/2026",
