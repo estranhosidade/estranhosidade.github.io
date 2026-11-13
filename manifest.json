@@ -940,11 +940,13 @@
         "2013-08": "agosto 2013",
         "2013-07": "julho 2013"
     },
-    "totalPosts": 2657,
+    "totalPosts": 2659,
     "firstChunk": "data-mounth-2026-11_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
     "posts": {
+        "2026-11-13-diario-13-11-2026.html": "data-mounth-2026-11_01.json",
+        "2026-11-12-diario-12-11-2026.html": "data-mounth-2026-11_01.json",
         "2026-11-09-diario-09-11-2026.html": "data-mounth-2026-11_01.json",
         "2026-11-07-champinha-eca-justica-premium-e-o-direito-penal-do-inimigo.html": "data-mounth-2026-11_01.json",
         "2026-11-05-radiohead-ai-cover-and-the-things-you-want-they-are-unbuyable.html": "data-mounth-2026-11_01.json",

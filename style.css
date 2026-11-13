@@ -204,7 +204,9 @@ Text Domain: twentyfourteen
   --text-color-search: #2b2b2b;
   --heading-color-search: #2b2b2b;
   --text-muted-search: #767676;
+  --link-color-search: #24890d;
   --primary-color-search: #24890d;
+  --visited-color-search: #24890d;
   --url-color-search: #004cdc;
   --border-color-search: #202020;
 
@@ -265,7 +267,9 @@ Text Domain: twentyfourteen
   --text-color-search: #d5d5d5;
   --heading-color-search: #d5d5d5;
   --text-muted-search: #939393;
+  --link-color-search: #0fa;
   --primary-color-search: #07c956;
+  --visited-color-search: #00e76d;
   --url-color-search: #30d8ff;
   --border-color-search: rgb(119 119 119 / 17%);
   --media-border: 1px dotted rgba(255, 255, 255);
