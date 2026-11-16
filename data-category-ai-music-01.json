@@ -7,6 +7,23 @@
     "posts": {
         "ai-music": [
             {
+                "id": 41979,
+                "title": "Los Hermanos (AI Cover, Yu Yu Hakusho) – A Carta",
+                "date": "2026-11-16",
+                "url": "reader.html#2026-11-16-los-hermanos-ai-cover-yu-yu-hakusho-a-carta.html",
+                "tags": [
+                    "anime",
+                    "los-hermanos",
+                    "yu-yu-hakusho"
+                ],
+                "cats": [
+                    "ai-music",
+                    "diario"
+                ],
+                "month": "2026-11",
+                "format": "aside"
+            },
+            {
                 "id": 41805,
                 "title": "Radiohead (AI Cover) – And The Things You Want, They Are Unbuyable",
                 "date": "2026-11-05",
