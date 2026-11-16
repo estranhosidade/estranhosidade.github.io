@@ -59,6 +59,7 @@
         },
         "citacoes": {
             "files": [
+                "data-category-citacoes-02.json",
                 "data-category-citacoes-01.json"
             ],
             "cats": {
