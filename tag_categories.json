@@ -1,5 +1,13 @@
 {
     "tags": {
+        "anime": "Anime",
+        "los-hermanos": "Los Hermanos",
+        "yu-yu-hakusho": "Yu Yu Hakusho",
+        "belong": "Belong",
+        "care": "Care",
+        "independence": "Independence",
+        "loneliness": "Loneliness",
+        "love": "Love",
         "politica": "Política",
         "stf": "STF",
         "brasil": "Brasil",
@@ -565,7 +573,6 @@
         "republica": "República",
         "libertario": "Libertário",
         "flux": "Flux",
-        "anime": "Anime",
         "sexo": "Sexo",
         "transexualidade": "Transexualidade",
         "your-name": "Your Name",
@@ -929,9 +936,7 @@
         "causalidade": "Causalidade",
         "kynodontas": "Kynodontas",
         "the-virgin-suicides": "The Virgin Suicides",
-        "belong": "Belong",
         "breakfast-at-tiffany": "Breakfast at Tiffany",
-        "love": "Love",
         "relation": "Relation",
         "desgraca": "Desgraça",
         "sorriso": "Sorriso",
@@ -1202,7 +1207,6 @@
         "lula": "Lula",
         "alone": "Alone",
         "fears": "Fears",
-        "loneliness": "Loneliness",
         "drunk": "Drunk",
         "songs": "Songs",
         "the-outer-limits": "The Outer Limits",
@@ -3663,18 +3667,18 @@
         "sexualidade-humana": "Sexualidade Humana"
     },
     "cats": {
+        "ai-music": "AI Music",
         "diario": "Diário",
+        "autoria-de-outros": "Autoria de Outros",
+        "citacoes": "Citações",
+        "documentarios-filmes-series": "Documentários & Filmes & Series",
+        "english": "English",
         "art-work": "Art Work",
         "imagens": "Imagens",
         "filosofia": "Filosofia",
         "textos": "Textos",
-        "ai-music": "AI Music",
         "direcao-de-arte-ia": "Direção de Arte/IA",
         "musica": "Música",
-        "citacoes": "Citações",
-        "autoria-de-outros": "Autoria de Outros",
-        "documentarios-filmes-series": "Documentários & Filmes & Series",
-        "english": "English",
         "gifsmp4": "GifsMP4",
         "videos": "Vídeos",
         "shitposting": "Shitposting",
@@ -3849,13 +3853,52 @@
     },
     "formats": {
         "aside": "Nota",
-        "standard": "Padrão",
         "quote": "Citação",
+        "standard": "Padrão",
         "link": "Link",
         "audio": "Áudio",
         "video": "Vídeo"
     },
     "posts": [
+        {
+            "id": 41979,
+            "title": "Los Hermanos (AI Cover, Yu Yu Hakusho) – A Carta",
+            "date": "2026-11-16",
+            "url": "reader.html#2026-11-16-los-hermanos-ai-cover-yu-yu-hakusho-a-carta.html",
+            "tags": [
+                "anime",
+                "los-hermanos",
+                "yu-yu-hakusho"
+            ],
+            "cats": [
+                "ai-music",
+                "diario"
+            ],
+            "month": "2026-11",
+            "format": "aside"
+        },
+        {
+            "id": 41985,
+            "title": "Diário: 15/11/2026",
+            "date": "2026-11-15",
+            "url": "reader.html#2026-11-15-diario-15-11-2026.html",
+            "tags": [
+                "belong",
+                "care",
+                "independence",
+                "loneliness",
+                "love"
+            ],
+            "cats": [
+                "autoria-de-outros",
+                "citacoes",
+                "diario",
+                "documentarios-filmes-series",
+                "english"
+            ],
+            "month": "2026-11",
+            "format": "quote"
+        },
         {
             "id": 41961,
             "title": "Diário: 13/11/2026",

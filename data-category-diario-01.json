@@ -7,6 +7,45 @@
     "posts": {
         "diario": [
             {
+                "id": 41979,
+                "title": "Los Hermanos (AI Cover, Yu Yu Hakusho) – A Carta",
+                "date": "2026-11-16",
+                "url": "reader.html#2026-11-16-los-hermanos-ai-cover-yu-yu-hakusho-a-carta.html",
+                "tags": [
+                    "anime",
+                    "los-hermanos",
+                    "yu-yu-hakusho"
+                ],
+                "cats": [
+                    "ai-music",
+                    "diario"
+                ],
+                "month": "2026-11",
+                "format": "aside"
+            },
+            {
+                "id": 41985,
+                "title": "Diário: 15/11/2026",
+                "date": "2026-11-15",
+                "url": "reader.html#2026-11-15-diario-15-11-2026.html",
+                "tags": [
+                    "belong",
+                    "care",
+                    "independence",
+                    "loneliness",
+                    "love"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "diario",
+                    "documentarios-filmes-series",
+                    "english"
+                ],
+                "month": "2026-11",
+                "format": "quote"
+            },
+            {
                 "id": 41961,
                 "title": "Diário: 13/11/2026",
                 "date": "2026-11-13",

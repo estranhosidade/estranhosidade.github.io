@@ -7,6 +7,28 @@
     "posts": {
         "english": [
             {
+                "id": 41985,
+                "title": "Diário: 15/11/2026",
+                "date": "2026-11-15",
+                "url": "reader.html#2026-11-15-diario-15-11-2026.html",
+                "tags": [
+                    "belong",
+                    "care",
+                    "independence",
+                    "loneliness",
+                    "love"
+                ],
+                "cats": [
+                    "autoria-de-outros",
+                    "citacoes",
+                    "diario",
+                    "documentarios-filmes-series",
+                    "english"
+                ],
+                "month": "2026-11",
+                "format": "quote"
+            },
+            {
                 "id": 41870,
                 "title": "“I wasn’t born who I was meant to be and it cost me a lot”",
                 "date": "2026-11-04",
