@@ -188,8 +188,7 @@
         "bitcoin": "Bitcoin",
         "economia": "Economia",
         "ouro": "Ouro",
-        "zumbi-filosofico": "Zumbi Filosófico",
-        "filme": "Filme"
+        "zumbi-filosofico": "Zumbi Filosófico"
     },
     "cats": {
         "ai-music": "AI Music",
@@ -209,6 +208,7 @@
         "shitposting": "Shitposting",
         "links": "Links",
         "diario-colecao": "Diário Coleção",
+        "em-desenvolvimento": "Em Desenvolvimento",
         "ciencia": "Ciência",
         "ai-chats": "AI Chats"
     },
@@ -1213,6 +1213,19 @@
             "format": "aside"
         },
         {
+            "id": 26022,
+            "title": "Das Cavernas À Realidade Virtual – Os Impactos Sociais da Singularidade Tecnológica",
+            "date": "2026-09-08",
+            "url": "reader.html#2026-09-08-26022.html",
+            "tags": [],
+            "cats": [
+                "em-desenvolvimento",
+                "textos"
+            ],
+            "month": "2026-09",
+            "format": "standard"
+        },
+        {
             "id": 40662,
             "title": "This Blender + Higgsfield AI Workflow Changes How You Make AI Video",
             "date": "2026-09-07",
@@ -1682,39 +1695,6 @@
             ],
             "cats": [
                 "direcao-de-arte-ia",
-                "imagens"
-            ],
-            "month": "2026-08",
-            "format": "aside"
-        },
-        {
-            "id": 40339,
-            "title": "Diário: 16/08/2026 – Part 02",
-            "date": "2026-08-16",
-            "url": "reader.html#2026-08-16-diario-16-08-2026-part-02.html",
-            "tags": [
-                "cinema",
-                "cultura",
-                "filme",
-                "ia-generativa"
-            ],
-            "cats": [
-                "diario"
-            ],
-            "month": "2026-08",
-            "format": "aside"
-        },
-        {
-            "id": 40320,
-            "title": "Diário: 16/08/2026",
-            "date": "2026-08-16",
-            "url": "reader.html#2026-08-16-diario-16-08-2026.html",
-            "tags": [
-                "abdl",
-                "ageplay",
-                "white-tights"
-            ],
-            "cats": [
                 "imagens"
             ],
             "month": "2026-08",
