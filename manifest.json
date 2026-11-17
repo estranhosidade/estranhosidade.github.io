@@ -29,7 +29,7 @@
         "2026-09": "setembro 2026",
         "2026-08": "agosto 2026"
     },
-    "totalPosts": 87,
+    "totalPosts": 86,
     "firstChunk": "data-mounth-2026-11_01.json",
     "searchIndex": "search-index.json",
     "rss": "rss.xml",
@@ -91,6 +91,7 @@
         "2026-09-13-diario-13-09-2026.html": "data-mounth-2026-09_01.json",
         "2026-09-12-diario-12-09-2026.html": "data-mounth-2026-09_01.json",
         "2026-09-09-diario-09-09-2026.html": "data-mounth-2026-09_01.json",
+        "2026-09-08-26022.html": "data-mounth-2026-09_01.json",
         "2026-09-07-this-blender-higgsfield-ai-workflow-changes-how-you-make-ai-video.html": "data-mounth-2026-09_01.json",
         "2026-09-06-obedeca-as-regras-ja-pode-protestar.html": "data-mounth-2026-09_01.json",
         "2026-09-05-se-voce-chega-no-amanha-tudo-e-possivel.html": "data-mounth-2026-09_01.json",
@@ -118,8 +119,6 @@
         "2026-08-19-diario-19-08-2026.html": "data-mounth-2026-08_01.json",
         "2026-08-19-o-dinheiro-e-a-abstracao.html": "data-mounth-2026-08_01.json",
         "2026-08-18-diario-18-08-2026-how-men-and-women-should-be-dressed.html": "data-mounth-2026-08_01.json",
-        "2026-08-17-o-terapeuta-robo.html": "data-mounth-2026-08_01.json",
-        "2026-08-16-diario-16-08-2026-part-02.html": "data-mounth-2026-08_01.json",
-        "2026-08-16-diario-16-08-2026.html": "data-mounth-2026-08_01.json"
+        "2026-08-17-o-terapeuta-robo.html": "data-mounth-2026-08_01.json"
     }
 }

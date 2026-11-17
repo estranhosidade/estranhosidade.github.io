@@ -1,6 +1,24 @@
 {
     "type": "em-desenvolvimento",
     "segment": 1,
-    "cats": [],
-    "posts": []
+    "cats": {
+        "em-desenvolvimento": "Em Desenvolvimento"
+    },
+    "posts": {
+        "em-desenvolvimento": [
+            {
+                "id": 26022,
+                "title": "Das Cavernas À Realidade Virtual – Os Impactos Sociais da Singularidade Tecnológica",
+                "date": "2026-09-08",
+                "url": "reader.html#2026-09-08-26022.html",
+                "tags": [],
+                "cats": [
+                    "em-desenvolvimento",
+                    "textos"
+                ],
+                "month": "2026-09",
+                "format": ""
+            }
+        ]
+    }
 }
